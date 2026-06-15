@@ -28,6 +28,12 @@
   .card.known{border-color:#bbf7d0;background:#f0fdf4}
   .wline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .word{font-size:19px;font-weight:800}
+  .lrow{display:flex;align-items:center;gap:8px;cursor:pointer}
+  .lrow .word{flex:1;font-size:17px}
+  .lrow .phon{font-size:13px}
+  .chev{color:#9ca3af;font-size:13px;width:16px;text-align:center;flex:0 0 16px}
+  .details{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
+  .card.list-item{padding:10px 14px}
   .phon{color:var(--muted);font-size:14px}
   .spk{background:#eef2ff;border:none;border-radius:8px;width:32px;height:32px;cursor:pointer;font-size:15px}
   .badge{font-size:11px;font-weight:700;border-radius:999px;padding:1px 9px}
@@ -153,10 +159,14 @@ function renderList(){
   $("list").innerHTML = arr.map(w=>{
     const badge = w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
     const phon = w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
-    return '<div class="card'+(w.known?' known':'')+'">'+
-      '<div class="wline"><span class="word">'+esc(w.word)+'</span>'+phon+
-      '<button class="spk" data-spk="'+w.id+'">🔊</button>'+badge+'</div>'+
-      meaningsHTML(w)+'</div>';
+    return '<div class="card list-item'+(w.known?' known':'')+'">'+
+      '<div class="lrow" data-toggle="'+w.id+'">'+
+        '<span class="word">'+esc(w.word)+'</span>'+phon+badge+
+        '<button class="spk" data-spk="'+w.id+'">🔊</button>'+
+        '<span class="chev" id="chev_'+w.id+'">▾</span>'+
+      '</div>'+
+      '<div class="details" id="det_'+w.id+'" hidden>'+meaningsHTML(w)+'</div>'+
+    '</div>';
   }).join("");
 }
 
@@ -234,6 +244,16 @@ $("resetKnown").onclick=()=>{
 document.body.addEventListener("click", e=>{
   const ex=e.target.closest(".exspk"); if(ex){ speakText(ex.dataset.text); return; }
   const sp=e.target.closest(".spk"); if(sp){ const w=words.find(x=>x.id===sp.dataset.spk); if(w) speakWord(w); return; }
+  const tg=e.target.closest("[data-toggle]");
+  if(tg){
+    const det=document.getElementById("det_"+tg.dataset.toggle);
+    const chev=document.getElementById("chev_"+tg.dataset.toggle);
+    if(det){ const willOpen=det.hasAttribute("hidden");
+      if(willOpen) det.removeAttribute("hidden"); else det.setAttribute("hidden","");
+      if(chev) chev.textContent = willOpen ? "▴" : "▾";
+    }
+    return;
+  }
   const fa=e.target.closest("[data-act]");
   if(fa){
     const a=fa.dataset.act;
