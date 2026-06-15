@@ -84,7 +84,8 @@
   .topicblock{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px}
   .topicblock summary{font-weight:700;cursor:pointer;font-size:14px;color:#334155}
   .topicrow{margin-top:10px;font-size:13px;color:#6b7280}
-  .topicsel{border:1px solid var(--line);border-radius:8px;padding:4px 6px;font-size:13px}
+  .topicsel{border:1px solid var(--line);border-radius:8px;padding:4px 6px;font-size:13px;max-width:200px}
+  .savetopic{margin-top:8px;font-size:13px;color:#6b7280}
   .exlinks{margin:8px 0 2px}
   .exlinks .btn{display:inline-block;margin:4px 6px 4px 0;font-size:12px}
   .noex{font-size:12px;color:#92400e;margin-bottom:4px}
@@ -131,6 +132,7 @@
         <input id="wordInput" placeholder="Nhập từ hoặc cụm từ/idiom, vd: improve · piece of cake" autocomplete="off">
         <button class="primary" id="addBtn">+ Thêm</button>
       </div>
+      <div class="savetopic">🗂️ Lưu vào chủ đề: <select id="addTopic" class="topicsel"></select></div>
       <div class="status" id="status"></div>
       <div class="hint">App <b>kiểm tra nghĩa trước khi thêm</b>: từ đơn tra từ điển (sai chính tả sẽ gợi ý sửa), cụm từ/idiom tra Wiktionary (vd: <i>on the same page</i>).</div>
     </div>
@@ -147,6 +149,7 @@
   <div class="panel" id="panel-list">
     <div class="toolbar">
       <input id="search" placeholder="🔍 Tìm từ…">
+      <select id="topicFilter" class="topicsel"></select>
       <span class="count" id="count">0 từ</span>
       <button class="btn amber" id="exportBtn">⬇️ Xuất Anki</button>
     </div>
@@ -156,6 +159,7 @@
   <!-- ===== FLASHCARD ===== -->
   <div class="panel" id="panel-flash">
     <div class="optline">
+      <label>🗂️ Chủ đề: <select id="flashTopic" class="topicsel"></select></label>
       <label><input type="checkbox" id="onlyUnknown"> Chỉ ôn từ chưa thuộc</label>
       <a class="btn" id="shuffleBtn">🔀 Xáo trộn lại</a>
       <a class="btn" id="resetKnown">♻️ Bỏ đánh dấu thuộc</a>
@@ -260,7 +264,8 @@ async function tryAdd(){
       setStatus("“"+raw+"” đã có trong sổ rồi.","err"); $("addResult").innerHTML=""; return;
     }
     if(data.found){
-      const entry=commit(data, raw);
+      const chosen=$("addTopic")?$("addTopic").value:"__auto__";
+      const entry=commit(data, raw, chosen==="__auto__"?undefined:chosen);
       setStatus("");
       $("addResult").innerHTML = '<div style="font-size:13px;color:#166534;margin:10px 0 6px">✓ Đã thêm “'+esc(entry.word)+'” vào sổ:</div>'+ cardHTML(entry, false);
       $("wordInput").value=""; $("wordInput").focus();
@@ -297,7 +302,8 @@ function commit(data, raw, topic){
 }
 function addManual(raw){
   if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){ setStatus("“"+raw+"” đã có rồi.","err"); return; }
-  const entry=commit({found:false, word:raw, meanings:[]}, raw);
+  const chosen=$("addTopic")?$("addTopic").value:"__auto__";
+  const entry=commit({found:false, word:raw, meanings:[]}, raw, chosen==="__auto__"?undefined:chosen);
   setStatus("✓ Đã thêm “"+esc(raw)+"” — nhớ tự ghi nghĩa ở phần chi tiết.","ok");
   $("addResult").innerHTML = cardHTML(entry, false);
   $("wordInput").value="";
@@ -389,10 +395,12 @@ function cardListItem(w){
 function renderList(){
   words=load();
   const q=$("search").value.trim().toLowerCase();
-  const arr=q?words.filter(w=>(w.word+" "+(w.unotes||[]).join(" ")+" "+(w.source||"")).toLowerCase().includes(q)):words;
+  const tf=$("topicFilter")?$("topicFilter").value:"__all__";
+  let arr = q ? words.filter(w=>(w.word+" "+(w.unotes||[]).join(" ")+" "+(w.source||"")).toLowerCase().includes(q)) : words.slice();
+  if(tf!=="__all__") arr=arr.filter(w=>(w.topic||OTHER_TOPIC)===tf);
   refreshCount();
   if(!arr.length){
-    $("list").innerHTML='<div class="empty">'+(words.length?"Không tìm thấy từ nào khớp.":'Chưa có từ nào. Qua tab <b>➕ Thêm</b> để bắt đầu! 🌱')+'</div>';
+    $("list").innerHTML='<div class="empty">'+(words.length?"Không có từ nào khớp bộ lọc.":'Chưa có từ nào. Qua tab <b>➕ Thêm</b> để bắt đầu! 🌱')+'</div>';
     return;
   }
   // nhóm theo chủ đề
@@ -432,6 +440,8 @@ function buildDeck(){
   words=load();
   let pool=words.slice();
   if($("onlyUnknown").checked) pool=pool.filter(w=>!w.known);
+  const ft=$("flashTopic")?$("flashTopic").value:"__all__";
+  if(ft!=="__all__") pool=pool.filter(w=>(w.topic||OTHER_TOPIC)===ft);
   deck=shuffle(pool.map(w=>w.id)); pos=0; flipped=false; renderFlash();
 }
 function currentWord(){ return words.find(w=>w.id===deck[pos]); }
@@ -494,6 +504,12 @@ function topicSelectHTML(w){
     opts.map(o=>'<option'+(o===cur?' selected':'')+'>'+esc(o)+'</option>').join('')+'</select>';
 }
 function changeTopic(id,val){ const w=words.find(x=>x.id===id); if(!w)return; w.topic=val; save(words); renderList(); }
+function fillTopicSelect(id, firstVal, firstLabel){
+  const el=$(id); if(!el) return;
+  el.innerHTML='<option value="'+firstVal+'">'+firstLabel+'</option>'+
+    Object.keys(TOPICS_VOCAB).map(t=>'<option value="'+esc(t)+'">'+esc(t)+'</option>').join('')+
+    '<option value="'+esc(OTHER_TOPIC)+'">'+esc(OTHER_TOPIC)+'</option>';
+}
 function renderTopics(){
   if(!curTopic) curTopic=Object.keys(TOPICS_VOCAB)[0];
   $("topicChips").innerHTML=Object.keys(TOPICS_VOCAB).map(n=>'<button class="tchip'+(n===curTopic?' on':'')+'" data-topic="'+esc(n)+'">'+esc(n)+'</button>').join('');
@@ -545,6 +561,8 @@ document.querySelectorAll(".tab").forEach(tb=>{
 $("addBtn").onclick=tryAdd;
 $("wordInput").addEventListener("keydown",e=>{ if(e.key==="Enter") tryAdd(); });
 $("search").addEventListener("input",renderList);
+$("topicFilter").addEventListener("change",renderList);
+$("flashTopic").addEventListener("change",buildDeck);
 $("exportBtn").onclick=exportAnki;
 $("onlyUnknown").addEventListener("change",buildDeck);
 $("shuffleBtn").onclick=buildDeck;
@@ -569,6 +587,9 @@ document.body.addEventListener("click",e=>{
 
 // migration: gán chủ đề cho từ cũ chưa có
 (function(){ let ch=false; words.forEach(w=>{ if(!w.topic){ w.topic=categorize(w.word); ch=true; } }); if(ch) save(words); })();
+fillTopicSelect("addTopic","__auto__","🎯 Tự động (gợi ý theo từ)");
+fillTopicSelect("topicFilter","__all__","📋 Tất cả chủ đề");
+fillTopicSelect("flashTopic","__all__","Tất cả chủ đề");
 renderTopics();
 $("wordInput").focus();
 </script>
