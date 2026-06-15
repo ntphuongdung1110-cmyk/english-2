@@ -116,11 +116,11 @@
   <div class="panel active" id="panel-add">
     <div class="addbar">
       <div class="addrow">
-        <input id="wordInput" placeholder="Nhập một từ tiếng Anh, vd: improve" autocomplete="off">
+        <input id="wordInput" placeholder="Nhập từ hoặc cụm từ/idiom, vd: improve · piece of cake" autocomplete="off">
         <button class="primary" id="addBtn">+ Thêm</button>
       </div>
       <div class="status" id="status"></div>
-      <div class="hint">App sẽ <b>kiểm tra từ có nghĩa trong từ điển không</b> trước khi thêm. Sai chính tả sẽ được gợi ý sửa.</div>
+      <div class="hint">App <b>kiểm tra nghĩa trước khi thêm</b>: từ đơn tra từ điển (sai chính tả sẽ gợi ý sửa), cụm từ/idiom tra Wiktionary (vd: <i>on the same page</i>).</div>
     </div>
     <div id="addResult"></div>
   </div>
@@ -154,6 +154,7 @@
 const LS = "vocab_notebook_v1";
 const DICT = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const DATAMUSE = "https://api.datamuse.com/words";
+const WIKT = "https://en.wiktionary.org/api/rest_v1/page/definition/";
 
 function load(){ try{return JSON.parse(localStorage.getItem(LS))||[]}catch(e){return []} }
 function save(arr){ localStorage.setItem(LS, JSON.stringify(arr)); }
@@ -200,6 +201,27 @@ async function suggest(word){
     return d.map(x=>x.word).filter(x=>x.toLowerCase()!==word.toLowerCase() && !x.includes(" ")).slice(0,5);
   }catch(e){ return []; }
 }
+function stripHTML(s){ const t=document.createElement("div"); t.innerHTML=s||""; return (t.textContent||"").trim(); }
+/* Tra CỤM TỪ / IDIOM bằng Wiktionary */
+async function fetchPhraseData(raw){
+  const out={ found:false, word:raw, phonetic:"", audio:"", meanings:[] };
+  try{
+    const res=await fetch(WIKT+encodeURIComponent(raw.toLowerCase().trim()));
+    if(!res.ok) throw 0;
+    const data=await res.json();
+    const en=data.en||[];
+    if(!en.length) throw 0;
+    out.meanings=en.slice(0,3).map(sec=>({
+      pos: sec.partOfSpeech||"",
+      defs: (sec.definitions||[]).slice(0,2).map(df=>({
+        def: stripHTML(df.definition||""),
+        ex: (df.examples&&df.examples.length)? stripHTML(df.examples[0]) : ""
+      })).filter(d=>d.def)
+    })).filter(m=>m.defs.length);
+    out.found = out.meanings.length>0;
+  }catch(e){ out.found=false; }
+  return out;
+}
 
 /* ===== THÊM (có validate) ===== */
 let busy=false;
@@ -213,9 +235,8 @@ async function tryAdd(){
   busy=true; $("addBtn").disabled=true; $("addResult").innerHTML="";
   try{
     const isPhrase = raw.includes(" ");
-    if(isPhrase){ setStatus(""); $("addResult").innerHTML = warnBox(raw, [], true); return; }
-    setStatus("Đang kiểm tra nghĩa trong từ điển…");
-    const data=await fetchWordData(raw);
+    setStatus(isPhrase ? "Đang tra cụm từ trong từ điển (Wiktionary)…" : "Đang kiểm tra nghĩa trong từ điển…");
+    const data = isPhrase ? await fetchPhraseData(raw) : await fetchWordData(raw);
     // kiểm tra trùng LẦN NỮA sau khi chờ mạng (phòng có lần thêm khác chen vào)
     if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){
       setStatus("“"+raw+"” đã có trong sổ rồi.","err"); $("addResult").innerHTML=""; return;
@@ -227,8 +248,8 @@ async function tryAdd(){
       $("wordInput").value=""; $("wordInput").focus();
     }else{
       setStatus("");
-      const sug=await suggest(raw);
-      $("addResult").innerHTML = warnBox(raw, sug, false);
+      const sug = isPhrase ? [] : await suggest(raw);
+      $("addResult").innerHTML = warnBox(raw, sug, isPhrase);
     }
   } finally {
     busy=false; $("addBtn").disabled=false;
@@ -237,7 +258,7 @@ async function tryAdd(){
 function warnBox(raw, sug, isPhrase){
   let h='<div class="warnbox">';
   if(isPhrase){
-    h+='ℹ️ “<b>'+esc(raw)+'</b>” là một cụm từ — từ điển tự động không tra được cụm. Bạn có thể thêm và tự ghi nghĩa.';
+    h+='⚠️ Không tìm thấy “<b>'+esc(raw)+'</b>” trong từ điển cụm từ (Wiktionary) — có thể sai chính tả, hoặc là cụm ghép tự do (không phải idiom). Bạn vẫn có thể thêm và tự ghi nghĩa.';
   }else{
     h+='⚠️ Không tìm thấy nghĩa cho “<b>'+esc(raw)+'</b>” trong từ điển — có thể sai chính tả, hoặc là tên riêng / từ rất mới.';
     if(sug.length){
