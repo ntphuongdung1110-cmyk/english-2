@@ -387,7 +387,11 @@ let listLimit=20;
 function cardListItem(w){
   const badge=w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
   const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
-  const gloss=shortDef(w); const glossHTML=gloss?'<div class="gloss">'+esc(gloss)+'</div>':'';
+  const gloss=shortDef(w);
+  let glossHTML;
+  if(gloss) glossHTML='<div class="gloss">'+esc(gloss)+'</div>';
+  else if(w.glossTried) glossHTML='<div class="gloss" style="color:#9ca3af">(chưa có nghĩa tiếng Anh — bấm để tự ghi)</div>';
+  else glossHTML='<div class="gloss" style="color:#9ca3af">⏳ đang lấy nghĩa…</div>';
   return '<div class="card list-item'+(w.known?' known':'')+'">'+
     '<div class="lrow" data-toggle="'+w.id+'">'+
       '<div class="lmain"><div class="wtop"><span class="word">'+esc(w.word)+'</span> '+phon+'</div>'+glossHTML+'</div>'+
@@ -416,17 +420,36 @@ function renderList(){
   const known=Object.keys(TOPICS_VOCAB).concat([OTHER_TOPIC]);
   const orderedTopics=known.filter(t=>groups[t]).concat(Object.keys(groups).filter(t=>!known.includes(t)));
   // chỉ render tối đa listLimit từ (mặc định 20) cho nhẹ
-  let shown=0, html="";
+  let shown=0, html="", rendered=[];
   for(const t of orderedTopics){
     if(shown>=listLimit) break;
     const slice=groups[t].slice(0, listLimit-shown);
-    html+=groupHTML(t,slice); shown+=slice.length;
+    html+=groupHTML(t,slice); shown+=slice.length; rendered.push(...slice);
   }
   if(arr.length>listLimit){
     html+='<div style="text-align:center;margin:12px 0"><button class="btn" id="moreBtn">⬇️ Xem thêm ('+(arr.length-listLimit)+' từ còn lại)</button></div>';
   }
   $("list").innerHTML=html;
   const mb=$("moreBtn"); if(mb) mb.onclick=()=>{ listLimit+=50; renderList(); };
+  fillMissingGloss(rendered);   // tự lấy nghĩa cho các từ đang hiển thị mà còn thiếu
+}
+// tự bổ sung nghĩa tiếng Anh cho các từ đang hiển thị mà chưa có (chỉ 1 lần/từ)
+async function fillMissingGloss(rendered){
+  for(const w of rendered){
+    if((w.meanings&&w.meanings.length) || w.glossTried) continue;
+    const data = w.word.includes(" ") ? await fetchPhraseData(w.word) : await fetchWordData(w.word);
+    w.glossTried=true;
+    if(data.found){ if(!w.phonetic) w.phonetic=data.phonetic; if(!w.audio) w.audio=data.audio; w.meanings=data.meanings; w.manual=false; }
+    save(words);
+    updateRowGloss(w);
+  }
+}
+function updateRowGloss(w){
+  const det=document.getElementById("det_"+w.id); if(det) det.innerHTML=meaningsHTML(w);
+  const row=document.querySelector('[data-toggle="'+w.id+'"]'); if(!row) return;
+  const g=row.querySelector(".gloss"); const txt=shortDef(w);
+  if(g){ if(txt){ g.textContent=txt; g.style.color=""; } else { g.textContent="(chưa có nghĩa tiếng Anh — bấm để tự ghi)"; g.style.color="#9ca3af"; } }
+  if(w.phonetic){ const wtop=row.querySelector(".wtop"); if(wtop && !wtop.querySelector(".phon")){ const p=document.createElement("span"); p.className="phon"; p.textContent=w.phonetic; wtop.appendChild(p); } }
 }
 function groupHTML(topic,arr){
   return '<div class="grouphdr">'+esc(topic)+' <span class="gcount">'+arr.length+'</span></div>'+arr.map(cardListItem).join("");
