@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chương trình học tiếng Anh mỗi ngày</title>
+<style>
+  :root{
+    --morning1:#fff3e0; --morning2:#ffe0b2; --morningAccent:#fb8c00;
+    --evening1:#1a237e; --evening2:#311b92; --eveningAccent:#7e57c2;
+    --ink:#1f2933; --muted:#6b7280; --line:#e5e7eb; --ok:#22c55e; --card:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:#f5f6f8;line-height:1.55}
+  header{padding:22px 18px;color:#fff;background:linear-gradient(135deg,#fb8c00,#7e57c2)}
+  header h1{margin:0 0 4px;font-size:20px}
+  header .sub{font-size:13px;opacity:.92}
+  .wrap{max-width:760px;margin:0 auto;padding:16px 14px 60px}
+  .topbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;
+    background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:14px 0}
+  .day{font-weight:700;font-size:16px}
+  .topic-pick{display:flex;align-items:center;gap:6px;font-size:13px}
+  select{padding:6px 8px;border:1px solid var(--line);border-radius:8px;font-size:13px}
+  .streak{display:flex;align-items:center;gap:8px;font-size:14px;background:#fff7ed;border:1px solid #fed7aa;
+    padding:6px 10px;border-radius:999px;font-weight:600;color:#c2410c}
+  .tabs{display:flex;gap:8px;margin:12px 0}
+  .tab{flex:1;text-align:center;padding:12px;border-radius:12px;cursor:pointer;font-weight:700;
+    border:1px solid var(--line);background:#fff;user-select:none}
+  .tab.am.active{background:linear-gradient(135deg,var(--morning1),var(--morning2));border-color:var(--morningAccent);color:#9a3412}
+  .tab.pm.active{background:linear-gradient(135deg,var(--evening1),var(--evening2));border-color:var(--eveningAccent);color:#fff}
+  .panel{display:none}
+  .panel.active{display:block}
+  .banner{padding:10px 14px;border-radius:12px;font-size:13px;margin-bottom:12px}
+  .banner.am{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412}
+  .banner.pm{background:#ede9fe;border:1px solid #ddd6fe;color:#4c1d95}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+  .step.done{border-color:var(--ok);background:#f0fdf4}
+  .step-head{display:flex;align-items:flex-start;gap:10px}
+  .chk{width:24px;height:24px;flex:0 0 24px;border-radius:7px;border:2px solid #cbd5e1;display:flex;
+    align-items:center;justify-content:center;cursor:pointer;font-size:15px;color:#fff;background:#fff;margin-top:2px}
+  .step.done .chk{background:var(--ok);border-color:var(--ok)}
+  .step-title{font-weight:700;font-size:15px}
+  .step-time{font-size:12px;color:var(--muted);font-weight:600}
+  .step-body{margin:10px 0 0 34px;font-size:14px}
+  .pill{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:600;margin:2px 4px 2px 0}
+  a.btn{display:inline-block;text-decoration:none;background:#111827;color:#fff;padding:8px 12px;border-radius:9px;
+    font-size:13px;font-weight:600;margin:4px 6px 4px 0}
+  a.btn.amber{background:var(--morningAccent)}
+  a.btn.purple{background:var(--eveningAccent)}
+  a.btn.ghost{background:#fff;color:#111827;border:1px solid var(--line)}
+  .qa{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0;background:#fafafa}
+  .q{font-weight:600}
+  .reveal{cursor:pointer;color:#2563eb;font-size:13px;font-weight:600;margin-top:6px;display:inline-block}
+  .ans{display:none;margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+  .ans.show{display:block}
+  .ans .en{font-weight:600}
+  .ans .vi{color:var(--muted);font-size:13px;margin-top:2px}
+  .vocab{margin:6px 0 0;padding:0;list-style:none;font-size:14px}
+  .vocab li{padding:4px 0;border-bottom:1px dashed var(--line)}
+  .vocab .w{font-weight:600}
+  .vocab .m{color:var(--muted)}
+  details{margin-top:8px}
+  summary{cursor:pointer;font-weight:600;font-size:14px;color:#374151}
+  .note{font-size:12px;color:var(--muted);margin-top:6px}
+  .weekbox{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-top:8px;font-size:14px}
+  .weekbox h3{margin:0 0 8px;font-size:15px}
+  .reset{margin-top:18px;text-align:center}
+  .reset button{background:none;border:none;color:#9ca3af;font-size:12px;cursor:pointer;text-decoration:underline}
+  .tip{background:#ecfeff;border:1px solid #a5f3fc;border-radius:12px;padding:10px 14px;font-size:13px;color:#155e75;margin-bottom:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎯 Chương trình học tiếng Anh mỗi ngày</h1>
+  <div class="sub">Mở ra → bấm theo từng bước → tick xong là hết ngày. Không cần chuẩn bị gì.</div>
+</header>
+
+<div class="wrap">
+
+  <div class="topbar">
+    <div class="day" id="dayLabel">Ngày 1</div>
+    <div class="topic-pick">
+      Chủ đề:
+      <select id="topicSelect"></select>
+    </div>
+    <div class="streak">🔥 Chuỗi: <span id="streakNum">0</span> ngày</div>
+  </div>
+
+  <div class="tip">
+    💡 <b>Cách dùng đúng:</b> Sáng làm phần ☀️ (chủ động, học cái mới). Tối làm phần 🌙 (nhẹ nhàng, ôn lại).
+    Mỗi câu hỏi: <b>tự nói ra miệng trước</b>, rồi mới bấm xem đáp án mẫu và nói nhại theo (shadowing) 2–3 lần.
+  </div>
+
+  <div class="tabs">
+    <div class="tab am active" data-panel="am">☀️ Buổi sáng (1h)</div>
+    <div class="tab pm" data-panel="pm">🌙 Buổi tối (1h)</div>
+  </div>
+
+  <!-- ========== MORNING ========== -->
+  <div class="panel am active" id="panel-am">
+    <div class="banner am">🌅 <b>Đầu óc tỉnh táo → học chủ động.</b> Chủ đề hôm nay: <b id="topicNameAm"></b></div>
+
+    <div class="step" data-step="am1">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">1. Khởi động — đọc to (10 phút)</div>
+          <div class="step-time">Làm nóng miệng & tai</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Đọc to <b>3 lần</b> các cụm từ hữu ích của chủ đề hôm nay (nằm ở bước 3). Nếu hôm qua đã học rồi, đọc lại cụm của hôm qua.
+        <div class="note">Mục tiêu: miệng quen cử động, không cần hiểu sâu.</div>
+      </div>
+    </div>
+
+    <div class="step" data-step="am2">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">2. Nghe input mới + đọc transcript (20 phút)</div>
+          <div class="step-time">Nghe đi nghe lại 3–4 lần</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Nghe 1 đoạn ngắn (2–6 phút) đúng chủ đề hôm nay. Nghe 1 lần nắm ý → đọc transcript → tra từ lạ → nghe lại.
+        <div id="listenLinks"></div>
+        <div class="note">Quy tắc chọn bài: nghe thử 30 giây, hiểu được 70–80% là vừa sức.</div>
+      </div>
+    </div>
+
+    <div class="step" data-step="am3">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">3. Shadowing — nói nhại theo (20 phút) ⭐</div>
+          <div class="step-time">Kỹ thuật quan trọng nhất</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Bật lại đoạn vừa nghe, <b>nói nhại theo cùng lúc</b>, bắt chước y hệt ngữ điệu & tốc độ. Lặp 5–10 lần.
+        Dùng thêm các <b>cụm từ hữu ích</b> dưới đây để tự ghép câu:
+        <div id="phrases"></div>
+        <a class="btn ghost" href="https://chromewebstore.google.com/search/shadowing" target="_blank">🔁 Tiện ích shadowing cho YouTube</a>
+        <div class="note">Tìm "ShadowEcho" hoặc "shadowing" trên Chrome Web Store: lặp từng câu + thu âm ngay trên video.</div>
+      </div>
+    </div>
+
+    <div class="step" data-step="am4">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">4. Tự nói & thu âm (10 phút)</div>
+          <div class="step-time">Output — đừng nhìn đáp án trước</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Trả lời các câu hỏi sau bằng giọng nói (tự nói trước, rồi bấm xem mẫu). Thu âm giọng mình bằng app ghi âm điện thoại rồi nghe lại.
+        <div id="qaAm"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== EVENING ========== -->
+  <div class="panel pm" id="panel-pm">
+    <div class="banner pm">🌙 <b>Mệt rồi → làm nhẹ nhàng, thụ động.</b> Ôn lại chủ đề: <b id="topicNamePm"></b></div>
+
+    <div class="step" data-step="pm1">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">5. Nghe lại (20 phút)</div>
+          <div class="step-time">Thụ động — không cần hiểu 100%</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Nghe lại đoạn buổi sáng 1–2 lần. Sau đó bật podcast nền dưới đây làm việc nhà / thư giãn, nghe thoải mái.
+        <a class="btn purple" href="https://www.bbc.co.uk/learningenglish/english/features/6-minute-english" target="_blank">🎧 6 Minute English (BBC)</a>
+        <a class="btn ghost" href="https://www.youtube.com/results?search_query=6+minute+english+bbc" target="_blank">▶︎ trên YouTube</a>
+      </div>
+    </div>
+
+    <div class="step" data-step="pm2">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">6. Ôn từ vựng bằng Anki (15 phút)</div>
+          <div class="step-time">5–10 thẻ mới/ngày là đủ</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Mở Anki, học các thẻ đến hạn. Thêm các cụm/câu mới của chủ đề hôm nay (lưu <b>cả câu</b>, đừng lưu từ lẻ):
+        <ul class="vocab" id="vocab"></ul>
+        <a class="btn purple" href="https://apps.ankiweb.net/" target="_blank">⬇️ Tải Anki (máy tính)</a>
+        <a class="btn ghost" href="https://ankiweb.net/" target="_blank">🔄 AnkiWeb (đồng bộ / ôn trên web)</a>
+        <div class="note">iPhone: dùng bản web ankiweb.net miễn phí. Android: tải "AnkiDroid". Máy tính & Android & web đều free.</div>
+      </div>
+    </div>
+
+    <div class="step" data-step="pm3">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">7. Nói về một ngày của bạn (15 phút)</div>
+          <div class="step-time">Nói một mình, không sợ sai</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Trả lời lại các câu hỏi của chủ đề hôm nay, lần này <b>không nhìn đáp án</b>. Nói liền 2 phút không dừng, kể cả sai.
+        <div id="qaPm"></div>
+        <div class="note">Muốn có người sửa? Nói chuyện bằng giọng với AI, hoặc nhắn tin trên HelloTalk/Tandem (free).</div>
+      </div>
+    </div>
+
+    <div class="step" data-step="pm4">
+      <div class="step-head">
+        <div class="chk">✓</div>
+        <div>
+          <div class="step-title">8. Giải trí có phụ đề Anh (10 phút)</div>
+          <div class="step-time">Thưởng cho bản thân</div>
+        </div>
+      </div>
+      <div class="step-body">
+        Xem 1 clip/series bạn thích, <b>bật phụ đề tiếng Anh</b> (không phụ đề Việt). Thư giãn là chính.
+        <a class="btn ghost" href="https://www.youtube.com/results?search_query=easy+english+street+interview+subtitles" target="_blank">▶︎ Easy English (phỏng vấn đời thực)</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Weekly + resources -->
+  <div class="weekbox">
+    <h3>🗓️ Nhịp tuần</h3>
+    <b>Thứ 2 → Thứ 6:</b> theo 8 bước trên.<br>
+    <b>Thứ 7:</b> nói chuyện thật — HelloTalk/Tandem, hoặc nói bằng giọng với AI 15–20 phút. Quan trọng nhất.<br>
+    <b>Chủ nhật:</b> nghỉ nhẹ — chỉ xem phim/nghe nhạc tiếng Anh cho vui, để não "ngấm".
+    <details>
+      <summary>📌 Nguồn nền tảng (bookmark lại)</summary>
+      <div style="margin-top:8px">
+        <a class="btn ghost" href="https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english" target="_blank">Everyday Conversations (MP3 + transcript, theo chủ đề)</a>
+        <a class="btn ghost" href="https://www.bbc.co.uk/learningenglish/english/features/6-minute-english" target="_blank">6 Minute English</a>
+        <a class="btn ghost" href="https://www.youtube.com/@bbclearningenglish" target="_blank">BBC Learning English (YouTube)</a>
+        <a class="btn ghost" href="https://www.youtube.com/@EasyEnglishVideos" target="_blank">Easy English (YouTube)</a>
+        <a class="btn ghost" href="https://apps.ankiweb.net/" target="_blank">Anki</a>
+      </div>
+    </details>
+  </div>
+
+  <div class="reset">
+    <button id="resetDay">Bỏ tick hết hôm nay</button> &nbsp;·&nbsp;
+    <button id="resetAll">Xoá toàn bộ tiến độ</button>
+  </div>
+
+</div>
+
+<script>
+/* ====== DỮ LIỆU 10 CHỦ ĐỀ ======
+   Mỗi chủ đề: tên, link nghe (Everyday Conversations note + link tìm YouTube),
+   cụm từ, từ vựng, và 5 câu hỏi-đáp (EN + nghĩa VN). */
+const TOPICS = [
+  {
+    name:"Giới thiệu bản thân",
+    everyday:"Mục “Introductions and Small Talk” → Formal / Informal Introductions",
+    yt:"https://www.youtube.com/results?search_query=introduce+yourself+english+conversation+subtitles",
+    phrases:["Nice to meet you.","I'm originally from…","I work as a…","I've been living here for…"],
+    vocab:[["Nice to meet you.","Rất vui được gặp bạn."],["I'm originally from Hanoi.","Tôi vốn là người Hà Nội."],
+      ["I work as a QA engineer.","Tôi làm kỹ sư QA."],["In my free time, I like to…","Lúc rảnh, tôi thích…"]],
+    qa:[
+      ["Can you tell me a little about yourself?","Sure! My name is Dung. I work as a QA engineer at a tech company. In my free time, I enjoy reading and learning English.","Cho tôi biết đôi chút về bạn? — Tất nhiên! Tôi tên Dung, làm QA ở một công ty công nghệ. Lúc rảnh tôi thích đọc sách và học tiếng Anh."],
+      ["Where are you from?","I'm originally from Vietnam, and I currently live in Ho Chi Minh City.","Bạn đến từ đâu? — Tôi là người Việt Nam, hiện sống ở TP.HCM."],
+      ["What do you do for a living?","I work in software quality. My job is to make sure our products work correctly before release.","Bạn làm nghề gì? — Tôi làm về chất lượng phần mềm, đảm bảo sản phẩm chạy đúng trước khi ra mắt."],
+      ["How long have you been learning English?","I've been learning on and off for a few years, but I'm getting serious about speaking now.","Bạn học tiếng Anh bao lâu rồi? — Tôi học lai rai vài năm, nhưng giờ mới nghiêm túc luyện nói."],
+      ["What are your hobbies?","I like listening to music, watching movies, and recently I started practicing English every day.","Sở thích của bạn? — Tôi thích nghe nhạc, xem phim, và gần đây bắt đầu luyện tiếng Anh mỗi ngày."],
+      ["How do you usually spend your weekends?","On weekends I like to relax, meet friends, and sometimes go out for coffee.","Cuối tuần bạn thường làm gì? — Cuối tuần tôi thích nghỉ ngơi, gặp bạn bè, và đôi khi đi cà phê."],
+      ["What languages do you speak?","I speak Vietnamese natively, and I'm working hard on my English right now.","Bạn nói được ngôn ngữ nào? — Tiếng Việt là tiếng mẹ đẻ, và giờ tôi đang cố gắng học tiếng Anh."],
+      ["Why are you learning English?","I'm learning English to communicate better at work and feel more confident with foreigners.","Vì sao bạn học tiếng Anh? — Tôi học để giao tiếp tốt hơn ở công ty và tự tin hơn khi nói với người nước ngoài."]
+    ]
+  },
+  {
+    name:"Công việc",
+    everyday:"(YouTube) — chủ đề công việc",
+    yt:"https://www.youtube.com/results?search_query=talking+about+your+job+english+conversation",
+    phrases:["I'm responsible for…","A typical day involves…","I work closely with…","The best part of my job is…"],
+    vocab:[["I'm responsible for testing.","Tôi phụ trách việc kiểm thử."],["a tight deadline","hạn chót gấp"],
+      ["work closely with the dev team","làm việc sát với nhóm lập trình"],["attend a meeting","tham gia một cuộc họp"]],
+    qa:[
+      ["What does a typical day at work look like?","A typical day involves checking tasks, testing new features, and reporting any bugs I find to the developers.","Một ngày làm việc điển hình thế nào? — Thường tôi kiểm tra công việc, test tính năng mới, và báo lỗi cho lập trình viên."],
+      ["What do you like most about your job?","The best part is solving problems. I feel satisfied when I catch a bug before customers do.","Bạn thích nhất điều gì ở công việc? — Thích nhất là giải quyết vấn đề. Tôi thấy hài lòng khi bắt được lỗi trước khách hàng."],
+      ["Is your job stressful?","Sometimes, especially when we have a tight deadline. But I try to stay organized to manage the pressure.","Công việc có áp lực không? — Đôi khi, nhất là lúc deadline gấp. Nhưng tôi cố sắp xếp để quản lý áp lực."],
+      ["Do you work in a team?","Yes, I work closely with developers and business analysts. Good communication is really important.","Bạn làm việc nhóm không? — Có, tôi làm sát với dev và BA. Giao tiếp tốt rất quan trọng."],
+      ["What would you like to do in the future?","I'd like to grow into a more technical role and maybe lead a small team one day.","Tương lai bạn muốn làm gì? — Tôi muốn phát triển sang vai trò kỹ thuật hơn, và có thể dẫn dắt một nhóm nhỏ."],
+      ["How long have you worked there?","I've been working there for about three years now, and I've learned a lot.","Bạn làm ở đó bao lâu rồi? — Tôi làm ở đó khoảng ba năm rồi, và học hỏi được nhiều."],
+      ["What skills are important for your job?","Attention to detail and good communication are the most important skills in my field.","Kỹ năng nào quan trọng cho công việc của bạn? — Sự tỉ mỉ và giao tiếp tốt là quan trọng nhất trong ngành của tôi."],
+      ["Do you prefer working alone or in a team?","I enjoy both, but I think working in a team helps me learn faster.","Bạn thích làm một mình hay theo nhóm? — Tôi thích cả hai, nhưng làm nhóm giúp tôi học nhanh hơn."]
+    ]
+  },
+  {
+    name:"Thói quen hằng ngày",
+    everyday:"(YouTube) — daily routine B1",
+    yt:"https://www.youtube.com/results?search_query=daily+routine+english+conversation+b1+subtitles",
+    phrases:["I usually wake up at…","After that, I…","I tend to… in the evening","Before bed, I…"],
+    vocab:[["I usually wake up at 6.","Tôi thường dậy lúc 6 giờ."],["grab a coffee","làm một ly cà phê"],
+      ["get ready for work","chuẩn bị đi làm"],["wind down before bed","thư giãn trước khi ngủ"]],
+    qa:[
+      ["What time do you usually wake up?","I usually wake up around 6 a.m. I like to start my day early so I don't feel rushed.","Bạn thường dậy mấy giờ? — Tôi thường dậy khoảng 6 giờ sáng. Tôi thích bắt đầu ngày sớm cho đỡ vội."],
+      ["What's the first thing you do in the morning?","The first thing I do is drink a glass of water, and then I practice English for an hour.","Việc đầu tiên buổi sáng bạn làm là gì? — Đầu tiên tôi uống một ly nước, rồi luyện tiếng Anh một tiếng."],
+      ["How do you get to work?","I usually ride my motorbike. It takes about twenty minutes if the traffic isn't bad.","Bạn đi làm bằng gì? — Thường tôi đi xe máy, mất khoảng hai mươi phút nếu không kẹt xe."],
+      ["What do you do after work?","After work, I have dinner, relax a bit, and then review my English before going to bed.","Sau giờ làm bạn làm gì? — Sau giờ làm tôi ăn tối, nghỉ một chút, rồi ôn tiếng Anh trước khi ngủ."],
+      ["Do you have any routines on weekends?","On weekends I sleep in a little, meet friends, and catch up on housework.","Cuối tuần bạn có thói quen gì không? — Cuối tuần tôi ngủ nướng chút, gặp bạn bè và làm nốt việc nhà."],
+      ["What do you usually have for breakfast?","I usually have something light, like bread and eggs, with a cup of coffee.","Bạn thường ăn sáng gì? — Tôi thường ăn nhẹ, như bánh mì với trứng, kèm một ly cà phê."],
+      ["How much sleep do you usually get?","I try to get about seven hours, but sometimes I stay up too late.","Bạn thường ngủ bao nhiêu? — Tôi cố ngủ khoảng bảy tiếng, nhưng đôi khi thức quá khuya."],
+      ["Has your routine changed recently?","Yes, I added one hour of English practice in the morning and in the evening.","Thói quen của bạn gần đây có thay đổi không? — Có, tôi thêm một tiếng luyện tiếng Anh buổi sáng và buổi tối."]
+    ]
+  },
+  {
+    name:"Sở thích",
+    everyday:"Mục “Pastimes and Activities”",
+    yt:"https://www.youtube.com/results?search_query=talking+about+hobbies+english+conversation+subtitles",
+    phrases:["I'm really into…","I've always wanted to…","It helps me relax.","I'm not very good at it, but…"],
+    vocab:[["I'm really into photography.","Tôi rất mê chụp ảnh."],["It helps me relax.","Nó giúp tôi thư giãn."],
+      ["pick up a new hobby","bắt đầu một sở thích mới"],["in my spare time","lúc rảnh rỗi"]],
+    qa:[
+      ["What do you like to do in your free time?","In my spare time, I'm really into watching movies and listening to music. It helps me relax after work.","Lúc rảnh bạn thích làm gì? — Lúc rảnh tôi mê xem phim và nghe nhạc. Nó giúp tôi thư giãn sau giờ làm."],
+      ["Have you picked up any new hobbies recently?","Yes, recently I started learning English seriously. It's challenging but I enjoy it.","Gần đây bạn có sở thích mới nào không? — Có, gần đây tôi bắt đầu học tiếng Anh nghiêm túc. Khó nhưng tôi thích."],
+      ["Do you prefer indoor or outdoor activities?","I prefer indoor activities, but I try to go for a walk on weekends to stay active.","Bạn thích hoạt động trong nhà hay ngoài trời? — Tôi thích trong nhà hơn, nhưng cuối tuần cố đi bộ cho năng động."],
+      ["Is there a hobby you'd like to try?","I've always wanted to learn how to play the guitar. Maybe I'll start this year.","Có sở thích nào bạn muốn thử không? — Tôi luôn muốn học chơi guitar. Có lẽ năm nay sẽ bắt đầu."],
+      ["How often do you do your hobby?","I try to do it every day, even if it's just for a short time. Consistency matters more than length.","Bạn làm sở thích đó thường xuyên không? — Tôi cố làm mỗi ngày, dù chỉ một chút. Đều đặn quan trọng hơn lâu."],
+      ["Did you have any hobbies as a child?","As a child, I loved drawing and playing outside with my friends.","Hồi nhỏ bạn có sở thích gì không? — Hồi nhỏ tôi thích vẽ và chơi ngoài trời với bạn bè."],
+      ["Do your hobbies cost a lot of money?","Not really. Most of my hobbies, like reading and walking, are free.","Sở thích của bạn có tốn nhiều tiền không? — Không hẳn. Phần lớn sở thích của tôi như đọc sách, đi bộ đều miễn phí."],
+      ["Would you like to turn a hobby into a job?","Maybe someday. It would be great to do something I love every day.","Bạn có muốn biến sở thích thành nghề không? — Có thể một ngày nào đó. Được làm điều mình yêu mỗi ngày thì tuyệt."]
+    ]
+  },
+  {
+    name:"Gia đình",
+    everyday:"(YouTube) — talking about family",
+    yt:"https://www.youtube.com/results?search_query=talking+about+family+english+conversation+subtitles",
+    phrases:["There are … of us in my family.","I take after my…","We're very close.","I have an older/younger…"],
+    vocab:[["There are four of us.","Nhà tôi có bốn người."],["my older sister","chị gái tôi"],
+      ["We're very close.","Chúng tôi rất thân nhau."],["I take after my mother.","Tôi giống mẹ tôi."]],
+    qa:[
+      ["Can you tell me about your family?","Sure. There are four of us: my parents, my older sister, and me. We're a pretty close family.","Kể về gia đình bạn? — Được. Nhà tôi bốn người: ba mẹ, chị gái, và tôi. Gia đình tôi khá thân nhau."],
+      ["Do you have any siblings?","Yes, I have one older sister. She's two years older than me and works as a teacher.","Bạn có anh chị em không? — Có, tôi có một chị gái, hơn tôi hai tuổi, làm giáo viên."],
+      ["Who are you closest to in your family?","I'm closest to my mother. I can talk to her about anything.","Bạn thân nhất với ai trong nhà? — Tôi thân nhất với mẹ. Tôi có thể nói với mẹ mọi chuyện."],
+      ["Do you live with your family?","At the moment I live on my own, but I visit my parents almost every weekend.","Bạn sống cùng gia đình không? — Hiện tôi ở riêng, nhưng gần như cuối tuần nào cũng về thăm ba mẹ."],
+      ["What do you usually do together as a family?","We usually have dinner together and chat about our week. Food brings us together.","Gia đình bạn thường làm gì cùng nhau? — Thường cả nhà ăn tối và kể chuyện trong tuần. Đồ ăn gắn kết chúng tôi."],
+      ["Who do you take after in your family?","People say I take after my father. We're both quiet and patient.","Bạn giống ai trong nhà? — Mọi người nói tôi giống ba. Cả hai đều trầm tính và kiên nhẫn."],
+      ["Do you have a big or small family?","I have a small family, but we're very close to our relatives.","Gia đình bạn lớn hay nhỏ? — Gia đình tôi nhỏ, nhưng rất thân với họ hàng."],
+      ["What's your favorite family memory?","My favorite memory is our trips to the beach every summer when I was young.","Kỷ niệm gia đình bạn thích nhất? — Kỷ niệm tôi thích nhất là những chuyến ra biển mỗi hè hồi nhỏ."]
+    ]
+  },
+  {
+    name:"Đồ ăn & nhà hàng",
+    everyday:"Mục “Around Town” → Ordering a Meal",
+    yt:"https://www.youtube.com/results?search_query=ordering+food+at+a+restaurant+english+conversation+subtitles",
+    phrases:["Could I see the menu, please?","I'll have the…","Could I get the bill, please?","Is this dish spicy?"],
+    vocab:[["Could I see the menu, please?","Cho tôi xem thực đơn được không?"],["I'll have the chicken.","Cho tôi món gà."],
+      ["Could I get the bill, please?","Cho tôi xin hoá đơn nhé?"],["I'm allergic to seafood.","Tôi dị ứng hải sản."]],
+    qa:[
+      ["What kind of food do you like?","I really like Vietnamese food, especially pho. I also enjoy trying new dishes from other countries.","Bạn thích món gì? — Tôi rất thích đồ Việt, nhất là phở. Tôi cũng thích thử món mới từ các nước khác."],
+      ["Are you ready to order? (at a restaurant)","Yes, I'll have the grilled chicken with rice, please. And a glass of water.","Bạn gọi món chưa? — Rồi, cho tôi gà nướng với cơm, và một ly nước."],
+      ["Do you prefer eating out or cooking at home?","I prefer cooking at home because it's cheaper and healthier, but I eat out on weekends.","Bạn thích ăn ngoài hay nấu ở nhà? — Tôi thích nấu ở nhà vì rẻ và lành mạnh hơn, nhưng cuối tuần thì ăn ngoài."],
+      ["Is there any food you don't eat?","I don't eat much spicy food, and I'm a little allergic to seafood.","Có món nào bạn không ăn không? — Tôi không ăn cay nhiều, và hơi dị ứng hải sản."],
+      ["Can you recommend a good restaurant?","Sure! There's a small noodle place near my office. The food is delicious and not expensive.","Bạn giới thiệu được quán ngon nào không? — Được! Gần văn phòng tôi có quán mì nhỏ, đồ ăn ngon mà không đắt."],
+      ["Can you cook? What's your specialty?","I can cook a few simple dishes. My specialty is fried rice, it's easy and tasty.","Bạn biết nấu ăn không? Món tủ là gì? — Tôi nấu được vài món đơn giản. Món tủ là cơm chiên, dễ làm mà ngon."],
+      ["What did you have for lunch today?","Today I had rice with grilled pork and some vegetables. It was really good.","Hôm nay bạn ăn trưa gì? — Hôm nay tôi ăn cơm với thịt heo nướng và rau. Rất ngon."],
+      ["Do you have a sweet tooth?","Yes, a little. I can't resist chocolate and ice cream.","Bạn có thích đồ ngọt không? — Có, một chút. Tôi không cưỡng được socola và kem."]
+    ]
+  },
+  {
+    name:"Du lịch & hỏi đường",
+    everyday:"Mục “Around Town” → Asking Directions / Transportation",
+    yt:"https://www.youtube.com/results?search_query=asking+for+directions+english+conversation+subtitles",
+    phrases:["Excuse me, how do I get to…?","Is it far from here?","Could you show me on the map?","Which way is…?"],
+    vocab:[["How do I get to the station?","Đi tới nhà ga thế nào?"],["Is it far from here?","Chỗ đó xa đây không?"],
+      ["Go straight and turn left.","Đi thẳng rồi rẽ trái."],["I'm a bit lost.","Tôi hơi bị lạc."]],
+    qa:[
+      ["Do you like traveling?","Yes, I love traveling. I enjoy seeing new places and trying local food.","Bạn thích du lịch không? — Có, tôi thích lắm. Tôi thích tham quan nơi mới và thử món địa phương."],
+      ["Excuse me, how do I get to the train station?","Go straight for two blocks, then turn left. It's right next to the post office.","Cho hỏi tới nhà ga thế nào? — Đi thẳng hai dãy nhà rồi rẽ trái. Nó ngay cạnh bưu điện."],
+      ["What's your favorite place you've traveled to?","My favorite place is Da Lat. The weather is cool and the scenery is beautiful.","Nơi du lịch bạn thích nhất? — Tôi thích Đà Lạt nhất. Thời tiết mát và phong cảnh đẹp."],
+      ["How do you usually plan a trip?","I usually search online for places to visit and book a hotel in advance to save money.","Bạn lên kế hoạch chuyến đi thế nào? — Tôi thường tìm trên mạng chỗ tham quan và đặt khách sạn trước cho rẻ."],
+      ["Where would you like to travel next?","I'd love to visit Japan someday. I'm interested in the culture and the food.","Tiếp theo bạn muốn đi đâu? — Tôi rất muốn đi Nhật. Tôi thích văn hoá và ẩm thực ở đó."],
+      ["Do you prefer the beach or the mountains?","I prefer the mountains because the air is fresh and it's peaceful.","Bạn thích biển hay núi? — Tôi thích núi hơn vì không khí trong lành và yên bình."],
+      ["Do you travel alone or with others?","I usually travel with friends. It's more fun and we share the costs.","Bạn đi du lịch một mình hay cùng người khác? — Tôi thường đi với bạn bè. Vui hơn và chia sẻ chi phí."],
+      ["What do you always pack when you travel?","I always pack a phone charger, some snacks, and a light jacket just in case.","Đi du lịch bạn luôn mang theo gì? — Tôi luôn mang sạc điện thoại, ít đồ ăn vặt, và một áo khoác mỏng phòng khi."]
+    ]
+  },
+  {
+    name:"Mua sắm",
+    everyday:"Mục “Around Town” → At the Supermarket / Shopping",
+    yt:"https://www.youtube.com/results?search_query=shopping+english+conversation+at+the+store+subtitles",
+    phrases:["How much is this?","Do you have this in a different size?","Can I pay by card?","I'm just looking, thanks."],
+    vocab:[["How much is this?","Cái này bao nhiêu tiền?"],["Do you have a bigger size?","Có cỡ lớn hơn không?"],
+      ["Can I pay by card?","Tôi trả bằng thẻ được không?"],["It's a good deal.","Giá đó hời đấy."]],
+    qa:[
+      ["Do you enjoy shopping?","I enjoy shopping for things I really need, but I don't like crowded places very much.","Bạn thích mua sắm không? — Tôi thích mua thứ thực sự cần, nhưng không thích chỗ đông người lắm."],
+      ["How much is this shirt? (in a store)","It's 250,000 dong. Would you like to try it on?","Cái áo này bao nhiêu? — 250 nghìn đồng. Bạn có muốn thử không?"],
+      ["Do you prefer shopping online or in stores?","I prefer online shopping because it's convenient, but I buy clothes in stores to check the size.","Bạn thích mua online hay tại cửa hàng? — Tôi thích online vì tiện, nhưng quần áo thì mua tại tiệm để thử cỡ."],
+      ["Excuse me, can I pay by card?","Yes, of course. Please insert your card here. Would you like a receipt?","Cho hỏi tôi trả bằng thẻ được không? — Được chứ. Bạn cắm thẻ vào đây. Bạn có cần hoá đơn không?"],
+      ["Do you usually look for discounts?","Yes, I always compare prices and wait for sales before buying expensive things.","Bạn có hay tìm khuyến mãi không? — Có, tôi luôn so giá và chờ sale trước khi mua đồ đắt."],
+      ["What was the last thing you bought?","The last thing I bought was a pair of running shoes. I needed them for exercise.","Món cuối cùng bạn mua là gì? — Món cuối cùng tôi mua là một đôi giày chạy. Tôi cần để tập thể dục."],
+      ["Excuse me, do you have this in another color?","Let me check. Yes, we have it in black and blue. Which one would you like?","Cho hỏi cái này có màu khác không? — Để tôi xem. Có, có màu đen và xanh. Bạn muốn màu nào?"],
+      ["Do you think you spend too much money?","Sometimes, especially on food. I'm trying to save more this year.","Bạn có nghĩ mình tiêu nhiều quá không? — Đôi khi, nhất là tiền ăn. Năm nay tôi đang cố tiết kiệm hơn."]
+    ]
+  },
+  {
+    name:"Sức khỏe & cảm xúc",
+    everyday:"Mục “Around Town” → At the Doctor's Office",
+    yt:"https://www.youtube.com/results?search_query=at+the+doctor+english+conversation+subtitles",
+    phrases:["I'm not feeling well.","I have a headache.","I feel a bit tired today.","I need to get more rest."],
+    vocab:[["I'm not feeling well.","Tôi thấy không khoẻ."],["I have a headache.","Tôi bị đau đầu."],
+      ["I feel stressed.","Tôi thấy căng thẳng."],["get enough sleep","ngủ đủ giấc"]],
+    qa:[
+      ["How are you feeling today?","Honestly, I'm a bit tired today because I didn't sleep well, but I'm okay.","Hôm nay bạn thấy thế nào? — Thật ra hôm nay tôi hơi mệt vì ngủ không ngon, nhưng tôi ổn."],
+      ["What do you do to stay healthy?","I try to eat well, drink enough water, and go for a walk. I also try to get enough sleep.","Bạn làm gì để giữ sức khoẻ? — Tôi cố ăn uống tốt, uống đủ nước, đi bộ và ngủ đủ giấc."],
+      ["What's wrong? (at the doctor)","I have a headache and a sore throat. It started two days ago.","Bạn bị sao? — Tôi bị đau đầu và đau họng. Bắt đầu từ hai ngày trước."],
+      ["How do you deal with stress?","When I feel stressed, I take a short break, listen to music, or talk to a friend.","Bạn xử lý căng thẳng thế nào? — Khi căng thẳng, tôi nghỉ một chút, nghe nhạc, hoặc nói chuyện với bạn."],
+      ["Do you exercise regularly?","Not as much as I should. I'm trying to add a short walk to my daily routine.","Bạn tập thể dục đều không? — Chưa nhiều như nên có. Tôi đang cố thêm đi bộ vào thói quen mỗi ngày."],
+      ["What do you do when you catch a cold?","I drink a lot of warm water, rest, and take medicine if it gets worse.","Khi bị cảm bạn làm gì? — Tôi uống nhiều nước ấm, nghỉ ngơi, và uống thuốc nếu nặng hơn."],
+      ["How many hours do you sleep at night?","Usually around six or seven hours, but I'd like to sleep a bit more.","Ban đêm bạn ngủ mấy tiếng? — Thường khoảng sáu hay bảy tiếng, nhưng tôi muốn ngủ thêm chút."],
+      ["Do you think you have a healthy lifestyle?","Mostly, but I sit too much at work. I'm trying to move more during the day.","Bạn nghĩ lối sống của mình lành mạnh không? — Khá, nhưng tôi ngồi nhiều khi làm việc. Tôi đang cố vận động hơn."]
+    ]
+  },
+  {
+    name:"Kế hoạch & ý kiến",
+    everyday:"Mục “Pastimes and Activities” → Giving Advice",
+    yt:"https://www.youtube.com/results?search_query=giving+opinions+english+conversation+intermediate+subtitles",
+    phrases:["In my opinion,…","I'm planning to…","I think it depends on…","I'd say that…"],
+    vocab:[["In my opinion,…","Theo ý tôi,…"],["I'm planning to…","Tôi đang dự định…"],
+      ["It depends on the situation.","Còn tuỳ tình huống."],["I'd rather…","Tôi thà… hơn"]],
+    qa:[
+      ["What are your plans for the weekend?","I'm planning to relax, meet a few friends, and maybe review my English lessons.","Cuối tuần bạn có dự định gì? — Tôi định nghỉ ngơi, gặp vài người bạn, và có thể ôn lại bài tiếng Anh."],
+      ["What's your goal for this year?","My main goal is to speak English confidently. I want to practice every single day.","Mục tiêu năm nay của bạn? — Mục tiêu chính là nói tiếng Anh tự tin. Tôi muốn luyện mỗi ngày."],
+      ["What do you think about working from home?","In my opinion, it's convenient and saves time, but it can feel a bit lonely sometimes.","Bạn nghĩ sao về làm việc tại nhà? — Theo tôi, nó tiện và tiết kiệm thời gian, nhưng đôi khi hơi cô đơn."],
+      ["Do you think learning English is difficult?","I think it depends on your method. Speaking every day is harder but much more effective.","Bạn thấy học tiếng Anh khó không? — Tôi nghĩ còn tuỳ phương pháp. Nói mỗi ngày khó hơn nhưng hiệu quả hơn nhiều."],
+      ["What advice would you give to a beginner?","I'd say start small and stay consistent. Don't be afraid of making mistakes.","Bạn khuyên người mới điều gì? — Tôi sẽ nói: bắt đầu nhỏ và đều đặn. Đừng sợ mắc lỗi."],
+      ["Where do you see yourself in five years?","In five years, I hope to speak English fluently and have a better position at work.","Năm năm nữa bạn thấy mình ở đâu? — Năm năm nữa, tôi mong nói tiếng Anh trôi chảy và có vị trí tốt hơn ở công ty."],
+      ["Do you think technology makes life better?","Overall yes, it makes things faster and easier, but we should use it wisely.","Bạn nghĩ công nghệ làm cuộc sống tốt hơn không? — Nhìn chung là có, nó nhanh và tiện hơn, nhưng nên dùng khôn ngoan."],
+      ["If you had a free day, what would you do?","If I had a free day, I'd sleep in, read a book, and go out for a nice meal.","Nếu có một ngày rảnh, bạn sẽ làm gì? — Nếu có một ngày rảnh, tôi sẽ ngủ nướng, đọc sách, và đi ăn một bữa ngon."]
+    ]
+  },
+  {
+    name:"Small talk & thời tiết",
+    everyday:"Mục “Introductions and Small Talk” → Weather / Telling Time",
+    yt:"https://www.youtube.com/results?search_query=small+talk+weather+english+conversation+subtitles",
+    phrases:["Nice weather today, isn't it?","It looks like rain.","How's your day going?","Did you do anything fun?"],
+    vocab:[["It's freezing today.","Hôm nay lạnh cóng."],["It's pouring outside.","Ngoài trời mưa to."],
+      ["a lovely day","một ngày đẹp trời"],["How's it going?","Dạo này sao rồi?"]],
+    qa:[
+      ["Nice weather today, isn't it?","Yes, it's lovely! I hope it stays like this for the weekend.","Hôm nay đẹp trời nhỉ? — Ừ, đẹp thật! Mong cuối tuần vẫn vậy."],
+      ["How's your day going so far?","Pretty good, thanks. A bit busy, but I can't complain. How about you?","Hôm nay của bạn thế nào rồi? — Khá tốt, cảm ơn. Hơi bận chút nhưng ổn. Còn bạn?"],
+      ["What's the weather like today?","It's cloudy and a little cold. I think it might rain later.","Thời tiết hôm nay thế nào? — Trời nhiều mây và hơi lạnh. Tôi nghĩ lát nữa có thể mưa."],
+      ["Did you have a good weekend?","Yes, it was relaxing. I stayed home and caught up on some sleep.","Cuối tuần bạn vui không? — Có, thư giãn lắm. Tôi ở nhà và ngủ bù."],
+      ["Do you prefer hot or cold weather?","I prefer cool weather. It's hard to focus when it's too hot.","Bạn thích nóng hay lạnh? — Tôi thích mát. Nóng quá thì khó tập trung."],
+      ["Any plans for the weekend?","Not yet. I might meet some friends or just take it easy.","Cuối tuần có kế hoạch gì không? — Chưa. Có thể gặp bạn bè hoặc cứ thư thả."],
+      ["It's really hot today, isn't it?","Definitely. I've been drinking water all day to stay cool.","Hôm nay nóng thật nhỉ? — Đúng vậy. Tôi uống nước cả ngày để bớt nóng."],
+      ["How was your morning?","It was a bit rushed, but I made it on time. How was yours?","Buổi sáng của bạn thế nào? — Hơi vội, nhưng tôi đến đúng giờ. Còn bạn?"]
+    ]
+  },
+  {
+    name:"Gọi điện thoại",
+    everyday:"Mục “Introductions and Small Talk” → On the Telephone",
+    yt:"https://www.youtube.com/results?search_query=english+phone+call+conversation+subtitles",
+    phrases:["Hello, this is…","Can I speak to…, please?","Could you hold on a moment?","Can I take a message?"],
+    vocab:[["Can I speak to Mr. Nam?","Cho tôi gặp anh Nam được không?"],["Could you hold on a moment?","Bạn chờ một chút nhé?"],
+      ["I'll call you back.","Tôi sẽ gọi lại."],["You've got the wrong number.","Bạn gọi nhầm số rồi."]],
+    qa:[
+      ["Hello, can I speak to Mr. Nam, please?","I'm sorry, he's not available right now. Can I take a message?","Xin chào, cho tôi gặp anh Nam? — Xin lỗi, anh ấy hiện không có ở đây. Tôi nhắn lại giúp được không?"],
+      ["Who's calling, please?","This is Dung from the QA team. I'm calling about the meeting tomorrow.","Cho hỏi ai đang gọi? — Tôi là Dung từ nhóm QA. Tôi gọi về cuộc họp ngày mai."],
+      ["Could you call back later?","Sure, no problem. What time would be convenient for you?","Bạn gọi lại sau được không? — Được, không sao. Mấy giờ thì tiện cho bạn?"],
+      ["Can you hear me okay?","Sorry, the line is a bit bad. Could you say that again, please?","Bạn nghe rõ tôi không? — Xin lỗi, đường truyền hơi kém. Bạn nói lại được không?"],
+      ["I think you have the wrong number.","Oh, I'm so sorry to bother you. Have a nice day.","Tôi nghĩ bạn gọi nhầm số. — Ồ, xin lỗi đã làm phiền. Chúc một ngày tốt lành."],
+      ["Would you like to leave a message?","Yes, please tell him I called and ask him to call me back.","Bạn có muốn để lại lời nhắn không? — Có, làm ơn báo anh ấy tôi đã gọi và nhờ gọi lại."],
+      ["Is this a good time to talk?","Actually, I'm in a meeting. Can I call you back in an hour?","Giờ này nói chuyện tiện không? — Thật ra tôi đang họp. Tôi gọi lại sau một tiếng nhé?"],
+      ["Thanks for calling. Is there anything else?","No, that's all for now. Thank you for your help.","Cảm ơn đã gọi. Còn gì nữa không? — Không, tạm vậy thôi. Cảm ơn bạn đã giúp."]
+    ]
+  },
+  {
+    name:"Họp & trao đổi công việc",
+    everyday:"(YouTube) — business meeting",
+    yt:"https://www.youtube.com/results?search_query=business+meeting+english+conversation+subtitles",
+    phrases:["Let's get started.","Could you clarify that?","I'd like to add something.","Let's move on to the next point."],
+    vocab:[["Let's get started.","Bắt đầu thôi."],["I agree with you.","Tôi đồng ý với bạn."],
+      ["Could you clarify that?","Bạn giải thích rõ hơn được không?"],["Let's follow up later.","Để sau theo dõi tiếp."]],
+    qa:[
+      ["Could you give us a quick update on your task?","Sure. I've finished testing the login feature and found two small bugs.","Bạn cập nhật nhanh tình hình công việc nhé? — Được. Tôi đã test xong tính năng đăng nhập và tìm thấy hai lỗi nhỏ."],
+      ["What do you think about this plan?","I think it's a good idea, but we might need more time to test it properly.","Bạn nghĩ sao về kế hoạch này? — Tôi nghĩ là ý hay, nhưng có thể cần thêm thời gian để test kỹ."],
+      ["Do you have any concerns?","Yes, I'm a little worried about the deadline. It feels quite tight.","Bạn có lo ngại gì không? — Có, tôi hơi lo về deadline. Cảm giác khá gấp."],
+      ["Can you clarify what you mean?","Of course. What I mean is that we should test on mobile devices too.","Bạn nói rõ hơn được không? — Được. Ý tôi là chúng ta nên test cả trên điện thoại."],
+      ["Who will be responsible for this?","I can take care of the testing part if that works for everyone.","Ai sẽ phụ trách việc này? — Tôi có thể lo phần kiểm thử nếu mọi người thấy ổn."],
+      ["Shall we move on to the next point?","Yes, let's do that. I think we've covered this topic well.","Chuyển sang điểm tiếp theo nhé? — Vâng, ta chuyển. Tôi nghĩ điểm này đã bàn kỹ rồi."],
+      ["Could you send me the details after the meeting?","Sure, I'll email you the notes and the schedule this afternoon.","Sau họp bạn gửi chi tiết cho tôi nhé? — Được, chiều nay tôi sẽ email ghi chú và lịch."],
+      ["Does everyone agree with this decision?","I agree. It sounds like the best option for now.","Mọi người đồng ý với quyết định này chứ? — Tôi đồng ý. Nghe có vẻ là lựa chọn tốt nhất lúc này."]
+    ]
+  },
+  {
+    name:"Phỏng vấn xin việc",
+    everyday:"(YouTube) — job interview",
+    yt:"https://www.youtube.com/results?search_query=job+interview+english+conversation+questions+subtitles",
+    phrases:["Thank you for the opportunity.","My strength is…","I'm a quick learner.","I'm looking for new challenges."],
+    vocab:[["Tell me about yourself.","Hãy giới thiệu về bản thân."],["my biggest strength","điểm mạnh nhất của tôi"],
+      ["a quick learner","người học nhanh"],["work under pressure","làm việc dưới áp lực"]],
+    qa:[
+      ["Tell me about yourself.","I'm a QA engineer with three years of experience. I'm detail-oriented and I enjoy solving problems.","Hãy giới thiệu về bản thân. — Tôi là kỹ sư QA với ba năm kinh nghiệm. Tôi tỉ mỉ và thích giải quyết vấn đề."],
+      ["Why do you want this job?","I'm looking for new challenges, and your company has a great reputation in this field.","Vì sao bạn muốn công việc này? — Tôi đang tìm thử thách mới, và công ty bạn có tiếng tốt trong lĩnh vực này."],
+      ["What is your biggest strength?","My biggest strength is attention to detail. I rarely miss small mistakes.","Điểm mạnh nhất của bạn? — Điểm mạnh nhất của tôi là sự tỉ mỉ. Tôi hiếm khi bỏ sót lỗi nhỏ."],
+      ["What is your weakness?","Sometimes I spend too much time on details, but I'm learning to manage my time better.","Điểm yếu của bạn? — Đôi khi tôi dành quá nhiều thời gian cho chi tiết, nhưng tôi đang học cách quản lý thời gian tốt hơn."],
+      ["Can you work under pressure?","Yes, I can. When there's a tight deadline, I stay calm and focus on priorities.","Bạn làm việc dưới áp lực được không? — Được. Khi deadline gấp, tôi giữ bình tĩnh và tập trung vào việc ưu tiên."],
+      ["Why should we hire you?","I'm hardworking, a quick learner, and I really care about quality.","Vì sao chúng tôi nên tuyển bạn? — Tôi chăm chỉ, học nhanh, và thực sự coi trọng chất lượng."],
+      ["Do you have any questions for us?","Yes, could you tell me more about the team I'd be working with?","Bạn có câu hỏi nào cho chúng tôi không? — Có, bạn cho tôi biết thêm về nhóm tôi sẽ làm cùng được không?"],
+      ["Where do you see yourself in five years?","In five years, I'd like to be a senior engineer and mentor junior members.","Năm năm nữa bạn thấy mình ở đâu? — Năm năm nữa, tôi muốn là kỹ sư cấp cao và hướng dẫn các bạn mới."]
+    ]
+  },
+  {
+    name:"Công nghệ & điện thoại",
+    everyday:"(YouTube) — technology",
+    yt:"https://www.youtube.com/results?search_query=talking+about+technology+english+conversation+subtitles",
+    phrases:["I'm addicted to my phone.","My battery is dead.","The app keeps crashing.","I need to update it."],
+    vocab:[["My phone froze.","Điện thoại tôi bị đơ."],["the battery is dead","hết pin"],
+      ["download an app","tải ứng dụng"],["charge my phone","sạc điện thoại"]],
+    qa:[
+      ["How much time do you spend on your phone?","Probably too much, around a few hours a day. I'm trying to cut down.","Bạn dùng điện thoại bao lâu mỗi ngày? — Chắc là hơi nhiều, khoảng vài tiếng một ngày. Tôi đang cố giảm bớt."],
+      ["What apps do you use the most?","I mostly use messaging apps, YouTube, and now an English learning app.","Bạn dùng app nào nhiều nhất? — Tôi chủ yếu dùng app nhắn tin, YouTube, và giờ có app học tiếng Anh."],
+      ["Do you think we rely too much on technology?","Yes, a little. It's useful, but we should also enjoy life offline.","Bạn có nghĩ ta phụ thuộc công nghệ quá không? — Có, một chút. Nó hữu ích, nhưng cũng nên tận hưởng cuộc sống ngoài đời."],
+      ["What would you do without your phone for a day?","Honestly, I'd feel a bit lost at first, but it might be relaxing too.","Một ngày không có điện thoại bạn sẽ làm gì? — Thật ra ban đầu sẽ thấy lạc lõng, nhưng có thể cũng thư giãn."],
+      ["My phone keeps crashing. What should I do?","Try restarting it. If that doesn't work, you might need to update the app.","Điện thoại tôi cứ bị treo. Tôi nên làm gì? — Thử khởi động lại. Nếu không được, có thể cần cập nhật ứng dụng."],
+      ["Are you good with technology?","I'm okay. I can handle most things, but I ask for help with complicated stuff.","Bạn rành công nghệ không? — Cũng tạm. Đa số tôi tự xử được, nhưng việc phức tạp thì nhờ giúp."],
+      ["Do you prefer texting or calling?","I prefer texting because it's quicker, but I call for important things.","Bạn thích nhắn tin hay gọi điện? — Tôi thích nhắn tin vì nhanh hơn, nhưng việc quan trọng thì gọi."],
+      ["What new gadget would you like to buy?","I'd like a new laptop. Mine is getting old and slow.","Bạn muốn mua thiết bị mới nào? — Tôi muốn một cái laptop mới. Cái của tôi cũ và chậm rồi."]
+    ]
+  },
+  {
+    name:"Hẹn gặp bạn bè",
+    everyday:"(YouTube) — making plans with friends",
+    yt:"https://www.youtube.com/results?search_query=making+plans+with+friends+english+conversation+subtitles",
+    phrases:["Are you free this weekend?","Do you want to grab a coffee?","How about Saturday?","Let's meet at…"],
+    vocab:[["Are you free tonight?","Tối nay bạn rảnh không?"],["grab a coffee","làm ly cà phê"],
+      ["Let's catch up.","Gặp nhau hàn huyên đi."],["I'm busy that day.","Hôm đó tôi bận."]],
+    qa:[
+      ["Are you free this weekend?","Yes, I'm free on Saturday. Did you have something in mind?","Cuối tuần bạn rảnh không? — Có, thứ Bảy tôi rảnh. Bạn định làm gì à?"],
+      ["Do you want to grab a coffee sometime?","I'd love to! How about Saturday afternoon?","Hôm nào đi cà phê không? — Thích chứ! Chiều thứ Bảy được không?"],
+      ["Where should we meet?","Let's meet at the coffee shop near your office. It's easy to find.","Mình gặp ở đâu? — Gặp ở quán cà phê gần văn phòng bạn nhé. Dễ tìm."],
+      ["What time works for you?","Around three would be perfect for me. Does that work for you?","Mấy giờ tiện cho bạn? — Khoảng ba giờ là hoàn hảo với tôi. Bạn ổn không?"],
+      ["Sorry, I can't make it on Saturday.","No worries. Can we do it on Sunday instead?","Xin lỗi, thứ Bảy tôi không đi được. — Không sao. Vậy chuyển sang Chủ nhật được không?"],
+      ["Do you want to invite anyone else?","Sure, let's invite Lan too. The more, the merrier.","Bạn muốn rủ thêm ai không? — Được, rủ cả Lan nữa. Càng đông càng vui."],
+      ["Let's catch up soon, it's been a while.","Definitely! I've missed you. Let's not wait too long this time.","Sớm gặp nhau hàn huyên nhé, lâu rồi. — Chắc chắn! Tôi nhớ bạn. Lần này đừng để lâu quá."],
+      ["What do you feel like doing?","Maybe we can watch a movie and then have dinner. Sound good?","Bạn muốn làm gì? — Hay là xem phim rồi ăn tối. Nghe được không?"]
+    ]
+  },
+  {
+    name:"Phim ảnh & giải trí",
+    everyday:"Mục “Pastimes and Activities” → Movies",
+    yt:"https://www.youtube.com/results?search_query=talking+about+movies+english+conversation+subtitles",
+    phrases:["I'm into…","Have you seen…?","It's worth watching.","I'd rather watch…"],
+    vocab:[["a must-watch","phim nhất định phải xem"],["the plot was boring","cốt truyện chán"],
+      ["binge-watch a series","cày một series"],["my favorite genre","thể loại tôi thích nhất"]],
+    qa:[
+      ["What kind of movies do you like?","I like action and comedy movies. They help me relax and forget about work.","Bạn thích loại phim nào? — Tôi thích phim hành động và hài. Chúng giúp tôi thư giãn và quên việc."],
+      ["Have you seen any good movies lately?","Yes, I watched a great thriller last week. The ending really surprised me.","Gần đây bạn xem phim nào hay không? — Có, tuần trước tôi xem một phim giật gân hay. Cái kết làm tôi bất ngờ."],
+      ["Do you prefer movies or TV series?","I prefer series because I can follow the characters over a longer time.","Bạn thích phim lẻ hay phim bộ? — Tôi thích phim bộ vì theo dõi nhân vật được lâu hơn."],
+      ["Who is your favorite actor?","I don't have just one, but I really enjoy movies with strong, funny characters.","Diễn viên bạn thích nhất là ai? — Tôi không có một người duy nhất, nhưng tôi thích phim có nhân vật mạnh và hài hước."],
+      ["Do you watch movies in English?","Yes, I try to. I watch with English subtitles to improve my listening.","Bạn xem phim tiếng Anh không? — Có, tôi cố. Tôi xem với phụ đề tiếng Anh để luyện nghe."],
+      ["What was the last movie you watched?","The last movie I watched was an animated film. It was fun and easy to follow.","Phim gần nhất bạn xem là gì? — Phim gần nhất tôi xem là phim hoạt hình. Vui và dễ hiểu."],
+      ["Would you recommend it?","Yes, definitely. It's worth watching, especially with friends.","Bạn có giới thiệu phim đó không? — Có, chắc chắn. Đáng xem, nhất là cùng bạn bè."],
+      ["Do you like going to the cinema?","I do, but lately I prefer watching at home, it's cheaper and more comfortable.","Bạn thích đi rạp không? — Có, nhưng dạo này tôi thích xem ở nhà hơn, rẻ và thoải mái hơn."]
+    ]
+  },
+  {
+    name:"Xử lý vấn đề & phàn nàn",
+    everyday:"(YouTube) — making a complaint",
+    yt:"https://www.youtube.com/results?search_query=making+a+complaint+english+conversation+polite+subtitles",
+    phrases:["There seems to be a problem with…","I'd like a refund, please.","Could you help me fix this?","I'm afraid this isn't what I ordered."],
+    vocab:[["There's a problem with…","Có vấn đề với…"],["I'd like a refund.","Tôi muốn hoàn tiền."],
+      ["It's not working.","Nó không hoạt động."],["Could you help me?","Bạn giúp tôi được không?"]],
+    qa:[
+      ["Excuse me, there's a problem with my order.","I'm sorry about that. Could you tell me what's wrong so I can help?","Xin lỗi, đơn hàng của tôi có vấn đề. — Tôi rất xin lỗi. Bạn nói rõ vấn đề để tôi giúp được không?"],
+      ["This isn't what I ordered.","I apologize for the mistake. Let me get the correct one for you right away.","Đây không phải món tôi gọi. — Tôi xin lỗi vì nhầm lẫn. Để tôi lấy đúng món cho bạn ngay."],
+      ["The product stopped working. What can I do?","You can return it within seven days. Do you still have the receipt?","Sản phẩm hỏng rồi. Tôi làm gì được? — Bạn có thể trả lại trong bảy ngày. Bạn còn giữ hoá đơn không?"],
+      ["I'd like to make a complaint.","I understand. Could you explain what happened? We'll do our best to fix it.","Tôi muốn phàn nàn. — Tôi hiểu. Bạn kể lại chuyện gì đã xảy ra nhé? Chúng tôi sẽ cố hết sức khắc phục."],
+      ["Could I get a refund, please?","Of course. I'll process the refund for you. It may take a few days.","Cho tôi hoàn tiền được không? — Tất nhiên. Tôi sẽ xử lý hoàn tiền cho bạn. Có thể mất vài ngày."],
+      ["Sorry to bother you, but I need some help.","No problem at all. What can I do for you?","Xin lỗi làm phiền, nhưng tôi cần giúp. — Không sao cả. Tôi giúp gì được cho bạn?"],
+      ["The room is too noisy. Can I change it?","I'm sorry about that. Let me check if we have a quieter room available.","Phòng ồn quá. Tôi đổi được không? — Tôi xin lỗi. Để tôi kiểm tra xem còn phòng yên tĩnh hơn không."],
+      ["This bill seems incorrect.","Let me check it for you. You're right, there's an error. I'll fix it now.","Hoá đơn này có vẻ sai. — Để tôi kiểm tra. Bạn nói đúng, có lỗi. Tôi sửa ngay."]
+    ]
+  }
+];
+
+/* ====== TRẠNG THÁI & LƯU ====== */
+const LS = "english_program_v1";
+function load(){ try{return JSON.parse(localStorage.getItem(LS))||{}}catch(e){return {}} }
+function save(s){ localStorage.setItem(LS, JSON.stringify(s)); }
+let state = load();
+if(!state.startDate){ state.startDate = todayStr(); }
+if(!state.streak){ state.streak = 0; }
+if(!state.done){ state.done = {}; }            // {dateStr: {am1:true,...}}
+if(typeof state.topicOverride === "undefined") state.topicOverride = null;
+
+function todayStr(){ const d=new Date(); return d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate(); }
+function daysSinceStart(){
+  const a=new Date(state.startDate), b=new Date(todayStr());
+  return Math.floor((b-a)/86400000);
+}
+function dayNumber(){ return daysSinceStart()+1; }          // Ngày 1,2,3…
+function topicIndex(){
+  if(state.topicOverride!==null) return state.topicOverride;
+  return daysSinceStart() % TOPICS.length;                  // xoay vòng 10 chủ đề
+}
+
+const STEPS = ["am1","am2","am3","am4","pm1","pm2","pm3","pm4"];
+function todayDone(){ return state.done[todayStr()] || {}; }
+
+/* ====== RENDER ====== */
+function el(id){return document.getElementById(id);}
+
+function renderTopicSelect(){
+  const sel = el("topicSelect");
+  sel.innerHTML = '<option value="auto">Tự động (Ngày '+dayNumber()+')</option>' +
+    TOPICS.map((t,i)=>'<option value="'+i+'">'+(i+1)+'. '+t.name+'</option>').join('');
+  sel.value = state.topicOverride===null ? "auto" : String(state.topicOverride);
+  sel.onchange = ()=>{
+    state.topicOverride = sel.value==="auto" ? null : parseInt(sel.value,10);
+    save(state); renderTopic();
+  };
+}
+
+function qaBlock(qa, ns){
+  return qa.map((item,i)=>{
+    const [q,a,vi] = item;
+    const id = ns+"_"+i;
+    return '<div class="qa"><div class="q">❓ '+q+'</div>'+
+      '<span class="reveal" data-t="'+id+'">👁️ Xem câu trả lời mẫu</span>'+
+      '<div class="ans" id="ans_'+id+'"><div class="en">💬 '+a+'</div>'+
+      '<div class="vi">'+vi+'</div></div></div>';
+  }).join('');
+}
+
+function renderTopic(){
+  const t = TOPICS[topicIndex()];
+  el("dayLabel").textContent = "Ngày "+dayNumber();
+  el("topicNameAm").textContent = t.name;
+  el("topicNamePm").textContent = t.name;
+
+  // listen links
+  el("listenLinks").innerHTML =
+    '<div style="margin-top:8px">'+
+    '<a class="btn amber" href="'+t.yt+'" target="_blank">▶︎ Nghe trên YouTube: "'+t.name+'"</a>'+
+    '<a class="btn ghost" href="https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english" target="_blank">📄 Everyday Conversations (MP3+transcript)</a>'+
+    '</div><div class="note">Trong Everyday Conversations, mở: <b>'+t.everyday+'</b></div>';
+
+  // phrases
+  el("phrases").innerHTML = '<div style="margin-top:6px">'+
+    t.phrases.map(p=>'<span class="pill">'+p+'</span>').join('')+'</div>';
+
+  // vocab
+  el("vocab").innerHTML = t.vocab.map(v=>'<li><span class="w">'+v[0]+'</span> — <span class="m">'+v[1]+'</span></li>').join('');
+
+  // Q&A morning (focus) + evening (recall, same set)
+  el("qaAm").innerHTML = qaBlock(t.qa, "am");
+  el("qaPm").innerHTML = qaBlock(t.qa, "pm");
+  bindReveals();
+
+  renderTopicSelect();
+}
+
+function bindReveals(){
+  document.querySelectorAll(".reveal").forEach(r=>{
+    r.onclick = ()=>{
+      const box = el("ans_"+r.dataset.t);
+      box.classList.toggle("show");
+      r.textContent = box.classList.contains("show") ? "🙈 Ẩn đáp án" : "👁️ Xem câu trả lời mẫu";
+    };
+  });
+}
+
+/* ====== TICK & STREAK ====== */
+function renderChecks(){
+  const done = todayDone();
+  document.querySelectorAll(".step").forEach(st=>{
+    const k = st.dataset.step;
+    st.classList.toggle("done", !!done[k]);
+  });
+  el("streakNum").textContent = state.streak;
+}
+
+function allDoneToday(){
+  const done = todayDone();
+  return STEPS.every(k=>done[k]);
+}
+
+function bindChecks(){
+  document.querySelectorAll(".step").forEach(st=>{
+    const chk = st.querySelector(".chk");
+    chk.onclick = ()=>{
+      const k = st.dataset.step;
+      const day = todayStr();
+      state.done[day] = state.done[day] || {};
+      state.done[day][k] = !state.done[day][k];
+      // streak: tăng khi hoàn thành đủ 8 bước hôm nay lần đầu
+      if(allDoneToday() && !state.countedDays?.[day]){
+        state.countedDays = state.countedDays || {};
+        state.countedDays[day] = true;
+        state.streak = (state.streak||0)+1;
+        celebrate();
+      } else if(!allDoneToday() && state.countedDays?.[day]){
+        delete state.countedDays[day];
+        state.streak = Math.max(0,(state.streak||0)-1);
+      }
+      save(state); renderChecks();
+    };
+  });
+}
+
+function celebrate(){
+  const b=document.createElement("div");
+  b.textContent="🎉 Hoàn thành ngày "+dayNumber()+"! Chuỗi: "+state.streak+" 🔥";
+  b.style.cssText="position:fixed;left:50%;top:20px;transform:translateX(-50%);background:#111827;color:#fff;padding:12px 18px;border-radius:12px;z-index:99;font-weight:700;box-shadow:0 8px 24px rgba(0,0,0,.25)";
+  document.body.appendChild(b);
+  setTimeout(()=>b.remove(),2600);
+}
+
+/* ====== TABS ====== */
+function bindTabs(){
+  document.querySelectorAll(".tab").forEach(tb=>{
+    tb.onclick = ()=>{
+      document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+      document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
+      tb.classList.add("active");
+      el("panel-"+tb.dataset.panel).classList.add("active");
+    };
+  });
+  // tự mở đúng buổi theo giờ
+  const h = new Date().getHours();
+  const which = (h>=4 && h<15) ? "am" : "pm";
+  document.querySelector('.tab[data-panel="'+which+'"]').click();
+}
+
+/* ====== RESET ====== */
+el("resetDay").onclick = ()=>{
+  const day=todayStr();
+  if(state.countedDays?.[day]){ delete state.countedDays[day]; state.streak=Math.max(0,state.streak-1); }
+  delete state.done[day]; save(state); renderChecks();
+};
+el("resetAll").onclick = ()=>{
+  if(confirm("Xoá toàn bộ tiến độ và chuỗi ngày?")){ localStorage.removeItem(LS); location.reload(); }
+};
+
+/* ====== INIT ====== */
+renderTopic();
+bindChecks();
+renderChecks();
+bindTabs();
+save(state);
+</script>
+</body>
+</html>
