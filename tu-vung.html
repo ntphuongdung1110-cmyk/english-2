@@ -36,6 +36,9 @@
   .ex{margin:2px 0 8px 14px;font-size:14px;color:#374151;border-left:3px solid #c7d2fe;padding-left:8px}
   .ex .lbl{color:var(--accent);font-weight:600;font-size:12px}
   .meta{font-size:11px;color:#9ca3af;margin-top:6px}
+  .exlinks{margin:10px 0 2px}
+  .exlinks .btn{display:inline-block;margin:4px 6px 4px 0;font-size:12px}
+  .noex{font-size:12px;color:#92400e;margin-bottom:4px}
   .uedit{margin-top:10px;border-top:1px dashed var(--line);padding-top:10px}
   .uedit label{display:block;font-size:12px;font-weight:600;color:var(--muted);margin:6px 0 3px}
   .uedit textarea, .uedit input{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px;font-size:14px;font-family:inherit;resize:vertical}
@@ -118,11 +121,13 @@ async function addWord(){
     const ap = (e.phonetics||[]).find(p=>p.audio);
     entry.audio = ap ? ap.audio : "";
     // lấy tối đa 3 partOfSpeech, mỗi loại tối đa 2 định nghĩa
-    entry.meanings = (e.meanings||[]).slice(0,3).map(m=>({
-      pos: m.partOfSpeech,
-      defs: (m.definitions||[]).slice(0,2).map(d=>({ def:d.definition||"", ex:d.example||"" }))
-    }));
-    setStatus("✓ Đã thêm “"+entry.word+"”", "ok");
+    entry.meanings = (e.meanings||[]).slice(0,4).map(m=>{
+      const defs = (m.definitions||[]).map(d=>({ def:d.definition||"", ex:d.example||"" }));
+      defs.sort((a,b)=> (b.ex?1:0)-(a.ex?1:0)); // ưu tiên định nghĩa CÓ ví dụ
+      return { pos:m.partOfSpeech, defs: defs.slice(0,3) };
+    });
+    const exN = entry.meanings.reduce((n,m)=>n+m.defs.filter(d=>d.ex).length,0);
+    setStatus("✓ Đã thêm “"+entry.word+"”"+(exN?(" — có "+exN+" câu ví dụ"):" — từ điển chưa có ví dụ, dùng nút Tatoeba/YouGlish bên dưới"), "ok");
   }catch(err){
     entry.manual = true;
     setStatus("Từ điển chưa có “"+raw+"”. Đã lưu — bạn tự ghi nghĩa & ví dụ bên dưới nhé.", "err");
@@ -172,6 +177,14 @@ function cardHTML(w){
   if(w.manual && !w.meanings.length){
     body = '<div class="def" style="color:#92400e">Chưa có định nghĩa tự động — bạn tự ghi ở ô “Nghĩa của bạn” bên dưới.</div>';
   }
+  // Nút lấy thêm câu ví dụ thật (mở nguồn ngoài, không bịa)
+  const q = encodeURIComponent(w.word);
+  const exCount = w.meanings.reduce((n,m)=>n+m.defs.filter(d=>d.ex).length,0);
+  body += '<div class="exlinks">'+
+    (exCount ? '' : '<div class="noex">Từ điển chưa có câu ví dụ cho từ này — bấm để xem câu thật:</div>')+
+    '<a class="btn" target="_blank" rel="noopener" href="https://tatoeba.org/en/sentences/search?from=eng&to=vie&query='+q+'">🔎 Câu ví dụ + dịch Việt (Tatoeba)</a> '+
+    '<a class="btn" target="_blank" rel="noopener" href="https://youglish.com/pronounce/'+q+'/english">🔊 Nghe trong video (YouGlish)</a>'+
+    '</div>';
   const phon = w.phonetic ? '<span class="phon">'+esc(w.phonetic)+'</span>' : '';
   return ''+
   '<div class="card'+(w.manual?' manual':'')+'" data-id="'+w.id+'">'+
