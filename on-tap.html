@@ -79,6 +79,12 @@
   .tprog{font-size:13px;color:#166534;min-height:18px;margin-bottom:8px}
   .wchip{display:inline-block;margin:0 6px 8px 0;padding:7px 12px;border-radius:10px;border:1px solid var(--accent);color:var(--accent);background:#fff;cursor:pointer;font-size:14px;font-weight:600}
   .wchip.has{border-color:#bbf7d0;background:#f0fdf4;color:#166534;cursor:default}
+  .grouphdr{font-weight:800;font-size:14px;margin:16px 0 8px;color:#334155;border-bottom:2px solid var(--line);padding-bottom:5px}
+  .gcount{color:#94a3b8;font-weight:600;font-size:12px}
+  .topicblock{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px}
+  .topicblock summary{font-weight:700;cursor:pointer;font-size:14px;color:#334155}
+  .topicrow{margin-top:10px;font-size:13px;color:#6b7280}
+  .topicsel{border:1px solid var(--line);border-radius:8px;padding:4px 6px;font-size:13px}
   .exlinks{margin:8px 0 2px}
   .exlinks .btn{display:inline-block;margin:4px 6px 4px 0;font-size:12px}
   .noex{font-size:12px;color:#92400e;margin-bottom:4px}
@@ -114,7 +120,6 @@
 
   <div class="tabs">
     <div class="tab active" data-panel="add">➕ Thêm</div>
-    <div class="tab" data-panel="topics">📚 Chủ đề</div>
     <div class="tab" data-panel="list">📋 Danh sách</div>
     <div class="tab" data-panel="flash">🎴 Thẻ ghi nhớ</div>
   </div>
@@ -130,13 +135,12 @@
       <div class="hint">App <b>kiểm tra nghĩa trước khi thêm</b>: từ đơn tra từ điển (sai chính tả sẽ gợi ý sửa), cụm từ/idiom tra Wiktionary (vd: <i>on the same page</i>).</div>
     </div>
     <div id="addResult"></div>
-  </div>
-
-  <!-- ===== TOPICS ===== -->
-  <div class="panel" id="panel-topics">
-    <div id="topicChips"></div>
-    <div id="topicBar"></div>
-    <div id="topicWords"></div>
+    <details class="topicblock">
+      <summary>📚 Thêm nhanh nhiều từ theo chủ đề</summary>
+      <div id="topicChips" style="margin-top:10px"></div>
+      <div id="topicBar"></div>
+      <div id="topicWords"></div>
+    </details>
   </div>
 
   <!-- ===== LIST ===== -->
@@ -284,9 +288,10 @@ function warnBox(raw, sug, isPhrase){
   h+='</div>';
   return h;
 }
-function commit(data, raw){
+function commit(data, raw, topic){
   const entry={ id:uid(), word:data.word||raw, phonetic:data.phonetic||"", audio:data.audio||"",
-    meanings:data.meanings||[], manual:!data.found, unotes:[], uexs:[], known:false, date:nowStamp() };
+    meanings:data.meanings||[], manual:!data.found, unotes:[], uexs:[], known:false,
+    topic: topic || categorize(data.word||raw), date:nowStamp() };
   words.unshift(entry); save(words); refreshCount();
   return entry;
 }
@@ -311,6 +316,8 @@ function meaningsHTML(w){
     });
   });
   if(!w.meanings.length) h+='<div class="def" style="color:#92400e">Chưa có định nghĩa tự động — tự ghi ở ô bên dưới.</div>';
+  // chủ đề (đổi được)
+  h+='<div class="topicrow">🗂️ Chủ đề: '+topicSelectHTML(w)+'</div>';
   // ô soạn của người dùng (nhiều ghi chú + nhiều câu ví dụ, có thêm/xoá)
   h+='<div class="uedit-wrap" data-uedit="'+w.id+'">'+ueditHTML(w)+'</div>';
   // link ví dụ thật
@@ -366,6 +373,19 @@ function cardHTML(w){
 }
 
 /* ===== DANH SÁCH ===== */
+function cardListItem(w){
+  const badge=w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
+  const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
+  return '<div class="card list-item'+(w.known?' known':'')+'">'+
+    '<div class="lrow" data-toggle="'+w.id+'">'+
+      '<span class="word">'+esc(w.word)+'</span>'+phon+badge+
+      '<button class="spk" data-spk="'+w.id+'">🔊</button>'+
+      '<button class="del" data-del="'+w.id+'" title="Xoá">🗑️</button>'+
+      '<span class="chev" id="chev_'+w.id+'">▾</span>'+
+    '</div>'+
+    '<div class="details" id="det_'+w.id+'" hidden>'+meaningsHTML(w)+'</div>'+
+  '</div>';
+}
 function renderList(){
   words=load();
   const q=$("search").value.trim().toLowerCase();
@@ -375,19 +395,17 @@ function renderList(){
     $("list").innerHTML='<div class="empty">'+(words.length?"Không tìm thấy từ nào khớp.":'Chưa có từ nào. Qua tab <b>➕ Thêm</b> để bắt đầu! 🌱')+'</div>';
     return;
   }
-  $("list").innerHTML=arr.map(w=>{
-    const badge=w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
-    const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
-    return '<div class="card list-item'+(w.known?' known':'')+'">'+
-      '<div class="lrow" data-toggle="'+w.id+'">'+
-        '<span class="word">'+esc(w.word)+'</span>'+phon+badge+
-        '<button class="spk" data-spk="'+w.id+'">🔊</button>'+
-        '<button class="del" data-del="'+w.id+'" title="Xoá">🗑️</button>'+
-        '<span class="chev" id="chev_'+w.id+'">▾</span>'+
-      '</div>'+
-      '<div class="details" id="det_'+w.id+'" hidden>'+meaningsHTML(w)+'</div>'+
-    '</div>';
-  }).join("");
+  // nhóm theo chủ đề
+  const groups={};
+  arr.forEach(w=>{ const t=w.topic||OTHER_TOPIC; (groups[t]=groups[t]||[]).push(w); });
+  const order=Object.keys(TOPICS_VOCAB).concat([OTHER_TOPIC]);
+  let html="";
+  order.forEach(t=>{ if(groups[t]){ html+=groupHTML(t,groups[t]); delete groups[t]; } });
+  Object.keys(groups).forEach(t=>html+=groupHTML(t,groups[t])); // chủ đề lạ (nếu có)
+  $("list").innerHTML=html;
+}
+function groupHTML(topic,arr){
+  return '<div class="grouphdr">'+esc(topic)+' <span class="gcount">'+arr.length+'</span></div>'+arr.map(cardListItem).join("");
 }
 
 /* ===== Xuất Anki ===== */
@@ -460,6 +478,22 @@ const TOPICS_VOCAB = {
   "🏫 Đại học": ["university","college","lecture","professor","degree","major","semester","campus","dormitory","scholarship","graduation","thesis","faculty","tuition","undergraduate"]
 };
 let curTopic=null;
+const OTHER_TOPIC="🗂️ Khác";
+// tự động phân loại 1 từ vào chủ đề dựa trên thư viện có sẵn
+function categorize(word){
+  const lw=(word||"").toLowerCase().trim();
+  for(const t of Object.keys(TOPICS_VOCAB)){
+    if(TOPICS_VOCAB[t].some(x=>x.toLowerCase()===lw)) return t;
+  }
+  return OTHER_TOPIC;
+}
+function topicSelectHTML(w){
+  const opts=Object.keys(TOPICS_VOCAB).concat([OTHER_TOPIC]);
+  const cur=w.topic||OTHER_TOPIC;
+  return '<select class="topicsel" onchange="changeTopic(\''+w.id+'\',this.value)">'+
+    opts.map(o=>'<option'+(o===cur?' selected':'')+'>'+esc(o)+'</option>').join('')+'</select>';
+}
+function changeTopic(id,val){ const w=words.find(x=>x.id===id); if(!w)return; w.topic=val; save(words); renderList(); }
 function renderTopics(){
   if(!curTopic) curTopic=Object.keys(TOPICS_VOCAB)[0];
   $("topicChips").innerHTML=Object.keys(TOPICS_VOCAB).map(n=>'<button class="tchip'+(n===curTopic?' on':'')+'" data-topic="'+esc(n)+'">'+esc(n)+'</button>').join('');
@@ -480,7 +514,7 @@ async function addFromTopic(raw){
   const cur=load();
   if(cur.some(w=>w.word.toLowerCase()===raw.toLowerCase())) return false;
   const data = raw.includes(" ") ? await fetchPhraseData(raw) : await fetchWordData(raw);
-  words=cur; commit(data, raw);   // thêm dù không có nghĩa (từ chủ đề là từ thật) — không bịa nghĩa
+  words=cur; commit(data, raw, curTopic);   // gán đúng chủ đề đang chọn; không bịa nghĩa
   return true;
 }
 async function addOneTopic(raw){ setTProg("Đang thêm “"+raw+"”…"); await addFromTopic(raw); setTProg(""); renderTopicWords(); }
@@ -503,7 +537,6 @@ document.querySelectorAll(".tab").forEach(tb=>{
     tb.classList.add("active"); $("panel-"+tb.dataset.panel).classList.add("active");
     if(tb.dataset.panel==="list") renderList();
     else if(tb.dataset.panel==="flash") buildDeck();
-    else if(tb.dataset.panel==="topics") renderTopics();
     else if(tb.dataset.panel==="add") $("wordInput").focus();
   };
 });
@@ -534,6 +567,9 @@ document.body.addEventListener("click",e=>{
   if(fa){ const a=fa.dataset.act; if(a==="flip"){flipped=true;renderFlash();} else if(a==="know")rate(true); else if(a==="dont")rate(false); else if(a==="skip"){pos++;flipped=false;renderFlash();} }
 });
 
+// migration: gán chủ đề cho từ cũ chưa có
+(function(){ let ch=false; words.forEach(w=>{ if(!w.topic){ w.topic=categorize(w.word); ch=true; } }); if(ch) save(words); })();
+renderTopics();
 $("wordInput").focus();
 </script>
 </body>
