@@ -553,7 +553,7 @@ const TOPICS_VOCAB = {
   "🎓 Giáo dục": ["school","student","teacher","classroom","lesson","homework","exam","grade","subject","library","knowledge","pupil","blackboard","diploma","notebook","textbook","assignment","quiz","semester","attendance"],
   "🏫 Đại học": ["university","college","lecture","professor","degree","major","semester","campus","dormitory","scholarship","graduation","thesis","faculty","tuition","undergraduate","postgraduate","seminar","tutorial","deadline","internship"],
   "📚 Học thuật / Nâng cao": ["comprehensive","significant","approach","consequence","evaluate","analyse","hypothesis","evidence","conclusion","research","theory","concept","perspective","sufficient","demonstrate","indicate","establish","contribute","emphasise","interpret","assess","framework","criteria","phenomenon","comprise","prioritise","facilitate","implement","substantial","inevitable"],
-  "💬 Thành ngữ": ["piece of cake","on the same page","break the ice","hit the books","under the weather","once in a blue moon","bite the bullet","call it a day","cut corners","get out of hand","hang in there","pull someone's leg","speak of the devil","think outside the box","back to the drawing board","beat around the bush","cost an arm and a leg","get cold feet","go the extra mile","let the cat out of the bag","miss the boat","on cloud nine","the last straw","under the table","the ball is in your court","keep an eye on","make ends meet","get the hang of","in the same boat"]
+  "💬 Thành ngữ": ["piece of cake","on the same page","break the ice","hit the books","under the weather","once in a blue moon","bite the bullet","call it a day","cut corners","get out of hand","hang in there","pull someone's leg","speak of the devil","think outside the box","back to the drawing board","beat around the bush","cost an arm and a leg","get cold feet","go the extra mile","let the cat out of the bag","miss the boat","on cloud nine","the last straw","under the table","the ball is in your court","keep an eye on","make ends meet","get the hang of","in the same boat","a blessing in disguise","the best of both worlds","spill the beans","when pigs fly","a dime a dozen","barking up the wrong tree","burn the midnight oil","by the skin of one's teeth","the elephant in the room","hit the nail on the head","kill two birds with one stone","let sleeping dogs lie","out of the blue","a hot potato","add fuel to the fire","against the clock","all ears","at the drop of a hat","bend over backwards","bite off more than you can chew","blow off steam","don't judge a book by its cover","down to earth","draw the line","easier said than done","every cloud has a silver lining","face the music","a fish out of water","a taste of your own medicine","the cold shoulder","hit the sack","in hot water","jump on the bandwagon","keep your chin up","learn the ropes","on thin ice","once bitten, twice shy","play it by ear","pull yourself together","rain on someone's parade","see eye to eye","sit on the fence","steal someone's thunder","take with a grain of salt","the whole nine yards","throw in the towel","time flies","the tip of the iceberg","up in the air","water under the bridge","wrap one's head around","cut to the chase","the last word","get the ball rolling","no pain no gain","a rule of thumb","actions speak louder than words"]
 };
 let curTopic=null;
 const OTHER_TOPIC="🗂️ Khác";
@@ -670,16 +670,16 @@ document.body.addEventListener("click",e=>{
 (function(){ let ch=false; words.forEach(w=>{ if(!w.topic){ w.topic=categorize(w.word); ch=true; } }); if(ch) save(words); })();
 // tự động nạp sẵn toàn bộ từ vựng theo chủ đề (chỉ 1 lần, không cần mạng)
 (function(){
-  if(localStorage.getItem("vocab_seeded_v2")) return;
+  if(localStorage.getItem("vocab_seeded_v3")) return;
   const seed=window.VOCAB_SEED||[];
   if(!seed.length) return;
   const have=new Set(words.map(w=>w.word.toLowerCase()));
   seed.forEach((s,idx)=>{ if(have.has(s.word.toLowerCase())) return;
-    words.push({ id:"seed2_"+idx, word:s.word, phonetic:s.phonetic||"", audio:s.audio||"",
+    words.push({ id:"seed3_"+idx, word:s.word, phonetic:s.phonetic||"", audio:s.audio||"",
       meanings:s.meanings||[], manual:!(s.meanings&&s.meanings.length), unotes:[], uexs:[],
       known:false, topic:s.topic, date:nowStamp() }); });
   save(words);
-  localStorage.setItem("vocab_seeded_v2","1");
+  localStorage.setItem("vocab_seeded_v3","1");
 })();
 buildTopicDD("addTopicDD","__auto__","🎯 Tự động (gợi ý theo từ)",()=>addTopicVal,v=>{ addTopicVal=v; });
 buildTopicDD("filterDD","__all__","📋 Tất cả chủ đề",()=>filterTopic,v=>{ filterTopic=v; listLimit=20; renderList(); });
