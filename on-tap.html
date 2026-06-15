@@ -48,7 +48,10 @@
   .card.known{border-color:#bbf7d0;background:#f0fdf4}
   .word{font-size:19px;font-weight:800}
   .lrow{display:flex;align-items:center;gap:8px;cursor:pointer}
-  .lrow .word{flex:1;font-size:17px}
+  .lrow .word{font-size:17px}
+  .lrow .lmain{flex:1;min-width:0}
+  .wtop{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+  .gloss{font-size:12px;color:#6b7280;margin-top:2px;line-height:1.4}
   .lrow .phon{font-size:13px;color:var(--muted)}
   .chev{color:#9ca3af;font-size:13px;width:16px;text-align:center;flex:0 0 16px}
   .details{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
@@ -374,12 +377,21 @@ function cardHTML(w){
 }
 
 /* ===== DANH SÁCH ===== */
+function shortDef(w){
+  for(const m of (w.meanings||[])) for(const d of (m.defs||[])) if(d.def){
+    let t=d.def; if(t.length>72) t=t.slice(0,72).replace(/\s+\S*$/,'')+'…'; return t;
+  }
+  return "";
+}
+let listLimit=20;
 function cardListItem(w){
   const badge=w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
   const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
+  const gloss=shortDef(w); const glossHTML=gloss?'<div class="gloss">'+esc(gloss)+'</div>':'';
   return '<div class="card list-item'+(w.known?' known':'')+'">'+
     '<div class="lrow" data-toggle="'+w.id+'">'+
-      '<span class="word">'+esc(w.word)+'</span>'+phon+badge+
+      '<div class="lmain"><div class="wtop"><span class="word">'+esc(w.word)+'</span> '+phon+'</div>'+glossHTML+'</div>'+
+      badge+
       '<button class="spk" data-spk="'+w.id+'">🔊</button>'+
       '<button class="del" data-del="'+w.id+'" title="Xoá">🗑️</button>'+
       '<span class="chev" id="chev_'+w.id+'">▾</span>'+
@@ -401,11 +413,20 @@ function renderList(){
   // nhóm theo chủ đề
   const groups={};
   arr.forEach(w=>{ const t=w.topic||OTHER_TOPIC; (groups[t]=groups[t]||[]).push(w); });
-  const order=Object.keys(TOPICS_VOCAB).concat([OTHER_TOPIC]);
-  let html="";
-  order.forEach(t=>{ if(groups[t]){ html+=groupHTML(t,groups[t]); delete groups[t]; } });
-  Object.keys(groups).forEach(t=>html+=groupHTML(t,groups[t])); // chủ đề lạ (nếu có)
+  const known=Object.keys(TOPICS_VOCAB).concat([OTHER_TOPIC]);
+  const orderedTopics=known.filter(t=>groups[t]).concat(Object.keys(groups).filter(t=>!known.includes(t)));
+  // chỉ render tối đa listLimit từ (mặc định 20) cho nhẹ
+  let shown=0, html="";
+  for(const t of orderedTopics){
+    if(shown>=listLimit) break;
+    const slice=groups[t].slice(0, listLimit-shown);
+    html+=groupHTML(t,slice); shown+=slice.length;
+  }
+  if(arr.length>listLimit){
+    html+='<div style="text-align:center;margin:12px 0"><button class="btn" id="moreBtn">⬇️ Xem thêm ('+(arr.length-listLimit)+' từ còn lại)</button></div>';
+  }
   $("list").innerHTML=html;
+  const mb=$("moreBtn"); if(mb) mb.onclick=()=>{ listLimit+=50; renderList(); };
 }
 function groupHTML(topic,arr){
   return '<div class="grouphdr">'+esc(topic)+' <span class="gcount">'+arr.length+'</span></div>'+arr.map(cardListItem).join("");
@@ -562,7 +583,7 @@ document.querySelectorAll(".tab").forEach(tb=>{
     document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
     document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
     tb.classList.add("active"); $("panel-"+tb.dataset.panel).classList.add("active");
-    if(tb.dataset.panel==="list") renderList();
+    if(tb.dataset.panel==="list"){ listLimit=20; renderList(); }
     else if(tb.dataset.panel==="flash") buildDeck();
     else if(tb.dataset.panel==="add") $("wordInput").focus();
   };
@@ -571,8 +592,8 @@ document.querySelectorAll(".tab").forEach(tb=>{
 /* ===== BIND ===== */
 $("addBtn").onclick=tryAdd;
 $("wordInput").addEventListener("keydown",e=>{ if(e.key==="Enter") tryAdd(); });
-$("search").addEventListener("input",renderList);
-$("topicFilter").addEventListener("change",renderList);
+$("search").addEventListener("input",()=>{listLimit=20;renderList();});
+$("topicFilter").addEventListener("change",()=>{listLimit=20;renderList();});
 $("flashTopic").addEventListener("change",buildDeck);
 $("exportBtn").onclick=exportAnki;
 $("onlyUnknown").addEventListener("change",buildDeck);
