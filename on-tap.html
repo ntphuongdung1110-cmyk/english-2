@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ôn tập từ vựng</title>
+<style>
+  :root{ --accent:#2563eb; --accent2:#7e57c2; --ink:#1f2933; --muted:#6b7280;
+    --line:#e5e7eb; --card:#fff; --ok:#22c55e; --bad:#ef4444; --warn:#f59e0b; }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:#f5f6f8;line-height:1.55}
+  header{padding:22px 18px;color:#fff;background:linear-gradient(135deg,#0ea5e9,#7e57c2)}
+  header h1{margin:0 0 4px;font-size:20px}
+  header .sub{font-size:13px;opacity:.92}
+  .nav{font-size:13px;margin-bottom:6px}
+  .nav a{color:#fff;text-decoration:underline;margin-right:14px}
+  .wrap{max-width:760px;margin:0 auto;padding:16px 14px 70px}
+  .tabs{display:flex;gap:8px;margin:14px 0}
+  .tab{flex:1;text-align:center;padding:12px;border-radius:12px;cursor:pointer;font-weight:700;
+    border:1px solid var(--line);background:#fff;user-select:none}
+  .tab.active{background:linear-gradient(135deg,#e0f2fe,#ede9fe);border-color:var(--accent);color:#1e40af}
+  .panel{display:none}.panel.active{display:block}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:6px 0 12px}
+  #search{flex:1;min-width:160px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
+  .count{font-size:13px;color:var(--muted);font-weight:600;white-space:nowrap}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+  .card.known{border-color:#bbf7d0;background:#f0fdf4}
+  .wline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .word{font-size:19px;font-weight:800}
+  .phon{color:var(--muted);font-size:14px}
+  .spk{background:#eef2ff;border:none;border-radius:8px;width:32px;height:32px;cursor:pointer;font-size:15px}
+  .badge{font-size:11px;font-weight:700;border-radius:999px;padding:1px 9px}
+  .badge.k{background:#dcfce7;color:#166534}.badge.n{background:#fef3c7;color:#92400e}
+  .pos{display:inline-block;background:#ede9fe;color:#5b21b6;border-radius:999px;padding:1px 9px;font-size:11px;font-weight:700;margin:8px 0 2px}
+  .def{margin:2px 0 2px 2px;font-size:15px}
+  .ex{margin:2px 0 8px 14px;font-size:14px;color:#374151;border-left:3px solid #c7d2fe;padding-left:8px}
+  .ex .lbl{color:var(--accent);font-weight:600;font-size:12px}
+  .uextra{margin-top:8px;font-size:14px;color:#374151;background:#fafafa;border-radius:8px;padding:8px}
+  .exspk{background:#eef2ff;border:none;border-radius:6px;cursor:pointer;font-size:12px;padding:1px 6px;vertical-align:middle}
+  .exspk:hover{background:#c7d2fe}
+  .btn{background:#fff;border:1px solid var(--line);border-radius:9px;padding:8px 12px;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;color:var(--ink)}
+  .empty{text-align:center;color:var(--muted);padding:46px 14px;font-size:14px}
+  .empty a{color:var(--accent)}
+
+  /* Flashcard */
+  .fcwrap{text-align:center}
+  .progress{font-size:13px;color:var(--muted);margin-bottom:10px}
+  .flash{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 18px;min-height:230px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.05)}
+  .flash .fword{font-size:30px;font-weight:800}
+  .flash .fphon{color:var(--muted);font-size:16px;margin-top:4px}
+  .flash .fhint{color:#9ca3af;font-size:13px;margin-top:14px}
+  .answer{margin-top:12px;text-align:left;width:100%;display:none}
+  .answer.show{display:block}
+  .fcontrols{display:flex;gap:8px;justify-content:center;margin-top:14px;flex-wrap:wrap}
+  .big{padding:12px 18px;border-radius:12px;font-size:15px;font-weight:700;cursor:pointer;border:none;color:#fff}
+  .big.show{background:var(--accent)}
+  .big.know{background:var(--ok)}
+  .big.dont{background:var(--warn)}
+  .big.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+  .optline{display:flex;align-items:center;justify-content:center;gap:14px;margin:12px 0;font-size:13px;color:var(--muted);flex-wrap:wrap}
+  .optline label{cursor:pointer}
+  .done{font-size:16px;font-weight:700;color:#166534;text-align:center;padding:30px 10px}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a href="chuong-trinh-hoc.html">🎯 Chương trình học</a>
+    <a href="tu-vung.html">📒 Thêm từ vựng</a>
+  </div>
+  <h1>📚 Ôn tập từ vựng</h1>
+  <div class="sub">Xem lại tất cả từ bạn đã thêm và ôn bằng thẻ ghi nhớ.</div>
+</header>
+
+<div class="wrap">
+
+  <div class="tabs">
+    <div class="tab active" data-panel="list">📋 Danh sách</div>
+    <div class="tab" data-panel="flash">🎴 Thẻ ghi nhớ</div>
+  </div>
+
+  <!-- ===== LIST ===== -->
+  <div class="panel list active" id="panel-list">
+    <div class="toolbar">
+      <input id="search" placeholder="🔍 Tìm từ…">
+      <span class="count" id="count">0 từ</span>
+    </div>
+    <div id="list"></div>
+  </div>
+
+  <!-- ===== FLASHCARD ===== -->
+  <div class="panel flash" id="panel-flash">
+    <div class="optline">
+      <label><input type="checkbox" id="onlyUnknown"> Chỉ ôn từ chưa thuộc</label>
+      <a class="btn" id="shuffleBtn">🔀 Xáo trộn lại</a>
+      <a class="btn" id="resetKnown">♻️ Bỏ đánh dấu thuộc</a>
+    </div>
+    <div class="fcwrap">
+      <div class="progress" id="progress"></div>
+      <div id="flashArea"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const LS = "vocab_notebook_v1";   // CHUNG dữ liệu với trang thêm từ
+function load(){ try{return JSON.parse(localStorage.getItem(LS))||[]}catch(e){return []} }
+function save(arr){ localStorage.setItem(LS, JSON.stringify(arr)); }
+let words = load();
+const $ = id => document.getElementById(id);
+
+function speakText(text){
+  text=(text||"").trim(); if(!text) return;
+  if(window.speechSynthesis){
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text); u.lang="en-US"; u.rate=0.95; speechSynthesis.speak(u);
+  }
+}
+function speakWord(w){ if(w.audio){ new Audio(w.audio).play().catch(()=>speakText(w.word)); } else speakText(w.word); }
+function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+function meaningsHTML(w){
+  let h="";
+  w.meanings.forEach(m=>{
+    h+='<div class="pos">'+esc(m.pos)+'</div>';
+    m.defs.forEach(d=>{
+      h+='<div class="def">• '+esc(d.def)+'</div>';
+      if(d.ex) h+='<div class="ex"><span class="lbl">Ví dụ:</span> '+esc(d.ex)+' <button class="exspk" data-text="'+esc(d.ex)+'" title="Đọc to">🔊</button></div>';
+    });
+  });
+  if(!w.meanings.length) h+='<div class="def" style="color:#92400e">Chưa có định nghĩa tự động.</div>';
+  let extra="";
+  if(w.source) extra+='<div>📖 '+esc(w.source)+'</div>';
+  if(w.userExample) extra+='<div>✍️ '+esc(w.userExample)+' <button class="exspk" data-text="'+esc(w.userExample)+'" title="Đọc to">🔊</button></div>';
+  if(extra) h+='<div class="uextra">'+extra+'</div>';
+  return h;
+}
+
+/* ===== LIST tab ===== */
+function renderList(){
+  words = load();
+  const q=$("search").value.trim().toLowerCase();
+  const arr = q ? words.filter(w=>w.word.toLowerCase().includes(q)||(w.source||"").toLowerCase().includes(q)) : words;
+  const knownN = words.filter(w=>w.known).length;
+  $("count").textContent = words.length+" từ · "+knownN+" đã thuộc";
+  if(!arr.length){
+    $("list").innerHTML='<div class="empty">'+(words.length?"Không tìm thấy từ nào khớp.":'Chưa có từ nào. <a href="tu-vung.html">Thêm từ vựng →</a>')+'</div>';
+    return;
+  }
+  $("list").innerHTML = arr.map(w=>{
+    const badge = w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
+    const phon = w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
+    return '<div class="card'+(w.known?' known':'')+'">'+
+      '<div class="wline"><span class="word">'+esc(w.word)+'</span>'+phon+
+      '<button class="spk" data-spk="'+w.id+'">🔊</button>'+badge+'</div>'+
+      meaningsHTML(w)+'</div>';
+  }).join("");
+}
+
+/* ===== FLASHCARD tab ===== */
+let deck=[], pos=0, flipped=false;
+
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+
+function buildDeck(){
+  words = load();
+  let pool = words.slice();
+  if($("onlyUnknown").checked) pool = pool.filter(w=>!w.known);
+  deck = shuffle(pool.map(w=>w.id));
+  pos=0; flipped=false;
+  renderFlash();
+}
+function currentWord(){ const id=deck[pos]; return words.find(w=>w.id===id); }
+
+function renderFlash(){
+  if(!deck.length){
+    $("progress").textContent="";
+    $("flashArea").innerHTML='<div class="empty">'+($("onlyUnknown").checked?"Không còn từ chưa thuộc nào — bạn giỏi quá! 🎉":'Chưa có từ nào. <a href="tu-vung.html">Thêm từ vựng →</a>')+'</div>';
+    return;
+  }
+  if(pos>=deck.length){
+    const knownN=words.filter(w=>w.known).length;
+    $("progress").textContent="";
+    $("flashArea").innerHTML='<div class="done">🎉 Đã ôn hết '+deck.length+' từ!<br><span style="font-weight:400;color:#6b7280;font-size:14px">Tổng đã thuộc: '+knownN+'/'+words.length+'</span><br><br><button class="big show" id="againBtn">Ôn lại từ đầu</button></div>';
+    $("againBtn").onclick=buildDeck;
+    return;
+  }
+  const w=currentWord();
+  $("progress").textContent="Thẻ "+(pos+1)+" / "+deck.length+(w.known?"  ·  ✅ đã thuộc":"");
+  const phon = w.phonetic?'<div class="fphon">'+esc(w.phonetic)+'</div>':'';
+  $("flashArea").innerHTML=
+    '<div class="flash">'+
+      '<div class="fword">'+esc(w.word)+' <button class="spk" data-spk="'+w.id+'">🔊</button></div>'+
+      phon+
+      (flipped? '<div class="answer show">'+meaningsHTML(w)+'</div>'
+              : '<div class="fhint">Tự nhớ nghĩa trong đầu, rồi bấm “Hiện nghĩa”.</div>')+
+    '</div>'+
+    '<div class="fcontrols">'+
+      (flipped
+        ? '<button class="big dont" data-act="dont">❌ Chưa thuộc</button>'+
+          '<button class="big know" data-act="know">✅ Đã thuộc</button>'+
+          '<button class="big ghost" data-act="skip">⏭️ Bỏ qua</button>'
+        : '<button class="big show" data-act="flip">👁️ Hiện nghĩa</button>'+
+          '<button class="big ghost" data-act="skip">⏭️ Bỏ qua</button>')+
+    '</div>';
+}
+
+function rate(known){
+  const w=currentWord(); if(w){ w.known=known; save(words); }
+  pos++; flipped=false; renderFlash();
+}
+
+/* ===== Events ===== */
+document.querySelectorAll(".tab").forEach(tb=>{
+  tb.onclick=()=>{
+    document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+    document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
+    tb.classList.add("active");
+    $("panel-"+tb.dataset.panel).classList.add("active");
+    if(tb.dataset.panel==="flash") buildDeck(); else renderList();
+  };
+});
+$("search").addEventListener("input", renderList);
+$("onlyUnknown").addEventListener("change", buildDeck);
+$("shuffleBtn").onclick=buildDeck;
+$("resetKnown").onclick=()=>{
+  if(!confirm("Bỏ đánh dấu “đã thuộc” cho TẤT CẢ từ?")) return;
+  words.forEach(w=>w.known=false); save(words); renderList(); if($("panel-flash").classList.contains("active")) buildDeck();
+};
+// đọc to (delegation cho cả 2 panel)
+document.body.addEventListener("click", e=>{
+  const ex=e.target.closest(".exspk"); if(ex){ speakText(ex.dataset.text); return; }
+  const sp=e.target.closest(".spk"); if(sp){ const w=words.find(x=>x.id===sp.dataset.spk); if(w) speakWord(w); return; }
+  const fa=e.target.closest("[data-act]");
+  if(fa){
+    const a=fa.dataset.act;
+    if(a==="flip"){ flipped=true; renderFlash(); }
+    else if(a==="know") rate(true);
+    else if(a==="dont") rate(false);
+    else if(a==="skip"){ pos++; flipped=false; renderFlash(); }
+  }
+});
+
+renderList();
+</script>
+</body>
+</html>
