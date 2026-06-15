@@ -65,6 +65,14 @@
   .uextra{margin-top:8px;font-size:14px;color:#374151;background:#fafafa;border-radius:8px;padding:8px}
   .exspk{background:#eef2ff;border:none;border-radius:6px;cursor:pointer;font-size:12px;padding:1px 6px;vertical-align:middle}
   .exspk:hover{background:#c7d2fe}
+  .usec{margin-top:8px;background:#fff;border:1px dashed var(--line);border-radius:8px;padding:8px}
+  .ulabel{font-size:12px;color:#6b7280;margin-bottom:5px;font-weight:600}
+  .urow{display:flex;gap:6px;align-items:center;margin-bottom:6px}
+  .uinp{flex:1;border:1px solid var(--line);border-radius:8px;padding:6px;font-family:inherit;font-size:14px}
+  textarea.uinp{align-self:stretch}
+  .del.small,.minispk{width:30px;height:30px;flex:0 0 30px;font-size:13px;border-radius:8px;cursor:pointer;border:none}
+  .minispk{background:#eef2ff}.minispk:hover{background:#c7d2fe}
+  .addrow-btn{background:#eef2ff;border:1px solid #c7d2fe;color:#3730a3;border-radius:8px;padding:5px 10px;font-size:12px;font-weight:600;cursor:pointer}
   .exlinks{margin:8px 0 2px}
   .exlinks .btn{display:inline-block;margin:4px 6px 4px 0;font-size:12px}
   .noex{font-size:12px;color:#92400e;margin-bottom:4px}
@@ -150,6 +158,12 @@ const DATAMUSE = "https://api.datamuse.com/words";
 function load(){ try{return JSON.parse(localStorage.getItem(LS))||[]}catch(e){return []} }
 function save(arr){ localStorage.setItem(LS, JSON.stringify(arr)); }
 let words = load();
+// migration: chuyển dữ liệu cũ (source/userExample 1 ô) sang dạng nhiều mục
+(function(){ let changed=false;
+  words.forEach(w=>{ if(!Array.isArray(w.unotes)){ w.unotes=w.source?[w.source]:[]; changed=true; }
+                     if(!Array.isArray(w.uexs)){ w.uexs=w.userExample?[w.userExample]:[]; changed=true; } });
+  if(changed) save(words);
+})();
 const $ = id => document.getElementById(id);
 function nowStamp(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
 function uid(){ return "w"+Date.now()+Math.floor(Math.random()*1000); }
@@ -237,7 +251,7 @@ function warnBox(raw, sug, isPhrase){
 }
 function commit(data, raw){
   const entry={ id:uid(), word:data.word||raw, phonetic:data.phonetic||"", audio:data.audio||"",
-    meanings:data.meanings||[], manual:!data.found, userExample:"", source:"", known:false, date:nowStamp() };
+    meanings:data.meanings||[], manual:!data.found, unotes:[], uexs:[], known:false, date:nowStamp() };
   words.unshift(entry); save(words); refreshCount();
   return entry;
 }
@@ -262,19 +276,8 @@ function meaningsHTML(w){
     });
   });
   if(!w.meanings.length) h+='<div class="def" style="color:#92400e">Chưa có định nghĩa tự động — tự ghi ở ô bên dưới.</div>';
-  // ghi chú người dùng (xem)
-  let extra="";
-  if(w.source) extra+='<div>📖 '+esc(w.source)+'</div>';
-  if(w.userExample) extra+='<div>✍️ '+esc(w.userExample)+' <button class="exspk" data-text="'+esc(w.userExample)+'" title="Đọc to">🔊</button></div>';
-  if(extra) h+='<div class="uextra">'+extra+'</div>';
-  // ô soạn của người dùng
-  h+='<div class="uextra" style="background:#fff;border:1px dashed var(--line)">'+
-       '<div style="font-size:12px;color:#6b7280;margin-bottom:3px">📖 Nghĩa của bạn / ghi chú</div>'+
-       '<textarea rows="2" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:6px;font-family:inherit" oninput="updateField(\''+w.id+'\',\'source\',this.value)" placeholder="Tự ghi thêm…">'+esc(w.source)+'</textarea>'+
-       '<div style="font-size:12px;color:#6b7280;margin:6px 0 3px">✍️ Câu ví dụ của bạn</div>'+
-       '<input id="uex_'+w.id+'" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:6px" oninput="updateField(\''+w.id+'\',\'userExample\',this.value)" placeholder="Tự đặt một câu…" value="'+esc(w.userExample)+'">'+
-       '<button class="btn" style="margin-top:6px;font-size:12px" onclick="speakText(document.getElementById(\'uex_'+w.id+'\').value)">🔊 Đọc câu của bạn</button>'+
-     '</div>';
+  // ô soạn của người dùng (nhiều ghi chú + nhiều câu ví dụ, có thêm/xoá)
+  h+='<div class="uedit-wrap" data-uedit="'+w.id+'">'+ueditHTML(w)+'</div>';
   // link ví dụ thật
   const q=encodeURIComponent(w.word);
   const exCount=w.meanings.reduce((n,m)=>n+m.defs.filter(d=>d.ex).length,0);
@@ -286,6 +289,31 @@ function meaningsHTML(w){
   return h;
 }
 function updateField(id, field, val){ const w=words.find(x=>x.id===id); if(w){ w[field]=val; save(words); } }
+/* ---- nhiều ghi chú / câu ví dụ của người dùng ---- */
+function ensureArrays(w){
+  if(!Array.isArray(w.unotes)) w.unotes = w.source ? [w.source] : [];
+  if(!Array.isArray(w.uexs))   w.uexs   = w.userExample ? [w.userExample] : [];
+}
+function ueditHTML(w){
+  ensureArrays(w);
+  let h='<div class="usec"><div class="ulabel">📖 Nghĩa của bạn / ghi chú</div>';
+  w.unotes.forEach((t,i)=>{ h+='<div class="urow">'+
+    '<textarea rows="2" class="uinp" oninput="updateArr(\''+w.id+'\',\'unotes\','+i+',this.value)" placeholder="Ghi chú / nghĩa tiếng Việt…">'+esc(t)+'</textarea>'+
+    '<button class="del small" onclick="delArr(\''+w.id+'\',\'unotes\','+i+')" title="Xoá">🗑️</button></div>'; });
+  h+='<button class="addrow-btn" onclick="addArr(\''+w.id+'\',\'unotes\')">➕ Thêm ghi chú</button></div>';
+  h+='<div class="usec"><div class="ulabel">✍️ Câu ví dụ của bạn</div>';
+  w.uexs.forEach((t,i)=>{ h+='<div class="urow">'+
+    '<input class="uinp" oninput="updateArr(\''+w.id+'\',\'uexs\','+i+',this.value)" placeholder="Tự đặt một câu…" value="'+esc(t)+'">'+
+    '<button class="minispk" onclick="speakText(this.previousElementSibling.value)" title="Đọc to">🔊</button>'+
+    '<button class="del small" onclick="delArr(\''+w.id+'\',\'uexs\','+i+')" title="Xoá">🗑️</button></div>'; });
+  h+='<button class="addrow-btn" onclick="addArr(\''+w.id+'\',\'uexs\')">➕ Thêm câu ví dụ</button></div>';
+  return h;
+}
+function updateArr(id,key,idx,val){ const w=words.find(x=>x.id===id); if(!w)return; ensureArrays(w); w[key][idx]=val; save(words); }
+function addArr(id,key){ const w=words.find(x=>x.id===id); if(!w)return; ensureArrays(w); w[key].push(""); save(words); renderUEdit(id); }
+function delArr(id,key,idx){ const w=words.find(x=>x.id===id); if(!w)return; ensureArrays(w); w[key].splice(idx,1); save(words); renderUEdit(id); }
+function renderUEdit(id){ const w=words.find(x=>x.id===id); if(!w)return;
+  document.querySelectorAll('[data-uedit="'+id+'"]').forEach(el=>{ el.innerHTML=ueditHTML(w); }); }
 function delWord(id){
   const w=words.find(x=>x.id===id); if(!w) return;
   if(!confirm("Xoá “"+w.word+"” khỏi sổ?")) return;
@@ -306,7 +334,7 @@ function cardHTML(w){
 function renderList(){
   words=load();
   const q=$("search").value.trim().toLowerCase();
-  const arr=q?words.filter(w=>w.word.toLowerCase().includes(q)||(w.source||"").toLowerCase().includes(q)):words;
+  const arr=q?words.filter(w=>(w.word+" "+(w.unotes||[]).join(" ")+" "+(w.source||"")).toLowerCase().includes(q)):words;
   refreshCount();
   if(!arr.length){
     $("list").innerHTML='<div class="empty">'+(words.length?"Không tìm thấy từ nào khớp.":'Chưa có từ nào. Qua tab <b>➕ Thêm</b> để bắt đầu! 🌱')+'</div>';
@@ -334,8 +362,9 @@ function exportAnki(){
   const rows=words.map(w=>{
     let back=w.phonetic?w.phonetic+"<br>":"";
     w.meanings.forEach(m=>m.defs.forEach(d=>{ back+="("+m.pos+") "+d.def; if(d.ex) back+="<br><i>e.g. "+d.ex+"</i>"; back+="<br>"; }));
-    if(w.source) back+="<br>"+w.source;
-    if(w.userExample) back+="<br><i>"+w.userExample+"</i>";
+    ensureArrays(w);
+    w.unotes.filter(Boolean).forEach(n=>back+="<br>"+n);
+    w.uexs.filter(Boolean).forEach(x=>back+="<br><i>"+x+"</i>");
     return w.word.replace(/\t/g," ")+"\t"+back.replace(/\t/g," ");
   });
   const a=document.createElement("a");
