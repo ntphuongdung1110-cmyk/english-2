@@ -146,7 +146,7 @@
         <input id="wordInput" placeholder="Nhập từ hoặc cụm từ/idiom, vd: improve · piece of cake" autocomplete="off">
         <button class="primary" id="addBtn">+ Thêm</button>
       </div>
-      <div class="savetopic">🗂️ Lưu vào chủ đề: <select id="addTopic" class="topicsel"></select></div>
+      <div class="savetopic" style="display:flex;align-items:center;gap:6px">🗂️ Lưu vào chủ đề: <span class="ddwrap" id="addTopicDD"><button class="ddbtn" type="button"><span class="ddlabel">🎯 Tự động</span><span class="ddcaret">▾</span></button><div class="ddlist" hidden></div></span></div>
       <div class="status" id="status"></div>
       <div class="hint">App <b>kiểm tra nghĩa trước khi thêm</b>: từ đơn tra từ điển (sai chính tả sẽ gợi ý sửa), cụm từ/idiom tra Wiktionary (vd: <i>on the same page</i>).</div>
     </div>
@@ -273,8 +273,7 @@ async function tryAdd(){
       setStatus("“"+raw+"” đã có trong sổ rồi.","err"); $("addResult").innerHTML=""; return;
     }
     if(data.found){
-      const chosen=$("addTopic")?$("addTopic").value:"__auto__";
-      const entry=commit(data, raw, chosen==="__auto__"?undefined:chosen);
+      const entry=commit(data, raw, addTopicVal==="__auto__"?undefined:addTopicVal);
       setStatus("");
       $("addResult").innerHTML = '<div style="font-size:13px;color:#166534;margin:10px 0 6px">✓ Đã thêm “'+esc(entry.word)+'” vào sổ:</div>'+ cardHTML(entry, false);
       $("wordInput").value=""; $("wordInput").focus();
@@ -311,8 +310,7 @@ function commit(data, raw, topic){
 }
 function addManual(raw){
   if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){ setStatus("“"+raw+"” đã có rồi.","err"); return; }
-  const chosen=$("addTopic")?$("addTopic").value:"__auto__";
-  const entry=commit({found:false, word:raw, meanings:[]}, raw, chosen==="__auto__"?undefined:chosen);
+  const entry=commit({found:false, word:raw, meanings:[]}, raw, addTopicVal==="__auto__"?undefined:addTopicVal);
   setStatus("✓ Đã thêm “"+esc(raw)+"” — nhớ tự ghi nghĩa ở phần chi tiết.","ok");
   $("addResult").innerHTML = cardHTML(entry, false);
   $("wordInput").value="";
@@ -395,7 +393,7 @@ function shortDef(w){
   return "";
 }
 let listLimit=20;
-let filterTopic="__all__", flashTopicVal="__all__";
+let filterTopic="__all__", flashTopicVal="__all__", addTopicVal="__auto__";
 function cardListItem(w){
   const badge=w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
   const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
@@ -576,11 +574,11 @@ function fillTopicSelect(id, firstVal, firstLabel){
     '<option value="'+esc(OTHER_TOPIC)+'">'+esc(OTHER_TOPIC)+'</option>';
 }
 // dropdown tuỳ chỉnh (xổ xuống) cho lọc chủ đề ở Danh sách & Thẻ ghi nhớ
-function buildTopicDD(wrapId, allLabel, getVal, setVal){
+function buildTopicDD(wrapId, firstVal, firstLabel, getVal, setVal){
   const wrap=$(wrapId); if(!wrap) return;
   const btn=wrap.querySelector(".ddbtn"), lbl=wrap.querySelector(".ddlabel"), list=wrap.querySelector(".ddlist");
-  const opts=[{v:"__all__",t:allLabel}].concat(Object.keys(TOPICS_VOCAB).map(k=>({v:k,t:k}))).concat([{v:OTHER_TOPIC,t:OTHER_TOPIC}]);
-  const curLabel=()=>{ const o=opts.find(x=>x.v===getVal()); return o?o.t:allLabel; };
+  const opts=[{v:firstVal,t:firstLabel}].concat(Object.keys(TOPICS_VOCAB).map(k=>({v:k,t:k}))).concat([{v:OTHER_TOPIC,t:OTHER_TOPIC}]);
+  const curLabel=()=>{ const o=opts.find(x=>x.v===getVal()); return o?o.t:firstLabel; };
   function render(){ lbl.textContent=curLabel(); const cur=getVal();
     list.innerHTML=opts.map(o=>'<div class="dditem'+(o.v===cur?' sel':'')+'" data-v="'+esc(o.v)+'">'+esc(o.t)+'</div>').join(''); }
   btn.addEventListener("click",e=>{ e.stopPropagation(); if(list.hasAttribute("hidden")){ render(); list.removeAttribute("hidden"); } else list.setAttribute("hidden",""); });
@@ -678,9 +676,9 @@ document.body.addEventListener("click",e=>{
   save(words);
   localStorage.setItem("vocab_seeded_v1","1");
 })();
-fillTopicSelect("addTopic","__auto__","🎯 Tự động (gợi ý theo từ)");
-buildTopicDD("filterDD","📋 Tất cả chủ đề",()=>filterTopic,v=>{ filterTopic=v; listLimit=20; renderList(); });
-buildTopicDD("flashDD","Tất cả chủ đề",()=>flashTopicVal,v=>{ flashTopicVal=v; buildDeck(); });
+buildTopicDD("addTopicDD","__auto__","🎯 Tự động (gợi ý theo từ)",()=>addTopicVal,v=>{ addTopicVal=v; });
+buildTopicDD("filterDD","__all__","📋 Tất cả chủ đề",()=>filterTopic,v=>{ filterTopic=v; listLimit=20; renderList(); });
+buildTopicDD("flashDD","__all__","Tất cả chủ đề",()=>flashTopicVal,v=>{ flashTopicVal=v; buildDeck(); });
 $("wordInput").focus();
 </script>
 </body>
