@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sổ tay từ vựng của tôi</title>
+<style>
+  :root{ --accent:#2563eb; --accent2:#7e57c2; --ink:#1f2933; --muted:#6b7280;
+    --line:#e5e7eb; --card:#fff; --ok:#22c55e; --warn:#f59e0b; --bad:#ef4444; }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:#f5f6f8;line-height:1.55}
+  header{padding:22px 18px;color:#fff;background:linear-gradient(135deg,#2563eb,#7e57c2)}
+  header h1{margin:0 0 4px;font-size:20px}
+  header .sub{font-size:13px;opacity:.92}
+  .wrap{max-width:760px;margin:0 auto;padding:16px 14px 70px}
+  .addbar{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:14px 0}
+  .addrow{display:flex;gap:8px}
+  #wordInput{flex:1;padding:11px 12px;border:1px solid var(--line);border-radius:10px;font-size:16px}
+  button.primary{background:var(--accent);color:#fff;border:none;border-radius:10px;padding:0 18px;font-size:15px;font-weight:700;cursor:pointer}
+  button.primary:disabled{opacity:.5;cursor:wait}
+  .hint{font-size:12px;color:var(--muted);margin-top:8px}
+  .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:10px 0}
+  #search{flex:1;min-width:160px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
+  .count{font-size:13px;color:var(--muted);font-weight:600;white-space:nowrap}
+  .btn{background:#fff;border:1px solid var(--line);border-radius:9px;padding:8px 12px;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;color:var(--ink)}
+  .btn.amber{border-color:#fcd34d;background:#fffbeb;color:#92400e}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+  .card.manual{border-color:#fcd34d;background:#fffdf5}
+  .wline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .word{font-size:20px;font-weight:800}
+  .phon{color:var(--muted);font-size:14px}
+  .spk{background:#eef2ff;border:none;border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:16px}
+  .pos{display:inline-block;background:#ede9fe;color:#5b21b6;border-radius:999px;padding:1px 9px;font-size:11px;font-weight:700;margin:8px 0 2px}
+  .def{margin:2px 0 2px 2px;font-size:15px}
+  .ex{margin:2px 0 8px 14px;font-size:14px;color:#374151;border-left:3px solid #c7d2fe;padding-left:8px}
+  .ex .lbl{color:var(--accent);font-weight:600;font-size:12px}
+  .meta{font-size:11px;color:#9ca3af;margin-top:6px}
+  .uedit{margin-top:10px;border-top:1px dashed var(--line);padding-top:10px}
+  .uedit label{display:block;font-size:12px;font-weight:600;color:var(--muted);margin:6px 0 3px}
+  .uedit textarea, .uedit input{width:100%;border:1px solid var(--line);border-radius:8px;padding:8px;font-size:14px;font-family:inherit;resize:vertical}
+  .del{float:right;background:none;border:none;color:#cbd5e1;cursor:pointer;font-size:18px}
+  .del:hover{color:var(--bad)}
+  .empty{text-align:center;color:var(--muted);padding:40px 10px;font-size:14px}
+  .status{font-size:13px;margin-top:8px;min-height:18px}
+  .status.err{color:var(--bad)}
+  .status.ok{color:var(--ok)}
+  .tipbox{background:#ecfeff;border:1px solid #a5f3fc;border-radius:12px;padding:10px 14px;font-size:13px;color:#155e75;margin-bottom:12px}
+  .nav{font-size:13px;margin-bottom:6px}
+  .nav a{color:#fff;text-decoration:underline}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav"><a href="chuong-trinh-hoc.html">← Về chương trình học mỗi ngày</a></div>
+  <h1>📒 Sổ tay từ vựng của tôi</h1>
+  <div class="sub">Gõ từ bạn học/đọc được → tự có nghĩa tiếng Anh, phiên âm, audio & ví dụ thật từ từ điển.</div>
+</header>
+
+<div class="wrap">
+
+  <div class="tipbox">
+    💡 Định nghĩa & ví dụ lấy <b>tự động từ từ điển Free Dictionary</b> (tiếng Anh). Từ nào từ điển chưa có ví dụ,
+    bạn tự viết câu của mình ở ô bên dưới mỗi thẻ. Mọi thứ lưu ngay trong trình duyệt.
+  </div>
+
+  <div class="addbar">
+    <div class="addrow">
+      <input id="wordInput" placeholder="Nhập một từ tiếng Anh, vd: improve" autocomplete="off">
+      <button class="primary" id="addBtn">+ Thêm</button>
+    </div>
+    <div class="status" id="status"></div>
+    <div class="hint">Gõ 1 từ rồi nhấn Enter. Nếu là cụm từ / từ điển không có, app vẫn lưu để bạn tự ghi nghĩa.</div>
+  </div>
+
+  <div class="toolbar">
+    <input id="search" placeholder="🔍 Tìm trong sổ của bạn…">
+    <span class="count" id="count">0 từ</span>
+    <button class="btn amber" id="exportBtn">⬇️ Xuất ra Anki</button>
+  </div>
+
+  <div id="list"></div>
+
+</div>
+
+<script>
+const LS = "vocab_notebook_v1";
+const API = "https://api.dictionaryapi.dev/api/v2/entries/en/";
+
+function load(){ try{return JSON.parse(localStorage.getItem(LS))||[]}catch(e){return []} }
+function save(arr){ localStorage.setItem(LS, JSON.stringify(arr)); }
+let words = load();
+
+const $ = id => document.getElementById(id);
+function nowStamp(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function uid(){ return "w"+Date.now()+Math.floor(Math.random()*1000); } // chỉ để key, không dùng cho logic thời gian
+
+function setStatus(msg, cls){ const s=$("status"); s.textContent=msg||""; s.className="status"+(cls?" "+cls:""); }
+
+/* ===== Thêm từ ===== */
+async function addWord(){
+  const raw = $("wordInput").value.trim();
+  if(!raw){ return; }
+  const word = raw.toLowerCase();
+  if(words.some(w=>w.word.toLowerCase()===word)){
+    setStatus("“"+raw+"” đã có trong sổ rồi.", "err"); return;
+  }
+  $("addBtn").disabled = true;
+  setStatus("Đang tra từ điển…");
+  let entry = { id:uid(), word:raw, phonetic:"", audio:"", meanings:[], manual:false, userExample:"", source:"", date:nowStamp() };
+  try{
+    const res = await fetch(API + encodeURIComponent(word));
+    if(!res.ok) throw new Error("notfound");
+    const data = await res.json();
+    const e = data[0];
+    entry.word = e.word || raw;
+    entry.phonetic = e.phonetic || (e.phonetics||[]).map(p=>p.text).find(Boolean) || "";
+    const ap = (e.phonetics||[]).find(p=>p.audio);
+    entry.audio = ap ? ap.audio : "";
+    // lấy tối đa 3 partOfSpeech, mỗi loại tối đa 2 định nghĩa
+    entry.meanings = (e.meanings||[]).slice(0,3).map(m=>({
+      pos: m.partOfSpeech,
+      defs: (m.definitions||[]).slice(0,2).map(d=>({ def:d.definition||"", ex:d.example||"" }))
+    }));
+    setStatus("✓ Đã thêm “"+entry.word+"”", "ok");
+  }catch(err){
+    entry.manual = true;
+    setStatus("Từ điển chưa có “"+raw+"”. Đã lưu — bạn tự ghi nghĩa & ví dụ bên dưới nhé.", "err");
+  }
+  words.unshift(entry);
+  save(words);
+  $("wordInput").value="";
+  render();
+  $("addBtn").disabled = false;
+}
+
+/* ===== Phát âm ===== */
+function speak(id){
+  const w = words.find(x=>x.id===id); if(!w) return;
+  if(w.audio){ new Audio(w.audio).play().catch(()=>fallbackTTS(w.word)); }
+  else fallbackTTS(w.word);
+}
+function fallbackTTS(text){
+  if(window.speechSynthesis){
+    const u=new SpeechSynthesisUtterance(text); u.lang="en-US"; speechSynthesis.speak(u);
+  }
+}
+
+/* ===== Lưu ghi chú người dùng ===== */
+function updateField(id, field, val){
+  const w = words.find(x=>x.id===id); if(!w) return;
+  w[field] = val; save(words);
+}
+function delWord(id){
+  const w = words.find(x=>x.id===id);
+  if(!confirm("Xoá “"+(w?w.word:"")+"” khỏi sổ?")) return;
+  words = words.filter(x=>x.id!==id); save(words); render();
+}
+
+/* ===== Render ===== */
+function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+function cardHTML(w){
+  let body="";
+  w.meanings.forEach(m=>{
+    body += '<div class="pos">'+esc(m.pos)+'</div>';
+    m.defs.forEach(d=>{
+      body += '<div class="def">• '+esc(d.def)+'</div>';
+      if(d.ex) body += '<div class="ex"><span class="lbl">Ví dụ:</span> '+esc(d.ex)+'</div>';
+    });
+  });
+  if(w.manual && !w.meanings.length){
+    body = '<div class="def" style="color:#92400e">Chưa có định nghĩa tự động — bạn tự ghi ở ô “Nghĩa của bạn” bên dưới.</div>';
+  }
+  const phon = w.phonetic ? '<span class="phon">'+esc(w.phonetic)+'</span>' : '';
+  return ''+
+  '<div class="card'+(w.manual?' manual':'')+'" data-id="'+w.id+'">'+
+    '<button class="del" onclick="delWord(\''+w.id+'\')" title="Xoá">🗑️</button>'+
+    '<div class="wline"><span class="word">'+esc(w.word)+'</span>'+phon+
+      '<button class="spk" onclick="speak(\''+w.id+'\')" title="Phát âm">🔊</button></div>'+
+    body+
+    '<div class="uedit">'+
+      '<label>📖 Nghĩa của bạn / ghi chú (vd: đọc ở đâu, nghĩa tiếng Việt)</label>'+
+      '<textarea rows="2" oninput="updateField(\''+w.id+'\',\'source\',this.value)" placeholder="Tự ghi thêm…">'+esc(w.source)+'</textarea>'+
+      '<label>✍️ Câu ví dụ của bạn</label>'+
+      '<input oninput="updateField(\''+w.id+'\',\'userExample\',this.value)" placeholder="Tự đặt một câu với từ này…" value="'+esc(w.userExample)+'">'+
+    '</div>'+
+    '<div class="meta">Thêm ngày '+esc(w.date)+'</div>'+
+  '</div>';
+}
+
+function render(){
+  const q = $("search").value.trim().toLowerCase();
+  const filtered = q ? words.filter(w=>w.word.toLowerCase().includes(q) || (w.source||"").toLowerCase().includes(q)) : words;
+  $("count").textContent = words.length + " từ";
+  if(!filtered.length){
+    $("list").innerHTML = '<div class="empty">'+(words.length? "Không tìm thấy từ nào khớp." : "Chưa có từ nào. Gõ một từ ở trên và nhấn “Thêm” để bắt đầu! 🌱")+'</div>';
+    return;
+  }
+  $("list").innerHTML = filtered.map(cardHTML).join("");
+}
+
+/* ===== Xuất Anki (TSV: từ \t mặt sau) ===== */
+function exportAnki(){
+  if(!words.length){ alert("Sổ chưa có từ nào để xuất."); return; }
+  const rows = words.map(w=>{
+    let back = w.phonetic ? w.phonetic+"<br>" : "";
+    w.meanings.forEach(m=>{
+      m.defs.forEach(d=>{
+        back += "("+m.pos+") "+d.def;
+        if(d.ex) back += "<br><i>e.g. "+d.ex+"</i>";
+        back += "<br>";
+      });
+    });
+    if(w.source) back += "<br>"+w.source;
+    if(w.userExample) back += "<br><i>"+w.userExample+"</i>";
+    const front = w.word;
+    return front.replace(/\t/g," ") + "\t" + back.replace(/\t/g," ");
+  });
+  const blob = new Blob([rows.join("\n")], {type:"text/plain;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "tu-vung-anki.txt";
+  a.click();
+  setStatus("✓ Đã xuất "+words.length+" từ. Trong Anki: File → Import → chọn file này (phân tách bằng Tab).", "ok");
+}
+
+/* ===== Bind ===== */
+$("addBtn").onclick = addWord;
+$("wordInput").addEventListener("keydown", e=>{ if(e.key==="Enter") addWord(); });
+$("search").addEventListener("input", render);
+$("exportBtn").onclick = exportAnki;
+render();
+</script>
+</body>
+</html>
