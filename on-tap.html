@@ -2,7 +2,11 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0ea5e9">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Từ vựng">
 <title>Từ vựng — Thêm & Ôn tập</title>
 <style>
   :root{ --accent:#2563eb; --accent2:#7e57c2; --ink:#1f2933; --muted:#6b7280;
@@ -95,7 +99,7 @@
   .ddbtn .ddlabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .ddcaret{color:#9ca3af;flex:0 0 auto}
   .ddlist{position:absolute;top:calc(100% + 4px);left:0;z-index:60;background:#fff;border:1px solid var(--line);
-    border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.18);max-height:300px;overflow:auto;padding:4px;min-width:210px}
+    border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.18);max-height:300px;overflow:auto;padding:4px;min-width:210px;max-width:calc(100vw - 32px)}
   .ddlist[hidden]{display:none}
   .dditem{padding:9px 11px;border-radius:7px;cursor:pointer;font-size:14px;white-space:nowrap}
   .dditem:hover{background:#f1f5f9}
