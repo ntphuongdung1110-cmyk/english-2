@@ -35,6 +35,8 @@
   .def{margin:2px 0 2px 2px;font-size:15px}
   .ex{margin:2px 0 8px 14px;font-size:14px;color:#374151;border-left:3px solid #c7d2fe;padding-left:8px}
   .ex .lbl{color:var(--accent);font-weight:600;font-size:12px}
+  .exspk{background:#eef2ff;border:none;border-radius:6px;cursor:pointer;font-size:12px;padding:1px 6px;vertical-align:middle}
+  .exspk:hover{background:#c7d2fe}
   .meta{font-size:11px;color:#9ca3af;margin-top:6px}
   .exlinks{margin:10px 0 2px}
   .exlinks .btn{display:inline-block;margin:4px 6px 4px 0;font-size:12px}
@@ -145,9 +147,15 @@ function speak(id){
   if(w.audio){ new Audio(w.audio).play().catch(()=>fallbackTTS(w.word)); }
   else fallbackTTS(w.word);
 }
-function fallbackTTS(text){
+function fallbackTTS(text){ speakText(text); }
+/* Đọc to bất kỳ đoạn tiếng Anh nào bằng giọng trình duyệt */
+function speakText(text){
+  text = (text||"").trim(); if(!text) return;
   if(window.speechSynthesis){
-    const u=new SpeechSynthesisUtterance(text); u.lang="en-US"; speechSynthesis.speak(u);
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US"; u.rate = 0.95;
+    speechSynthesis.speak(u);
   }
 }
 
@@ -171,7 +179,7 @@ function cardHTML(w){
     body += '<div class="pos">'+esc(m.pos)+'</div>';
     m.defs.forEach(d=>{
       body += '<div class="def">• '+esc(d.def)+'</div>';
-      if(d.ex) body += '<div class="ex"><span class="lbl">Ví dụ:</span> '+esc(d.ex)+'</div>';
+      if(d.ex) body += '<div class="ex"><span class="lbl">Ví dụ:</span> '+esc(d.ex)+' <button class="exspk" data-text="'+esc(d.ex)+'" title="Đọc to">🔊</button></div>';
     });
   });
   if(w.manual && !w.meanings.length){
@@ -196,7 +204,8 @@ function cardHTML(w){
       '<label>📖 Nghĩa của bạn / ghi chú (vd: đọc ở đâu, nghĩa tiếng Việt)</label>'+
       '<textarea rows="2" oninput="updateField(\''+w.id+'\',\'source\',this.value)" placeholder="Tự ghi thêm…">'+esc(w.source)+'</textarea>'+
       '<label>✍️ Câu ví dụ của bạn</label>'+
-      '<input oninput="updateField(\''+w.id+'\',\'userExample\',this.value)" placeholder="Tự đặt một câu với từ này…" value="'+esc(w.userExample)+'">'+
+      '<input id="uex_'+w.id+'" oninput="updateField(\''+w.id+'\',\'userExample\',this.value)" placeholder="Tự đặt một câu với từ này…" value="'+esc(w.userExample)+'">'+
+      '<button class="btn" style="margin-top:6px;font-size:12px" onclick="speakText(document.getElementById(\'uex_'+w.id+'\').value)">🔊 Đọc câu của bạn</button>'+
     '</div>'+
     '<div class="meta">Thêm ngày '+esc(w.date)+'</div>'+
   '</div>';
@@ -243,6 +252,11 @@ $("addBtn").onclick = addWord;
 $("wordInput").addEventListener("keydown", e=>{ if(e.key==="Enter") addWord(); });
 $("search").addEventListener("input", render);
 $("exportBtn").onclick = exportAnki;
+// đọc to câu ví dụ từ điển (event delegation — danh sách render lại nhiều lần)
+$("list").addEventListener("click", e=>{
+  const b = e.target.closest(".exspk");
+  if(b) speakText(b.dataset.text);
+});
 render();
 </script>
 </body>
