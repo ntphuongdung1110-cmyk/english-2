@@ -467,25 +467,39 @@ function rate(known){ const w=currentWord(); if(w){ w.known=known; save(words); 
 
 /* ===== CHỦ ĐỀ TỪ VỰNG ===== */
 const TOPICS_VOCAB = {
-  "🏠 Nhà": ["house","apartment","room","bedroom","kitchen","bathroom","door","window","wall","floor","ceiling","roof","stairs","garage","garden","balcony","table","chair","sofa","bed","wardrobe","shelf","lamp","curtain","mirror","key"],
-  "🍳 Nhà bếp & đồ bếp": ["stove","oven","refrigerator","sink","microwave","kettle","pan","pot","knife","fork","spoon","plate","bowl","cup","glass","dish","blender","toaster","cupboard","spatula","grater","peeler","tongs","chopsticks"],
-  "👕 Trang phục": ["shirt","trousers","jeans","dress","skirt","jacket","coat","sweater","suit","shorts","socks","shoes","boots","sandals","hat","cap","scarf","gloves","belt","tie","underwear","pyjamas"],
-  "🎒 Đồ dùng cá nhân": ["wallet","purse","watch","glasses","umbrella","backpack","bag","comb","brush","toothbrush","razor","perfume","ring","necklace","bracelet","earring","phone"],
-  "🛁 Nhà tắm": ["toilet","shower","bathtub","sink","mirror","towel","soap","shampoo","toothpaste","hairdryer","sponge","drain","tap"],
-  "🧍 Bộ phận cơ thể": ["head","hair","face","eye","ear","nose","mouth","lip","tooth","tongue","neck","shoulder","arm","elbow","hand","finger","thumb","chest","back","stomach","leg","knee","foot","toe","heart","brain","skin"],
-  "🌳 Cây cối": ["tree","plant","grass","leaf","branch","root","trunk","seed","bush","vine","bamboo","pine","oak","palm","forest"],
-  "🌸 Hoa": ["rose","tulip","sunflower","lily","daisy","orchid","lotus","jasmine","lavender","petal","bud","bloom"],
-  "🍎 Trái cây": ["apple","banana","orange","grape","mango","pineapple","watermelon","strawberry","peach","pear","lemon","lime","cherry","kiwi","papaya","coconut","guava","plum","apricot"],
-  "🛒 Siêu thị": ["cart","basket","cashier","receipt","aisle","shelf","milk","bread","egg","rice","sugar","salt","flour","oil","butter","cheese","vegetable","meat","fish","snack","detergent","discount"],
-  "🌊 Biển": ["sea","ocean","beach","sand","wave","shell","sunscreen","swimsuit","boat","ship","island","coral","crab","seaweed","tide","shore","cliff"],
-  "🏊 Bơi lội": ["swim","pool","goggles","dive","float","lifeguard","lane","splash","snorkel","stroke"],
-  "🎮 Giải trí & trò chơi": ["game","movie","music","concert","party","dance","chess","puzzle","hobby","book","theatre","festival","cartoon","comic"],
-  "✈️ Du lịch": ["travel","trip","vacation","tourist","hotel","passport","luggage","suitcase","ticket","flight","airport","map","tour","guide","souvenir","journey","abroad"],
-  "⏰ Thói quen": ["wake","sleep","breakfast","lunch","dinner","shower","study","exercise","relax","commute","chore","routine"],
-  "🧭 Hỏi đường": ["left","right","straight","turn","corner","street","road","crossroad","near","far","opposite","behind","between","signpost","roundabout"],
-  "💼 Nghề nghiệp": ["teacher","doctor","nurse","engineer","lawyer","accountant","manager","developer","designer","chef","driver","farmer","dentist","scientist","journalist","electrician","plumber","cashier"],
-  "🎓 Giáo dục": ["school","student","teacher","classroom","lesson","homework","exam","grade","subject","library","knowledge","pupil","blackboard","diploma"],
-  "🏫 Đại học": ["university","college","lecture","professor","degree","major","semester","campus","dormitory","scholarship","graduation","thesis","faculty","tuition","undergraduate"]
+  "🏠 Nhà": ["house","apartment","room","bedroom","kitchen","bathroom","door","window","wall","floor","ceiling","roof","stairs","garage","garden","balcony","hallway","attic","basement","fence","gate","driveway","fireplace","drawer","carpet","blanket","pillow","switch","socket","doorbell","chimney","table","chair","sofa","bed","wardrobe","shelf","lamp","curtain","mirror","key"],
+  "🍳 Nhà bếp & đồ bếp": ["stove","oven","refrigerator","sink","microwave","kettle","pan","pot","saucepan","knife","fork","spoon","plate","bowl","cup","glass","dish","jar","bottle","lid","tray","napkin","sieve","whisk","ladle","blender","toaster","dishwasher","cupboard","spatula","grater","peeler","tongs","chopsticks","apron"],
+  "👕 Trang phục": ["shirt","blouse","trousers","jeans","dress","skirt","jacket","coat","raincoat","sweater","cardigan","vest","suit","uniform","shorts","socks","shoes","boots","sandals","slippers","heels","hat","cap","scarf","gloves","belt","tie","underwear","pyjamas","button","zipper","collar","sleeve","pocket","hood"],
+  "🎒 Đồ dùng cá nhân": ["wallet","purse","handbag","watch","glasses","sunglasses","umbrella","backpack","bag","comb","brush","toothbrush","razor","perfume","deodorant","lipstick","tissue","ring","necklace","bracelet","earring","keychain","notebook","diary","phone","charger","headphones","earphones"],
+  "🛁 Nhà tắm": ["toilet","shower","bathtub","sink","mirror","towel","bathrobe","washcloth","soap","shampoo","conditioner","toothpaste","hairdryer","sponge","comb","razor","drain","tap","scale","toiletries"],
+  "🧍 Bộ phận cơ thể": ["head","hair","face","forehead","cheek","chin","jaw","eye","eyebrow","eyelash","ear","nose","mouth","lip","tooth","tongue","neck","shoulder","arm","elbow","wrist","hand","palm","finger","thumb","nail","chest","back","stomach","waist","hip","leg","knee","ankle","heel","foot","toe","heart","brain","lung","liver","muscle","bone","skin"],
+  "🥕 Rau củ": ["vegetable","carrot","potato","tomato","onion","garlic","cabbage","lettuce","spinach","broccoli","cauliflower","cucumber","pumpkin","eggplant","pepper","chilli","mushroom","corn","pea","bean","radish","beetroot","celery","ginger","turnip","asparagus","zucchini","sweetcorn","kale","leek"],
+  "🍎 Trái cây": ["apple","banana","orange","grape","mango","pineapple","watermelon","strawberry","blueberry","raspberry","peach","pear","lemon","lime","cherry","kiwi","papaya","coconut","guava","plum","apricot","grapefruit","melon","fig","pomegranate","avocado","tangerine","lychee","durian"],
+  "🐶 Động vật": ["animal","dog","cat","cow","horse","pig","sheep","goat","chicken","duck","rabbit","mouse","lion","tiger","elephant","monkey","bear","wolf","fox","deer","snake","frog","turtle","dolphin","whale","shark","bird","eagle","owl","butterfly","bee","ant","spider","cockroach","squirrel"],
+  "🌳 Cây cối": ["tree","plant","grass","leaf","branch","root","trunk","seed","bush","shrub","vine","bamboo","pine","oak","palm","maple","willow","forest","jungle","moss"],
+  "🌸 Hoa": ["flower","rose","tulip","sunflower","lily","daisy","orchid","lotus","jasmine","lavender","peony","chrysanthemum","petal","bud","bloom","blossom","stem","pollen"],
+  "🛒 Siêu thị": ["cart","basket","cashier","receipt","aisle","shelf","milk","bread","egg","rice","sugar","salt","flour","oil","butter","cheese","yoghurt","vegetable","meat","fish","snack","cereal","detergent","discount","trolley","barcode"],
+  "🌊 Biển": ["sea","ocean","beach","sand","wave","shell","sunscreen","swimsuit","boat","ship","island","coral","crab","seaweed","tide","shore","cliff","seagull","starfish","jellyfish","lighthouse"],
+  "🏊 Bơi lội": ["swim","pool","goggles","dive","float","lifeguard","lane","splash","snorkel","stroke","backstroke","breaststroke","freestyle","flipper","poolside"],
+  "⚽ Thể thao": ["sport","football","basketball","tennis","volleyball","badminton","swimming","running","cycling","boxing","golf","baseball","hockey","athlete","team","coach","match","goal","score","referee","stadium","gym","marathon","racket","whistle"],
+  "🎮 Giải trí & trò chơi": ["game","movie","music","concert","party","dance","chess","puzzle","hobby","book","theatre","festival","cartoon","comic","video game","board game","karaoke","cinema","ticket","stage"],
+  "✈️ Du lịch": ["travel","trip","vacation","tourist","hotel","hostel","passport","visa","luggage","suitcase","backpack","ticket","flight","airport","map","tour","guide","souvenir","journey","abroad","sightseeing","itinerary","reservation","customs"],
+  "🚗 Giao thông": ["car","bus","train","taxi","motorbike","bicycle","truck","van","plane","ship","boat","subway","station","ticket","traffic","road","highway","bridge","tunnel","fuel","driver","passenger","helmet","seatbelt","parking","junction"],
+  "🍽️ Nhà hàng & món ăn": ["restaurant","menu","waiter","waitress","order","dish","meal","breakfast","lunch","dinner","dessert","appetizer","soup","salad","rice","noodle","bread","sauce","spicy","sweet","sour","salty","delicious","bill","tip","reservation","chopsticks"],
+  "☕ Đồ uống": ["drink","water","coffee","tea","milk","juice","soda","beer","wine","cocktail","smoothie","lemonade","alcohol","bottle","glass","straw","ice","mug"],
+  "🌤️ Thời tiết": ["weather","sun","rain","cloud","wind","storm","thunder","lightning","snow","fog","ice","frost","temperature","humidity","sunny","rainy","cloudy","windy","stormy","drizzle","hail","rainbow","forecast","breeze"],
+  "🎨 Màu sắc": ["colour","red","orange","yellow","green","blue","purple","pink","brown","black","white","grey","gold","silver","beige","violet","turquoise","maroon","navy"],
+  "🔢 Số & thời gian": ["number","zero","hundred","thousand","million","time","hour","minute","second","day","week","month","year","decade","today","tomorrow","yesterday","morning","afternoon","evening","night","midnight","noon","calendar","clock","date","schedule"],
+  "😀 Cảm xúc": ["emotion","happy","sad","angry","afraid","scared","excited","nervous","bored","tired","surprised","worried","calm","proud","jealous","lonely","confident","embarrassed","grateful","anxious","cheerful","upset","disappointed","relaxed"],
+  "💻 Công nghệ": ["computer","laptop","keyboard","mouse","screen","monitor","software","hardware","internet","website","email","password","download","upload","file","folder","app","smartphone","tablet","battery","charger","wifi","server","data","browser","network"],
+  "🏥 Sức khỏe & y tế": ["health","hospital","doctor","nurse","patient","medicine","pill","fever","cough","headache","pain","injury","wound","bandage","vaccine","surgery","allergy","illness","disease","treatment","prescription","symptom","ambulance","dentist","pharmacy","clinic"],
+  "💰 Tiền & mua bán": ["money","cash","coin","price","cost","cheap","expensive","discount","sale","bill","receipt","change","salary","budget","bank","account","credit","loan","interest","invest","profit","refund","currency","tax"],
+  "⏰ Thói quen": ["wake","sleep","breakfast","lunch","dinner","shower","study","exercise","relax","commute","chore","routine","nap","brush","cook","clean","laundry"],
+  "🧭 Hỏi đường": ["left","right","straight","turn","corner","street","road","crossroad","near","far","opposite","behind","between","signpost","roundabout","junction","intersection","map","direction","distance"],
+  "💼 Nghề nghiệp": ["teacher","doctor","nurse","engineer","lawyer","accountant","manager","developer","designer","chef","driver","farmer","dentist","scientist","journalist","electrician","plumber","cashier","architect","pilot","soldier","police officer","firefighter","translator"],
+  "🎓 Giáo dục": ["school","student","teacher","classroom","lesson","homework","exam","grade","subject","library","knowledge","pupil","blackboard","diploma","notebook","textbook","assignment","quiz","semester","attendance"],
+  "🏫 Đại học": ["university","college","lecture","professor","degree","major","semester","campus","dormitory","scholarship","graduation","thesis","faculty","tuition","undergraduate","postgraduate","seminar","tutorial","deadline","internship"],
+  "📚 Học thuật / Nâng cao": ["comprehensive","significant","approach","consequence","evaluate","analyse","hypothesis","evidence","conclusion","research","theory","concept","perspective","sufficient","demonstrate","indicate","establish","contribute","emphasise","interpret","assess","framework","criteria","phenomenon","comprise","prioritise","facilitate","implement","substantial","inevitable"]
 };
 let curTopic=null;
 const OTHER_TOPIC="🗂️ Khác";
@@ -518,11 +532,13 @@ function renderTopics(){
 function renderTopicWords(){
   const have=new Set(load().map(w=>w.word.toLowerCase()));
   const list=TOPICS_VOCAB[curTopic]||[];
-  const added=list.filter(w=>have.has(w.toLowerCase())).length;
+  const todo=list.filter(w=>!have.has(w.toLowerCase()));
+  const added=list.length-todo.length;
   $("topicBar").innerHTML='<div class="tbar"><b>'+esc(curTopic)+'</b> · '+list.length+' từ · đã có '+added+'/'+list.length+
-    ' <button class="btn amber" id="addAllBtn">➕ Thêm tất cả từ chưa có</button></div><div class="tprog" id="tprog"></div>';
-  $("topicWords").innerHTML=list.map(w=>{ const has=have.has(w.toLowerCase());
-    return '<span class="wchip'+(has?' has':'')+'"'+(has?'':' data-addtopic="'+esc(w)+'"')+'>'+(has?'✓ ':'➕ ')+esc(w)+'</span>'; }).join('');
+    (todo.length?' <button class="btn amber" id="addAllBtn">➕ Thêm tất cả ('+todo.length+')</button>':'')+'</div><div class="tprog" id="tprog"></div>';
+  $("topicWords").innerHTML = todo.length
+    ? todo.map(w=>'<span class="wchip" data-addtopic="'+esc(w)+'">➕ '+esc(w)+'</span>').join('')
+    : '<div style="color:#166534;font-size:13px">✓ Đã thêm hết từ của chủ đề này vào sổ.</div>';
   const b=$("addAllBtn"); if(b) b.onclick=addAllTopic;
 }
 function setTProg(m){ const e=$("tprog"); if(e) e.textContent=m||""; }
