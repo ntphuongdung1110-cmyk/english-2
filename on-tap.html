@@ -188,32 +188,37 @@ async function suggest(word){
 }
 
 /* ===== THÊM (có validate) ===== */
+let busy=false;
 async function tryAdd(){
+  if(busy) return;                                  // chặn gọi chồng khi đang chờ mạng (Enter/click 2 lần)
   const raw=$("wordInput").value.trim();
   if(!raw) return;
   if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){
     setStatus("“"+raw+"” đã có trong sổ rồi.","err"); $("addResult").innerHTML=""; return;
   }
-  $("addBtn").disabled=true; $("addResult").innerHTML="";
-  const isPhrase = raw.includes(" ");
-  if(isPhrase){
-    setStatus("");
-    $("addResult").innerHTML = warnBox(raw, [], true);
-    $("addBtn").disabled=false; return;
+  busy=true; $("addBtn").disabled=true; $("addResult").innerHTML="";
+  try{
+    const isPhrase = raw.includes(" ");
+    if(isPhrase){ setStatus(""); $("addResult").innerHTML = warnBox(raw, [], true); return; }
+    setStatus("Đang kiểm tra nghĩa trong từ điển…");
+    const data=await fetchWordData(raw);
+    // kiểm tra trùng LẦN NỮA sau khi chờ mạng (phòng có lần thêm khác chen vào)
+    if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){
+      setStatus("“"+raw+"” đã có trong sổ rồi.","err"); $("addResult").innerHTML=""; return;
+    }
+    if(data.found){
+      const entry=commit(data, raw);
+      setStatus("");
+      $("addResult").innerHTML = '<div style="font-size:13px;color:#166534;margin:10px 0 6px">✓ Đã thêm “'+esc(entry.word)+'” vào sổ:</div>'+ cardHTML(entry, false);
+      $("wordInput").value=""; $("wordInput").focus();
+    }else{
+      setStatus("");
+      const sug=await suggest(raw);
+      $("addResult").innerHTML = warnBox(raw, sug, false);
+    }
+  } finally {
+    busy=false; $("addBtn").disabled=false;
   }
-  setStatus("Đang kiểm tra nghĩa trong từ điển…");
-  const data=await fetchWordData(raw);
-  if(data.found){
-    const entry=commit(data, raw);
-    setStatus("");
-    $("addResult").innerHTML = '<div style="font-size:13px;color:#166534;margin:10px 0 6px">✓ Đã thêm “'+esc(entry.word)+'” vào sổ:</div>'+ cardHTML(entry, false);
-    $("wordInput").value=""; $("wordInput").focus();
-  }else{
-    setStatus("");
-    const sug=await suggest(raw);
-    $("addResult").innerHTML = warnBox(raw, sug, false);
-  }
-  $("addBtn").disabled=false;
 }
 function warnBox(raw, sug, isPhrase){
   let h='<div class="warnbox">';
