@@ -23,8 +23,18 @@
   .day{font-weight:700;font-size:16px}
   .topic-pick{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
   .topic-pick label{white-space:nowrap;font-weight:600}
-  .topic-pick select{flex:1;min-width:0}
-  select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;font-size:16px;max-width:100%;background:#fff}
+  .ddwrap{position:relative;flex:1;min-width:0}
+  .ddbtn{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;
+    padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:16px;cursor:pointer;color:var(--ink)}
+  .ddbtn #ddlabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .ddcaret{color:#9ca3af;flex:0 0 auto}
+  .ddlist{position:absolute;top:calc(100% + 4px);left:0;right:0;z-index:60;background:#fff;
+    border:1px solid var(--line);border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.18);
+    max-height:300px;overflow:auto;padding:4px}
+  .ddlist[hidden]{display:none}
+  .dditem{padding:9px 11px;border-radius:7px;cursor:pointer;font-size:14px}
+  .dditem:hover{background:#f1f5f9}
+  .dditem.sel{background:#eef2ff;color:#1e40af;font-weight:700}
   .streak{display:flex;align-items:center;gap:8px;font-size:14px;background:#fff7ed;border:1px solid #fed7aa;
     padding:6px 10px;border-radius:999px;font-weight:600;color:#c2410c}
   .tabs{display:flex;gap:8px;margin:12px 0}
@@ -88,8 +98,13 @@
       <div class="streak">🔥 Chuỗi: <span id="streakNum">0</span> ngày</div>
     </div>
     <div class="topic-pick">
-      <label for="topicSelect">Chủ đề:</label>
-      <select id="topicSelect"></select>
+      <label>Chủ đề:</label>
+      <div class="ddwrap" id="topicDD">
+        <button class="ddbtn" id="ddbtn" type="button" aria-haspopup="listbox" aria-expanded="false">
+          <span id="ddlabel">Tự động</span><span class="ddcaret">▾</span>
+        </button>
+        <div class="ddlist" id="ddlist" hidden></div>
+      </div>
     </div>
   </div>
 
@@ -797,15 +812,32 @@ function todayDone(){ return state.done[todayStr()] || {}; }
 /* ====== RENDER ====== */
 function el(id){return document.getElementById(id);}
 
-function renderTopicSelect(){
-  const sel = el("topicSelect");
-  sel.innerHTML = '<option value="auto">Tự động (Ngày '+dayNumber()+')</option>' +
-    TOPICS.map((t,i)=>'<option value="'+i+'">'+(i+1)+'. '+t.name+'</option>').join('');
-  sel.value = state.topicOverride===null ? "auto" : String(state.topicOverride);
-  sel.onchange = ()=>{
-    state.topicOverride = sel.value==="auto" ? null : parseInt(sel.value,10);
-    save(state); renderTopic();
-  };
+function topicDDLabel(){
+  return state.topicOverride===null
+    ? "🎯 Tự động (Ngày "+dayNumber()+")"
+    : (state.topicOverride+1)+". "+TOPICS[state.topicOverride].name;
+}
+function renderTopicSelect(){          // refresh nhãn + danh sách (dropdown tuỳ chỉnh)
+  el("ddlabel").textContent = topicDDLabel();
+  const cur = state.topicOverride;
+  let h = '<div class="dditem'+(cur===null?' sel':'')+'" data-i="auto">🎯 Tự động (Ngày '+dayNumber()+')</div>';
+  h += TOPICS.map((t,i)=>'<div class="dditem'+(cur===i?' sel':'')+'" data-i="'+i+'">'+(i+1)+'. '+t.name+'</div>').join('');
+  el("ddlist").innerHTML = h;
+}
+function closeDD(){ el("ddlist").setAttribute("hidden",""); el("ddbtn").setAttribute("aria-expanded","false"); }
+function bindDD(){
+  const btn=el("ddbtn"), list=el("ddlist");
+  btn.addEventListener("click",(e)=>{
+    e.stopPropagation();
+    if(list.hasAttribute("hidden")){ renderTopicSelect(); list.removeAttribute("hidden"); btn.setAttribute("aria-expanded","true"); list.scrollTop=0; }
+    else closeDD();
+  });
+  list.addEventListener("click",(e)=>{
+    const it=e.target.closest(".dditem"); if(!it) return;
+    state.topicOverride = it.dataset.i==="auto" ? null : parseInt(it.dataset.i,10);
+    save(state); closeDD(); renderTopic();
+  });
+  document.addEventListener("click",(e)=>{ if(!el("topicDD").contains(e.target)) closeDD(); });
 }
 
 function qaBlock(qa, ns){
@@ -931,6 +963,7 @@ el("resetAll").onclick = ()=>{
 
 /* ====== INIT ====== */
 renderTopic();
+bindDD();
 bindChecks();
 renderChecks();
 bindTabs();
