@@ -91,6 +91,9 @@
   .topicblock{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px}
   .topicblock summary{font-weight:700;cursor:pointer;font-size:14px;color:#334155}
   .topicrow{margin-top:10px;font-size:13px;color:#6b7280}
+  .pronrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:8px 10px;margin-bottom:8px;font-size:15px}
+  .pronrow .phon{font-size:14px}
+  .pronnote{font-size:12px;color:#9ca3af}
   .topicsel{border:1px solid var(--line);border-radius:8px;padding:4px 6px;font-size:13px;max-width:200px}
   .savetopic{margin-top:8px;font-size:13px;color:#6b7280}
   .ddwrap{position:relative;display:inline-block;vertical-align:middle}
@@ -324,7 +327,9 @@ function refreshCount(){ const k=words.filter(w=>w.known).length; if($("count"))
 
 /* ===== Nội dung nghĩa (dùng chung) ===== */
 function meaningsHTML(w){
-  let h="";
+  let h='<div class="pronrow"><button class="spk" data-spk="'+w.id+'" title="Phát âm">🔊</button> '+
+        '<b>'+esc(w.word)+'</b>'+(w.phonetic?' <span class="phon">'+esc(w.phonetic)+'</span>':'')+
+        ' <span class="pronnote">bấm 🔊 để nghe phát âm</span></div>';
   w.meanings.forEach(m=>{
     h+='<div class="pos">'+esc(m.pos)+'</div>';
     m.defs.forEach(d=>{
