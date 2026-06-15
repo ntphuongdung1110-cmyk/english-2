@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ôn tập từ vựng</title>
+<title>Từ vựng — Thêm & Ôn tập</title>
 <style>
   :root{ --accent:#2563eb; --accent2:#7e57c2; --ink:#1f2933; --muted:#6b7280;
     --line:#e5e7eb; --card:#fff; --ok:#22c55e; --bad:#ef4444; --warn:#f59e0b; }
@@ -16,26 +16,46 @@
   .nav{font-size:13px;margin-bottom:6px}
   .nav a{color:#fff;text-decoration:underline;margin-right:14px}
   .wrap{max-width:760px;margin:0 auto;padding:16px 14px 70px}
-  .tabs{display:flex;gap:8px;margin:14px 0}
-  .tab{flex:1;text-align:center;padding:12px;border-radius:12px;cursor:pointer;font-weight:700;
-    border:1px solid var(--line);background:#fff;user-select:none}
+  .tabs{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}
+  .tab{flex:1;min-width:100px;text-align:center;padding:12px 8px;border-radius:12px;cursor:pointer;font-weight:700;
+    border:1px solid var(--line);background:#fff;user-select:none;font-size:14px}
   .tab.active{background:linear-gradient(135deg,#e0f2fe,#ede9fe);border-color:var(--accent);color:#1e40af}
   .panel{display:none}.panel.active{display:block}
+
+  /* Add */
+  .addbar{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .addrow{display:flex;gap:8px}
+  #wordInput{flex:1;padding:11px 12px;border:1px solid var(--line);border-radius:10px;font-size:16px}
+  button.primary{background:var(--accent);color:#fff;border:none;border-radius:10px;padding:0 18px;font-size:15px;font-weight:700;cursor:pointer}
+  button.primary:disabled{opacity:.5;cursor:wait}
+  .hint{font-size:12px;color:var(--muted);margin-top:8px}
+  .status{font-size:13px;margin-top:8px;min-height:18px}
+  .status.err{color:var(--bad)} .status.ok{color:var(--ok)}
+  .warnbox{margin-top:12px;background:#fffbeb;border:1px solid #fcd34d;border-radius:12px;padding:12px;font-size:14px;color:#92400e}
+  .warnbox b{color:#7c2d12}
+  .sugbtn{display:inline-block;background:#fff;border:1px solid var(--accent);color:var(--accent);border-radius:999px;
+    padding:5px 12px;font-size:14px;font-weight:600;margin:6px 6px 0 0;cursor:pointer}
+  .anyway{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:9px;padding:6px 12px;font-size:13px;margin-top:10px;cursor:pointer}
+
+  /* Cards / list */
   .toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin:6px 0 12px}
-  #search{flex:1;min-width:160px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
+  #search{flex:1;min-width:150px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;font-size:14px}
   .count{font-size:13px;color:var(--muted);font-weight:600;white-space:nowrap}
+  .btn{background:#fff;border:1px solid var(--line);border-radius:9px;padding:8px 12px;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;color:var(--ink)}
+  .btn.amber{border-color:#fcd34d;background:#fffbeb;color:#92400e}
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+  .card.list-item{padding:10px 14px}
   .card.known{border-color:#bbf7d0;background:#f0fdf4}
-  .wline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
   .word{font-size:19px;font-weight:800}
   .lrow{display:flex;align-items:center;gap:8px;cursor:pointer}
   .lrow .word{flex:1;font-size:17px}
-  .lrow .phon{font-size:13px}
+  .lrow .phon{font-size:13px;color:var(--muted)}
   .chev{color:#9ca3af;font-size:13px;width:16px;text-align:center;flex:0 0 16px}
   .details{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px}
-  .card.list-item{padding:10px 14px}
   .phon{color:var(--muted);font-size:14px}
   .spk{background:#eef2ff;border:none;border-radius:8px;width:32px;height:32px;cursor:pointer;font-size:15px}
+  .del{background:#fef2f2;border:none;border-radius:8px;width:32px;height:32px;cursor:pointer;font-size:14px}
+  .del:hover{background:#fecaca}
   .badge{font-size:11px;font-weight:700;border-radius:999px;padding:1px 9px}
   .badge.k{background:#dcfce7;color:#166534}.badge.n{background:#fef3c7;color:#92400e}
   .pos{display:inline-block;background:#ede9fe;color:#5b21b6;border-radius:999px;padding:1px 9px;font-size:11px;font-weight:700;margin:8px 0 2px}
@@ -45,53 +65,64 @@
   .uextra{margin-top:8px;font-size:14px;color:#374151;background:#fafafa;border-radius:8px;padding:8px}
   .exspk{background:#eef2ff;border:none;border-radius:6px;cursor:pointer;font-size:12px;padding:1px 6px;vertical-align:middle}
   .exspk:hover{background:#c7d2fe}
-  .btn{background:#fff;border:1px solid var(--line);border-radius:9px;padding:8px 12px;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;color:var(--ink)}
+  .exlinks{margin:8px 0 2px}
+  .exlinks .btn{display:inline-block;margin:4px 6px 4px 0;font-size:12px}
+  .noex{font-size:12px;color:#92400e;margin-bottom:4px}
   .empty{text-align:center;color:var(--muted);padding:46px 14px;font-size:14px}
   .empty a{color:var(--accent)}
 
   /* Flashcard */
   .fcwrap{text-align:center}
   .progress{font-size:13px;color:var(--muted);margin-bottom:10px}
-  .flash{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 18px;min-height:230px;
+  .flashcard{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 18px;min-height:230px;
     display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.05)}
-  .flash .fword{font-size:30px;font-weight:800}
-  .flash .fphon{color:var(--muted);font-size:16px;margin-top:4px}
-  .flash .fhint{color:#9ca3af;font-size:13px;margin-top:14px}
+  .flashcard .fword{font-size:30px;font-weight:800}
+  .flashcard .fphon{color:var(--muted);font-size:16px;margin-top:4px}
+  .flashcard .fhint{color:#9ca3af;font-size:13px;margin-top:14px}
   .answer{margin-top:12px;text-align:left;width:100%;display:none}
   .answer.show{display:block}
   .fcontrols{display:flex;gap:8px;justify-content:center;margin-top:14px;flex-wrap:wrap}
   .big{padding:12px 18px;border-radius:12px;font-size:15px;font-weight:700;cursor:pointer;border:none;color:#fff}
-  .big.show{background:var(--accent)}
-  .big.know{background:var(--ok)}
-  .big.dont{background:var(--warn)}
+  .big.show{background:var(--accent)} .big.know{background:var(--ok)} .big.dont{background:var(--warn)}
   .big.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
   .optline{display:flex;align-items:center;justify-content:center;gap:14px;margin:12px 0;font-size:13px;color:var(--muted);flex-wrap:wrap}
-  .optline label{cursor:pointer}
   .done{font-size:16px;font-weight:700;color:#166534;text-align:center;padding:30px 10px}
 </style>
 </head>
 <body>
 <header>
-  <div class="nav">
-    <a href="chuong-trinh-hoc.html">🎯 Chương trình học</a>
-    <a href="tu-vung.html">📒 Thêm từ vựng</a>
-  </div>
-  <h1>📚 Ôn tập từ vựng</h1>
-  <div class="sub">Xem lại tất cả từ bạn đã thêm và ôn bằng thẻ ghi nhớ.</div>
+  <div class="nav"><a href="chuong-trinh-hoc.html">🎯 Chương trình học</a></div>
+  <h1>📚 Từ vựng — Thêm & Ôn tập</h1>
+  <div class="sub">Thêm từ (có kiểm tra nghĩa) · xem lại danh sách · ôn bằng thẻ ghi nhớ.</div>
 </header>
 
 <div class="wrap">
 
   <div class="tabs">
-    <div class="tab active" data-panel="list">📋 Danh sách</div>
+    <div class="tab active" data-panel="add">➕ Thêm</div>
+    <div class="tab" data-panel="list">📋 Danh sách</div>
     <div class="tab" data-panel="flash">🎴 Thẻ ghi nhớ</div>
   </div>
 
+  <!-- ===== ADD ===== -->
+  <div class="panel active" id="panel-add">
+    <div class="addbar">
+      <div class="addrow">
+        <input id="wordInput" placeholder="Nhập một từ tiếng Anh, vd: improve" autocomplete="off">
+        <button class="primary" id="addBtn">+ Thêm</button>
+      </div>
+      <div class="status" id="status"></div>
+      <div class="hint">App sẽ <b>kiểm tra từ có nghĩa trong từ điển không</b> trước khi thêm. Sai chính tả sẽ được gợi ý sửa.</div>
+    </div>
+    <div id="addResult"></div>
+  </div>
+
   <!-- ===== LIST ===== -->
-  <div class="panel active" id="panel-list">
+  <div class="panel" id="panel-list">
     <div class="toolbar">
       <input id="search" placeholder="🔍 Tìm từ…">
       <span class="count" id="count">0 từ</span>
+      <button class="btn amber" id="exportBtn">⬇️ Xuất Anki</button>
     </div>
     <div id="list"></div>
   </div>
@@ -112,22 +143,110 @@
 </div>
 
 <script>
-const LS = "vocab_notebook_v1";   // CHUNG dữ liệu với trang thêm từ
+const LS = "vocab_notebook_v1";
+const DICT = "https://api.dictionaryapi.dev/api/v2/entries/en/";
+const DATAMUSE = "https://api.datamuse.com/words";
+
 function load(){ try{return JSON.parse(localStorage.getItem(LS))||[]}catch(e){return []} }
 function save(arr){ localStorage.setItem(LS, JSON.stringify(arr)); }
 let words = load();
 const $ = id => document.getElementById(id);
-
-function speakText(text){
-  text=(text||"").trim(); if(!text) return;
-  if(window.speechSynthesis){
-    speechSynthesis.cancel();
-    const u=new SpeechSynthesisUtterance(text); u.lang="en-US"; u.rate=0.95; speechSynthesis.speak(u);
-  }
-}
-function speakWord(w){ if(w.audio){ new Audio(w.audio).play().catch(()=>speakText(w.word)); } else speakText(w.word); }
+function nowStamp(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function uid(){ return "w"+Date.now()+Math.floor(Math.random()*1000); }
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
+function speakText(t){ t=(t||"").trim(); if(!t||!window.speechSynthesis) return;
+  speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(t); u.lang="en-US"; u.rate=0.95; speechSynthesis.speak(u); }
+function speakWord(w){ if(w.audio){ new Audio(w.audio).play().catch(()=>speakText(w.word)); } else speakText(w.word); }
+
+/* ===== Lấy dữ liệu từ điển ===== */
+async function fetchWordData(raw){
+  const word=(raw||"").toLowerCase().trim();
+  const out={ found:false, word:raw, phonetic:"", audio:"", meanings:[] };
+  try{
+    const res=await fetch(DICT+encodeURIComponent(word));
+    if(!res.ok) throw 0;
+    const data=await res.json(); const e=data[0];
+    out.found=true;
+    out.word=e.word||raw;
+    out.phonetic=e.phonetic||(e.phonetics||[]).map(p=>p.text).find(Boolean)||"";
+    const ap=(e.phonetics||[]).find(p=>p.audio); out.audio=ap?ap.audio:"";
+    out.meanings=(e.meanings||[]).slice(0,4).map(m=>{
+      const defs=(m.definitions||[]).map(d=>({def:d.definition||"",ex:d.example||""}));
+      defs.sort((a,b)=>(b.ex?1:0)-(a.ex?1:0));
+      return { pos:m.partOfSpeech, defs:defs.slice(0,3) };
+    });
+  }catch(e){ out.found=false; }
+  return out;
+}
+async function suggest(word){
+  try{
+    const r=await fetch(DATAMUSE+"?max=6&sl="+encodeURIComponent(word));
+    const d=await r.json();
+    return d.map(x=>x.word).filter(x=>x.toLowerCase()!==word.toLowerCase() && !x.includes(" ")).slice(0,5);
+  }catch(e){ return []; }
+}
+
+/* ===== THÊM (có validate) ===== */
+async function tryAdd(){
+  const raw=$("wordInput").value.trim();
+  if(!raw) return;
+  if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){
+    setStatus("“"+raw+"” đã có trong sổ rồi.","err"); $("addResult").innerHTML=""; return;
+  }
+  $("addBtn").disabled=true; $("addResult").innerHTML="";
+  const isPhrase = raw.includes(" ");
+  if(isPhrase){
+    setStatus("");
+    $("addResult").innerHTML = warnBox(raw, [], true);
+    $("addBtn").disabled=false; return;
+  }
+  setStatus("Đang kiểm tra nghĩa trong từ điển…");
+  const data=await fetchWordData(raw);
+  if(data.found){
+    const entry=commit(data, raw);
+    setStatus("");
+    $("addResult").innerHTML = '<div style="font-size:13px;color:#166534;margin:10px 0 6px">✓ Đã thêm “'+esc(entry.word)+'” vào sổ:</div>'+ cardHTML(entry, false);
+    $("wordInput").value=""; $("wordInput").focus();
+  }else{
+    setStatus("");
+    const sug=await suggest(raw);
+    $("addResult").innerHTML = warnBox(raw, sug, false);
+  }
+  $("addBtn").disabled=false;
+}
+function warnBox(raw, sug, isPhrase){
+  let h='<div class="warnbox">';
+  if(isPhrase){
+    h+='ℹ️ “<b>'+esc(raw)+'</b>” là một cụm từ — từ điển tự động không tra được cụm. Bạn có thể thêm và tự ghi nghĩa.';
+  }else{
+    h+='⚠️ Không tìm thấy nghĩa cho “<b>'+esc(raw)+'</b>” trong từ điển — có thể sai chính tả, hoặc là tên riêng / từ rất mới.';
+    if(sug.length){
+      h+='<div style="margin-top:8px">Có phải bạn muốn:</div>';
+      h+=sug.map(s=>'<span class="sugbtn" data-sug="'+esc(s)+'">'+esc(s)+'</span>').join('');
+    }
+  }
+  h+='<div><button class="anyway" data-addanyway="'+esc(raw)+'">➕ Vẫn thêm “'+esc(raw)+'” (tự ghi nghĩa)</button></div>';
+  h+='</div>';
+  return h;
+}
+function commit(data, raw){
+  const entry={ id:uid(), word:data.word||raw, phonetic:data.phonetic||"", audio:data.audio||"",
+    meanings:data.meanings||[], manual:!data.found, userExample:"", source:"", known:false, date:nowStamp() };
+  words.unshift(entry); save(words); refreshCount();
+  return entry;
+}
+function addManual(raw){
+  if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){ setStatus("“"+raw+"” đã có rồi.","err"); return; }
+  const entry=commit({found:false, word:raw, meanings:[]}, raw);
+  setStatus("✓ Đã thêm “"+esc(raw)+"” — nhớ tự ghi nghĩa ở phần chi tiết.","ok");
+  $("addResult").innerHTML = cardHTML(entry, false);
+  $("wordInput").value="";
+}
+function setStatus(msg,cls){ const s=$("status"); s.textContent=msg||""; s.className="status"+(cls?" "+cls:""); }
+function refreshCount(){ const k=words.filter(w=>w.known).length; if($("count")) $("count").textContent=words.length+" từ · "+k+" đã thuộc"; }
+
+/* ===== Nội dung nghĩa (dùng chung) ===== */
 function meaningsHTML(w){
   let h="";
   w.meanings.forEach(m=>{
@@ -137,32 +256,65 @@ function meaningsHTML(w){
       if(d.ex) h+='<div class="ex"><span class="lbl">Ví dụ:</span> '+esc(d.ex)+' <button class="exspk" data-text="'+esc(d.ex)+'" title="Đọc to">🔊</button></div>';
     });
   });
-  if(!w.meanings.length) h+='<div class="def" style="color:#92400e">Chưa có định nghĩa tự động.</div>';
+  if(!w.meanings.length) h+='<div class="def" style="color:#92400e">Chưa có định nghĩa tự động — tự ghi ở ô bên dưới.</div>';
+  // ghi chú người dùng (xem)
   let extra="";
   if(w.source) extra+='<div>📖 '+esc(w.source)+'</div>';
   if(w.userExample) extra+='<div>✍️ '+esc(w.userExample)+' <button class="exspk" data-text="'+esc(w.userExample)+'" title="Đọc to">🔊</button></div>';
   if(extra) h+='<div class="uextra">'+extra+'</div>';
+  // ô soạn của người dùng
+  h+='<div class="uextra" style="background:#fff;border:1px dashed var(--line)">'+
+       '<div style="font-size:12px;color:#6b7280;margin-bottom:3px">📖 Nghĩa của bạn / ghi chú</div>'+
+       '<textarea rows="2" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:6px;font-family:inherit" oninput="updateField(\''+w.id+'\',\'source\',this.value)" placeholder="Tự ghi thêm…">'+esc(w.source)+'</textarea>'+
+       '<div style="font-size:12px;color:#6b7280;margin:6px 0 3px">✍️ Câu ví dụ của bạn</div>'+
+       '<input id="uex_'+w.id+'" style="width:100%;border:1px solid var(--line);border-radius:8px;padding:6px" oninput="updateField(\''+w.id+'\',\'userExample\',this.value)" placeholder="Tự đặt một câu…" value="'+esc(w.userExample)+'">'+
+       '<button class="btn" style="margin-top:6px;font-size:12px" onclick="speakText(document.getElementById(\'uex_'+w.id+'\').value)">🔊 Đọc câu của bạn</button>'+
+     '</div>';
+  // link ví dụ thật
+  const q=encodeURIComponent(w.word);
+  const exCount=w.meanings.reduce((n,m)=>n+m.defs.filter(d=>d.ex).length,0);
+  h+='<div class="exlinks">'+
+     (exCount?'':'<div class="noex">Từ điển chưa có câu ví dụ — bấm để xem câu thật:</div>')+
+     '<a class="btn" target="_blank" rel="noopener" href="https://tatoeba.org/en/sentences/search?from=eng&to=vie&query='+q+'">🔎 Câu ví dụ + dịch Việt (Tatoeba)</a> '+
+     '<a class="btn" target="_blank" rel="noopener" href="https://youglish.com/pronounce/'+q+'/english">🔊 Nghe trong video (YouGlish)</a>'+
+     '</div>';
   return h;
 }
+function updateField(id, field, val){ const w=words.find(x=>x.id===id); if(w){ w[field]=val; save(words); } }
+function delWord(id){
+  const w=words.find(x=>x.id===id); if(!w) return;
+  if(!confirm("Xoá “"+w.word+"” khỏi sổ?")) return;
+  words=words.filter(x=>x.id!==id); save(words); renderList();
+}
 
-/* ===== LIST tab ===== */
+/* thẻ đầy đủ (preview khi thêm) */
+function cardHTML(w){
+  const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
+  return '<div class="card">'+
+    '<div class="lrow" style="cursor:default"><span class="word" style="flex:1">'+esc(w.word)+'</span>'+phon+
+      '<button class="spk" data-spk="'+w.id+'">🔊</button>'+
+      '<button class="del" data-del="'+w.id+'" title="Xoá">🗑️</button></div>'+
+    meaningsHTML(w)+'</div>';
+}
+
+/* ===== DANH SÁCH ===== */
 function renderList(){
-  words = load();
+  words=load();
   const q=$("search").value.trim().toLowerCase();
-  const arr = q ? words.filter(w=>w.word.toLowerCase().includes(q)||(w.source||"").toLowerCase().includes(q)) : words;
-  const knownN = words.filter(w=>w.known).length;
-  $("count").textContent = words.length+" từ · "+knownN+" đã thuộc";
+  const arr=q?words.filter(w=>w.word.toLowerCase().includes(q)||(w.source||"").toLowerCase().includes(q)):words;
+  refreshCount();
   if(!arr.length){
-    $("list").innerHTML='<div class="empty">'+(words.length?"Không tìm thấy từ nào khớp.":'Chưa có từ nào. <a href="tu-vung.html">Thêm từ vựng →</a>')+'</div>';
+    $("list").innerHTML='<div class="empty">'+(words.length?"Không tìm thấy từ nào khớp.":'Chưa có từ nào. Qua tab <b>➕ Thêm</b> để bắt đầu! 🌱')+'</div>';
     return;
   }
-  $("list").innerHTML = arr.map(w=>{
-    const badge = w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
-    const phon = w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
+  $("list").innerHTML=arr.map(w=>{
+    const badge=w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
+    const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
     return '<div class="card list-item'+(w.known?' known':'')+'">'+
       '<div class="lrow" data-toggle="'+w.id+'">'+
         '<span class="word">'+esc(w.word)+'</span>'+phon+badge+
         '<button class="spk" data-spk="'+w.id+'">🔊</button>'+
+        '<button class="del" data-del="'+w.id+'" title="Xoá">🗑️</button>'+
         '<span class="chev" id="chev_'+w.id+'">▾</span>'+
       '</div>'+
       '<div class="details" id="det_'+w.id+'" hidden>'+meaningsHTML(w)+'</div>'+
@@ -170,101 +322,89 @@ function renderList(){
   }).join("");
 }
 
-/* ===== FLASHCARD tab ===== */
-let deck=[], pos=0, flipped=false;
-
-function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-
-function buildDeck(){
-  words = load();
-  let pool = words.slice();
-  if($("onlyUnknown").checked) pool = pool.filter(w=>!w.known);
-  deck = shuffle(pool.map(w=>w.id));
-  pos=0; flipped=false;
-  renderFlash();
+/* ===== Xuất Anki ===== */
+function exportAnki(){
+  words=load();
+  if(!words.length){ alert("Sổ chưa có từ nào để xuất."); return; }
+  const rows=words.map(w=>{
+    let back=w.phonetic?w.phonetic+"<br>":"";
+    w.meanings.forEach(m=>m.defs.forEach(d=>{ back+="("+m.pos+") "+d.def; if(d.ex) back+="<br><i>e.g. "+d.ex+"</i>"; back+="<br>"; }));
+    if(w.source) back+="<br>"+w.source;
+    if(w.userExample) back+="<br><i>"+w.userExample+"</i>";
+    return w.word.replace(/\t/g," ")+"\t"+back.replace(/\t/g," ");
+  });
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([rows.join("\n")],{type:"text/plain;charset=utf-8"}));
+  a.download="tu-vung-anki.txt"; a.click();
 }
-function currentWord(){ const id=deck[pos]; return words.find(w=>w.id===id); }
 
+/* ===== THẺ GHI NHỚ ===== */
+let deck=[], pos=0, flipped=false;
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function buildDeck(){
+  words=load();
+  let pool=words.slice();
+  if($("onlyUnknown").checked) pool=pool.filter(w=>!w.known);
+  deck=shuffle(pool.map(w=>w.id)); pos=0; flipped=false; renderFlash();
+}
+function currentWord(){ return words.find(w=>w.id===deck[pos]); }
 function renderFlash(){
-  if(!deck.length){
-    $("progress").textContent="";
-    $("flashArea").innerHTML='<div class="empty">'+($("onlyUnknown").checked?"Không còn từ chưa thuộc nào — bạn giỏi quá! 🎉":'Chưa có từ nào. <a href="tu-vung.html">Thêm từ vựng →</a>')+'</div>';
-    return;
-  }
-  if(pos>=deck.length){
-    const knownN=words.filter(w=>w.known).length;
-    $("progress").textContent="";
-    $("flashArea").innerHTML='<div class="done">🎉 Đã ôn hết '+deck.length+' từ!<br><span style="font-weight:400;color:#6b7280;font-size:14px">Tổng đã thuộc: '+knownN+'/'+words.length+'</span><br><br><button class="big show" id="againBtn">Ôn lại từ đầu</button></div>';
-    $("againBtn").onclick=buildDeck;
-    return;
-  }
+  if(!deck.length){ $("progress").textContent="";
+    $("flashArea").innerHTML='<div class="empty">'+($("onlyUnknown").checked?"Không còn từ chưa thuộc nào — giỏi quá! 🎉":'Chưa có từ nào. Qua tab ➕ Thêm để bắt đầu.')+'</div>'; return; }
+  if(pos>=deck.length){ const k=words.filter(w=>w.known).length; $("progress").textContent="";
+    $("flashArea").innerHTML='<div class="done">🎉 Đã ôn hết '+deck.length+' từ!<br><span style="font-weight:400;color:#6b7280;font-size:14px">Tổng đã thuộc: '+k+'/'+words.length+'</span><br><br><button class="big show" id="againBtn">Ôn lại từ đầu</button></div>';
+    $("againBtn").onclick=buildDeck; return; }
   const w=currentWord();
   $("progress").textContent="Thẻ "+(pos+1)+" / "+deck.length+(w.known?"  ·  ✅ đã thuộc":"");
-  const phon = w.phonetic?'<div class="fphon">'+esc(w.phonetic)+'</div>':'';
+  const phon=w.phonetic?'<div class="fphon">'+esc(w.phonetic)+'</div>':'';
   $("flashArea").innerHTML=
-    '<div class="flash">'+
-      '<div class="fword">'+esc(w.word)+' <button class="spk" data-spk="'+w.id+'">🔊</button></div>'+
-      phon+
-      (flipped? '<div class="answer show">'+meaningsHTML(w)+'</div>'
-              : '<div class="fhint">Tự nhớ nghĩa trong đầu, rồi bấm “Hiện nghĩa”.</div>')+
-    '</div>'+
+    '<div class="flashcard"><div class="fword">'+esc(w.word)+' <button class="spk" data-spk="'+w.id+'">🔊</button></div>'+phon+
+    (flipped?'<div class="answer show">'+meaningsHTML(w)+'</div>':'<div class="fhint">Tự nhớ nghĩa trong đầu, rồi bấm “Hiện nghĩa”.</div>')+'</div>'+
     '<div class="fcontrols">'+
       (flipped
-        ? '<button class="big dont" data-act="dont">❌ Chưa thuộc</button>'+
-          '<button class="big know" data-act="know">✅ Đã thuộc</button>'+
-          '<button class="big ghost" data-act="skip">⏭️ Bỏ qua</button>'
-        : '<button class="big show" data-act="flip">👁️ Hiện nghĩa</button>'+
-          '<button class="big ghost" data-act="skip">⏭️ Bỏ qua</button>')+
+        ?'<button class="big dont" data-act="dont">❌ Chưa thuộc</button><button class="big know" data-act="know">✅ Đã thuộc</button><button class="big ghost" data-act="skip">⏭️ Bỏ qua</button>'
+        :'<button class="big show" data-act="flip">👁️ Hiện nghĩa</button><button class="big ghost" data-act="skip">⏭️ Bỏ qua</button>')+
     '</div>';
 }
+function rate(known){ const w=currentWord(); if(w){ w.known=known; save(words); } pos++; flipped=false; renderFlash(); }
 
-function rate(known){
-  const w=currentWord(); if(w){ w.known=known; save(words); }
-  pos++; flipped=false; renderFlash();
-}
-
-/* ===== Events ===== */
+/* ===== TABS ===== */
 document.querySelectorAll(".tab").forEach(tb=>{
   tb.onclick=()=>{
     document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
     document.querySelectorAll(".panel").forEach(x=>x.classList.remove("active"));
-    tb.classList.add("active");
-    $("panel-"+tb.dataset.panel).classList.add("active");
-    if(tb.dataset.panel==="flash") buildDeck(); else renderList();
+    tb.classList.add("active"); $("panel-"+tb.dataset.panel).classList.add("active");
+    if(tb.dataset.panel==="list") renderList();
+    else if(tb.dataset.panel==="flash") buildDeck();
+    else if(tb.dataset.panel==="add") $("wordInput").focus();
   };
 });
-$("search").addEventListener("input", renderList);
-$("onlyUnknown").addEventListener("change", buildDeck);
+
+/* ===== BIND ===== */
+$("addBtn").onclick=tryAdd;
+$("wordInput").addEventListener("keydown",e=>{ if(e.key==="Enter") tryAdd(); });
+$("search").addEventListener("input",renderList);
+$("exportBtn").onclick=exportAnki;
+$("onlyUnknown").addEventListener("change",buildDeck);
 $("shuffleBtn").onclick=buildDeck;
-$("resetKnown").onclick=()=>{
-  if(!confirm("Bỏ đánh dấu “đã thuộc” cho TẤT CẢ từ?")) return;
-  words.forEach(w=>w.known=false); save(words); renderList(); if($("panel-flash").classList.contains("active")) buildDeck();
-};
-// đọc to (delegation cho cả 2 panel)
-document.body.addEventListener("click", e=>{
+$("resetKnown").onclick=()=>{ if(!confirm("Bỏ đánh dấu “đã thuộc” cho TẤT CẢ từ?")) return;
+  words.forEach(w=>w.known=false); save(words); renderList(); if($("panel-flash").classList.contains("active")) buildDeck(); };
+
+document.body.addEventListener("click",e=>{
   const ex=e.target.closest(".exspk"); if(ex){ speakText(ex.dataset.text); return; }
   const sp=e.target.closest(".spk"); if(sp){ const w=words.find(x=>x.id===sp.dataset.spk); if(w) speakWord(w); return; }
+  const dl=e.target.closest("[data-del]"); if(dl){ delWord(dl.dataset.del); return; }
+  const sg=e.target.closest("[data-sug]"); if(sg){ $("wordInput").value=sg.dataset.sug; tryAdd(); return; }
+  const aw=e.target.closest("[data-addanyway]"); if(aw){ addManual(aw.dataset.addanyway); return; }
   const tg=e.target.closest("[data-toggle]");
-  if(tg){
-    const det=document.getElementById("det_"+tg.dataset.toggle);
-    const chev=document.getElementById("chev_"+tg.dataset.toggle);
-    if(det){ const willOpen=det.hasAttribute("hidden");
-      if(willOpen) det.removeAttribute("hidden"); else det.setAttribute("hidden","");
-      if(chev) chev.textContent = willOpen ? "▴" : "▾";
-    }
-    return;
-  }
+  if(tg){ const det=$("det_"+tg.dataset.toggle), chev=$("chev_"+tg.dataset.toggle);
+    if(det){ const open=det.hasAttribute("hidden"); if(open) det.removeAttribute("hidden"); else det.setAttribute("hidden","");
+      if(chev) chev.textContent=open?"▴":"▾"; } return; }
   const fa=e.target.closest("[data-act]");
-  if(fa){
-    const a=fa.dataset.act;
-    if(a==="flip"){ flipped=true; renderFlash(); }
-    else if(a==="know") rate(true);
-    else if(a==="dont") rate(false);
-    else if(a==="skip"){ pos++; flipped=false; renderFlash(); }
-  }
+  if(fa){ const a=fa.dataset.act; if(a==="flip"){flipped=true;renderFlash();} else if(a==="know")rate(true); else if(a==="dont")rate(false); else if(a==="skip"){pos++;flipped=false;renderFlash();} }
 });
 
-renderList();
+$("wordInput").focus();
 </script>
 </body>
 </html>
