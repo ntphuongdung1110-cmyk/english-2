@@ -89,6 +89,17 @@
   .topicrow{margin-top:10px;font-size:13px;color:#6b7280}
   .topicsel{border:1px solid var(--line);border-radius:8px;padding:4px 6px;font-size:13px;max-width:200px}
   .savetopic{margin-top:8px;font-size:13px;color:#6b7280}
+  .ddwrap{position:relative;display:inline-block;vertical-align:middle}
+  .ddbtn{display:flex;align-items:center;justify-content:space-between;gap:6px;padding:8px 10px;
+    border:1px solid var(--line);border-radius:8px;background:#fff;font-size:14px;cursor:pointer;color:var(--ink);min-width:150px;max-width:230px}
+  .ddbtn .ddlabel{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .ddcaret{color:#9ca3af;flex:0 0 auto}
+  .ddlist{position:absolute;top:calc(100% + 4px);left:0;z-index:60;background:#fff;border:1px solid var(--line);
+    border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.18);max-height:300px;overflow:auto;padding:4px;min-width:210px}
+  .ddlist[hidden]{display:none}
+  .dditem{padding:9px 11px;border-radius:7px;cursor:pointer;font-size:14px;white-space:nowrap}
+  .dditem:hover{background:#f1f5f9}
+  .dditem.sel{background:#eef2ff;color:#1e40af;font-weight:700}
   .exlinks{margin:8px 0 2px}
   .exlinks .btn{display:inline-block;margin:4px 6px 4px 0;font-size:12px}
   .noex{font-size:12px;color:#92400e;margin-bottom:4px}
@@ -146,7 +157,7 @@
   <div class="panel" id="panel-list">
     <div class="toolbar">
       <input id="search" placeholder="🔍 Tìm từ…">
-      <select id="topicFilter" class="topicsel"></select>
+      <div class="ddwrap" id="filterDD"><button class="ddbtn" type="button"><span class="ddlabel">📋 Tất cả chủ đề</span><span class="ddcaret">▾</span></button><div class="ddlist" hidden></div></div>
       <span class="count" id="count">0 từ</span>
       <button class="btn amber" id="exportBtn">⬇️ Xuất Anki</button>
     </div>
@@ -156,7 +167,7 @@
   <!-- ===== FLASHCARD ===== -->
   <div class="panel" id="panel-flash">
     <div class="optline">
-      <label>🗂️ Chủ đề: <select id="flashTopic" class="topicsel"></select></label>
+      <label style="display:flex;align-items:center;gap:6px">🗂️ Chủ đề: <span class="ddwrap" id="flashDD"><button class="ddbtn" type="button"><span class="ddlabel">Tất cả chủ đề</span><span class="ddcaret">▾</span></button><div class="ddlist" hidden></div></span></label>
       <label><input type="checkbox" id="onlyUnknown"> Chỉ ôn từ chưa thuộc</label>
       <a class="btn" id="shuffleBtn">🔀 Xáo trộn lại</a>
       <a class="btn" id="resetKnown">♻️ Bỏ đánh dấu thuộc</a>
@@ -384,6 +395,7 @@ function shortDef(w){
   return "";
 }
 let listLimit=20;
+let filterTopic="__all__", flashTopicVal="__all__";
 function cardListItem(w){
   const badge=w.known?'<span class="badge k">đã thuộc</span>':'<span class="badge n">chưa thuộc</span>';
   const phon=w.phonetic?'<span class="phon">'+esc(w.phonetic)+'</span>':'';
@@ -406,7 +418,7 @@ function cardListItem(w){
 function renderList(){
   words=load();
   const q=$("search").value.trim().toLowerCase();
-  const tf=$("topicFilter")?$("topicFilter").value:"__all__";
+  const tf=filterTopic;
   let arr = q ? words.filter(w=>(w.word+" "+(w.unotes||[]).join(" ")+" "+(w.source||"")).toLowerCase().includes(q)) : words.slice();
   if(tf!=="__all__") arr=arr.filter(w=>(w.topic||OTHER_TOPIC)===tf);
   refreshCount();
@@ -479,7 +491,7 @@ function buildDeck(){
   words=load();
   let pool=words.slice();
   if($("onlyUnknown").checked) pool=pool.filter(w=>!w.known);
-  const ft=$("flashTopic")?$("flashTopic").value:"__all__";
+  const ft=flashTopicVal;
   if(ft!=="__all__") pool=pool.filter(w=>(w.topic||OTHER_TOPIC)===ft);
   deck=shuffle(pool.map(w=>w.id)); pos=0; flipped=false; renderFlash();
 }
@@ -563,6 +575,19 @@ function fillTopicSelect(id, firstVal, firstLabel){
     Object.keys(TOPICS_VOCAB).map(t=>'<option value="'+esc(t)+'">'+esc(t)+'</option>').join('')+
     '<option value="'+esc(OTHER_TOPIC)+'">'+esc(OTHER_TOPIC)+'</option>';
 }
+// dropdown tuỳ chỉnh (xổ xuống) cho lọc chủ đề ở Danh sách & Thẻ ghi nhớ
+function buildTopicDD(wrapId, allLabel, getVal, setVal){
+  const wrap=$(wrapId); if(!wrap) return;
+  const btn=wrap.querySelector(".ddbtn"), lbl=wrap.querySelector(".ddlabel"), list=wrap.querySelector(".ddlist");
+  const opts=[{v:"__all__",t:allLabel}].concat(Object.keys(TOPICS_VOCAB).map(k=>({v:k,t:k}))).concat([{v:OTHER_TOPIC,t:OTHER_TOPIC}]);
+  const curLabel=()=>{ const o=opts.find(x=>x.v===getVal()); return o?o.t:allLabel; };
+  function render(){ lbl.textContent=curLabel(); const cur=getVal();
+    list.innerHTML=opts.map(o=>'<div class="dditem'+(o.v===cur?' sel':'')+'" data-v="'+esc(o.v)+'">'+esc(o.t)+'</div>').join(''); }
+  btn.addEventListener("click",e=>{ e.stopPropagation(); if(list.hasAttribute("hidden")){ render(); list.removeAttribute("hidden"); } else list.setAttribute("hidden",""); });
+  list.addEventListener("click",e=>{ const it=e.target.closest(".dditem"); if(!it) return; setVal(it.dataset.v); list.setAttribute("hidden",""); lbl.textContent=curLabel(); });
+  document.addEventListener("click",e=>{ if(!wrap.contains(e.target)) list.setAttribute("hidden",""); });
+  render();
+}
 function renderTopics(){
   if(!curTopic) curTopic=Object.keys(TOPICS_VOCAB)[0];
   $("topicChips").innerHTML=Object.keys(TOPICS_VOCAB).map(n=>'<button class="tchip'+(n===curTopic?' on':'')+'" data-topic="'+esc(n)+'">'+esc(n)+'</button>').join('');
@@ -616,8 +641,6 @@ document.querySelectorAll(".tab").forEach(tb=>{
 $("addBtn").onclick=tryAdd;
 $("wordInput").addEventListener("keydown",e=>{ if(e.key==="Enter") tryAdd(); });
 $("search").addEventListener("input",()=>{listLimit=20;renderList();});
-$("topicFilter").addEventListener("change",()=>{listLimit=20;renderList();});
-$("flashTopic").addEventListener("change",buildDeck);
 $("exportBtn").onclick=exportAnki;
 $("onlyUnknown").addEventListener("change",buildDeck);
 $("shuffleBtn").onclick=buildDeck;
@@ -656,8 +679,8 @@ document.body.addEventListener("click",e=>{
   localStorage.setItem("vocab_seeded_v1","1");
 })();
 fillTopicSelect("addTopic","__auto__","🎯 Tự động (gợi ý theo từ)");
-fillTopicSelect("topicFilter","__all__","📋 Tất cả chủ đề");
-fillTopicSelect("flashTopic","__all__","Tất cả chủ đề");
+buildTopicDD("filterDD","📋 Tất cả chủ đề",()=>filterTopic,v=>{ filterTopic=v; listLimit=20; renderList(); });
+buildTopicDD("flashDD","Tất cả chủ đề",()=>flashTopicVal,v=>{ flashTopicVal=v; buildDeck(); });
 $("wordInput").focus();
 </script>
 </body>
