@@ -137,12 +137,6 @@
       <div class="hint">App <b>kiểm tra nghĩa trước khi thêm</b>: từ đơn tra từ điển (sai chính tả sẽ gợi ý sửa), cụm từ/idiom tra Wiktionary (vd: <i>on the same page</i>).</div>
     </div>
     <div id="addResult"></div>
-    <details class="topicblock">
-      <summary>📚 Thêm nhanh nhiều từ theo chủ đề</summary>
-      <div id="topicChips" style="margin-top:10px"></div>
-      <div id="topicBar"></div>
-      <div id="topicWords"></div>
-    </details>
   </div>
 
   <!-- ===== LIST ===== -->
@@ -172,6 +166,7 @@
 
 </div>
 
+<script src="vocab-seed.js"></script>
 <script>
 const LS = "vocab_notebook_v1";
 const DICT = "https://api.dictionaryapi.dev/api/v2/entries/en/";
@@ -603,10 +598,22 @@ document.body.addEventListener("click",e=>{
 
 // migration: gán chủ đề cho từ cũ chưa có
 (function(){ let ch=false; words.forEach(w=>{ if(!w.topic){ w.topic=categorize(w.word); ch=true; } }); if(ch) save(words); })();
+// tự động nạp sẵn toàn bộ từ vựng theo chủ đề (chỉ 1 lần, không cần mạng)
+(function(){
+  if(localStorage.getItem("vocab_seeded_v1")) return;
+  const seed=window.VOCAB_SEED||[];
+  if(!seed.length) return;
+  const have=new Set(words.map(w=>w.word.toLowerCase()));
+  seed.forEach((s,idx)=>{ if(have.has(s.word.toLowerCase())) return;
+    words.push({ id:"seed_"+idx, word:s.word, phonetic:s.phonetic||"", audio:s.audio||"",
+      meanings:s.meanings||[], manual:!(s.meanings&&s.meanings.length), unotes:[], uexs:[],
+      known:false, topic:s.topic, date:nowStamp() }); });
+  save(words);
+  localStorage.setItem("vocab_seeded_v1","1");
+})();
 fillTopicSelect("addTopic","__auto__","🎯 Tự động (gợi ý theo từ)");
 fillTopicSelect("topicFilter","__all__","📋 Tất cả chủ đề");
 fillTopicSelect("flashTopic","__all__","Tất cả chủ đề");
-renderTopics();
 $("wordInput").focus();
 </script>
 </body>
