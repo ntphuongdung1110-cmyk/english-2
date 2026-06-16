@@ -261,6 +261,34 @@ async function fetchPhraseData(raw){
   return out;
 }
 
+/* ===== Dịch nghĩa tiếng Việt (tự điền vào ô ghi chú) ===== */
+async function fetchVi(text){
+  try{
+    const url="https://api.mymemory.translated.net/get?q="+encodeURIComponent(text)+"&langpair=en|vi";
+    const r=await fetch(url);
+    if(!r.ok) return "";
+    const d=await r.json();
+    const t=(d&&d.responseData&&d.responseData.translatedText)||"";
+    // bỏ qua kết quả rác (API trả lại nguyên văn tiếng Anh hoặc thông báo lỗi)
+    if(!t || t.toLowerCase()===text.toLowerCase() || /MYMEMORY WARNING|INVALID/i.test(t)) return "";
+    return t.trim();
+  }catch(e){ return ""; }
+}
+// thêm nghĩa tiếng Việt vào ô ghi chú của 1 từ vừa thêm (nếu ô còn trống)
+async function autoFillVi(entry){
+  if(!entry) return;
+  if(!Array.isArray(entry.unotes)) entry.unotes=[];
+  if(entry.unotes.filter(n=>n&&n.trim()).length) return;   // người dùng/seed đã có ghi chú
+  const vi=await fetchVi(entry.word);
+  if(!vi) return;
+  const cur=words.find(w=>w.id===entry.id);
+  if(cur && cur.unotes.filter(n=>n&&n.trim()).length===0){
+    cur.unotes=[vi]; save(words);
+    const card=$("addResult"); if(card) card.innerHTML='<div style="font-size:13px;color:#166534;margin:10px 0 6px">✓ Đã thêm “'+esc(cur.word)+'” vào sổ:</div>'+cardHTML(cur,false);
+    renderList();
+  }
+}
+
 /* ===== THÊM (có validate) ===== */
 let busy=false;
 async function tryAdd(){
@@ -284,6 +312,7 @@ async function tryAdd(){
       setStatus("");
       $("addResult").innerHTML = '<div style="font-size:13px;color:#166534;margin:10px 0 6px">✓ Đã thêm “'+esc(entry.word)+'” vào sổ:</div>'+ cardHTML(entry, false);
       $("wordInput").value=""; $("wordInput").focus();
+      autoFillVi(entry);   // tự lấy nghĩa tiếng Việt điền vào ô ghi chú
     }else{
       setStatus("");
       const sug = isPhrase ? [] : await suggest(raw);
@@ -318,9 +347,10 @@ function commit(data, raw, topic){
 function addManual(raw){
   if(words.some(w=>w.word.toLowerCase()===raw.toLowerCase())){ setStatus("“"+raw+"” đã có rồi.","err"); return; }
   const entry=commit({found:false, word:raw, meanings:[]}, raw, addTopicVal==="__auto__"?undefined:addTopicVal);
-  setStatus("✓ Đã thêm “"+esc(raw)+"” — nhớ tự ghi nghĩa ở phần chi tiết.","ok");
+  setStatus("✓ Đã thêm “"+esc(raw)+"” — đang lấy nghĩa tiếng Việt…","ok");
   $("addResult").innerHTML = cardHTML(entry, false);
   $("wordInput").value="";
+  autoFillVi(entry);   // tự lấy nghĩa tiếng Việt điền vào ô ghi chú
 }
 function setStatus(msg,cls){ const s=$("status"); s.textContent=msg||""; s.className="status"+(cls?" "+cls:""); }
 function refreshCount(){ const k=words.filter(w=>w.known).length; if($("count")) $("count").textContent=words.length+" từ · "+k+" đã thuộc"; }
@@ -681,10 +711,26 @@ document.body.addEventListener("click",e=>{
   const have=new Set(words.map(w=>w.word.toLowerCase()));
   seed.forEach((s,idx)=>{ if(have.has(s.word.toLowerCase())) return;
     words.push({ id:"seed3_"+idx, word:s.word, phonetic:s.phonetic||"", audio:s.audio||"",
-      meanings:s.meanings||[], manual:!(s.meanings&&s.meanings.length), unotes:[], uexs:[],
+      meanings:s.meanings||[], manual:!(s.meanings&&s.meanings.length),
+      unotes:s.vi?[s.vi]:[], uexs:[],
       known:false, topic:s.topic, date:nowStamp() }); });
   save(words);
   localStorage.setItem("vocab_seeded_v3","1");
+})();
+// điền nghĩa tiếng Việt vào ô ghi chú cho từ đã có sẵn mà chưa ghi gì (chỉ 1 lần)
+(function(){
+  if(localStorage.getItem("vocab_vi_backfill_v1")) return;
+  const seed=window.VOCAB_SEED||[];
+  const viMap=new Map(seed.filter(s=>s.vi).map(s=>[s.word.toLowerCase(),s.vi]));
+  let changed=false;
+  words.forEach(w=>{
+    if(!Array.isArray(w.unotes)) w.unotes=[];
+    const empty=w.unotes.filter(n=>n&&n.trim()).length===0;
+    const vi=viMap.get((w.word||"").toLowerCase());
+    if(empty&&vi){ w.unotes=[vi]; changed=true; }
+  });
+  if(changed) save(words);
+  localStorage.setItem("vocab_vi_backfill_v1","1");
 })();
 buildTopicDD("addTopicDD","__auto__","🎯 Tự động (gợi ý theo từ)",()=>addTopicVal,v=>{ addTopicVal=v; });
 buildTopicDD("filterDD","__all__","📋 Tất cả chủ đề",()=>filterTopic,v=>{ filterTopic=v; listLimit=20; renderList(); });
