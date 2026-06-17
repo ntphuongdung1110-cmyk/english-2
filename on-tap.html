@@ -464,7 +464,11 @@ function renderList(){
   if(tf!=="__all__") arr=arr.filter(w=>(w.topic||OTHER_TOPIC)===tf);
   refreshCount();
   if(!arr.length){
-    $("list").innerHTML='<div class="empty">'+(words.length?"Không có từ nào khớp bộ lọc.":'Chưa có từ nào. Qua tab <b>➕ Thêm</b> để bắt đầu! 🌱')+'</div>';
+    let msg;
+    if(!words.length) msg='Chưa có từ nào. Qua tab <b>➕ Thêm</b> để bắt đầu! 🌱';
+    else if(!q && tf===OTHER_TOPIC) msg='Nhóm <b>🗂️ Khác</b> đang trống. Đây là nơi chứa <b>từ bạn tự thêm</b> mà không thuộc chủ đề có sẵn. Toàn bộ từ vựng cài sẵn nằm ở các chủ đề khác — chọn <b>📋 Tất cả chủ đề</b> để xem hết, hoặc chọn một chủ đề cụ thể (🏠 Nhà, 🍎 Trái cây…).';
+    else msg='Không có từ nào khớp bộ lọc.';
+    $("list").innerHTML='<div class="empty">'+msg+'</div>';
     return;
   }
   // nhóm theo chủ đề
