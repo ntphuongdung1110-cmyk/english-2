@@ -466,7 +466,8 @@ function renderList(){
   // nhóm theo chủ đề
   const groups={};
   arr.forEach(w=>{ const t=w.topic||OTHER_TOPIC; (groups[t]=groups[t]||[]).push(w); });
-  const known=Object.keys(TOPICS_VOCAB).concat([OTHER_TOPIC]);
+  // "🗂️ Khác" lên đầu để từ mới thêm (thường vào nhóm này) hiện ngay, không bị listLimit cắt mất
+  const known=[OTHER_TOPIC].concat(Object.keys(TOPICS_VOCAB));
   const orderedTopics=known.filter(t=>groups[t]).concat(Object.keys(groups).filter(t=>!known.includes(t)));
   // chỉ render tối đa listLimit từ (mặc định 20) cho nhẹ
   let shown=0, html="", rendered=[];
