@@ -140,6 +140,8 @@
 
 <div class="wrap">
 
+  <div id="syncBar" style="margin-bottom:12px"></div>
+
   <div class="tabs">
     <div class="tab active" data-panel="add">➕ Thêm</div>
     <div class="tab" data-panel="list">📋 Danh sách</div>
@@ -195,7 +197,9 @@ const DATAMUSE = "https://api.datamuse.com/words";
 const WIKT = "https://en.wiktionary.org/api/rest_v1/page/definition/";
 
 function load(){ try{return JSON.parse(localStorage.getItem(LS))||[]}catch(e){return []} }
-function save(arr){ localStorage.setItem(LS, JSON.stringify(arr)); }
+function save(arr){ localStorage.setItem(LS, JSON.stringify(arr)); if(window.afterSave) window.afterSave(); }
+// cho lớp đồng bộ gọi sau khi merge dữ liệu từ đám mây
+window.reloadNotebook=function(){ try{ if(typeof renderList==="function") renderList(); }catch(e){} };
 let words = load();
 // migration: chuyển dữ liệu cũ (source/userExample 1 ô) sang dạng nhiều mục
 (function(){ let changed=false;
@@ -738,5 +742,10 @@ buildTopicDD("filterDD","__all__","📋 Tất cả chủ đề",()=>filterTopic,
 buildTopicDD("flashDD","__all__","Tất cả chủ đề",()=>flashTopicVal,v=>{ flashTopicVal=v; buildDeck(); });
 $("wordInput").focus();
 </script>
+
+<!-- ===== Đồng bộ đám mây (Supabase) — tùy chọn ===== -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+<script src="sync.js"></script>
 </body>
 </html>
