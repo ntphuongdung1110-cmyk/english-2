@@ -51,8 +51,17 @@
   .tips{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:8px 12px;font-size:13px;color:#92400e;margin-top:8px}
   .tips ul{margin:6px 0 0;padding-left:18px}
   .pill{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:6px;padding:1px 7px;font-size:12px;margin:2px 4px 2px 0}
+  .nav button{flex:0 0 auto;font:inherit;font-size:12px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 10px;color:#334155;white-space:nowrap;cursor:pointer}
+  .nav button.on{background:var(--p);color:#fff;border-color:var(--p)}
+  .menu{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
+  .mcard{text-align:left;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;cursor:pointer;font:inherit;box-shadow:0 4px 14px rgba(0,0,0,.04)}
+  .mcard:active{transform:scale(.99)}
+  .mcard .mt{font-weight:800;font-size:14px;margin-bottom:3px;line-height:1.3}
+  .mcard .mc{font-size:11.5px;color:var(--mut)}
+  .back{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:13px;font-weight:700;color:var(--p);cursor:pointer;margin-bottom:10px}
+  @media (max-width:420px){.menu{grid-template-columns:1fr}}
   footer{text-align:center;color:#9ca3af;font-size:12px;margin-top:24px}
-  @media print{.controls,.nav,.spk{display:none}.qa .a.hidden{display:block!important}.hide-vi .vi{display:block!important}}
+  @media print{.controls,.nav,.spk,.back{display:none}.qa .a.hidden{display:block!important}.hide-vi .vi{display:block!important}}
 </style>
 </head>
 <body>
@@ -131,22 +140,42 @@ function extraHTML(blocks){
   return h;
 }
 
-function render(){
-  let nav="", app="";
-  ONTAP.forEach((t,i)=>{
-    nav+='<a href="#t'+i+'">'+esc(t.icon)+' '+esc(t.name.split("/")[0].trim())+'</a>';
-    const cnt=[];
-    if(t.vocab&&t.vocab.length) cnt.push(t.vocab.length+' từ');
-    if(t.qa&&t.qa.length) cnt.push(t.qa.length+' câu hỏi');
-    if(t.convo&&t.convo.length) cnt.push('hội thoại');
-    app+='<section class="topic" id="t'+i+'"><h2>'+esc(t.icon)+' '+esc(t.name)+'</h2>'+
-         '<div class="cnt">'+cnt.join(' · ')+'</div>'+
-         (t.intro?'<div class="tips" style="background:#eff6ff;border-color:#bfdbfe;color:#1e40af"><b>📌</b> '+esc(t.intro)+'</div>':'')+
-         vocabHTML(t.vocab)+extraHTML(t.extra)+qaHTML(t.qa)+convoHTML(t.convo)+tipsHTML(t.tips)+
-         '</section>';
-  });
-  $("nav").innerHTML=nav;
-  $("app").innerHTML=app;
+function counts(t){
+  const cnt=[];
+  if(t.vocab&&t.vocab.length) cnt.push(t.vocab.length+' từ');
+  if(t.qa&&t.qa.length) cnt.push(t.qa.length+' câu hỏi');
+  if(t.convo&&t.convo.length) cnt.push('hội thoại');
+  return cnt.join(' · ');
+}
+function shortName(t){ return t.name.split("/")[0].trim(); }
+function viName(t){ const p=t.name.split("/"); return p[1]?p[1].trim():""; }
+
+function buildNav(active){
+  $("nav").innerHTML=ONTAP.map((t,i)=>
+    '<button data-i="'+i+'"'+(i===active?' class="on"':'')+'>'+esc(t.icon)+' '+esc(shortName(t))+'</button>'
+  ).join('');
+}
+function topicSection(t){
+  return '<section class="topic"><h2>'+esc(t.icon)+' '+esc(t.name)+'</h2>'+
+    '<div class="cnt">'+esc(counts(t))+'</div>'+
+    (t.intro?'<div class="tips" style="background:#eff6ff;border-color:#bfdbfe;color:#1e40af"><b>📌</b> '+esc(t.intro)+'</div>':'')+
+    vocabHTML(t.vocab)+extraHTML(t.extra)+qaHTML(t.qa)+convoHTML(t.convo)+tipsHTML(t.tips)+
+    '</section>';
+}
+function showMenu(){
+  buildNav(-1);
+  let h='<div class="tips" style="background:#eff6ff;border-color:#bfdbfe;color:#1e40af"><b>👉</b> Chọn một chủ đề bên dưới để mở nội dung (chỉ tải chủ đề bạn chọn).</div><div class="menu">';
+  h+=ONTAP.map((t,i)=>
+    '<button class="mcard" data-open="'+i+'"><div class="mt">'+esc(t.icon)+' '+esc(shortName(t))+'</div>'+
+    '<div class="mc">'+esc([viName(t),counts(t)].filter(Boolean).join(' · '))+'</div></button>'
+  ).join('');
+  $("app").innerHTML=h+'</div>';
+  window.scrollTo(0,0);
+}
+function openTopic(i){
+  buildNav(i);
+  $("app").innerHTML='<button class="back" id="backBtn">← Tất cả chủ đề</button>'+topicSection(ONTAP[i]);
+  window.scrollTo(0,0);
 }
 
 // toggles
@@ -164,11 +193,14 @@ function speak(text){
 }
 document.addEventListener("click",e=>{
   const b=e.target.closest("[data-spk]"); if(b){ e.stopPropagation(); speak(b.dataset.spk); return; }
+  const op=e.target.closest("[data-open]"); if(op){ openTopic(+op.dataset.open); return; }
+  const ci=e.target.closest(".nav button[data-i]"); if(ci){ openTopic(+ci.dataset.i); return; }
+  if(e.target.closest("#backBtn")){ showMenu(); return; }
   const q=e.target.closest(".qa .q[data-ans]"); if(q){ const a=q.parentElement.querySelector(".a"); if(a) a.classList.toggle("hidden"); return; }
   if(speakOn){ const en=e.target.closest(".en,.turn span:first-child"); if(en) speak(en.textContent); }
 });
 
-render();
+showMenu();
 </script>
 </body>
 </html>
