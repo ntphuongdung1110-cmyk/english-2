@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#7e57c2">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Ôn tập kiểm tra — Nghe Nói</title>
+<style>
+  *{box-sizing:border-box}
+  :root{--p:#7e57c2;--o:#fb8c00;--line:#e5e7eb;--ink:#1f2933;--mut:#6b7280}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);background:#f5f6f8;line-height:1.55;-webkit-text-size-adjust:100%}
+  header{padding:22px 16px;color:#fff;background:linear-gradient(135deg,var(--o),var(--p))}
+  header h1{margin:0 0 4px;font-size:20px}
+  header .sub{font-size:13px;opacity:.95}
+  header a.home{color:#fff;text-decoration:none;font-size:13px;opacity:.95;display:inline-block;margin-bottom:8px}
+  .wrap{max-width:680px;margin:0 auto;padding:14px 14px 80px}
+  .controls{position:sticky;top:0;z-index:20;background:#f5f6f8;padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:6px}
+  .controls .btns{display:flex;gap:8px;flex-wrap:wrap}
+  .tgl{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;font-size:13px;cursor:pointer;font-weight:600;color:#334155}
+  .tgl.on{background:var(--p);color:#fff;border-color:var(--p)}
+  .nav{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px;-webkit-overflow-scrolling:touch}
+  .nav a{flex:0 0 auto;text-decoration:none;font-size:12px;background:#fff;border:1px solid var(--line);
+    border-radius:999px;padding:6px 10px;color:#334155;white-space:nowrap}
+  .topic{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0;box-shadow:0 4px 14px rgba(0,0,0,.04);scroll-margin-top:120px}
+  .topic h2{margin:0 0 2px;font-size:18px}
+  .topic .cnt{font-size:12px;color:var(--mut);margin-bottom:10px}
+  .sec{margin-top:14px}
+  .sec h3{font-size:14px;margin:0 0 8px;color:var(--p);display:flex;align-items:center;gap:6px;border-top:1px dashed var(--line);padding-top:12px}
+  .sec:first-of-type h3{border-top:none;padding-top:0}
+  .vrow{display:flex;gap:8px;align-items:flex-start;padding:6px 0;border-bottom:1px solid #f1f5f9;font-size:14px}
+  .vrow .star{flex:0 0 auto}
+  .vrow .en{font-weight:600}
+  .vrow .vi{color:var(--mut)}
+  .vrow .ex{display:block;color:#0e7490;font-size:12.5px;margin-top:2px;font-style:italic}
+  .qa{padding:8px 0;border-bottom:1px solid #f1f5f9}
+  .qa .q{font-weight:700;font-size:14px;cursor:pointer}
+  .qa .q .num{color:var(--o);margin-right:6px}
+  .qa .a{font-size:14px;color:#0f5132;background:#f0fdf4;border-radius:8px;padding:8px 10px;margin-top:6px}
+  .qa .a.hidden{display:none}
+  .dlg{background:#faf5ff;border:1px solid #e9d5ff;border-radius:12px;padding:10px 12px}
+  .turn{display:flex;gap:8px;padding:5px 0;font-size:14px}
+  .turn .who{flex:0 0 26px;font-weight:800}
+  .turn .who.A{color:var(--p)}
+  .turn .who.B{color:var(--o)}
+  .turn .vi{color:var(--mut);display:block;font-size:12.5px;margin-top:1px}
+  .spk{cursor:pointer;border:none;background:transparent;font-size:13px;padding:0 2px;opacity:.6}
+  .spk:hover{opacity:1}
+  .hide-vi .vi{display:none!important}
+  .tips{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:8px 12px;font-size:13px;color:#92400e;margin-top:8px}
+  .tips ul{margin:6px 0 0;padding-left:18px}
+  .pill{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:6px;padding:1px 7px;font-size:12px;margin:2px 4px 2px 0}
+  footer{text-align:center;color:#9ca3af;font-size:12px;margin-top:24px}
+  @media print{.controls,.nav,.spk{display:none}.qa .a.hidden{display:block!important}.hide-vi .vi{display:block!important}}
+</style>
+</head>
+<body>
+<header>
+  <a class="home" href="index.html">← Trang chủ</a>
+  <h1>📝 Ôn tập kiểm tra — Nghe Nói</h1>
+  <div class="sub">Mỗi chủ đề: từ vựng (⭐ ưu tiên) · câu hỏi + trả lời mẫu · hội thoại luyện nói. Bấm vào câu/chữ tiếng Anh để nghe đọc.</div>
+</header>
+
+<div class="wrap">
+  <div class="controls">
+    <div class="btns">
+      <button class="tgl on" id="tVi">🇻🇳 Tiếng Việt: Hiện</button>
+      <button class="tgl on" id="tAns">💬 Câu trả lời: Hiện</button>
+      <button class="tgl" id="tSpeak">🔊 Chạm để nghe: Bật</button>
+    </div>
+    <div class="nav" id="nav"></div>
+  </div>
+  <div id="app"></div>
+  <footer>Tài liệu Nghe Nói · tự luyện trước kiểm tra · GitHub Pages</footer>
+</div>
+
+<script src="ontap-kiemtra-data.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+let speakOn=false, ansOn=true;
+
+function spkBtn(text){ return '<button class="spk" data-spk="'+esc(text)+'" title="Nghe">🔊</button>'; }
+
+function vocabHTML(list){
+  if(!list||!list.length) return "";
+  let h='<div class="sec"><h3>📚 Từ vựng &amp; mẫu câu</h3>';
+  list.forEach(it=>{
+    h+='<div class="vrow"><span class="star">'+(it.s?"⭐":"•")+'</span><div>'+
+       '<span class="en">'+esc(it.e)+'</span> — <span class="vi">'+esc(it.v)+'</span>'+
+       (it.x?'<span class="ex">“'+esc(it.x)+'”</span>':'')+
+       '</div></div>';
+  });
+  return h+'</div>';
+}
+function qaHTML(list){
+  if(!list||!list.length) return "";
+  let h='<div class="sec"><h3>❓ Câu hỏi &amp; trả lời mẫu <span style="color:#9ca3af;font-weight:400">('+list.length+')</span></h3>';
+  list.forEach((qa,i)=>{
+    h+='<div class="qa"><div class="q" data-ans>'+
+       '<span class="num">Q'+(i+1)+'.</span>'+esc(qa.q)+' '+spkBtn(qa.q)+'</div>'+
+       '<div class="a'+(ansOn?'':' hidden')+'">'+spkBtn(qa.a)+' '+esc(qa.a)+'</div></div>';
+  });
+  return h+'</div>';
+}
+function convoHTML(list){
+  if(!list||!list.length) return "";
+  let h='<div class="sec"><h3>💬 Hội thoại luyện tập</h3><div class="dlg">';
+  list.forEach(t=>{
+    h+='<div class="turn"><span class="who '+esc(t.p)+'">'+esc(t.p)+':</span><div>'+
+       '<span>'+esc(t.e)+'</span> '+spkBtn(t.e)+
+       (t.v?'<span class="vi">'+esc(t.v)+'</span>':'')+
+       '</div></div>';
+  });
+  return h+'</div></div>';
+}
+function tipsHTML(tips){
+  if(!tips||!tips.length) return "";
+  return '<div class="tips"><b>💡 Mẹo:</b><ul>'+tips.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul></div>';
+}
+function extraHTML(blocks){
+  if(!blocks||!blocks.length) return "";
+  let h='';
+  blocks.forEach(b=>{
+    h+='<div class="sec"><h3>'+esc(b.title)+'</h3>';
+    if(b.pills) h+='<div>'+b.pills.map(p=>'<span class="pill">'+esc(p)+'</span>').join('')+'</div>';
+    if(b.rows) b.rows.forEach(r=>{ h+='<div class="vrow"><span class="star">•</span><div><span class="en">'+esc(r.e)+'</span> — <span class="vi">'+esc(r.v)+'</span></div></div>'; });
+    h+='</div>';
+  });
+  return h;
+}
+
+function render(){
+  let nav="", app="";
+  ONTAP.forEach((t,i)=>{
+    nav+='<a href="#t'+i+'">'+esc(t.icon)+' '+esc(t.name.split("/")[0].trim())+'</a>';
+    const cnt=[];
+    if(t.vocab&&t.vocab.length) cnt.push(t.vocab.length+' từ');
+    if(t.qa&&t.qa.length) cnt.push(t.qa.length+' câu hỏi');
+    if(t.convo&&t.convo.length) cnt.push('hội thoại');
+    app+='<section class="topic" id="t'+i+'"><h2>'+esc(t.icon)+' '+esc(t.name)+'</h2>'+
+         '<div class="cnt">'+cnt.join(' · ')+'</div>'+
+         (t.intro?'<div class="tips" style="background:#eff6ff;border-color:#bfdbfe;color:#1e40af"><b>📌</b> '+esc(t.intro)+'</div>':'')+
+         vocabHTML(t.vocab)+extraHTML(t.extra)+qaHTML(t.qa)+convoHTML(t.convo)+tipsHTML(t.tips)+
+         '</section>';
+  });
+  $("nav").innerHTML=nav;
+  $("app").innerHTML=app;
+}
+
+// toggles
+$("tVi").onclick=function(){ document.body.classList.toggle("hide-vi"); const on=!document.body.classList.contains("hide-vi");
+  this.classList.toggle("on",on); this.textContent="🇻🇳 Tiếng Việt: "+(on?"Hiện":"Ẩn"); };
+$("tAns").onclick=function(){ ansOn=!ansOn; this.classList.toggle("on",ansOn); this.textContent="💬 Câu trả lời: "+(ansOn?"Hiện":"Ẩn");
+  document.querySelectorAll(".qa .a").forEach(a=>a.classList.toggle("hidden",!ansOn)); };
+$("tSpeak").onclick=function(){ speakOn=!speakOn; this.classList.toggle("on",speakOn); this.textContent="🔊 Chạm để nghe: "+(speakOn?"Bật":"Tắt"); };
+
+// đọc to (Web Speech) — bấm nút 🔊, hoặc chạm câu tiếng Anh khi bật "Chạm để nghe"
+function speak(text){
+  if(!text||!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text); u.lang="en-US"; u.rate=.95; speechSynthesis.speak(u);
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-spk]"); if(b){ e.stopPropagation(); speak(b.dataset.spk); return; }
+  const q=e.target.closest(".qa .q[data-ans]"); if(q){ const a=q.parentElement.querySelector(".a"); if(a) a.classList.toggle("hidden"); return; }
+  if(speakOn){ const en=e.target.closest(".en,.turn span:first-child"); if(en) speak(en.textContent); }
+});
+
+render();
+</script>
+</body>
+</html>
