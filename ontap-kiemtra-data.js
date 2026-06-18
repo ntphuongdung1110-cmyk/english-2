@@ -847,5 +847,213 @@ window.ONTAP = [
     {p:"A",e:"Great answer — very natural!",v:"Câu trả lời hay — rất tự nhiên!"},
     {p:"B",e:"Thanks! To be honest, these linking words really help.",v:"Cảm ơn! Thành thật mà nói, mấy từ nối này giúp ích thật sự."}
   ]
+},
+
+/* ===================== MỞ RỘNG LV2 ===================== */
+{
+  icon:"🎨", name:"Hobbies LV2 / Sở thích — mở rộng",
+  intro:"Ưu tiên học collocations (cụm từ) — giúp nói tự nhiên nhất.",
+  vocab:[
+    {s:1,e:"to be into something",v:"mê / thích cái gì",x:"I'm really into photography."},
+    {s:1,e:"to be good at + V-ing",v:"giỏi việc gì"},
+    {s:1,e:"to pick up a hobby",v:"bắt đầu một sở thích mới"},
+    {e:"to kill time",v:"giết thời gian"},
+    {s:1,e:"to unwind / to relax",v:"thư giãn"},
+    {s:1,e:"it's a great way to de-stress",v:"cách tuyệt vời để giảm căng thẳng"}
+  ],
+  extra:[{title:"📚 Sở thích thêm",pills:["painting = vẽ tranh","drawing = vẽ","gardening = làm vườn","baking = làm bánh","cooking = nấu ăn","collecting = sưu tầm","hiking = đi bộ đường dài","camping = cắm trại","gaming = chơi game","journaling = viết nhật ký","knitting = đan len","birdwatching = ngắm chim","scrolling social media = lướt mạng xã hội"]}],
+  convo:[
+    {p:"A",e:"What do you usually do to unwind after work?",v:"Bạn thường làm gì để thư giãn sau giờ làm?"},
+    {p:"B",e:"I'm really into baking. It's a great way to de-stress.",v:"Mình rất mê làm bánh. Đó là cách tuyệt vời để giảm căng thẳng."},
+    {p:"A",e:"Nice! Have you picked up any new hobbies lately?",v:"Hay đó! Dạo này bạn có tập sở thích mới nào không?"},
+    {p:"B",e:"Yes, I started gardening. What about you?",v:"Có, mình bắt đầu làm vườn. Còn bạn?"},
+    {p:"A",e:"I'm good at drawing, and I go hiking on weekends to kill time.",v:"Mình vẽ khá, và cuối tuần đi bộ đường dài cho qua thời gian."},
+    {p:"B",e:"That sounds healthy and fun!",v:"Nghe vừa khỏe vừa vui!"}
+  ]
+},
+{
+  icon:"🗣️", name:"/TH/ Pronunciation / Luyện âm /θ/ – /ð/",
+  intro:"Hai âm 'th': /θ/ vô thanh và /ð/ hữu thanh. Nhớ thè nhẹ đầu lưỡi — nếu không, I think dễ thành I sink (tôi chìm)!",
+  extra:[
+    {title:"📚 /θ/ (vô thanh)",pills:["think","thin","third","throw","theater","math","path","both","north","mouth","healthy","birthday","something","nothing","author"]},
+    {title:"📚 /ð/ (hữu thanh)",pills:["this","these","they","their","there","mother","brother","other","another","together","although","smooth","rather","neither"]},
+    {title:"⚠️ Cặp dễ nhầm",pills:["think ≠ sink","thin ≠ sin","three ≠ tree","thank ≠ tank","they ≠ day","then ≠ den","breathe ≠ breeze"]}
+  ],
+  convo:[
+    {p:"A",e:"I think my brother and I are getting healthier together.",v:"Mình nghĩ anh trai mình và mình đang khỏe hơn nhờ tập cùng nhau."},
+    {p:"B",e:"That's great. Do you both work out on Thursdays?",v:"Tuyệt đó. Cả hai cùng tập vào thứ Năm à?"},
+    {p:"A",e:"Yes, and we breathe through the mouth when we run.",v:"Ừ, và bọn mình thở bằng miệng khi chạy."},
+    {p:"B",e:"Smooth breathing helps. Keep it up!",v:"Thở đều giúp ích đó. Cố lên nhé!"}
+  ],
+  tips:["Đọc to từng từ, đặt tay trước miệng: /θ/ ra hơi, /ð/ rung cổ họng.","Luyện cặp tối thiểu (think/sink) đến khi nghe rõ khác biệt."]
+},
+{
+  icon:"🤔", name:"Would You Ever…? / Cách trả lời mở rộng",
+  intro:"Kho câu trả lời cho dạng câu hỏi Would you ever…? — từ đồng ý mạnh đến từ chối.",
+  extra:[
+    {title:"✅ Đồng ý mạnh",pills:["Definitely!","For sure!","100%!","In a heartbeat! = không chần chừ","Why not?","I'd love to!"]},
+    {title:"🤷 Lưỡng lự",pills:["Maybe.","Possibly.","I'll think about it.","Under the right conditions.","It's a tough call. = khó nói"]},
+    {title:"🙅 Từ chối lịch sự",pills:["I'd rather not. = không muốn lắm","That's not for me.","I'll pass. = xin kiếu"]},
+    {title:"🚫 Từ chối mạnh",pills:["Over my dead body! = đời nào!","No chance.","Not on your life."]},
+    {title:"🔧 Cấu trúc giải thích",rows:[{e:"I would, if…",v:"Tôi sẽ làm, nếu…"},{e:"I wouldn't, unless…",v:"Tôi sẽ không, trừ khi…"}]}
+  ],
+  convo:[
+    {p:"A",e:"Would you ever go skydiving?",v:"Bạn có bao giờ thử nhảy dù không?"},
+    {p:"B",e:"In a heartbeat! It looks amazing.",v:"Không chần chừ luôn! Trông tuyệt lắm."},
+    {p:"A",e:"Would you ever eat insects?",v:"Bạn có dám ăn côn trùng không?"},
+    {p:"B",e:"I'd rather not, honestly. That's not for me.",v:"Thành thật thì không muốn lắm. Không hợp gu mình."},
+    {p:"A",e:"Would you ever move abroad?",v:"Bạn có bao giờ ra nước ngoài sống không?"},
+    {p:"B",e:"I would, if I got a good job there.",v:"Mình sẽ, nếu kiếm được công việc tốt ở đó."}
+  ]
+},
+{
+  icon:"⏰", name:"Daily Activities LV2 / Hoạt động hằng ngày — mở rộng",
+  vocab:[
+    {s:1,e:"I'm a morning person / a night owl",v:"người dậy sớm / cú đêm"},
+    {s:1,e:"first thing in the morning",v:"việc đầu tiên trong buổi sáng"},
+    {e:"right before bed",v:"ngay trước khi ngủ"},
+    {e:"on weekdays ≠ on weekends",v:"ngày thường ≠ cuối tuần"},
+    {s:1,e:"every now and then",v:"thỉnh thoảng"}
+  ],
+  extra:[{title:"📚 Hoạt động thêm",pills:["wake up ≠ get up = thức dậy ≠ rời giường","hit the snooze button = tắt báo thức ngủ thêm","make the bed = dọn giường","do skincare = chăm sóc da","commute to work = đi làm","grab a coffee = mua cà phê nhanh","check emails","run errands = chạy việc vặt","do the laundry = giặt giũ","tidy up = dọn dẹp","scroll on my phone","doze off = lim dim ngủ","stay up late = thức khuya"]}],
+  convo:[
+    {p:"A",e:"Are you a morning person or a night owl?",v:"Bạn là người dậy sớm hay cú đêm?"},
+    {p:"B",e:"A morning person. First thing in the morning, I make the bed and grab a coffee.",v:"Người dậy sớm. Việc đầu tiên buổi sáng là dọn giường và làm ly cà phê."},
+    {p:"A",e:"Nice. I always hit the snooze button and doze off again.",v:"Hay đó. Mình toàn tắt báo thức rồi ngủ tiếp."},
+    {p:"B",e:"Ha! Do you run errands on weekdays or weekends?",v:"Haha! Bạn chạy việc vặt vào ngày thường hay cuối tuần?"},
+    {p:"A",e:"On weekends, and I do the laundry every now and then.",v:"Cuối tuần, và thỉnh thoảng mình giặt giũ."}
+  ]
+},
+{
+  icon:"❓", name:"Ask Me Anything LV2 / Cách hỏi mở rộng",
+  extra:[
+    {title:"🙂 Hỏi lịch sự / phản hồi",rows:[
+      {e:"Could you tell me…?",v:"Bạn cho tôi biết… được không?"},
+      {e:"Do you mind if I ask…?",v:"Bạn có phiền nếu tôi hỏi…?"},
+      {e:"What about you? / How about you?",v:"Còn bạn thì sao?"},
+      {e:"What do you mean?",v:"Ý bạn là gì?"}
+    ]},
+    {title:"📚 Mở rộng How…",pills:["How far = bao xa","How long = bao lâu","How old = bao nhiêu tuổi","How tall = cao bao nhiêu","How come = sao lại thế (informal của Why)"]},
+    {title:"📚 Mở rộng What…",pills:["What kind of = loại nào","What for = để làm gì","What if = lỡ như / nếu mà"]}
+  ],
+  convo:[
+    {p:"A",e:"Do you mind if I ask how long you've studied English?",v:"Bạn có phiền cho hỏi bạn học tiếng Anh bao lâu rồi không?"},
+    {p:"B",e:"Not at all — about three years. How about you?",v:"Không sao — khoảng ba năm. Còn bạn?"},
+    {p:"A",e:"Two years. How come you speak so fluently?",v:"Hai năm. Sao bạn nói trôi chảy vậy?"},
+    {p:"B",e:"I practice every day. What kind of practice do you do?",v:"Mình luyện mỗi ngày. Bạn luyện kiểu nào?"},
+    {p:"A",e:"Mostly speaking. What if I practiced with you sometime?",v:"Chủ yếu luyện nói. Lỡ mình luyện cùng bạn thì sao?"},
+    {p:"B",e:"Sounds great!",v:"Nghe hay đó!"}
+  ]
+},
+{
+  icon:"💇", name:"Style & Appearance LV2 / Ngoại hình & phong cách — mở rộng",
+  vocab:[
+    {s:1,e:"to take care of your appearance",v:"chăm chút ngoại hình"},
+    {s:1,e:"to look your best",v:"trông đẹp nhất có thể"},
+    {e:"He's aged well.",v:"anh ấy trông vẫn phong độ"}
+  ],
+  extra:[
+    {title:"📚 Vóc dáng",pills:["slim = thon","skinny = gầy nhom","fit = cân đối","athletic = vạm vỡ thể thao","petite = nhỏ nhắn (nữ)","well-built = lực lưỡng","good-looking = ưa nhìn","pretty = xinh","cute = dễ thương","plain = bình thường"]},
+    {title:"📚 Tóc & râu",pills:["wavy hair = tóc gợn sóng","ponytail = đuôi ngựa","bun = búi","bangs/fringe = tóc mái","buzz cut = cắt cua","dyed blonde = nhuộm vàng","bald = hói","beard = râu quai nón","mustache = ria mép","clean-shaven = cạo nhẵn"]},
+    {title:"📚 Trang phục & phong cách",pills:["outfit = bộ trang phục","casual = thường ngày","formal = trang trọng","trendy = hợp mốt","old-fashioned = lỗi thời","accessories = phụ kiện","dress up ≠ dress down"]}
+  ],
+  convo:[
+    {p:"A",e:"You always look your best. What's your secret?",v:"Bạn lúc nào cũng đẹp nhất. Bí quyết gì vậy?"},
+    {p:"B",e:"I just take care of my appearance and pick a simple outfit.",v:"Mình chỉ chăm chút ngoại hình và chọn bộ đồ đơn giản."},
+    {p:"A",e:"Do you prefer casual or formal style?",v:"Bạn thích phong cách thường ngày hay trang trọng?"},
+    {p:"B",e:"Casual most days, but I dress up for events.",v:"Thường ngày thì giản dị, nhưng dịp quan trọng thì mình diện đồ."},
+    {p:"A",e:"Your new bangs look trendy, by the way.",v:"À mà tóc mái mới của bạn trông hợp mốt ghê."},
+    {p:"B",e:"Thanks! I wanted a fresh look.",v:"Cảm ơn! Mình muốn đổi diện mạo mới."}
+  ]
+},
+{
+  icon:"📦", name:"Describing Things / Miêu tả đồ vật",
+  vocab:[
+    {s:1,e:"It's about the size of…",v:"nó to cỡ…"},
+    {s:1,e:"It comes in different colors.",v:"nó có nhiều màu."},
+    {s:1,e:"It's handy / useful for…",v:"nó tiện / hữu ích để…"}
+  ],
+  extra:[
+    {title:"📚 Kích cỡ",pills:["huge / enormous / gigantic = khổng lồ","bulky = cồng kềnh","compact = nhỏ gọn","thin = mỏng","thick = dày","heavy = nặng","lightweight = nhẹ"]},
+    {title:"📚 Chất liệu",pills:["metal = kim loại","steel = thép","aluminum = nhôm","copper = đồng","gold/silver = vàng/bạc","cotton","silk = lụa","wool = len","paper = giấy","cardboard = bìa cứng","ceramic = gốm sứ","foam = xốp"]},
+    {title:"📚 Hình dạng & đặc điểm",pills:["oval = bầu dục","round = tròn","flat = phẳng","curved = cong","pointy = nhọn","smooth ≠ rough = nhẵn ≠ thô ráp","shiny ≠ dull = bóng ≠ xỉn","transparent = trong suốt","waterproof = chống nước","portable = di động"]}
+  ],
+  convo:[
+    {p:"A",e:"Can you describe your new water bottle?",v:"Bạn tả cái bình nước mới được không?"},
+    {p:"B",e:"Sure. It's made of steel, lightweight, and waterproof.",v:"Được. Nó làm bằng thép, nhẹ và chống nước."},
+    {p:"A",e:"What does it look like?",v:"Trông nó thế nào?"},
+    {p:"B",e:"It's tall and round, with a smooth, shiny surface. It comes in different colors.",v:"Cao và tròn, bề mặt nhẵn bóng. Nó có nhiều màu."},
+    {p:"A",e:"Is it big?",v:"Nó có to không?"},
+    {p:"B",e:"It's about the size of a thermos — compact and handy for travel.",v:"To cỡ cái bình giữ nhiệt — nhỏ gọn và tiện đi du lịch."}
+  ]
+},
+{
+  icon:"💼", name:"Careers / Nghề nghiệp",
+  vocab:[
+    {s:1,e:"to apply for a job",v:"nộp đơn xin việc"},
+    {s:1,e:"a job interview",v:"phỏng vấn việc làm"},
+    {e:"a CV / résumé",v:"sơ yếu lý lịch"},
+    {e:"salary / wage / bonus",v:"lương tháng / lương theo giờ / thưởng"},
+    {e:"a deadline · to work overtime",v:"hạn chót · làm thêm giờ"},
+    {e:"a coworker / colleague",v:"đồng nghiệp"},
+    {s:1,e:"work–life balance",v:"cân bằng công việc và cuộc sống"},
+    {s:1,e:"to climb the career ladder",v:"thăng tiến sự nghiệp"}
+  ],
+  extra:[{title:"📚 Nghề thêm",pills:["accountant = kế toán","lawyer = luật sư","engineer = kỹ sư","nurse = y tá","surgeon = bác sĩ phẫu thuật","dentist = nha sĩ","architect = kiến trúc sư","translator = phiên dịch","tour guide = hướng dẫn viên","chef = đầu bếp","waiter/waitress = phục vụ","entrepreneur = doanh nhân khởi nghiệp","content creator = nhà sáng tạo nội dung","influencer"]}],
+  convo:[
+    {p:"A",e:"I heard you applied for a new job. How did the interview go?",v:"Nghe nói bạn nộp đơn việc mới. Phỏng vấn thế nào?"},
+    {p:"B",e:"Pretty well! They liked my CV and the salary is good.",v:"Khá tốt! Họ thích CV của mình và lương ổn."},
+    {p:"A",e:"Nice. Do you have to work overtime there?",v:"Hay đó. Ở đó có phải làm thêm giờ không?"},
+    {p:"B",e:"Sometimes, but they care about work–life balance.",v:"Đôi khi, nhưng họ coi trọng cân bằng công việc — cuộc sống."},
+    {p:"A",e:"That's important. I hope you climb the career ladder fast.",v:"Quan trọng đó. Mong bạn thăng tiến nhanh."},
+    {p:"B",e:"Thanks! My new colleagues seem friendly too.",v:"Cảm ơn! Đồng nghiệp mới cũng có vẻ thân thiện."}
+  ]
+},
+{
+  icon:"🛒", name:"At the Supermarket / Ở siêu thị",
+  vocab:[
+    {s:1,e:"to stock up on",v:"mua trữ nhiều"},
+    {s:1,e:"to run out of",v:"hết (sạch) thứ gì"},
+    {e:"buy one get one free (BOGO)",v:"mua 1 tặng 1"},
+    {e:"expiry date / best before",v:"hạn sử dụng"},
+    {s:1,e:"to check out",v:"ra quầy thanh toán"},
+    {e:"a receipt",v:"hóa đơn"},
+    {e:"cash or card?",v:"tiền mặt hay thẻ?"},
+    {e:"plastic bag ≠ reusable bag",v:"túi nilon ≠ túi tái sử dụng"},
+    {s:1,e:"to compare prices · a good deal",v:"so sánh giá · món hời"}
+  ],
+  extra:[{title:"📚 Khu hàng & sản phẩm",pills:["frozen food = đồ đông lạnh","canned food = đồ hộp","beverages = đồ uống","snacks = đồ ăn vặt","spices = gia vị","condiments = đồ chấm/nước sốt","household items = đồ gia dụng","toiletries = đồ vệ sinh cá nhân","aisle = lối đi giữa kệ","shelf = kệ hàng"]}],
+  convo:[
+    {p:"A",e:"Excuse me, which aisle has the frozen food?",v:"Xin lỗi, đồ đông lạnh ở lối nào ạ?"},
+    {p:"B",e:"Aisle five, next to the beverages.",v:"Lối số năm, cạnh khu đồ uống."},
+    {p:"A",e:"Thanks. I need to stock up on snacks too.",v:"Cảm ơn. Tôi cũng cần mua trữ đồ ăn vặt."},
+    {p:"B",e:"There's a buy one get one free deal today.",v:"Hôm nay có khuyến mãi mua 1 tặng 1 đó."},
+    {p:"A",e:"Great deal! I'll go check out now.",v:"Hời ghê! Tôi ra quầy thanh toán đây."},
+    {p:"B",e:"Cash or card? And do you need a bag?",v:"Tiền mặt hay thẻ? Anh/chị cần túi không?"},
+    {p:"A",e:"Card, please. I brought my own reusable bag.",v:"Thẻ nhé. Tôi mang túi tái sử dụng rồi."}
+  ]
+},
+{
+  icon:"🙂", name:"Personality / Tính cách",
+  vocab:[
+    {s:1,e:"to have a good sense of humor",v:"có khiếu hài hước"},
+    {s:1,e:"to get along with people",v:"hòa đồng với mọi người"},
+    {s:1,e:"down to earth",v:"giản dị, thực tế"},
+    {e:"a people person",v:"người thích giao tiếp"},
+    {e:"to have a heart of gold",v:"có tấm lòng vàng"},
+    {e:"He/She is full of energy.",v:"tràn đầy năng lượng"}
+  ],
+  extra:[
+    {title:"👍 Tính cách tốt",pills:["generous = hào phóng","patient = kiên nhẫn","reliable = đáng tin cậy","loyal = trung thành","humble = khiêm tốn","polite = lịch sự","thoughtful = chu đáo","ambitious = tham vọng","optimistic = lạc quan","open-minded = cởi mở","funny/humorous = hài hước"]},
+    {title:"👎 Tính cách tiêu cực",pills:["arrogant = kiêu ngạo","selfish = ích kỷ","stubborn = bướng bỉnh","rude = thô lỗ","moody = thất thường","jealous = ghen tị","pessimistic = bi quan","bossy = hay sai khiến","clumsy = vụng về","nosy = tọc mạch"]}
+  ],
+  convo:[
+    {p:"A",e:"How would you describe your best friend?",v:"Bạn tả người bạn thân nhất thế nào?"},
+    {p:"B",e:"She's down to earth and has a heart of gold.",v:"Cậu ấy giản dị và có tấm lòng vàng."},
+    {p:"A",e:"Is she easy to get along with?",v:"Cậu ấy có dễ hòa đồng không?"},
+    {p:"B",e:"Very. She's a people person and full of energy.",v:"Rất. Cậu ấy thích giao tiếp và tràn đầy năng lượng."},
+    {p:"A",e:"Any flaws?",v:"Có khuyết điểm gì không?"},
+    {p:"B",e:"She can be a bit stubborn, but she's reliable and kind.",v:"Hơi bướng một chút, nhưng đáng tin và tốt bụng."}
+  ]
 }
 ];
