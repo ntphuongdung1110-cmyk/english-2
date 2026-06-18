@@ -147,8 +147,8 @@ function counts(t){
   if(t.convo&&t.convo.length) cnt.push('hội thoại');
   return cnt.join(' · ');
 }
-function shortName(t){ return t.name.split("/")[0].trim(); }
-function viName(t){ const p=t.name.split("/"); return p[1]?p[1].trim():""; }
+function shortName(t){ return t.name.split(" / ")[0].trim(); }
+function viName(t){ const p=t.name.split(" / "); return p[1]?p[1].trim():""; }
 
 function buildNav(active){
   $("nav").innerHTML=ONTAP.map((t,i)=>
