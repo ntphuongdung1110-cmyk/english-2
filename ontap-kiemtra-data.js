@@ -853,6 +853,15 @@ window.ONTAP = [
 {
   icon:"🎨", name:"Hobbies LV2 / Sở thích — mở rộng",
   intro:"Ưu tiên học collocations (cụm từ) — giúp nói tự nhiên nhất.",
+  qa:[
+    {q:"What are you really into these days?",a:"I'm really into baking these days. It's a great way to de-stress after a long day at work."},
+    {q:"How do you usually unwind after work?",a:"I usually unwind by gardening or listening to music. It helps me relax and recharge."},
+    {q:"Have you picked up any new hobbies recently?",a:"Yes, I recently picked up journaling. Writing down my thoughts makes me feel calm and focused."},
+    {q:"What's a good hobby to kill time on weekends?",a:"Hiking is great to kill time on weekends. You get fresh air, exercise, and beautiful views."},
+    {q:"Are you good at any creative hobbies?",a:"I'm quite good at drawing, although I'm still a beginner at painting. I enjoy both a lot."},
+    {q:"Would you prefer an indoor or an outdoor hobby?",a:"I prefer outdoor hobbies like hiking and camping because I love being close to nature."},
+    {q:"Why do you think hobbies are important?",a:"Hobbies are important because they help us de-stress, learn new skills, and enjoy our free time."}
+  ],
   vocab:[
     {s:1,e:"to be into something",v:"mê / thích cái gì",x:"I'm really into photography."},
     {s:1,e:"to be good at + V-ing",v:"giỏi việc gì"},
@@ -873,7 +882,15 @@ window.ONTAP = [
 },
 {
   icon:"🗣️", name:"/TH/ Pronunciation / Luyện âm /θ/ – /ð/",
-  intro:"Hai âm 'th': /θ/ vô thanh và /ð/ hữu thanh. Nhớ thè nhẹ đầu lưỡi — nếu không, I think dễ thành I sink (tôi chìm)!",
+  intro:"Hai âm 'th': /θ/ vô thanh và /ð/ hữu thanh. Nhớ thè nhẹ đầu lưỡi — nếu không, I think dễ thành I sink (tôi chìm)! Đọc to phần trả lời để luyện âm.",
+  qa:[
+    {q:"What do you usually do on your birthday?",a:"On my birthday, I get together with my mother, my brother, and a few friends. We share a healthy meal and have fun."},
+    {q:"Do you think learning math is important?",a:"I think math is important. Both my brother and I believe it trains the brain to think clearly."},
+    {q:"How do you stay healthy?",a:"I stay healthy by eating healthy food and breathing fresh air. I also try to walk a thousand steps every day."},
+    {q:"Which is faster, the north road or the other path?",a:"I think the other path is smoother and faster than the north road, although it's a bit longer."},
+    {q:"Who do you spend most of your time with?",a:"I spend most of my time with my mother, my father, and my brother. We do almost everything together."},
+    {q:"What are you thankful for?",a:"I'm thankful for my health and my family. To be honest, there's nothing more important than that."}
+  ],
   extra:[
     {title:"📚 /θ/ (vô thanh)",pills:["think","thin","third","throw","theater","math","path","both","north","mouth","healthy","birthday","something","nothing","author"]},
     {title:"📚 /ð/ (hữu thanh)",pills:["this","these","they","their","there","mother","brother","other","another","together","although","smooth","rather","neither"]},
@@ -890,6 +907,15 @@ window.ONTAP = [
 {
   icon:"🤔", name:"Would You Ever…? / Cách trả lời mở rộng",
   intro:"Kho câu trả lời cho dạng câu hỏi Would you ever…? — từ đồng ý mạnh đến từ chối.",
+  qa:[
+    {q:"Would you ever go skydiving?",a:"In a heartbeat! It looks scary but unforgettable. I'd love to try it at least once."},
+    {q:"Would you ever eat insects?",a:"I'd rather not, honestly. That's just not for me, although I respect people who enjoy it."},
+    {q:"Would you ever move to another country?",a:"I would, if I got a good job there. Living abroad would be a great experience."},
+    {q:"Would you ever go on a blind date?",a:"Maybe. It's a tough call, but I'd consider it under the right conditions."},
+    {q:"Would you ever quit your job to travel the world?",a:"Possibly, but only if I had enough savings. I'll think about it carefully first."},
+    {q:"Would you ever sing on a stage?",a:"Why not? It would be fun, even if I felt a little nervous at first."},
+    {q:"Would you ever lie to skip work?",a:"No chance. I'd rather be honest with my boss, even when it's difficult."}
+  ],
   extra:[
     {title:"✅ Đồng ý mạnh",pills:["Definitely!","For sure!","100%!","In a heartbeat! = không chần chừ","Why not?","I'd love to!"]},
     {title:"🤷 Lưỡng lự",pills:["Maybe.","Possibly.","I'll think about it.","Under the right conditions.","It's a tough call. = khó nói"]},
@@ -908,6 +934,15 @@ window.ONTAP = [
 },
 {
   icon:"⏰", name:"Daily Activities LV2 / Hoạt động hằng ngày — mở rộng",
+  qa:[
+    {q:"Are you a morning person or a night owl?",a:"I'm a morning person. First thing in the morning, I make the bed and grab a coffee."},
+    {q:"What's the first thing you do after you wake up?",a:"The first thing I do is drink some water and do my skincare. Then I get ready for work."},
+    {q:"Do you usually hit the snooze button?",a:"Yes, sometimes I hit the snooze button and doze off again, especially on cold mornings."},
+    {q:"When do you usually run errands?",a:"I usually run errands on weekends, like grocery shopping and paying the bills."},
+    {q:"Do you stay up late often?",a:"Not really. I try not to stay up late because it ruins my whole next day."},
+    {q:"How do you keep your home tidy?",a:"I tidy up a little every day and do the laundry every now and then."},
+    {q:"What do you do right before bed?",a:"Right before bed, I read a little and try to avoid scrolling on my phone."}
+  ],
   vocab:[
     {s:1,e:"I'm a morning person / a night owl",v:"người dậy sớm / cú đêm"},
     {s:1,e:"first thing in the morning",v:"việc đầu tiên trong buổi sáng"},
@@ -926,6 +961,15 @@ window.ONTAP = [
 },
 {
   icon:"❓", name:"Ask Me Anything LV2 / Cách hỏi mở rộng",
+  qa:[
+    {q:"How far is your workplace from home?",a:"It's about ten kilometers, so it takes me around twenty minutes by motorbike."},
+    {q:"How long have you been learning English?",a:"I've been learning for a few years, but I only got serious about it recently."},
+    {q:"How come you chose your current job?",a:"How come? Well, I chose it because I enjoy solving problems and I'm good with details."},
+    {q:"What kind of music do you like?",a:"I like pop and acoustic music because they help me relax after work."},
+    {q:"What if you had a completely free day tomorrow?",a:"If I had a free day, I'd sleep in, meet friends, and go out for a nice coffee."},
+    {q:"Do you mind if I ask how old you are?",a:"Not at all. I'm in my early thirties, and I still feel young at heart."},
+    {q:"What do you do for fun? How about you?",a:"I read and exercise for fun. It keeps me balanced. How about you?"}
+  ],
   extra:[
     {title:"🙂 Hỏi lịch sự / phản hồi",rows:[
       {e:"Could you tell me…?",v:"Bạn cho tôi biết… được không?"},
@@ -947,6 +991,14 @@ window.ONTAP = [
 },
 {
   icon:"💇", name:"Style & Appearance LV2 / Ngoại hình & phong cách — mở rộng",
+  qa:[
+    {q:"How would you describe your style?",a:"My style is casual and simple. I like comfortable outfits, but I dress up for special events."},
+    {q:"What's the first thing you notice about someone's appearance?",a:"I usually notice their smile and whether they look neat and well-dressed."},
+    {q:"Do you prefer trendy clothes or classic clothes?",a:"I prefer classic clothes because they never look old-fashioned, but I add a few trendy accessories."},
+    {q:"How do you take care of your appearance?",a:"I take care of my appearance by keeping my hair neat and doing some simple skincare every day."},
+    {q:"Can you describe a friend's appearance?",a:"My friend is slim and athletic, with wavy hair and a warm smile. She always looks her best."},
+    {q:"Has your style changed over the years?",a:"Yes, I used to follow every trend, but now I just want to look clean and feel comfortable."}
+  ],
   vocab:[
     {s:1,e:"to take care of your appearance",v:"chăm chút ngoại hình"},
     {s:1,e:"to look your best",v:"trông đẹp nhất có thể"},
@@ -968,6 +1020,14 @@ window.ONTAP = [
 },
 {
   icon:"📦", name:"Describing Things / Miêu tả đồ vật",
+  qa:[
+    {q:"Can you describe your phone?",a:"It's a black smartphone, thin and lightweight, with a smooth, shiny screen. It's really handy."},
+    {q:"Describe your favorite bag.",a:"It's a compact backpack made of waterproof fabric. It's lightweight and comes in different colors."},
+    {q:"What's an object you can't live without?",a:"My laptop. It's portable and useful for both work and entertainment."},
+    {q:"Describe something in your kitchen.",a:"I have a round ceramic bowl. It's smooth, a bit heavy, and perfect for soup."},
+    {q:"Describe a good gift you received.",a:"I got a small, shiny metal watch. It's compact and looks really elegant."},
+    {q:"Describe the shape and material of your water bottle.",a:"It's tall and curved, made of steel, and it keeps my water cold for hours."}
+  ],
   vocab:[
     {s:1,e:"It's about the size of…",v:"nó to cỡ…"},
     {s:1,e:"It comes in different colors.",v:"nó có nhiều màu."},
@@ -989,6 +1049,15 @@ window.ONTAP = [
 },
 {
   icon:"💼", name:"Careers / Nghề nghiệp",
+  qa:[
+    {q:"What do you do for a living?",a:"I work in quality control. My job is to make sure our products meet the right standards."},
+    {q:"Have you ever had a job interview? How did it go?",a:"Yes, I had three interviews for my current job. I was nervous, but in the end it went well."},
+    {q:"Do you have a good work–life balance?",a:"Mostly. Sometimes I have to work overtime, but I try to rest and recharge on weekends."},
+    {q:"What job would you love to try?",a:"I'd love to try being a content creator because I enjoy sharing ideas with people."},
+    {q:"How do you get along with your coworkers?",a:"I get along well with my colleagues. Good communication makes the work much easier."},
+    {q:"What's important when applying for a job?",a:"A clear CV and confidence in the interview are the most important things, in my opinion."},
+    {q:"Do you want to climb the career ladder?",a:"Yes, I'm quite ambitious. I'd like to grow into a leadership role one day."}
+  ],
   vocab:[
     {s:1,e:"to apply for a job",v:"nộp đơn xin việc"},
     {s:1,e:"a job interview",v:"phỏng vấn việc làm"},
@@ -1011,6 +1080,15 @@ window.ONTAP = [
 },
 {
   icon:"🛒", name:"At the Supermarket / Ở siêu thị",
+  qa:[
+    {q:"How often do you go to the supermarket?",a:"I go about twice a week to stock up on food and some household items."},
+    {q:"What do you usually buy?",a:"I usually buy fresh vegetables, frozen food, and a few snacks for the week."},
+    {q:"Do you compare prices when you shop?",a:"Yes, I always compare prices and look for a good deal or a buy one get one free offer."},
+    {q:"Do you check the expiry date?",a:"Definitely. I always check the expiry date before I buy any food."},
+    {q:"Do you prefer paying by cash or card?",a:"I usually pay by card because it's faster and I don't like carrying much cash."},
+    {q:"Do you bring your own bag?",a:"Yes, I bring a reusable bag instead of using plastic bags. It's better for the environment."},
+    {q:"What do you do when you run out of something?",a:"I add it to a list and stock up on it during my next trip to the supermarket."}
+  ],
   vocab:[
     {s:1,e:"to stock up on",v:"mua trữ nhiều"},
     {s:1,e:"to run out of",v:"hết (sạch) thứ gì"},
@@ -1035,6 +1113,15 @@ window.ONTAP = [
 },
 {
   icon:"🙂", name:"Personality / Tính cách",
+  qa:[
+    {q:"How would you describe your personality?",a:"I'm easy-going and reliable. I get along with people and try to stay optimistic."},
+    {q:"What personality traits do you value in a friend?",a:"I value honesty and loyalty. A good friend should be reliable and down to earth."},
+    {q:"What's your biggest strength?",a:"My biggest strength is patience. I try to stay calm even under pressure."},
+    {q:"Do you have any weaknesses?",a:"I can be a bit stubborn sometimes, but I'm working on being more open-minded."},
+    {q:"Whose personality do you admire?",a:"I admire my mother. She's generous, humble, and has a heart of gold."},
+    {q:"Are you an optimistic or a pessimistic person?",a:"I'm optimistic. I believe most problems have a solution if you stay calm."},
+    {q:"What kind of people do you try to avoid?",a:"I try to avoid people who are arrogant or rude. I prefer kind, thoughtful people."}
+  ],
   vocab:[
     {s:1,e:"to have a good sense of humor",v:"có khiếu hài hước"},
     {s:1,e:"to get along with people",v:"hòa đồng với mọi người"},
