@@ -1142,5 +1142,53 @@ window.ONTAP = [
     {p:"A",e:"Any flaws?",v:"Có khuyết điểm gì không?"},
     {p:"B",e:"She can be a bit stubborn, but she's reliable and kind.",v:"Hơi bướng một chút, nhưng đáng tin và tốt bụng."}
   ]
+},
+{
+  icon:"🧭", name:"Places & Directions / Địa điểm & Chỉ đường",
+  intro:"Hỏi đường: Excuse me, how do I get to…? · Chỉ đường: dùng câu mệnh lệnh (Go…, Turn…, Take…) + giới từ vị trí.",
+  vocab:[
+    {s:1,e:"How do I get to…?",v:"đi tới… thế nào?"},
+    {s:1,e:"go straight (on)",v:"đi thẳng"},
+    {s:1,e:"turn left / turn right",v:"rẽ trái / rẽ phải"},
+    {s:1,e:"take the first / second turning",v:"rẽ ở ngã rẽ thứ nhất / thứ hai"},
+    {e:"go past…",v:"đi qua (khỏi)…"},
+    {s:1,e:"it's on your left / right",v:"nó ở bên trái / phải bạn"},
+    {s:1,e:"across from / opposite",v:"đối diện"},
+    {e:"next to / beside",v:"bên cạnh"},
+    {e:"between … and …",v:"ở giữa … và …"},
+    {e:"at the corner of",v:"ở góc (đường)"},
+    {e:"around the corner",v:"ngay góc kia, rất gần"},
+    {s:1,e:"It's within walking distance.",v:"đi bộ tới được"},
+    {e:"Is it far from here?",v:"có xa đây không?"},
+    {e:"You can't miss it.",v:"không thể đi nhầm được đâu"}
+  ],
+  extra:[
+    {title:"📚 Địa điểm (places)",pills:["bank = ngân hàng","post office = bưu điện","pharmacy / drugstore = nhà thuốc","hospital = bệnh viện","supermarket = siêu thị","bus stop = trạm xe buýt","train station = ga tàu","gas station = trạm xăng","bakery = tiệm bánh","bookstore = nhà sách","police station = đồn công an","park = công viên","museum = bảo tàng","ATM = máy rút tiền","parking lot = bãi đỗ xe"]},
+    {title:"📚 Trên đường (street)",pills:["crossroads / intersection = ngã tư","roundabout = vòng xuyến","traffic lights = đèn giao thông","pedestrian crossing = vạch sang đường","corner = góc đường","block = dãy nhà (đơn vị quãng đường)","landmark = địa danh dễ nhận"]},
+    {title:"📍 Giới từ chỉ vị trí",pills:["next to = bên cạnh","opposite / across from = đối diện","between = ở giữa","behind = phía sau","in front of = phía trước","near = gần","far from = xa","on the corner of = ở góc"]}
+  ],
+  qa:[
+    {q:"Excuse me, how do I get to the nearest ATM?",a:"Go straight for two blocks, then turn left. The ATM is on your right, next to a coffee shop."},
+    {q:"Is there a pharmacy around here?",a:"Yes, there's one just around the corner, opposite the bus stop. It's within walking distance."},
+    {q:"How far is the train station from here?",a:"It's about a ten-minute walk, or around five minutes by motorbike if the traffic isn't bad."},
+    {q:"Could you tell me the way to the post office?",a:"Sure. Go past the supermarket, take the second turning on the right, and it's at the corner."},
+    {q:"Where's a good place to eat near here?",a:"There's a great noodle shop two blocks away, between the bank and the bookstore."},
+    {q:"I think I'm lost. Could you help me?",a:"Of course. Where are you trying to go? I can show you on the map."},
+    {q:"What's a good landmark to remember in your area?",a:"The big roundabout in the center. From there, most places are easy to find."},
+    {q:"How do people usually get around your city?",a:"Most people ride motorbikes because it's fast and convenient, especially in heavy traffic."}
+  ],
+  convo:[
+    {p:"A",e:"Excuse me, could you tell me how to get to the museum?",v:"Xin lỗi, cho tôi hỏi đường đến bảo tàng được không?"},
+    {p:"B",e:"Sure! Go straight down this street and turn right at the traffic lights.",v:"Được chứ! Đi thẳng con đường này rồi rẽ phải ở đèn giao thông."},
+    {p:"A",e:"Okay, turn right at the lights. Then what?",v:"Vâng, rẽ phải ở đèn. Rồi sao nữa ạ?"},
+    {p:"B",e:"Go past the park, and the museum is on your left, opposite a big hotel.",v:"Đi qua công viên, bảo tàng nằm bên trái bạn, đối diện một khách sạn lớn."},
+    {p:"A",e:"Is it far from here?",v:"Có xa đây không ạ?"},
+    {p:"B",e:"Not at all — it's about a five-minute walk.",v:"Không hề — đi bộ khoảng năm phút thôi."},
+    {p:"A",e:"Great. Is there an ATM on the way?",v:"Tuyệt. Trên đường có máy ATM không ạ?"},
+    {p:"B",e:"Yes, there's one at the corner, next to the pharmacy.",v:"Có, có một cái ở góc đường, ngay cạnh nhà thuốc."},
+    {p:"A",e:"Thank you so much for your help!",v:"Cảm ơn bạn rất nhiều!"},
+    {p:"B",e:"No problem. You can't miss it!",v:"Không có gì. Không thể đi nhầm được đâu!"}
+  ],
+  tips:["Hỏi lịch sự: Excuse me, how do I get to…? / Could you tell me the way to…?","Chỉ đường dùng câu mệnh lệnh: Go straight…, Turn left/right…, Take the first turning…, Go past…","Mô tả vị trí bằng giới từ: on your left, opposite, next to, between, at the corner of."]
 }
 ];
