@@ -288,5 +288,16 @@ module.exports = {
   "a receipt": { x: "Keep the receipt in case you want a refund." },
   "to check out": { x: "We checked out and paid for our groceries." },
   "next to / beside": { x: "The bank is next to the post office." },
-  "between … and …": { x: "The pharmacy is between the bank and the café." }
+  "between … and …": { x: "The pharmacy is between the bank and the café." },
+
+  // ---- Meeting New People (bài L3) ----
+  "make a good first impression": { d: "To create a good opinion of yourself when people first meet you.", x: "Arriving on time helps you make a good first impression." },
+  "stranger": { d: "A person you do not know.", x: "A friendly stranger helped me find the station." },
+  "friend": { d: "A person you know well and like, who is not a family member.", x: "She has been my closest friend for ten years." },
+  "colleague": { d: "A person you work with.", x: "My colleague helped me finish the report." },
+  "mutual friend": { d: "A friend that two people both know.", x: "We were introduced by a mutual friend." },
+  "soul mate": { d: "A person you feel a deep, natural connection with.", x: "After years of dating, she married her soul mate." },
+  "common interest": { d: "An activity or topic that two or more people both enjoy.", x: "Music is our common interest." },
+  "small talk": { d: "Light, polite conversation about unimportant things.", x: "We made small talk about the weather while we waited." },
+  "keep in touch": { d: "To stay in contact with someone.", x: "Let's keep in touch after you move." }
 };

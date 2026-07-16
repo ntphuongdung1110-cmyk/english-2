@@ -5530,5 +5530,204 @@ window.ONTAP = [
    "en": "Knowing how to ask for and give directions is really handy, especially in a new city. If I get lost, I politely ask, \"Excuse me, how do I get to the train station?\" Usually people tell me to go straight, turn left at the corner, or take the second right. When someone asks me for directions, I try to point out clear landmarks, like a big supermarket or a tall building. I also mention how far it is, so they know what to expect. A few simple phrases can help you find your way almost anywhere.",
    "vi": "Biết cách hỏi và chỉ đường thật sự tiện lợi, nhất là ở một thành phố lạ. Nếu bị lạc, mình lịch sự hỏi, \"Xin lỗi, làm sao để đến ga tàu?\". Thường mọi người bảo mình đi thẳng, rẽ trái ở góc đường, hoặc rẽ phải lần thứ hai. Khi có người hỏi đường, mình cố chỉ những mốc dễ thấy, như một siêu thị lớn hay một tòa nhà cao. Mình cũng nói khoảng cách bao xa để họ dễ hình dung. Vài câu đơn giản có thể giúp bạn tìm đường gần như ở bất cứ đâu."
   }
+ },
+ {
+  "icon": "🤝",
+  "name": "Meeting New People / Làm quen người mới",
+  "intro": "Bài L3 (phiếu học): mục tiêu là hỏi – lắng nghe – tìm điểm chung. Câu phá băng: Me too! / Really, same here! / Not me, I prefer…",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "first impression",
+    "v": "ấn tượng đầu tiên",
+    "ip": "/fɪrst ɪmˈpɹɛʃən/",
+    "d": "The opinion you form about someone the first time you meet them.",
+    "x": "She made a great first impression at the interview."
+   },
+   {
+    "e": "make a good first impression",
+    "v": "tạo ấn tượng tốt ban đầu",
+    "ip": "/meɪk æɪ ɡʊ(d) fɪrst ɪmˈpɹɛʃən/",
+    "d": "To create a good opinion of yourself when people first meet you.",
+    "x": "Arriving on time helps you make a good first impression."
+   },
+   {
+    "e": "stranger",
+    "v": "người lạ",
+    "ip": "/ˈstɹeɪndʒə/",
+    "d": "A person you do not know.",
+    "x": "A friendly stranger helped me find the station."
+   },
+   {
+    "e": "friend",
+    "v": "bạn bè",
+    "ip": "/fɹɛnd/",
+    "d": "A person you know well and like, who is not a family member.",
+    "x": "She has been my closest friend for ten years."
+   },
+   {
+    "s": 1,
+    "e": "colleague",
+    "v": "đồng nghiệp",
+    "ip": "/ˈkɒliːɡ/",
+    "d": "A person you work with.",
+    "x": "My colleague helped me finish the report."
+   },
+   {
+    "e": "mutual friend",
+    "v": "bạn chung (quen qua người khác)",
+    "ip": "/ˈmjuːt͡ʃuəl fɹɛnd/",
+    "d": "A friend that two people both know.",
+    "x": "We were introduced by a mutual friend."
+   },
+   {
+    "e": "soul mate",
+    "v": "tri kỷ, bạn tâm giao",
+    "ip": "/səʊl meɪt/",
+    "d": "A person you feel a deep, natural connection with.",
+    "x": "After years of dating, she married her soul mate."
+   },
+   {
+    "s": 1,
+    "e": "common interest",
+    "v": "sở thích / điểm chung",
+    "ip": "/ˈkɒmən ˈɪntəɹɪst/",
+    "d": "An activity or topic that two or more people both enjoy.",
+    "x": "Music is our common interest."
+   },
+   {
+    "s": 1,
+    "e": "small talk",
+    "v": "chuyện phiếm, nói xã giao",
+    "ip": "/smoːl toːk/",
+    "d": "Light, polite conversation about unimportant things.",
+    "x": "We made small talk about the weather while we waited."
+   },
+   {
+    "s": 1,
+    "e": "keep in touch",
+    "v": "giữ liên lạc",
+    "d": "To stay in contact with someone.",
+    "x": "Let's keep in touch after you move."
+   }
+  ],
+  "qa": [
+   {
+    "q": "What are some good things to ask someone you just met?",
+    "a": "Good things to ask are their name, their job, and their hobbies. These topics are friendly and easy to talk about, and they help you find common interests."
+   },
+   {
+    "q": "What are some bad things to ask someone you just met?",
+    "a": "It's usually bad to ask about someone's age, salary, or relationship status right away. These questions are too personal and can make a stranger feel uncomfortable."
+   },
+   {
+    "q": "Where are some good places to meet new people in Saigon?",
+    "a": "In Saigon, good places to meet new people are coffee shops, co-working spaces, and language exchange events. Joining a club or a sports group is also a great way to make friends."
+   },
+   {
+    "q": "How can someone make a good first impression? How can someone make a bad one?",
+    "a": "You can make a good first impression by smiling, making eye contact, and being polite. A bad first impression usually comes from being rude, arriving late, or looking at your phone the whole time."
+   },
+   {
+    "q": "Do you enjoy meeting new people?",
+    "a": "Yes, I really enjoy meeting new people. I like hearing their stories and learning about their culture. At first I can be a little shy, but once we start talking, I feel more relaxed."
+   },
+   {
+    "q": "Who is your best friend? How did you meet?",
+    "a": "My best friend is someone I met in secondary school. We sat next to each other in class and quickly found that we had a lot in common. We've kept in touch ever since."
+   },
+   {
+    "q": "How often do you forget people's names after you meet them?",
+    "a": "Honestly, I forget people's names quite often, especially at big events. Now I try to repeat the person's name when we're introduced, because that helps me remember it."
+   },
+   {
+    "q": "Have you ever made a bad first impression? What happened?",
+    "a": "Yes, once I arrived late to a meeting and felt really embarrassed. I think I made a bad first impression, but I apologized and worked hard afterwards to change their opinion of me."
+   },
+   {
+    "q": "Do you get along with your colleagues? How often do you hang out with them outside of work?",
+    "a": "Yes, I get along well with most of my colleagues. We sometimes grab lunch or coffee together, and about once a month we hang out after work. It makes the workplace much friendlier."
+   },
+   {
+    "q": "How many friends do you have on Facebook? How many do you talk to?",
+    "a": "I have a few hundred friends on Facebook, but I only talk to a small number of them regularly. Most of them are just acquaintances I met once or twice."
+   },
+   {
+    "q": "If you could meet anyone from history, who would you meet and why?",
+    "a": "If I could meet anyone from history, I would love to meet Albert Einstein. I'd ask him how he stayed so curious and creative, and we'd probably talk about science and imagination."
+   },
+   {
+    "q": "What is something that you're good or bad at?",
+    "a": "I'm quite good at organizing things and paying attention to detail. On the other hand, I'm bad at drawing — my pictures always look like a child made them!"
+   },
+   {
+    "q": "What is one food you could eat forever?",
+    "a": "One food I could eat forever is pho. It's warm, tasty, and comforting, and I never get tired of it."
+   },
+   {
+    "q": "Where is the best place to make new friends in Ho Chi Minh City?",
+    "a": "I think the best place is a hobby class or a language club, because you already share a common interest with the people there, so it's easy to start a conversation."
+   },
+   {
+    "q": "Do you prefer making small talk or having deep conversations?",
+    "a": "I prefer deep conversations because they help me connect with people on a real level. Small talk is useful to break the ice, but I enjoy meaningful topics more."
+   },
+   {
+    "q": "What is one thing you want to know about your teacher?",
+    "a": "One thing I'd like to know about my teacher is why they decided to become a teacher. I'm always curious about what motivates people in their careers."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Hi, I don't think we've met. I'm Linh.",
+    "v": "Chào, hình như mình chưa gặp nhau. Mình là Linh."
+   },
+   {
+    "p": "B",
+    "e": "Nice to meet you, Linh. I'm Dung. Are you a friend of the host?",
+    "v": "Rất vui được gặp Linh. Mình là Dung. Bạn là bạn của chủ nhà à?"
+   },
+   {
+    "p": "A",
+    "e": "Yes, we're mutual friends from university. How about you?",
+    "v": "Ừ, tụi mình là bạn chung hồi đại học. Còn bạn?"
+   },
+   {
+    "p": "B",
+    "e": "I'm a colleague of hers. So, what do you do?",
+    "v": "Mình là đồng nghiệp của cô ấy. Vậy bạn làm nghề gì?"
+   },
+   {
+    "p": "A",
+    "e": "I work in design. In my free time I love hiking. What about you?",
+    "v": "Mình làm thiết kế. Lúc rảnh mình mê đi bộ đường dài. Còn bạn?"
+   },
+   {
+    "p": "B",
+    "e": "Really? Same here! We have a common interest then.",
+    "v": "Thật à? Mình cũng vậy! Vậy là tụi mình có điểm chung rồi."
+   },
+   {
+    "p": "A",
+    "e": "That's great. We should go hiking together sometime.",
+    "v": "Tuyệt quá. Hôm nào đi leo núi chung nhé."
+   },
+   {
+    "p": "B",
+    "e": "I'd love that. Let's keep in touch!",
+    "v": "Mình rất sẵn lòng. Giữ liên lạc nhé!"
+   }
+  ],
+  "tips": [
+   "Phá băng bằng câu tìm điểm chung: Me too! / Really, same here! / Not me — I prefer…",
+   "Tạo ấn tượng tốt: mỉm cười, nhìn vào mắt, hỏi lại về đối phương và lắng nghe.",
+   "Lặp lại tên người mới quen ngay khi được giới thiệu để nhớ tên họ."
+  ],
+  "img": "images/topic-30.jpg",
+  "shadow": {
+   "en": "I really enjoy meeting new people, even though I feel a little shy at first. When I meet a stranger, I try to make a good first impression by smiling and asking friendly questions. A bit of small talk about hobbies or work usually helps us relax and find a common interest. If we get along well, I always ask to keep in touch. Some of my closest friends were once complete strangers I met at a party or through a mutual friend. You never know — the next person you talk to could become a good friend, or even a soul mate.",
+   "vi": "Mình rất thích làm quen người mới, dù ban đầu hơi ngại. Khi gặp một người lạ, mình cố tạo ấn tượng tốt bằng cách mỉm cười và hỏi những câu thân thiện. Một chút chuyện phiếm về sở thích hay công việc thường giúp cả hai thoải mái và tìm ra điểm chung. Nếu hợp nhau, mình luôn xin giữ liên lạc. Vài người bạn thân nhất của mình từng là người hoàn toàn xa lạ mà mình gặp ở một buổi tiệc hoặc qua một người bạn chung. Bạn chẳng bao giờ biết được — người tiếp theo bạn trò chuyện có thể trở thành một người bạn tốt, hoặc thậm chí là tri kỷ."
+  }
  }
 ];
