@@ -59,7 +59,6 @@
   .mcard .mt{font-weight:800;font-size:14px;margin-bottom:3px;line-height:1.3}
   .mcard .mc{font-size:11.5px;color:var(--mut)}
   .back{background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:13px;font-weight:700;color:var(--p);cursor:pointer;margin-bottom:10px}
-  .topic-img{width:100%;height:160px;object-fit:cover;border-radius:12px;margin:4px 0 12px;background:#eef2f7;display:block}
   .vrow .ipa{color:#7c3aed;font-size:12.5px;font-weight:600;margin-left:4px}
   .vrow .def{display:block;color:#374151;font-size:12.5px;margin-top:2px}
   .vrow .spk{opacity:.55}
@@ -182,7 +181,6 @@ function buildNav(active){
 function topicSection(t){
   return '<section class="topic"><h2>'+esc(t.icon)+' '+esc(t.name)+'</h2>'+
     '<div class="cnt">'+esc(counts(t))+'</div>'+
-    (t.img?'<img class="topic-img" src="'+esc(t.img)+'" alt="'+esc(shortName(t))+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+
     (t.intro?'<div class="tips" style="background:#eff6ff;border-color:#bfdbfe;color:#1e40af"><b>📌</b> '+esc(t.intro)+'</div>':'')+
     vocabHTML(t.vocab)+extraHTML(t.extra)+shadowHTML(t.shadow)+qaHTML(t.qa)+convoHTML(t.convo)+tipsHTML(t.tips)+
     '</section>';

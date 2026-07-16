@@ -247,7 +247,6 @@ window.ONTAP = [
    "Trả lời nhanh khi bí: Coffee. / Beach. / Dogs. / YouTube. / Talking.",
    "Câu mở đầu khi cần nghĩ: That's an interesting question... / Let me think for a moment..."
   ],
-  "img": "images/topic-00.jpg",
   "shadow": {
    "en": "Hi, my name is Dung and I'd love to tell you a little about myself. I'm a friendly and hardworking person, and most people say I'm easy-going. I live in Ho Chi Minh City, and I work in quality control. I'm really interested in learning English because it helps me connect with people from all over the world. In my free time, I enjoy listening to music and spending time with my friends. My biggest strength is that I'm patient, but I'm still working on becoming more confident. My dream is to travel to many countries and try new food.",
    "vi": "Chào, tên mình là Dung và mình muốn giới thiệu một chút về bản thân. Mình là người thân thiện, chăm chỉ, và mọi người thường nói mình dễ tính. Mình sống ở TP.HCM và làm về kiểm soát chất lượng. Mình rất thích học tiếng Anh vì nó giúp mình kết nối với mọi người khắp thế giới. Lúc rảnh mình thích nghe nhạc và dành thời gian cho bạn bè. Điểm mạnh nhất của mình là kiên nhẫn, nhưng mình vẫn đang cố gắng tự tin hơn. Ước mơ của mình là đi du lịch nhiều nước và thử món ăn mới."
@@ -479,7 +478,6 @@ window.ONTAP = [
     "v": "Đúng vậy. Mình thấy biết ơn vì có bố mẹ luôn ủng hộ."
    }
   ],
-  "img": "images/topic-01.jpg",
   "shadow": {
    "en": "I come from a close-knit family, and we get along really well. There are five of us: my parents, my younger sister, my younger brother, and me. People say I take after my mother because we are both patient and calm. My father is the breadwinner, but everyone shares the household chores at home. My parents raised us to be honest and kind, and they have always been very supportive. We are not a big extended family, but we have a lot of relatives in my hometown. Family is the most important thing in my life.",
    "vi": "Mình sinh ra trong một gia đình gắn bó và mọi người rất hòa hợp. Nhà mình có năm người: bố mẹ, em gái, em trai và mình. Mọi người nói mình giống mẹ vì cả hai đều kiên nhẫn và điềm tĩnh. Bố mình là trụ cột kinh tế, nhưng cả nhà cùng chia sẻ việc nhà. Bố mẹ nuôi dạy chúng mình sống trung thực và tử tế, và luôn rất ủng hộ mình. Nhà mình không phải đại gia đình lớn, nhưng có nhiều họ hàng ở quê. Gia đình là điều quan trọng nhất trong đời mình."
@@ -709,7 +707,6 @@ window.ONTAP = [
     "v": "Cũng hơi hơi! Mình chỉ tin tình yêu khiến cuộc sống ý nghĩa hơn."
    }
   ],
-  "img": "images/topic-02.jpg",
   "shadow": {
    "en": "I believe that love takes time to grow. When two people first meet, they might have a crush on each other, but real love is deeper than that. In a healthy relationship, both people trust and respect each other. They share their feelings honestly and support each other through hard times. Of course, every couple has arguments, but what matters is how they make up afterwards. For me, the most important thing is loyalty and understanding. I hope to find someone I can laugh with and grow old with.",
    "vi": "Mình tin rằng tình yêu cần thời gian để lớn dần. Khi hai người mới gặp, họ có thể phải lòng nhau, nhưng tình yêu thật sâu sắc hơn thế. Trong một mối quan hệ lành mạnh, cả hai tin tưởng và tôn trọng nhau. Họ chia sẻ cảm xúc một cách chân thành và cùng nhau vượt qua khó khăn. Dĩ nhiên cặp nào cũng có lúc cãi nhau, nhưng điều quan trọng là cách họ làm hòa sau đó. Với mình, quan trọng nhất là sự chung thủy và thấu hiểu. Mình mong tìm được người có thể cùng cười và cùng già đi."
@@ -964,7 +961,6 @@ window.ONTAP = [
     "v": "Lựa chọn đẹp đó! Bạn thanh toán ở quầy nhé."
    }
   ],
-  "img": "images/topic-03.jpg",
   "shadow": {
    "en": "I care about fashion, but I don't like to follow every trend. Most days I keep it casual with jeans and a simple T-shirt because comfort is important to me. When I go to a special event, I dress up in something more formal that suits the occasion. I like to mix and match colours and accessories to create my own style. Good clothes don't have to be expensive; they just need to fit well and make you feel confident. In the end, I think style is about expressing who you are.",
    "vi": "Mình quan tâm đến thời trang, nhưng không thích chạy theo mọi xu hướng. Ngày thường mình mặc giản dị với quần jeans và áo phông đơn giản vì sự thoải mái rất quan trọng với mình. Khi dự sự kiện đặc biệt, mình mặc trang trọng hơn cho hợp dịp. Mình thích phối màu và phụ kiện để tạo phong cách riêng. Quần áo đẹp không nhất thiết phải đắt; chỉ cần vừa vặn và làm bạn tự tin. Cuối cùng, mình nghĩ phong cách là cách thể hiện con người bạn."
@@ -1221,7 +1217,6 @@ window.ONTAP = [
     "v": "Hẹn gặp! Cảm ơn lời khen nhé."
    }
   ],
-  "img": "images/topic-04.jpg",
   "shadow": {
    "en": "When people describe my appearance, they often say I look friendly. I have medium-length hair and I usually wear a bright smile. I'm of average height and build, and I try to keep myself neat and tidy. I don't wear much makeup because I prefer a natural look. Some days I feel like changing my hairstyle just for fun. I think the way you carry yourself matters more than how you look. A confident person always looks attractive to me.",
    "vi": "Khi mọi người tả ngoại hình của mình, họ thường nói mình trông thân thiện. Mình để tóc dài vừa và thường nở nụ cười tươi. Mình cao và vóc dáng trung bình, và luôn cố giữ gọn gàng, sạch sẽ. Mình không trang điểm nhiều vì thích vẻ tự nhiên. Có hôm mình muốn đổi kiểu tóc chỉ cho vui. Mình nghĩ thần thái quan trọng hơn vẻ bề ngoài. Với mình, người tự tin lúc nào cũng cuốn hút."
@@ -1453,7 +1448,6 @@ window.ONTAP = [
     "v": "Nhất là giờ cao điểm. Cố tránh kẹt xe sau 5 giờ chiều nhé."
    }
   ],
-  "img": "images/topic-05.jpg",
   "shadow": {
    "en": "There are many interesting places around my town. In the morning, I like to grab a coffee at a small café near my house. When I need to buy something, I go to the supermarket or the local market, which is always busy and lively. On weekends, I often visit the park to relax or the shopping mall to meet my friends. If I want some quiet time, I go to the library or a bookstore. My favourite place is the walking street downtown, especially at night when it is full of lights.",
    "vi": "Ở khu mình có nhiều địa điểm thú vị. Buổi sáng mình thích ghé một quán cà phê nhỏ gần nhà. Khi cần mua đồ, mình ra siêu thị hoặc chợ địa phương — nơi lúc nào cũng đông vui, nhộn nhịp. Cuối tuần mình hay ra công viên thư giãn hoặc đến trung tâm thương mại gặp bạn bè. Khi muốn yên tĩnh, mình đến thư viện hoặc hiệu sách. Nơi mình thích nhất là phố đi bộ trung tâm, nhất là buổi tối khi rực rỡ ánh đèn."
@@ -1692,7 +1686,6 @@ window.ONTAP = [
     "v": "Thử đi! Một nếp sinh hoạt tốt tạo khác biệt lớn lắm."
    }
   ],
-  "img": "images/topic-06.jpg",
   "shadow": {
    "en": "My daily routine is quite simple but keeps me productive. I usually wake up at six, brush my teeth, and have a light breakfast. Then I get ready and go to work, where I spend most of the day. In the afternoon, I take a short break to stretch and drink some water. After work, I go home, cook dinner, and do a few household chores. Before bed, I like to read or study English for about thirty minutes. Keeping a steady routine helps me feel calm and organised.",
    "vi": "Lịch sinh hoạt hằng ngày của mình khá đơn giản nhưng giúp mình làm việc hiệu quả. Mình thường dậy lúc sáu giờ, đánh răng và ăn sáng nhẹ. Sau đó chuẩn bị và đi làm, nơi mình dành phần lớn thời gian trong ngày. Buổi chiều mình nghỉ ngắn để vươn vai và uống nước. Sau giờ làm, mình về nhà, nấu bữa tối và làm vài việc nhà. Trước khi ngủ, mình thích đọc sách hoặc học tiếng Anh khoảng ba mươi phút. Giữ nếp sinh hoạt đều đặn giúp mình thấy bình tĩnh và ngăn nắp."
@@ -1930,7 +1923,6 @@ window.ONTAP = [
     "v": "Khỏi lo hóa đơn — hôm nay để tôi trả."
    }
   ],
-  "img": "images/topic-07.jpg",
   "shadow": {
    "en": "I really enjoy eating out at restaurants with my friends. When we arrive, the waiter shows us to a table and brings the menu. I usually order a main dish and a fresh drink, and sometimes we share an appetiser. The food here is always delicious, and the service is friendly and quick. When we finish, we ask for the bill and leave a small tip if the service was great. Eating out is not just about the food; it is also a nice way to relax and catch up with people I love.",
    "vi": "Mình rất thích đi ăn nhà hàng với bạn bè. Khi đến nơi, phục vụ dẫn chúng mình đến bàn và mang thực đơn. Mình thường gọi một món chính và một ly nước mát, đôi khi cả nhóm chia nhau một món khai vị. Đồ ăn ở đây luôn ngon và phục vụ thân thiện, nhanh nhẹn. Ăn xong, chúng mình xin hóa đơn và để lại chút tiền tip nếu phục vụ tốt. Đi ăn ngoài không chỉ vì món ăn; đó còn là cách hay để thư giãn và trò chuyện với những người mình yêu quý."
@@ -2144,7 +2136,6 @@ window.ONTAP = [
     "v": "Vậy lên kế hoạch cho cuối tuần sau nhé!"
    }
   ],
-  "img": "images/topic-08.jpg",
   "shadow": {
    "en": "Everyone needs a hobby to relax and recharge, and I have a few of my own. My favourite hobby is listening to music, because it helps me relax after a long day. I'm also into reading, and I try to finish at least one book every month. On weekends, I sometimes take photos around the city or try cooking a new recipe. I picked up these hobbies a few years ago, and they have become a big part of my life. A good hobby keeps you curious and gives you something to look forward to.",
    "vi": "Ai cũng cần một sở thích để thư giãn và nạp lại năng lượng, và mình có vài sở thích riêng. Sở thích mình thích nhất là nghe nhạc, vì nó giúp mình thư giãn sau một ngày dài. Mình cũng mê đọc sách và cố đọc xong ít nhất một cuốn mỗi tháng. Cuối tuần mình đôi khi chụp ảnh quanh thành phố hoặc thử nấu một công thức mới. Mình bắt đầu những sở thích này vài năm trước, và chúng đã trở thành một phần quan trọng trong đời mình. Một sở thích hay khiến bạn luôn tò mò và có điều để mong chờ."
@@ -2353,7 +2344,6 @@ window.ONTAP = [
     "v": "Chốt! Có người đồng hành thì việc gì cũng dễ hơn."
    }
   ],
-  "img": "images/topic-09.jpg",
   "shadow": {
    "en": "I have several habits that shape my day, some good and some I want to change. A good habit of mine is drinking water as soon as I wake up. I also try to exercise regularly, even if it is just a short walk. However, I have a bad habit of checking my phone too often, and I know I should cut down on it. Breaking a bad habit is hard because it takes time and patience. I believe that small daily habits, repeated every day, slowly turn into big results.",
    "vi": "Mình có vài thói quen định hình cả ngày, có cái tốt và có cái mình muốn thay đổi. Thói quen tốt của mình là uống nước ngay khi thức dậy. Mình cũng cố tập thể dục đều đặn, dù chỉ là đi bộ ngắn. Tuy nhiên mình có thói quen xấu là xem điện thoại quá thường xuyên, và mình biết mình nên giảm bớt. Bỏ một thói quen xấu rất khó vì cần thời gian và kiên nhẫn. Mình tin rằng những thói quen nhỏ hằng ngày, lặp lại mỗi ngày, dần dần tạo nên kết quả lớn."
@@ -2477,7 +2467,6 @@ window.ONTAP = [
     "v": "Nói hay đó. Quả thật còn tùy tình huống."
    }
   ],
-  "img": "images/topic-10.jpg",
   "shadow": {
    "en": "People often ask me whether a certain habit is good or bad. In my opinion, it really depends on the situation. For example, using your phone is not bad in itself, but spending too many hours on it can harm your health. On the other hand, exercising is clearly a good habit because it keeps your body and mind strong. I think the key is balance and self-control. Instead of judging a habit too quickly, we should ask how it affects our life in the long run.",
    "vi": "Mọi người hay hỏi mình một thói quen nào đó là tốt hay xấu. Theo mình, điều đó thật sự tùy tình huống. Ví dụ, dùng điện thoại không xấu, nhưng dành quá nhiều giờ cho nó có thể hại sức khỏe. Ngược lại, tập thể dục rõ ràng là thói quen tốt vì giúp cơ thể và tinh thần khỏe mạnh. Mình nghĩ chìa khóa là sự cân bằng và tự chủ. Thay vì vội phán xét một thói quen, ta nên hỏi nó ảnh hưởng đến cuộc sống mình về lâu dài ra sao."
@@ -2696,7 +2685,6 @@ window.ONTAP = [
     "v": "Sẽ vậy. Bận rộn thì thời gian trôi nhanh ghê nhỉ?"
    }
   ],
-  "img": "images/topic-11.jpg",
   "shadow": {
    "en": "Learning common expressions has really improved my English. Instead of translating word by word, I try to use natural phrases the way native speakers do. For example, when I'm not sure, I say \"Let me think for a moment.\" When I agree, I might say \"That makes sense\" or \"I couldn't agree more.\" These little expressions make my speech sound smoother and more confident. At first they felt strange, but the more I use them, the more natural they become. Now they come out without me even thinking.",
    "vi": "Học các thành ngữ thông dụng đã cải thiện tiếng Anh của mình rất nhiều. Thay vì dịch từng từ, mình cố dùng những cụm tự nhiên như người bản xứ. Ví dụ, khi chưa chắc, mình nói \"Let me think for a moment.\" Khi đồng ý, mình có thể nói \"That makes sense\" hoặc \"I couldn't agree more.\" Những cụm nhỏ này khiến lời nói mượt mà và tự tin hơn. Ban đầu chúng nghe lạ, nhưng càng dùng nhiều càng thấy tự nhiên. Giờ chúng bật ra mà mình không cần nghĩ."
@@ -2934,7 +2922,6 @@ window.ONTAP = [
     "v": "Mình cũng vậy! Bắt đầu thôi nào."
    }
   ],
-  "img": "images/topic-12.jpg",
   "shadow": {
    "en": "I love adventure and travelling to new places. Last year, I went on a trip to the mountains with my friends, and it was unforgettable. We packed our bags, booked a small guesthouse, and explored the local area on foot. The scenery was breathtaking, and we tried some delicious street food along the way. Travelling teaches me to be open-minded and to enjoy the little moments. One day, I want to travel abroad and experience different cultures around the world.",
    "vi": "Mình yêu phiêu lưu và đi đến những nơi mới. Năm ngoái mình đi một chuyến lên núi với bạn bè, và nó thật khó quên. Chúng mình xếp hành lý, đặt một nhà nghỉ nhỏ và đi bộ khám phá vùng quanh đó. Cảnh vật đẹp nghẹt thở, và trên đường chúng mình thử vài món ăn đường phố ngon tuyệt. Du lịch dạy mình cởi mở và trân trọng những khoảnh khắc nhỏ. Một ngày nào đó mình muốn ra nước ngoài và trải nghiệm những nền văn hóa khác nhau trên thế giới."
@@ -3165,7 +3152,6 @@ window.ONTAP = [
     "v": "Đi du lịch nhiều hơn và một ngày nào đó gây dựng một gia đình hạnh phúc."
    }
   ],
-  "img": "images/topic-13.jpg",
   "shadow": {
    "en": "Life is full of important events that we always remember. Some of the happiest moments are graduating from school, getting a first job, and celebrating a wedding. Other events, like moving to a new city, can feel scary but exciting at the same time. Each of these milestones teaches us something and helps us grow. I try to enjoy every stage of life instead of rushing to the next one. When I look back, I want to feel proud of the memories I made.",
    "vi": "Cuộc đời đầy những sự kiện quan trọng mà ta luôn nhớ. Một số khoảnh khắc hạnh phúc nhất là tốt nghiệp, có công việc đầu tiên và tổ chức đám cưới. Những sự kiện khác, như chuyển đến thành phố mới, có thể vừa đáng sợ vừa hào hứng. Mỗi cột mốc đó dạy ta một điều và giúp ta trưởng thành. Mình cố tận hưởng từng giai đoạn của cuộc sống thay vì vội vàng đến giai đoạn kế tiếp. Khi nhìn lại, mình muốn thấy tự hào về những kỷ niệm mình đã tạo ra."
@@ -3339,7 +3325,6 @@ window.ONTAP = [
     "v": "Cảm ơn! Mình tin chúng ta tự tạo nên tương lai của mình."
    }
   ],
-  "img": "images/topic-14.jpg",
   "shadow": {
    "en": "Sometimes I like to look back at the past and think about the future. A few years ago, I was shy and afraid to speak English in public. Looking back, I realise how much I have grown since then. These days, I feel more confident, and I keep setting new goals for myself. In the future, I hope to improve my career and travel to more countries. I know I can't control everything, but I try to prepare well and stay positive.",
    "vi": "Đôi khi mình thích nhìn lại quá khứ và nghĩ về tương lai. Vài năm trước, mình còn nhút nhát và sợ nói tiếng Anh trước đám đông. Nhìn lại, mình nhận ra mình đã trưởng thành đến mức nào. Dạo này mình tự tin hơn, và luôn đặt ra những mục tiêu mới. Trong tương lai, mình hy vọng phát triển sự nghiệp và đi thêm nhiều nước. Mình biết mình không thể kiểm soát mọi thứ, nhưng mình cố chuẩn bị kỹ và giữ suy nghĩ tích cực."
@@ -3443,7 +3428,6 @@ window.ONTAP = [
     "v": "Lúc nào cũng được! Kể chuyện cũng giúp mình luyện nói nữa."
    }
   ],
-  "img": "images/topic-15.jpg",
   "shadow": {
    "en": "Let me tell you about a time I felt really proud of myself. A few months ago, I had to give a short presentation in English at work. At first, I was so nervous that my hands were shaking. I had practised many times the night before, so I took a deep breath and started slowly. To my surprise, everything went smoothly and my colleagues understood me clearly. After it was over, I felt a huge sense of relief and pride. That experience taught me that preparation really pays off.",
    "vi": "Để mình kể cho bạn nghe về một lần mình thật sự tự hào về bản thân. Vài tháng trước, mình phải thuyết trình ngắn bằng tiếng Anh ở công ty. Ban đầu mình lo đến mức tay run. Mình đã tập nhiều lần đêm hôm trước, nên mình hít một hơi sâu và bắt đầu chậm rãi. Bất ngờ là mọi thứ diễn ra suôn sẻ và đồng nghiệp hiểu mình rõ ràng. Khi kết thúc, mình thấy nhẹ nhõm và tự hào vô cùng. Trải nghiệm đó dạy mình rằng sự chuẩn bị thật sự đáng giá."
@@ -3547,7 +3531,6 @@ window.ONTAP = [
     "v": "Đúng vậy. Tụi mình chụp nhiều ảnh và có kỷ niệm đẹp."
    }
   ],
-  "img": "images/topic-16.jpg",
   "shadow": {
    "en": "Practising the /s/ and /z/ sounds has helped my pronunciation a lot. The /s/ sound is soft, like in the words \"sun,\" \"see,\" and \"place.\" The /z/ sound uses your voice, like in \"zoo,\" \"buzz,\" and \"is.\" Many learners mix them up, especially at the end of words. Try to feel your throat: with /z/ it vibrates, but with /s/ it stays quiet. I repeat pairs like \"price\" and \"prize\" slowly, then a little faster. Small sounds like these can make a big difference in how clear you sound.",
    "vi": "Luyện âm /s/ và /z/ đã giúp phát âm của mình rất nhiều. Âm /s/ nhẹ, như trong \"sun,\" \"see,\" \"place.\" Âm /z/ dùng thanh quản, như trong \"zoo,\" \"buzz,\" \"is.\" Nhiều người học hay nhầm hai âm này, nhất là ở cuối từ. Hãy thử cảm nhận cổ họng: với /z/ nó rung, còn với /s/ thì im. Mình lặp lại các cặp như \"price\" và \"prize\" thật chậm, rồi nhanh dần. Những âm nhỏ như thế có thể tạo khác biệt lớn cho độ rõ ràng khi bạn nói."
@@ -3691,7 +3674,6 @@ window.ONTAP = [
     "v": "Mình sẽ nghỉ ngơi, gặp bạn bè, có thể đi mua sắm. Cảm ơn đã hỏi!"
    }
   ],
-  "img": "images/topic-17.jpg",
   "shadow": {
    "en": "Knowing how to ask good questions is a very useful skill. When I meet someone new, I like to ask open questions instead of yes-or-no ones. For example, I might ask \"What do you like to do in your free time?\" rather than \"Do you have hobbies?\" Open questions keep the conversation going and show that I'm genuinely interested. I also try to listen carefully and ask a follow-up question about their answer. Good questions make people feel comfortable and help me learn something new every time.",
    "vi": "Biết cách đặt câu hỏi hay là một kỹ năng rất hữu ích. Khi gặp người mới, mình thích hỏi câu mở thay vì câu có/không. Ví dụ, mình sẽ hỏi \"Bạn thích làm gì lúc rảnh?\" thay vì \"Bạn có sở thích không?\". Câu hỏi mở giúp cuộc trò chuyện tiếp diễn và cho thấy mình thật sự quan tâm. Mình cũng cố lắng nghe kỹ và hỏi thêm một câu về câu trả lời của họ. Câu hỏi hay khiến người ta thoải mái và giúp mình học được điều mới mỗi lần."
@@ -3935,7 +3917,6 @@ window.ONTAP = [
     "v": "Cảm ơn! Thành thật mà nói, mấy từ nối này giúp ích thật sự."
    }
   ],
-  "img": "images/topic-18.jpg",
   "shadow": {
    "en": "Every good speaker has a toolkit of phrases ready to use. When I need time to think, I say \"That's a great question, let me think for a moment.\" When I want to add an idea, I use \"On top of that\" or \"Another thing is.\" If I make a mistake, I simply say \"Sorry, let me rephrase that\" and keep going. These phrases keep me calm and stop long, awkward silences. The more I practise them, the more automatic they become. A strong toolkit gives me the confidence to speak in any situation.",
    "vi": "Người nói giỏi nào cũng có một bộ cụm từ sẵn để dùng. Khi cần thời gian suy nghĩ, mình nói \"That's a great question, let me think for a moment.\" Khi muốn thêm ý, mình dùng \"On top of that\" hoặc \"Another thing is.\" Nếu lỡ nói sai, mình chỉ cần nói \"Sorry, let me rephrase that\" rồi nói tiếp. Những cụm này giúp mình bình tĩnh và tránh những khoảng lặng ngượng ngùng. Càng luyện, chúng càng trở nên tự động. Một bộ công cụ vững giúp mình tự tin nói trong mọi tình huống."
@@ -4073,7 +4054,6 @@ window.ONTAP = [
     "v": "Nghe vừa khỏe vừa vui!"
    }
   ],
-  "img": "images/topic-19.jpg",
   "shadow": {
    "en": "Besides my usual hobbies, I've recently tried some new activities. I started learning the guitar, and although my fingers hurt at first, I'm slowly getting better. I also joined a small running group in my neighbourhood, which keeps me active and social. Trying new hobbies pushes me out of my comfort zone and keeps life interesting. I don't need to be perfect at them; I just enjoy the process of learning something fresh. A new hobby is like a small adventure you can start any day.",
    "vi": "Ngoài những sở thích quen thuộc, gần đây mình thử vài hoạt động mới. Mình bắt đầu học guitar, dù ban đầu ngón tay đau, nhưng mình đang khá dần lên. Mình cũng tham gia một nhóm chạy bộ nhỏ trong khu, giúp mình năng động và giao lưu hơn. Thử sở thích mới đẩy mình ra khỏi vùng an toàn và khiến cuộc sống thú vị. Mình không cần phải giỏi ngay; mình chỉ tận hưởng quá trình học điều mới mẻ. Một sở thích mới giống như một chuyến phiêu lưu nhỏ mà bạn có thể bắt đầu bất cứ ngày nào."
@@ -4188,7 +4168,6 @@ window.ONTAP = [
    "Đọc to từng từ, đặt tay trước miệng: /θ/ ra hơi, /ð/ rung cổ họng.",
    "Luyện cặp tối thiểu (think/sink) đến khi nghe rõ khác biệt."
   ],
-  "img": "images/topic-20.jpg",
   "shadow": {
    "en": "The \"th\" sound is one of the trickiest sounds in English. There are actually two of them. The soft one, written /θ/, has no voice, like in \"think,\" \"thank,\" and \"bath.\" The other one, written /ð/, uses your voice, like in \"this,\" \"that,\" and \"mother.\" To make them, put the tip of your tongue lightly between your teeth and let the air flow. Many learners say \"tink\" instead of \"think,\" so I practise slowly in front of a mirror. With a little daily practice, the \"th\" sound becomes much easier.",
    "vi": "Âm \"th\" là một trong những âm khó nhất trong tiếng Anh. Thực ra có tới hai âm. Âm nhẹ, ký hiệu /θ/, không rung, như trong \"think,\" \"thank,\" \"bath.\" Âm còn lại, ký hiệu /ð/, có rung, như trong \"this,\" \"that,\" \"mother.\" Để tạo âm, đặt đầu lưỡi nhẹ giữa hai hàm răng và cho hơi thoát ra. Nhiều người học nói \"tink\" thay vì \"think,\" nên mình luyện chậm trước gương. Chỉ cần luyện chút mỗi ngày, âm \"th\" sẽ dễ hơn nhiều."
@@ -4312,7 +4291,6 @@ window.ONTAP = [
     "v": "Mình sẽ, nếu kiếm được công việc tốt ở đó."
    }
   ],
-  "img": "images/topic-21.jpg",
   "shadow": {
    "en": "People sometimes ask me, \"Would you ever do something crazy?\" I always try to answer in a fun and detailed way. For example, I'd say, \"Yes, I would love to try skydiving one day, even though it sounds terrifying.\" Then I add a reason, like \"because I think it would be an unforgettable experience.\" If I wouldn't do something, I explain why honestly. Answering \"Would you ever\" questions is a great chance to show your personality. The trick is to give more than a one-word answer and let your imagination run.",
    "vi": "Đôi khi mọi người hỏi mình, \"Bạn có bao giờ dám làm điều gì điên rồ không?\". Mình luôn cố trả lời một cách vui và chi tiết. Ví dụ, mình sẽ nói, \"Có chứ, mình rất muốn thử nhảy dù một ngày nào đó, dù nghe rất đáng sợ.\" Rồi mình thêm lý do, kiểu \"vì mình nghĩ đó sẽ là trải nghiệm khó quên.\" Nếu không muốn làm điều gì, mình giải thích lý do thật lòng. Trả lời những câu \"Would you ever\" là cơ hội tuyệt vời để bộc lộ tính cách. Bí quyết là trả lời hơn một từ và để trí tưởng tượng bay xa."
@@ -4435,7 +4413,6 @@ window.ONTAP = [
     "v": "Cuối tuần, và thỉnh thoảng mình giặt giũ."
    }
   ],
-  "img": "images/topic-22.jpg",
   "shadow": {
    "en": "On a typical day, there is a lot more to my routine than just work. I usually start the morning with a cup of coffee while I check my messages. During the day, I take short breaks to stretch or step outside for some fresh air. In the evening, I like to wind down by cooking a simple meal and listening to a podcast. Before I go to bed, I write down a few things I'm grateful for. These small habits make my ordinary days feel calm and meaningful.",
    "vi": "Vào một ngày bình thường, lịch sinh hoạt của mình còn nhiều hơn là chỉ đi làm. Mình thường bắt đầu buổi sáng bằng một ly cà phê trong lúc xem tin nhắn. Trong ngày, mình nghỉ ngắn để vươn vai hoặc ra ngoài hít thở không khí. Buổi tối mình thích thư giãn bằng cách nấu một bữa đơn giản và nghe podcast. Trước khi ngủ, mình viết ra vài điều mình biết ơn. Những thói quen nhỏ này khiến ngày thường của mình trở nên bình yên và ý nghĩa."
@@ -4547,7 +4524,6 @@ window.ONTAP = [
     "v": "Nghe hay đó!"
    }
   ],
-  "img": "images/topic-23.jpg",
   "shadow": {
    "en": "Asking questions in a deeper way can turn a simple chat into a real conversation. Instead of asking \"Did you have a good weekend?\", I might ask \"What was the best part of your weekend?\" This kind of question invites a longer and more interesting answer. I also like to ask about feelings, such as \"How did that make you feel?\" People usually enjoy sharing when they feel truly heard. By asking thoughtful questions, I learn more and build stronger connections with others.",
    "vi": "Đặt câu hỏi sâu hơn có thể biến một cuộc tán gẫu đơn giản thành một cuộc trò chuyện thật sự. Thay vì hỏi \"Cuối tuần vui không?\", mình có thể hỏi \"Phần hay nhất trong cuối tuần của bạn là gì?\". Kiểu câu hỏi này mời gọi câu trả lời dài và thú vị hơn. Mình cũng thích hỏi về cảm xúc, như \"Điều đó khiến bạn cảm thấy thế nào?\". Người ta thường thích chia sẻ khi cảm thấy được lắng nghe thật sự. Bằng cách hỏi những câu chu đáo, mình học được nhiều hơn và xây dựng kết nối bền chặt hơn với người khác."
@@ -4680,7 +4656,6 @@ window.ONTAP = [
     "v": "Cảm ơn! Mình muốn đổi diện mạo mới."
    }
   ],
-  "img": "images/topic-24.jpg",
   "shadow": {
    "en": "When it comes to style and appearance, I believe small details make a big difference. I choose clothes that fit well and match the occasion, whether it's a casual day or a formal meeting. I keep my hair neat and pick accessories that suit my outfit. I don't follow every trend, but I do like to look polished and put together. The way you dress can affect how confident you feel. For me, the best style is one that feels comfortable and truly like myself.",
    "vi": "Về phong cách và ngoại hình, mình tin những chi tiết nhỏ tạo nên khác biệt lớn. Mình chọn quần áo vừa vặn và hợp dịp, dù là ngày thường hay buổi họp trang trọng. Mình giữ tóc gọn gàng và chọn phụ kiện hợp bộ đồ. Mình không chạy theo mọi xu hướng, nhưng thích trông chỉn chu, gọn gàng. Cách bạn ăn mặc có thể ảnh hưởng đến sự tự tin. Với mình, phong cách đẹp nhất là phong cách thoải mái và thật sự giống chính mình."
@@ -4817,7 +4792,6 @@ window.ONTAP = [
     "v": "To cỡ cái bình giữ nhiệt — nhỏ gọn và tiện đi du lịch."
    }
   ],
-  "img": "images/topic-25.jpg",
   "shadow": {
    "en": "Being able to describe things clearly is very useful in daily life. When I describe an object, I talk about its size, shape, colour, and what it is made of. For example, I might say, \"It's a small, round mirror made of glass with a wooden frame.\" I also mention what the object is used for and why I like it. Good descriptions help other people picture exactly what I mean. Practising this skill has made my speaking more detailed and natural.",
    "vi": "Biết miêu tả sự vật rõ ràng rất hữu ích trong đời sống hằng ngày. Khi tả một đồ vật, mình nói về kích thước, hình dạng, màu sắc và chất liệu của nó. Ví dụ, mình có thể nói, \"Đó là một chiếc gương nhỏ, tròn, làm bằng thủy tinh với khung gỗ.\" Mình cũng nói đồ vật đó dùng để làm gì và vì sao mình thích. Miêu tả tốt giúp người khác hình dung đúng điều mình muốn nói. Luyện kỹ năng này khiến cách nói của mình chi tiết và tự nhiên hơn."
@@ -4968,7 +4942,6 @@ window.ONTAP = [
     "v": "Cảm ơn! Đồng nghiệp mới cũng có vẻ thân thiện."
    }
   ],
-  "img": "images/topic-26.jpg",
   "shadow": {
    "en": "There are so many different careers to choose from these days. Some people dream of becoming a doctor or a teacher, while others prefer working in technology or business. I work in quality control, and my job is to make sure our products meet the right standards. What I enjoy most is solving problems and paying attention to detail. Of course, every career has its challenges, but I believe it's important to do something meaningful. In the future, I hope to keep learning and take on bigger responsibilities.",
    "vi": "Ngày nay có rất nhiều nghề nghiệp để lựa chọn. Có người mơ trở thành bác sĩ hay giáo viên, người khác lại thích làm trong lĩnh vực công nghệ hoặc kinh doanh. Mình làm về kiểm soát chất lượng, công việc của mình là đảm bảo sản phẩm đạt đúng tiêu chuẩn. Điều mình thích nhất là giải quyết vấn đề và chú ý đến chi tiết. Dĩ nhiên nghề nào cũng có thử thách, nhưng mình tin điều quan trọng là làm điều gì đó có ý nghĩa. Trong tương lai, mình mong tiếp tục học hỏi và đảm nhận những trách nhiệm lớn hơn."
@@ -5129,7 +5102,6 @@ window.ONTAP = [
     "v": "Thẻ nhé. Tôi mang túi tái sử dụng rồi."
    }
   ],
-  "img": "images/topic-27.jpg",
   "shadow": {
    "en": "I usually go to the supermarket once a week to buy what I need. Before I leave home, I make a shopping list so I don't forget anything. Inside, I push my cart along the aisles, picking up fresh vegetables, fruit, and a few snacks. I always check the price and the expiry date before I put something in my cart. When I'm done, I go to the checkout and pay with my card. Shopping is easier and cheaper when you plan ahead and stick to your list.",
    "vi": "Mình thường đi siêu thị mỗi tuần một lần để mua những thứ cần. Trước khi rời nhà, mình lập danh sách mua sắm để khỏi quên gì. Bên trong, mình đẩy xe dọc các dãy kệ, lấy rau củ tươi, trái cây và vài món ăn vặt. Mình luôn kiểm tra giá và hạn sử dụng trước khi cho vào xe. Xong xuôi, mình ra quầy thanh toán và trả bằng thẻ. Mua sắm sẽ dễ và tiết kiệm hơn khi bạn lên kế hoạch trước và bám sát danh sách."
@@ -5276,7 +5248,6 @@ window.ONTAP = [
     "v": "Hơi bướng một chút, nhưng đáng tin và tốt bụng."
    }
   ],
-  "img": "images/topic-28.jpg",
   "shadow": {
    "en": "I think personality is what makes each person unique. Some people are outgoing and love being around others, while some are quiet and prefer their own space. I would describe myself as friendly, patient, and hardworking. I try to stay calm even when things get stressful, although I can be a little stubborn sometimes. I really admire people who are honest and kind, because those qualities matter the most to me. In the end, no personality is perfect, and that's exactly what makes people interesting.",
    "vi": "Mình nghĩ tính cách là điều làm mỗi người trở nên độc đáo. Có người hướng ngoại và thích ở giữa mọi người, có người trầm lặng và thích không gian riêng. Mình tự nhận mình thân thiện, kiên nhẫn và chăm chỉ. Mình cố giữ bình tĩnh ngay cả khi mọi thứ căng thẳng, dù đôi khi mình hơi bướng. Mình rất ngưỡng mộ những người trung thực và tử tế, vì với mình đó là những phẩm chất quan trọng nhất. Cuối cùng, không tính cách nào là hoàn hảo, và chính điều đó khiến con người trở nên thú vị."
@@ -5525,7 +5496,6 @@ window.ONTAP = [
    "Chỉ đường dùng câu mệnh lệnh: Go straight…, Turn left/right…, Take the first turning…, Go past…",
    "Mô tả vị trí bằng giới từ: on your left, opposite, next to, between, at the corner of."
   ],
-  "img": "images/topic-29.jpg",
   "shadow": {
    "en": "Knowing how to ask for and give directions is really handy, especially in a new city. If I get lost, I politely ask, \"Excuse me, how do I get to the train station?\" Usually people tell me to go straight, turn left at the corner, or take the second right. When someone asks me for directions, I try to point out clear landmarks, like a big supermarket or a tall building. I also mention how far it is, so they know what to expect. A few simple phrases can help you find your way almost anywhere.",
    "vi": "Biết cách hỏi và chỉ đường thật sự tiện lợi, nhất là ở một thành phố lạ. Nếu bị lạc, mình lịch sự hỏi, \"Xin lỗi, làm sao để đến ga tàu?\". Thường mọi người bảo mình đi thẳng, rẽ trái ở góc đường, hoặc rẽ phải lần thứ hai. Khi có người hỏi đường, mình cố chỉ những mốc dễ thấy, như một siêu thị lớn hay một tòa nhà cao. Mình cũng nói khoảng cách bao xa để họ dễ hình dung. Vài câu đơn giản có thể giúp bạn tìm đường gần như ở bất cứ đâu."
@@ -5724,7 +5694,6 @@ window.ONTAP = [
    "Tạo ấn tượng tốt: mỉm cười, nhìn vào mắt, hỏi lại về đối phương và lắng nghe.",
    "Lặp lại tên người mới quen ngay khi được giới thiệu để nhớ tên họ."
   ],
-  "img": "images/topic-30.jpg",
   "shadow": {
    "en": "I really enjoy meeting new people, even though I feel a little shy at first. When I meet a stranger, I try to make a good first impression by smiling and asking friendly questions. A bit of small talk about hobbies or work usually helps us relax and find a common interest. If we get along well, I always ask to keep in touch. Some of my closest friends were once complete strangers I met at a party or through a mutual friend. You never know — the next person you talk to could become a good friend, or even a soul mate.",
    "vi": "Mình rất thích làm quen người mới, dù ban đầu hơi ngại. Khi gặp một người lạ, mình cố tạo ấn tượng tốt bằng cách mỉm cười và hỏi những câu thân thiện. Một chút chuyện phiếm về sở thích hay công việc thường giúp cả hai thoải mái và tìm ra điểm chung. Nếu hợp nhau, mình luôn xin giữ liên lạc. Vài người bạn thân nhất của mình từng là người hoàn toàn xa lạ mà mình gặp ở một buổi tiệc hoặc qua một người bạn chung. Bạn chẳng bao giờ biết được — người tiếp theo bạn trò chuyện có thể trở thành một người bạn tốt, hoặc thậm chí là tri kỷ."

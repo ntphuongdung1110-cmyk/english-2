@@ -215,8 +215,7 @@ async function enrichVocabItem(it) {
 
   for (let ti = 0; ti < ONTAP.length; ti++) {
     const t = ONTAP[ti];
-    // ảnh + shadowing
-    if (IMG_KEYWORDS[ti]) t.img = "images/topic-" + String(ti).padStart(2, "0") + ".jpg";
+    // shadowing (ảnh đã bỏ cho nhẹ)
     if (SHADOW[ti]) t.shadow = SHADOW[ti];
 
     if (Array.isArray(t.vocab) && t.vocab.length) {
