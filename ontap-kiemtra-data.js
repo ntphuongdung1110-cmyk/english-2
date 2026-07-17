@@ -5698,5 +5698,206 @@ window.ONTAP = [
    "en": "I really enjoy meeting new people, even though I feel a little shy at first. When I meet a stranger, I try to make a good first impression by smiling and asking friendly questions. A bit of small talk about hobbies or work usually helps us relax and find a common interest. If we get along well, I always ask to keep in touch. Some of my closest friends were once complete strangers I met at a party or through a mutual friend. You never know — the next person you talk to could become a good friend, or even a soul mate.",
    "vi": "Mình rất thích làm quen người mới, dù ban đầu hơi ngại. Khi gặp một người lạ, mình cố tạo ấn tượng tốt bằng cách mỉm cười và hỏi những câu thân thiện. Một chút chuyện phiếm về sở thích hay công việc thường giúp cả hai thoải mái và tìm ra điểm chung. Nếu hợp nhau, mình luôn xin giữ liên lạc. Vài người bạn thân nhất của mình từng là người hoàn toàn xa lạ mà mình gặp ở một buổi tiệc hoặc qua một người bạn chung. Bạn chẳng bao giờ biết được — người tiếp theo bạn trò chuyện có thể trở thành một người bạn tốt, hoặc thậm chí là tri kỷ."
   }
+ },
+ {
+  "icon": "🎲",
+  "name": "Getting to Know You Better / \"Would you ever\" & \"Have you ever\"",
+  "intro": "Bài L3 (phiếu học): 2 cấu trúc hỏi làm quen — \"Would you ever + [động từ nguyên mẫu]…?\" (giả định tương lai) và \"Have you ever + [quá khứ phân từ V3]…?\" (trải nghiệm quá khứ). Luôn thêm lý do ngắn cho câu trả lời.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "Would you ever…?",
+    "v": "Bạn có bao giờ (sẽ)…? — hỏi về giả định tương lai",
+    "ip": "/wʊd jʉː ˈɛvə/",
+    "d": "A question that asks if you would do something in an imagined future situation.",
+    "x": "Would you ever move abroad for a job?"
+   },
+   {
+    "s": 1,
+    "e": "Have you ever…?",
+    "v": "Bạn đã bao giờ…? — hỏi về trải nghiệm quá khứ",
+    "d": "A question that asks about an experience at any time in your past.",
+    "x": "Have you ever visited another country?"
+   },
+   {
+    "e": "Absolutely!",
+    "v": "Chắc chắn rồi!",
+    "ip": "/æb.səˈl(j)uːt.lɪ/",
+    "d": "A strong way to say 'yes, definitely'.",
+    "x": "'Would you like to join us?' 'Absolutely!'"
+   },
+   {
+    "e": "Yeah, probably.",
+    "v": "Ừ, chắc là có.",
+    "ip": "/ˈjæ.ə ˈpɹɒbli/",
+    "d": "A way to say 'yes' when you are fairly, but not completely, sure.",
+    "x": "'Will you come to the party?' 'Yeah, probably.'"
+   },
+   {
+    "s": 1,
+    "e": "It depends (on…)",
+    "v": "Còn tùy (vào…)",
+    "ip": "/ɪt dɪˈpɛndz/",
+    "d": "You say this when your answer changes according to the situation.",
+    "x": "'Will you travel this summer?' 'It depends on my budget.'"
+   },
+   {
+    "e": "Maybe, if…",
+    "v": "Có thể, nếu…",
+    "ip": "/ˈmeɪbi ɪf/",
+    "d": "A way to say 'possibly', but only under a certain condition.",
+    "x": "'Would you go camping?' 'Maybe, if the weather is nice.'"
+   },
+   {
+    "e": "I doubt it.",
+    "v": "Tôi nghĩ là không đâu.",
+    "ip": "/aɪ dʌʊt ɪt/",
+    "d": "A way to say you think something is probably not true or will not happen.",
+    "x": "'Will he be on time?' 'I doubt it.'"
+   },
+   {
+    "e": "No way!",
+    "v": "Đời nào! / Không đời nào!",
+    "ip": "/nəʊ weɪ/",
+    "d": "A very strong, informal way to say 'definitely not'.",
+    "x": "'Would you eat insects?' 'No way!'"
+   },
+   {
+    "e": "Not for a million dollars!",
+    "v": "Cho tiền tỷ cũng không!",
+    "d": "An emphatic way to say you would never do something, no matter what.",
+    "x": "'Would you sing on stage?' 'Not for a million dollars!'"
+   },
+   {
+    "s": 1,
+    "e": "Yes, I have.",
+    "v": "Có, tôi từng rồi.",
+    "d": "The short answer meaning you have done something before (reply to 'Have you ever…?').",
+    "x": "'Have you ever been to Hanoi?' 'Yes, I have.'"
+   },
+   {
+    "s": 1,
+    "e": "No, I haven't.",
+    "v": "Không, tôi chưa từng.",
+    "d": "The short answer meaning you have never done something (reply to 'Have you ever…?').",
+    "x": "'Have you ever gone skydiving?' 'No, I haven't.'"
+   },
+   {
+    "e": "No, not yet.",
+    "v": "Chưa, vẫn chưa.",
+    "ip": "/nəʊ nɒt jɛt/",
+    "d": "A way to say you have not done something so far, but you still might.",
+    "x": "'Have you finished the book?' 'No, not yet.'"
+   }
+  ],
+  "qa": [
+   {
+    "q": "Would you ever take a shower after 10PM?",
+    "a": "Absolutely! I often take a shower late at night because it helps me relax before bed."
+   },
+   {
+    "q": "Would you ever go skydiving?",
+    "a": "Maybe, if a close friend went with me. It looks terrifying, but it could be an unforgettable experience."
+   },
+   {
+    "q": "Would you ever move to a different country for love?",
+    "a": "It depends. I would consider it, but only after thinking carefully about my career and my family."
+   },
+   {
+    "q": "Would you ever eat coconut worms?",
+    "a": "No way! I know they're a local delicacy, but I really don't think I could try them."
+   },
+   {
+    "q": "Would you ever live with your boyfriend/girlfriend before you're married?",
+    "a": "Yeah, probably. I think living together first helps a couple understand each other better."
+   },
+   {
+    "q": "Would you ever marry someone 10 years older than you?",
+    "a": "It depends on the person. Age isn't the most important thing to me; what matters is how well we get along."
+   },
+   {
+    "q": "Would you ever marry someone 10 years younger than you?",
+    "a": "I doubt it, but I wouldn't say never. Love can happen at any age."
+   },
+   {
+    "q": "Have you ever sung in the shower?",
+    "a": "Yes, I have! I sing in the shower all the time, especially when I'm in a good mood."
+   },
+   {
+    "q": "Have you ever ghosted someone?",
+    "a": "No, I haven't. I think it's kinder to be honest with people than to suddenly stop replying."
+   },
+   {
+    "q": "Have you ever made a bucket list?",
+    "a": "Yes, I have. My bucket list includes travelling to Japan and learning to play the guitar."
+   },
+   {
+    "q": "Have you ever cried during a movie?",
+    "a": "Yes, I have, more than once! Some films are so emotional that I can't hold back my tears."
+   },
+   {
+    "q": "Have you ever cheated on an exam? If yes, did you get caught?",
+    "a": "No, I haven't. I've always preferred to study hard and earn my grades honestly."
+   },
+   {
+    "q": "Have you ever lied to your boss?",
+    "a": "No, not really. I believe honesty builds trust, even when the truth is difficult."
+   },
+   {
+    "q": "Have you ever been pulled over?",
+    "a": "No, not yet. I try to drive carefully and follow the traffic rules."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Let's play a game to get to know each other. Would you ever go skydiving?",
+    "v": "Chơi trò làm quen nhé. Bạn có bao giờ dám nhảy dù không?"
+   },
+   {
+    "p": "B",
+    "e": "Absolutely! It's on my bucket list. How about you?",
+    "v": "Chắc chắn rồi! Nó nằm trong danh sách điều muốn làm của mình. Còn bạn?"
+   },
+   {
+    "p": "A",
+    "e": "No way! I'm scared of heights. Okay, have you ever cried during a movie?",
+    "v": "Đời nào! Mình sợ độ cao. Rồi, bạn đã bao giờ khóc khi xem phim chưa?"
+   },
+   {
+    "p": "B",
+    "e": "Yes, I have, more than once! Have you?",
+    "v": "Có chứ, không chỉ một lần! Còn bạn?"
+   },
+   {
+    "p": "A",
+    "e": "Yeah, probably during every sad movie. Would you ever move abroad for love?",
+    "v": "Ừ, chắc phim buồn nào cũng khóc. Bạn có bao giờ ra nước ngoài vì tình yêu không?"
+   },
+   {
+    "p": "B",
+    "e": "It depends on the situation. It's a big decision.",
+    "v": "Còn tùy tình huống. Đó là quyết định lớn."
+   },
+   {
+    "p": "A",
+    "e": "True. This is a fun way to get to know someone!",
+    "v": "Đúng vậy. Đây là cách vui để hiểu về một người!"
+   },
+   {
+    "p": "B",
+    "e": "It is! Let's keep going.",
+    "v": "Đúng thế! Chơi tiếp nào."
+   }
+  ],
+  "tips": [
+   "\"Would you ever + V nguyên mẫu\" hỏi giả định tương lai; \"Have you ever + V3 (quá khứ phân từ)\" hỏi trải nghiệm đã qua.",
+   "V3 bất quy tắc hay gặp: sing→sung, make→made, be→been, cry→cried, lie→lied, ghost→ghosted, cheat→cheated.",
+   "Đừng chỉ trả lời Yes/No — thêm một lý do hoặc ví dụ ngắn để câu tự nhiên hơn."
+  ],
+  "shadow": {
+   "en": "'Would you ever' and 'Have you ever' questions are a fun way to get to know someone. 'Would you ever' asks about the future — for example, 'Would you ever go skydiving?' You can answer 'Absolutely!', 'It depends', or 'No way!'. 'Have you ever' asks about your past experiences, like 'Have you ever cried during a movie?' For these, you answer 'Yes, I have' or 'No, I haven't'. The trick is to add a short reason so your answer sounds natural. These simple questions can turn a quiet moment into an interesting conversation.",
+   "vi": "Câu hỏi 'Would you ever' và 'Have you ever' là cách vui để hiểu về một người. 'Would you ever' hỏi về tương lai — ví dụ 'Bạn có bao giờ dám nhảy dù không?'. Bạn có thể trả lời 'Absolutely!', 'It depends' hoặc 'No way!'. 'Have you ever' hỏi về trải nghiệm quá khứ, như 'Bạn đã bao giờ khóc khi xem phim chưa?'. Với dạng này, bạn trả lời 'Yes, I have' hoặc 'No, I haven't'. Bí quyết là thêm một lý do ngắn để câu trả lời nghe tự nhiên. Những câu hỏi đơn giản này có thể biến một khoảnh khắc im lặng thành một cuộc trò chuyện thú vị."
+  }
  }
 ];

@@ -299,5 +299,19 @@ module.exports = {
   "soul mate": { d: "A person you feel a deep, natural connection with.", x: "After years of dating, she married her soul mate." },
   "common interest": { d: "An activity or topic that two or more people both enjoy.", x: "Music is our common interest." },
   "small talk": { d: "Light, polite conversation about unimportant things.", x: "We made small talk about the weather while we waited." },
-  "keep in touch": { d: "To stay in contact with someone.", x: "Let's keep in touch after you move." }
+  "keep in touch": { d: "To stay in contact with someone.", x: "Let's keep in touch after you move." },
+
+  // ---- Getting to Know You Better (bài L3): Would you ever / Have you ever ----
+  "Would you ever…?": { d: "A question that asks if you would do something in an imagined future situation.", x: "Would you ever move abroad for a job?" },
+  "Have you ever…?": { d: "A question that asks about an experience at any time in your past.", x: "Have you ever visited another country?" },
+  "Absolutely!": { d: "A strong way to say 'yes, definitely'.", x: "'Would you like to join us?' 'Absolutely!'" },
+  "Yeah, probably.": { d: "A way to say 'yes' when you are fairly, but not completely, sure.", x: "'Will you come to the party?' 'Yeah, probably.'" },
+  "It depends (on…)": { d: "You say this when your answer changes according to the situation.", x: "'Will you travel this summer?' 'It depends on my budget.'" },
+  "Maybe, if…": { d: "A way to say 'possibly', but only under a certain condition.", x: "'Would you go camping?' 'Maybe, if the weather is nice.'" },
+  "I doubt it.": { d: "A way to say you think something is probably not true or will not happen.", x: "'Will he be on time?' 'I doubt it.'" },
+  "No way!": { d: "A very strong, informal way to say 'definitely not'.", x: "'Would you eat insects?' 'No way!'" },
+  "Not for a million dollars!": { d: "An emphatic way to say you would never do something, no matter what.", x: "'Would you sing on stage?' 'Not for a million dollars!'" },
+  "Yes, I have.": { d: "The short answer meaning you have done something before (reply to 'Have you ever…?').", x: "'Have you ever been to Hanoi?' 'Yes, I have.'" },
+  "No, I haven't.": { d: "The short answer meaning you have never done something (reply to 'Have you ever…?').", x: "'Have you ever gone skydiving?' 'No, I haven't.'" },
+  "No, not yet.": { d: "A way to say you have not done something so far, but you still might.", x: "'Have you finished the book?' 'No, not yet.'" }
 };
