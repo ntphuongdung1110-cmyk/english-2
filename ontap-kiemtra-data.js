@@ -6003,47 +6003,57 @@ window.ONTAP = [
     ]
    },
    {
-    "title": "🤔 What do you think? — nêu ý kiến & giải thích vì sao",
+    "title": "🤔 What do you think? — nêu ý kiến & giải thích vì sao (có trả lời mẫu)",
     "rows": [
      {
       "e": "Married people are happier than single people.",
-      "v": "Người kết hôn hạnh phúc hơn người độc thân."
+      "v": "Người kết hôn hạnh phúc hơn người độc thân.",
+      "a": "I'm afraid I have to disagree. In my opinion, happiness depends on the person, not on marriage. Some single people are very happy and free, while some married people feel stressed."
      },
      {
       "e": "True love is real.",
-      "v": "Tình yêu đích thực là có thật."
+      "v": "Tình yêu đích thực là có thật.",
+      "a": "I totally agree. I believe true love is real, because I've seen couples who still care deeply for each other after many years together."
      },
      {
       "e": "Money is more important than love.",
-      "v": "Tiền quan trọng hơn tình yêu."
+      "v": "Tiền quan trọng hơn tình yêu.",
+      "a": "I don't think that's true. Money is important for a comfortable life, but in my opinion, love and health matter more in the long run."
      },
      {
       "e": "Couples should live together before they get married.",
-      "v": "Nên sống thử trước khi cưới."
+      "v": "Nên sống thử trước khi cưới.",
+      "a": "I totally agree. Living together first helps a couple understand each other's habits before making such a big commitment."
      },
      {
       "e": "Women are more intelligent than men.",
-      "v": "Phụ nữ thông minh hơn đàn ông."
+      "v": "Phụ nữ thông minh hơn đàn ông.",
+      "a": "I'm afraid I have to disagree. In my opinion, intelligence depends on the individual, not on gender — both men and women can be equally smart."
      },
      {
       "e": "Vietnamese food is the most delicious food in the world.",
-      "v": "Món Việt ngon nhất thế giới."
+      "v": "Món Việt ngon nhất thế giới.",
+      "a": "I might be a little biased, but I couldn't agree more! Vietnamese food is fresh, balanced, and full of flavour, so it's my favourite."
      },
      {
       "e": "District 3 is the best place to live in Saigon.",
-      "v": "Quận 3 là nơi sống tốt nhất Sài Gòn."
+      "v": "Quận 3 là nơi sống tốt nhất Sài Gòn.",
+      "a": "That's a good point, but I partly disagree. District 3 is central and convenient, though some people prefer quieter areas like District 7."
      },
      {
       "e": "District 5 is the best place to eat in Saigon.",
-      "v": "Quận 5 là nơi ăn ngon nhất Sài Gòn."
+      "v": "Quận 5 là nơi ăn ngon nhất Sài Gòn.",
+      "a": "I agree to some extent. District 5 has amazing Chinese food, but honestly, you can find great food all over the city."
      },
      {
       "e": "District 1 is the best place to party in Saigon.",
-      "v": "Quận 1 là nơi chơi tốt nhất Sài Gòn."
+      "v": "Quận 1 là nơi chơi tốt nhất Sài Gòn.",
+      "a": "I totally agree. District 1 has the most bars, clubs, and night spots, so it's the liveliest area for going out."
      },
      {
       "e": "Mì Quảng is better than phở.",
-      "v": "Mì Quảng ngon hơn phở."
+      "v": "Mì Quảng ngon hơn phở.",
+      "a": "I don't think that's true, but that's just my opinion. I love both dishes, though I'd usually choose phở for its light, comforting broth."
      }
     ]
    }
@@ -6068,22 +6078,6 @@ window.ONTAP = [
    {
     "q": "How often do you argue with your boyfriend or girlfriend? What do you usually argue about?",
     "a": "We don't argue very often, maybe once in a while. When we do, it's usually about small misunderstandings, and we make up quickly."
-   },
-   {
-    "q": "What do you think? \"Money is more important than love.\"",
-    "a": "I'm afraid I have to disagree. In my opinion, love and happiness matter more, although money is still important for a comfortable life."
-   },
-   {
-    "q": "What do you think? \"Couples should live together before they get married.\"",
-    "a": "I totally agree. I feel the same way, because living together first helps a couple understand each other before making a big commitment."
-   },
-   {
-    "q": "What do you think? \"Vietnamese food is the most delicious food in the world.\"",
-    "a": "That's a good point, and I couldn't agree more! I might be a little biased, but I think Vietnamese food is fresh, balanced, and full of flavour."
-   },
-   {
-    "q": "What do you think? \"Mì Quảng is better than phở.\"",
-    "a": "I don't think that's true, but that's just my opinion. I love both dishes, though I'd choose phở on a cold morning."
    }
   ],
   "convo": [

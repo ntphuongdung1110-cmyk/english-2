@@ -164,7 +164,10 @@ function extraHTML(blocks){
   blocks.forEach(b=>{
     h+='<div class="sec"><h3>'+esc(b.title)+'</h3>';
     if(b.pills) h+='<div>'+b.pills.map(p=>'<span class="pill">'+esc(p)+'</span>').join('')+'</div>';
-    if(b.rows) b.rows.forEach(r=>{ h+='<div class="vrow"><span class="star">•</span><div><span class="en">'+esc(r.e)+'</span> — <span class="vi">'+esc(r.v)+'</span></div></div>'; });
+    if(b.rows) b.rows.forEach(r=>{ h+='<div class="vrow"><span class="star">•</span><div><span class="en">'+esc(r.e)+'</span>'+
+      (r.v?' — <span class="vi">'+esc(r.v)+'</span>':'')+
+      (r.a?'<div class="a'+(ansOn?'':' hidden')+'" style="margin-top:5px">'+spkBtn(r.a)+' '+esc(r.a)+'</div>':'')+
+      '</div></div>'; });
     h+='</div>';
   });
   return h;
@@ -215,7 +218,7 @@ function openTopic(i){
 $("tVi").onclick=function(){ document.body.classList.toggle("hide-vi"); const on=!document.body.classList.contains("hide-vi");
   this.classList.toggle("on",on); this.textContent="🇻🇳 Tiếng Việt: "+(on?"Hiện":"Ẩn"); };
 $("tAns").onclick=function(){ ansOn=!ansOn; this.classList.toggle("on",ansOn); this.textContent="💬 Câu trả lời: "+(ansOn?"Hiện":"Ẩn");
-  document.querySelectorAll(".qa .a").forEach(a=>a.classList.toggle("hidden",!ansOn)); };
+  document.querySelectorAll(".qa .a, .vrow .a").forEach(a=>a.classList.toggle("hidden",!ansOn)); };
 $("tSpeak").onclick=function(){ speakOn=!speakOn; this.classList.toggle("on",speakOn); this.textContent="🔊 Chạm để nghe: "+(speakOn?"Bật":"Tắt"); };
 
 // đọc to (Web Speech) — bấm nút 🔊, hoặc chạm câu tiếng Anh khi bật "Chạm để nghe"
