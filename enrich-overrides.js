@@ -313,5 +313,14 @@ module.exports = {
   "Not for a million dollars!": { d: "An emphatic way to say you would never do something, no matter what.", x: "'Would you sing on stage?' 'Not for a million dollars!'" },
   "Yes, I have.": { d: "The short answer meaning you have done something before (reply to 'Have you ever…?').", x: "'Have you ever been to Hanoi?' 'Yes, I have.'" },
   "No, I haven't.": { d: "The short answer meaning you have never done something (reply to 'Have you ever…?').", x: "'Have you ever gone skydiving?' 'No, I haven't.'" },
-  "No, not yet.": { d: "A way to say you have not done something so far, but you still might.", x: "'Have you finished the book?' 'No, not yet.'" }
+  "No, not yet.": { d: "A way to say you have not done something so far, but you still might.", x: "'Have you finished the book?' 'No, not yet.'" },
+
+  // ---- Opinions (bài L3) ----
+  "agree": { d: "To have the same opinion as someone.", x: "I agree with you completely." },
+  "disagree": { d: "To have a different opinion from someone.", x: "I disagree with that idea." },
+  "fact": { d: "Something that is true and can be proven.", x: "It's a fact that water boils at 100°C." },
+  "opinion": { d: "What you think or believe about something, not a proven fact.", x: "In my opinion, this film is boring." },
+  "argue": { d: "To disagree with someone, often angrily; or to give reasons for your view.", x: "They always argue about money." },
+  "argument": { d: "An angry disagreement, or a reason you give to support your opinion.", x: "We had an argument about politics." },
+  "stubborn": { d: "Not willing to change your mind, even when you might be wrong.", x: "He's too stubborn to admit his mistake." }
 };

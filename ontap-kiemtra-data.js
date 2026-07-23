@@ -5899,5 +5899,243 @@ window.ONTAP = [
    "en": "'Would you ever' and 'Have you ever' questions are a fun way to get to know someone. 'Would you ever' asks about the future — for example, 'Would you ever go skydiving?' You can answer 'Absolutely!', 'It depends', or 'No way!'. 'Have you ever' asks about your past experiences, like 'Have you ever cried during a movie?' For these, you answer 'Yes, I have' or 'No, I haven't'. The trick is to add a short reason so your answer sounds natural. These simple questions can turn a quiet moment into an interesting conversation.",
    "vi": "Câu hỏi 'Would you ever' và 'Have you ever' là cách vui để hiểu về một người. 'Would you ever' hỏi về tương lai — ví dụ 'Bạn có bao giờ dám nhảy dù không?'. Bạn có thể trả lời 'Absolutely!', 'It depends' hoặc 'No way!'. 'Have you ever' hỏi về trải nghiệm quá khứ, như 'Bạn đã bao giờ khóc khi xem phim chưa?'. Với dạng này, bạn trả lời 'Yes, I have' hoặc 'No, I haven't'. Bí quyết là thêm một lý do ngắn để câu trả lời nghe tự nhiên. Những câu hỏi đơn giản này có thể biến một khoảnh khắc im lặng thành một cuộc trò chuyện thú vị."
   }
+ },
+ {
+  "icon": "💭",
+  "name": "Opinions / Nêu ý kiến & tranh luận",
+  "intro": "Bài L3 (phiếu học): học cách nêu ý kiến, đồng ý và KHÔNG đồng ý một cách lịch sự — và luôn giải thích VÌ SAO.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "agree",
+    "v": "đồng ý",
+    "ip": "/əˈɡɹi/",
+    "d": "To have the same opinion as someone.",
+    "x": "I agree with you completely."
+   },
+   {
+    "s": 1,
+    "e": "disagree",
+    "v": "không đồng ý",
+    "ip": "/dɪsəˈɡɹiː/",
+    "d": "To have a different opinion from someone.",
+    "x": "I disagree with that idea."
+   },
+   {
+    "e": "fact",
+    "v": "sự thật, dữ kiện",
+    "ip": "/fækt/",
+    "d": "Something that is true and can be proven.",
+    "x": "It's a fact that water boils at 100°C."
+   },
+   {
+    "s": 1,
+    "e": "opinion",
+    "v": "ý kiến, quan điểm",
+    "ip": "/əˈpɪnjən/",
+    "d": "What you think or believe about something, not a proven fact.",
+    "x": "In my opinion, this film is boring."
+   },
+   {
+    "e": "argue",
+    "v": "tranh luận, cãi nhau",
+    "ip": "/ˈɑː.ɡjuː/",
+    "d": "To disagree with someone, often angrily; or to give reasons for your view.",
+    "x": "They always argue about money."
+   },
+   {
+    "e": "argument",
+    "v": "cuộc tranh cãi; lý lẽ",
+    "ip": "/ˈɑːɡjʊmənt/",
+    "d": "An angry disagreement, or a reason you give to support your opinion.",
+    "x": "We had an argument about politics."
+   },
+   {
+    "s": 1,
+    "e": "stubborn",
+    "v": "bướng bỉnh, cứng đầu (≠ a pushover: người dễ bị thuyết phục)",
+    "ip": "/ˈstʌbən/",
+    "d": "Not willing to change your mind, even when you might be wrong.",
+    "x": "He's too stubborn to admit his mistake."
+   }
+  ],
+  "extra": [
+   {
+    "title": "✅ Cách ĐỒNG Ý (How to agree)",
+    "rows": [
+     {
+      "e": "I totally agree.",
+      "v": "Tôi hoàn toàn đồng ý."
+     },
+     {
+      "e": "That's a good point.",
+      "v": "Ý hay đấy."
+     },
+     {
+      "e": "I feel the same way.",
+      "v": "Tôi cũng nghĩ vậy."
+     },
+     {
+      "e": "I couldn't agree more!",
+      "v": "Không thể đồng ý hơn!"
+     }
+    ]
+   },
+   {
+    "title": "❌ Cách KHÔNG đồng ý (How to disagree)",
+    "rows": [
+     {
+      "e": "I totally disagree.",
+      "v": "Tôi hoàn toàn không đồng ý."
+     },
+     {
+      "e": "I'm afraid I have to disagree.",
+      "v": "E là tôi phải phản đối."
+     },
+     {
+      "e": "I don't think that's true.",
+      "v": "Tôi không nghĩ điều đó đúng."
+     },
+     {
+      "e": "You're wrong! (nói thẳng, kém lịch sự)",
+      "v": "Bạn sai rồi! (nên hạn chế)"
+     }
+    ]
+   },
+   {
+    "title": "🤔 What do you think? — nêu ý kiến & giải thích vì sao",
+    "rows": [
+     {
+      "e": "Married people are happier than single people.",
+      "v": "Người kết hôn hạnh phúc hơn người độc thân."
+     },
+     {
+      "e": "True love is real.",
+      "v": "Tình yêu đích thực là có thật."
+     },
+     {
+      "e": "Money is more important than love.",
+      "v": "Tiền quan trọng hơn tình yêu."
+     },
+     {
+      "e": "Couples should live together before they get married.",
+      "v": "Nên sống thử trước khi cưới."
+     },
+     {
+      "e": "Women are more intelligent than men.",
+      "v": "Phụ nữ thông minh hơn đàn ông."
+     },
+     {
+      "e": "Vietnamese food is the most delicious food in the world.",
+      "v": "Món Việt ngon nhất thế giới."
+     },
+     {
+      "e": "District 3 is the best place to live in Saigon.",
+      "v": "Quận 3 là nơi sống tốt nhất Sài Gòn."
+     },
+     {
+      "e": "District 5 is the best place to eat in Saigon.",
+      "v": "Quận 5 là nơi ăn ngon nhất Sài Gòn."
+     },
+     {
+      "e": "District 1 is the best place to party in Saigon.",
+      "v": "Quận 1 là nơi chơi tốt nhất Sài Gòn."
+     },
+     {
+      "e": "Mì Quảng is better than phở.",
+      "v": "Mì Quảng ngon hơn phở."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "What are some facts about Ho Chi Minh City?",
+    "a": "Well, it's a fact that Ho Chi Minh City is the largest city in Vietnam. Another fact is that it used to be called Saigon, and it's famous for its busy traffic and delicious street food."
+   },
+   {
+    "q": "What is your opinion of Ho Chi Minh City?",
+    "a": "In my opinion, Ho Chi Minh City is exciting but quite crowded. I love the food and the lively energy, although the traffic can be stressful."
+   },
+   {
+    "q": "Do you usually agree or disagree with your parents?",
+    "a": "I usually agree with my parents because they have a lot of experience. However, we sometimes disagree about small things, like how I spend my free time."
+   },
+   {
+    "q": "Who do you usually argue with the most? What do you usually argue about?",
+    "a": "I argue with my younger brother the most. We usually argue about silly things, like whose turn it is to do the dishes."
+   },
+   {
+    "q": "How often do you argue with your boyfriend or girlfriend? What do you usually argue about?",
+    "a": "We don't argue very often, maybe once in a while. When we do, it's usually about small misunderstandings, and we make up quickly."
+   },
+   {
+    "q": "What do you think? \"Money is more important than love.\"",
+    "a": "I'm afraid I have to disagree. In my opinion, love and happiness matter more, although money is still important for a comfortable life."
+   },
+   {
+    "q": "What do you think? \"Couples should live together before they get married.\"",
+    "a": "I totally agree. I feel the same way, because living together first helps a couple understand each other before making a big commitment."
+   },
+   {
+    "q": "What do you think? \"Vietnamese food is the most delicious food in the world.\"",
+    "a": "That's a good point, and I couldn't agree more! I might be a little biased, but I think Vietnamese food is fresh, balanced, and full of flavour."
+   },
+   {
+    "q": "What do you think? \"Mì Quảng is better than phở.\"",
+    "a": "I don't think that's true, but that's just my opinion. I love both dishes, though I'd choose phở on a cold morning."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "In my opinion, money is more important than love. What do you think?",
+    "v": "Theo mình, tiền quan trọng hơn tình yêu. Bạn nghĩ sao?"
+   },
+   {
+    "p": "B",
+    "e": "I'm afraid I have to disagree. I think love matters more.",
+    "v": "E là mình phải phản đối. Mình nghĩ tình yêu quan trọng hơn."
+   },
+   {
+    "p": "A",
+    "e": "That's a good point, but money gives you security.",
+    "v": "Ý hay đấy, nhưng tiền cho bạn sự an toàn."
+   },
+   {
+    "p": "B",
+    "e": "True, but you can't buy happiness. Money is a fact; happiness is a feeling.",
+    "v": "Đúng, nhưng tiền không mua được hạnh phúc. Tiền là dữ kiện; hạnh phúc là cảm xúc."
+   },
+   {
+    "p": "A",
+    "e": "I feel the same way, actually. Maybe we need a balance of both.",
+    "v": "Thật ra mình cũng nghĩ vậy. Có lẽ cần cân bằng cả hai."
+   },
+   {
+    "p": "B",
+    "e": "I couldn't agree more! See, we didn't even argue.",
+    "v": "Không thể đồng ý hơn! Thấy chưa, mình đâu có cãi nhau."
+   },
+   {
+    "p": "A",
+    "e": "Ha! You're just not as stubborn as me.",
+    "v": "Ha! Chỉ là bạn không bướng như mình thôi."
+   },
+   {
+    "p": "B",
+    "e": "That's a fact, not an opinion!",
+    "v": "Đó là sự thật, không phải ý kiến đâu nhé!"
+   }
+  ],
+  "tips": [
+   "Nêu ý kiến: In my opinion… / I think… / I feel that…  ·  Nêu sự thật: It's a fact that…",
+   "Đồng ý: I totally agree / That's a good point / I couldn't agree more.  ·  Không đồng ý (lịch sự): I'm afraid I have to disagree / I don't think that's true.",
+   "Sau khi nêu quan điểm, LUÔN giải thích vì sao: because…, for example…"
+  ],
+  "shadow": {
+   "en": "Everyone has opinions, and it's important to share them politely. When I agree with someone, I might say 'That's a good point' or 'I couldn't agree more.' When I disagree, I try to be polite and say 'I'm afraid I have to disagree' instead of 'You're wrong!'. The key is to explain why I think that way, using facts and examples. For instance, some people say money is more important than love, but in my opinion, both matter in different ways. A good discussion is not about winning an argument; it's about understanding each other.",
+   "vi": "Ai cũng có quan điểm riêng, và điều quan trọng là chia sẻ chúng một cách lịch sự. Khi đồng ý với ai đó, mình có thể nói 'That's a good point' hoặc 'I couldn't agree more.' Khi không đồng ý, mình cố lịch sự nói 'I'm afraid I have to disagree' thay vì 'You're wrong!'. Mấu chốt là giải thích vì sao mình nghĩ vậy, bằng sự thật và ví dụ. Chẳng hạn, có người nói tiền quan trọng hơn tình yêu, nhưng theo mình, cả hai đều quan trọng theo những cách khác nhau. Một cuộc thảo luận hay không phải để thắng cuộc tranh cãi; mà là để hiểu nhau."
+  }
  }
 ];
