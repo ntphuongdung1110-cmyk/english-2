@@ -6077,7 +6077,8 @@ window.ONTAP = [
    },
    {
     "q": "How often do you argue with your boyfriend or girlfriend? What do you usually argue about?",
-    "a": "We don't argue very often, maybe once in a while. When we do, it's usually about small misunderstandings, and we make up quickly."
+    "a": "We don't argue very often, maybe once in a while. When we do, it's usually about small misunderstandings, and we make up quickly.",
+    "a2": "We don't argue much. Sometimes we argue about small things, but we forgive each other quickly."
    }
   ],
   "convo": [

@@ -139,7 +139,9 @@ function qaHTML(list){
   list.forEach((qa,i)=>{
     h+='<div class="qa"><div class="q" data-ans>'+
        '<span class="num">Q'+(i+1)+'.</span>'+esc(qa.q)+' '+spkBtn(qa.q)+'</div>'+
-       '<div class="a'+(ansOn?'':' hidden')+'">'+spkBtn(qa.a)+' '+esc(qa.a)+'</div></div>';
+       '<div class="a'+(ansOn?'':' hidden')+'">'+spkBtn(qa.a)+' '+esc(qa.a)+'</div>'+
+       (qa.a2?'<div class="a'+(ansOn?'':' hidden')+'" style="margin-top:5px"><b style="color:#0f766e;font-size:12px">Cách nói khác: </b>'+spkBtn(qa.a2)+' '+esc(qa.a2)+'</div>':'')+
+       '</div>';
   });
   return h+'</div>';
 }
@@ -238,7 +240,7 @@ document.addEventListener("click",e=>{
   const op=e.target.closest("[data-open]"); if(op){ openTopic(+op.dataset.open); return; }
   const ci=e.target.closest(".nav button[data-i]"); if(ci){ openTopic(+ci.dataset.i); return; }
   if(e.target.closest("#backBtn")){ showMenu(); return; }
-  const q=e.target.closest(".qa .q[data-ans]"); if(q){ const a=q.parentElement.querySelector(".a"); if(a) a.classList.toggle("hidden"); return; }
+  const q=e.target.closest(".qa .q[data-ans]"); if(q){ const as=q.parentElement.querySelectorAll(".a"); const hide=!(as[0]&&as[0].classList.contains("hidden")); as.forEach(a=>a.classList.toggle("hidden",hide)); return; }
   if(speakOn){ const en=e.target.closest(".en,.turn span:first-child"); if(en) speak(en.textContent); }
 });
 
