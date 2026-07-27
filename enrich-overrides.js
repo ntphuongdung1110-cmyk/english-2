@@ -322,5 +322,23 @@ module.exports = {
   "opinion": { d: "What you think or believe about something, not a proven fact.", x: "In my opinion, this film is boring." },
   "argue": { d: "To disagree with someone, often angrily; or to give reasons for your view.", x: "They always argue about money." },
   "argument": { d: "An angry disagreement, or a reason you give to support your opinion.", x: "We had an argument about politics." },
-  "stubborn": { d: "Not willing to change your mind, even when you might be wrong.", x: "He's too stubborn to admit his mistake." }
+  "stubborn": { d: "Not willing to change your mind, even when you might be wrong.", x: "He's too stubborn to admit his mistake." },
+
+  // ---- IF… Stranded on a Desert Island ----
+  "stranded": { d: "Left in a place you cannot leave, with no way to get away.", x: "The sailors were stranded on a tiny island after the storm." },
+  "desert island": { d: "A small tropical island far from other places, with no people living on it.", x: "If you were stranded on a desert island, what would you bring?" },
+  "rescue / be rescued": { d: "To save someone from danger; to be saved from a dangerous place or situation.", x: "It could take three months for a ship to rescue us." },
+  "survive": { d: "To stay alive, especially in a difficult or dangerous situation.", x: "We need fresh water and food to survive on the island." },
+  "shelter": { d: "A structure or place that protects you from bad weather and danger.", x: "We built a shelter from branches and a tent." },
+  "fresh water": { d: "Clean water that is safe to drink, not salty like the sea.", x: "Luckily, there is fresh water on the island to drink." },
+  "coconut tree": { d: "A tall tropical palm tree that grows coconuts.", x: "We can eat the coconuts from the coconut trees." },
+  "fishing pole": { d: "A long stick with a line and hook used to catch fish; a fishing rod.", x: "With a fishing pole, we could catch fish every day." },
+  "matches": { d: "Small thin sticks that make a flame when you strike them, used to start a fire.", x: "We need matches to start a fire and cook our food." },
+  "net": { d: "A material made of crossed threads with holes, used to catch fish or animals.", x: "We can use a net to catch fish in the shallow water." },
+  "flashlight": { d: "A small battery-powered light you can carry in your hand.", x: "A flashlight helps us see at night." },
+  "first aid kit": { d: "A box of medical supplies used to treat injuries in an emergency.", x: "If someone got hurt, the first aid kit could save their life." },
+  "hunting rifle": { d: "A long gun used to hunt animals or for protection.", x: "Some people would bring a hunting rifle for protection." },
+  "signal fire": { d: "A large fire lit to send a message or to be seen by rescuers.", x: "We lit a signal fire so passing ships could find us." },
+  "teamwork": { d: "Working well together as a group to reach a common goal.", x: "Good teamwork is the key to surviving on a desert island." },
+  "priority": { d: "The thing that is most important and must be dealt with first.", x: "Fresh water and shelter are our top priorities." }
 };

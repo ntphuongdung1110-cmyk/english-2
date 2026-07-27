@@ -6132,5 +6132,255 @@ window.ONTAP = [
    "en": "Everyone has opinions, and it's important to share them politely. When I agree with someone, I might say 'That's a good point' or 'I couldn't agree more.' When I disagree, I try to be polite and say 'I'm afraid I have to disagree' instead of 'You're wrong!'. The key is to explain why I think that way, using facts and examples. For instance, some people say money is more important than love, but in my opinion, both matter in different ways. A good discussion is not about winning an argument; it's about understanding each other.",
    "vi": "Ai cũng có quan điểm riêng, và điều quan trọng là chia sẻ chúng một cách lịch sự. Khi đồng ý với ai đó, mình có thể nói 'That's a good point' hoặc 'I couldn't agree more.' Khi không đồng ý, mình cố lịch sự nói 'I'm afraid I have to disagree' thay vì 'You're wrong!'. Mấu chốt là giải thích vì sao mình nghĩ vậy, bằng sự thật và ví dụ. Chẳng hạn, có người nói tiền quan trọng hơn tình yêu, nhưng theo mình, cả hai đều quan trọng theo những cách khác nhau. Một cuộc thảo luận hay không phải để thắng cuộc tranh cãi; mà là để hiểu nhau."
   }
+ },
+ {
+  "icon": "🏝️",
+  "name": "IF… Stranded on a Desert Island / Câu điều kiện & Kẹt trên đảo hoang",
+  "intro": "Câu điều kiện loại 2 (giả định): If + quá khứ (were / could / had) …, S + would + V. Dùng cho tình huống tưởng tượng, chưa/không có thật. VD: If I were stranded on an island, I would build a shelter. (Nếu tôi bị kẹt trên đảo, tôi sẽ dựng chỗ trú.)",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "stranded",
+    "v": "bị mắc kẹt (không rời đi được)",
+    "x": "The sailors were stranded on a tiny island after the storm.",
+    "d": "Left in a place you cannot leave, with no way to get away."
+   },
+   {
+    "s": 1,
+    "e": "desert island",
+    "v": "đảo hoang",
+    "x": "If you were stranded on a desert island, what would you bring?",
+    "ip": "/dɪˈzɜːt ˈaɪ̯lənd/",
+    "d": "A small tropical island far from other places, with no people living on it."
+   },
+   {
+    "s": 1,
+    "e": "rescue / be rescued",
+    "v": "giải cứu / được giải cứu",
+    "x": "It could take three months for a ship to rescue us.",
+    "ip": "/ˈɹɛs.kjuː/",
+    "d": "To save someone from danger; to be saved from a dangerous place or situation."
+   },
+   {
+    "s": 1,
+    "e": "survive",
+    "v": "sống sót",
+    "x": "We need fresh water and food to survive on the island.",
+    "ip": "/səˈvʌɪv/",
+    "d": "To stay alive, especially in a difficult or dangerous situation."
+   },
+   {
+    "s": 1,
+    "e": "shelter",
+    "v": "nơi trú ẩn, chỗ che",
+    "x": "We built a shelter from branches and a tent.",
+    "ip": "/ˈʃɛltə/",
+    "d": "A structure or place that protects you from bad weather and danger."
+   },
+   {
+    "s": 1,
+    "e": "fresh water",
+    "v": "nước ngọt, nước sạch",
+    "x": "Luckily, there is fresh water on the island to drink.",
+    "ip": "/fɹɛʃ ˈwoːtə/",
+    "d": "Clean water that is safe to drink, not salty like the sea."
+   },
+   {
+    "e": "coconut tree",
+    "v": "cây dừa",
+    "x": "We can eat the coconuts from the coconut trees.",
+    "ip": "/ˈkəʊ.kə.nʌt tɹiː/",
+    "d": "A tall tropical palm tree that grows coconuts."
+   },
+   {
+    "s": 1,
+    "e": "fishing pole",
+    "v": "cần câu cá",
+    "x": "With a fishing pole, we could catch fish every day.",
+    "ip": "/ˈfɪʃɪŋ pɔːl/",
+    "d": "A long stick with a line and hook used to catch fish; a fishing rod."
+   },
+   {
+    "e": "net",
+    "v": "lưới (bắt cá)",
+    "x": "We can use a net to catch fish in the shallow water.",
+    "d": "A material made of crossed threads with holes, used to catch fish or animals."
+   },
+   {
+    "e": "tent",
+    "v": "lều",
+    "x": "A tent would keep us dry when it rains at night.",
+    "ip": "/tɛnt/",
+    "d": "A pavilion or portable lodge consisting of skins, canvas, or some strong cloth, stretched and sustained by poles, used for sheltering people from the weather."
+   },
+   {
+    "s": 1,
+    "e": "matches",
+    "v": "diêm (để nhóm lửa)",
+    "x": "We need matches to start a fire and cook our food.",
+    "ip": "/ˈmæt͡ʃɪz/",
+    "d": "Small thin sticks that make a flame when you strike them, used to start a fire."
+   },
+   {
+    "e": "flashlight",
+    "v": "đèn pin",
+    "x": "A flashlight helps us see at night.",
+    "ip": "/ˈflæʃˌlaɪt/",
+    "d": "A small battery-powered light you can carry in your hand."
+   },
+   {
+    "s": 1,
+    "e": "knife",
+    "v": "con dao",
+    "x": "A knife is useful for cutting rope and opening coconuts.",
+    "ip": "/naɪf/",
+    "d": "To cut with a knife."
+   },
+   {
+    "e": "rope",
+    "v": "dây thừng",
+    "x": "We tied the shelter together with a strong rope.",
+    "ip": "/ɹəʊp/",
+    "d": "Thick strings, yarn, monofilaments, metal wires, or strands of other cordage that are twisted together to form a stronger line."
+   },
+   {
+    "s": 1,
+    "e": "first aid kit",
+    "v": "bộ sơ cứu",
+    "x": "If someone got hurt, the first aid kit could save their life.",
+    "ip": "/fɪrst eɪd kɪt/",
+    "d": "A box of medical supplies used to treat injuries in an emergency."
+   },
+   {
+    "e": "hunting rifle",
+    "v": "súng săn",
+    "x": "Some people would bring a hunting rifle for protection.",
+    "ip": "/ˈhʌntɪŋ ˈɹaɪfəl/",
+    "d": "A long gun used to hunt animals or for protection."
+   },
+   {
+    "e": "signal fire",
+    "v": "lửa hiệu (báo cứu hộ)",
+    "x": "We lit a signal fire so passing ships could find us.",
+    "d": "A large fire lit to send a message or to be seen by rescuers."
+   },
+   {
+    "s": 1,
+    "e": "teamwork",
+    "v": "tinh thần đồng đội",
+    "x": "Good teamwork is the key to surviving on a desert island.",
+    "d": "Working well together as a group to reach a common goal."
+   },
+   {
+    "s": 1,
+    "e": "priority",
+    "v": "ưu tiên hàng đầu",
+    "x": "Fresh water and shelter are our top priorities.",
+    "ip": "/pɹaɪˈɒɹɨti/",
+    "d": "The thing that is most important and must be dealt with first."
+   }
+  ],
+  "qa": [
+   {
+    "q": "What would you do if you had unlimited money?",
+    "a": "If I had unlimited money, I would travel the world with my family and help people in need. But I'd still keep working, because a job gives my life meaning."
+   },
+   {
+    "q": "If you could travel anywhere in the world, where would you go?",
+    "a": "If I could travel anywhere, I would go to Japan. I'd love to see the cherry blossoms, try the food, and experience the culture."
+   },
+   {
+    "q": "If you could live anywhere in the world, where would you live?",
+    "a": "If I could live anywhere, I would live in a quiet coastal town. It would be peaceful, and I could enjoy the sea every day."
+   },
+   {
+    "q": "If you could have dinner with anyone in the world, who would it be?",
+    "a": "If I could have dinner with anyone, it would be my grandmother. I would ask her about her life and thank her for everything."
+   },
+   {
+    "q": "If you could only eat one food for the rest of your life, what would you choose?",
+    "a": "If I could only eat one food forever, I would choose pho. It's warm, delicious, and I could honestly eat it every single day."
+   },
+   {
+    "q": "What would you do if you had no money for groceries because you left your wallet at home?",
+    "a": "If I had no money because I left my wallet at home, I would apologise, leave the items, and come back later. Or I might call a friend to help me out."
+   },
+   {
+    "q": "If you could have any superpower, which superpower would you choose?",
+    "a": "If I could have any superpower, I would choose to be able to fly. It would be an amazing way to travel and see the world from above."
+   },
+   {
+    "q": "If you were an animal, what kind of animal would you be?",
+    "a": "If I were an animal, I would be a dolphin. They are smart, friendly, and they always look free and happy in the ocean."
+   },
+   {
+    "q": "What would you do if you were stranded on a desert island?",
+    "a": "If I were stranded on a desert island, I would first look for fresh water and build a shelter. Then I would make a signal fire so that a passing ship could rescue us."
+   },
+   {
+    "q": "If you found a magic lamp, what three wishes would you make?",
+    "a": "If I found a magic lamp, I would wish for good health for my family, the ability to speak every language, and a lifetime of happy adventures."
+   },
+   {
+    "q": "If you could swap lives with one person for a day, who would it be?",
+    "a": "If I could swap lives with someone for a day, it would be a famous chef. I'd love to know what it feels like to cook in a busy restaurant."
+   },
+   {
+    "q": "If you had to choose only five things to bring to a desert island, what would they be?",
+    "a": "If I had to choose five things, I would bring a knife, matches, a fishing pole, a first aid kit, and a strong rope. With those, my team could survive."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Okay team, imagine we were stranded on a desert island for three months. We can only bring five things. What would you choose?",
+    "v": "Được rồi cả đội, tưởng tượng tụi mình bị kẹt trên đảo hoang ba tháng. Chỉ được mang năm món. Bạn sẽ chọn gì?"
+   },
+   {
+    "p": "B",
+    "e": "Well, water is already on the island, so I think our first priority should be fire. I would definitely bring matches.",
+    "v": "À, trên đảo đã có nước rồi, nên mình nghĩ ưu tiên đầu tiên nên là lửa. Chắc chắn mình sẽ mang diêm."
+   },
+   {
+    "p": "A",
+    "e": "That's a great point. If we had fire, we could cook fish and boil water. I'd bring a fishing pole so we don't go hungry.",
+    "v": "Ý hay đó. Nếu có lửa, tụi mình có thể nướng cá và đun nước. Mình sẽ mang một cần câu để khỏi bị đói."
+   },
+   {
+    "p": "B",
+    "e": "Good idea. We should also bring a knife — we could cut rope, open coconuts, and build a shelter with it.",
+    "v": "Ý hay. Mình cũng nên mang một con dao — có thể cắt dây, bổ dừa và dựng chỗ trú với nó."
+   },
+   {
+    "p": "A",
+    "e": "Agreed. And what if someone gets hurt? I really think a first aid kit is a must-have.",
+    "v": "Đồng ý. Với lại nếu có ai bị thương thì sao? Mình thấy bộ sơ cứu là thứ bắt buộc phải có."
+   },
+   {
+    "p": "B",
+    "e": "You're right. So that's matches, a fishing pole, a knife, and a first aid kit. What should our fifth thing be?",
+    "v": "Đúng vậy. Vậy là diêm, cần câu, dao và bộ sơ cứu. Món thứ năm nên là gì?"
+   },
+   {
+    "p": "A",
+    "e": "I'd choose a strong rope. We could tie our shelter together and even make traps with it.",
+    "v": "Mình chọn một sợi dây thừng chắc. Tụi mình có thể buộc chỗ trú lại với nhau và thậm chí làm bẫy."
+   },
+   {
+    "p": "B",
+    "e": "Perfect. If we stayed calm and worked as a team, I'm sure we would survive and get rescued.",
+    "v": "Tuyệt. Nếu giữ bình tĩnh và làm việc như một đội, mình chắc tụi mình sẽ sống sót và được giải cứu."
+   }
+  ],
+  "tips": [
+   "Câu điều kiện loại 2: If + were/could/had…, S + WOULD + V (nguyên mẫu). VD: If I WERE you, I WOULD leave. Dùng 'were' cho mọi ngôi (I/he/she) trong văn nói trang trọng.",
+   "Trả lời câu 'If…' theo 3 bước: (1) Lặp lại mệnh đề if → (2) would + hành động → (3) thêm lý do 'because…'. VD: If I were rich, I would travel a lot, because I love exploring.",
+   "Nêu ưu tiên khi thảo luận nhóm: Our top priority is… / The most important thing is… / We should bring… because we could…",
+   "Đồng ý/không đồng ý lịch sự: That's a great point. / Good idea. / I see what you mean, but… / What if…?"
+  ],
+  "shadow": {
+   "en": "Hi, my name is Dung, and today I want to imagine a challenge together with my team. Suppose we were stranded on a desert island, and it would take at least three months to be rescued. On the island, we would find fresh water, fish, coconut trees, and a few unfriendly monkeys. Our team could choose only five more things to bring, so we would have to choose very carefully. If it were up to me, I would bring a knife, some matches, a fishing pole, a first aid kit, and a strong rope. With those, we could catch fish, start a fire, build a shelter, and stay safe. I truly believe that if we stayed calm and worked together as a team, we would survive and make it home.",
+   "vi": "Chào, tên mình là Dung, và hôm nay mình muốn tưởng tượng một thử thách cùng cả đội. Giả sử tụi mình bị kẹt trên một hòn đảo hoang, và phải mất ít nhất ba tháng mới được giải cứu. Trên đảo, tụi mình sẽ tìm thấy nước ngọt, cá, cây dừa và vài con khỉ không thân thiện. Cả đội chỉ được chọn thêm năm món để mang theo, nên phải chọn thật cẩn thận. Nếu được quyết, mình sẽ mang một con dao, ít diêm, một cần câu, một bộ sơ cứu và một sợi dây thừng chắc. Với những thứ đó, tụi mình có thể bắt cá, nhóm lửa, dựng chỗ trú và giữ an toàn. Mình thật sự tin rằng nếu giữ bình tĩnh và làm việc cùng nhau như một đội, tụi mình sẽ sống sót và trở về nhà."
+  }
  }
 ];
