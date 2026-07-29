@@ -352,5 +352,6 @@ module.exports = {
   "go": { d: "To move or travel from one place to another." },
   "come": { d: "To move toward the speaker or toward a particular place." },
   "put": { d: "To move something into a particular place or position." },
-  "keep": { d: "To continue doing something, or to hold on to something and not let it go." }
+  "keep": { d: "To continue doing something, or to hold on to something and not let it go." },
+  "look": { d: "To turn your eyes toward something to see it, or to seem/appear a certain way." }
 };

@@ -6394,7 +6394,7 @@ window.ONTAP = [
  {
   "icon": "⚡",
   "name": "Essential Verbs / Động từ thiết yếu — luyện phản xạ nói",
-  "intro": "10 động từ này chiếm phần lớn giao tiếp hằng ngày. Bí quyết phản xạ: học theo CỤM (collocation) và ĐỌC TO cả câu, 5–10 phút mỗi ngày. Đừng dịch từng từ — hãy để cả cụm bật ra tự động khi nói.",
+  "intro": "11 động từ này chiếm phần lớn giao tiếp hằng ngày. Bí quyết phản xạ: học theo CỤM (collocation) và ĐỌC TO cả câu, 5–10 phút mỗi ngày. Đừng dịch từng từ — hãy để cả cụm bật ra tự động khi nói.",
   "vocab": [
    {
     "s": 1,
@@ -6474,6 +6474,13 @@ window.ONTAP = [
     "x": "Keep learning a little every day.",
     "ip": "/kiːp/",
     "d": "To continue doing something, or to hold on to something and not let it go."
+   },
+   {
+    "s": 1,
+    "e": "look",
+    "v": "nhìn, xem / trông có vẻ",
+    "x": "Look at this photo. You look tired today.",
+    "d": "To turn your eyes toward something to see it, or to seem/appear a certain way."
    }
   ],
   "extra": [
@@ -6578,27 +6585,97 @@ window.ONTAP = [
     ]
    },
    {
-    "title": "🔁 Phrasal verbs thông dụng (mở rộng)",
+    "title": "🔁 Phrasal verbs — LOOK & GET",
     "rows": [
      {
+      "e": "look for",
+      "v": "tìm kiếm",
+      "a": "I'm looking for my keys."
+     },
+     {
+      "e": "look into",
+      "v": "xem xét, điều tra",
+      "a": "I'll look into the problem and let you know."
+     },
+     {
+      "e": "look after",
+      "v": "chăm sóc, trông nom",
+      "a": "She looks after her little brother."
+     },
+     {
+      "e": "look forward to",
+      "v": "mong chờ (+ V-ing / N)",
+      "a": "I look forward to the weekend."
+     },
+     {
+      "e": "look up",
+      "v": "tra cứu (từ, thông tin)",
+      "a": "I look up new words in a dictionary."
+     },
+     {
+      "e": "look out",
+      "v": "coi chừng, cẩn thận",
+      "a": "Look out! A car is coming."
+     },
+     {
       "e": "get up",
-      "v": "thức dậy",
+      "v": "thức dậy, đứng dậy",
       "a": "I get up at six every morning."
+     },
+     {
+      "e": "get down",
+      "v": "cúi/ngồi xuống; get sb down = làm chán nản",
+      "a": "Get down, it's dangerous! The bad news got me down."
      },
      {
       "e": "get on / get off",
       "v": "lên / xuống (xe, tàu)",
-      "a": "I get on the bus near my house and get off downtown."
+      "a": "I get on the bus near home and get off downtown."
      },
      {
-      "e": "wake up",
-      "v": "tỉnh giấc",
-      "a": "I woke up late this morning."
+      "e": "get over",
+      "v": "vượt qua (bệnh, cú sốc)",
+      "a": "It took me a week to get over the flu."
+     },
+     {
+      "e": "get along (with)",
+      "v": "hòa hợp với ai",
+      "a": "I get along well with my colleagues."
+     },
+     {
+      "e": "get back",
+      "v": "quay lại / phản hồi lại",
+      "a": "I'll get back to you soon."
+     }
+    ]
+   },
+   {
+    "title": "🔁 Phrasal verbs — TAKE, PUT, COME & GIVE",
+    "rows": [
+     {
+      "e": "take over",
+      "v": "tiếp quản, đảm nhận",
+      "a": "She took over the project last month."
      },
      {
       "e": "take off",
       "v": "cởi ra / (máy bay) cất cánh",
-      "a": "Please take off your shoes at the door."
+      "a": "Please take off your shoes. The plane took off on time."
+     },
+     {
+      "e": "take out",
+      "v": "lấy ra / mang đi (đồ ăn), rút tiền",
+      "a": "Let's take out some cash and order takeout."
+     },
+     {
+      "e": "take up",
+      "v": "bắt đầu (sở thích) / chiếm (thời gian, chỗ)",
+      "a": "I took up running last year."
+     },
+     {
+      "e": "put on",
+      "v": "mặc vào / bật lên",
+      "a": "Put on your jacket, it's cold."
      },
      {
       "e": "put off",
@@ -6606,34 +6683,74 @@ window.ONTAP = [
       "a": "Don't put off today's work until tomorrow."
      },
      {
+      "e": "put away",
+      "v": "cất đi, dọn vào chỗ",
+      "a": "Please put away your books."
+     },
+     {
+      "e": "put up with",
+      "v": "chịu đựng",
+      "a": "I can't put up with the noise anymore."
+     },
+     {
+      "e": "come back",
+      "v": "quay lại",
+      "a": "I'll come back in five minutes."
+     },
+     {
       "e": "come up with",
       "v": "nghĩ ra (ý tưởng)",
       "a": "She came up with a great idea."
      },
      {
+      "e": "come across",
+      "v": "tình cờ gặp/thấy",
+      "a": "I came across an old photo yesterday."
+     },
+     {
       "e": "give up",
-      "v": "bỏ cuộc",
+      "v": "bỏ cuộc, từ bỏ",
       "a": "Never give up on your dreams."
      },
      {
+      "e": "give back",
+      "v": "trả lại",
+      "a": "Please give back my book when you're done."
+     }
+    ]
+   },
+   {
+    "title": "🔁 Phrasal verbs thông dụng khác",
+    "rows": [
+     {
       "e": "find out",
       "v": "tìm ra, phát hiện",
-      "a": "I'll find out and let you know."
-     },
-     {
-      "e": "look up",
-      "v": "tra cứu",
-      "a": "I look up new words in a dictionary."
+      "a": "I'll find out and tell you."
      },
      {
       "e": "turn on / turn off",
-      "v": "bật / tắt",
+      "v": "bật / tắt (đèn, máy)",
       "a": "Turn on the light and turn off the fan, please."
      },
      {
       "e": "work out",
       "v": "tập thể dục / giải quyết ổn thỏa",
       "a": "Don't worry, everything will work out."
+     },
+     {
+      "e": "wake up",
+      "v": "tỉnh giấc",
+      "a": "I woke up late this morning."
+     },
+     {
+      "e": "run out of",
+      "v": "hết, cạn (đồ)",
+      "a": "We ran out of water on the trip."
+     },
+     {
+      "e": "carry on",
+      "v": "tiếp tục",
+      "a": "Carry on with your work, I'll wait."
      }
     ]
    },
