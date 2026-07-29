@@ -7447,5 +7447,337 @@ window.ONTAP = [
    "'read' viết giống nhau cả 3 cột nhưng ĐỌC khác: hiện tại /riːd/, quá khứ & V3 đều /rɛd/.",
    "Tự kiểm tra cuối tuần: trộn động từ của cả 3 ngày, che cột đáp án và tự chia lại."
   ]
+ },
+ {
+  "icon": "🎭",
+  "name": "Mood & Feelings / Cảm xúc & tâm trạng",
+  "intro": "Mood = trạng thái cảm xúc TẠM THỜI. Hỏi tâm trạng: 'How are you feeling?' / 'How are you doing today?'. Trả lời: 'I'm feeling ___.' hoặc 'I'm in a good/bad mood.' Học tính từ cảm xúc theo cặp: bình thường → mạnh hơn.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "happy",
+    "v": "vui, hạnh phúc",
+    "x": "I feel happy when I spend time with my friends.",
+    "ip": "/ˈhæpiː/",
+    "d": "Content, satisfied (with or to do something); having no objection (to something)."
+   },
+   {
+    "s": 1,
+    "e": "sad",
+    "v": "buồn",
+    "x": "She felt sad after the movie ended.",
+    "ip": "/sæd/",
+    "d": "Unfashionable; socially inadequate or undesirable."
+   },
+   {
+    "s": 1,
+    "e": "angry",
+    "v": "tức giận",
+    "x": "He got angry when he missed the bus.",
+    "ip": "/ˈæŋ.ɡɹi/",
+    "d": "Displaying or feeling anger."
+   },
+   {
+    "s": 1,
+    "e": "scared",
+    "v": "sợ hãi",
+    "x": "I'm a little scared of spiders.",
+    "ip": "/skɛəd/",
+    "d": "To frighten, terrify, startle, especially in a minor way."
+   },
+   {
+    "s": 1,
+    "e": "tired",
+    "v": "mệt",
+    "x": "I'm so tired after a long day at work.",
+    "ip": "/taɪəd/",
+    "d": "Fed up, annoyed, irritated, sick of."
+   },
+   {
+    "s": 1,
+    "e": "surprised",
+    "v": "ngạc nhiên",
+    "x": "I was surprised by the good news.",
+    "ip": "/səˈpɹaɪzd/",
+    "d": "To cause (someone) to feel unusually alarmed or delighted by something unexpected."
+   },
+   {
+    "s": 1,
+    "e": "excited",
+    "v": "háo hức, phấn khích",
+    "x": "I'm really excited about my trip next week.",
+    "ip": "/ɪkˈsaɪtɪd/",
+    "d": "Having great enthusiasm."
+   },
+   {
+    "e": "annoyed",
+    "v": "khó chịu, bực mình",
+    "x": "I get annoyed when people are late.",
+    "ip": "/əˈnɔɪd/",
+    "d": "To disturb or irritate, especially by continued or repeated acts; to bother with unpleasant deeds."
+   },
+   {
+    "e": "anxious",
+    "v": "lo lắng, bồn chồn",
+    "x": "I feel anxious before a big presentation.",
+    "ip": "/ˈaŋ(k)ʃəs/",
+    "d": "Having a feeling of anxiety or disquietude; extremely concerned, especially about something that will happen in the future or that is unknown."
+   },
+   {
+    "e": "jealous",
+    "v": "ghen tị, ghen tuông",
+    "x": "He gets jealous when she talks to other men.",
+    "ip": "/ˈdʒɛləs/",
+    "d": "Feeling upset that someone you love may like another person, or wanting what others have."
+   },
+   {
+    "e": "embarrassed",
+    "v": "ngượng, xấu hổ",
+    "x": "I was embarrassed when I forgot her name.",
+    "ip": "/ɪmˈbæɹ.əst/",
+    "d": "Having a feeling of shameful discomfort."
+   },
+   {
+    "e": "energetic",
+    "v": "tràn đầy năng lượng",
+    "x": "I feel energetic after a good night's sleep.",
+    "ip": "/ˌɛnəˈdʒɛtɪk/",
+    "d": "Possessing or pertaining to energy."
+   },
+   {
+    "e": "nervous",
+    "v": "hồi hộp, căng thẳng",
+    "x": "She was nervous before the interview.",
+    "ip": "/ˈnɜːvəs/",
+    "d": "Of sinews and tendons."
+   },
+   {
+    "e": "bored",
+    "v": "chán",
+    "x": "I get bored when there's nothing to do.",
+    "ip": "/bɔːd/",
+    "d": "Uninterested, without attention"
+   },
+   {
+    "s": 1,
+    "e": "stressed",
+    "v": "căng thẳng, áp lực",
+    "x": "I feel stressed when I have too much work.",
+    "ip": "/stɹɛst/",
+    "d": "To emphasise (a syllable of a word)."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🌡️ Cảm xúc: bình thường → MẠNH HƠN (extreme adjectives)",
+    "rows": [
+     {
+      "e": "good → great / fantastic",
+      "v": "tốt → tuyệt vời",
+      "a": "The food wasn't just good, it was fantastic!"
+     },
+     {
+      "e": "bad → terrible / awful",
+      "v": "tệ → kinh khủng",
+      "a": "The traffic today was terrible."
+     },
+     {
+      "e": "happy → thrilled / ecstatic",
+      "v": "vui → vui sướng tột độ",
+      "a": "I was thrilled to get the job."
+     },
+     {
+      "e": "sad → miserable / heartbroken",
+      "v": "buồn → đau khổ, tan nát",
+      "a": "She was heartbroken after the breakup."
+     },
+     {
+      "e": "angry → furious",
+      "v": "giận → giận dữ, phẫn nộ",
+      "a": "My boss was furious about the mistake."
+     },
+     {
+      "e": "scared → terrified / horrified",
+      "v": "sợ → khiếp sợ",
+      "a": "I was terrified during the storm."
+     },
+     {
+      "e": "tired → exhausted",
+      "v": "mệt → kiệt sức",
+      "a": "After the trip, I was completely exhausted."
+     },
+     {
+      "e": "surprised → shocked / astonished",
+      "v": "ngạc nhiên → sững sờ",
+      "a": "I was shocked when I heard the news."
+     },
+     {
+      "e": "annoyed → irritated",
+      "v": "bực → cáu tiết",
+      "a": "The loud noise really irritated me."
+     },
+     {
+      "e": "cold → freezing · hot → boiling · hungry → starving",
+      "v": "cặp mạnh hay dùng khác",
+      "a": "I'm not just hungry, I'm starving!"
+     }
+    ]
+   },
+   {
+    "title": "💬 Hỏi & trả lời về tâm trạng",
+    "rows": [
+     {
+      "e": "How are you feeling? / How are you doing today?",
+      "v": "Bạn thấy trong người / hôm nay thế nào?",
+      "a": "Hey, how are you doing today?"
+     },
+     {
+      "e": "I'm feeling great / a bit tired / stressed.",
+      "v": "Mình thấy…",
+      "a": "I'm feeling a bit tired today."
+     },
+     {
+      "e": "I'm in a good mood. / I'm in a bad mood.",
+      "v": "Mình đang vui / đang bực",
+      "a": "Sorry, I'm in a bad mood today."
+     },
+     {
+      "e": "I'm not in the mood (for…).",
+      "v": "Mình không có hứng (làm gì)",
+      "a": "I'm not in the mood for a party tonight."
+     },
+     {
+      "e": "I'm over the moon! (idiom)",
+      "v": "vui như mở cờ trong bụng",
+      "a": "I passed the exam — I'm over the moon!"
+     },
+     {
+      "e": "I'm down in the dumps. (idiom)",
+      "v": "đang buồn chán, ỉu xìu",
+      "a": "He's been down in the dumps all week."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "How do you feel when you are stuck in a traffic jam?",
+    "a": "When I'm stuck in a traffic jam, I feel annoyed and impatient, especially when I'm late for work."
+   },
+   {
+    "q": "How do you feel when you can't sleep?",
+    "a": "When I can't sleep, I feel frustrated, and I'm tired the next day."
+   },
+   {
+    "q": "How do you feel when your neighbours sing karaoke late at night?",
+    "a": "When my neighbours sing karaoke late at night, I feel really irritated because I can't rest."
+   },
+   {
+    "q": "How do you feel when the WiFi doesn't work?",
+    "a": "When the WiFi doesn't work, I feel annoyed and a bit helpless these days!"
+   },
+   {
+    "q": "How do you feel when someone doesn't reply to your text message?",
+    "a": "When someone doesn't reply to my message, I feel a little anxious and start to worry."
+   },
+   {
+    "q": "How do you feel when you listen to a romantic song?",
+    "a": "When I listen to a romantic song, I feel calm, warm, and sometimes a bit nostalgic."
+   },
+   {
+    "q": "How do you feel when there is a thunderstorm?",
+    "a": "When there's a thunderstorm, I feel a little scared, but also cosy if I'm safe at home."
+   },
+   {
+    "q": "How do you feel when you come to your English class?",
+    "a": "When I come to my English class, I feel excited and motivated to learn something new."
+   },
+   {
+    "q": "How would you feel if you found a wallet with 20 million VND?",
+    "a": "If I found a wallet with 20 million VND, I would feel excited at first, but then I would return it to the owner."
+   },
+   {
+    "q": "How would you feel if your best friend told you they were in love with you?",
+    "a": "If my best friend told me they were in love with me, I would feel surprised and a little confused."
+   },
+   {
+    "q": "How would you feel if you woke up tomorrow as the opposite sex?",
+    "a": "If I woke up as the opposite sex, I would feel shocked, but I'd try to enjoy the experience for one day."
+   },
+   {
+    "q": "How would you feel if your doctor told you that you had one month to live?",
+    "a": "If a doctor told me I had one month to live, I would feel devastated, but I would set aside time for my family."
+   },
+   {
+    "q": "How would you feel if your parents didn't like the person you loved?",
+    "a": "If my parents didn't like the person I loved, I would feel torn and sad, and I would try to help them understand each other."
+   },
+   {
+    "q": "How would you feel if you became fluent in English?",
+    "a": "If I became fluent in English, I would feel absolutely thrilled and much more confident at work."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Hey, how are you doing today?",
+    "v": "Này, hôm nay bạn thế nào?"
+   },
+   {
+    "p": "B",
+    "e": "Honestly, I'm in a bad mood. I'm exhausted.",
+    "v": "Thật lòng thì mình đang bực và kiệt sức."
+   },
+   {
+    "p": "A",
+    "e": "Oh no, what happened?",
+    "v": "Ôi không, có chuyện gì vậy?"
+   },
+   {
+    "p": "B",
+    "e": "Well, I got stuck in a traffic jam for an hour, and then the WiFi didn't work at the office. I was so annoyed.",
+    "v": "À, mình kẹt xe cả tiếng, rồi WiFi ở công ty lại hỏng. Mình khó chịu kinh khủng."
+   },
+   {
+    "p": "A",
+    "e": "That sounds terrible. I'd be furious too.",
+    "v": "Nghe kinh thật. Mình mà vậy chắc cũng phát điên."
+   },
+   {
+    "p": "B",
+    "e": "Yeah. Anyway, how about you? You look happy.",
+    "v": "Ừ. Mà thôi, còn bạn thì sao? Trông bạn vui ghê."
+   },
+   {
+    "p": "A",
+    "e": "I am! Actually, I'm over the moon — I just passed my English test.",
+    "v": "Đúng vậy! Thật ra mình vui như mở cờ — mình vừa đậu bài kiểm tra tiếng Anh."
+   },
+   {
+    "p": "B",
+    "e": "Wow, congratulations! That's fantastic. You must be thrilled.",
+    "v": "Ồ, chúc mừng nhé! Tuyệt quá. Chắc bạn sướng lắm."
+   },
+   {
+    "p": "A",
+    "e": "I really am. Come on, let me buy you a coffee — it might cheer you up.",
+    "v": "Đúng thật. Thôi nào, để mình mời cà phê — biết đâu bạn vui hơn."
+   },
+   {
+    "p": "B",
+    "e": "Aw, thanks. That actually makes me feel a lot better already.",
+    "v": "Ồ, cảm ơn nha. Tự nhiên mình thấy đỡ hơn nhiều rồi đó."
+   }
+  ],
+  "tips": [
+   "Hỏi tâm trạng: How are you feeling? / How are you doing today? — Trả lời: I'm feeling…, I'm in a good/bad mood, I'm not in the mood for…",
+   "Extreme adjectives (exhausted, furious, terrified, thrilled, starving…) KHÔNG đi với 'very'. Dùng 'absolutely / really': ✅ absolutely exhausted · ❌ very exhausted.",
+   "'How do you feel WHEN…' → trả lời ở HIỆN TẠI ĐƠN (I feel…). 'How would you feel IF…' → CÂU ĐIỀU KIỆN loại 2 (I would feel…).",
+   "Idiom cảm xúc: over the moon (vui sướng) · on top of the world (phấn khích tột độ) · down in the dumps (buồn chán)."
+  ],
+  "shadow": {
+   "en": "My mood can change a lot during a single day. In the morning, I usually wake up feeling calm and energetic, ready to start the day. But if I get stuck in a traffic jam, I quickly feel annoyed and impatient. At the office, a good chat with my teammates can put me in a great mood, while a difficult problem can make me feel stressed or even exhausted. When something goes wrong, I try not to get furious; instead, I take a deep breath and stay calm. In the evening, spending time with my family always makes me feel relaxed and happy. I've learned that moods are temporary — they come and go like the weather. The important thing is to notice how I feel, and to be kind to myself and to the people around me.",
+   "vi": "Tâm trạng của mình có thể thay đổi rất nhiều trong một ngày. Buổi sáng, mình thường thức dậy với cảm giác bình tĩnh và tràn đầy năng lượng, sẵn sàng bắt đầu ngày mới. Nhưng nếu bị kẹt xe, mình nhanh chóng thấy khó chịu và mất kiên nhẫn. Ở công ty, một cuộc trò chuyện vui với đồng nghiệp có thể khiến mình vui hẳn, còn một vấn đề khó lại làm mình căng thẳng, thậm chí kiệt sức. Khi có chuyện không hay, mình cố không nổi giận; thay vào đó, mình hít một hơi sâu và giữ bình tĩnh. Buổi tối, dành thời gian cho gia đình luôn khiến mình thấy thư giãn và hạnh phúc. Mình nhận ra tâm trạng chỉ là tạm thời — chúng đến rồi đi như thời tiết. Điều quan trọng là nhận biết cảm xúc của mình, và tử tế với bản thân cũng như với những người xung quanh."
+  }
  }
 ];
