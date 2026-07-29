@@ -340,5 +340,17 @@ module.exports = {
   "hunting rifle": { d: "A long gun used to hunt animals or for protection.", x: "Some people would bring a hunting rifle for protection." },
   "signal fire": { d: "A large fire lit to send a message or to be seen by rescuers.", x: "We lit a signal fire so passing ships could find us." },
   "teamwork": { d: "Working well together as a group to reach a common goal.", x: "Good teamwork is the key to surviving on a desert island." },
-  "priority": { d: "The thing that is most important and must be dealt with first.", x: "Fresh water and shelter are our top priorities." }
+  "priority": { d: "The thing that is most important and must be dealt with first.", x: "Fresh water and shelter are our top priorities." },
+
+  // ---- Essential Verbs (light verbs) ----
+  "get": { d: "A very common verb meaning to receive, obtain, become, or arrive somewhere." },
+  "give": { d: "To hand something to someone, or to provide something such as advice or feedback." },
+  "make": { d: "To create or produce something, or to cause a result (a plan, a decision, a mistake)." },
+  "take": { d: "To move or carry something, or to perform an action such as a break, notes, or a photo." },
+  "have": { d: "To own or possess something, or to experience it (a meal, a meeting, a good time)." },
+  "do": { d: "To perform an action, task, or job (homework, research, the dishes, your best)." },
+  "go": { d: "To move or travel from one place to another." },
+  "come": { d: "To move toward the speaker or toward a particular place." },
+  "put": { d: "To move something into a particular place or position." },
+  "keep": { d: "To continue doing something, or to hold on to something and not let it go." }
 };

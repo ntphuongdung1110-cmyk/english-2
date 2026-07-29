@@ -6390,5 +6390,443 @@ window.ONTAP = [
    "en": "Hi, my name is Dung, and today I want to imagine a challenge together with my team. Suppose we were stranded on a desert island, and it would take at least three months to be rescued. On the island, we would already find fresh water, fish, coconut trees, and a few unfriendly monkeys. Our team could choose only five more things to bring, so we would have to think about our priorities and choose very carefully. If it were up to me, my first choice would be a knife, because it is the most useful tool of all — we could cut rope, open coconuts, prepare fish, and even build a shelter with it. My second choice would be matches, since fire would keep us warm, cook our food, boil water so it is safe, and scare the monkeys away at night. Next, I would bring a fishing pole, because there is fish around the island, and if we could catch it every day, we would never go hungry. I would also bring a first aid kit, because if someone got hurt or sick during those three months, the right medicine could save their life. For my fifth item, I would choose a strong rope, which we could use to tie our shelter together, hang our food away from animals, and even make simple traps. Of course, other things would be useful too. If we had more space, I would also take a tent for shelter when it rains, a flashlight to see at night, and a net to catch more fish at once. Some people might even bring a hunting rifle for protection, but I think teamwork and a cool head would keep us safer than any weapon. In the end, I truly believe that if we stayed calm, shared the work, and helped each other, we would survive and make it home.",
    "vi": "Chào, tên mình là Dung, và hôm nay mình muốn tưởng tượng một thử thách cùng cả đội. Giả sử tụi mình bị kẹt trên một hòn đảo hoang, và phải mất ít nhất ba tháng mới được giải cứu. Trên đảo, tụi mình đã có sẵn nước ngọt, cá, cây dừa và vài con khỉ không thân thiện. Cả đội chỉ được chọn thêm năm món, nên phải cân nhắc thứ tự ưu tiên và chọn thật cẩn thận. Nếu được quyết, lựa chọn đầu tiên của mình sẽ là một con dao, vì đó là dụng cụ đa năng nhất — có thể cắt dây, bổ dừa, sơ chế cá, và thậm chí dựng chỗ trú. Lựa chọn thứ hai là diêm, vì lửa sẽ giúp giữ ấm, nướng chín thức ăn, đun nước cho sạch, và xua lũ khỉ vào ban đêm. Tiếp theo, mình mang một cần câu, vì quanh đảo có cá, nếu ngày nào cũng câu được thì sẽ không bao giờ bị đói. Mình cũng mang một bộ sơ cứu, vì nếu có ai bị thương hay bệnh trong suốt ba tháng đó, thuốc men đúng lúc có thể cứu mạng họ. Món thứ năm, mình chọn một sợi dây thừng chắc, dùng để buộc chỗ trú, treo thức ăn tránh thú vật, và thậm chí làm bẫy đơn giản. Dĩ nhiên, còn nhiều thứ khác cũng hữu ích. Nếu được mang thêm, mình sẽ lấy một cái lều để trú khi mưa, một cái đèn pin để nhìn ban đêm, và một tấm lưới để bắt được nhiều cá cùng lúc. Có người thậm chí mang cả súng săn để phòng thân, nhưng mình nghĩ tinh thần đồng đội và cái đầu bình tĩnh sẽ giúp tụi mình an toàn hơn bất kỳ vũ khí nào. Cuối cùng, mình thật sự tin rằng nếu giữ bình tĩnh, chia sẻ công việc và giúp đỡ nhau, tụi mình sẽ sống sót và trở về nhà."
   }
+ },
+ {
+  "icon": "⚡",
+  "name": "Essential Verbs / Động từ thiết yếu — luyện phản xạ nói",
+  "intro": "10 động từ này chiếm phần lớn giao tiếp hằng ngày. Bí quyết phản xạ: học theo CỤM (collocation) và ĐỌC TO cả câu, 5–10 phút mỗi ngày. Đừng dịch từng từ — hãy để cả cụm bật ra tự động khi nói.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "get",
+    "v": "nhận / trở nên / đến (nghĩa rất rộng)",
+    "x": "I usually get home at six and get ready for dinner.",
+    "ip": "/ɡɛt/",
+    "d": "A very common verb meaning to receive, obtain, become, or arrive somewhere."
+   },
+   {
+    "s": 1,
+    "e": "give",
+    "v": "đưa, cho, cung cấp",
+    "x": "Can you give me some feedback on my report?",
+    "ip": "/ɡɪv/",
+    "d": "To hand something to someone, or to provide something such as advice or feedback."
+   },
+   {
+    "s": 1,
+    "e": "make",
+    "v": "tạo ra, làm ra (một kết quả)",
+    "x": "Let's make a plan for the weekend.",
+    "ip": "/meɪk/",
+    "d": "To create or produce something, or to cause a result (a plan, a decision, a mistake)."
+   },
+   {
+    "s": 1,
+    "e": "take",
+    "v": "lấy, cầm, thực hiện (một hành động)",
+    "x": "I need to take a short break.",
+    "ip": "/teɪk/",
+    "d": "To move or carry something, or to perform an action such as a break, notes, or a photo."
+   },
+   {
+    "s": 1,
+    "e": "have",
+    "v": "có / trải qua (bữa ăn, buổi họp…)",
+    "x": "We have a meeting at ten o'clock.",
+    "d": "To own or possess something, or to experience it (a meal, a meeting, a good time)."
+   },
+   {
+    "s": 1,
+    "e": "do",
+    "v": "làm (một việc, nhiệm vụ, công việc)",
+    "x": "I do my homework every evening.",
+    "ip": "/dʉː/",
+    "d": "To perform an action, task, or job (homework, research, the dishes, your best)."
+   },
+   {
+    "s": 1,
+    "e": "go",
+    "v": "đi (từ nơi này sang nơi khác)",
+    "x": "I go to work by motorbike.",
+    "ip": "/ɡəʉ/",
+    "d": "To move or travel from one place to another."
+   },
+   {
+    "s": 1,
+    "e": "come",
+    "v": "đến (về phía người nói)",
+    "x": "Please come back later.",
+    "ip": "/kʌm/",
+    "d": "To move toward the speaker or toward a particular place."
+   },
+   {
+    "s": 1,
+    "e": "put",
+    "v": "đặt, để (vào một vị trí)",
+    "x": "Put your bag on the table, please.",
+    "ip": "/pʊt/",
+    "d": "To move something into a particular place or position."
+   },
+   {
+    "s": 1,
+    "e": "keep",
+    "v": "giữ / tiếp tục làm",
+    "x": "Keep learning a little every day.",
+    "ip": "/kiːp/",
+    "d": "To continue doing something, or to hold on to something and not let it go."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🔑 MAKE hay DO? (dễ nhầm nhất)",
+    "rows": [
+     {
+      "e": "MAKE = tạo ra một KẾT QUẢ (create / produce)",
+      "v": "make a plan · make a decision · make a mistake · make progress · make money · make a mess · make sense",
+      "a": "Don't worry — everyone makes mistakes sometimes."
+     },
+     {
+      "e": "DO = thực hiện một VIỆC / hành động (task / job)",
+      "v": "do homework · do research · do exercise · do the dishes · do your best · do a favour",
+      "a": "I always try to do my best at work."
+     }
+    ]
+   },
+   {
+    "title": "🧩 Collocations hay dùng (nhìn cụm → NÓI TO cả câu)",
+    "rows": [
+     {
+      "e": "make a decision",
+      "v": "ra quyết định",
+      "a": "I need to make a decision by tomorrow."
+     },
+     {
+      "e": "make progress",
+      "v": "tiến bộ",
+      "a": "I'm slowly making progress with my English."
+     },
+     {
+      "e": "take a break",
+      "v": "nghỉ giải lao",
+      "a": "Let's take a short break and get some coffee."
+     },
+     {
+      "e": "take notes",
+      "v": "ghi chú",
+      "a": "I always take notes during meetings."
+     },
+     {
+      "e": "take a photo",
+      "v": "chụp ảnh",
+      "a": "Can you take a photo of us?"
+     },
+     {
+      "e": "have lunch / have a meeting",
+      "v": "ăn trưa / họp",
+      "a": "We usually have lunch at noon and have a meeting after that."
+     },
+     {
+      "e": "have a look",
+      "v": "xem qua",
+      "a": "Let me have a look at your report."
+     },
+     {
+      "e": "give feedback / give advice",
+      "v": "góp ý / cho lời khuyên",
+      "a": "Could you give me some feedback and a bit of advice?"
+     },
+     {
+      "e": "give someone a hand",
+      "v": "giúp một tay",
+      "a": "Can you give me a hand with this?"
+     },
+     {
+      "e": "get ready",
+      "v": "chuẩn bị sẵn sàng",
+      "a": "I need ten minutes to get ready."
+     },
+     {
+      "e": "get in touch",
+      "v": "liên lạc",
+      "a": "Let's get in touch next week."
+     },
+     {
+      "e": "go shopping",
+      "v": "đi mua sắm",
+      "a": "I'm going to go shopping this weekend."
+     },
+     {
+      "e": "come back",
+      "v": "quay lại",
+      "a": "I'll come back in five minutes."
+     },
+     {
+      "e": "put on / put away",
+      "v": "mặc vào, bật lên / cất đi",
+      "a": "Put on your jacket, then put away your books."
+     },
+     {
+      "e": "keep learning / keep trying",
+      "v": "học tiếp / cố gắng tiếp",
+      "a": "Just keep trying and don't give up."
+     },
+     {
+      "e": "do research / do exercise",
+      "v": "nghiên cứu / tập thể dục",
+      "a": "I do research at work and do exercise after work."
+     }
+    ]
+   },
+   {
+    "title": "🔁 Phrasal verbs thông dụng (mở rộng)",
+    "rows": [
+     {
+      "e": "get up",
+      "v": "thức dậy",
+      "a": "I get up at six every morning."
+     },
+     {
+      "e": "get on / get off",
+      "v": "lên / xuống (xe, tàu)",
+      "a": "I get on the bus near my house and get off downtown."
+     },
+     {
+      "e": "wake up",
+      "v": "tỉnh giấc",
+      "a": "I woke up late this morning."
+     },
+     {
+      "e": "take off",
+      "v": "cởi ra / (máy bay) cất cánh",
+      "a": "Please take off your shoes at the door."
+     },
+     {
+      "e": "put off",
+      "v": "trì hoãn",
+      "a": "Don't put off today's work until tomorrow."
+     },
+     {
+      "e": "come up with",
+      "v": "nghĩ ra (ý tưởng)",
+      "a": "She came up with a great idea."
+     },
+     {
+      "e": "give up",
+      "v": "bỏ cuộc",
+      "a": "Never give up on your dreams."
+     },
+     {
+      "e": "find out",
+      "v": "tìm ra, phát hiện",
+      "a": "I'll find out and let you know."
+     },
+     {
+      "e": "look up",
+      "v": "tra cứu",
+      "a": "I look up new words in a dictionary."
+     },
+     {
+      "e": "turn on / turn off",
+      "v": "bật / tắt",
+      "a": "Turn on the light and turn off the fan, please."
+     },
+     {
+      "e": "work out",
+      "v": "tập thể dục / giải quyết ổn thỏa",
+      "a": "Don't worry, everything will work out."
+     }
+    ]
+   },
+   {
+    "title": "💬 Filler words — câu giờ & nói tự nhiên",
+    "pills": [
+     "Well",
+     "So",
+     "Actually",
+     "Basically",
+     "Really?",
+     "Right",
+     "Okay",
+     "Sure",
+     "Of course",
+     "Exactly",
+     "Definitely",
+     "Maybe",
+     "Probably",
+     "I think",
+     "I guess",
+     "You know",
+     "I mean",
+     "Anyway",
+     "By the way",
+     "No worries"
+    ]
+   },
+   {
+    "title": "💬 Cách dùng filler (đừng lạm dụng — 1–2 cái/câu là đủ)",
+    "rows": [
+     {
+      "e": "Well… / So…",
+      "v": "câu giờ khi bắt đầu trả lời",
+      "a": "Well, that's a good question. Let me think for a second."
+     },
+     {
+      "e": "Actually…",
+      "v": "thực ra (đính chính nhẹ / thêm thông tin)",
+      "a": "Actually, I changed my mind."
+     },
+     {
+      "e": "I mean…",
+      "v": "ý mình là… (nói lại cho rõ)",
+      "a": "I'm tired. I mean, I really need a break."
+     },
+     {
+      "e": "You know…",
+      "v": "bạn biết đấy… (tạo kết nối)",
+      "a": "It was, you know, a little stressful."
+     },
+     {
+      "e": "I guess…",
+      "v": "chắc là… (không chắc lắm)",
+      "a": "I guess I can help you with that."
+     },
+     {
+      "e": "By the way…",
+      "v": "à mà, tiện thể…",
+      "a": "By the way, are you free tomorrow?"
+     },
+     {
+      "e": "Anyway…",
+      "v": "dù sao thì… (quay lại ý chính)",
+      "a": "Anyway, let's get back to work."
+     },
+     {
+      "e": "No worries.",
+      "v": "không sao đâu",
+      "a": "No worries, take your time."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "What time do you usually get up?",
+    "a": "I usually get up at six and get ready for work right away."
+   },
+   {
+    "q": "What did you have for lunch today?",
+    "a": "I had a bowl of pho for lunch. It was warm and delicious."
+   },
+   {
+    "q": "What do you do after work?",
+    "a": "After work, I go home, do some exercise, and make dinner."
+   },
+   {
+    "q": "How do you get to work?",
+    "a": "I go to work by motorbike. It takes me about twenty minutes."
+   },
+   {
+    "q": "What are you going to do this weekend?",
+    "a": "I'm going to go shopping and take a break from work."
+   },
+   {
+    "q": "Can you give me some advice on learning English?",
+    "a": "Sure. Just keep practising every day, and don't worry about making mistakes."
+   },
+   {
+    "q": "Do you make a to-do list every day?",
+    "a": "Yes, I do. I make a plan in the morning so I don't forget anything."
+   },
+   {
+    "q": "When was the last time you made a mistake at work?",
+    "a": "Last week I made a small mistake, but I fixed it and learned from it."
+   },
+   {
+    "q": "What time do you usually come back home?",
+    "a": "I usually come back home at around six thirty."
+   },
+   {
+    "q": "Where do you put your keys?",
+    "a": "I always put my keys in the same place, right by the door."
+   },
+   {
+    "q": "How do you keep yourself motivated?",
+    "a": "I keep reminding myself of my goals, and I take small steps every day."
+   },
+   {
+    "q": "Do you take notes in meetings?",
+    "a": "Yes, I always take notes so I can remember the important points."
+   },
+   {
+    "q": "Can you do me a favour?",
+    "a": "Of course. What do you need?"
+   },
+   {
+    "q": "What do you usually do to relax?",
+    "a": "Well, I like to have a coffee and listen to music. It really helps me relax."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Hey, do you have a minute? I need to make a quick decision and I'd love your advice.",
+    "v": "Này, bạn rảnh chút không? Mình cần ra một quyết định nhanh và rất muốn xin lời khuyên."
+   },
+   {
+    "p": "B",
+    "e": "Sure, no worries. What's going on?",
+    "v": "Được chứ, không sao. Có chuyện gì vậy?"
+   },
+   {
+    "p": "A",
+    "e": "Well, I have two meetings tomorrow, but I also have to do some research for the report. I'm not sure how to plan my day.",
+    "v": "À, mai mình có hai cuộc họp, nhưng còn phải nghiên cứu cho báo cáo nữa. Mình không chắc nên sắp xếp ngày sao."
+   },
+   {
+    "p": "B",
+    "e": "Okay, so… why don't you take the morning to do the research, and have the meetings in the afternoon?",
+    "v": "Được, vậy… sao bạn không dành buổi sáng để nghiên cứu, rồi họp vào buổi chiều?"
+   },
+   {
+    "p": "A",
+    "e": "That makes sense. Actually, that's a great idea. I'll make a plan right now.",
+    "v": "Nghe hợp lý đó. Thực ra là ý hay. Mình sẽ lên kế hoạch ngay bây giờ."
+   },
+   {
+    "p": "B",
+    "e": "Good. And don't forget to take a break for lunch — you always keep working and forget to eat!",
+    "v": "Tốt. Và đừng quên nghỉ ăn trưa nhé — bạn cứ làm miết rồi quên ăn hoài!"
+   },
+   {
+    "p": "A",
+    "e": "Ha, you're right. By the way, do you want to go get a coffee later?",
+    "v": "Ha, đúng thật. À mà, lát nữa đi cà phê không?"
+   },
+   {
+    "p": "B",
+    "e": "Definitely. Just come by my desk when you're ready.",
+    "v": "Chắc chắn rồi. Cứ ghé bàn mình khi nào bạn xong nhé."
+   },
+   {
+    "p": "A",
+    "e": "Perfect. Thanks for the advice — you really gave me a hand today.",
+    "v": "Tuyệt. Cảm ơn lời khuyên nhé — hôm nay bạn giúp mình một tay thật sự đó."
+   },
+   {
+    "p": "B",
+    "e": "Anyway, that's what teammates are for. Good luck!",
+    "v": "Dù sao thì, đồng đội là để vậy mà. Chúc may mắn!"
+   }
+  ],
+  "tips": [
+   "Luyện phản xạ mỗi ngày 5–10 phút: nhìn cột trái (cụm/câu hỏi) rồi ĐỌC TO câu trả lời mẫu, sau đó tự đặt một câu mới với cùng động từ. Nói to quan trọng hơn đọc thầm.",
+   "MAKE = tạo ra kết quả (make a plan/decision/mistake). DO = thực hiện việc/công việc (do homework/research/the dishes). Nhớ 2 cụm mỏ neo: 'make a decision' ↔ 'do your best'.",
+   "Học động từ theo CỤM và cả câu, đừng học từ lẻ — khi nói, não sẽ bật ra nguyên cụm nhanh hơn nhiều.",
+   "Filler words giúp nói tự nhiên và 'câu giờ' khi đang nghĩ (Well…, Actually…, You know…), nhưng chỉ nên dùng 1–2 cái mỗi câu, đừng lạm dụng."
+  ],
+  "shadow": {
+   "en": "Hi, I'm Dung, and I'm practising the most common English verbs so I can speak more naturally and react faster. Every day, I get up early, get ready, and go to work. At work, I have meetings, take notes, and do my best to make good decisions. Sometimes I make mistakes, but I don't worry too much — I just try to learn from them and keep going. In the evening, I come back home, make dinner, and do a little exercise. Before bed, I always take a few minutes to review my English and look up any new words. My goal is simple: to keep learning a little every single day. When I speak, I try to use natural fillers like 'well', 'actually', and 'you know', so I sound relaxed instead of nervous. I really believe that if I practise out loud every day, I will speak more smoothly and feel much more confident.",
+   "vi": "Chào, mình là Dung, và mình đang luyện những động từ tiếng Anh thông dụng nhất để nói tự nhiên hơn và phản xạ nhanh hơn. Mỗi ngày, mình dậy sớm, chuẩn bị và đi làm. Ở công ty, mình họp hành, ghi chú và cố gắng hết sức để ra những quyết định tốt. Đôi khi mình mắc lỗi, nhưng mình không lo lắng quá — chỉ cố rút kinh nghiệm và tiếp tục. Buổi tối, mình về nhà, nấu bữa tối và tập một chút thể dục. Trước khi ngủ, mình luôn dành vài phút ôn lại tiếng Anh và tra những từ mới. Mục tiêu của mình rất đơn giản: học thêm một chút mỗi ngày. Khi nói, mình cố dùng những từ đệm tự nhiên như 'well', 'actually', 'you know' để nghe thư giãn thay vì căng thẳng. Mình thật sự tin rằng nếu luyện nói to mỗi ngày, mình sẽ nói trôi chảy hơn và tự tin hơn nhiều."
+  }
  }
 ];
