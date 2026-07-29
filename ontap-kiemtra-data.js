@@ -6294,6 +6294,10 @@ window.ONTAP = [
     "a": "If I could live anywhere, I would live in a quiet coastal town. It would be peaceful, and I could enjoy the sea every day."
    },
    {
+    "q": "If you had to get a tattoo, where would you get it?",
+    "a": "If I had to get a tattoo, I would get a small one on my wrist. I'd choose a simple word or a tiny symbol that reminds me to stay positive, because I'd want something meaningful but easy to hide at work."
+   },
+   {
     "q": "If you could have dinner with anyone in the world, who would it be?",
     "a": "If I could have dinner with anyone, it would be my grandmother. I would ask her about her life and thank her for everything."
    },
@@ -6302,12 +6306,16 @@ window.ONTAP = [
     "a": "If I could only eat one food forever, I would choose pho. It's warm, delicious, and I could honestly eat it every single day."
    },
    {
-    "q": "What would you do if you had no money for groceries because you left your wallet at home?",
+    "q": "What would you do if you had no money buying groceries because you left your wallet at home?",
     "a": "If I had no money because I left my wallet at home, I would apologise, leave the items, and come back later. Or I might call a friend to help me out."
    },
    {
     "q": "If you could have any superpower, which superpower would you choose?",
     "a": "If I could have any superpower, I would choose to be able to fly. It would be an amazing way to travel and see the world from above."
+   },
+   {
+    "q": "What would you do if you woke up tomorrow as the opposite sex?",
+    "a": "If I woke up tomorrow as the opposite sex, I would be very surprised at first, but I'd try to enjoy the experience for one day. I'd see what daily life feels like from the other side, and I think it would help me understand people better."
    },
    {
     "q": "If you were an animal, what kind of animal would you be?",
