@@ -7002,6 +7002,41 @@ window.ONTAP = [
     ]
    },
    {
+    "title": "🧭 Chọn thì bằng 2 câu hỏi (ví dụ với 'study')",
+    "rows": [
+     {
+      "e": "Cách làm: (1) Việc xảy ra KHI NÀO? (2) Còn liên quan tới HIỆN TẠI không?",
+      "v": "trả lời 2 câu này là ra thì",
+      "a": "Cùng động từ 'study', đổi ngữ cảnh 👇"
+     },
+     {
+      "e": "Thói quen, lặp lại → Present Simple",
+      "v": "(1) nói chung / mỗi ngày",
+      "a": "I study English every day."
+     },
+     {
+      "e": "Đang xảy ra lúc nói → Present Continuous",
+      "v": "(1) ngay bây giờ",
+      "a": "I am studying English right now."
+     },
+     {
+      "e": "Quá khứ có mốc, đã xong → Past Simple",
+      "v": "(1) last night — xong · (2) KHÔNG nối hiện tại",
+      "a": "I studied English last night."
+     },
+     {
+      "e": "Bắt đầu quá khứ, còn kéo dài → Present Perfect",
+      "v": "(1) 3 năm trước · (2) CÓ — vẫn đang học",
+      "a": "I have studied English for three years."
+     },
+     {
+      "e": "⭐ Cặp dễ nhầm nhất: cùng 1 việc, khác ở câu hỏi (2)",
+      "v": "'mất chìa khóa'",
+      "a": "I lost my keys yesterday. (đã xong, có mốc)  ↔  I have lost my keys. (không nói khi nào — hậu quả là BÂY GIỜ không có chìa)"
+     }
+    ]
+   },
+   {
     "title": "✍️ Quy tắc thêm đuôi động từ",
     "rows": [
      {
@@ -7070,7 +7105,7 @@ window.ONTAP = [
    }
   ],
   "tips": [
-   "Chọn thì bằng 2 câu hỏi: (1) Việc này xảy ra KHI NÀO? (2) Còn liên quan tới hiện tại không? → ra đúng thì.",
+   "Chọn thì bằng 2 câu hỏi: (1) Việc xảy ra KHI NÀO? (2) Còn liên quan tới hiện tại không? VD: 'I lost my keys yesterday' = quá khứ đơn (đã xong, có mốc) ↔ 'I have lost my keys' = hiện tại hoàn thành (không nói khi nào, hậu quả CÒN ở hiện tại). Xem bảng ví dụ 🧭 ở trên.",
    "V2 (quá khứ đơn) đi với thời điểm đã xong: yesterday, last week, 2 days ago. V3 (present perfect) đi với: already, yet, just, since, for.",
    "Sau trợ động từ 'did / does / do' → dùng V1 (nguyên mẫu): Did you GO? (không phải went).",
    "Chia nhỏ để học: hôm nay nắm bảng thì này, mai học 'Bất quy tắc — Ngày 1', rồi Ngày 2, Ngày 3."
