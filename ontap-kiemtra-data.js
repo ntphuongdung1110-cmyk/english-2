@@ -6828,5 +6828,472 @@ window.ONTAP = [
    "en": "Hi, I'm Dung, and I'm practising the most common English verbs so I can speak more naturally and react faster. Every day, I get up early, get ready, and go to work. At work, I have meetings, take notes, and do my best to make good decisions. Sometimes I make mistakes, but I don't worry too much — I just try to learn from them and keep going. In the evening, I come back home, make dinner, and do a little exercise. Before bed, I always take a few minutes to review my English and look up any new words. My goal is simple: to keep learning a little every single day. When I speak, I try to use natural fillers like 'well', 'actually', and 'you know', so I sound relaxed instead of nervous. I really believe that if I practise out loud every day, I will speak more smoothly and feel much more confident.",
    "vi": "Chào, mình là Dung, và mình đang luyện những động từ tiếng Anh thông dụng nhất để nói tự nhiên hơn và phản xạ nhanh hơn. Mỗi ngày, mình dậy sớm, chuẩn bị và đi làm. Ở công ty, mình họp hành, ghi chú và cố gắng hết sức để ra những quyết định tốt. Đôi khi mình mắc lỗi, nhưng mình không lo lắng quá — chỉ cố rút kinh nghiệm và tiếp tục. Buổi tối, mình về nhà, nấu bữa tối và tập một chút thể dục. Trước khi ngủ, mình luôn dành vài phút ôn lại tiếng Anh và tra những từ mới. Mục tiêu của mình rất đơn giản: học thêm một chút mỗi ngày. Khi nói, mình cố dùng những từ đệm tự nhiên như 'well', 'actually', 'you know' để nghe thư giãn thay vì căng thẳng. Mình thật sự tin rằng nếu luyện nói to mỗi ngày, mình sẽ nói trôi chảy hơn và tự tin hơn nhiều."
   }
+ },
+ {
+  "icon": "📊",
+  "name": "Verb Tenses / Bảng thì động từ (tra cứu + bài tập)",
+  "intro": "Tiếng Anh có 3 nhóm thì: Hiện tại · Quá khứ · Tương lai. Nắm CÔNG THỨC + KHI NÀO DÙNG rồi luyện chia động từ mỗi ngày. V1 = nguyên mẫu, V2 = quá khứ, V3 = quá khứ phân từ (xem bảng bất quy tắc ở các bài Ngày 1–3). Mẹo: bấm 🙈 để ẩn ví dụ và tự kiểm tra.",
+  "extra": [
+   {
+    "title": "📊 Các thì thường dùng (công thức · khi nào dùng · ví dụ)",
+    "rows": [
+     {
+      "e": "Present Simple · S + V(s/es)",
+      "v": "thói quen, sự thật, lịch trình",
+      "a": "I work every day. She goes to school."
+     },
+     {
+      "e": "Present Continuous · S + am/is/are + V-ing",
+      "v": "đang xảy ra ngay lúc nói",
+      "a": "I am working now. They are going out."
+     },
+     {
+      "e": "Present Perfect · S + have/has + V3",
+      "v": "vừa xong / kinh nghiệm / kéo dài tới hiện tại",
+      "a": "I have finished. She has gone home."
+     },
+     {
+      "e": "Present Perfect Continuous · S + have/has been + V-ing",
+      "v": "hành động kéo dài liên tục đến giờ",
+      "a": "I have been working all day."
+     },
+     {
+      "e": "Past Simple · S + V2",
+      "v": "xong hẳn trong quá khứ (có mốc thời gian)",
+      "a": "I worked yesterday. She went home."
+     },
+     {
+      "e": "Past Continuous · S + was/were + V-ing",
+      "v": "đang xảy ra tại một thời điểm quá khứ",
+      "a": "I was working at 8 p.m. last night."
+     },
+     {
+      "e": "Past Perfect · S + had + V3",
+      "v": "xong TRƯỚC một mốc quá khứ khác",
+      "a": "I had eaten before she arrived."
+     },
+     {
+      "e": "Future — will · S + will + V",
+      "v": "quyết định tức thì, lời hứa, dự đoán",
+      "a": "Don't worry, I will help you."
+     },
+     {
+      "e": "Future — be going to · S + am/is/are going to + V",
+      "v": "dự định đã có sẵn / dấu hiệu rõ ràng",
+      "a": "I am going to travel next month."
+     }
+    ]
+   },
+   {
+    "title": "✍️ Quy tắc thêm đuôi động từ",
+    "rows": [
+     {
+      "e": "Thêm -s / -es (ngôi thứ 3 số ít, hiện tại đơn)",
+      "v": "đa số +s; go→goes, watch→watches, study→studies",
+      "a": "She watches TV. He studies English."
+     },
+     {
+      "e": "Thêm -ing",
+      "v": "bỏ 'e' (make→making), gấp đôi phụ âm (run→running)",
+      "a": "I am making dinner. He is running."
+     },
+     {
+      "e": "Thêm -ed (động từ CÓ quy tắc)",
+      "v": "work→worked, like→liked, study→studied, stop→stopped",
+      "a": "I worked late. She studied hard."
+     },
+     {
+      "e": "Động từ BẤT quy tắc",
+      "v": "không theo -ed → phải học thuộc V2/V3 (go–went–gone)",
+      "a": "I went home. I have gone home."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "Present simple: Every day, she ___ (go) to work by bus.",
+    "a": "goes — Every day, she goes to work by bus."
+   },
+   {
+    "q": "Present continuous: Look! The baby ___ (sleep) now.",
+    "a": "is sleeping — Look! The baby is sleeping now."
+   },
+   {
+    "q": "Past simple: Yesterday, we ___ (have) a long meeting.",
+    "a": "had — Yesterday, we had a long meeting."
+   },
+   {
+    "q": "Present perfect: I ___ (finish) my homework already.",
+    "a": "have finished — I have finished my homework already."
+   },
+   {
+    "q": "Past continuous: At 9 p.m. last night, I ___ (work) on the report.",
+    "a": "was working — At 9 p.m. last night, I was working on the report."
+   },
+   {
+    "q": "Future (will): It's cold. I ___ (close) the window.",
+    "a": "will close — It's cold. I will close the window."
+   },
+   {
+    "q": "Future (going to): Look at those clouds! It ___ (rain).",
+    "a": "is going to rain — Look at those clouds! It is going to rain."
+   },
+   {
+    "q": "Present perfect: She ___ (live) here for five years.",
+    "a": "has lived — She has lived here for five years."
+   },
+   {
+    "q": "Past simple: They ___ (go) to Da Nang last summer.",
+    "a": "went — They went to Da Nang last summer."
+   },
+   {
+    "q": "Past perfect: When I arrived, the train ___ (already/leave).",
+    "a": "had already left — When I arrived, the train had already left."
+   }
+  ],
+  "tips": [
+   "Chọn thì bằng 2 câu hỏi: (1) Việc này xảy ra KHI NÀO? (2) Còn liên quan tới hiện tại không? → ra đúng thì.",
+   "V2 (quá khứ đơn) đi với thời điểm đã xong: yesterday, last week, 2 days ago. V3 (present perfect) đi với: already, yet, just, since, for.",
+   "Sau trợ động từ 'did / does / do' → dùng V1 (nguyên mẫu): Did you GO? (không phải went).",
+   "Chia nhỏ để học: hôm nay nắm bảng thì này, mai học 'Bất quy tắc — Ngày 1', rồi Ngày 2, Ngày 3."
+  ],
+  "shadow": {
+   "en": "Let me tell you about my week using different verb tenses. Every morning, I get up early and go to work — that is the present simple, for my daily routine. Right now, I am studying English, because I want to speak more clearly — that is the present continuous. Yesterday, I worked late and had a long meeting — that is the past simple, for finished actions. I have studied English for a few years, and I have made a lot of progress — that is the present perfect, connecting the past to now. Tomorrow, I am going to review my irregular verbs, and I will practise speaking out loud. If I keep learning a little every day, my English will keep getting better and better.",
+   "vi": "Để mình kể về tuần của mình bằng các thì động từ khác nhau. Mỗi sáng, mình dậy sớm và đi làm — đó là thì hiện tại đơn, cho thói quen hằng ngày. Ngay lúc này, mình đang học tiếng Anh, vì mình muốn nói rõ ràng hơn — đó là hiện tại tiếp diễn. Hôm qua, mình làm việc muộn và có một cuộc họp dài — đó là quá khứ đơn, cho hành động đã xong. Mình đã học tiếng Anh vài năm rồi, và đã tiến bộ nhiều — đó là hiện tại hoàn thành, nối quá khứ với hiện tại. Ngày mai, mình sẽ ôn lại các động từ bất quy tắc, và mình sẽ luyện nói to. Nếu mình cứ học thêm một chút mỗi ngày, tiếng Anh của mình sẽ ngày càng tốt hơn."
+  }
+ },
+ {
+  "icon": "📘",
+  "name": "Irregular Verbs — Ngày 1 / Động từ bất quy tắc (12 từ)",
+  "intro": "12 động từ bất quy tắc thông dụng NHẤT. Đọc to theo nhịp: V1 – V2 – V3. Rồi làm bài tập bên dưới (chạm câu hỏi để hiện/ẩn đáp án).",
+  "extra": [
+   {
+    "title": "📋 Bảng V1 – V2 – V3 (nguyên mẫu – quá khứ – quá khứ phân từ)",
+    "rows": [
+     {
+      "e": "be – was/were – been",
+      "v": "thì, là, ở",
+      "a": "I was at home yesterday. I have been very busy lately."
+     },
+     {
+      "e": "have – had – had",
+      "v": "có, dùng (bữa ăn…)",
+      "a": "She had lunch at noon. We have had a great time."
+     },
+     {
+      "e": "do – did – done",
+      "v": "làm",
+      "a": "He did his homework. I have done everything."
+     },
+     {
+      "e": "say – said – said",
+      "v": "nói",
+      "a": "She said hello. He has said sorry many times."
+     },
+     {
+      "e": "go – went – gone",
+      "v": "đi",
+      "a": "They went home early. I have gone there before."
+     },
+     {
+      "e": "get – got – got/gotten",
+      "v": "lấy, nhận, trở nên",
+      "a": "I got a gift. She has got a new job."
+     },
+     {
+      "e": "make – made – made",
+      "v": "làm, tạo ra",
+      "a": "We made a plan. I have made a mistake."
+     },
+     {
+      "e": "know – knew – known",
+      "v": "biết",
+      "a": "I knew the answer. She has known him for years."
+     },
+     {
+      "e": "think – thought – thought",
+      "v": "nghĩ",
+      "a": "I thought so. I have never thought about it."
+     },
+     {
+      "e": "take – took – taken",
+      "v": "lấy, cầm, đưa đi",
+      "a": "He took a photo. I have taken notes."
+     },
+     {
+      "e": "see – saw – seen",
+      "v": "thấy, xem",
+      "a": "I saw a good film. Have you seen this before?"
+     },
+     {
+      "e": "come – came – come",
+      "v": "đến",
+      "a": "She came late. Spring has come at last."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "Yesterday I ___ (go) to the market.",
+    "a": "went — Yesterday I went to the market."
+   },
+   {
+    "q": "She ___ (have) a meeting this morning.",
+    "a": "had — She had a meeting this morning."
+   },
+   {
+    "q": "I have ___ (see) that movie twice.",
+    "a": "seen — I have seen that movie twice."
+   },
+   {
+    "q": "He ___ (make) a mistake, but he fixed it.",
+    "a": "made — He made a mistake, but he fixed it."
+   },
+   {
+    "q": "We have ___ (do) all the work.",
+    "a": "done — We have done all the work."
+   },
+   {
+    "q": "They ___ (take) the early bus.",
+    "a": "took — They took the early bus."
+   },
+   {
+    "q": "I have ___ (know) her since 2020.",
+    "a": "known — I have known her since 2020."
+   },
+   {
+    "q": "What did you ___ (say)?",
+    "a": "say — What did you say? (sau 'did' luôn dùng V1)"
+   }
+  ],
+  "tips": [
+   "Đọc to V1–V2–V3 theo nhịp 3 tiếng mỗi ngày (go-went-gone) — luyện tai và miệng cùng lúc.",
+   "Quá khứ đơn dùng V2 (went). Present perfect (have/has) dùng V3 (gone). Đừng lẫn 2 cột.",
+   "Sau did/didn't → về V1: 'Did you go?', 'I didn't go.' (không dùng went)."
+  ]
+ },
+ {
+  "icon": "📗",
+  "name": "Irregular Verbs — Ngày 2 / Động từ bất quy tắc (12 từ)",
+  "intro": "12 động từ bất quy tắc thông dụng tiếp theo. Ôn nhanh Ngày 1 trước, rồi học tiếp Ngày 2. Đọc to V1 – V2 – V3 và làm bài tập.",
+  "extra": [
+   {
+    "title": "📋 Bảng V1 – V2 – V3",
+    "rows": [
+     {
+      "e": "give – gave – given",
+      "v": "cho, đưa",
+      "a": "He gave me a book. I have given my answer."
+     },
+     {
+      "e": "find – found – found",
+      "v": "tìm thấy",
+      "a": "I found my keys. She has found a new flat."
+     },
+     {
+      "e": "tell – told – told",
+      "v": "kể, bảo",
+      "a": "She told me a story. I have told you before."
+     },
+     {
+      "e": "become – became – become",
+      "v": "trở thành",
+      "a": "He became a doctor. It has become popular."
+     },
+     {
+      "e": "leave – left – left",
+      "v": "rời đi, để lại",
+      "a": "They left at six. I have left my bag at home."
+     },
+     {
+      "e": "feel – felt – felt",
+      "v": "cảm thấy",
+      "a": "I felt tired. I have felt better since then."
+     },
+     {
+      "e": "put – put – put",
+      "v": "đặt, để (không đổi)",
+      "a": "She put it here. I have put it away."
+     },
+     {
+      "e": "bring – brought – brought",
+      "v": "mang đến",
+      "a": "He brought lunch. I have brought my laptop."
+     },
+     {
+      "e": "begin – began – begun",
+      "v": "bắt đầu",
+      "a": "The show began. It has begun to rain."
+     },
+     {
+      "e": "keep – kept – kept",
+      "v": "giữ, tiếp tục",
+      "a": "I kept trying. She has kept her promise."
+     },
+     {
+      "e": "hold – held – held",
+      "v": "cầm, giữ, tổ chức",
+      "a": "He held the door. We have held two meetings."
+     },
+     {
+      "e": "write – wrote – written",
+      "v": "viết",
+      "a": "I wrote a letter. She has written a book."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "She ___ (give) me some good advice yesterday.",
+    "a": "gave — She gave me some good advice yesterday."
+   },
+   {
+    "q": "I have ___ (write) three emails today.",
+    "a": "written — I have written three emails today."
+   },
+   {
+    "q": "They ___ (leave) before the rain started.",
+    "a": "left — They left before the rain started."
+   },
+   {
+    "q": "He has ___ (become) much more confident.",
+    "a": "become — He has become much more confident."
+   },
+   {
+    "q": "I ___ (put) the keys on the table this morning.",
+    "a": "put — I put the keys on the table this morning. (put không đổi)"
+   },
+   {
+    "q": "The meeting ___ (begin) at nine sharp.",
+    "a": "began — The meeting began at nine sharp."
+   },
+   {
+    "q": "I have ___ (tell) him the truth.",
+    "a": "told — I have told him the truth."
+   },
+   {
+    "q": "She ___ (bring) a cake to the party.",
+    "a": "brought — She brought a cake to the party."
+   }
+  ],
+  "tips": [
+   "Nhóm 'không đổi': put – put – put, keep→kept→kept (2 cột giống nhau) — dễ nhớ, gom lại học chung.",
+   "Chú ý V3 kết thúc bằng -en: give→given, write→written — thường đi sau have/has/had.",
+   "Ôn xen kẽ: mỗi sáng đọc lại Ngày 1 (30 giây) trước khi học Ngày 2 để nhớ lâu (spaced repetition)."
+  ]
+ },
+ {
+  "icon": "📙",
+  "name": "Irregular Verbs — Ngày 3 / Động từ bất quy tắc (12 từ)",
+  "intro": "12 động từ bất quy tắc cho hoạt động hằng ngày (ăn, uống, đọc, lái xe…). Đọc to V1 – V2 – V3 rồi làm bài tập. Sau 3 ngày bạn đã nắm ~36 động từ phổ biến nhất!",
+  "extra": [
+   {
+    "title": "📋 Bảng V1 – V2 – V3",
+    "rows": [
+     {
+      "e": "read – read – read",
+      "v": "đọc (phát âm đổi: /riːd/ → /rɛd/ → /rɛd/)",
+      "a": "I read a book yesterday. I have read it twice."
+     },
+     {
+      "e": "eat – ate – eaten",
+      "v": "ăn",
+      "a": "We ate at noon. Have you eaten yet?"
+     },
+     {
+      "e": "drink – drank – drunk",
+      "v": "uống",
+      "a": "He drank some water. I have drunk two coffees."
+     },
+     {
+      "e": "buy – bought – bought",
+      "v": "mua",
+      "a": "She bought a dress. I have bought the tickets."
+     },
+     {
+      "e": "drive – drove – driven",
+      "v": "lái xe",
+      "a": "He drove to work. I have never driven a truck."
+     },
+     {
+      "e": "sleep – slept – slept",
+      "v": "ngủ",
+      "a": "I slept well. She has slept for eight hours."
+     },
+     {
+      "e": "win – won – won",
+      "v": "thắng, giành được",
+      "a": "Our team won. They have won the cup twice."
+     },
+     {
+      "e": "sing – sang – sung",
+      "v": "hát",
+      "a": "She sang beautifully. He has sung on stage before."
+     },
+     {
+      "e": "swim – swam – swum",
+      "v": "bơi",
+      "a": "We swam in the sea. I have swum here many times."
+     },
+     {
+      "e": "teach – taught – taught",
+      "v": "dạy",
+      "a": "She taught English. He has taught for ten years."
+     },
+     {
+      "e": "catch – caught – caught",
+      "v": "bắt, kịp (xe)",
+      "a": "I caught the bus. She has caught a cold."
+     },
+     {
+      "e": "fall – fell – fallen",
+      "v": "ngã, rơi",
+      "a": "He fell down. The leaves have fallen."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "I ___ (eat) breakfast at seven this morning.",
+    "a": "ate — I ate breakfast at seven this morning."
+   },
+   {
+    "q": "Have you ___ (read) this article yet?",
+    "a": "read — Have you read this article yet? (V3 'read' đọc là /rɛd/)"
+   },
+   {
+    "q": "She ___ (buy) a new phone last week.",
+    "a": "bought — She bought a new phone last week."
+   },
+   {
+    "q": "We have ___ (win) three games in a row.",
+    "a": "won — We have won three games in a row."
+   },
+   {
+    "q": "He ___ (drive) all the way to Da Lat.",
+    "a": "drove — He drove all the way to Da Lat."
+   },
+   {
+    "q": "I have ___ (teach) my little sister to swim.",
+    "a": "taught — I have taught my little sister to swim."
+   },
+   {
+    "q": "Careful! He almost ___ (fall) down.",
+    "a": "fell — Careful! He almost fell down."
+   },
+   {
+    "q": "I ___ (catch) a cold last weekend.",
+    "a": "caught — I caught a cold last weekend."
+   }
+  ],
+  "tips": [
+   "Gom theo vần cho dễ nhớ: buy→bought, catch→caught, teach→taught (đều -ought/-aught).",
+   "'read' viết giống nhau cả 3 cột nhưng ĐỌC khác: hiện tại /riːd/, quá khứ & V3 đều /rɛd/.",
+   "Tự kiểm tra cuối tuần: trộn động từ của cả 3 ngày, che cột đáp án và tự chia lại."
+  ]
  }
 ];
