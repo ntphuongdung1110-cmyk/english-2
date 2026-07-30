@@ -7661,60 +7661,84 @@ window.ONTAP = [
   ],
   "qa": [
    {
-    "q": "How do you feel when you are stuck in a traffic jam?",
-    "a": "When I'm stuck in a traffic jam, I feel annoyed and impatient, especially when I'm late for work."
+    "q": "1. How do you feel when you are stuck in a traffic jam?",
+    "a": "I feel annoyed and impatient, because I hate wasting time and worrying about being late. To stay calm, I usually listen to music or a podcast, and I remind myself that getting angry won't make the traffic move any faster."
    },
    {
-    "q": "How do you feel when you can't sleep?",
-    "a": "When I can't sleep, I feel frustrated, and I'm tired the next day."
+    "q": "2. How do you feel when you are stopped by the police?",
+    "a": "I feel a bit nervous, even when I've done nothing wrong, because I'm not sure what they want. I try to stay calm and polite, show my papers, and answer their questions honestly — that usually makes everything go smoothly."
    },
    {
-    "q": "How do you feel when your neighbours sing karaoke late at night?",
-    "a": "When my neighbours sing karaoke late at night, I feel really irritated because I can't rest."
+    "q": "3. How do you feel when you drink too much?",
+    "a": "I feel dizzy and uncomfortable, and the next morning I feel terrible, because my body needs time to recover. So I try to know my limit, drink slowly, and have a glass of water in between."
    },
    {
-    "q": "How do you feel when the WiFi doesn't work?",
-    "a": "When the WiFi doesn't work, I feel annoyed and a bit helpless these days!"
+    "q": "4. How do you feel when you listen to a romantic song?",
+    "a": "I feel calm and a little nostalgic, because the melody often reminds me of happy memories. I just relax and enjoy the moment — sometimes I even sing along quietly."
    },
    {
-    "q": "How do you feel when someone doesn't reply to your text message?",
-    "a": "When someone doesn't reply to my message, I feel a little anxious and start to worry."
+    "q": "5. How do you feel when you can't sleep?",
+    "a": "I feel frustrated and anxious, because I know I'll be tired the next day. To handle it, I put my phone away, take a few deep breaths, or read a book until I feel sleepy."
    },
    {
-    "q": "How do you feel when you listen to a romantic song?",
-    "a": "When I listen to a romantic song, I feel calm, warm, and sometimes a bit nostalgic."
+    "q": "6. How do you feel when your neighbours sing karaoke late at night?",
+    "a": "I feel really irritated, because the noise stops me from resting. I try to be patient at first, but if it's too late, I'll politely ask them to lower the volume."
    },
    {
-    "q": "How do you feel when there is a thunderstorm?",
-    "a": "When there's a thunderstorm, I feel a little scared, but also cosy if I'm safe at home."
+    "q": "7. How do you feel when you see a handsome man?",
+    "a": "I feel pleasantly surprised and maybe a little shy, because it's always nice to see someone attractive. I just smile to myself and appreciate it — there's nothing wrong with noticing that someone looks nice!"
    },
    {
-    "q": "How do you feel when you come to your English class?",
-    "a": "When I come to my English class, I feel excited and motivated to learn something new."
+    "q": "8. How do you feel when you see a beautiful woman?",
+    "a": "I feel impressed and a bit admiring, because beauty naturally catches the eye. I remind myself that beauty comes in many forms, and I try to appreciate it politely, without staring."
    },
    {
-    "q": "How would you feel if you found a wallet with 20 million VND?",
-    "a": "If I found a wallet with 20 million VND, I would feel excited at first, but then I would return it to the owner."
+    "q": "9. How do you feel when there is a thunderstorm?",
+    "a": "I feel a little scared, especially when the thunder is loud, because it reminds me how powerful nature is. To feel safe, I stay indoors, close the windows, and make myself a warm drink."
    },
    {
-    "q": "How would you feel if your best friend told you they were in love with you?",
-    "a": "If my best friend told me they were in love with me, I would feel surprised and a little confused."
+    "q": "10. How do you feel when the WiFi doesn't work?",
+    "a": "I feel annoyed and a bit helpless, because so much of my work and life depends on it these days. I try restarting the router first, and if that fails, I use mobile data or take it as a chance to rest my eyes."
    },
    {
-    "q": "How would you feel if you woke up tomorrow as the opposite sex?",
-    "a": "If I woke up as the opposite sex, I would feel shocked, but I'd try to enjoy the experience for one day."
+    "q": "11. How do you feel when someone doesn't reply to your text message?",
+    "a": "I feel a little anxious and start to overthink, because I wonder if something is wrong. To handle it, I remind myself that people are busy, and I try not to jump to conclusions."
    },
    {
-    "q": "How would you feel if your doctor told you that you had one month to live?",
-    "a": "If a doctor told me I had one month to live, I would feel devastated, but I would set aside time for my family."
+    "q": "12. How do you feel when you come to your English class?",
+    "a": "I feel excited and motivated, because I love learning something new and meeting friendly people. I make the most of it by speaking as much as I can, even if I make mistakes."
    },
    {
-    "q": "How would you feel if your parents didn't like the person you loved?",
-    "a": "If my parents didn't like the person I loved, I would feel torn and sad, and I would try to help them understand each other."
+    "q": "13. How would you feel if you woke up tomorrow as the opposite sex?",
+    "a": "I would feel shocked and confused at first, because everything would be so unfamiliar. But then I would try to stay open-minded and enjoy the experience for a day — it might help me understand other people better."
    },
    {
-    "q": "How would you feel if you became fluent in English?",
-    "a": "If I became fluent in English, I would feel absolutely thrilled and much more confident at work."
+    "q": "14. How would you feel if your best friend told you that they were in love with you?",
+    "a": "I would feel surprised and a bit awkward, because I wouldn't want to hurt our friendship. I would listen to them honestly and talk it through gently, whatever my own feelings were."
+   },
+   {
+    "q": "15. How would you feel if you found a wallet with 20 million VND?",
+    "a": "I would feel excited for a second, but mostly responsible, because someone out there is probably worried sick. I would look for their ID and return the wallet, or hand it in to the police."
+   },
+   {
+    "q": "16. How would you feel if someone asked you to marry them?",
+    "a": "I would feel touched and a little overwhelmed, because it's such a big decision. I would take my time, think carefully about whether we truly understand each other, and answer honestly instead of rushing."
+   },
+   {
+    "q": "17. How would you feel if your boyfriend/girlfriend cheated on you?",
+    "a": "I would feel heartbroken and betrayed, because trust is the most important thing in a relationship. After the first shock, I would talk to them calmly to understand what happened, and then decide what is best for me."
+   },
+   {
+    "q": "18. How would you feel if your doctor told you that you had one month to live?",
+    "a": "I would feel devastated at first, because it's everyone's biggest fear. But then I would set aside time for my family, do the things I've always dreamed of, and try to spend my last days with love and peace."
+   },
+   {
+    "q": "19. How would you feel if your parents didn't like the person you loved?",
+    "a": "I would feel torn and sad, because I care about both sides. I would stay patient, listen to my parents' concerns, and slowly help them get to know the person I love."
+   },
+   {
+    "q": "20. How would you feel if you became fluent in English?",
+    "a": "I would feel absolutely thrilled and proud, because I've worked so hard for it. I would use it to grow my career, make friends around the world, and maybe even help others learn too."
    }
   ],
   "convo": [
