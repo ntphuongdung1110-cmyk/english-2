@@ -117,10 +117,24 @@
     (async ()=>{ st.textContent="(đang đồng bộ…)"; const n=await sync(user.id, true); st.textContent="(đã đồng bộ "+(n||0)+" từ · "+fmtTime()+")"; })();
   }
 
-  sb.auth.onAuthStateChange((_e, session)=>{
-    if(session && session.user) renderSignedIn(session.user); else renderSignedOut();
-  });
-  sb.auth.getSession().then(({ data })=>{
-    if(data.session && data.session.user) renderSignedIn(data.session.user); else renderSignedOut();
-  });
+  // Kiểm tra máy chủ có sống không trước khi hiện UI đăng nhập
+  async function probe(){
+    try{
+      const r = await fetch(URL.replace(/\/+$/,"") + "/auth/v1/health", { headers:{ apikey: KEY } });
+      return r.ok;
+    }catch(e){ return false; }
+  }
+
+  (async ()=>{
+    if(!(await probe())){
+      box('⚠️ <b>Không kết nối được máy chủ đồng bộ.</b> Project Supabase trong <code>supabase-config.js</code> có thể đã bị <b>xoá hoặc tạm dừng</b> (tên miền không phản hồi). Dữ liệu vẫn được lưu an toàn trên thiết bị này. Để bật lại đồng bộ: tạo project Supabase mới rồi cập nhật <code>SUPABASE_URL</code> + <code>SUPABASE_ANON_KEY</code>.');
+      return;
+    }
+    sb.auth.onAuthStateChange((_e, session)=>{
+      if(session && session.user) renderSignedIn(session.user); else renderSignedOut();
+    });
+    sb.auth.getSession().then(({ data })=>{
+      if(data.session && data.session.user) renderSignedIn(data.session.user); else renderSignedOut();
+    }).catch(()=>renderSignedOut());
+  })();
 })();
