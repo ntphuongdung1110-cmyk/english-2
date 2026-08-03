@@ -8025,63 +8025,63 @@ window.ONTAP = [
   "qa": [
    {
     "q": "1. What is your favorite smell? What is your least favorite smell?",
-    "a": "My favorite smell is fresh coffee in the morning, because it makes me feel awake and happy. My least favorite smell is cigarette smoke, because it's strong and gives me a headache."
+    "a": "My favorite smell is fresh coffee in the morning, because it makes me feel awake and reminds me a new day is starting. The smell of rain on dry ground is a close second — it's so fresh and calming. My least favorite smell is cigarette smoke, because it's strong, it sticks to my clothes, and it gives me a headache."
    },
    {
     "q": "2. What is your favorite sight? What is your least favorite sight?",
-    "a": "My favorite sight is the sea at sunset, because the colors are so peaceful. My least favorite sight is a messy, dirty street, because it makes me feel uncomfortable."
+    "a": "My favorite sight is the sea at sunset, because the colors are so peaceful and they help me forget my worries. I also love seeing my family smile after a long day. My least favorite sight is a messy, dirty street, because it makes me feel uncomfortable and a bit sad about the environment."
    },
    {
     "q": "3. What is your favorite texture? What is your least favorite texture?",
-    "a": "My favorite texture is something soft and smooth, like a warm blanket, because it feels comforting. My least favorite texture is something slimy, because it feels strange in my hands."
+    "a": "My favorite texture is something soft and smooth, like a warm blanket or a cat's fur, because it feels comforting and safe. My least favorite texture is something slimy, like raw okra, because it feels strange and slippery in my hands and makes me shiver a little."
    },
    {
     "q": "4. What is your favorite taste? What is your least favorite taste?",
-    "a": "My favorite taste is sweet, especially chocolate, because it instantly lifts my mood. My least favorite taste is bitter, like very strong black coffee."
+    "a": "My favorite taste is sweet, especially chocolate or ripe mango, because it instantly lifts my mood and feels like a small reward. My least favorite taste is very bitter, like strong black coffee or bitter melon, because it's too sharp for me — though I know bitter food can be good for your health."
    },
    {
     "q": "5. What is your favorite sound? What is your least favorite sound?",
-    "a": "My favorite sound is the rain at night, because it helps me relax and sleep. My least favorite sound is a car alarm, because it's loud and annoying."
+    "a": "My favorite sound is the rain at night, because it helps me relax and fall asleep easily. I also love the sound of people laughing together. My least favorite sound is a car alarm or a drill, because it's loud, sudden, and it breaks my concentration."
    },
    {
     "q": "6. Which do you prefer: spicy or sweet?",
-    "a": "I prefer spicy food, because it makes a meal exciting and full of flavor. But I still enjoy something sweet for dessert to balance it out."
+    "a": "I prefer spicy food, because it makes a meal exciting, wakes up my taste buds, and I love how it makes me feel warm — a good bowl of hot pot is my favorite. But I still enjoy something sweet for dessert to cool my mouth down and balance the meal."
    },
    {
     "q": "7. What is something that smells better than it tastes?",
-    "a": "I think coffee smells better than it tastes. The smell is rich and warm, but the taste can be quite bitter, especially without sugar."
+    "a": "I think coffee smells better than it tastes. The smell is rich, warm, and inviting, but the taste can be quite bitter, especially without sugar or milk. Fresh bread from a bakery is another good example — the smell is amazing, but it's a bit plain to eat on its own."
    },
    {
     "q": "8. What is something that tastes better than it smells?",
-    "a": "Durian tastes better than it smells! The smell is very strong and some people hate it, but the taste is sweet and creamy."
+    "a": "Durian tastes better than it smells! The smell is very strong and some people think it's terrible, but the taste is sweet, rich, and creamy. Stinky tofu is similar — the smell can be shocking, but many people say it's delicious once they actually try it."
    },
    {
     "q": "9. Do you like ice cream? What is your favorite flavor?",
-    "a": "Yes, I love ice cream, because it's sweet and refreshing. My favorite flavor is mango, because it reminds me of summer."
+    "a": "Yes, I love ice cream, because it's sweet, cold, and refreshing, especially in Vietnam's hot weather. My favorite flavor is mango, because it reminds me of summer and it's not too sweet. I also enjoy coffee flavor when I want something a little stronger."
    },
    {
     "q": "10. What is the most delicious thing you have ever tasted?",
-    "a": "The most delicious thing I've ever tasted is fresh seafood by the beach in Da Nang. It was so fresh and flavorful that I still remember it today."
+    "a": "The most delicious thing I've ever tasted is fresh seafood by the beach in Da Nang. It was so fresh and flavorful, and eating it with the sea breeze made it even better. I think food always tastes better when you share it with people you love."
    },
    {
     "q": "11. What is the most disgusting thing you have ever tasted?",
-    "a": "The most disgusting thing I've ever tasted was a dish that was far too bitter. I couldn't finish it, because the taste was just overwhelming."
+    "a": "The most disgusting thing I've ever tasted was a dish that was far too bitter and had a strange smell. I couldn't finish it, because the taste was just overwhelming. Since then, I've learned to smell my food first and take a small bite before diving in."
    },
    {
     "q": "12. What is your strongest sense? What is your weakest sense?",
-    "a": "I think my strongest sense is taste, because I really enjoy food and notice small flavors. My weakest sense might be smell, because I don't always notice light scents."
+    "a": "I think my strongest sense is taste, because I really enjoy food and can notice small differences in flavor. My weakest sense might be smell, because I don't always notice light scents until they're strong. Luckily, taste and smell work together, so I still enjoy eating a lot."
    },
    {
     "q": "13. Which do you prefer, a beautiful sunset or a sunrise, and why?",
-    "a": "I prefer a beautiful sunset, because I can relax and enjoy it after a busy day. A sunrise is lovely too, but I'm usually too sleepy to appreciate it!"
+    "a": "I prefer a beautiful sunset, because I can slow down and enjoy it after a busy day, often with a coffee in my hand. A sunrise is peaceful too and feels like a fresh start, but honestly I'm usually too sleepy to wake up that early!"
    },
    {
     "q": "14. Make a facial expression as if you just ate a lemon. (Describe it!)",
-    "a": "If I just ate a lemon, I would scrunch up my face, close my eyes tightly, and pucker my lips, because it's so sour it makes me shiver!"
+    "a": "If I just ate a lemon, I would scrunch up my whole face, shut my eyes tightly, and pucker my lips, because it's so sour it makes me shiver. I'd probably shake my head and laugh at the same time — sour food always gives me a funny reaction."
    },
    {
     "q": "15. If you had to live without one of your senses, which one would it be?",
-    "a": "If I had to live without one sense, it would be smell, because I could still see, hear, touch, and taste. It would be sad to miss nice smells, but I think I could manage."
+    "a": "If I had to live without one sense, it would be smell, because I could still see, hear, touch, and taste the world around me. It would be sad to miss the smell of flowers or good food, but I think I could adapt. I would never give up my sight, though, because I couldn't imagine not seeing my family's faces."
    }
   ],
   "convo": [
