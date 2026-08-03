@@ -7803,5 +7803,348 @@ window.ONTAP = [
    "en": "My mood can change a lot during a single day. In the morning, I usually wake up feeling calm and energetic, ready to start the day. But if I get stuck in a traffic jam, I quickly feel annoyed and impatient. At the office, a good chat with my teammates can put me in a great mood, while a difficult problem can make me feel stressed or even exhausted. When something goes wrong, I try not to get furious; instead, I take a deep breath and stay calm. In the evening, spending time with my family always makes me feel relaxed and happy. I've learned that moods are temporary — they come and go like the weather. The important thing is to notice how I feel, and to be kind to myself and to the people around me.",
    "vi": "Tâm trạng của mình có thể thay đổi rất nhiều trong một ngày. Buổi sáng, mình thường thức dậy với cảm giác bình tĩnh và tràn đầy năng lượng, sẵn sàng bắt đầu ngày mới. Nhưng nếu bị kẹt xe, mình nhanh chóng thấy khó chịu và mất kiên nhẫn. Ở công ty, một cuộc trò chuyện vui với đồng nghiệp có thể khiến mình vui hẳn, còn một vấn đề khó lại làm mình căng thẳng, thậm chí kiệt sức. Khi có chuyện không hay, mình cố không nổi giận; thay vào đó, mình hít một hơi sâu và giữ bình tĩnh. Buổi tối, dành thời gian cho gia đình luôn khiến mình thấy thư giãn và hạnh phúc. Mình nhận ra tâm trạng chỉ là tạm thời — chúng đến rồi đi như thời tiết. Điều quan trọng là nhận biết cảm xúc của mình, và tử tế với bản thân cũng như với những người xung quanh."
   }
+ },
+ {
+  "icon": "🖐️",
+  "name": "Five Senses / Năm giác quan",
+  "intro": "5 giác quan: SIGHT (nhìn) · HEARING (nghe) · TOUCH (chạm) · SMELL (ngửi) · TASTE (nếm). Học động từ + tính từ mô tả cho từng giác quan, rồi luyện trả lời theo mẫu: Trả lời → Lý do (because) → Ví dụ.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "see",
+    "v": "nhìn thấy (tự nhiên, không cố ý)",
+    "x": "I can see the mountains from my window.",
+    "ip": "/siː/",
+    "d": "To be the setting or time of."
+   },
+   {
+    "s": 1,
+    "e": "look at",
+    "v": "nhìn vào (có chủ đích)",
+    "x": "Look at this beautiful photo!",
+    "d": "To turn your eyes toward something on purpose in order to see it."
+   },
+   {
+    "s": 1,
+    "e": "watch",
+    "v": "xem, theo dõi (vật chuyển động)",
+    "x": "I watch a movie every weekend.",
+    "ip": "/wɒt͡ʃ/",
+    "d": "A portable or wearable timepiece."
+   },
+   {
+    "e": "stare",
+    "v": "nhìn chằm chằm",
+    "x": "It's rude to stare at strangers.",
+    "ip": "/stɛə(ɹ)/",
+    "d": "To look at someone or something for a long time without moving your eyes."
+   },
+   {
+    "s": 1,
+    "e": "hear",
+    "v": "nghe thấy (tự nhiên)",
+    "x": "I can hear the birds singing outside.",
+    "ip": "/hɪə(ɹ)/",
+    "d": "(stative) To perceive sounds through the ear."
+   },
+   {
+    "s": 1,
+    "e": "listen",
+    "v": "lắng nghe (chú ý) — đi với 'to'",
+    "x": "I listen to music every day.",
+    "ip": "/ˈlɪs.ən/",
+    "d": "To pay attention to a sound on purpose (usually with 'to')."
+   },
+   {
+    "e": "understand",
+    "v": "hiểu",
+    "x": "Sorry, I don't understand this word.",
+    "ip": "/ˌɞndəɹˈstand/",
+    "d": "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of."
+   },
+   {
+    "e": "loud",
+    "v": "to, ồn (âm thanh)",
+    "x": "The music is too loud in here.",
+    "ip": "/laʊd/",
+    "d": "(of a sound) Of great intensity."
+   },
+   {
+    "e": "soft",
+    "v": "nhẹ, êm (âm thanh); mềm",
+    "x": "She spoke in a soft, gentle voice.",
+    "ip": "/sɑft/",
+    "d": "Easily giving way under pressure."
+   },
+   {
+    "s": 1,
+    "e": "feel",
+    "v": "cảm nhận, sờ (chạm)",
+    "x": "This blanket feels so soft and warm.",
+    "ip": "/fiːl/",
+    "d": "A quality of an object experienced by touch."
+   },
+   {
+    "e": "smooth",
+    "v": "mịn, trơn láng",
+    "x": "The table has a smooth surface.",
+    "ip": "/smuːð/",
+    "d": "Without difficulty, problems, or unexpected consequences or incidents."
+   },
+   {
+    "e": "rough",
+    "v": "thô, ráp, gồ ghề",
+    "x": "The old wall felt rough and dry.",
+    "ip": "/ɹʌf/",
+    "d": "Approximate; hasty or careless; not finished."
+   },
+   {
+    "s": 1,
+    "e": "smell",
+    "v": "ngửi / có mùi",
+    "x": "These flowers smell wonderful.",
+    "ip": "/smɛl/",
+    "d": "To notice or give off a scent through your nose."
+   },
+   {
+    "e": "stink",
+    "v": "bốc mùi hôi (rất khó chịu)",
+    "x": "The garbage stinks in the summer heat.",
+    "ip": "/stɪŋk/",
+    "d": "To have a strong, very unpleasant smell."
+   },
+   {
+    "s": 1,
+    "e": "taste",
+    "v": "nếm / có vị",
+    "x": "This soup tastes delicious.",
+    "ip": "/teɪst/",
+    "d": "To notice the flavor of food in your mouth, or to have a particular flavor."
+   },
+   {
+    "e": "flavor",
+    "v": "hương vị",
+    "x": "My favorite ice cream flavor is mango.",
+    "ip": "/ˈfleɪvə/",
+    "d": "The particular taste of a food or drink."
+   },
+   {
+    "s": 1,
+    "e": "sweet",
+    "v": "ngọt",
+    "x": "This cake is very sweet.",
+    "ip": "/swiːt/",
+    "d": "Having a pleasant taste, especially one relating to the basic taste sensation induced by sugar."
+   },
+   {
+    "e": "sour",
+    "v": "chua",
+    "x": "Lemons are very sour.",
+    "ip": "/ˈsaʊə/",
+    "d": "Having an acidic, sharp or tangy taste."
+   },
+   {
+    "s": 1,
+    "e": "spicy",
+    "v": "cay",
+    "x": "I love spicy food, especially hot pot.",
+    "d": "Of, pertaining to, or containing spice."
+   },
+   {
+    "e": "salty",
+    "v": "mặn",
+    "x": "The soup is a bit too salty for me.",
+    "ip": "/ˈsɒl.ti/",
+    "d": "Tasting of salt."
+   },
+   {
+    "e": "bitter",
+    "v": "đắng",
+    "x": "Black coffee tastes bitter without sugar.",
+    "ip": "/ˈbɪtə/",
+    "d": "Having an acrid taste (usually from a basic substance)."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🔍 Động từ giác quan dễ nhầm (phân biệt)",
+    "rows": [
+     {
+      "e": "see / look at / watch / stare",
+      "v": "see = thấy (vô tình) · look at = nhìn có ý · watch = xem (chuyển động) · stare = nhìn chằm chằm",
+      "a": "I saw a bird, so I looked at it, then I watched it fly away."
+     },
+     {
+      "e": "hear / listen (to)",
+      "v": "hear = nghe thấy (vô tình) · listen = lắng nghe (chú ý)",
+      "a": "I heard a song on the radio and listened to it carefully."
+     },
+     {
+      "e": "smell / stink",
+      "v": "smell = ngửi / có mùi (trung tính) · stink = bốc mùi hôi (rất khó chịu)",
+      "a": "These flowers smell nice, but the trash stinks!"
+     },
+     {
+      "e": "taste (v/n) / flavor (n)",
+      "v": "taste = vị / nếm · flavor = hương vị (danh từ)",
+      "a": "This ice cream tastes great — my favorite flavor is mango."
+     }
+    ]
+   },
+   {
+    "title": "💡 Linking verbs: giác quan + TÍNH TỪ",
+    "rows": [
+     {
+      "e": "It smells good / bad.",
+      "v": "Nó thơm / hôi",
+      "a": "Something smells good in the kitchen!"
+     },
+     {
+      "e": "It tastes sweet / sour / spicy.",
+      "v": "Nó có vị ngọt / chua / cay",
+      "a": "This dish tastes really spicy."
+     },
+     {
+      "e": "It feels soft / smooth / rough.",
+      "v": "Nó mềm / mịn / ráp khi sờ",
+      "a": "This scarf feels so soft."
+     },
+     {
+      "e": "That sounds great / loud.",
+      "v": "Nghe hay / to",
+      "a": "Your plan sounds great!"
+     },
+     {
+      "e": "You look tired / happy.",
+      "v": "Trông bạn mệt / vui",
+      "a": "You look tired today. Are you okay?"
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. What is your favorite smell? What is your least favorite smell?",
+    "a": "My favorite smell is fresh coffee in the morning, because it makes me feel awake and happy. My least favorite smell is cigarette smoke, because it's strong and gives me a headache."
+   },
+   {
+    "q": "2. What is your favorite sight? What is your least favorite sight?",
+    "a": "My favorite sight is the sea at sunset, because the colors are so peaceful. My least favorite sight is a messy, dirty street, because it makes me feel uncomfortable."
+   },
+   {
+    "q": "3. What is your favorite texture? What is your least favorite texture?",
+    "a": "My favorite texture is something soft and smooth, like a warm blanket, because it feels comforting. My least favorite texture is something slimy, because it feels strange in my hands."
+   },
+   {
+    "q": "4. What is your favorite taste? What is your least favorite taste?",
+    "a": "My favorite taste is sweet, especially chocolate, because it instantly lifts my mood. My least favorite taste is bitter, like very strong black coffee."
+   },
+   {
+    "q": "5. What is your favorite sound? What is your least favorite sound?",
+    "a": "My favorite sound is the rain at night, because it helps me relax and sleep. My least favorite sound is a car alarm, because it's loud and annoying."
+   },
+   {
+    "q": "6. Which do you prefer: spicy or sweet?",
+    "a": "I prefer spicy food, because it makes a meal exciting and full of flavor. But I still enjoy something sweet for dessert to balance it out."
+   },
+   {
+    "q": "7. What is something that smells better than it tastes?",
+    "a": "I think coffee smells better than it tastes. The smell is rich and warm, but the taste can be quite bitter, especially without sugar."
+   },
+   {
+    "q": "8. What is something that tastes better than it smells?",
+    "a": "Durian tastes better than it smells! The smell is very strong and some people hate it, but the taste is sweet and creamy."
+   },
+   {
+    "q": "9. Do you like ice cream? What is your favorite flavor?",
+    "a": "Yes, I love ice cream, because it's sweet and refreshing. My favorite flavor is mango, because it reminds me of summer."
+   },
+   {
+    "q": "10. What is the most delicious thing you have ever tasted?",
+    "a": "The most delicious thing I've ever tasted is fresh seafood by the beach in Da Nang. It was so fresh and flavorful that I still remember it today."
+   },
+   {
+    "q": "11. What is the most disgusting thing you have ever tasted?",
+    "a": "The most disgusting thing I've ever tasted was a dish that was far too bitter. I couldn't finish it, because the taste was just overwhelming."
+   },
+   {
+    "q": "12. What is your strongest sense? What is your weakest sense?",
+    "a": "I think my strongest sense is taste, because I really enjoy food and notice small flavors. My weakest sense might be smell, because I don't always notice light scents."
+   },
+   {
+    "q": "13. Which do you prefer, a beautiful sunset or a sunrise, and why?",
+    "a": "I prefer a beautiful sunset, because I can relax and enjoy it after a busy day. A sunrise is lovely too, but I'm usually too sleepy to appreciate it!"
+   },
+   {
+    "q": "14. Make a facial expression as if you just ate a lemon. (Describe it!)",
+    "a": "If I just ate a lemon, I would scrunch up my face, close my eyes tightly, and pucker my lips, because it's so sour it makes me shiver!"
+   },
+   {
+    "q": "15. If you had to live without one of your senses, which one would it be?",
+    "a": "If I had to live without one sense, it would be smell, because I could still see, hear, touch, and taste. It would be sad to miss nice smells, but I think I could manage."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Mmm, can you smell that? Someone's grilling meat nearby.",
+    "v": "Mmm, bạn ngửi thấy không? Ai đó đang nướng thịt gần đây."
+   },
+   {
+    "p": "B",
+    "e": "Yeah, it smells amazing! I'm suddenly starving. Let's go and look at the stalls.",
+    "v": "Ừ, thơm ghê! Tự nhiên mình đói cồn cào. Đi xem mấy quầy hàng đi."
+   },
+   {
+    "p": "A",
+    "e": "Good idea. Oh, try this — careful, it's really spicy.",
+    "v": "Ý hay. Ồ, thử cái này đi — cẩn thận, cay lắm đó."
+   },
+   {
+    "p": "B",
+    "e": "Wow, you're right! It's delicious but so hot. My mouth is on fire.",
+    "v": "Ồ, đúng thật! Ngon nhưng cay quá. Miệng mình như bốc cháy."
+   },
+   {
+    "p": "A",
+    "e": "Ha! Here, this juice is sweet and sour — it'll cool you down.",
+    "v": "Ha! Đây, ly nước này chua chua ngọt ngọt — sẽ làm bạn dịu lại."
+   },
+   {
+    "p": "B",
+    "e": "That's much better, thanks. What about that fruit over there? It smells a bit strange.",
+    "v": "Đỡ hơn nhiều, cảm ơn. Còn loại trái kia thì sao? Nó có mùi hơi lạ."
+   },
+   {
+    "p": "A",
+    "e": "That's durian. It stinks to some people, but it tastes sweet and creamy. Want to try?",
+    "v": "Đó là sầu riêng. Với vài người nó hôi, nhưng vị thì ngọt và béo. Thử không?"
+   },
+   {
+    "p": "B",
+    "e": "Hmm, okay, just a small piece... Actually, it tastes better than it smells!",
+    "v": "Hmm, được, một miếng nhỏ thôi... Ơ, ăn ngon hơn là ngửi đó!"
+   },
+   {
+    "p": "A",
+    "e": "See? You should never judge food by its smell.",
+    "v": "Thấy chưa? Đừng bao giờ đánh giá món ăn qua mùi."
+   },
+   {
+    "p": "B",
+    "e": "Lesson learned! This has been a great trip for all five senses.",
+    "v": "Rút kinh nghiệm rồi! Chuyến này đã lành cho cả năm giác quan."
+   }
+  ],
+  "tips": [
+   "see / hear / feel / smell / taste = giác quan TỰ ĐỘNG (vô tình). look at / listen / touch = HÀNH ĐỘNG có chủ đích. VD: I hear music (vô tình) ↔ I listen to music (chú ý).",
+   "Sau smell / taste / feel / sound / look có thể + TÍNH TỪ (linking verb): It smells good. It tastes sweet. This feels soft. That sounds great. You look tired.",
+   "listen luôn đi với 'to' khi có tân ngữ: listen TO music (✅). Nhưng hear thì không cần: I hear music (✅).",
+   "Trả lời câu 'favorite / least favorite' theo mẫu: [trả lời] + because [lý do] + [ví dụ/chi tiết] để câu nói đầy đủ và tự nhiên."
+  ],
+  "shadow": {
+   "en": "I love using all five of my senses to enjoy the world around me. In the morning, I open my window and see the sunlight on the trees. I hear the birds singing and the sound of the city slowly waking up. When I make breakfast, I can smell the fresh coffee, and it always makes me happy. I feel the warm cup in my hands, smooth and comforting. Then I taste my food slowly — sweet fruit, a little salty egg, and strong, slightly bitter coffee. We often rush through the day and forget these small pleasures. But when I stop and pay attention to my senses, even an ordinary morning feels special. Our senses are a wonderful gift, and I try not to take them for granted.",
+   "vi": "Mình thích dùng cả năm giác quan để tận hưởng thế giới quanh mình. Buổi sáng, mình mở cửa sổ và nhìn thấy nắng trên những tán cây. Mình nghe tiếng chim hót và âm thanh thành phố dần thức giấc. Khi làm bữa sáng, mình ngửi thấy mùi cà phê mới pha, và nó luôn khiến mình vui. Mình cảm nhận chiếc cốc ấm trong tay, mịn màng và dễ chịu. Rồi mình nếm thức ăn thật chậm — trái cây ngọt, quả trứng hơi mặn, và cà phê đậm, hơi đắng. Chúng ta thường vội vã cả ngày và quên mất những niềm vui nhỏ này. Nhưng khi mình dừng lại và chú ý đến các giác quan, ngay cả một buổi sáng bình thường cũng thấy đặc biệt. Giác quan là một món quà tuyệt vời, và mình cố không xem chúng là điều hiển nhiên."
+  }
  }
 ];

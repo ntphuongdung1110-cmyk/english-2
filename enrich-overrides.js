@@ -353,5 +353,14 @@ module.exports = {
   "come": { d: "To move toward the speaker or toward a particular place." },
   "put": { d: "To move something into a particular place or position." },
   "keep": { d: "To continue doing something, or to hold on to something and not let it go." },
-  "look": { d: "To turn your eyes toward something to see it, or to seem/appear a certain way." }
+  "look": { d: "To turn your eyes toward something to see it, or to seem/appear a certain way." },
+
+  // ---- Five Senses ----
+  "look at": { d: "To turn your eyes toward something on purpose in order to see it.", x: "Look at this beautiful photo!" },
+  "stare": { d: "To look at someone or something for a long time without moving your eyes.", x: "It's rude to stare at strangers." },
+  "listen": { d: "To pay attention to a sound on purpose (usually with 'to').", x: "I listen to music every day." },
+  "stink": { d: "To have a strong, very unpleasant smell.", x: "The garbage stinks in the summer heat." },
+  "flavor": { d: "The particular taste of a food or drink.", x: "My favorite ice cream flavor is mango." },
+  "smell": { d: "To notice or give off a scent through your nose.", x: "These flowers smell wonderful." },
+  "taste": { d: "To notice the flavor of food in your mouth, or to have a particular flavor.", x: "This soup tastes delicious." }
 };
