@@ -8146,5 +8146,244 @@ window.ONTAP = [
    "en": "I love using all five of my senses to enjoy the world around me. In the morning, I open my window and see the sunlight on the trees. I hear the birds singing and the sound of the city slowly waking up. When I make breakfast, I can smell the fresh coffee, and it always makes me happy. I feel the warm cup in my hands, smooth and comforting. Then I taste my food slowly — sweet fruit, a little salty egg, and strong, slightly bitter coffee. We often rush through the day and forget these small pleasures. But when I stop and pay attention to my senses, even an ordinary morning feels special. Our senses are a wonderful gift, and I try not to take them for granted.",
    "vi": "Mình thích dùng cả năm giác quan để tận hưởng thế giới quanh mình. Buổi sáng, mình mở cửa sổ và nhìn thấy nắng trên những tán cây. Mình nghe tiếng chim hót và âm thanh thành phố dần thức giấc. Khi làm bữa sáng, mình ngửi thấy mùi cà phê mới pha, và nó luôn khiến mình vui. Mình cảm nhận chiếc cốc ấm trong tay, mịn màng và dễ chịu. Rồi mình nếm thức ăn thật chậm — trái cây ngọt, quả trứng hơi mặn, và cà phê đậm, hơi đắng. Chúng ta thường vội vã cả ngày và quên mất những niềm vui nhỏ này. Nhưng khi mình dừng lại và chú ý đến các giác quan, ngay cả một buổi sáng bình thường cũng thấy đặc biệt. Giác quan là một món quà tuyệt vời, và mình cố không xem chúng là điều hiển nhiên."
   }
+ },
+ {
+  "icon": "💕",
+  "name": "Romance / Chuyện tình cảm & hôn nhân",
+  "intro": "Từ vựng về yêu đương, hẹn hò và hôn nhân. Học động từ/cụm từ + thành ngữ, rồi luyện trả lời theo mẫu: Trả lời → Lý do (because) → Ví dụ → Ý thêm. Lưu ý ngữ pháp: marry someone / get married TO someone (KHÔNG 'marry with').",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "fall in love (with someone)",
+    "v": "phải lòng, yêu ai đó",
+    "x": "I fell in love with her the first time we met.",
+    "ip": "/fɔːl ɪn lʊv/",
+    "d": "To begin to feel deep romantic love for someone."
+   },
+   {
+    "s": 1,
+    "e": "get married / marry (someone)",
+    "v": "kết hôn / cưới ai đó",
+    "x": "They got married last spring.",
+    "ip": "/ɡɛt ˈmæɹ.ɪd/",
+    "d": "To become someone's husband or wife in an official ceremony."
+   },
+   {
+    "s": 1,
+    "e": "have a crush on (someone)",
+    "v": "thích thầm, phải lòng ai",
+    "x": "I had a crush on a classmate in high school.",
+    "d": "To have a strong but often shy romantic interest in someone."
+   },
+   {
+    "s": 1,
+    "e": "flirt (with someone)",
+    "v": "tán tỉnh, thả thính",
+    "x": "He was flirting with the waitress all evening.",
+    "ip": "/flɜːt/",
+    "d": "To behave in a playful way that shows romantic interest in someone."
+   },
+   {
+    "e": "hit on (someone)",
+    "v": "cưa cẩm, tán tỉnh (thân mật) [= flirt]",
+    "x": "Someone tried to hit on me at the party.",
+    "ip": "/hɪt ɒn/",
+    "d": "To show someone clearly that you find them attractive; an informal way to say 'flirt with'."
+   },
+   {
+    "e": "fall out of love",
+    "v": "hết yêu, tình cảm phai nhạt",
+    "x": "Sadly, some couples slowly fall out of love.",
+    "ip": "/fɔːl æɔt ɔv lʊv/",
+    "d": "To gradually stop loving someone you used to love."
+   },
+   {
+    "s": 1,
+    "e": "honeymoon",
+    "v": "tuần trăng mật",
+    "x": "They went to Phu Quoc for their honeymoon.",
+    "ip": "/ˈhʌn.iˌmun/",
+    "d": "To have a honeymoon (a trip taken by a couple after wedding)."
+   },
+   {
+    "e": "anniversary",
+    "v": "ngày kỷ niệm (ngày cưới)",
+    "x": "We celebrate our anniversary every year.",
+    "ip": "/ˌænɪˈvɜːs(ə)ɹi/",
+    "d": "A day that is an exact number of years (to the day) since a given significant event occurred. Often preceded by an ordinal number indicating the number of years."
+   },
+   {
+    "e": "bride",
+    "v": "cô dâu",
+    "x": "The bride looked beautiful in her white dress.",
+    "ip": "/bɹaɪd/",
+    "d": "A woman in the context of her own wedding; one who is going to marry or has just been married."
+   },
+   {
+    "e": "groom",
+    "v": "chú rể",
+    "x": "The groom was a little nervous before the ceremony.",
+    "ip": "/ɡɹuːm/",
+    "d": "One of several officers of the English royal household, chiefly in the lord chamberlain's department."
+   },
+   {
+    "e": "ideal partner",
+    "v": "người bạn đời lý tưởng",
+    "x": "My ideal partner is kind and honest.",
+    "ip": "/aɪˈdiː.əl ˈpɐːtnə/",
+    "d": "The kind of husband, wife, or life companion you think would be perfect for you."
+   },
+   {
+    "e": "superficial",
+    "v": "hời hợt, hình thức bề ngoài",
+    "x": "A relationship based only on looks is too superficial.",
+    "ip": "/ˌs(j)uːpəˈfɪʃəl/",
+    "d": "Caring only about surface things like looks, not about deeper qualities."
+   }
+  ],
+  "extra": [
+   {
+    "title": "💡 Thành ngữ & cụm hay dùng về tình yêu",
+    "rows": [
+     {
+      "e": "opposites attract",
+      "v": "người trái tính lại thu hút nhau",
+      "a": "They're so different, but opposites attract!"
+     },
+     {
+      "e": "love at first sight",
+      "v": "yêu từ cái nhìn đầu tiên",
+      "a": "Do you believe in love at first sight?"
+     },
+     {
+      "e": "tie the knot",
+      "v": "kết hôn (thân mật)",
+      "a": "They finally tied the knot after ten years together."
+     },
+     {
+      "e": "settle down",
+      "v": "ổn định, lập gia đình",
+      "a": "He wants to settle down and start a family."
+     },
+     {
+      "e": "pour salt on the wound",
+      "v": "xát muối vào vết thương (làm tệ hơn)",
+      "a": "Don't mention his ex — you'll just pour salt on the wound."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Have you ever been in love? How many times?",
+    "a": "Yes, I've been in love a couple of times. The first time was when I was quite young, so it was more of a sweet, innocent feeling. Being in love taught me a lot about myself and about how to care for another person."
+   },
+   {
+    "q": "2. Are you married? Do you want to get married in the future?",
+    "a": "I'm not married yet, but I do hope to get married in the future, because I'd love to share my life with someone I trust. Still, I'm not in a hurry — finding the right person matters more to me than marrying at the 'right' age."
+   },
+   {
+    "q": "3. What are some reasons that people fall out of love with each other?",
+    "a": "People often fall out of love because of poor communication, spending too little time together, or growing in different directions. Money problems and a lack of respect can slowly kill the feeling too. In my opinion, love needs constant effort to stay alive."
+   },
+   {
+    "q": "4. What do Vietnamese couples usually do to celebrate their anniversaries?",
+    "a": "Many Vietnamese couples go out for a romantic dinner or take a short trip together. Some give flowers or small gifts, while younger couples often post sweet photos online. The most important thing is simply spending quality time together."
+   },
+   {
+    "q": "5. How old were you the first time you had a crush on someone? Who was it?",
+    "a": "I think I was around twelve or thirteen the first time I had a crush. It was on a classmate who was kind and funny. I was too shy to say anything, but looking back, it's a sweet and slightly funny memory."
+   },
+   {
+    "q": "6. Do you have a crush on anyone now? Who is it?",
+    "a": "Ha, that's a personal question! Right now I'm focusing on my work and myself, so I don't have a crush at the moment. But if I met someone kind, honest, and easy to talk to, I could easily change my mind."
+   },
+   {
+    "q": "7. How often do you hit on people? How often do people hit on you?",
+    "a": "Honestly, I'm quite shy, so I rarely hit on people first — I'd rather get to know someone slowly. As for being hit on, it happens once in a while, and I usually just smile politely and stay friendly."
+   },
+   {
+    "q": "8. What is the most popular honeymoon destination in Vietnam?",
+    "a": "I think Phu Quoc and Da Lat are the most popular honeymoon destinations in Vietnam. Phu Quoc has beautiful beaches and resorts, while Da Lat is cool, romantic, and full of flowers. Both are perfect for couples who want to relax together."
+   },
+   {
+    "q": "9. If you could go anywhere in the world for your honeymoon, where would you go?",
+    "a": "If I could go anywhere, I would choose the Maldives, because the beaches and clear blue water look like paradise. Japan would be my second choice, especially during cherry blossom season, because it's romantic and full of beautiful scenery."
+   },
+   {
+    "q": "10. Do you think it's possible to have a happy life without ever getting married?",
+    "a": "Yes, I definitely think so. Marriage is one path to happiness, but it's not the only one. Many people live full, happy lives through their friends, family, career, and hobbies. In the end, happiness comes from within, not just from being married."
+   },
+   {
+    "q": "11. Tell me about your ideal partner.",
+    "a": "My ideal partner is kind, honest, and has a good sense of humor. I'd love someone I can talk to easily and who supports my goals. Looks are nice, but they're superficial — what really matters to me is respect, trust, and shared values."
+   },
+   {
+    "q": "12. What is the key to a successful marriage?",
+    "a": "I believe the key to a successful marriage is good communication and mutual respect. Both people need to be honest, patient, and willing to compromise. Sharing laughter and small daily moments matters too, because love grows through the little things, not only the big ones."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Did you hear? Lan and Minh are finally getting married!",
+    "v": "Bạn nghe chưa? Lan với Minh sắp cưới rồi đó!"
+   },
+   {
+    "p": "B",
+    "e": "No way! That's wonderful news. When's the wedding?",
+    "v": "Thật hả! Tin vui quá. Đám cưới khi nào vậy?"
+   },
+   {
+    "p": "A",
+    "e": "Next month. They've been together for six years, so it's about time they tied the knot.",
+    "v": "Tháng sau. Hai người yêu nhau sáu năm rồi, cũng đến lúc về chung nhà thôi."
+   },
+   {
+    "p": "B",
+    "e": "Aww, they're such a sweet couple. Do you remember how they met?",
+    "v": "Ôi, cặp này dễ thương ghê. Bạn có nhớ họ quen nhau kiểu gì không?"
+   },
+   {
+    "p": "A",
+    "e": "Yeah, Minh flirted with her at a coffee shop, and it was love at first sight for him.",
+    "v": "Có chứ, Minh tán tỉnh Lan ở quán cà phê, và với anh ấy đó là yêu từ cái nhìn đầu tiên."
+   },
+   {
+    "p": "B",
+    "e": "So romantic! Where are they going for their honeymoon?",
+    "v": "Lãng mạn ghê! Họ đi tuần trăng mật ở đâu?"
+   },
+   {
+    "p": "A",
+    "e": "Phu Quoc, I think. Lan has always dreamed of a beach honeymoon.",
+    "v": "Phú Quốc thì phải. Lan luôn mơ về một kỳ trăng mật ở biển."
+   },
+   {
+    "p": "B",
+    "e": "Perfect choice. I hope they have a long and happy marriage.",
+    "v": "Lựa chọn tuyệt vời. Mong họ có một cuộc hôn nhân dài lâu và hạnh phúc."
+   },
+   {
+    "p": "A",
+    "e": "Me too. They're proof that if you communicate and respect each other, love can last.",
+    "v": "Mình cũng vậy. Họ là minh chứng rằng nếu biết trò chuyện và tôn trọng nhau, tình yêu sẽ bền."
+   },
+   {
+    "p": "B",
+    "e": "Well said. Come on, let's go and pick out a wedding gift!",
+    "v": "Nói hay đó. Thôi nào, đi chọn quà cưới thôi!"
+   }
+  ],
+  "tips": [
+   "marry vs get married: 'marry someone' (I want to marry her) HOẶC 'get married TO someone' (She got married to him). TUYỆT ĐỐI không nói 'marry with'.",
+   "have a crush on someone = thích thầm (nhẹ, chưa sâu) · fall in love with someone = yêu thật sự (sâu hơn) · fall out of love = hết yêu.",
+   "hit on someone = flirt with someone = tán tỉnh ('hit on' thân mật/suồng sã hơn).",
+   "Câu hỏi riêng tư (crush, married…) có thể trả lời chung chung + hài hước: 'That's a personal question!' rồi vẫn nói 1–2 ý cho tự nhiên, không cần tiết lộ thật."
+  ],
+  "shadow": {
+   "en": "Here is a modern love story. A man and a woman meet at a party, and he flirts with her a little. Soon they fall in love and start dating. After a few years, they decide to get married, and everyone celebrates their beautiful wedding. Later, they have a baby, and life becomes busy and tiring. Like every couple, they sometimes argue about small things, and one night they have a big fight. But because they truly love each other, they calm down, say sorry, and make up. Year after year, they celebrate their anniversary, support each other, and grow old together. Their story shows that real love is not always perfect — it takes patience, forgiveness, and a lot of effort.",
+   "vi": "Đây là một câu chuyện tình hiện đại. Một chàng trai và một cô gái gặp nhau ở một bữa tiệc, và anh tán tỉnh cô một chút. Chẳng bao lâu họ phải lòng nhau và bắt đầu hẹn hò. Sau vài năm, họ quyết định kết hôn, và mọi người chung vui trong một đám cưới đẹp. Về sau, họ có em bé, và cuộc sống trở nên bận rộn, mệt mỏi. Như bao cặp đôi, đôi khi họ cãi nhau vì những chuyện nhỏ, và một đêm nọ họ cãi nhau to. Nhưng vì thật lòng yêu nhau, họ bình tĩnh lại, xin lỗi và làm hòa. Năm này qua năm khác, họ kỷ niệm ngày cưới, nâng đỡ nhau và cùng nhau già đi. Câu chuyện của họ cho thấy tình yêu thật sự không phải lúc nào cũng hoàn hảo — nó cần sự kiên nhẫn, bao dung và rất nhiều nỗ lực."
+  }
  }
 ];

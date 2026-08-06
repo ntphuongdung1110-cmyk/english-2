@@ -362,5 +362,15 @@ module.exports = {
   "stink": { d: "To have a strong, very unpleasant smell.", x: "The garbage stinks in the summer heat." },
   "flavor": { d: "The particular taste of a food or drink.", x: "My favorite ice cream flavor is mango." },
   "smell": { d: "To notice or give off a scent through your nose.", x: "These flowers smell wonderful." },
-  "taste": { d: "To notice the flavor of food in your mouth, or to have a particular flavor.", x: "This soup tastes delicious." }
+  "taste": { d: "To notice the flavor of food in your mouth, or to have a particular flavor.", x: "This soup tastes delicious." },
+
+  // ---- Romance ----
+  "fall in love (with someone)": { d: "To begin to feel deep romantic love for someone.", x: "I fell in love with her the first time we met." },
+  "get married / marry (someone)": { d: "To become someone's husband or wife in an official ceremony.", x: "They got married last spring." },
+  "have a crush on (someone)": { d: "To have a strong but often shy romantic interest in someone.", x: "I had a crush on a classmate in high school." },
+  "flirt (with someone)": { d: "To behave in a playful way that shows romantic interest in someone.", x: "He was flirting with the waitress all evening." },
+  "hit on (someone)": { d: "To show someone clearly that you find them attractive; an informal way to say 'flirt with'.", x: "Someone tried to hit on me at the party." },
+  "fall out of love": { d: "To gradually stop loving someone you used to love.", x: "Sadly, some couples slowly fall out of love." },
+  "ideal partner": { d: "The kind of husband, wife, or life companion you think would be perfect for you.", x: "My ideal partner is kind and honest." },
+  "superficial": { d: "Caring only about surface things like looks, not about deeper qualities.", x: "A relationship based only on looks is too superficial." }
 };
