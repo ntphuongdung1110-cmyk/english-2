@@ -8385,5 +8385,306 @@ window.ONTAP = [
    "en": "Here is a modern love story. A man and a woman meet at a party, and he flirts with her a little. Soon they fall in love and start dating. After a few years, they decide to get married, and everyone celebrates their beautiful wedding. Later, they have a baby, and life becomes busy and tiring. Like every couple, they sometimes argue about small things, and one night they have a big fight. But because they truly love each other, they calm down, say sorry, and make up. Year after year, they celebrate their anniversary, support each other, and grow old together. Their story shows that real love is not always perfect — it takes patience, forgiveness, and a lot of effort.",
    "vi": "Đây là một câu chuyện tình hiện đại. Một chàng trai và một cô gái gặp nhau ở một bữa tiệc, và anh tán tỉnh cô một chút. Chẳng bao lâu họ phải lòng nhau và bắt đầu hẹn hò. Sau vài năm, họ quyết định kết hôn, và mọi người chung vui trong một đám cưới đẹp. Về sau, họ có em bé, và cuộc sống trở nên bận rộn, mệt mỏi. Như bao cặp đôi, đôi khi họ cãi nhau vì những chuyện nhỏ, và một đêm nọ họ cãi nhau to. Nhưng vì thật lòng yêu nhau, họ bình tĩnh lại, xin lỗi và làm hòa. Năm này qua năm khác, họ kỷ niệm ngày cưới, nâng đỡ nhau và cùng nhau già đi. Câu chuyện của họ cho thấy tình yêu thật sự không phải lúc nào cũng hoàn hảo — nó cần sự kiên nhẫn, bao dung và rất nhiều nỗ lực."
   }
+ },
+ {
+  "icon": "🩺",
+  "name": "Health / Sức khỏe & đi khám bệnh",
+  "intro": "Từ vựng về sức khỏe, triệu chứng và đi khám bác sĩ. Lưu ý: nói bệnh/triệu chứng dùng 'have' — I HAVE a fever / a cold / a headache (KHÔNG 'I am fever'). Trả lời theo mẫu: Trả lời → Lý do → Ví dụ → Ý thêm.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "fever",
+    "v": "sốt",
+    "x": "I have a high fever and feel very weak.",
+    "ip": "/ˈfiːvə/",
+    "d": "A higher than normal body temperature of a person (or, generally, a mammal), usually caused by disease."
+   },
+   {
+    "s": 1,
+    "e": "sore throat",
+    "v": "đau họng",
+    "x": "I can't talk much because I have a sore throat.",
+    "ip": "/sɔː ˈθɹəʊt/",
+    "d": "Pain or soreness in your throat, often when you have a cold."
+   },
+   {
+    "e": "stuffy nose",
+    "v": "nghẹt mũi",
+    "x": "My nose is stuffy, so I can't breathe well.",
+    "ip": "/ˈstʌfi nəʊz/",
+    "d": "A blocked nose that makes it hard to breathe."
+   },
+   {
+    "e": "runny nose",
+    "v": "sổ mũi, chảy nước mũi",
+    "x": "I have a runny nose and keep sneezing.",
+    "ip": "/ˈɹʌni nəʊz/",
+    "d": "A nose that keeps dripping with liquid, often with a cold."
+   },
+   {
+    "s": 1,
+    "e": "cough",
+    "v": "ho",
+    "x": "I've had a bad cough for three days.",
+    "ip": "/kɑf/",
+    "d": "A sudden, usually noisy expulsion of air from the lungs, often involuntary."
+   },
+   {
+    "e": "headache",
+    "v": "đau đầu",
+    "x": "I have a terrible headache today.",
+    "ip": "/ˈhɛdeɪk/",
+    "d": "A nuisance or unpleasant problem."
+   },
+   {
+    "e": "throw up / vomit",
+    "v": "nôn, ói",
+    "x": "He felt so sick that he threw up.",
+    "ip": "/θɹəʊ ap/",
+    "d": "To bring food back up from your stomach through your mouth."
+   },
+   {
+    "e": "diarrhea",
+    "v": "tiêu chảy",
+    "x": "I had diarrhea after eating street food.",
+    "ip": "/ˌdaɪ.əˈɹiː.ə/",
+    "d": "A gastrointestinal disorder characterized by frequent and very fluid or watery bowel movements."
+   },
+   {
+    "e": "food poisoning",
+    "v": "ngộ độc thực phẩm",
+    "x": "The whole family got food poisoning from the seafood.",
+    "d": "Illness caused by eating food that is bad or contaminated."
+   },
+   {
+    "e": "allergic reaction",
+    "v": "phản ứng dị ứng",
+    "x": "She had an allergic reaction to the medicine.",
+    "ip": "/ə.ˈlɜː.dʒɪk ɹiˈækʃən/",
+    "d": "The body's bad response to something it is allergic to, like a rash or swelling."
+   },
+   {
+    "e": "hangover",
+    "v": "mệt/nhức đầu sau khi uống nhiều rượu",
+    "x": "I had a bad hangover the morning after the party.",
+    "ip": "/ˈhæŋəʊvə/",
+    "d": "The headache and sick feeling you get the day after drinking too much alcohol."
+   },
+   {
+    "s": 1,
+    "e": "healthy",
+    "v": "khỏe mạnh, tốt cho sức khỏe",
+    "x": "Eating vegetables keeps you healthy.",
+    "ip": "/ˈhɛl.θi/",
+    "d": "Enjoying health and vigor of body, mind, or spirit: well."
+   },
+   {
+    "s": 1,
+    "e": "unhealthy",
+    "v": "không lành mạnh, có hại sức khỏe",
+    "x": "Eating fast food every day is very unhealthy.",
+    "ip": "/ʌnˈhɛl.θi/",
+    "d": "Bad for your health, or not in good health."
+   },
+   {
+    "s": 1,
+    "e": "symptoms",
+    "v": "triệu chứng",
+    "x": "Fever and a cough are common symptoms of the flu.",
+    "ip": "/ˈsɪmptəmz/",
+    "d": "Signs that show you are ill, such as fever, pain, or a cough."
+   },
+   {
+    "e": "diagnosis",
+    "v": "chẩn đoán (danh từ)",
+    "x": "The doctor's diagnosis was just a common cold.",
+    "ip": "/daɪəɡˈnəʊsɪs/",
+    "d": "A doctor's decision about what illness a person has."
+   },
+   {
+    "s": 1,
+    "e": "surgery",
+    "v": "phẫu thuật",
+    "x": "He needs surgery on his knee.",
+    "ip": "/ˈsɜːdʒəɹi/",
+    "d": "A procedure involving major incisions to remove, repair, or replace a part of a body."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🩺 Từ vựng y tế & cơ thể (tra cứu)",
+    "rows": [
+     {
+      "e": "doctor / patient",
+      "v": "bác sĩ / bệnh nhân",
+      "a": "The doctor examined the patient carefully."
+     },
+     {
+      "e": "bone / muscle / organ / blood",
+      "v": "xương / cơ / nội tạng / máu",
+      "a": "The heart is an important organ; it pumps blood."
+     },
+     {
+      "e": "diagnose (v) / diagnosis (n)",
+      "v": "chẩn đoán (động từ / danh từ)",
+      "a": "The doctor diagnosed him with the flu."
+     },
+     {
+      "e": "pregnant",
+      "v": "mang thai",
+      "a": "She is seven months pregnant."
+     },
+     {
+      "e": "surgery / plastic surgery",
+      "v": "phẫu thuật / phẫu thuật thẩm mỹ",
+      "a": "He had surgery on his knee last year."
+     },
+     {
+      "e": "prescription / medicine / pill",
+      "v": "đơn thuốc / thuốc / viên thuốc",
+      "a": "The doctor gave me a prescription for some medicine."
+     }
+    ]
+   },
+   {
+    "title": "💬 Ở phòng khám (cụm hay dùng)",
+    "rows": [
+     {
+      "e": "I don't feel well. / I feel sick.",
+      "v": "Mình thấy không khỏe / buồn nôn",
+      "a": "Doctor, I don't feel well today."
+     },
+     {
+      "e": "I have a fever / a headache / a sore throat.",
+      "v": "Mình bị sốt / đau đầu / đau họng",
+      "a": "I have a fever and a sore throat."
+     },
+     {
+      "e": "What are your symptoms?",
+      "v": "Bạn có triệu chứng gì? (bác sĩ hỏi)",
+      "a": "What are your symptoms exactly?"
+     },
+     {
+      "e": "How long have you had this?",
+      "v": "Bạn bị bao lâu rồi?",
+      "a": "How long have you had this cough?"
+     },
+     {
+      "e": "Take this medicine twice a day.",
+      "v": "Uống thuốc này 2 lần/ngày",
+      "a": "Take this medicine twice a day after meals."
+     },
+     {
+      "e": "Get well soon!",
+      "v": "Mau khỏe nhé!",
+      "a": "Here's your prescription. Get well soon!"
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How often do you go to the doctor?",
+    "a": "I don't go to the doctor very often — usually only once or twice a year, or when I'm really not feeling well. Luckily, I'm generally healthy, so most of the time rest and water are enough. But I do try to have a check-up once a year, just to be safe."
+   },
+   {
+    "q": "2. What do you think about the hospitals in Ho Chi Minh City?",
+    "a": "I think hospitals in Ho Chi Minh City are quite good, especially the big private ones, which have modern equipment and skilled doctors. The main problem is that public hospitals are often crowded, so you may have to wait a long time. Overall, I feel lucky that we have many options."
+   },
+   {
+    "q": "3. What do you usually do when you are sick?",
+    "a": "When I'm sick, I usually rest as much as I can, drink plenty of warm water, and take some basic medicine. If it's just a cold, I stay home and sleep. But if the symptoms get worse or last more than a few days, I go to the doctor to be safe."
+   },
+   {
+    "q": "4. How much do you usually pay when you go to the doctor?",
+    "a": "It really depends on where I go. At a public hospital with insurance, it can be quite cheap, sometimes just a small fee. At a private clinic, a visit might cost a few hundred thousand VND or more. I think paying a bit more for faster, more comfortable service is often worth it."
+   },
+   {
+    "q": "5. What do you do to prevent getting sick?",
+    "a": "To prevent getting sick, I try to eat healthy food, drink enough water, and get enough sleep. I also wash my hands often and exercise a few times a week. I'm not perfect, but I believe these small daily habits keep my immune system strong."
+   },
+   {
+    "q": "6. Have you ever broken a bone?",
+    "a": "Luckily, I've never broken a bone, and I hope I never do, because it looks really painful. The closest I came was a bad sprain once when I fell. Ever since then, I've been more careful, especially on slippery floors or stairs."
+   },
+   {
+    "q": "7. Have you ever had a hangover?",
+    "a": "Yes, I've had a hangover a couple of times after drinking too much at a party. It's a horrible feeling — a headache, a dry mouth, and no energy the whole next day. That's why now I try to drink slowly and have lots of water in between."
+   },
+   {
+    "q": "8. Would you ever get plastic surgery?",
+    "a": "Honestly, I probably wouldn't get plastic surgery just to change my looks, because I'd rather accept myself naturally. However, I wouldn't judge anyone who does — it's a personal choice. If it were for health reasons or after an accident, then of course I would consider it."
+   },
+   {
+    "q": "9. Do you think you are a healthy person?",
+    "a": "I'd say I'm fairly healthy, because I eat reasonably well, stay active, and rarely get seriously sick. That said, I know I could do better — I sometimes stay up too late and sit too long at work. So I'm healthy, but there's always room to improve."
+   },
+   {
+    "q": "10. What is something you do that is unhealthy?",
+    "a": "One unhealthy thing I do is spend too much time looking at screens, especially my phone before bed. It hurts my eyes and affects my sleep. I also drink a bit too much coffee. I know these habits aren't great, so I'm slowly trying to cut down."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Good morning, doctor. I haven't been feeling well for a few days.",
+    "v": "Chào bác sĩ. Mấy hôm nay em thấy không khỏe."
+   },
+   {
+    "p": "B",
+    "e": "I'm sorry to hear that. What are your symptoms?",
+    "v": "Rất tiếc khi nghe vậy. Em có triệu chứng gì?"
+   },
+   {
+    "p": "A",
+    "e": "I have a sore throat, a runny nose, and a mild fever. I also feel very tired.",
+    "v": "Em bị đau họng, sổ mũi và sốt nhẹ. Em cũng thấy rất mệt."
+   },
+   {
+    "p": "B",
+    "e": "How long have you had these symptoms?",
+    "v": "Em bị các triệu chứng này bao lâu rồi?"
+   },
+   {
+    "p": "A",
+    "e": "About three days now. They started after I got caught in the rain.",
+    "v": "Khoảng ba ngày rồi ạ. Bắt đầu sau khi em bị dính mưa."
+   },
+   {
+    "p": "B",
+    "e": "I see. Let me check your throat and temperature... It looks like you have a common cold.",
+    "v": "Vậy à. Để bác sĩ kiểm tra họng và nhiệt độ... Có vẻ em bị cảm thông thường."
+   },
+   {
+    "p": "A",
+    "e": "Oh, that's a relief. Is it serious?",
+    "v": "Ồ, nhẹ nhõm quá. Có nghiêm trọng không ạ?"
+   },
+   {
+    "p": "B",
+    "e": "No, don't worry. Get plenty of rest, drink warm water, and take this medicine twice a day.",
+    "v": "Không, đừng lo. Nghỉ ngơi nhiều, uống nước ấm, và uống thuốc này 2 lần mỗi ngày."
+   },
+   {
+    "p": "A",
+    "e": "Thank you so much, doctor. How soon will I feel better?",
+    "v": "Cảm ơn bác sĩ nhiều. Bao lâu thì em đỡ ạ?"
+   },
+   {
+    "p": "B",
+    "e": "You should feel better in a few days. If it gets worse, come back and see me. Get well soon!",
+    "v": "Vài ngày là em sẽ đỡ. Nếu nặng hơn thì quay lại khám nhé. Mau khỏe nha!"
+   }
+  ],
+  "tips": [
+   "Bệnh/triệu chứng dùng 'have': I HAVE a fever / a cold / a headache / a sore throat. TUYỆT ĐỐI không nói 'I am fever'.",
+   "Nói cảm giác không khỏe: I don't feel well · I feel sick · I'm not feeling well. ('feel sick' = thấy buồn nôn/khó chịu).",
+   "throw up = vomit = nôn ('throw up' thân mật hơn) · catch a cold = bị cảm · get well soon = mau khỏe nhé.",
+   "Trả lời câu sức khỏe theo mẫu: [trả lời] + because [lý do] + [ví dụ/thói quen] + [ý thêm] để câu đầy đủ, tự nhiên."
+  ],
+  "shadow": {
+   "en": "Health is the most important thing we have, but we often forget it until we get sick. I try to take care of my body every day. I eat healthy food, drink plenty of water, and get enough sleep. A few times a week, I exercise to keep my muscles and bones strong. When I catch a cold or have a fever, I rest and let my body recover instead of pushing myself too hard. I don't go to the doctor very often, but I have a check-up once a year, because it's better to prevent problems than to cure them. I also try to reduce stress, because the mind and body are connected. In the end, being healthy is not about being perfect — it's about the small, good choices we make every single day.",
+   "vi": "Sức khỏe là thứ quý giá nhất ta có, nhưng ta thường quên mất cho đến khi bị bệnh. Mình cố chăm sóc cơ thể mỗi ngày. Mình ăn đồ lành mạnh, uống nhiều nước và ngủ đủ giấc. Vài lần mỗi tuần, mình tập thể dục để giữ cơ và xương chắc khỏe. Khi bị cảm hay sốt, mình nghỉ ngơi và để cơ thể hồi phục thay vì cố quá sức. Mình không đi khám thường xuyên, nhưng mỗi năm mình kiểm tra sức khỏe một lần, vì phòng bệnh hơn chữa bệnh. Mình cũng cố giảm căng thẳng, vì tâm trí và cơ thể liên kết với nhau. Cuối cùng, khỏe mạnh không phải là hoàn hảo — mà là những lựa chọn nhỏ, tốt mà ta thực hiện mỗi ngày."
+  }
  }
 ];

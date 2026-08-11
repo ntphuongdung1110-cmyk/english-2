@@ -372,5 +372,17 @@ module.exports = {
   "hit on (someone)": { d: "To show someone clearly that you find them attractive; an informal way to say 'flirt with'.", x: "Someone tried to hit on me at the party." },
   "fall out of love": { d: "To gradually stop loving someone you used to love.", x: "Sadly, some couples slowly fall out of love." },
   "ideal partner": { d: "The kind of husband, wife, or life companion you think would be perfect for you.", x: "My ideal partner is kind and honest." },
-  "superficial": { d: "Caring only about surface things like looks, not about deeper qualities.", x: "A relationship based only on looks is too superficial." }
+  "superficial": { d: "Caring only about surface things like looks, not about deeper qualities.", x: "A relationship based only on looks is too superficial." },
+
+  // ---- Health ----
+  "sore throat": { d: "Pain or soreness in your throat, often when you have a cold.", x: "I can't talk much because I have a sore throat." },
+  "stuffy nose": { d: "A blocked nose that makes it hard to breathe.", x: "My nose is stuffy, so I can't breathe well." },
+  "runny nose": { d: "A nose that keeps dripping with liquid, often with a cold.", x: "I have a runny nose and keep sneezing." },
+  "throw up / vomit": { d: "To bring food back up from your stomach through your mouth.", x: "He felt so sick that he threw up." },
+  "food poisoning": { d: "Illness caused by eating food that is bad or contaminated.", x: "The whole family got food poisoning from the seafood." },
+  "allergic reaction": { d: "The body's bad response to something it is allergic to, like a rash or swelling.", x: "She had an allergic reaction to the medicine." },
+  "hangover": { d: "The headache and sick feeling you get the day after drinking too much alcohol.", x: "I had a bad hangover the morning after the party." },
+  "unhealthy": { d: "Bad for your health, or not in good health.", x: "Eating fast food every day is very unhealthy." },
+  "symptoms": { d: "Signs that show you are ill, such as fever, pain, or a cough.", x: "Fever and a cough are common symptoms of the flu." },
+  "diagnosis": { d: "A doctor's decision about what illness a person has.", x: "The doctor's diagnosis was just a common cold." }
 };
