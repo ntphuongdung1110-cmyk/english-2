@@ -384,5 +384,18 @@ module.exports = {
   "hangover": { d: "The headache and sick feeling you get the day after drinking too much alcohol.", x: "I had a bad hangover the morning after the party." },
   "unhealthy": { d: "Bad for your health, or not in good health.", x: "Eating fast food every day is very unhealthy." },
   "symptoms": { d: "Signs that show you are ill, such as fever, pain, or a cough.", x: "Fever and a cough are common symptoms of the flu." },
-  "diagnosis": { d: "A doctor's decision about what illness a person has.", x: "The doctor's diagnosis was just a common cold." }
+  "diagnosis": { d: "A doctor's decision about what illness a person has.", x: "The doctor's diagnosis was just a common cold." },
+
+  // ---- Character (definitions only, to keep examples per topic) ----
+  "selfless": { d: "Caring more about other people's needs than your own." },
+  "self-centered": { d: "Thinking only about yourself and not caring about others." },
+  "deliberate": { d: "Done on purpose after careful thought; slow and careful, not rushed." },
+  "tardy": { d: "Late; not arriving or happening on time (formal)." },
+  "courteous": { d: "Polite and respectful in the way you treat people." },
+  "humble": { d: "Not proud; not thinking you are better than other people." },
+  "arrogant": { d: "Thinking you are much better or more important than others." },
+  "moody": { d: "Having moods that change quickly and often, sometimes bad-tempered." },
+  "reserved": { d: "Quiet and shy; not showing your feelings or talking a lot." },
+  "punctual": { d: "Always arriving or doing things at the right, agreed time." },
+  "pessimistic": { d: "Expecting bad things to happen; seeing the negative side." }
 };

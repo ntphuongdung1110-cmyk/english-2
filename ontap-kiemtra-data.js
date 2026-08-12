@@ -8686,5 +8686,305 @@ window.ONTAP = [
    "en": "Health is the most important thing we have, but we often forget it until we get sick. I try to take care of my body every day. I eat healthy food, drink plenty of water, and get enough sleep. A few times a week, I exercise to keep my muscles and bones strong. When I catch a cold or have a fever, I rest and let my body recover instead of pushing myself too hard. I don't go to the doctor very often, but I have a check-up once a year, because it's better to prevent problems than to cure them. I also try to reduce stress, because the mind and body are connected. In the end, being healthy is not about being perfect — it's about the small, good choices we make every single day.",
    "vi": "Sức khỏe là thứ quý giá nhất ta có, nhưng ta thường quên mất cho đến khi bị bệnh. Mình cố chăm sóc cơ thể mỗi ngày. Mình ăn đồ lành mạnh, uống nhiều nước và ngủ đủ giấc. Vài lần mỗi tuần, mình tập thể dục để giữ cơ và xương chắc khỏe. Khi bị cảm hay sốt, mình nghỉ ngơi và để cơ thể hồi phục thay vì cố quá sức. Mình không đi khám thường xuyên, nhưng mỗi năm mình kiểm tra sức khỏe một lần, vì phòng bệnh hơn chữa bệnh. Mình cũng cố giảm căng thẳng, vì tâm trí và cơ thể liên kết với nhau. Cuối cùng, khỏe mạnh không phải là hoàn hảo — mà là những lựa chọn nhỏ, tốt mà ta thực hiện mỗi ngày."
   }
+ },
+ {
+  "icon": "🪞",
+  "name": "Character / Tính cách: phẩm chất & khuyết điểm",
+  "intro": "Tính từ mô tả tính cách, chia thành QUALITIES (phẩm chất tốt) và FLAWS (khuyết điểm). Học theo CẶP trái nghĩa để nhớ nhanh (arrogant↔humble). Tả người: 'She is + tính từ'. Trả lời theo mẫu: Trả lời → Lý do → Ví dụ → Ý thêm.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "clever",
+    "v": "thông minh, khôn khéo",
+    "x": "She's clever and learns new things quickly.",
+    "ip": "/ˈklɛvɚ/",
+    "d": "Resourceful, sometimes to the point of cunning."
+   },
+   {
+    "s": 1,
+    "e": "outgoing",
+    "v": "hướng ngoại, hòa đồng",
+    "x": "He's outgoing and makes friends easily.",
+    "d": "Extraverted: talkative, friendly, and social, especially with respect to meeting new people easily and comfortably."
+   },
+   {
+    "s": 1,
+    "e": "optimistic",
+    "v": "lạc quan",
+    "x": "She stays optimistic even in hard times.",
+    "ip": "/ˌɒptɪˈmɪstɪk/",
+    "d": "Expecting the best in all possible ways."
+   },
+   {
+    "s": 1,
+    "e": "punctual",
+    "v": "đúng giờ",
+    "x": "He's always punctual and never keeps people waiting.",
+    "ip": "/ˈpʌŋktjʊəl/",
+    "d": "Always arriving or doing things at the right, agreed time."
+   },
+   {
+    "e": "selfless",
+    "v": "vị tha, không ích kỷ",
+    "x": "She's selfless and always helps others first.",
+    "d": "Caring more about other people's needs than your own."
+   },
+   {
+    "s": 1,
+    "e": "humble",
+    "v": "khiêm tốn",
+    "x": "Even after his success, he stayed humble.",
+    "ip": "/ˈhʌmbəl/",
+    "d": "Not proud; not thinking you are better than other people."
+   },
+   {
+    "e": "courteous",
+    "v": "lịch sự, nhã nhặn (= polite)",
+    "x": "The staff were courteous and helpful.",
+    "ip": "/ˈkɜːti.əs/",
+    "d": "Polite and respectful in the way you treat people."
+   },
+   {
+    "e": "deliberate",
+    "v": "cân nhắc kỹ, thận trọng, có chủ đích",
+    "x": "She is deliberate and thinks carefully before deciding.",
+    "d": "Done on purpose after careful thought; slow and careful, not rushed."
+   },
+   {
+    "s": 1,
+    "e": "arrogant",
+    "v": "kiêu ngạo, tự phụ",
+    "x": "He's so arrogant that he thinks he's always right.",
+    "ip": "/ˈæɹəɡənt/",
+    "d": "Thinking you are much better or more important than others."
+   },
+   {
+    "s": 1,
+    "e": "moody",
+    "v": "hay thay đổi tâm trạng, ẩm ương",
+    "x": "She can be moody when she's tired.",
+    "ip": "/ˈmuːdi/",
+    "d": "Having moods that change quickly and often, sometimes bad-tempered."
+   },
+   {
+    "s": 1,
+    "e": "pessimistic",
+    "v": "bi quan",
+    "x": "Try not to be so pessimistic about the future.",
+    "ip": "/ˌpɛ.səˈmɪs.tɪk/",
+    "d": "Expecting bad things to happen; seeing the negative side."
+   },
+   {
+    "s": 1,
+    "e": "rude",
+    "v": "thô lỗ, bất lịch sự",
+    "x": "It's rude to interrupt when someone is talking.",
+    "ip": "/ɹʉːd/",
+    "d": "Somewhat obscene, pornographic, offensive."
+   },
+   {
+    "e": "reserved",
+    "v": "kín đáo, dè dặt",
+    "x": "He's quite reserved and doesn't talk much at parties.",
+    "ip": "/ɹɪˈzɜːvd/",
+    "d": "Quiet and shy; not showing your feelings or talking a lot."
+   },
+   {
+    "e": "self-centered",
+    "v": "ích kỷ, chỉ nghĩ đến bản thân",
+    "x": "A self-centered person rarely thinks about others.",
+    "d": "Thinking only about yourself and not caring about others."
+   },
+   {
+    "e": "tardy",
+    "v": "hay trễ giờ (trang trọng)",
+    "x": "Being tardy every day gives a bad impression.",
+    "ip": "/ˈtɑːdi/",
+    "d": "Late; not arriving or happening on time (formal)."
+   }
+  ],
+  "extra": [
+   {
+    "title": "✅ Qualities (phẩm chất tốt) vs ❌ Flaws (khuyết điểm)",
+    "rows": [
+     {
+      "e": "✅ QUALITIES",
+      "v": "phẩm chất tốt: clever · outgoing · optimistic · punctual · selfless · humble · courteous · deliberate",
+      "a": "She's humble and always punctual — those are great qualities."
+     },
+     {
+      "e": "❌ FLAWS",
+      "v": "khuyết điểm/tật xấu: arrogant · moody · pessimistic · rude · self-centered · tardy",
+      "a": "He can be arrogant and rude — those are real flaws."
+     }
+    ]
+   },
+   {
+    "title": "🔄 Cặp trái nghĩa (từ phiếu)",
+    "rows": [
+     {
+      "e": "arrogant ↔ humble",
+      "v": "kiêu ngạo ↔ khiêm tốn",
+      "a": "He's not arrogant at all; he's very humble."
+     },
+     {
+      "e": "outgoing ↔ reserved",
+      "v": "hướng ngoại ↔ kín đáo/dè dặt",
+      "a": "I'm outgoing, but my brother is more reserved."
+     },
+     {
+      "e": "optimistic ↔ pessimistic",
+      "v": "lạc quan ↔ bi quan",
+      "a": "Try to be optimistic instead of pessimistic."
+     },
+     {
+      "e": "selfless ↔ self-centered",
+      "v": "vị tha ↔ ích kỷ",
+      "a": "A good leader is selfless, not self-centered."
+     },
+     {
+      "e": "punctual (on time) ↔ tardy (late)",
+      "v": "đúng giờ ↔ hay trễ",
+      "a": "She's always punctual, never tardy."
+     },
+     {
+      "e": "courteous = polite",
+      "v": "lịch sự, nhã nhặn",
+      "a": "The waiter was courteous and polite to everyone."
+     }
+    ]
+   },
+   {
+    "title": "🧑‍🏫 Nghề nào cần tính cách gì? (X should / shouldn't be…)",
+    "rows": [
+     {
+      "e": "A teacher should be patient",
+      "v": "vì học sinh học theo tốc độ thoải mái",
+      "a": "A teacher should be patient, because students learn at a comfortable speed."
+     },
+     {
+      "e": "A good friend should be honest & loyal",
+      "v": "để mình có thể tin tưởng",
+      "a": "A good friend should be honest and loyal, so you can trust them."
+     },
+     {
+      "e": "A policeman should be brave & fair",
+      "v": "và không nên tham nhũng",
+      "a": "A policeman should be brave and fair, and shouldn't be corrupt."
+     },
+     {
+      "e": "An influencer should be responsible",
+      "v": "vì nhiều người dõi theo họ",
+      "a": "An influencer should be responsible, because many people follow them."
+     },
+     {
+      "e": "A salesperson should be outgoing & courteous",
+      "v": "để khách thấy thoải mái",
+      "a": "A salesperson should be outgoing and courteous to make customers feel comfortable."
+     },
+     {
+      "e": "A bartender should be friendly & a good listener",
+      "v": "shouldn't be rude",
+      "a": "A bartender should be friendly and a good listener, and shouldn't be rude."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. What is your best character trait?",
+    "a": "I think my best character trait is that I'm patient. Even when things get stressful, I try to stay calm and think before I act. This helps me a lot at work, and it makes it easier for people to talk to me. Of course, I'm still working on my other qualities too."
+   },
+   {
+    "q": "2. Do you think many people change their personality at school or the workplace?",
+    "a": "Yes, I think many people do. At school or work, we often adjust our behavior to fit in or to look professional. For example, a shy person might act more confident in meetings. I believe our core character stays the same, but we show different sides in different places."
+   },
+   {
+    "q": "3. Did you choose your job because it matches your character? If yes, explain how.",
+    "a": "Yes, in a way I did. I work in quality control, and I'm naturally careful and detail-oriented, so the job suits me well. I enjoy finding problems and making things better. I think it's easier to do well when your job matches your personality."
+   },
+   {
+    "q": "4. Do you have any character traits that are different from your family's?",
+    "a": "Yes, a few. My family is quite reserved and quiet, but I'm a bit more outgoing and curious about new things. I think growing up, meeting different people, and learning English have all shaped me. Still, I share their honesty and hard-working nature."
+   },
+   {
+    "q": "5. Which flaws do you think are the most difficult to change? Which ones are the easiest?",
+    "a": "I think the hardest flaws to change are deep ones like being arrogant or very moody, because they come from how we see ourselves. The easiest are habits like being tardy or a little disorganized, because you can fix them with small daily effort and reminders."
+   },
+   {
+    "q": "6. When or where do people's character change the most?",
+    "a": "I think people's character changes the most during big life events — starting a first job, moving to a new city, or becoming a parent. These experiences push us out of our comfort zone. Hard times especially can make a person stronger, kinder, or sometimes more careful."
+   },
+   {
+    "q": "7. Is there anything about your personality you are trying to change?",
+    "a": "Yes, I'm trying to become more confident, especially when speaking in front of others. I sometimes doubt myself, so I practice a lot and remind myself that mistakes are normal. I'm also trying to be less of a perfectionist, because it can make me stressed."
+   },
+   {
+    "q": "8. What character traits do you think Vietnamese people usually have?",
+    "a": "I think Vietnamese people are often hard-working, friendly, and family-oriented. Many are also resilient and optimistic, even in difficult times. Of course, every person is different, so these are just general traits — you can't put everyone in the same box."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "So, what's your new manager like?",
+    "v": "Vậy sếp mới của bạn thế nào?"
+   },
+   {
+    "p": "B",
+    "e": "Honestly, she's great. She's really clever and always punctual, which I respect.",
+    "v": "Thật lòng thì tuyệt lắm. Chị ấy rất thông minh và luôn đúng giờ, mình nể điểm đó."
+   },
+   {
+    "p": "A",
+    "e": "That's a good start. Is she easy to talk to?",
+    "v": "Khởi đầu tốt đó. Chị ấy có dễ nói chuyện không?"
+   },
+   {
+    "p": "B",
+    "e": "Yeah, she's outgoing and courteous, so the whole team feels comfortable around her.",
+    "v": "Có, chị ấy hòa đồng và nhã nhặn, nên cả nhóm thấy thoải mái khi ở cạnh."
+   },
+   {
+    "p": "A",
+    "e": "Nice. Does she have any flaws? Nobody's perfect.",
+    "v": "Hay đó. Chị ấy có khuyết điểm gì không? Chẳng ai hoàn hảo mà."
+   },
+   {
+    "p": "B",
+    "e": "Well, she can be a bit moody when she's under pressure, but she never takes it out on us.",
+    "v": "À, chị ấy hơi ẩm ương khi bị áp lực, nhưng không bao giờ trút lên tụi mình."
+   },
+   {
+    "p": "A",
+    "e": "That's not bad at all. My old boss was arrogant and rude — this sounds much better.",
+    "v": "Vậy là ổn quá rồi. Sếp cũ của mình kiêu ngạo và thô lỗ — nghe sếp bạn khá hơn nhiều."
+   },
+   {
+    "p": "B",
+    "e": "Definitely. I think a good leader should be humble and patient, and she really is.",
+    "v": "Chắc chắn. Mình nghĩ người lãnh đạo giỏi nên khiêm tốn và kiên nhẫn, và chị ấy đúng vậy."
+   },
+   {
+    "p": "A",
+    "e": "You're lucky. A boss's character can completely change how you feel about your job.",
+    "v": "Bạn may đó. Tính cách của sếp có thể thay đổi hoàn toàn cảm nhận của bạn về công việc."
+   },
+   {
+    "p": "B",
+    "e": "Exactly. Come on, let me introduce you sometime.",
+    "v": "Chính xác. Thôi nào, hôm nào mình giới thiệu bạn với chị ấy."
+   }
+  ],
+  "tips": [
+   "Qualities = phẩm chất tốt (positive) · Flaws = khuyết điểm (negative). Tả người: 'She IS humble / arrogant' (dùng be + tính từ).",
+   "Học tính từ theo CẶP trái nghĩa để nhớ nhanh: arrogant↔humble · optimistic↔pessimistic · selfless↔self-centered · outgoing↔reserved.",
+   "courteous = polite (lịch sự) · punctual = on time (đúng giờ) · tardy = late (trễ, trang trọng).",
+   "Nói nghề cần tính cách gì: 'A [nghề] should be [tính tốt] because…' / 'shouldn't be [tính xấu]'. VD: A teacher should be patient."
+  ],
+  "shadow": {
+   "en": "Everyone has a mix of qualities and flaws, and that's what makes us human. Some of my best qualities are that I'm patient, honest, and hard-working. I try to be humble and treat people with respect, because I believe kindness matters more than being clever or successful. Of course, I have flaws too. I can be a little stubborn, and sometimes I worry too much about small details. But I don't think character is fixed forever. With effort and self-awareness, we can slowly improve our weak points and become better versions of ourselves. In the end, good character is not about being perfect — it's about being kind, honest, and willing to grow.",
+   "vi": "Ai cũng có cả phẩm chất tốt lẫn khuyết điểm, và chính điều đó khiến ta là con người. Vài điểm tốt nhất của mình là kiên nhẫn, trung thực và chăm chỉ. Mình cố sống khiêm tốn và tôn trọng mọi người, vì mình tin lòng tốt quan trọng hơn sự thông minh hay thành công. Dĩ nhiên mình cũng có khuyết điểm. Mình đôi khi hơi bướng, và thỉnh thoảng lo lắng quá nhiều về những chi tiết nhỏ. Nhưng mình không nghĩ tính cách là cố định mãi mãi. Với nỗ lực và sự tự nhận thức, ta có thể dần cải thiện điểm yếu và trở thành phiên bản tốt hơn của chính mình. Cuối cùng, tính cách tốt không phải là hoàn hảo — mà là tử tế, trung thực và sẵn sàng thay đổi."
+  }
  }
 ];
