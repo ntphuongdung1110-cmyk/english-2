@@ -1272,8 +1272,8 @@ window.ONTAP = [
     "e": "traffic jam",
     "v": "kẹt xe",
     "ip": "/ˈtɹæfɪk ˈdʒæːm/",
-    "d": "A situation in which road traffic accumulates until it is stationary or very slow.",
-    "x": "We were stuck in a traffic jam for an hour."
+    "d": "A long line of vehicles that can barely move because the road is too crowded.",
+    "x": "I was stuck in a traffic jam for an hour."
    },
    {
     "s": 1,
@@ -8985,6 +8985,306 @@ window.ONTAP = [
   "shadow": {
    "en": "Everyone has a mix of qualities and flaws, and that's what makes us human. Some of my best qualities are that I'm patient, honest, and hard-working. I try to be humble and treat people with respect, because I believe kindness matters more than being clever or successful. Of course, I have flaws too. I can be a little stubborn, and sometimes I worry too much about small details. But I don't think character is fixed forever. With effort and self-awareness, we can slowly improve our weak points and become better versions of ourselves. In the end, good character is not about being perfect — it's about being kind, honest, and willing to grow.",
    "vi": "Ai cũng có cả phẩm chất tốt lẫn khuyết điểm, và chính điều đó khiến ta là con người. Vài điểm tốt nhất của mình là kiên nhẫn, trung thực và chăm chỉ. Mình cố sống khiêm tốn và tôn trọng mọi người, vì mình tin lòng tốt quan trọng hơn sự thông minh hay thành công. Dĩ nhiên mình cũng có khuyết điểm. Mình đôi khi hơi bướng, và thỉnh thoảng lo lắng quá nhiều về những chi tiết nhỏ. Nhưng mình không nghĩ tính cách là cố định mãi mãi. Với nỗ lực và sự tự nhận thức, ta có thể dần cải thiện điểm yếu và trở thành phiên bản tốt hơn của chính mình. Cuối cùng, tính cách tốt không phải là hoàn hảo — mà là tử tế, trung thực và sẵn sàng thay đổi."
+  }
+ },
+ {
+  "icon": "🛵",
+  "name": "Driving in Vietnam / Lái xe ở Việt Nam",
+  "intro": "Từ vựng giao thông, lỗi vi phạm và bộ phận xe máy. Lưu ý: xe máy/xe đạp dùng 'ride' (ride a motorbike), ô tô dùng 'drive' (drive a car). Trả lời theo mẫu: Trả lời → Lý do → Ví dụ → Ý thêm.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "street",
+    "v": "đường phố",
+    "x": "Cross the street at the crosswalk.",
+    "ip": "/stɹiːt/",
+    "d": "A paved part of road, usually in a village or a town."
+   },
+   {
+    "e": "lane",
+    "v": "làn đường",
+    "x": "Stay in your lane while driving.",
+    "ip": "/leɪn/",
+    "d": "The homestretch."
+   },
+   {
+    "e": "sidewalk",
+    "v": "vỉa hè",
+    "x": "Pedestrians should walk on the sidewalk.",
+    "ip": "/ˈsaɪdwɔːk/",
+    "d": "The paved path at the side of a street where people walk."
+   },
+   {
+    "e": "alley",
+    "v": "hẻm, ngõ",
+    "x": "My house is in a small alley off the main street.",
+    "ip": "/ˈæ.li/",
+    "d": "A narrow street or passage between or behind buildings."
+   },
+   {
+    "s": 1,
+    "e": "intersection",
+    "v": "giao lộ, ngã tư",
+    "x": "Stop at the intersection when the light is red.",
+    "ip": "/ˈɪntəɹˌsɛkʃən/",
+    "d": "A place where two or more roads cross each other."
+   },
+   {
+    "e": "roundabout",
+    "v": "vòng xoay, bùng binh",
+    "x": "Slow down as you enter the roundabout.",
+    "ip": "/ˈɹaʊndəˌbaʊt/",
+    "d": "A circular junction where traffic moves around a central island."
+   },
+   {
+    "s": 1,
+    "e": "traffic jam",
+    "v": "kẹt xe, tắc đường",
+    "x": "I was stuck in a traffic jam for an hour.",
+    "ip": "/ˈtɹæfɪk ˈdʒæːm/",
+    "d": "A long line of vehicles that can barely move because the road is too crowded."
+   },
+   {
+    "s": 1,
+    "e": "get pulled over",
+    "v": "bị cảnh sát yêu cầu dừng xe",
+    "x": "I got pulled over for speeding.",
+    "ip": "/ɡɛt pʊld ˈəʊ.və(ɹ)/",
+    "d": "To be signalled by the police to stop your vehicle at the side of the road."
+   },
+   {
+    "s": 1,
+    "e": "helmet",
+    "v": "mũ bảo hiểm",
+    "x": "Always wear a helmet when you ride a motorbike.",
+    "ip": "/ˈhɛlmət/",
+    "d": "A protective head covering, usually part of armour."
+   },
+   {
+    "s": 1,
+    "e": "seatbelt",
+    "v": "dây an toàn",
+    "x": "Fasten your seatbelt before the car moves.",
+    "ip": "/ˈsiːtbɛlt/",
+    "d": "A restraining belt attached to a vehicle seat which is fastened around passengers and which is intended to keep an occupant in place so as to avoid injuries in accidents where the occupant could be thrown against a solid object."
+   },
+   {
+    "e": "turn signal",
+    "v": "đèn xi-nhan",
+    "x": "Use your turn signal before you turn.",
+    "ip": "/tɜːn ˈsɪɡnəl/",
+    "d": "The flashing light that shows which way a vehicle is about to turn."
+   },
+   {
+    "e": "speeding",
+    "v": "chạy quá tốc độ",
+    "x": "He got a ticket for speeding.",
+    "ip": "/ˈspiːdɪŋ/",
+    "d": "Driving faster than the legal speed limit."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🚨 \"Do you know why I pulled you over?\" — Lỗi giao thông",
+    "rows": [
+     {
+      "e": "speeding",
+      "v": "chạy quá tốc độ",
+      "a": "You were speeding in a school zone."
+     },
+     {
+      "e": "no helmet",
+      "v": "không đội mũ bảo hiểm",
+      "a": "You'll get a fine for riding with no helmet."
+     },
+     {
+      "e": "no turn signal",
+      "v": "không bật xi-nhan",
+      "a": "He turned with no turn signal and almost caused an accident."
+     },
+     {
+      "e": "no lights",
+      "v": "không bật đèn (ban đêm)",
+      "a": "Riding at night with no lights is very dangerous."
+     },
+     {
+      "e": "running a red (light)",
+      "v": "vượt đèn đỏ",
+      "a": "She got pulled over for running a red light."
+     },
+     {
+      "e": "driving in the wrong lane",
+      "v": "đi sai làn đường",
+      "a": "Don't drive in the wrong lane; it's dangerous."
+     },
+     {
+      "e": "too many passengers",
+      "v": "chở quá số người quy định",
+      "a": "Three adults on one motorbike is too many passengers."
+     },
+     {
+      "e": "driving drunk",
+      "v": "lái xe khi say rượu",
+      "a": "Driving drunk can kill you and others — never do it."
+     }
+    ]
+   },
+   {
+    "title": "🛵 Parts of a motorbike — Bộ phận xe máy",
+    "rows": [
+     {
+      "e": "handlebars",
+      "v": "tay lái",
+      "a": "Hold the handlebars firmly with both hands."
+     },
+     {
+      "e": "engine",
+      "v": "động cơ, máy",
+      "a": "The engine won't start this morning."
+     },
+     {
+      "e": "wheels / tires",
+      "v": "bánh xe / lốp xe",
+      "a": "One of my tires is flat, so I can't ride."
+     },
+     {
+      "e": "brakes",
+      "v": "phanh, thắng",
+      "a": "Check your brakes before a long trip."
+     },
+     {
+      "e": "kickstand",
+      "v": "chân chống",
+      "a": "Put the kickstand down when you park."
+     },
+     {
+      "e": "headlight / taillights",
+      "v": "đèn trước (pha) / đèn sau",
+      "a": "Turn on your headlight when it gets dark."
+     },
+     {
+      "e": "signal lights",
+      "v": "đèn xi-nhan",
+      "a": "Your left signal light isn't working."
+     },
+     {
+      "e": "exhaust",
+      "v": "ống xả (pô xe)",
+      "a": "Be careful — the exhaust gets very hot."
+     },
+     {
+      "e": "license plate",
+      "v": "biển số xe",
+      "a": "The police checked his license plate."
+     },
+     {
+      "e": "ignition",
+      "v": "ổ khóa / khởi động",
+      "a": "Put the key in the ignition and start the bike."
+     },
+     {
+      "e": "clutch",
+      "v": "tay côn",
+      "a": "You use the clutch to change gears."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Do you know how to drive? Who taught you how to drive?",
+    "a": "Yes, I know how to ride a motorbike, which is the main way to get around in Vietnam. My father taught me when I was a teenager, in a quiet area near my house. It was scary at first, but with practice I got comfortable. I can drive a car too, though I prefer my motorbike in the city."
+   },
+   {
+    "q": "2. Do you always use a seatbelt when you travel by car? Why or why not?",
+    "a": "Yes, I always use a seatbelt when I'm in a car, because it's the simplest way to protect myself in an accident. It only takes a second to put on, and it's also the law. I think safety should never be optional, even for a short trip."
+   },
+   {
+    "q": "3. What is the legal driving age in Vietnam? When do you think is the best age to learn?",
+    "a": "In Vietnam, you can legally ride a motorbike over 50cc and drive a car at eighteen. I think eighteen is a good age to learn, because a person is mature enough to stay calm and follow the rules. Being responsible matters more than just being old enough."
+   },
+   {
+    "q": "4. Would you prefer to drive a car or a motorcycle? What are the advantages and disadvantages?",
+    "a": "In the city, I prefer a motorbike, because it's cheap, easy to park, and quick through traffic. The downside is that it's less safe and you get wet in the rain. A car is safer and more comfortable, but it's expensive and hard to park in narrow streets."
+   },
+   {
+    "q": "5. Are women better drivers than men? Why or why not?",
+    "a": "Honestly, I don't think it's about gender. Some women drive more carefully, while some men are more confident, but both can be good or bad drivers. In my opinion, a good driver is anyone who stays calm, follows the rules, and respects other people on the road."
+   },
+   {
+    "q": "6. Which city or district in Vietnam do you think has the worst traffic?",
+    "a": "I think Ho Chi Minh City and Hanoi have the worst traffic, especially during rush hour. The districts near the center get very crowded, and a short trip can take a long time. The mix of motorbikes, cars, and buses feels chaotic, but somehow it still works."
+   },
+   {
+    "q": "7. Have you ever been pulled over by the police? How did you feel?",
+    "a": "Yes, I've been pulled over once for a minor thing. I felt nervous and my heart was beating fast, even though I hadn't done anything serious. I stayed calm and polite, showed my papers, and it was over quickly. Since then, I always double-check my lights and helmet."
+   },
+   {
+    "q": "8. What rules would you break if you were late for work or school?",
+    "a": "If I were really late, I might be tempted to speed up a little or take a shortcut through a small alley. But honestly, I try not to break the rules, because an accident would make me even later. I'd rather leave home earlier and arrive safely."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Good afternoon. Do you know why I pulled you over?",
+    "v": "Chào buổi chiều. Anh/chị có biết vì sao tôi yêu cầu dừng xe không?"
+   },
+   {
+    "p": "B",
+    "e": "Um, no, officer. I'm not sure. Did I do something wrong?",
+    "v": "Ơ, không ạ, thưa anh. Em không chắc. Em có làm gì sai sao ạ?"
+   },
+   {
+    "p": "A",
+    "e": "You ran a red light back at the intersection.",
+    "v": "Anh/chị đã vượt đèn đỏ ở ngã tư lúc nãy."
+   },
+   {
+    "p": "B",
+    "e": "Oh, I'm so sorry. I didn't see it change. I was in a bit of a hurry.",
+    "v": "Ôi, em xin lỗi. Em không thấy đèn chuyển. Em hơi vội một chút."
+   },
+   {
+    "p": "A",
+    "e": "I understand, but running a red light is dangerous. May I see your license and registration?",
+    "v": "Tôi hiểu, nhưng vượt đèn đỏ rất nguy hiểm. Cho tôi xem bằng lái và giấy tờ xe được không?"
+   },
+   {
+    "p": "B",
+    "e": "Of course, here you are. Is it a big fine?",
+    "v": "Vâng ạ, đây ạ. Có bị phạt nặng không ạ?"
+   },
+   {
+    "p": "A",
+    "e": "This time I'll just give you a warning. Please slow down and pay attention to the lights.",
+    "v": "Lần này tôi chỉ nhắc nhở thôi. Hãy chạy chậm lại và chú ý đèn tín hiệu."
+   },
+   {
+    "p": "B",
+    "e": "Thank you so much, officer. I really appreciate it. I'll be more careful.",
+    "v": "Cảm ơn anh rất nhiều. Em rất biết ơn. Em sẽ cẩn thận hơn."
+   },
+   {
+    "p": "A",
+    "e": "Good. Always wear your helmet and use your turn signals too. Drive safely.",
+    "v": "Tốt. Luôn đội mũ bảo hiểm và nhớ bật xi-nhan nữa nhé. Lái xe an toàn."
+   },
+   {
+    "p": "B",
+    "e": "I will. Thank you, and have a good day!",
+    "v": "Em sẽ ạ. Cảm ơn anh, chúc anh một ngày tốt lành!"
+   }
+  ],
+  "tips": [
+   "Phương tiện: RIDE a motorbike / a bike (xe máy, xe đạp) · DRIVE a car (ô tô). Người Việt hay quên: xe máy dùng 'ride'.",
+   "Lỗi giao thông: (get) pulled over = bị CSGT yêu cầu dừng · run a red light = vượt đèn đỏ · speeding = chạy quá tốc độ · driving drunk = lái xe khi say.",
+   "An toàn: wear a helmet (đội mũ bảo hiểm) · use a turn signal (bật xi-nhan) · fasten your seatbelt (thắt dây an toàn).",
+   "Trả lời theo mẫu: [trả lời] + because [lý do] + [ví dụ] + [ý thêm] để câu đầy đủ, tự nhiên."
+  ],
+  "shadow": {
+   "en": "Driving in Vietnam is a unique experience, especially in a big city like Ho Chi Minh City. The streets are full of motorbikes, cars, and bicycles, all moving together like a busy river. To newcomers, the traffic can look chaotic and even a little scary, but locals know how to flow with it. Most people ride motorbikes, because they're cheap and can slip through narrow alleys and heavy traffic jams. Of course, safety is very important. I always wear my helmet, use my turn signals, and try not to run red lights. Rush hour can be stressful, and a short trip sometimes takes a long time. Still, once you get used to it, driving here has its own rhythm, and it's the best way to explore every corner of the city.",
+   "vi": "Lái xe ở Việt Nam là một trải nghiệm rất đặc biệt, nhất là ở thành phố lớn như TP.HCM. Đường phố đầy xe máy, ô tô và xe đạp, tất cả cùng di chuyển như một dòng sông tấp nập. Với người mới đến, giao thông trông hỗn loạn và hơi đáng sợ, nhưng người bản địa biết cách hòa theo dòng chảy đó. Đa số đi xe máy, vì rẻ và có thể luồn qua các con hẻm nhỏ và những đoạn kẹt xe. Dĩ nhiên, an toàn rất quan trọng. Mình luôn đội mũ bảo hiểm, bật xi-nhan, và cố không vượt đèn đỏ. Giờ cao điểm có thể mệt mỏi, và một quãng đường ngắn đôi khi mất rất lâu. Nhưng khi đã quen, việc lái xe ở đây có nhịp điệu riêng, và đó là cách tuyệt nhất để khám phá mọi ngóc ngách của thành phố."
   }
  }
 ];

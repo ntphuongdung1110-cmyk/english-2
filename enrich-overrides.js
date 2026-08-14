@@ -397,5 +397,15 @@ module.exports = {
   "moody": { d: "Having moods that change quickly and often, sometimes bad-tempered." },
   "reserved": { d: "Quiet and shy; not showing your feelings or talking a lot." },
   "punctual": { d: "Always arriving or doing things at the right, agreed time." },
-  "pessimistic": { d: "Expecting bad things to happen; seeing the negative side." }
+  "pessimistic": { d: "Expecting bad things to happen; seeing the negative side." },
+
+  // ---- Driving in Vietnam ----
+  "traffic jam": { d: "A long line of vehicles that can barely move because the road is too crowded.", x: "I was stuck in a traffic jam for an hour." },
+  "get pulled over": { d: "To be signalled by the police to stop your vehicle at the side of the road.", x: "I got pulled over for speeding." },
+  "turn signal": { d: "The flashing light that shows which way a vehicle is about to turn.", x: "Use your turn signal before you turn." },
+  "speeding": { d: "Driving faster than the legal speed limit.", x: "He got a ticket for speeding." },
+  "roundabout": { d: "A circular junction where traffic moves around a central island.", x: "Slow down as you enter the roundabout." },
+  "sidewalk": { d: "The paved path at the side of a street where people walk.", x: "Pedestrians should walk on the sidewalk." },
+  "alley": { d: "A narrow street or passage between or behind buildings.", x: "My house is in a small alley off the main street." },
+  "intersection": { d: "A place where two or more roads cross each other.", x: "Stop at the intersection when the light is red." }
 };
