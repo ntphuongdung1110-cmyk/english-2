@@ -9600,5 +9600,286 @@ window.ONTAP = [
    "en": "Money is an important part of life, but I try not to let it control me. Every month, I earn my salary, and I try to spend it wisely. First, I save a little for the future and for financial security, because I never know what might happen. Then I pay for the things I need, like food, rent, and bills, and I keep some for the things I enjoy. I don't like wasting money, but I'm happy to be generous with my family and friends. Sometimes I donate to people in need, because sharing feels good. I believe money can't buy happiness, but being careful with it gives me freedom and peace of mind. In the end, it's not about how much you earn — it's about how wisely you use it.",
    "vi": "Tiền là một phần quan trọng của cuộc sống, nhưng mình cố không để nó điều khiển mình. Mỗi tháng, mình kiếm được lương, và mình cố tiêu một cách khôn ngoan. Trước tiên, mình để dành một ít cho tương lai và cho sự an toàn tài chính, vì mình không biết trước điều gì có thể xảy ra. Sau đó mình trả cho những thứ cần thiết như ăn uống, tiền nhà, hóa đơn, và giữ lại một phần cho những thứ mình thích. Mình không thích lãng phí tiền, nhưng sẵn lòng hào phóng với gia đình và bạn bè. Đôi khi mình quyên góp cho những người khó khăn, vì cho đi khiến mình thấy vui. Mình tin tiền không mua được hạnh phúc, nhưng biết chi tiêu cẩn thận cho mình sự tự do và bình yên trong lòng. Cuối cùng, vấn đề không phải là bạn kiếm được bao nhiêu — mà là bạn dùng nó khôn ngoan thế nào."
   }
+ },
+ {
+  "icon": "🧩",
+  "name": "Word Types & Chunks / Nhận biết từ loại & học theo cụm",
+  "intro": "Cách NHẬN BIẾT từ loại (danh/động/tính/trạng từ, giới từ…) qua ĐUÔI từ và VỊ TRÍ trong câu, cộng với mẹo HỌC THEO CỤM (chunks) để nhớ lâu và nói trôi. Không cần học từ lẻ — nhớ cả cụm.",
+  "extra": [
+   {
+    "title": "🔤 Nhận biết TỪ LOẠI qua dấu hiệu (đuôi & vị trí)",
+    "rows": [
+     {
+      "e": "Noun — danh từ",
+      "v": "người/vật/việc · đuôi -tion, -ment, -ness, -ity, -er/-or · đứng sau a/an/the",
+      "a": "The teacher shared some information."
+     },
+     {
+      "e": "Verb — động từ",
+      "v": "hành động/trạng thái · đứng sau chủ ngữ · đuôi -ize, -ify, -ate, -en",
+      "a": "She decided to organize the files."
+     },
+     {
+      "e": "Adjective — tính từ",
+      "v": "mô tả danh từ · đứng TRƯỚC danh từ hoặc sau 'to be' · đuôi -ful, -ous, -ive, -al, -y, -able",
+      "a": "It was a useful and beautiful gift."
+     },
+     {
+      "e": "Adverb — trạng từ",
+      "v": "mô tả động từ/tính từ · thường đuôi -ly · trả lời How/When/Where/How often",
+      "a": "He speaks English very carefully."
+     },
+     {
+      "e": "Preposition — giới từ",
+      "v": "chỉ nơi chốn/thời gian/quan hệ · đứng TRƯỚC danh từ",
+      "a": "I meet my friends at the café on Sunday."
+     },
+     {
+      "e": "Pronoun — đại từ",
+      "v": "thay cho danh từ",
+      "a": "Lan is my friend; she is very kind."
+     },
+     {
+      "e": "Conjunction — liên từ",
+      "v": "nối từ/mệnh đề",
+      "a": "I was tired, but I kept studying."
+     }
+    ]
+   },
+   {
+    "title": "📐 Vị trí trong câu (word order)",
+    "rows": [
+     {
+      "e": "(mạo từ) + TÍNH TỪ + DANH TỪ",
+      "v": "tính từ đứng TRƯỚC danh từ",
+      "a": "a beautiful house · strong coffee · a big mistake"
+     },
+     {
+      "e": "to be + TÍNH TỪ",
+      "v": "tính từ đứng sau to be",
+      "a": "The food is delicious. · She is tired."
+     },
+     {
+      "e": "Chủ ngữ + ĐỘNG TỪ + TRẠNG TỪ",
+      "v": "trạng từ mô tả cách làm, thường cuối câu",
+      "a": "She sings well. · He drives carefully."
+     },
+     {
+      "e": "GIỚI TỪ + DANH TỪ (cụm giới từ)",
+      "v": "giới từ luôn có danh từ theo sau",
+      "a": "in the morning · on the table · at school"
+     },
+     {
+      "e": "Ghép cả câu để thấy rõ",
+      "v": "art + adj + noun + verb + adverb + (giới từ + noun)",
+      "a": "The happy child sang loudly in the park."
+     }
+    ]
+   },
+   {
+    "title": "🔁 Cùng gốc — đổi từ loại (word families)",
+    "rows": [
+     {
+      "e": "care → careful → carefully → care",
+      "v": "danh(gốc) → tính → trạng → danh",
+      "a": "Take care. · a careful driver · drive carefully."
+     },
+     {
+      "e": "happy → happily → happiness",
+      "v": "tính → trạng → danh",
+      "a": "a happy day · smile happily · full of happiness."
+     },
+     {
+      "e": "beauty → beautiful → beautifully",
+      "v": "danh → tính → trạng",
+      "a": "beauty · a beautiful voice · sing beautifully."
+     },
+     {
+      "e": "decide → decision → decisive",
+      "v": "động → danh → tính",
+      "a": "decide now · a big decision · be decisive."
+     },
+     {
+      "e": "succeed → success → successful → successfully",
+      "v": "động → danh → tính → trạng",
+      "a": "She succeeded and finished the project successfully."
+     },
+     {
+      "e": "MẸO đuôi",
+      "v": "-ly→trạng từ · -ful/-ous/-al/-ive→tính từ · -tion/-ment/-ness/-ity→danh từ · -ize/-ify/-ate→động từ",
+      "a": "quickly (adv) · famous (adj) · action (noun) · realize (verb)"
+     }
+    ]
+   },
+   {
+    "title": "🧱 Học theo CỤM (chunks) — nhớ cả cụm, đừng nhớ từ lẻ",
+    "rows": [
+     {
+      "e": "Động từ + danh từ",
+      "v": "make a decision · take a break · do homework · have breakfast",
+      "a": "Let's take a break and have some coffee."
+     },
+     {
+      "e": "Tính từ + danh từ",
+      "v": "heavy rain · strong coffee · fast food · a big mistake",
+      "a": "There was heavy rain all night."
+     },
+     {
+      "e": "Trạng từ + tính từ",
+      "v": "absolutely sure · really tired · deeply sorry",
+      "a": "I'm absolutely sure about it."
+     },
+     {
+      "e": "Cụm giới từ (thời gian/nơi chốn)",
+      "v": "in the morning · at night · on Monday · at home · on time",
+      "a": "I always get to work on time."
+     },
+     {
+      "e": "Cụm cố định",
+      "v": "by the way · for example · at least · as soon as possible · more or less",
+      "a": "By the way, can you help me for example with this?"
+     }
+    ]
+   },
+   {
+    "title": "🔗 Giới từ đi cùng từ (collocation — người Việt hay sai)",
+    "rows": [
+     {
+      "e": "interested IN",
+      "v": "quan tâm/thích",
+      "a": "I'm interested in learning English."
+     },
+     {
+      "e": "good AT",
+      "v": "giỏi về",
+      "a": "She's good at math."
+     },
+     {
+      "e": "afraid OF",
+      "v": "sợ",
+      "a": "He's afraid of dogs."
+     },
+     {
+      "e": "depend ON",
+      "v": "phụ thuộc vào",
+      "a": "It depends on the weather."
+     },
+     {
+      "e": "listen TO",
+      "v": "nghe",
+      "a": "I listen to music every day."
+     },
+     {
+      "e": "wait FOR",
+      "v": "chờ đợi",
+      "a": "I'm waiting for the bus."
+     },
+     {
+      "e": "married TO",
+      "v": "kết hôn với",
+      "a": "She's married to a doctor."
+     },
+     {
+      "e": "arrive AT / IN",
+      "v": "đến (nơi nhỏ = at · thành phố = in)",
+      "a": "arrive at the office · arrive in Hanoi."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Từ loại của 'quickly' trong 'She runs quickly'?",
+    "a": "Adverb (trạng từ) — mô tả động từ 'runs', có đuôi -ly."
+   },
+   {
+    "q": "2. Từ loại của 'beautiful' trong 'a beautiful garden'?",
+    "a": "Adjective (tính từ) — đứng TRƯỚC danh từ 'garden' để mô tả nó."
+   },
+   {
+    "q": "3. Điền giới từ: I'm interested ___ learning English.",
+    "a": "in — 'interested in' là cụm cố định (nhớ cả cụm)."
+   },
+   {
+    "q": "4. Điền giới từ: She's good ___ math.",
+    "a": "at — 'good at' = giỏi về (một lĩnh vực)."
+   },
+   {
+    "q": "5. Từ loại của 'happiness' trong 'Money can't buy happiness'?",
+    "a": "Noun (danh từ) — đuôi -ness, đứng sau động từ 'buy'."
+   },
+   {
+    "q": "6. Đổi sang trạng từ: 'careful' → ___",
+    "a": "carefully — thêm -ly (careful + ly). Trạng từ mô tả cách làm."
+   },
+   {
+    "q": "7. Điền giới từ thời gian: I wake up ___ 6 ___ the morning.",
+    "a": "at 6 in the morning — 'at' + giờ cụ thể · 'in' + buổi (the morning)."
+   },
+   {
+    "q": "8. Chọn cụm đúng: 'make a decision' hay 'do a decision'?",
+    "a": "make a decision — nhớ theo cụm: MAKE a decision (không dùng 'do')."
+   },
+   {
+    "q": "9. Từ loại của 'and' trong 'bread and butter'?",
+    "a": "Conjunction (liên từ) — nối hai danh từ với nhau."
+   },
+   {
+    "q": "10. Đổi sang danh từ: 'decide' (v) → ___",
+    "a": "decision — 'decide' → 'decision' (đuôi -sion → danh từ)."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "By the way, are you free on Sunday morning?",
+    "v": "À mà, sáng Chủ nhật bạn rảnh không?"
+   },
+   {
+    "p": "B",
+    "e": "Let me think... Actually, yes. What's up?",
+    "v": "Để mình nghĩ đã... À, rảnh. Có chuyện gì thế?"
+   },
+   {
+    "p": "A",
+    "e": "I'm really interested in that new café. Do you want to take a break there?",
+    "v": "Mình rất thích quán cà phê mới đó. Đi nghỉ ngơi ở đó không?"
+   },
+   {
+    "p": "B",
+    "e": "Sounds great! I've heard their coffee is really strong.",
+    "v": "Nghe hay đó! Mình nghe nói cà phê ở đó rất đậm."
+   },
+   {
+    "p": "A",
+    "e": "Exactly. And it opens early, so we can arrive at nine and beat the crowd.",
+    "v": "Đúng vậy. Với lại quán mở sớm, tụi mình tới lúc 9 giờ là tránh được đông."
+   },
+   {
+    "p": "B",
+    "e": "Perfect. It depends on the weather, but I'll do my best to come.",
+    "v": "Tuyệt. Còn tùy thời tiết, nhưng mình sẽ cố hết sức để đến."
+   },
+   {
+    "p": "A",
+    "e": "No worries. As soon as possible, just text me and we'll make a plan.",
+    "v": "Không sao. Sớm nhất có thể thì nhắn mình, rồi tụi mình lên kế hoạch."
+   },
+   {
+    "p": "B",
+    "e": "Will do. Thanks for thinking of me!",
+    "v": "Sẽ nhắn. Cảm ơn đã nghĩ đến mình!"
+   }
+  ],
+  "tips": [
+   "Nhận biết nhanh qua ĐUÔI: -ly → trạng từ · -ful/-ous/-al/-ive → tính từ · -tion/-ment/-ness/-ity → danh từ · -ize/-ify/-ate → động từ.",
+   "Nhận biết qua VỊ TRÍ: trước danh từ = tính từ · sau 'to be' (mô tả) = tính từ · sau động từ (mô tả cách) = trạng từ · trước danh từ (chỉ quan hệ) = giới từ.",
+   "Học theo CỤM: make a decision · in the morning · interested in… — não nhớ cả khối, nói ra trôi hơn nhiều so với ghép từng từ.",
+   "Ghi 'sổ cụm': mỗi khi gặp cụm hay, chép cả cụm + 1 ví dụ, ôn lại mỗi tuần cho thuộc."
+  ],
+  "shadow": {
+   "en": "When I learn English, I try to notice how words work, not just what they mean. I look at the endings: words ending in -ly are usually adverbs, like 'quickly'; words ending in -ful or -ous are usually adjectives, like 'careful' or 'famous'; and words ending in -tion or -ness are usually nouns, like 'information' or 'happiness'. I also watch where a word sits: an adjective comes before a noun, and a preposition comes before a noun too. But the trick that helps me most is learning in chunks. Instead of memorizing single words, I learn whole phrases like 'make a decision', 'in the morning', and 'interested in'. When I practise these chunks again and again, they become automatic, and I can speak more smoothly without translating word by word.",
+   "vi": "Khi học tiếng Anh, mình cố để ý CÁCH từ hoạt động, chứ không chỉ nghĩa của nó. Mình nhìn vào đuôi từ: từ kết thúc bằng -ly thường là trạng từ, như 'quickly'; từ đuôi -ful hay -ous thường là tính từ, như 'careful' hay 'famous'; còn từ đuôi -tion hay -ness thường là danh từ, như 'information' hay 'happiness'. Mình cũng để ý vị trí của từ: tính từ đứng trước danh từ, và giới từ cũng đứng trước danh từ. Nhưng mẹo giúp mình nhiều nhất là học theo cụm. Thay vì học từng từ lẻ, mình học nguyên cụm như 'make a decision', 'in the morning', 'interested in'. Khi luyện những cụm này nhiều lần, chúng trở nên tự động, và mình nói trôi chảy hơn mà không phải dịch từng từ."
+  }
  }
 ];
