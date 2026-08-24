@@ -407,5 +407,16 @@ module.exports = {
   "roundabout": { d: "A circular junction where traffic moves around a central island.", x: "Slow down as you enter the roundabout." },
   "sidewalk": { d: "The paved path at the side of a street where people walk.", x: "Pedestrians should walk on the sidewalk." },
   "alley": { d: "A narrow street or passage between or behind buildings.", x: "My house is in a small alley off the main street." },
-  "intersection": { d: "A place where two or more roads cross each other.", x: "Stop at the intersection when the light is red." }
+  "intersection": { d: "A place where two or more roads cross each other.", x: "Stop at the intersection when the light is red." },
+
+  // ---- Money ----
+  "earn / make (money)": { d: "To get money by working for it.", x: "She earns a good salary at her new job." },
+  "borrow": { d: "To take and use something for a while, then give it back (you receive it).", x: "Can I borrow some money from you until payday?" },
+  "lend": { d: "To give something to someone for a while, expecting it back (you give it out).", x: "I'll lend you 200,000 dong." },
+  "donate / give away": { d: "To give money or things to help people or a good cause.", x: "They donated a lot of money to charity." },
+  "invest": { d: "To put money into something (like a business or savings) hoping to earn more later.", x: "He invests part of his salary every month." },
+  "gamble": { d: "To risk money on a game or bet, hoping to win more.", x: "It's risky to gamble money you can't afford to lose." },
+  "generous": { d: "Happy to give money, time, or help freely to others.", x: "She's very generous and always treats her friends." },
+  "credit card": { d: "A plastic card that lets you buy now and pay the bank back later.", x: "I paid for it with my credit card." },
+  "gold digger": { d: "Someone who dates or marries a person mainly for their money.", x: "He worried she was just a gold digger." }
 };

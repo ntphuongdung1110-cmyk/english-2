@@ -9286,5 +9286,319 @@ window.ONTAP = [
    "en": "Driving in Vietnam is a unique experience, especially in a big city like Ho Chi Minh City. The streets are full of motorbikes, cars, and bicycles, all moving together like a busy river. To newcomers, the traffic can look chaotic and even a little scary, but locals know how to flow with it. Most people ride motorbikes, because they're cheap and can slip through narrow alleys and heavy traffic jams. Of course, safety is very important. I always wear my helmet, use my turn signals, and try not to run red lights. Rush hour can be stressful, and a short trip sometimes takes a long time. Still, once you get used to it, driving here has its own rhythm, and it's the best way to explore every corner of the city.",
    "vi": "Lái xe ở Việt Nam là một trải nghiệm rất đặc biệt, nhất là ở thành phố lớn như TP.HCM. Đường phố đầy xe máy, ô tô và xe đạp, tất cả cùng di chuyển như một dòng sông tấp nập. Với người mới đến, giao thông trông hỗn loạn và hơi đáng sợ, nhưng người bản địa biết cách hòa theo dòng chảy đó. Đa số đi xe máy, vì rẻ và có thể luồn qua các con hẻm nhỏ và những đoạn kẹt xe. Dĩ nhiên, an toàn rất quan trọng. Mình luôn đội mũ bảo hiểm, bật xi-nhan, và cố không vượt đèn đỏ. Giờ cao điểm có thể mệt mỏi, và một quãng đường ngắn đôi khi mất rất lâu. Nhưng khi đã quen, việc lái xe ở đây có nhịp điệu riêng, và đó là cách tuyệt nhất để khám phá mọi ngóc ngách của thành phố."
   }
+ },
+ {
+  "icon": "💰",
+  "name": "Money / Tiền bạc: chi tiêu, tiết kiệm & kiếm tiền",
+  "intro": "Động từ về tiền (spend, save, earn…) và từ vựng tài chính. Lưu ý dễ nhầm: BORROW = mượn/vay VÀO (from), LEND = cho mượn/cho vay RA (to). Trả lời theo mẫu: Trả lời → Lý do → Ví dụ → Ý thêm.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "spend",
+    "v": "tiêu, chi tiền",
+    "x": "I try not to spend too much on coffee.",
+    "ip": "/spɛnd/",
+    "d": "Amount of money spent (during a period); expenditure."
+   },
+   {
+    "s": 1,
+    "e": "save",
+    "v": "tiết kiệm, để dành",
+    "x": "I save a little money every month.",
+    "ip": "/seɪv/",
+    "d": "In various sports, a block that prevents an opponent from scoring."
+   },
+   {
+    "s": 1,
+    "e": "earn / make (money)",
+    "v": "kiếm (tiền)",
+    "x": "She earns a good salary at her new job.",
+    "ip": "/ɜːn/",
+    "d": "To get money by working for it."
+   },
+   {
+    "s": 1,
+    "e": "borrow",
+    "v": "mượn, vay (từ ai)",
+    "x": "Can I borrow some money from you until payday?",
+    "ip": "/ˈbɔɹoʊ/",
+    "d": "To take and use something for a while, then give it back (you receive it)."
+   },
+   {
+    "s": 1,
+    "e": "lend",
+    "v": "cho mượn, cho vay (cho ai)",
+    "x": "I'll lend you 200,000 dong.",
+    "ip": "/lɛnd/",
+    "d": "To give something to someone for a while, expecting it back (you give it out)."
+   },
+   {
+    "e": "donate / give away",
+    "v": "quyên góp, cho đi",
+    "x": "They donated a lot of money to charity.",
+    "ip": "/dəʊˈneɪt/",
+    "d": "To give money or things to help people or a good cause."
+   },
+   {
+    "s": 1,
+    "e": "invest",
+    "v": "đầu tư",
+    "x": "He invests part of his salary every month.",
+    "ip": "/ɪnˈvɛst/",
+    "d": "To put money into something (like a business or savings) hoping to earn more later."
+   },
+   {
+    "e": "gamble",
+    "v": "cờ bạc, cá cược",
+    "x": "It's risky to gamble money you can't afford to lose.",
+    "ip": "/ˈɡæm.bəl/",
+    "d": "To risk money on a game or bet, hoping to win more."
+   },
+   {
+    "e": "steal",
+    "v": "trộm, ăn cắp",
+    "x": "Someone tried to steal my wallet on the bus.",
+    "ip": "/stiːl/",
+    "d": "To take illegally, or without the owner's permission, something owned by someone else."
+   },
+   {
+    "e": "waste",
+    "v": "lãng phí",
+    "x": "Don't waste your money on things you don't need.",
+    "ip": "/weɪst/",
+    "d": "Excrement or urine."
+   },
+   {
+    "s": 1,
+    "e": "cash",
+    "v": "tiền mặt",
+    "x": "I only have a little cash on me right now.",
+    "ip": "/kæʃ/",
+    "d": "Money in the form of notes/bills and coins, as opposed to cheques/checks or electronic transactions."
+   },
+   {
+    "e": "credit card",
+    "v": "thẻ tín dụng",
+    "x": "I paid for it with my credit card.",
+    "ip": "/ˈkɹɛdɪt kaːd/",
+    "d": "A plastic card that lets you buy now and pay the bank back later."
+   },
+   {
+    "s": 1,
+    "e": "expensive",
+    "v": "đắt, mắc",
+    "x": "That restaurant is really expensive.",
+    "ip": "/ɛkˈspɛnsɪv/",
+    "d": "Taking a lot of system time or resources."
+   },
+   {
+    "s": 1,
+    "e": "cheap",
+    "v": "rẻ",
+    "x": "I found a cheap but tasty lunch near the office.",
+    "ip": "/t͡ʃiːp/",
+    "d": "(of an action or tactic in a game of skill) Underhand or unfair."
+   },
+   {
+    "e": "generous",
+    "v": "hào phóng, rộng rãi",
+    "x": "She's very generous and always treats her friends.",
+    "ip": "/ˈdʒɛn(ə)ɹəs/",
+    "d": "Happy to give money, time, or help freely to others."
+   },
+   {
+    "e": "gold digger",
+    "v": "kẻ đào mỏ (yêu/cưới vì tiền)",
+    "x": "He worried she was just a gold digger.",
+    "ip": "/ɡɒʊld ˈdɪɡə/",
+    "d": "Someone who dates or marries a person mainly for their money."
+   }
+  ],
+  "extra": [
+   {
+    "title": "💸 borrow vs lend (rất dễ nhầm)",
+    "rows": [
+     {
+      "e": "BORROW (from) = mượn/vay VÀO",
+      "v": "bạn LẤY tiền/đồ của người khác",
+      "a": "Can I borrow some money FROM you?"
+     },
+     {
+      "e": "LEND (to) = cho mượn/cho vay RA",
+      "v": "bạn ĐƯA tiền/đồ cho người khác",
+      "a": "Sure, I'll lend 200,000 dong TO you."
+     },
+     {
+      "e": "Mẹo nhớ",
+      "v": "borrow = lấy vào · lend = đưa ra",
+      "a": "I borrowed a book from Lan, and she lent it to me happily."
+     }
+    ]
+   },
+   {
+    "title": "💰 Từ & cụm tài chính hay dùng (mở rộng)",
+    "rows": [
+     {
+      "e": "afford",
+      "v": "có đủ tiền để mua",
+      "a": "I can't afford a new car right now."
+     },
+     {
+      "e": "budget",
+      "v": "ngân sách; lập ngân sách",
+      "a": "I try to stick to a monthly budget."
+     },
+     {
+      "e": "save up (for)",
+      "v": "để dành (mua gì)",
+      "a": "I'm saving up for a trip to Japan."
+     },
+     {
+      "e": "be broke",
+      "v": "cháy túi, hết sạch tiền (thân mật)",
+      "a": "I'm broke until payday."
+     },
+     {
+      "e": "go bankrupt",
+      "v": "phá sản",
+      "a": "The company went bankrupt last year."
+     },
+     {
+      "e": "interest rate",
+      "v": "lãi suất",
+      "a": "The bank offers a low interest rate on savings."
+     },
+     {
+      "e": "financial security",
+      "v": "an toàn / ổn định tài chính",
+      "a": "I save money for financial security in the future."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How much cash do you carry with you on a normal day?",
+    "a": "On a normal day, I carry a small amount of cash, maybe two or three hundred thousand dong, because most places now accept cards or e-wallets. I keep some cash just in case, for a coffee, parking, or a street vendor who doesn't take cards."
+   },
+   {
+    "q": "2. Do you have a credit card? How often do you use it?",
+    "a": "Yes, I have a credit card, and I use it a few times a week, mainly for online shopping and bigger purchases. It's convenient and safe, but I try to pay it off in full every month, because I don't want to fall into debt or pay high interest."
+   },
+   {
+    "q": "3. What is the most expensive thing you have ever bought?",
+    "a": "The most expensive thing I've ever bought is probably my laptop, or maybe my motorbike. It cost a lot, but it was worth it, because I use it every day for work. I usually think carefully before spending big money on something like that."
+   },
+   {
+    "q": "4. How much money do you spend in a typical day?",
+    "a": "In a typical day, I spend maybe one to two hundred thousand dong on food, coffee, and small things. Some days I spend more if I go out with friends. I try to track my spending, because small daily costs can add up to a lot by the end of the month."
+   },
+   {
+    "q": "5. Are you saving money for something? What?",
+    "a": "Yes, I'm saving for a few goals — mainly travel and financial security in the future. Having some savings makes me feel safe and less stressed. I put a little aside every month, because I believe small, regular saving works better than trying to save a lot at once."
+   },
+   {
+    "q": "6. Are you more cheap or generous?",
+    "a": "I'd say I'm fairly balanced, but I lean towards generous with the people I love. I'm happy to treat my friends and family, but I'm careful with myself. I don't like wasting money, yet I don't want to be stingy either."
+   },
+   {
+    "q": "7. Have you ever donated money?",
+    "a": "Yes, I've donated a few times, usually to charity or to help people affected by floods and storms. It feels good to help, even in a small way. I believe that if we're lucky enough to have enough, we should share a little with those who have less."
+   },
+   {
+    "q": "8. Have you ever found money on the street? What did you do?",
+    "a": "Yes, once I found a small amount of money on the street. It wasn't much, so I couldn't find the owner. But if it had been a wallet, I would have tried to return it, because honesty matters more to me than a bit of extra cash."
+   },
+   {
+    "q": "9. Have you ever bought a lottery ticket? Did you win?",
+    "a": "Yes, I've bought a lottery ticket a couple of times, mostly for fun. I didn't win anything, of course! I don't buy them often, because the chance of winning is so small — I'd rather save or invest that money instead."
+   },
+   {
+    "q": "10. What would you do if you had one million dollars?",
+    "a": "If I had one million dollars, I would save and invest most of it for financial security, then use some to travel and help my family. I'd also donate a part to charity. I wouldn't waste it all at once, because I'd want that money to last and do good."
+   },
+   {
+    "q": "11. \"Money can't buy happiness.\" Do you agree or disagree?",
+    "a": "I partly agree. Money can't buy real happiness like love, health, or good friends. But it does make life easier and reduces stress, so it plays a role. In my opinion, money is a tool — it can support a happy life, but it can't create happiness by itself."
+   },
+   {
+    "q": "12. How much money would you need to be happy in Saigon for one month?",
+    "a": "I think I'd need around fifteen to twenty million dong a month to live comfortably in Saigon, including rent, food, and some fun. I don't need to be rich to be happy, but having enough to cover my needs, plus a little extra, makes life much less stressful."
+   },
+   {
+    "q": "13. What would you do if you found a wallet full of money on the street?",
+    "a": "If I found a wallet full of money, I would look inside for an ID and try to return it to the owner, or take it to the police. I know I'd be tempted, but I'd feel guilty keeping it, because someone is probably worried and looking for it."
+   },
+   {
+    "q": "14. Have you ever gambled? Did you win, lose, or break even?",
+    "a": "I've gambled just a little, like small bets with friends for fun, and I think I broke even overall. I'm not really into gambling, because you usually lose in the long run. I'd rather spend my money on experiences than risk it on luck."
+   },
+   {
+    "q": "15. If there were no money, would the world be better, worse, or the same?",
+    "a": "That's a big question. I think without money, the world might be less greedy, but it would also be chaotic, because money makes trading fair and simple. Honestly, I think the same problems would just take a different form. Money isn't evil — it's how people use it that matters."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "I'm trying to save up for a trip to Japan, but it's so hard!",
+    "v": "Mình đang cố để dành đi Nhật, mà khó ghê!"
+   },
+   {
+    "p": "B",
+    "e": "Tell me about it. I always plan to save, but I end up spending it all.",
+    "v": "Nói mình nghe đi. Mình lúc nào cũng định tiết kiệm, mà cuối cùng tiêu sạch."
+   },
+   {
+    "p": "A",
+    "e": "Same here. I think the problem is small things — coffee, food delivery, little treats.",
+    "v": "Mình cũng vậy. Chắc do mấy thứ nhỏ nhỏ — cà phê, đặt đồ ăn, tự thưởng lặt vặt."
+   },
+   {
+    "p": "B",
+    "e": "Exactly. Those really add up. Maybe we should make a monthly budget.",
+    "v": "Chính xác. Cộng lại nhiều lắm. Hay tụi mình lập ngân sách hằng tháng đi."
+   },
+   {
+    "p": "A",
+    "e": "Good idea. I read that if you save a little every month, it grows faster than you think.",
+    "v": "Ý hay. Mình đọc được là nếu để dành một ít mỗi tháng, nó lớn nhanh hơn mình nghĩ."
+   },
+   {
+    "p": "B",
+    "e": "True. Oh, by the way, can I borrow 200,000 dong? I forgot my wallet.",
+    "v": "Đúng. À mà, cho mình mượn 200 nghìn được không? Mình quên ví rồi."
+   },
+   {
+    "p": "A",
+    "e": "Sure, I'll lend it to you. Just pay me back on payday!",
+    "v": "Được, mình cho mượn. Tới ngày lương trả lại mình nha!"
+   },
+   {
+    "p": "B",
+    "e": "Of course, thank you! I promise I won't waste it.",
+    "v": "Chắc chắn rồi, cảm ơn! Mình hứa không phung phí đâu."
+   },
+   {
+    "p": "A",
+    "e": "Ha, we'll see. Come on, let's get a cheap lunch instead of an expensive one.",
+    "v": "Ha, để xem. Thôi nào, đi ăn trưa rẻ rẻ thay vì chỗ đắt tiền."
+   },
+   {
+    "p": "B",
+    "e": "Now that's how we start saving!",
+    "v": "Đó, tiết kiệm là phải bắt đầu vậy đó!"
+   }
+  ],
+  "tips": [
+   "borrow vs lend: BORROW = mượn/vay VÀO (borrow FROM someone) · LEND = cho mượn/cho vay RA (lend somebody something / lend TO someone). VD: Can I borrow money from you? — Yes, I'll lend you some.",
+   "Động từ tiền: earn/make money = kiếm tiền · save = để dành · spend = tiêu · waste = lãng phí · invest = đầu tư · donate = quyên góp · gamble = cờ bạc.",
+   "afford = có đủ tiền để mua (I can't afford it) · be broke = cháy túi · go bankrupt = phá sản · save up for = để dành mua gì.",
+   "Trả lời theo mẫu: [trả lời] + because [lý do] + [ví dụ] + [ý thêm] để câu đầy đủ, tự nhiên."
+  ],
+  "shadow": {
+   "en": "Money is an important part of life, but I try not to let it control me. Every month, I earn my salary, and I try to spend it wisely. First, I save a little for the future and for financial security, because I never know what might happen. Then I pay for the things I need, like food, rent, and bills, and I keep some for the things I enjoy. I don't like wasting money, but I'm happy to be generous with my family and friends. Sometimes I donate to people in need, because sharing feels good. I believe money can't buy happiness, but being careful with it gives me freedom and peace of mind. In the end, it's not about how much you earn — it's about how wisely you use it.",
+   "vi": "Tiền là một phần quan trọng của cuộc sống, nhưng mình cố không để nó điều khiển mình. Mỗi tháng, mình kiếm được lương, và mình cố tiêu một cách khôn ngoan. Trước tiên, mình để dành một ít cho tương lai và cho sự an toàn tài chính, vì mình không biết trước điều gì có thể xảy ra. Sau đó mình trả cho những thứ cần thiết như ăn uống, tiền nhà, hóa đơn, và giữ lại một phần cho những thứ mình thích. Mình không thích lãng phí tiền, nhưng sẵn lòng hào phóng với gia đình và bạn bè. Đôi khi mình quyên góp cho những người khó khăn, vì cho đi khiến mình thấy vui. Mình tin tiền không mua được hạnh phúc, nhưng biết chi tiêu cẩn thận cho mình sự tự do và bình yên trong lòng. Cuối cùng, vấn đề không phải là bạn kiếm được bao nhiêu — mà là bạn dùng nó khôn ngoan thế nào."
+  }
  }
 ];
