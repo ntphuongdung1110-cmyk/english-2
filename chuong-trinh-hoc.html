@@ -223,6 +223,13 @@ function wordsOf(t){
   return out.slice(0,8);
 }
 function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+// Câu mẫu cùng chủ đề cho bước chép chính tả: ưu tiên hội thoại, sau đó đoạn shadowing
+function dictHints(t){
+  let lines=[];
+  if(Array.isArray(t.convo) && t.convo.length) lines = t.convo.map(x=>x.e).filter(Boolean).slice(0,6);
+  else if(t.shadow && t.shadow.en) lines = t.shadow.en.split(/(?<=[.!?])\s+/).filter(s=>s.trim().length>0).slice(0,6);
+  return lines.map(s=>'<div class="sm">• '+esc(s)+' <button class="spk" onclick="speak(\''+esc(s).replace(/'/g,"\\'")+'\')">🔊</button></div>').join('');
+}
 function speak(txt){ if(!txt||!window.speechSynthesis) return; speechSynthesis.cancel();
   const u=new SpeechSynthesisUtterance(txt); u.lang="en-US"; u.rate=.9; speechSynthesis.speak(u); }
 const shortName = t => t.name.split(" / ")[0].trim();
@@ -291,7 +298,9 @@ function day2(t){                       // 🎧 NGHE
         '<p class="en">'+esc(sh.en)+'</p><p class="vi">'+esc(sh.vi)+'</p></div>' : ''))
   + stepWrap("③ Chép lại 5 câu bạn nghe được","≈ 20 phút · luyện tai","dict",
       '<div class="note">Nghe lại video/đoạn văn, chép ra 5 câu hoặc cụm bạn nghe rõ. Không cần đúng 100%.</div>'+
-      noteBox("dict","1. \n2. \n3. \n4. \n5. "))
+      noteBox("dict","1. \n2. \n3. \n4. \n5. ")+
+      (dictHints(t)? '<span class="reveal" onclick="this.nextElementSibling.classList.toggle(\'show\')">💡 Gợi ý câu mẫu cùng chủ đề (bấm để đối chiếu) 👀</span>'+
+        '<div class="samples"><div class="note" style="margin-top:0">Câu mẫu cùng chủ đề để bạn đối chiếu &amp; luyện chép — không phải lời thoại chính xác của video.</div>'+dictHints(t)+'</div>' : ''))
   + linkFull(t);
 }
 
