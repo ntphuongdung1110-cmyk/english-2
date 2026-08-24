@@ -141,8 +141,40 @@
    Ngày 1: Từ vựng + tự đặt câu · Ngày 2: Nghe (video BBC + shadowing)
    Ngày 3: Nói (trả lời câu hỏi + hội thoại + nói 1 phút).
    Tiến độ, câu tự viết và streak lưu ở localStorage.               */
-const YT_ID = "TL61VKkme14";           // BBC Learning English — Talking about meetings
-const YT_TITLE = "Talking about meetings — Real Easy English (BBC Learning English)";
+/* Video theo chủ đề — mỗi ID đã được kiểm tra là video thật, còn sống (YouTube oEmbed).
+   THEME: {id, t(tên thật), q(từ khoá tìm thêm)} · TOPIC_THEME: chỉ số chủ đề → theme. */
+const THEME = {
+  intro:{id:"tqTJAXfzD0E",t:"Introducing Yourself and Meeting New People",q:"introduce yourself meet people english conversation"},
+  family:{id:"cxXDlLcXmdo",t:"How to Talk About Your Family in English",q:"talking about your family english conversation"},
+  love:{id:"WdWDvqk8Yo8",t:"English Expressions to Talk About Love & Relationships",q:"talking about love relationships english conversation"},
+  fashion:{id:"5SAf8lj4HtM",t:"How to Talk About Clothes in English",q:"talking about clothes fashion english conversation"},
+  directions:{id:"F97z4DBiaAY",t:"Asking for and Giving Directions — English Conversation",q:"asking for and giving directions english conversation"},
+  daily:{id:"E8MM91zhsvI",t:"Talking About Your Habits & Daily Routines in English",q:"daily routine habits english conversation"},
+  restaurant:{id:"ki2m6Sr3UAU",t:"Ordering at a Restaurant — Everyday English Dialogues",q:"ordering food restaurant english conversation"},
+  hobbies:{id:"8NGVXvgl-d8",t:"Talking About Hobbies in English",q:"talking about hobbies english conversation"},
+  expressions:{id:"OIv9mONRhmU",t:"33 Useful English Phrases for Daily Conversations",q:"common english phrases daily conversation"},
+  travel:{id:"YeDz983icpw",t:"How to Talk About Holidays and Travel in English",q:"talking about travel holidays english conversation"},
+  past:{id:"rZS5qlCGCIY",t:"How to Talk About the Past in English",q:"talking about past experiences english conversation"},
+  sz:{id:"JAKIw40sVlw",t:"How to Pronounce /s/ and /z/ in English",q:"s and z sounds pronunciation english"},
+  th:{id:"x6Pdp8GBwTM",t:"How do I pronounce 'th' sounds? — BBC Learning English",q:"th sound pronunciation english this think"},
+  conditional:{id:"aCM633yN5V4",t:"The 2nd Conditional: WOULD & COULD — English Grammar",q:"second conditional would english grammar"},
+  describe:{id:"WZL0LM3c79k",t:"English Vocabulary to Describe Everyday Objects",q:"describing objects english vocabulary"},
+  careers:{id:"D-ukmakW6Vs",t:"Talking About Your Job — English Conversation about Work",q:"talking about your job career english conversation"},
+  supermarket:{id:"xA32p3CEt8Y",t:"At the Supermarket — Daily English Conversation",q:"at the supermarket english conversation"},
+  personality:{id:"KK7fUiniP88",t:"Adjectives to Describe Personality and Character",q:"describing personality character adjectives english"},
+  opinions:{id:"qtmf_k5q9us",t:"Asking for & Giving Opinions — Agreeing & Disagreeing",q:"giving opinions agreeing disagreeing english"},
+  verbs:{id:"P-jqai6YtJY",t:"Expressions with Take, Make, Do, and Have",q:"get take make do common english verbs"},
+  tenses:{id:"A7KdpeeDEBA",t:"Verb Tenses — Past, Present, Future (English Grammar)",q:"english verb tenses past present future"},
+  irregular:{id:"lIkaqLavbU0",t:"The 50 Most Common Irregular Verbs in English",q:"irregular verbs english pronunciation list"},
+  feelings:{id:"udWXxCOGgs8",t:"How to Talk About Emotions in English",q:"talking about feelings emotions english conversation"},
+  senses:{id:"i4deGOh578c",t:"Five Senses in English — Sight, Smell, Hearing, Taste, Touch",q:"five senses english vocabulary"},
+  health:{id:"Qn9QKZrNbeo",t:"At the Doctor — How to Describe Your Symptoms in English",q:"at the doctor health english conversation symptoms"},
+  driving:{id:"WNfCpZIAFPg",t:"Talking about Traffic in English",q:"driving traffic english conversation vocabulary"},
+  money:{id:"6N6C4P_Wsgo",t:"How to Talk About Money in English (earn/save/spend)",q:"talking about money spending saving english conversation"},
+  general:{id:"TL61VKkme14",t:"Talking about meetings — Real Easy English (BBC)",q:"english conversation lesson subtitles"}
+};
+const TOPIC_THEME = {0:"intro",1:"family",2:"love",3:"fashion",4:"fashion",5:"directions",6:"daily",7:"restaurant",8:"hobbies",9:"daily",10:"daily",11:"expressions",12:"travel",13:"past",14:"past",15:"past",16:"sz",17:"intro",18:"expressions",19:"hobbies",20:"th",21:"conditional",22:"daily",23:"intro",24:"fashion",25:"describe",26:"careers",27:"supermarket",28:"personality",29:"directions",30:"intro",31:"intro",32:"opinions",33:"conditional",34:"verbs",35:"tenses",36:"irregular",37:"irregular",38:"irregular",39:"feelings",40:"senses",41:"love",42:"health",43:"personality",44:"driving",45:"money"};
+function videoFor(i){ return THEME[TOPIC_THEME[i]] || THEME.general; }
 const LS = "study_program_v3";
 const $ = id => document.getElementById(id);
 const T = (window.ONTAP || []).filter(t => t && t.name);
@@ -238,11 +270,14 @@ function day1(t){                       // 📚 TỪ VỰNG + ĐẶT CÂU
 
 function day2(t){                       // 🎧 NGHE
   const sh = t.shadow && t.shadow.en ? t.shadow : null;
+  const V = videoFor(st.t);
+  const searchUrl = "https://www.youtube.com/results?search_query="+encodeURIComponent(V.q || (shortName(t)+" english conversation lesson"));
   return stepWrap("① Ôn nhanh 8 từ hôm qua","≈ 10 phút","rev",
       '<div class="note">Nhìn nghĩa tiếng Việt, tự nói lại từ tiếng Anh. Mở lại <a href="on-tap-kiem-tra.html">bài từ vựng</a> nếu quên.</div>')
-  + stepWrap("② Nghe video (nghe 3 lần)","≈ 30 phút · "+esc(YT_TITLE),"vid",
-      '<div class="note">Lần 1: nghe thư giãn, không cần hiểu hết. Lần 2: bật phụ đề, nghe kỹ. Lần 3: <b>nói nhại theo</b> (shadowing) từng câu.</div>'+
-      '<div class="videoBox"><iframe src="https://www.youtube-nocookie.com/embed/'+YT_ID+'" title="'+esc(YT_TITLE)+'" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'+
+  + stepWrap("② Nghe video của chủ đề (nghe 3 lần)","≈ 30 phút · 🎬 "+esc(V.t),"vid",
+      '<div class="note">Video hợp với chủ đề <b>'+esc(shortName(t))+'</b>. Lần 1: nghe thư giãn, không cần hiểu hết. Lần 2: bật phụ đề (CC), nghe kỹ. Lần 3: <b>nói nhại theo</b> (shadowing) từng câu.</div>'+
+      '<div class="videoBox"><iframe src="https://www.youtube-nocookie.com/embed/'+V.id+'" title="'+esc(V.t)+'" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'+
+      '<div style="margin-top:6px"><a class="btn" href="'+searchUrl+'" target="_blank" rel="noopener">▶︎ Mở thêm video chủ đề này trên YouTube</a></div>'+
       (sh? '<div class="note" style="margin-top:10px">Rồi nghe & nói nhại đoạn của chủ đề này (bấm 🔊):</div>'+
         '<div class="shadow"><button class="spk" onclick="speak(this.parentNode.querySelector(\'.en\').textContent)">🔊 Nghe cả đoạn</button>'+
         '<p class="en">'+esc(sh.en)+'</p><p class="vi">'+esc(sh.vi)+'</p></div>' : ''))
