@@ -94,6 +94,10 @@
     padding:12px 18px;border-radius:12px;font-size:14px;font-weight:600;opacity:0;transition:.3s;pointer-events:none;z-index:80;text-align:center;max-width:90%}
   .toast.show{opacity:1}
   .note{font-size:12px;color:var(--muted);margin-top:6px}
+  .reveal{display:inline-block;color:#2563eb;font-size:13px;font-weight:700;cursor:pointer;margin-top:10px;user-select:none}
+  .samples{display:none;margin-top:8px;border-top:1px dashed var(--line);padding-top:8px;background:#f0fdf4;border-radius:10px;padding:8px 10px}
+  .samples.show{display:block}
+  .samples .sm{padding:4px 0;color:#0f5132;font-size:13.5px;line-height:1.5}
 </style>
 </head>
 <body>
@@ -258,11 +262,15 @@ function day1(t){                       // 📚 TỪ VỰNG + ĐẶT CÂU
     '<li><span class="w">'+esc(o.w)+'</span>'+(o.ip?'<span class="ipa">'+esc(o.ip)+'</span>':'')+
     '<button class="spk" onclick="speak(\''+esc(o.w).replace(/'/g,"\\'")+'\')">🔊</button>'+
     ' — <span class="m">'+esc(o.m)+'</span>'+(o.ex?'<span class="ex">“'+esc(o.ex)+'”</span>':'')+'</li>').join('')+'</ul>';
+  const samples = ws.filter(o=>o.ex).map(o=>
+    '<div class="sm">• '+esc(o.ex)+' <button class="spk" onclick="speak(\''+esc(o.ex).replace(/'/g,"\\'")+'\')">🔊</button></div>').join('');
   return stepWrap("① Học 8 từ vựng của chủ đề","≈ 25 phút · nghe 🔊 và đọc theo, chép nghĩa ra giấy","voc",
       '<div class="note">Đọc to từng từ 3 lần. Bấm 🔊 để nghe phát âm chuẩn.</div>'+vHTML)
-  + stepWrap("② Tự đặt 5 câu với từ mới","≈ 25 phút · dùng câu ví dụ làm mẫu","make",
+  + stepWrap("② Tự đặt 5 câu với từ mới","≈ 25 phút · tự viết TRƯỚC, xem gợi ý SAU","make",
       '<div class="note">Chọn 5 từ bạn thích, tự viết 5 câu của <b>chính bạn</b> (về công việc, gia đình, hôm nay…). Viết sai cũng không sao!</div>'+
-      noteBox("make","1. \n2. \n3. \n4. \n5. "))
+      noteBox("make","1. \n2. \n3. \n4. \n5. ")+
+      (samples? '<span class="reveal" onclick="this.nextElementSibling.classList.toggle(\'show\')">💡 Gợi ý câu mẫu (bấm để xem sau khi tự viết) 👀</span>'+
+        '<div class="samples">'+samples+'</div>' : ''))
   + stepWrap("③ Đọc to 5 câu vừa viết","≈ 10 phút · thu âm lại càng tốt","read",
       '<div class="note">Đọc to 5 câu của bạn 2 lần. Nghe lại xem có tự nhiên không.</div>')
   + linkFull(t);
@@ -299,7 +307,9 @@ function day3(t){                       // 🗣️ NÓI
   return stepWrap("① Trả lời câu hỏi — nói to","≈ 30 phút · nói trước, xem đáp án sau","ans", qaHTML)
   + (cv.length? stepWrap("② Đóng vai hội thoại","≈ 20 phút","role", cvHTML) : '')
   + stepWrap("③ Nói 1 phút về chủ đề","≈ 10 phút · thu âm lại","min",
-      '<div class="note">Tự nói liên tục 1 phút về chủ đề "'+esc(shortName(t))+'". Dùng đoạn shadowing hôm qua làm dàn ý. Không dừng lại sửa — cứ nói!</div>')
+      '<div class="note">Tự nói liên tục 1 phút về chủ đề "'+esc(shortName(t))+'". Không dừng lại sửa — cứ nói! Bí thì xem đoạn mẫu, rồi che lại và nói bằng lời của bạn.</div>'+
+      (t.shadow&&t.shadow.en ? '<span class="reveal" onclick="this.nextElementSibling.classList.toggle(\'show\')">💡 Xem đoạn mẫu tham khảo (che lại khi nói) 👀</span>'+
+        '<div class="samples"><div class="sm">'+esc(t.shadow.en)+' <button class="spk" onclick="speak(\''+esc(t.shadow.en).replace(/'/g,"\\'")+'\')">🔊</button></div></div>' : ''))
   + linkFull(t);
 }
 function linkFull(t){
