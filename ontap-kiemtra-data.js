@@ -9881,5 +9881,664 @@ window.ONTAP = [
    "en": "When I learn English, I try to notice how words work, not just what they mean. I look at the endings: words ending in -ly are usually adverbs, like 'quickly'; words ending in -ful or -ous are usually adjectives, like 'careful' or 'famous'; and words ending in -tion or -ness are usually nouns, like 'information' or 'happiness'. I also watch where a word sits: an adjective comes before a noun, and a preposition comes before a noun too. But the trick that helps me most is learning in chunks. Instead of memorizing single words, I learn whole phrases like 'make a decision', 'in the morning', and 'interested in'. When I practise these chunks again and again, they become automatic, and I can speak more smoothly without translating word by word.",
    "vi": "Khi học tiếng Anh, mình cố để ý CÁCH từ hoạt động, chứ không chỉ nghĩa của nó. Mình nhìn vào đuôi từ: từ kết thúc bằng -ly thường là trạng từ, như 'quickly'; từ đuôi -ful hay -ous thường là tính từ, như 'careful' hay 'famous'; còn từ đuôi -tion hay -ness thường là danh từ, như 'information' hay 'happiness'. Mình cũng để ý vị trí của từ: tính từ đứng trước danh từ, và giới từ cũng đứng trước danh từ. Nhưng mẹo giúp mình nhiều nhất là học theo cụm. Thay vì học từng từ lẻ, mình học nguyên cụm như 'make a decision', 'in the morning', 'interested in'. Khi luyện những cụm này nhiều lần, chúng trở nên tự động, và mình nói trôi chảy hơn mà không phải dịch từng từ."
   }
+ },
+ {
+  "icon": "🍳",
+  "name": "Cooking / Nấu ăn",
+  "intro": "Từ vựng nấu ăn + động từ chế biến. Nhớ: nói MÓN ĂN thì tính từ đứng TRƯỚC (gà chiên → fried chicken, vịt quay → roasted duck). Bài có sẵn DÀN Ý THUYẾT TRÌNH 'Cooking Show' để bạn giới thiệu món ăn (nguyên liệu → sơ chế → nấu → trình bày → ăn).",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "recipe",
+    "v": "công thức (nấu ăn)",
+    "x": "Can you share the recipe for this soup?",
+    "ip": "/ˈɹɛs.ə.pi/",
+    "d": "A set of instructions for cooking a dish, with the ingredients and steps."
+   },
+   {
+    "s": 1,
+    "e": "ingredients",
+    "v": "nguyên liệu, thành phần",
+    "x": "You need just a few simple ingredients.",
+    "d": "The different foods you combine to make a dish."
+   },
+   {
+    "e": "preparation",
+    "v": "sự chuẩn bị (sơ chế)",
+    "x": "The preparation takes about twenty minutes.",
+    "ip": "/pɹɛpəˈɹeɪʃən/",
+    "d": "Getting the food ready before cooking (washing, cutting, marinating)."
+   },
+   {
+    "s": 1,
+    "e": "fry",
+    "v": "chiên, rán",
+    "x": "Fry the fish until it's golden.",
+    "ip": "/fɹaɪ/",
+    "d": "A state of excitement."
+   },
+   {
+    "s": 1,
+    "e": "stir-fry",
+    "v": "xào",
+    "x": "Stir-fry the vegetables over high heat.",
+    "d": "To cook small pieces of food quickly in a little hot oil, stirring all the time."
+   },
+   {
+    "e": "grill",
+    "v": "nướng (trên vỉ)",
+    "x": "We grilled some chicken for dinner.",
+    "ip": "/ɡɹɪl/",
+    "d": "To cook (food) on a grill; to barbecue."
+   },
+   {
+    "e": "bake",
+    "v": "nướng (trong lò)",
+    "x": "I like to bake a cake on weekends.",
+    "ip": "/beɪk/",
+    "d": "(with person as subject) To cook (something) in an oven."
+   },
+   {
+    "e": "roast",
+    "v": "quay, nướng (lò, miếng lớn)",
+    "x": "They roast a whole duck for the party.",
+    "ip": "/ɹəʊst/",
+    "d": "To cook meat or vegetables in an oven or over a fire, usually a large piece."
+   },
+   {
+    "s": 1,
+    "e": "boil",
+    "v": "luộc, đun sôi",
+    "x": "Boil the eggs for ten minutes.",
+    "ip": "/bɔɪl/",
+    "d": "The point at which fluid begins to change to a vapour."
+   },
+   {
+    "e": "steam",
+    "v": "hấp",
+    "x": "Steamed fish is healthy and light.",
+    "ip": "/stiːm/",
+    "d": "To cook with steam."
+   },
+   {
+    "e": "raw",
+    "v": "sống (chưa nấu chín)",
+    "x": "Don't eat raw chicken — it's dangerous.",
+    "ip": "/ɹɔː/",
+    "d": "(of materials, products, etc.) Not treated or processed; in a natural state, unrefined, unprocessed."
+   },
+   {
+    "s": 1,
+    "e": "chop",
+    "v": "băm, chặt, xắt nhỏ",
+    "x": "Chop the onions finely.",
+    "ip": "/tʃɒp/",
+    "d": "A cut of meat, often containing a section of a rib."
+   },
+   {
+    "e": "slice",
+    "v": "thái lát, cắt lát",
+    "x": "Slice the beef thinly.",
+    "ip": "/slaɪs/",
+    "d": "To cut into slices."
+   },
+   {
+    "s": 1,
+    "e": "marinate",
+    "v": "ướp (gia vị)",
+    "x": "Marinate the pork for an hour before grilling.",
+    "d": "To soak food in a sauce of spices for a while so it takes on flavour before cooking."
+   },
+   {
+    "e": "season",
+    "v": "nêm nếm gia vị",
+    "x": "Season the soup with salt and pepper.",
+    "ip": "/ˈsiːzən/",
+    "d": "To add salt, pepper, or spices to food to improve its flavour."
+   },
+   {
+    "e": "peel",
+    "v": "gọt/bóc vỏ",
+    "x": "Peel the carrots before cooking.",
+    "ip": "/piːl/",
+    "d": "To remove the skin or outer covering of."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🍳 Động từ nấu ăn (verb → adjective) — tính từ đứng TRƯỚC món",
+    "rows": [
+     {
+      "e": "fry → fried",
+      "v": "chiên → (đồ) chiên",
+      "a": "fried chicken · fried rice"
+     },
+     {
+      "e": "stir-fry → stir-fried",
+      "v": "xào → (đồ) xào",
+      "a": "stir-fried noodles · stir-fried beef"
+     },
+     {
+      "e": "grill → grilled",
+      "v": "nướng vỉ → (đồ) nướng",
+      "a": "grilled pork · grilled fish"
+     },
+     {
+      "e": "bake → baked",
+      "v": "nướng lò → (đồ) nướng lò",
+      "a": "baked bread · baked potato"
+     },
+     {
+      "e": "roast → roasted",
+      "v": "quay → (đồ) quay",
+      "a": "roasted duck · roasted chicken"
+     },
+     {
+      "e": "boil → boiled",
+      "v": "luộc → (đồ) luộc",
+      "a": "boiled eggs · boiled vegetables"
+     },
+     {
+      "e": "steam → steamed",
+      "v": "hấp → (đồ) hấp",
+      "a": "steamed fish · steamed rice"
+     },
+     {
+      "e": "raw (adj.)",
+      "v": "sống, chưa nấu",
+      "a": "raw fish (sashimi) · raw vegetables"
+     }
+    ]
+   },
+   {
+    "title": "🔪 Sơ chế & thao tác bếp (prep verbs)",
+    "rows": [
+     {
+      "e": "wash / rinse",
+      "v": "rửa / rửa sạch",
+      "a": "Wash the vegetables well."
+     },
+     {
+      "e": "peel",
+      "v": "gọt/bóc vỏ",
+      "a": "Peel the shrimp and the garlic."
+     },
+     {
+      "e": "chop / slice / mince",
+      "v": "băm / thái lát / xay nhuyễn",
+      "a": "Chop the herbs and slice the meat."
+     },
+     {
+      "e": "marinate",
+      "v": "ướp gia vị",
+      "a": "Marinate the meat with fish sauce and garlic."
+     },
+     {
+      "e": "season",
+      "v": "nêm nếm",
+      "a": "Season it with a little salt and sugar."
+     },
+     {
+      "e": "drain",
+      "v": "để ráo nước",
+      "a": "Drain the noodles after boiling."
+     },
+     {
+      "e": "stir / simmer",
+      "v": "khuấy / ninh nhỏ lửa",
+      "a": "Stir well, then simmer for ten minutes."
+     }
+    ]
+   },
+   {
+    "title": "🎤 DÀN Ý THUYẾT TRÌNH 'Cooking Show' (giới thiệu món ăn)",
+    "rows": [
+     {
+      "e": "① Greeting: \"Hello everyone! Today I'll show you how to make [dish].\"",
+      "v": "Mở đầu — chào & giới thiệu món",
+      "a": "Hello everyone! Today I'll show you how to make gỏi cuốn."
+     },
+     {
+      "e": "② Ingredients: \"For this recipe, you'll need…\"",
+      "v": "Nguyên liệu (công thức)",
+      "a": "For this recipe, you'll need rice paper, shrimp, pork, noodles, and fresh herbs."
+     },
+     {
+      "e": "③ Preparation / sơ chế: \"First, wash and prepare everything. Chop…, slice…, marinate…\"",
+      "v": "Chuẩn bị & sơ chế",
+      "a": "First, boil the shrimp and pork, then slice them thinly."
+     },
+     {
+      "e": "④ Cooking: \"Next, boil / fry / steam it for about … minutes.\"",
+      "v": "Nấu",
+      "a": "Next, cook the noodles and let them cool."
+     },
+     {
+      "e": "⑤ Plating / trình bày: \"Then arrange it nicely on a plate and garnish with…\"",
+      "v": "Bày ra đĩa",
+      "a": "Then arrange the rolls neatly and add a bowl of dipping sauce."
+     },
+     {
+      "e": "⑥ Serving / ăn: \"Finally, serve it and dip it in…\"",
+      "v": "Thưởng thức",
+      "a": "Finally, dip each roll in peanut sauce and enjoy it fresh."
+     },
+     {
+      "e": "⑦ Closing: \"And that's it! I hope you enjoy it. Thank you!\"",
+      "v": "Kết thúc",
+      "a": "And that's it! Thank you for watching."
+     },
+     {
+      "e": "Sequencers (từ nối các bước)",
+      "v": "First… · Next… · Then… · After that… · Finally…",
+      "a": "First…, next…, then…, after that…, finally…"
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Are you a good cook? Who taught you how to cook?",
+    "a": "I'm an okay cook — not a chef, but I can make simple, tasty meals. My mother taught me the basics when I was young, like how to cook rice and stir-fry vegetables. I'm still learning, and I enjoy trying new recipes on the weekend."
+   },
+   {
+    "q": "2. When was the last time you cooked? What did you make?",
+    "a": "The last time I cooked was a few days ago. I made a simple stir-fry with chicken and vegetables, plus some steamed rice. It was quick, healthy, and cheaper than eating out."
+   },
+   {
+    "q": "3. What is your favorite food? Do you know how to make it?",
+    "a": "My favorite food is pho. I know the basic steps, but a really good broth takes hours to simmer, so I usually leave that to the experts and just enjoy it at a restaurant."
+   },
+   {
+    "q": "4. Who is the best cook in your family? What is their specialty?",
+    "a": "The best cook in my family is my mother. Her specialty is braised pork with eggs — it's rich, savory, and reminds me of home. Nobody can make it quite like she does."
+   },
+   {
+    "q": "5. Have you ever tried to cook any foreign dishes?",
+    "a": "Yes, I've tried making a few foreign dishes, like fried rice with a Korean twist and simple pasta. They didn't taste exactly like the original, but it was fun to experiment."
+   },
+   {
+    "q": "6. Who are usually better at cooking, men or women?",
+    "a": "I don't think it depends on gender at all. Anyone can be a great cook with practice and passion. In fact, many famous professional chefs are men, while at home either parent can cook well."
+   },
+   {
+    "q": "7. Which city or region in Vietnam has the most delicious food?",
+    "a": "That's a tough one, but I'd say Hue and Ho Chi Minh City are hard to beat. Hue has amazing royal-style dishes, and Saigon has street food from all over the country."
+   },
+   {
+    "q": "8. Do you ever watch any cooking shows?",
+    "a": "Yes, sometimes. I enjoy watching cooking shows because they give me new ideas and make food look so appealing. I don't always cook what I see, but it's relaxing to watch."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Something smells amazing! What are you making?",
+    "v": "Thơm quá! Bạn đang nấu gì vậy?"
+   },
+   {
+    "p": "B",
+    "e": "I'm making stir-fried beef with vegetables. It's my go-to quick dinner.",
+    "v": "Mình đang xào bò với rau. Món tủ nấu nhanh của mình đó."
+   },
+   {
+    "p": "A",
+    "e": "Nice! What's the secret to good stir-fry?",
+    "v": "Hay đó! Bí quyết xào ngon là gì?"
+   },
+   {
+    "p": "B",
+    "e": "High heat and quick cooking. And you should marinate the beef first.",
+    "v": "Lửa to và xào nhanh. Với lại nên ướp thịt bò trước."
+   },
+   {
+    "p": "A",
+    "e": "Got it. Do you chop everything before you start?",
+    "v": "Hiểu rồi. Bạn thái sẵn hết trước khi nấu à?"
+   },
+   {
+    "p": "B",
+    "e": "Exactly. I prepare all the ingredients first, then it only takes five minutes to cook.",
+    "v": "Chính xác. Mình sơ chế hết nguyên liệu trước, rồi nấu chỉ mất năm phút."
+   },
+   {
+    "p": "A",
+    "e": "That's so efficient. Can you teach me sometime?",
+    "v": "Gọn ghê. Hôm nào dạy mình với nhé?"
+   },
+   {
+    "p": "B",
+    "e": "Of course! Come over on Sunday and we'll cook together.",
+    "v": "Chắc chắn rồi! Chủ nhật qua đây mình nấu chung."
+   }
+  ],
+  "tips": [
+   "Nói MÓN ĂN: tính từ đứng TRƯỚC danh từ — fried chicken (gà chiên), roasted duck (vịt quay), boiled eggs (trứng luộc).",
+   "Kể công thức theo THỨ TỰ: First… → Next… → Then… → After that… → Finally… (dùng động từ mệnh lệnh: Chop…, Add…, Boil…).",
+   "Phân biệt cách nấu: fry (chiên) · stir-fry (xào) · grill (nướng vỉ) · bake (nướng lò) · roast (quay) · boil (luộc) · steam (hấp).",
+   "Sơ chế: wash, peel, chop, slice, marinate, season, drain — nắm mấy động từ này là mô tả được mọi món."
+  ],
+  "shadow": {
+   "en": "Hello everyone, and welcome to my cooking show! Today, I'd love to show you how to make gỏi cuốn, or fresh spring rolls — one of my favourite Vietnamese dishes. It's light, healthy, and really easy to make. First, let's talk about the ingredients. You'll need rice paper, rice vermicelli noodles, fresh shrimp, thin slices of boiled pork, lettuce, and lots of fresh herbs like mint and coriander. Now for the preparation. First, boil the shrimp and the pork until they're cooked, then slice them thinly. Next, cook the vermicelli noodles, drain them, and let them cool. Wash all the herbs carefully and pat them dry. After that comes the fun part — rolling. Dip one sheet of rice paper in warm water for a few seconds to soften it, then place some noodles, herbs, pork, and shrimp on top and roll it up tightly like a small parcel. To present the dish, arrange the rolls neatly on a plate and add a small bowl of peanut dipping sauce on the side. Finally, the best part — eating! Just dip each roll in the sauce and enjoy it fresh. And that's it. I hope you'll try making gỏi cuốn at home. Thank you for watching!",
+   "vi": "Xin chào mọi người, chào mừng đến với chương trình nấu ăn của mình! Hôm nay mình muốn hướng dẫn các bạn làm gỏi cuốn — một trong những món Việt mình thích nhất. Nó thanh, lành mạnh và rất dễ làm. Trước tiên, nói về nguyên liệu. Bạn cần bánh tráng, bún, tôm tươi, thịt heo luộc thái lát mỏng, xà lách và nhiều rau thơm như húng và ngò. Giờ đến phần sơ chế. Đầu tiên, luộc tôm và thịt cho chín, rồi thái mỏng. Tiếp theo, trụng bún, để ráo và để nguội. Rửa sạch rau thơm và để cho khô. Sau đó là phần vui nhất — cuốn. Nhúng một lá bánh tráng vào nước ấm vài giây cho mềm, rồi đặt ít bún, rau, thịt và tôm lên, cuốn chặt lại như một gói nhỏ. Để trình bày, xếp các cuốn gọn gàng lên đĩa và thêm một chén nước chấm đậu phộng bên cạnh. Cuối cùng, phần tuyệt nhất — thưởng thức! Chỉ cần chấm từng cuốn vào nước chấm và ăn khi còn tươi. Vậy là xong. Mình mong các bạn sẽ thử làm gỏi cuốn tại nhà. Cảm ơn đã theo dõi!"
+  }
+ },
+ {
+  "icon": "💼",
+  "name": "Job Interviews / Phỏng vấn xin việc",
+  "intro": "Từ vựng điểm mạnh/điểm yếu + câu hỏi phỏng vấn thường gặp. Bài có sẵn DÀN Ý THUYẾT TRÌNH PHỎNG VẤN (giới thiệu → điểm mạnh/yếu → kể tình huống theo STAR → mục tiêu) và cách trả lời mẫu.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "strength",
+    "v": "điểm mạnh",
+    "x": "One of my strengths is attention to detail.",
+    "ip": "/stɹɛŋkθ/",
+    "d": "The quality or degree of being strong."
+   },
+   {
+    "s": 1,
+    "e": "weakness",
+    "v": "điểm yếu",
+    "x": "My biggest weakness is that I worry too much.",
+    "ip": "/ˈwiːk.nəs/",
+    "d": "The condition of being weak."
+   },
+   {
+    "s": 1,
+    "e": "hardworking",
+    "v": "chăm chỉ",
+    "x": "She is a hardworking student who never misses a class.",
+    "d": "Of a person, taking their work seriously and doing it well and rapidly."
+   },
+   {
+    "s": 1,
+    "e": "organised",
+    "v": "ngăn nắp, có tổ chức",
+    "x": "I'm very organised and always meet deadlines.",
+    "d": "Good at planning and keeping things in order; the opposite of messy."
+   },
+   {
+    "e": "disorganised",
+    "v": "thiếu tổ chức, bừa bộn",
+    "x": "Working with a disorganised team is stressful.",
+    "ip": "/dɪsˈɔː.ɡən.aɪzd/",
+    "d": "Not planned or ordered well; messy and confused."
+   },
+   {
+    "s": 1,
+    "e": "adaptable",
+    "v": "dễ thích nghi",
+    "x": "I'm adaptable and can change quickly when things change.",
+    "ip": "/əˈdæptəbəl/",
+    "d": "Able to change easily to fit new situations or conditions."
+   },
+   {
+    "e": "perfectionist",
+    "v": "người cầu toàn",
+    "x": "Being a perfectionist can slow me down sometimes.",
+    "d": "Someone who wants everything to be perfect and is unhappy with any mistake."
+   },
+   {
+    "s": 1,
+    "e": "creative",
+    "v": "sáng tạo",
+    "x": "She has a creative mind and loves painting.",
+    "ip": "/kɹiˈeɪtɪv/",
+    "d": "Tending to create things, or having the ability to create; often, excellently, in a novel fashion, or any or all of these."
+   },
+   {
+    "s": 1,
+    "e": "patient",
+    "v": "kiên nhẫn",
+    "x": "You need to be patient when training new staff.",
+    "ip": "/ˈpeɪʃənt/",
+    "d": "(of a person) Willing to wait if necessary; not losing one's temper while waiting."
+   },
+   {
+    "e": "impatient",
+    "v": "thiếu kiên nhẫn, nóng vội",
+    "x": "I get impatient when things move too slowly.",
+    "ip": "/ɪmˈpeɪʃənt/",
+    "d": "Not able to wait calmly; easily annoyed by delays."
+   },
+   {
+    "e": "forgetful",
+    "v": "hay quên",
+    "x": "I can be forgetful, so I write everything down.",
+    "d": "Often forgetting things."
+   },
+   {
+    "e": "positive",
+    "v": "tích cực",
+    "x": "I try to stay positive under pressure.",
+    "ip": "/ˈpɒzɪ̈tɪv/",
+    "d": "Fully assured in opinion."
+   },
+   {
+    "s": 1,
+    "e": "teamwork",
+    "v": "làm việc nhóm",
+    "x": "Good teamwork is the key to surviving on a desert island.",
+    "d": "Working well together as a group to reach a common goal."
+   },
+   {
+    "e": "public speaking",
+    "v": "nói trước đám đông",
+    "x": "I'm working on my public speaking skills.",
+    "ip": "/ˈpʌblɪk ˈspiːˌkiŋ/",
+    "d": "The skill of speaking to a group of people, for example giving a presentation."
+   },
+   {
+    "s": 1,
+    "e": "career goals",
+    "v": "mục tiêu nghề nghiệp",
+    "x": "My career goals include leading a team one day.",
+    "ip": "/kəˈɹɪə ɡɔʊlz/",
+    "d": "What you want to achieve in your working life over time."
+   },
+   {
+    "e": "CV / résumé",
+    "v": "sơ yếu lý lịch",
+    "x": "Please attach your CV to the application.",
+    "d": "A short written document listing your education, skills, and work experience."
+   }
+  ],
+  "extra": [
+   {
+    "title": "💪 Điểm mạnh (Strengths) vs Điểm yếu (Weaknesses)",
+    "rows": [
+     {
+      "e": "✅ STRENGTHS",
+      "v": "điểm mạnh nên nêu: hardworking · organised · adaptable · creative · patient · good at teamwork / public speaking",
+      "a": "One of my strengths is that I'm organised and hardworking."
+     },
+     {
+      "e": "⚠️ WEAKNESSES (nêu kèm cách khắc phục)",
+      "v": "điểm yếu: forgetful · impatient · disorganised · perfectionist",
+      "a": "I can be a perfectionist, but I'm learning to balance quality with deadlines."
+     },
+     {
+      "e": "Cách nói khéo điểm yếu",
+      "v": "nêu 1 điểm yếu thật + đang cải thiện thế nào",
+      "a": "I used to be nervous with public speaking, so I practise presentations regularly."
+     }
+    ]
+   },
+   {
+    "title": "🎤 DÀN Ý THUYẾT TRÌNH PHỎNG VẤN (self-pitch)",
+    "rows": [
+     {
+      "e": "① Tell me about yourself: \"Thank you for having me. My name is…, and I work in…\"",
+      "v": "Giới thiệu bản thân",
+      "a": "Thank you for having me. My name is Dung, and I work in quality control."
+     },
+     {
+      "e": "② Why this position: \"I'm interested in this position because…\"",
+      "v": "Vì sao ứng tuyển",
+      "a": "I'm interested in this position because it matches my skills and lets me grow."
+     },
+     {
+      "e": "③ Strengths: \"One of my main strengths is… / I'm good at…\"",
+      "v": "Điểm mạnh",
+      "a": "One of my main strengths is that I'm careful and detail-oriented."
+     },
+     {
+      "e": "④ Weakness (+ cải thiện): \"One weakness is…, but I'm working on it by…\"",
+      "v": "Điểm yếu kèm cách khắc phục",
+      "a": "One weakness is that I can be a perfectionist, but I'm learning to manage my time."
+     },
+     {
+      "e": "⑤ Challenge (kể theo STAR): \"Let me give you an example…\"",
+      "v": "Kể một tình huống khó đã xử lý",
+      "a": "Let me give you an example of a challenge I once faced…"
+     },
+     {
+      "e": "⑥ Career goals: \"In the next few years, I'd like to…\"",
+      "v": "Mục tiêu nghề nghiệp",
+      "a": "In the next few years, I'd like to grow into a senior role."
+     },
+     {
+      "e": "⑦ Your questions: \"I do have a question — could you tell me…?\"",
+      "v": "Đặt câu hỏi cho nhà tuyển dụng",
+      "a": "I do have a question — could you tell me what a typical day looks like?"
+     },
+     {
+      "e": "⑧ Closing: \"Thank you for your time. I'm excited about this opportunity.\"",
+      "v": "Kết thúc",
+      "a": "Thank you for your time. I'm really excited about this opportunity."
+     }
+    ]
+   },
+   {
+    "title": "⭐ Kể tình huống theo STAR (câu hỏi 'a challenging situation')",
+    "rows": [
+     {
+      "e": "S — Situation (bối cảnh)",
+      "v": "Chuyện xảy ra khi nào/ở đâu",
+      "a": "Once, we found a serious bug just before a product release."
+     },
+     {
+      "e": "T — Task (nhiệm vụ)",
+      "v": "Bạn cần làm gì",
+      "a": "I had to make sure it was fixed before the deadline."
+     },
+     {
+      "e": "A — Action (hành động)",
+      "v": "Bạn đã làm gì",
+      "a": "I stayed calm, reported it clearly, and worked closely with the developers."
+     },
+     {
+      "e": "R — Result (kết quả)",
+      "v": "Kết quả ra sao",
+      "a": "We fixed it in time, and the customers never noticed the problem."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Can you tell me about yourself?",
+    "a": "Thank you for having me. My name is Dung, and I've worked in quality control for a few years. My job is to make sure our products meet the right standards before release. I'm careful, hardworking, and I really enjoy solving problems."
+   },
+   {
+    "q": "2. Why are you interested in this position?",
+    "a": "I'm interested in this position because it matches my skills and gives me room to grow. I've followed your company for a while, and I'd love to contribute to a team that values quality as much as I do."
+   },
+   {
+    "q": "3. What are your strengths?",
+    "a": "One of my main strengths is attention to detail — I rarely miss mistakes. I'm also hardworking and good at teamwork, so I communicate well with both developers and business teams."
+   },
+   {
+    "q": "4. What are your weaknesses?",
+    "a": "One weakness is that I can be a bit of a perfectionist, which sometimes slows me down. I'm working on it by setting clear priorities and reminding myself that 'done' is better than 'perfect'."
+   },
+   {
+    "q": "5. Can you describe a challenging situation you faced and how you handled it?",
+    "a": "Sure. Once, we found a serious bug just before a release. I stayed calm, reported it clearly, and worked closely with the developers to fix it in time. In the end, we shipped on schedule and the customers never noticed."
+   },
+   {
+    "q": "6. Why do you want to work for our company?",
+    "a": "I admire your company's reputation for quality and its friendly culture. I want to work somewhere I can keep learning, take on more responsibility, and feel proud of the products I help create."
+   },
+   {
+    "q": "7. What are your career goals?",
+    "a": "In the next few years, I'd like to grow into a more senior role and eventually lead a small team. I also want to keep improving my technical and English skills so I can work with international partners."
+   },
+   {
+    "q": "8. Do you work well under pressure?",
+    "a": "Yes, I do. When there's a tight deadline, I stay calm, make a clear plan, and focus on the most important tasks first. Pressure actually helps me concentrate, as long as I stay organised."
+   },
+   {
+    "q": "9. How do you prioritise your work?",
+    "a": "I start each day by making a to-do list and sorting tasks by urgency and importance. I focus on the high-impact tasks first, and I'm not afraid to ask for help if something is unclear."
+   },
+   {
+    "q": "10. Do you have any questions for us?",
+    "a": "Yes, thank you. Could you tell me what a typical day in this role looks like? And what does success look like in the first six months? I want to make sure I can meet your expectations."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Good morning! Please, make yourself comfortable and take a seat.",
+    "v": "Chào buổi sáng! Mời bạn ngồi cho thoải mái."
+   },
+   {
+    "p": "B",
+    "e": "Thank you. It's a pleasure to be here.",
+    "v": "Cảm ơn anh/chị. Rất vui được có mặt ở đây."
+   },
+   {
+    "p": "A",
+    "e": "Let's start simple. Can you tell me a little about yourself?",
+    "v": "Bắt đầu nhẹ nhàng nhé. Bạn giới thiệu đôi chút về bản thân được không?"
+   },
+   {
+    "p": "B",
+    "e": "Of course. My name is Dung, and I've worked in quality control for a few years, making sure products meet the right standards.",
+    "v": "Vâng. Em tên Dung, đã làm kiểm soát chất lượng vài năm, đảm bảo sản phẩm đạt tiêu chuẩn."
+   },
+   {
+    "p": "A",
+    "e": "Great. What would you say is your biggest strength?",
+    "v": "Tốt. Điểm mạnh lớn nhất của bạn là gì?"
+   },
+   {
+    "p": "B",
+    "e": "My attention to detail. I rarely miss mistakes, and I'm good at working with a team.",
+    "v": "Sự tỉ mỉ. Em hiếm khi bỏ sót lỗi, và em làm việc nhóm tốt."
+   },
+   {
+    "p": "A",
+    "e": "And a weakness?",
+    "v": "Còn điểm yếu?"
+   },
+   {
+    "p": "B",
+    "e": "I can be a perfectionist, but I'm learning to balance quality with deadlines.",
+    "v": "Em hơi cầu toàn, nhưng đang học cách cân bằng chất lượng và thời hạn."
+   },
+   {
+    "p": "A",
+    "e": "Good answer. Do you have any questions for us?",
+    "v": "Câu trả lời hay. Bạn có câu hỏi nào cho chúng tôi không?"
+   },
+   {
+    "p": "B",
+    "e": "Yes — could you tell me what a typical day in this role looks like?",
+    "v": "Có ạ — anh/chị cho em biết một ngày làm việc điển hình ở vị trí này thế nào được không?"
+   }
+  ],
+  "tips": [
+   "Điểm yếu: nêu MỘT điểm yếu thật + đang cải thiện thế nào (đừng nói 'I have no weaknesses' hay điểm yếu quá nặng).",
+   "Câu 'a challenging situation': trả lời theo STAR — Situation → Task → Action → Result.",
+   "Luôn chuẩn bị vài CÂU HỎI cho nhà tuyển dụng (về công việc, đội nhóm, kỳ vọng) — cho thấy bạn thực sự quan tâm.",
+   "Không nói xấu công ty/sếp cũ. Trả lời tích cực, cụ thể, và gắn với vị trí đang ứng tuyển."
+  ],
+  "shadow": {
+   "en": "Good morning, and thank you for giving me this opportunity. Let me tell you a little about myself. My name is Dung, and I've been working in quality control for a few years. My job is to make sure our products meet the right standards before they reach customers. I'm interested in this position because it matches my skills and lets me keep growing. One of my main strengths is that I'm careful and detail-oriented, so I rarely miss mistakes. I'm also hardworking and good at teamwork. If I have to mention a weakness, I'd say I can be a bit of a perfectionist, but I'm learning to balance quality with deadlines. Let me give you an example of a challenge I faced. Once, we found a serious bug just before a release. I stayed calm, reported it clearly, and worked with the developers to fix it in time. In the next few years, my goal is to grow into a more senior role and lead a small team. Finally, I do have a question for you: could you tell me what a typical day in this role looks like? Thank you very much for your time — I'm really excited about this opportunity.",
+   "vi": "Chào buổi sáng, và cảm ơn anh/chị đã cho em cơ hội này. Em xin giới thiệu đôi chút về bản thân. Em tên Dung, đã làm trong lĩnh vực kiểm soát chất lượng vài năm. Công việc của em là đảm bảo sản phẩm đạt tiêu chuẩn trước khi đến tay khách hàng. Em quan tâm đến vị trí này vì nó phù hợp với kỹ năng của em và giúp em tiếp tục phát triển. Một trong những điểm mạnh chính của em là cẩn thận và tỉ mỉ, nên em hiếm khi bỏ sót lỗi. Em cũng chăm chỉ và làm việc nhóm tốt. Nếu phải nêu một điểm yếu, em sẽ nói em hơi cầu toàn, nhưng em đang học cách cân bằng chất lượng và thời hạn. Cho em kể một ví dụ về một thử thách em từng gặp. Có lần, tụi em phát hiện một lỗi nghiêm trọng ngay trước khi phát hành. Em giữ bình tĩnh, báo cáo rõ ràng và phối hợp với lập trình viên để sửa kịp. Trong vài năm tới, mục tiêu của em là phát triển lên vị trí cao hơn và dẫn dắt một nhóm nhỏ. Cuối cùng, em có một câu hỏi: anh/chị có thể cho em biết một ngày làm việc điển hình ở vị trí này thế nào không? Cảm ơn anh/chị rất nhiều — em thực sự hào hứng với cơ hội này."
+  }
  }
 ];

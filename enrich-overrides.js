@@ -418,5 +418,25 @@ module.exports = {
   "gamble": { d: "To risk money on a game or bet, hoping to win more.", x: "It's risky to gamble money you can't afford to lose." },
   "generous": { d: "Happy to give money, time, or help freely to others.", x: "She's very generous and always treats her friends." },
   "credit card": { d: "A plastic card that lets you buy now and pay the bank back later.", x: "I paid for it with my credit card." },
-  "gold digger": { d: "Someone who dates or marries a person mainly for their money.", x: "He worried she was just a gold digger." }
+  "gold digger": { d: "Someone who dates or marries a person mainly for their money.", x: "He worried she was just a gold digger." },
+
+  // ---- Cooking ----
+  "recipe": { d: "A set of instructions for cooking a dish, with the ingredients and steps." },
+  "ingredients": { d: "The different foods you combine to make a dish." },
+  "preparation": { d: "Getting the food ready before cooking (washing, cutting, marinating)." },
+  "stir-fry": { d: "To cook small pieces of food quickly in a little hot oil, stirring all the time." },
+  "marinate": { d: "To soak food in a sauce of spices for a while so it takes on flavour before cooking." },
+  "season": { d: "To add salt, pepper, or spices to food to improve its flavour." },
+  "roast": { d: "To cook meat or vegetables in an oven or over a fire, usually a large piece." },
+
+  // ---- Job Interviews ----
+  "organised": { d: "Good at planning and keeping things in order; the opposite of messy." },
+  "disorganised": { d: "Not planned or ordered well; messy and confused." },
+  "adaptable": { d: "Able to change easily to fit new situations or conditions." },
+  "perfectionist": { d: "Someone who wants everything to be perfect and is unhappy with any mistake." },
+  "forgetful": { d: "Often forgetting things." },
+  "impatient": { d: "Not able to wait calmly; easily annoyed by delays." },
+  "public speaking": { d: "The skill of speaking to a group of people, for example giving a presentation." },
+  "career goals": { d: "What you want to achieve in your working life over time." },
+  "CV / résumé": { d: "A short written document listing your education, skills, and work experience." }
 };
