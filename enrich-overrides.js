@@ -438,5 +438,20 @@ module.exports = {
   "impatient": { d: "Not able to wait calmly; easily annoyed by delays." },
   "public speaking": { d: "The skill of speaking to a group of people, for example giving a presentation." },
   "career goals": { d: "What you want to achieve in your working life over time." },
-  "CV / résumé": { d: "A short written document listing your education, skills, and work experience." }
+  "CV / résumé": { d: "A short written document listing your education, skills, and work experience." },
+
+  // ---- At the Market ----
+  "vendor": { d: "A person who sells things, often at a market or on the street." },
+  "bargain": { d: "To argue with a seller to agree on a lower price." },
+  "haggle": { d: "To argue about a price until both sides agree; the same idea as bargain." },
+  "browse": { d: "To look at things in a relaxed way, without planning to buy." },
+  "secondhand": { d: "Already owned and used by someone else before; not new." },
+  "good deal": { d: "Something you buy at a very good, low price." },
+  "rip off": { d: "Something that costs far more than it is worth; being charged too much." },
+  "stall": { d: "A small open shop or table where a vendor sells things at a market." },
+  "overpriced": { d: "Costing more than it is really worth." },
+  "negotiate": { d: "To discuss something in order to reach an agreement, such as a price." },
+  "fresh produce": { d: "Fresh fruit and vegetables." },
+  "local market": { d: "A traditional neighbourhood market where locals buy food and goods." },
+  "change": { d: "The money a seller gives back when you pay more than the price." }
 };

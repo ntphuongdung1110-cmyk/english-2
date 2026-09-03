@@ -10540,5 +10540,300 @@ window.ONTAP = [
    "en": "Good morning, and thank you for giving me this opportunity. Let me tell you a little about myself. My name is Dung, and I've been working in quality control for a few years. My job is to make sure our products meet the right standards before they reach customers. I'm interested in this position because it matches my skills and lets me keep growing. One of my main strengths is that I'm careful and detail-oriented, so I rarely miss mistakes. I'm also hardworking and good at teamwork. If I have to mention a weakness, I'd say I can be a bit of a perfectionist, but I'm learning to balance quality with deadlines. Let me give you an example of a challenge I faced. Once, we found a serious bug just before a release. I stayed calm, reported it clearly, and worked with the developers to fix it in time. In the next few years, my goal is to grow into a more senior role and lead a small team. Finally, I do have a question for you: could you tell me what a typical day in this role looks like? Thank you very much for your time — I'm really excited about this opportunity.",
    "vi": "Chào buổi sáng, và cảm ơn anh/chị đã cho em cơ hội này. Em xin giới thiệu đôi chút về bản thân. Em tên Dung, đã làm trong lĩnh vực kiểm soát chất lượng vài năm. Công việc của em là đảm bảo sản phẩm đạt tiêu chuẩn trước khi đến tay khách hàng. Em quan tâm đến vị trí này vì nó phù hợp với kỹ năng của em và giúp em tiếp tục phát triển. Một trong những điểm mạnh chính của em là cẩn thận và tỉ mỉ, nên em hiếm khi bỏ sót lỗi. Em cũng chăm chỉ và làm việc nhóm tốt. Nếu phải nêu một điểm yếu, em sẽ nói em hơi cầu toàn, nhưng em đang học cách cân bằng chất lượng và thời hạn. Cho em kể một ví dụ về một thử thách em từng gặp. Có lần, tụi em phát hiện một lỗi nghiêm trọng ngay trước khi phát hành. Em giữ bình tĩnh, báo cáo rõ ràng và phối hợp với lập trình viên để sửa kịp. Trong vài năm tới, mục tiêu của em là phát triển lên vị trí cao hơn và dẫn dắt một nhóm nhỏ. Cuối cùng, em có một câu hỏi: anh/chị có thể cho em biết một ngày làm việc điển hình ở vị trí này thế nào không? Cảm ơn anh/chị rất nhiều — em thực sự hào hứng với cơ hội này."
   }
+ },
+ {
+  "icon": "🧺",
+  "name": "At the Market / Đi chợ (chợ truyền thống)",
+  "intro": "Từ vựng chợ truyền thống + MẶC CẢ (bargaining). Khác 'At the Supermarket': ở chợ có thể trả giá, mua đồ cũ, coi chừng bị chặt chém. Trả lời theo mẫu: Trả lời → Lý do → Ví dụ → Ý thêm.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "vendor",
+    "v": "người bán hàng, người bán rong",
+    "x": "The vendor sells fresh fruit at the market.",
+    "ip": "/ˈvɛn.də/",
+    "d": "A person who sells things, often at a market or on the street."
+   },
+   {
+    "s": 1,
+    "e": "bargain",
+    "v": "mặc cả, trả giá",
+    "x": "You can bargain for a lower price at the market.",
+    "ip": "/-ɡɪn/",
+    "d": "To argue with a seller to agree on a lower price."
+   },
+   {
+    "e": "haggle",
+    "v": "mặc cả, kì kèo (= bargain)",
+    "x": "Tourists often haggle over prices.",
+    "ip": "/ˈhæɡəl/",
+    "d": "To argue about a price until both sides agree; the same idea as bargain."
+   },
+   {
+    "s": 1,
+    "e": "browse",
+    "v": "dạo xem hàng (không nhất thiết mua)",
+    "x": "I like to browse the stalls before I buy anything.",
+    "ip": "/bɹaʊz/",
+    "d": "To look at things in a relaxed way, without planning to buy."
+   },
+   {
+    "e": "secondhand",
+    "v": "đồ cũ, đã qua sử dụng",
+    "x": "I bought a secondhand bike, and it was really cheap.",
+    "d": "Already owned and used by someone else before; not new."
+   },
+   {
+    "s": 1,
+    "e": "good deal",
+    "v": "món hời, giá hời",
+    "x": "Two shirts for 100,000 dong is a good deal.",
+    "ip": "/ɡʊ(d) diːl/",
+    "d": "Something you buy at a very good, low price."
+   },
+   {
+    "s": 1,
+    "e": "rip off",
+    "v": "vụ chặt chém / bị hét giá",
+    "x": "500,000 for one coconut? That's a rip off!",
+    "d": "Something that costs far more than it is worth; being charged too much."
+   },
+   {
+    "s": 1,
+    "e": "stall",
+    "v": "quầy / sạp hàng",
+    "x": "She has a small stall selling vegetables.",
+    "ip": "/stɔːl/",
+    "d": "A small open shop or table where a vendor sells things at a market."
+   },
+   {
+    "e": "discount",
+    "v": "sự giảm giá",
+    "x": "Can you give me a discount if I buy two?",
+    "ip": "/dɪsˈkaʊnt/",
+    "d": "(of a store) Specializing in selling goods at reduced prices."
+   },
+   {
+    "e": "overpriced",
+    "v": "bị hét giá, đắt quá mức",
+    "x": "The souvenirs near the tourist spot are overpriced.",
+    "d": "Costing more than it is really worth."
+   },
+   {
+    "e": "negotiate",
+    "v": "thương lượng (giá)",
+    "x": "We negotiated the price down to half.",
+    "ip": "/nəˈɡəʊ.ʃi.eɪt/",
+    "d": "To discuss something in order to reach an agreement, such as a price."
+   },
+   {
+    "e": "change",
+    "v": "tiền thối lại",
+    "x": "The vendor gave me my change and a smile.",
+    "ip": "/tʃeɪndʒ/",
+    "d": "The money a seller gives back when you pay more than the price."
+   },
+   {
+    "s": 1,
+    "e": "fresh produce",
+    "v": "nông sản tươi (rau củ quả)",
+    "x": "The market has cheap, fresh produce every morning.",
+    "ip": "/fɹɛʃ pɹəˈdjuːs/",
+    "d": "Fresh fruit and vegetables."
+   },
+   {
+    "e": "local market",
+    "v": "chợ địa phương / chợ truyền thống",
+    "x": "I love the busy local market near my house.",
+    "ip": "/ˈləʊkl̩ ˈmɑːkɪt/",
+    "d": "A traditional neighbourhood market where locals buy food and goods."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🛍️ Mặc cả — câu hay dùng (bargaining phrases)",
+    "rows": [
+     {
+      "e": "How much is this? / How much do you want for it?",
+      "v": "Cái này bao nhiêu?",
+      "a": "Excuse me, how much is this bag?"
+     },
+     {
+      "e": "That's too expensive.",
+      "v": "Đắt quá.",
+      "a": "Oh, that's too expensive for me."
+     },
+     {
+      "e": "Can you lower the price? / Can you do it cheaper?",
+      "v": "Bớt chút được không?",
+      "a": "Can you do it a bit cheaper?"
+     },
+     {
+      "e": "Can you give me a discount?",
+      "v": "Giảm giá cho mình được không?",
+      "a": "Can you give me a discount if I buy two?"
+     },
+     {
+      "e": "I'll give you [80,000].",
+      "v": "Mình trả [80k] thôi nhé.",
+      "a": "I'll give you 80,000 for it."
+     },
+     {
+      "e": "It's a deal! / Deal!",
+      "v": "Chốt nhé!",
+      "a": "Okay, 100,000 — it's a deal!"
+     },
+     {
+      "e": "No thanks, I'm just browsing / just looking.",
+      "v": "Không, mình chỉ xem thôi.",
+      "a": "No thanks, I'm just looking around."
+     }
+    ]
+   },
+   {
+    "title": "💵 Bạn sẵn sàng trả bao nhiêu cho…? (What is the most you would pay for…)",
+    "rows": [
+     {
+      "e": "a bowl of phở",
+      "v": "tô phở",
+      "a": "I'd pay about 50,000–70,000 dong for a good bowl of pho — more than that feels overpriced."
+     },
+     {
+      "e": "the newest iPhone",
+      "v": "iPhone mới nhất",
+      "a": "I wouldn't pay top price; maybe up to 25 million, but honestly an older model is enough for me."
+     },
+     {
+      "e": "a new motorbike",
+      "v": "xe máy mới",
+      "a": "Around 30–40 million for a reliable one; I don't need a fancy brand."
+     },
+     {
+      "e": "a dinner at a 5-star restaurant",
+      "v": "bữa tối nhà hàng 5 sao",
+      "a": "For a special occasion, I'd pay a few million once in a while, but not often."
+     },
+     {
+      "e": "an apartment in Vinhomes",
+      "v": "căn hộ Vinhomes",
+      "a": "That depends on my budget — probably only what I could afford with a sensible loan."
+     },
+     {
+      "e": "a massage",
+      "v": "một lần massage",
+      "a": "I'd pay around 200,000–300,000 dong for a good one-hour massage."
+     },
+     {
+      "e": "an around-the-world trip",
+      "v": "chuyến đi vòng quanh thế giới",
+      "a": "For a once-in-a-lifetime trip, I'd save up and pay a lot — the memories are worth it."
+     },
+     {
+      "e": "a date with your soulmate",
+      "v": "buổi hẹn với người trong mộng",
+      "a": "Ha! You can't put a price on that — some things money just can't buy."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How often do you go shopping?",
+    "a": "I go shopping a few times a week for small things like food, and once or twice a month for bigger items. I try not to shop too often, because it's easy to spend money on things I don't really need."
+   },
+   {
+    "q": "2. How often do you go to the market? Where is it? What can you buy there?",
+    "a": "I go to the local market near my house two or three times a week. It's just a five-minute walk away. There, I can buy fresh produce, meat, fish, herbs, and cheap household things. It's lively and the food is fresher than in supermarkets."
+   },
+   {
+    "q": "3. Do you prefer to go to the market or the supermarket? Why?",
+    "a": "It depends. I prefer the market for fresh produce, because it's cheaper and you can bargain. But I prefer the supermarket for packaged goods, because the prices are fixed and it's air-conditioned and clean."
+   },
+   {
+    "q": "4. Have you ever been ripped off?",
+    "a": "Yes, once at a tourist spot I paid way too much for a drink — that was a real rip off. Since then, I always ask the price first and check with a local if I'm not sure."
+   },
+   {
+    "q": "5. Are you good at bargaining?",
+    "a": "I'm okay, not amazing. I usually ask for a lower price politely and smile a lot. If they say no, I sometimes walk away slowly, and often they call me back with a better price!"
+   },
+   {
+    "q": "6. What is the best deal you've ever gotten?",
+    "a": "Once I bought a nice jacket at a market for about a third of the original price after bargaining. It felt great, because it was good quality and a real good deal."
+   },
+   {
+    "q": "7. When you go to the market, do you usually buy something or just browse?",
+    "a": "Usually I go with a list and buy what I need, but I also like to browse the stalls. Sometimes I find something interesting I wasn't planning to buy."
+   },
+   {
+    "q": "8. Do you ever buy secondhand items?",
+    "a": "Yes, I do. I've bought secondhand books and even some electronics. If the quality is good, I don't mind — it saves money and it's better for the environment."
+   },
+   {
+    "q": "9. What do you think about Bến Thành Market?",
+    "a": "Bến Thành Market is famous and worth visiting once, especially for tourists. But honestly, the prices there are often high, so you really have to bargain. I prefer smaller local markets for everyday shopping."
+   },
+   {
+    "q": "10. If you were a market vendor, what would you sell? How much would you charge?",
+    "a": "If I were a vendor, I'd sell fresh fruit and cold drinks, because everyone needs them, especially in hot weather. I'd charge a fair price with a small profit — I'd rather sell a lot at a good deal than rip people off."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Hi! How much is this straw bag?",
+    "v": "Chào chị! Cái túi cói này bao nhiêu ạ?"
+   },
+   {
+    "p": "B",
+    "e": "That one is 250,000 dong. It's handmade, very good quality.",
+    "v": "Cái đó 250 nghìn. Hàng thủ công, chất lượng lắm."
+   },
+   {
+    "p": "A",
+    "e": "Hmm, that's a bit expensive. Can you do it cheaper?",
+    "v": "Hmm, hơi đắt. Chị bớt chút được không?"
+   },
+   {
+    "p": "B",
+    "e": "How much do you want to pay?",
+    "v": "Em muốn trả bao nhiêu?"
+   },
+   {
+    "p": "A",
+    "e": "I'll give you 180,000.",
+    "v": "Em trả 180 nghìn nhé."
+   },
+   {
+    "p": "B",
+    "e": "Oh, that's too low. Let's meet in the middle — 210,000?",
+    "v": "Ôi, thấp quá. Thôi gặp nhau ở giữa — 210 nghìn nhé?"
+   },
+   {
+    "p": "A",
+    "e": "Okay, 200,000 and it's a deal.",
+    "v": "Được, 200 nghìn là chốt."
+   },
+   {
+    "p": "B",
+    "e": "Alright, 200,000. You drive a hard bargain! Here's your change.",
+    "v": "Thôi được, 200 nghìn. Em mặc cả giỏi thật! Đây tiền thối của em."
+   },
+   {
+    "p": "A",
+    "e": "Thank you so much. Have a nice day!",
+    "v": "Cảm ơn chị nhiều. Chúc chị một ngày tốt lành!"
+   }
+  ],
+  "tips": [
+   "Mặc cả lịch sự: 'How much is this?' → 'That's too expensive.' → 'Can you do it cheaper?' → 'I'll give you [giá].' → 'It's a deal!'",
+   "bargain = haggle = negotiate (mặc cả). rip off = bị chặt chém (giá cắt cổ). good deal = món hời. overpriced = bị hét giá.",
+   "Mẹo: hỏi giá TRƯỚC, so vài quầy, và có thể 'walk away' (đi ra từ từ) — nhiều khi người bán sẽ gọi lại với giá tốt hơn.",
+   "Ở chợ giá thường KHÔNG cố định (có thể trả giá); ở siêu thị giá cố định — dùng đúng ngữ cảnh."
+  ],
+  "shadow": {
+   "en": "I really enjoy going to the local market near my house. Early in the morning, it's already busy and full of life. The vendors call out their prices, and the stalls are packed with fresh produce, meat, fish, and colourful fruit. I usually walk around and browse first to compare prices before I buy anything. My favourite part is bargaining. If something is too expensive, I smile and ask, 'Can you do it cheaper?' — and often the vendor lowers the price. You have to be polite, though, not rude. Shopping at the market is cheaper than the supermarket, and the food is fresher. Sometimes I get a really good deal, and sometimes I pay a little too much, but that's part of the fun. Most of all, I love the friendly, noisy atmosphere — it feels like the real heart of the neighbourhood.",
+   "vi": "Mình rất thích đi chợ gần nhà. Sáng sớm chợ đã đông và nhộn nhịp. Người bán rao giá, các sạp đầy ắp nông sản tươi, thịt, cá và trái cây đủ màu. Mình thường đi dạo xem trước để so giá rồi mới mua. Phần mình thích nhất là mặc cả. Nếu món gì đắt quá, mình cười và hỏi 'Bớt chút được không?' — và người bán thường hạ giá. Nhưng phải lịch sự, đừng cộc cằn. Mua ở chợ rẻ hơn siêu thị, đồ lại tươi hơn. Có khi mình được món hời, có khi trả hơi mắc một chút, nhưng đó là cái vui. Nhất là mình mê cái không khí thân thiện, ồn ào — nó như trái tim thật sự của khu phố."
+  }
  }
 ];
