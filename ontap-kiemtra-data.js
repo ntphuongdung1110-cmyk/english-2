@@ -10835,5 +10835,445 @@ window.ONTAP = [
    "en": "I really enjoy going to the local market near my house. Early in the morning, it's already busy and full of life. The vendors call out their prices, and the stalls are packed with fresh produce, meat, fish, and colourful fruit. I usually walk around and browse first to compare prices before I buy anything. My favourite part is bargaining. If something is too expensive, I smile and ask, 'Can you do it cheaper?' — and often the vendor lowers the price. You have to be polite, though, not rude. Shopping at the market is cheaper than the supermarket, and the food is fresher. Sometimes I get a really good deal, and sometimes I pay a little too much, but that's part of the fun. Most of all, I love the friendly, noisy atmosphere — it feels like the real heart of the neighbourhood.",
    "vi": "Mình rất thích đi chợ gần nhà. Sáng sớm chợ đã đông và nhộn nhịp. Người bán rao giá, các sạp đầy ắp nông sản tươi, thịt, cá và trái cây đủ màu. Mình thường đi dạo xem trước để so giá rồi mới mua. Phần mình thích nhất là mặc cả. Nếu món gì đắt quá, mình cười và hỏi 'Bớt chút được không?' — và người bán thường hạ giá. Nhưng phải lịch sự, đừng cộc cằn. Mua ở chợ rẻ hơn siêu thị, đồ lại tươi hơn. Có khi mình được món hời, có khi trả hơi mắc một chút, nhưng đó là cái vui. Nhất là mình mê cái không khí thân thiện, ồn ào — nó như trái tim thật sự của khu phố."
   }
+ },
+ {
+  "icon": "🏺",
+  "name": "Pottery / Làm gốm (dẫn khách trải nghiệm)",
+  "intro": "Vai trò của bạn là NGƯỜI DẪN (host), không phải học viên: (1) dẫn dắt — rủ, giới thiệu; (2) giải thích — nói cho khách hiểu đang làm gì; (3) phiên dịch — nói lại giữa thợ gốm Việt và khách. Học từ vựng + động tác tay, rồi luyện các khung câu.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "clay",
+    "v": "đất sét",
+    "x": "First, you knead the clay to get the air bubbles out.",
+    "ip": "/kleɪ/",
+    "d": "Soft, wet earth that becomes hard when it is dried and fired; used to make pottery."
+   },
+   {
+    "s": 1,
+    "e": "pottery wheel",
+    "v": "bàn xoay gốm",
+    "x": "Put the clay in the middle of the pottery wheel.",
+    "ip": "/ˈpɒtəɹi ʍiːl/",
+    "d": "A flat spinning disc a potter uses to shape wet clay by hand."
+   },
+   {
+    "s": 1,
+    "e": "kiln",
+    "v": "lò nung",
+    "x": "It goes into the kiln twice.",
+    "ip": "/kɪl(n)/",
+    "d": "A very hot oven used to bake (fire) clay so it becomes hard."
+   },
+   {
+    "s": 1,
+    "e": "glaze",
+    "v": "men gốm / tráng men",
+    "x": "After glazing, it comes out shiny and smooth.",
+    "ip": "/ɡleɪz/",
+    "d": "A liquid coating put on pottery that becomes shiny and smooth after firing."
+   },
+   {
+    "e": "sponge",
+    "v": "miếng bọt biển (thấm nước)",
+    "x": "Wipe the surface with a wet sponge.",
+    "ip": "/spʌnd͡ʒ/",
+    "d": "To take advantage of the kindness of others."
+   },
+   {
+    "e": "apron",
+    "v": "tạp dề",
+    "x": "Here, put this apron on — it gets messy.",
+    "ip": "/ˈeɪ.pɹən/",
+    "d": "An article of clothing worn over the front of the torso and/or legs for protection from spills; also historically worn by Freemasons and as part of women's fashion."
+   },
+   {
+    "s": 1,
+    "e": "throw",
+    "v": "chuốt gốm trên bàn xoay (KHÔNG phải 'ném')",
+    "x": "It takes practice to throw a bowl on the wheel.",
+    "ip": "/θɹəʊ/",
+    "d": "In pottery, to shape wet clay on a spinning wheel with your hands (not 'to toss')."
+   },
+   {
+    "e": "wedge",
+    "v": "nhồi đất cho hết bọt khí",
+    "x": "Wedge the clay before you start.",
+    "ip": "/wɛdʒ/",
+    "d": "To press and knead clay to remove air bubbles before shaping it."
+   },
+   {
+    "e": "center",
+    "v": "canh cục đất vào đúng tâm",
+    "x": "You have to center the clay first, or it will wobble.",
+    "ip": "/ˈsɛn.tə(ɹ)/",
+    "d": "To push the lump of clay into the exact middle of the wheel so it spins evenly."
+   },
+   {
+    "s": 1,
+    "e": "trim",
+    "v": "gọt chân, gọt đáy",
+    "x": "Once it's dry, you trim the bottom.",
+    "d": "To cut away extra clay from the base of a pot once it is a bit dry."
+   },
+   {
+    "e": "pinch",
+    "v": "nặn véo bằng tay",
+    "x": "You can pinch the clay to make a small bowl.",
+    "ip": "/pɪntʃ/",
+    "d": "To press and shape clay between your fingers and thumb."
+   },
+   {
+    "e": "fire",
+    "v": "nung (trong lò)",
+    "x": "Do you want them to fire it for you?",
+    "d": "To bake pottery in a kiln so the clay becomes hard and strong."
+   },
+   {
+    "s": 1,
+    "e": "collapse",
+    "v": "bị sụp, đổ",
+    "x": "Don't press too hard or it'll collapse.",
+    "ip": "/kəˈlæps/",
+    "d": "To fall down or cave in suddenly (a pot losing its shape on the wheel)."
+   },
+   {
+    "e": "wobble",
+    "v": "bị lắc, lệch (không đều)",
+    "x": "It's off-center — that's why it's wobbling.",
+    "ip": "/ˈwɒbl̩/",
+    "d": "To move unsteadily from side to side because it is off-center."
+   },
+   {
+    "s": 1,
+    "e": "fragile",
+    "v": "dễ vỡ",
+    "x": "Unfired clay is fragile — it breaks easily.",
+    "ip": "/ˈfɹædʒaɪl/",
+    "d": "Easily broken or damaged."
+   },
+   {
+    "e": "waterproof",
+    "v": "không thấm nước",
+    "x": "Once it's fired, it's waterproof and food-safe.",
+    "d": "Not letting water through; keeping water out."
+   }
+  ],
+  "extra": [
+   {
+    "title": "✋ Động tác tay (hand actions): nhấc lên · bỏ xuống · và tương tự",
+    "rows": [
+     {
+      "e": "pick up ↔ put down",
+      "v": "nhấc lên ↔ đặt xuống",
+      "a": "Pick up the bowl and put it down gently."
+     },
+     {
+      "e": "lift (up) ↔ lower",
+      "v": "nâng lên ↔ hạ xuống",
+      "a": "Lift the piece up, then lower it onto the bat."
+     },
+     {
+      "e": "raise ↔ drop",
+      "v": "giơ/đưa lên ↔ thả, làm rơi",
+      "a": "Raise it slowly — don't drop it!"
+     },
+     {
+      "e": "hold ↔ let go",
+      "v": "cầm, giữ ↔ buông tay",
+      "a": "Hold it steady, then let go slowly."
+     },
+     {
+      "e": "grip / grab",
+      "v": "nắm chặt / chộp lấy",
+      "a": "Grip the clay firmly, but don't grab it too hard."
+     },
+     {
+      "e": "squeeze",
+      "v": "bóp",
+      "a": "Squeeze gently to shape the neck."
+     },
+     {
+      "e": "press down / press in",
+      "v": "ấn xuống / ấn vào",
+      "a": "Press down in the middle with both thumbs."
+     },
+     {
+      "e": "push ↔ pull (up)",
+      "v": "đẩy ↔ kéo (lên)",
+      "a": "Pull the walls up — don't push too hard."
+     },
+     {
+      "e": "twist / turn",
+      "v": "vặn / xoay",
+      "a": "Turn the wheel and twist the clay gently."
+     },
+     {
+      "e": "shape / mold",
+      "v": "tạo hình / nặn",
+      "a": "Shape the clay into a small bowl."
+     },
+     {
+      "e": "flatten",
+      "v": "làm phẳng, ép dẹt",
+      "a": "Flatten the base with your palm."
+     },
+     {
+      "e": "smooth (out)",
+      "v": "vuốt cho mịn, làm láng",
+      "a": "Smooth out the surface with a wet sponge."
+     },
+     {
+      "e": "poke / tap / pat",
+      "v": "chọc / gõ nhẹ / vỗ nhẹ",
+      "a": "Tap it lightly to help center it."
+     },
+     {
+      "e": "scoop / scrape",
+      "v": "múc / cạo bớt",
+      "a": "Scoop out the extra clay from inside."
+     },
+     {
+      "e": "place (gently)",
+      "v": "đặt (nhẹ, cẩn thận)",
+      "a": "Place it carefully on the shelf to dry."
+     },
+     {
+      "e": "hold it steady",
+      "v": "giữ chắc, đừng rung",
+      "a": "Keep your elbows in and hold it steady."
+     }
+    ]
+   },
+   {
+    "title": "🪜 Giải thích từng bước (step-by-step)",
+    "rows": [
+     {
+      "e": "First, you knead the clay to get the air bubbles out.",
+      "v": "Đầu tiên nhồi đất cho hết bọt khí (knead: chữ k câm → 'niid')",
+      "a": "First, you knead the clay to get the air bubbles out."
+     },
+     {
+      "e": "Now put it in the middle of the wheel and press down.",
+      "v": "Đặt vào giữa bàn xoay rồi ấn xuống",
+      "a": "Now put it in the middle of the wheel and press down."
+     },
+     {
+      "e": "Keep your hands wet — that's important.",
+      "v": "Giữ tay luôn ướt — rất quan trọng",
+      "a": "Keep your hands wet — that's important."
+     },
+     {
+      "e": "Press with both thumbs to open the middle.",
+      "v": "Dùng hai ngón cái ấn để mở lòng",
+      "a": "Press with both thumbs to open the middle."
+     },
+     {
+      "e": "Now pull the walls up — slowly.",
+      "v": "Giờ kéo thành lên — từ từ thôi",
+      "a": "Now pull the walls up — slowly."
+     },
+     {
+      "e": "Don't press too hard or it'll collapse.",
+      "v": "Đừng ấn mạnh quá, nó sụp đấy",
+      "a": "Don't press too hard or it'll collapse."
+     },
+     {
+      "e": "That's normal — everyone's first one collapses. You're doing great.",
+      "v": "Bình thường thôi — ai lần đầu cũng sụp. Bạn làm tốt lắm.",
+      "a": "That's normal — everyone's first one collapses. You're doing great."
+     }
+    ]
+   },
+   {
+    "title": "🗣️ Dẫn khách & phiên dịch (host & interpret)",
+    "rows": [
+     {
+      "e": "I thought you might enjoy this — it's a pottery workshop.",
+      "v": "Tôi nghĩ bạn sẽ thích — đây là xưởng gốm",
+      "a": "I thought you might enjoy this — it's a pottery workshop."
+     },
+     {
+      "e": "Have you ever tried pottery before? Don't worry, no experience needed.",
+      "v": "Bạn thử làm gốm bao giờ chưa? Đừng lo, không cần biết trước.",
+      "a": "Have you ever tried pottery before? Don't worry, no experience needed."
+     },
+     {
+      "e": "She says you should… / He's saying it's too thin.",
+      "v": "Chị ấy bảo bạn nên… / Anh ấy nói nó mỏng quá",
+      "a": "She says you should keep your hands wet."
+     },
+     {
+      "e": "Hang on, let me translate that.",
+      "v": "Chờ chút, để tôi dịch",
+      "a": "Hang on, let me translate that."
+     },
+     {
+      "e": "She's asking if you want a bowl or a cup.",
+      "v": "Chị ấy hỏi bạn muốn làm tô hay cốc",
+      "a": "She's asking if you want a bowl or a cup."
+     },
+     {
+      "e": "Do you want me to ask about the price?",
+      "v": "Bạn muốn tôi hỏi giá không?",
+      "a": "Do you want me to ask about the price?"
+     }
+    ]
+   },
+   {
+    "title": "🔥 Nung & nhận đồ (firing & shipping)",
+    "rows": [
+     {
+      "e": "Do you want them to fire it?",
+      "v": "Bạn có muốn họ nung không?",
+      "a": "Do you want them to fire it?"
+     },
+     {
+      "e": "If you fire it, you have to leave it here for two to three weeks.",
+      "v": "Nếu nung thì phải để lại 2–3 tuần",
+      "a": "If you fire it, you have to leave it here for two to three weeks."
+     },
+     {
+      "e": "It goes into the kiln twice — once plain, then again after glazing.",
+      "v": "Vào lò 2 lần — mộc, rồi sau khi tráng men",
+      "a": "It goes into the kiln twice — once plain, then again after glazing."
+     },
+     {
+      "e": "Firing makes it hard and strong; after glazing it comes out shiny and smooth.",
+      "v": "Nung làm nó cứng chắc; tráng men xong thì bóng, mịn",
+      "a": "Firing makes it hard and strong; after glazing it comes out shiny and smooth."
+     },
+     {
+      "e": "Unfired clay is fragile — it breaks easily. So it's worth the wait.",
+      "v": "Đất chưa nung dễ vỡ. Nên chờ là đáng.",
+      "a": "Unfired clay is fragile — it breaks easily. So it's worth the wait."
+     },
+     {
+      "e": "Will you still be here in three weeks? If not, I can pick it up and mail it to you.",
+      "v": "Ba tuần nữa bạn còn ở đây không? Nếu không, tôi lấy rồi gửi cho bạn.",
+      "a": "Will you still be here in three weeks? If not, I can pick it up and mail it to you."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How would you invite a friend to a pottery workshop?",
+    "a": "I'd say: 'I thought you might enjoy this — it's a pottery workshop. Have you ever tried pottery before? Don't worry, no experience needed. We'll each make one piece, and it takes about two hours.'"
+   },
+   {
+    "q": "2. The guest is nervous and their piece keeps collapsing. How do you reassure them?",
+    "a": "I'd say: 'That's normal — everyone's first one collapses. You're doing great! Keep your hands wet, and don't press too hard or it'll collapse.'"
+   },
+   {
+    "q": "3. The potter only speaks Vietnamese. How do you interpret for the guest?",
+    "a": "I'd say: 'She doesn't speak much English, but I'll translate. She says you should keep your hands wet. Hang on, let me translate that — she's asking if you want a bowl or a cup.'"
+   },
+   {
+    "q": "4. The guest asks why they can't take their piece home today. What do you explain?",
+    "a": "I'd explain: 'If you fire it, you have to leave it here for two to three weeks. It goes into the kiln twice, and firing makes it hard and strong. After glazing it comes out shiny and smooth — so it's worth the wait.'"
+   },
+   {
+    "q": "5. The guest is leaving Vietnam soon. What do you offer?",
+    "a": "I'd ask: 'How long are you staying in Vietnam? Will you still be here in three weeks? If not, I can pick it up for you and mail it. Just give me your address later.'"
+   },
+   {
+    "q": "6. What's a good small-talk line while you're both making pottery?",
+    "a": "I might say: 'This is harder than it looks, right? Mine's a disaster! It's weirdly relaxing, though. What are you making? That looks great — I love the shape.'"
+   },
+   {
+    "q": "7. Tell the guest something interesting about Vietnamese pottery.",
+    "a": "I'd say: 'Vietnam has a really long pottery tradition. Bat Trang, near Hanoi, has been making ceramics for centuries. The blue-and-white style is the classic one. If you like this, we could visit a pottery village sometime.'"
+   },
+   {
+    "q": "8. You forget an English word in the middle of a sentence. What do you say?",
+    "a": "I'd say: 'Sorry, how do you say this in English? It's like a... you know, the thing you use to cut the clay. Let me look it up.' It's better than going silent."
+   },
+   {
+    "q": "9. How do you end the session politely?",
+    "a": "I'd say: 'You can wash your hands over there — here, take a wet wipe. Did you enjoy it? I'll message you when it's ready. Thanks for coming along!'"
+   },
+   {
+    "q": "10. The guest offers to pay for you. What do you say?",
+    "a": "I'd say: 'Don't worry about it, it's on me. You can pay at the counter — they take cash and card.'"
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Hey, I thought you might enjoy this — it's a pottery workshop. Have you ever tried pottery before?",
+    "v": "Này, mình nghĩ bạn sẽ thích cái này — đây là xưởng gốm. Bạn thử làm gốm bao giờ chưa?"
+   },
+   {
+    "p": "B",
+    "e": "No, never! But it looks fun. I'm a bit nervous, though.",
+    "v": "Chưa bao giờ! Nhưng trông vui đó. Mà mình hơi hồi hộp."
+   },
+   {
+    "p": "A",
+    "e": "Don't worry, no experience needed. Here, put this apron on — it gets messy. Roll up your sleeves.",
+    "v": "Đừng lo, không cần biết trước. Đây, mặc tạp dề vào — lấm lem lắm. Xắn tay áo lên nhé."
+   },
+   {
+    "p": "B",
+    "e": "Okay! So what do I do first?",
+    "v": "Được! Vậy đầu tiên mình làm gì?"
+   },
+   {
+    "p": "A",
+    "e": "First, knead the clay to get the air bubbles out. Then put it in the middle and press down. Keep your hands wet.",
+    "v": "Đầu tiên nhồi đất cho hết bọt khí. Rồi đặt vào giữa và ấn xuống. Nhớ giữ tay luôn ướt."
+   },
+   {
+    "p": "B",
+    "e": "Like this? Oh no, it's wobbling!",
+    "v": "Vầy hả? Ôi không, nó lắc lư kìa!"
+   },
+   {
+    "p": "A",
+    "e": "It's off-center, that's why. Hold it steady and pull the walls up slowly — don't press too hard or it'll collapse.",
+    "v": "Nó bị lệch tâm đó. Giữ chắc rồi kéo thành lên từ từ — đừng ấn mạnh quá, nó sụp."
+   },
+   {
+    "p": "B",
+    "e": "Ha, mine's a disaster. What did the potter just say?",
+    "v": "Ha, của mình thảm hoạ. Cô thợ vừa nói gì vậy?"
+   },
+   {
+    "p": "A",
+    "e": "Hang on, let me translate. She says it's too thin, and she's asking if you want a bowl or a cup.",
+    "v": "Chờ chút, để mình dịch. Chị ấy nói nó mỏng quá, và hỏi bạn muốn làm tô hay cốc."
+   },
+   {
+    "p": "B",
+    "e": "A cup, please. And can I take it home today?",
+    "v": "Cho mình cái cốc. Mà hôm nay mình mang về được không?"
+   },
+   {
+    "p": "A",
+    "e": "If you fire it, you have to leave it here for two to three weeks. But firing makes it strong and waterproof, so it's worth the wait.",
+    "v": "Nếu nung thì phải để lại 2–3 tuần. Nhưng nung xong nó chắc và không thấm nước, nên chờ là đáng."
+   },
+   {
+    "p": "B",
+    "e": "I'm leaving in ten days, though.",
+    "v": "Nhưng mười ngày nữa mình về rồi."
+   },
+   {
+    "p": "A",
+    "e": "No problem — I can pick it up for you and mail it. Just give me your address later. And don't worry about the fee, it's on me.",
+    "v": "Không sao — mình lấy rồi gửi cho bạn. Lát cho mình địa chỉ nhé. Phí thì đừng lo, để mình trả."
+   }
+  ],
+  "tips": [
+   "Bạn là HOST, không phải học viên: 3 kỹ năng — dẫn dắt (rủ/giới thiệu), giải thích (từng bước), phiên dịch (She says…, Let me translate).",
+   "'throw' trong gốm = CHUỐT trên bàn xoay (không phải 'ném'); 'fire' = NUNG (không phải 'lửa'). Nhớ theo ngữ cảnh.",
+   "Chữ câm: knead → 'niid' (k câm) · thumb → 'thâm' (b câm). Cặp dễ nhầm: wheel /wiːl/ ↔ will · bowl /boʊl/ ↔ ball.",
+   "3 khung câu học THUỘC NGUYÊN KHỐI (đừng dịch trong đầu): 'let me translate' · 'two to three weeks' · 'I can mail it to you'."
+  ],
+  "shadow": {
+   "en": "Today I'm taking a friend from abroad to a pottery workshop, and I'll be the host. First, I invite them: 'I thought you might enjoy this — have you ever tried pottery before? Don't worry, no experience needed.' Inside, I hand them an apron and say, 'Roll up your sleeves, it gets messy.' Then I explain each step. First, you knead the clay to get the air bubbles out. Next, you put it in the middle of the wheel, press down, and keep your hands wet. Pull the walls up slowly — but don't press too hard, or it'll collapse. When the Vietnamese potter says something, I translate: 'She says it's too thin,' or 'She's asking if you want a bowl or a cup.' At the end, I explain the firing: if you fire it, you have to leave it here for two to three weeks, because firing makes it hard, waterproof, and food-safe. If my friend is leaving soon, I offer to pick it up and mail it. And of course, I say, 'Don't worry about it, it's on me.' Being the host is not about perfect English — it's about helping people feel welcome.",
+   "vi": "Hôm nay mình dẫn một người bạn nước ngoài đi làm gốm, và mình sẽ là người dẫn. Trước tiên mình rủ: 'Mình nghĩ bạn sẽ thích — bạn thử làm gốm bao giờ chưa? Đừng lo, không cần biết trước.' Vào trong, mình đưa họ cái tạp dề và nói: 'Xắn tay áo lên nhé, làm cái này lấm lem lắm.' Rồi mình giải thích từng bước. Đầu tiên nhồi đất cho hết bọt khí. Tiếp theo đặt vào giữa bàn xoay, ấn xuống, và giữ tay luôn ướt. Kéo thành lên từ từ — nhưng đừng ấn mạnh quá, nó sụp đấy. Khi cô thợ gốm nói gì đó, mình dịch: 'Chị ấy nói nó mỏng quá', hay 'Chị ấy hỏi bạn muốn làm tô hay cốc.' Cuối buổi, mình giải thích chuyện nung: nếu nung thì phải để lại 2–3 tuần, vì nung làm nó cứng, không thấm nước và đựng đồ ăn an toàn. Nếu bạn mình sắp về, mình đề nghị lấy giúp rồi gửi qua bưu điện. Và dĩ nhiên, mình nói: 'Đừng lo, để mình trả.' Làm host không phải là nói tiếng Anh hoàn hảo — mà là giúp người ta thấy được chào đón."
+  }
  }
 ];

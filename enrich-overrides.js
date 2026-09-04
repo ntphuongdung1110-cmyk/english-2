@@ -453,5 +453,21 @@ module.exports = {
   "negotiate": { d: "To discuss something in order to reach an agreement, such as a price." },
   "fresh produce": { d: "Fresh fruit and vegetables." },
   "local market": { d: "A traditional neighbourhood market where locals buy food and goods." },
-  "change": { d: "The money a seller gives back when you pay more than the price." }
+  "change": { d: "The money a seller gives back when you pay more than the price." },
+
+  // ---- Pottery ----
+  "clay": { d: "Soft, wet earth that becomes hard when it is dried and fired; used to make pottery." },
+  "pottery wheel": { d: "A flat spinning disc a potter uses to shape wet clay by hand." },
+  "kiln": { d: "A very hot oven used to bake (fire) clay so it becomes hard." },
+  "glaze": { d: "A liquid coating put on pottery that becomes shiny and smooth after firing." },
+  "throw": { d: "In pottery, to shape wet clay on a spinning wheel with your hands (not 'to toss')." },
+  "wedge": { d: "To press and knead clay to remove air bubbles before shaping it." },
+  "center": { d: "To push the lump of clay into the exact middle of the wheel so it spins evenly." },
+  "trim": { d: "To cut away extra clay from the base of a pot once it is a bit dry." },
+  "pinch": { d: "To press and shape clay between your fingers and thumb." },
+  "fire": { d: "To bake pottery in a kiln so the clay becomes hard and strong." },
+  "collapse": { d: "To fall down or cave in suddenly (a pot losing its shape on the wheel)." },
+  "wobble": { d: "To move unsteadily from side to side because it is off-center." },
+  "fragile": { d: "Easily broken or damaged." },
+  "waterproof": { d: "Not letting water through; keeping water out." }
 };
