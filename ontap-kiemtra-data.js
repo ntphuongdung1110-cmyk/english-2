@@ -7483,7 +7483,7 @@ window.ONTAP = [
     "v": "sợ hãi",
     "x": "I'm a little scared of spiders.",
     "ip": "/skɛəd/",
-    "d": "To frighten, terrify, startle, especially in a minor way."
+    "d": "Feeling fear or worry; frightened (scared OF something)."
    },
    {
     "s": 1,
@@ -11274,6 +11274,327 @@ window.ONTAP = [
   "shadow": {
    "en": "Today I'm taking a friend from abroad to a pottery workshop, and I'll be the host. First, I invite them: 'I thought you might enjoy this — have you ever tried pottery before? Don't worry, no experience needed.' Inside, I hand them an apron and say, 'Roll up your sleeves, it gets messy.' Then I explain each step. First, you knead the clay to get the air bubbles out. Next, you put it in the middle of the wheel, press down, and keep your hands wet. Pull the walls up slowly — but don't press too hard, or it'll collapse. When the Vietnamese potter says something, I translate: 'She says it's too thin,' or 'She's asking if you want a bowl or a cup.' At the end, I explain the firing: if you fire it, you have to leave it here for two to three weeks, because firing makes it hard, waterproof, and food-safe. If my friend is leaving soon, I offer to pick it up and mail it. And of course, I say, 'Don't worry about it, it's on me.' Being the host is not about perfect English — it's about helping people feel welcome.",
    "vi": "Hôm nay mình dẫn một người bạn nước ngoài đi làm gốm, và mình sẽ là người dẫn. Trước tiên mình rủ: 'Mình nghĩ bạn sẽ thích — bạn thử làm gốm bao giờ chưa? Đừng lo, không cần biết trước.' Vào trong, mình đưa họ cái tạp dề và nói: 'Xắn tay áo lên nhé, làm cái này lấm lem lắm.' Rồi mình giải thích từng bước. Đầu tiên nhồi đất cho hết bọt khí. Tiếp theo đặt vào giữa bàn xoay, ấn xuống, và giữ tay luôn ướt. Kéo thành lên từ từ — nhưng đừng ấn mạnh quá, nó sụp đấy. Khi cô thợ gốm nói gì đó, mình dịch: 'Chị ấy nói nó mỏng quá', hay 'Chị ấy hỏi bạn muốn làm tô hay cốc.' Cuối buổi, mình giải thích chuyện nung: nếu nung thì phải để lại 2–3 tuần, vì nung làm nó cứng, không thấm nước và đựng đồ ăn an toàn. Nếu bạn mình sắp về, mình đề nghị lấy giúp rồi gửi qua bưu điện. Và dĩ nhiên, mình nói: 'Đừng lo, để mình trả.' Làm host không phải là nói tiếng Anh hoàn hảo — mà là giúp người ta thấy được chào đón."
+  }
+ },
+ {
+  "icon": "👻",
+  "name": "Are You Afraid of the Dark? / Nỗi sợ & chuyện ma",
+  "intro": "Từ vựng nỗi sợ, ma quỷ, kinh dị + cách KỂ CHUYỆN MA (4 bước, dùng thì quá khứ). Lưu ý: scared OF / afraid OF + danh từ. Phân biệt scare (v, làm sợ) · scared (adj, thấy sợ) · scary (adj, đáng sợ).",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "haunted",
+    "v": "bị ma ám",
+    "x": "People say that old house is haunted.",
+    "d": "Visited by ghosts; a place people believe has ghosts in it."
+   },
+   {
+    "s": 1,
+    "e": "scared",
+    "v": "sợ hãi (scared OF + danh từ)",
+    "x": "I'm scared of the dark.",
+    "ip": "/skɛəd/",
+    "d": "Feeling fear or worry; frightened (scared OF something)."
+   },
+   {
+    "s": 1,
+    "e": "scary",
+    "v": "đáng sợ, kinh dị",
+    "x": "That was the scariest movie I've ever seen.",
+    "ip": "/ˈskɛəɹi/",
+    "d": "Making you feel afraid; frightening."
+   },
+   {
+    "e": "scare",
+    "v": "làm ai sợ (động từ)",
+    "x": "Don't scare me like that!",
+    "ip": "/skɛə/",
+    "d": "To make someone feel afraid."
+   },
+   {
+    "s": 1,
+    "e": "ghost",
+    "v": "con ma, hồn ma",
+    "x": "She swears she saw a ghost that night.",
+    "ip": "/ɡəʊst/",
+    "d": "The spirit of a dead person that some people believe can appear."
+   },
+   {
+    "e": "spirit",
+    "v": "linh hồn, vong hồn",
+    "x": "Some people believe spirits stay near their home.",
+    "ip": "/ˈspɪɹɪt/",
+    "d": "The soul of a dead person, thought to live on after death."
+   },
+   {
+    "s": 1,
+    "e": "shadow",
+    "v": "cái bóng",
+    "x": "A dark shadow moved across the wall.",
+    "ip": "/ˈʃædəʊ/",
+    "d": "Unofficial, informal, unauthorized, but acting as though it were."
+   },
+   {
+    "s": 1,
+    "e": "appear",
+    "v": "xuất hiện",
+    "x": "A figure suddenly appeared in the doorway.",
+    "ip": "/əˈpiːɹ/",
+    "d": "To come into sight suddenly; to start to be seen."
+   },
+   {
+    "s": 1,
+    "e": "disappear",
+    "v": "biến mất",
+    "x": "Then it disappeared without a sound.",
+    "ip": "/dɪsəˈpiːɹ/",
+    "d": "To go out of sight suddenly; to stop being seen."
+   },
+   {
+    "e": "weird",
+    "v": "kỳ quái, lạ lùng",
+    "x": "Something weird happened last night.",
+    "ip": "/ˈwiːəd/",
+    "d": "Very strange or unusual in a way that is hard to explain."
+   },
+   {
+    "e": "strange",
+    "v": "lạ, kỳ lạ",
+    "x": "I heard a strange noise in the attic.",
+    "ip": "/ˈstɹeɪnd͡ʒ/",
+    "d": "Not normal; odd, unusual, surprising, out of the ordinary."
+   },
+   {
+    "e": "cemetery",
+    "v": "nghĩa trang, nghĩa địa",
+    "x": "The old cemetery is creepy at night.",
+    "d": "A place where dead people are buried; a graveyard."
+   },
+   {
+    "s": 1,
+    "e": "goosebumps",
+    "v": "sự nổi da gà",
+    "x": "Scary music always gives me goosebumps.",
+    "d": "Small bumps on your skin when you are cold, scared, or excited."
+   },
+   {
+    "e": "superstitious",
+    "v": "mê tín",
+    "x": "My grandmother is quite superstitious.",
+    "d": "Believing that certain things bring good or bad luck."
+   },
+   {
+    "s": 1,
+    "e": "creepy",
+    "v": "rùng rợn, ghê ghê",
+    "x": "That doll looks really creepy.",
+    "d": "Making you feel nervous and a little frightened; strange and scary."
+   },
+   {
+    "e": "abandoned",
+    "v": "bị bỏ hoang",
+    "x": "They explored an abandoned hospital.",
+    "ip": "/əˈbæn.dn̩d/",
+    "d": "Left empty and no longer used or looked after."
+   }
+  ],
+  "extra": [
+   {
+    "title": "👻 Thành ngữ (expressions)",
+    "rows": [
+     {
+      "e": "(to be) white as a ghost",
+      "v": "mặt tái mét (vì sợ/sốc)",
+      "a": "When she heard the news, she went white as a ghost."
+     },
+     {
+      "e": "(to) ghost someone",
+      "v": "bơ, im lặng cắt liên lạc (không hồi âm)",
+      "a": "We texted for weeks, then he just ghosted me."
+     },
+     {
+      "e": "(to get) creeped out",
+      "v": "bị rợn người, thấy ghê",
+      "a": "That empty house really creeped me out."
+     },
+     {
+      "e": "(to get / give) goosebumps",
+      "v": "nổi da gà / làm nổi da gà",
+      "a": "That song gives me goosebumps every time."
+     },
+     {
+      "e": "give someone the creeps",
+      "v": "làm ai rợn người",
+      "a": "Clowns give me the creeps."
+     }
+    ]
+   },
+   {
+    "title": "📖 Kể chuyện ma — 4 bước (how to tell a story · dùng QUÁ KHỨ)",
+    "rows": [
+     {
+      "e": "① When did it happen?",
+      "v": "Chuyện xảy ra khi nào",
+      "a": "It happened a few years ago, late one night."
+     },
+     {
+      "e": "② Where did it happen?",
+      "v": "Ở đâu",
+      "a": "I was staying at my grandmother's old house in the countryside."
+     },
+     {
+      "e": "③ Who were you with?",
+      "v": "Đi với ai",
+      "a": "I was with my cousin; everyone else was already asleep."
+     },
+     {
+      "e": "④ What did you see / hear?",
+      "v": "Thấy/nghe gì",
+      "a": "Suddenly, I heard footsteps, and a shadow appeared on the wall."
+     },
+     {
+      "e": "Từ nối kể chuyện (dramatic)",
+      "v": "Suddenly… · All of a sudden… · Out of nowhere… · The next thing I knew…",
+      "a": "All of a sudden, the lights went out and everything went quiet."
+     }
+    ]
+   },
+   {
+    "title": "🔎 Find someone who… (hỏi nhau — hoạt động lớp)",
+    "rows": [
+     {
+      "e": "Do you believe in ghosts?",
+      "v": "Bạn có tin ma không?",
+      "a": "Yes, I sort of believe in ghosts. / No, not really."
+     },
+     {
+      "e": "Do you like watching horror movies?",
+      "v": "Bạn thích xem phim kinh dị không?",
+      "a": "Yes, I love them! / No, they scare me too much."
+     },
+     {
+      "e": "Can you make a scary face?",
+      "v": "Bạn làm mặt hù được không?",
+      "a": "Ha, yes — watch this!"
+     },
+     {
+      "e": "Have you ever dressed up in a costume for Halloween?",
+      "v": "Từng hoá trang Halloween chưa?",
+      "a": "Yes, once I dressed up as a vampire."
+     },
+     {
+      "e": "Are you scared of clowns / spiders?",
+      "v": "Bạn sợ chú hề / nhện không?",
+      "a": "Yes, I'm really scared of spiders."
+     },
+     {
+      "e": "Do you like telling scary stories?",
+      "v": "Bạn thích kể chuyện ma không?",
+      "a": "Yes, especially at night with friends."
+     },
+     {
+      "e": "Do you celebrate Halloween?",
+      "v": "Bạn có đón Halloween không?",
+      "a": "A little — I enjoy the costumes and candy."
+     },
+     {
+      "e": "Are you superstitious?",
+      "v": "Bạn có mê tín không?",
+      "a": "A bit — I avoid the number 13, for example."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Do you believe in ghosts? Do many people in Vietnam believe in ghosts? Why?",
+    "a": "I'm not sure if I fully believe in ghosts, but I keep an open mind. Many Vietnamese people do believe in spirits, because of our traditions of honouring ancestors. That's why families have altars and burn incense — it's a big part of the culture."
+   },
+   {
+    "q": "2. Have you ever seen or heard a ghost, or something else that you thought was weird?",
+    "a": "I've never clearly seen a ghost, but once I heard strange footsteps in an empty house late at night. It was probably just the wind, but it gave me goosebumps and I couldn't sleep for a while."
+   },
+   {
+    "q": "3. Are there any famous haunted places in Vietnam? Have you visited any of them?",
+    "a": "Yes, there are a few famous 'haunted' spots, like some old French villas in Da Lat. I haven't visited any on purpose — honestly, I'd be too creeped out to spend the night there!"
+   },
+   {
+    "q": "4. Tell me about something that gives you goosebumps.",
+    "a": "Horror movies with jump scares always give me goosebumps, and so does creepy background music. In real life, spiders make my skin crawl. I know they're usually harmless, but I just can't help it."
+   },
+   {
+    "q": "5. What are some reasons to 'ghost' someone? Has it ever happened to you?",
+    "a": "People sometimes ghost others to avoid an awkward conversation or because they've lost interest. It's not very kind, though. It has happened to me once, and it felt confusing — I'd rather someone just be honest."
+   },
+   {
+    "q": "6. Would you rather spend the night alone in a forest, a cemetery, or an abandoned hospital?",
+    "a": "Ooh, none of them sound fun! If I had to choose, I'd pick the forest, because it feels the most natural. A cemetery or an abandoned hospital would creep me out way too much."
+   },
+   {
+    "q": "7. Why are people scared of the dark? What are you scared of?",
+    "a": "I think people are scared of the dark because they can't see what's around them, so their imagination fills in the gaps. Personally, I'm not scared of the dark itself, but I am afraid of spiders and heights."
+   },
+   {
+    "q": "8. If you were a ghost, who would you haunt? Why?",
+    "a": "Ha! If I were a ghost, I'd probably haunt my friends in a playful way — just moving their things around to confuse them. Nothing scary, only harmless little pranks for fun."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "You look pale — are you okay? You're white as a ghost.",
+    "v": "Trông bạn xanh mét kìa — ổn không? Mặt tái như ma vậy."
+   },
+   {
+    "p": "B",
+    "e": "I'm fine, just a bit creeped out. Something weird happened last night.",
+    "v": "Mình ổn, chỉ hơi rợn người. Tối qua có chuyện lạ lắm."
+   },
+   {
+    "p": "A",
+    "e": "Really? Tell me. When did it happen?",
+    "v": "Thật hả? Kể đi. Chuyện xảy ra khi nào?"
+   },
+   {
+    "p": "B",
+    "e": "Around midnight. I was home alone, and I heard footsteps upstairs.",
+    "v": "Khoảng nửa đêm. Mình ở nhà một mình, rồi nghe tiếng bước chân trên lầu."
+   },
+   {
+    "p": "A",
+    "e": "No way. What did you do?",
+    "v": "Không thể nào. Rồi bạn làm gì?"
+   },
+   {
+    "p": "B",
+    "e": "I froze. Then a shadow appeared on the wall — and suddenly it disappeared.",
+    "v": "Mình đứng hình. Rồi một cái bóng hiện lên tường — rồi đột nhiên biến mất."
+   },
+   {
+    "p": "A",
+    "e": "Okay, now I've got goosebumps! Do you think it was a ghost?",
+    "v": "Thôi rồi, mình nổi da gà luôn! Bạn nghĩ đó là ma à?"
+   },
+   {
+    "p": "B",
+    "e": "Maybe, or maybe just my imagination. But it really gave me the creeps.",
+    "v": "Có thể, hoặc chỉ do mình tưởng tượng. Nhưng đúng là rợn cả người."
+   },
+   {
+    "p": "A",
+    "e": "Well, you're staying at my place tonight. No arguments!",
+    "v": "Thôi, tối nay ngủ nhà mình. Không cãi nhé!"
+   }
+  ],
+  "tips": [
+   "Giới từ: scared OF / afraid OF + danh từ (I'm scared of spiders). frightened OF cũng vậy.",
+   "Phân biệt: scare (v — làm ai sợ) · scared (adj — bản thân thấy sợ) · scary (adj — vật/việc đáng sợ). VD: The movie (scary) scared me, so now I'm scared.",
+   "Kể chuyện ma dùng THÌ QUÁ KHỨ: saw, heard, appeared, disappeared + từ nối kịch tính (Suddenly…, All of a sudden…).",
+   "Thành ngữ hay dùng: white as a ghost (tái mét) · creeped out / give someone the creeps (rợn người) · ghost someone (bơ, cắt liên lạc)."
+  ],
+  "shadow": {
+   "en": "Let me tell you about a night that still gives me goosebumps. It happened a few years ago, when I was staying at my grandmother's old house in the countryside. It was late, and I was alone in my room — everyone else was already asleep. Around midnight, I suddenly heard slow footsteps in the hallway. My heart started pounding. Then a dark shadow appeared under the door, and I went white as a ghost. I was too scared to move. I told myself it was just my imagination, but the next thing I knew, the footsteps stopped right outside my room. All of a sudden, the shadow disappeared, and everything went quiet again. In the morning, my grandmother just smiled and said the old house 'has its own stories.' I still don't know what it was. Maybe it was the wind, maybe a spirit — but it really creeped me out, and I've never forgotten it.",
+   "vi": "Để mình kể cho nghe một đêm đến giờ vẫn khiến mình nổi da gà. Chuyện xảy ra vài năm trước, khi mình về ở nhà cũ của bà ở quê. Lúc đó khuya rồi, mình ở một mình trong phòng — mọi người đã ngủ hết. Khoảng nửa đêm, mình bỗng nghe tiếng bước chân chậm rãi ngoài hành lang. Tim mình đập thình thịch. Rồi một cái bóng đen hiện ra dưới khe cửa, và mặt mình tái mét như ma. Mình sợ đến mức không nhúc nhích nổi. Mình tự nhủ chỉ là tưởng tượng thôi, nhưng ngay sau đó, tiếng bước chân dừng ngay trước cửa phòng. Đột nhiên, cái bóng biến mất, và mọi thứ lại im lặng. Sáng hôm sau, bà chỉ mỉm cười và nói ngôi nhà cũ 'có những câu chuyện riêng của nó.' Đến giờ mình vẫn không biết đó là gì. Có thể là gió, có thể là một vong hồn — nhưng nó thật sự làm mình rợn người, và mình chẳng bao giờ quên."
   }
  }
 ];

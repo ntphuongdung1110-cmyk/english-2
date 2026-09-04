@@ -469,5 +469,21 @@ module.exports = {
   "collapse": { d: "To fall down or cave in suddenly (a pot losing its shape on the wheel)." },
   "wobble": { d: "To move unsteadily from side to side because it is off-center." },
   "fragile": { d: "Easily broken or damaged." },
-  "waterproof": { d: "Not letting water through; keeping water out." }
+  "waterproof": { d: "Not letting water through; keeping water out." },
+
+  // ---- Are You Afraid of the Dark? ----
+  "haunted": { d: "Visited by ghosts; a place people believe has ghosts in it." },
+  "scared": { d: "Feeling fear or worry; frightened (scared OF something)." },
+  "scary": { d: "Making you feel afraid; frightening." },
+  "scare": { d: "To make someone feel afraid." },
+  "ghost": { d: "The spirit of a dead person that some people believe can appear." },
+  "spirit": { d: "The soul of a dead person, thought to live on after death." },
+  "appear": { d: "To come into sight suddenly; to start to be seen." },
+  "disappear": { d: "To go out of sight suddenly; to stop being seen." },
+  "weird": { d: "Very strange or unusual in a way that is hard to explain." },
+  "cemetery": { d: "A place where dead people are buried; a graveyard." },
+  "goosebumps": { d: "Small bumps on your skin when you are cold, scared, or excited." },
+  "superstitious": { d: "Believing that certain things bring good or bad luck." },
+  "creepy": { d: "Making you feel nervous and a little frightened; strange and scary." },
+  "abandoned": { d: "Left empty and no longer used or looked after." }
 };
