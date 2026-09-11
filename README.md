@@ -25,7 +25,7 @@ Sau đó chạm icon là vào thẳng, full màn hình.
 
 **🎯 Chương trình học mỗi ngày**
 - Lịch học sáng (chủ động) / tối (nhẹ nhàng), kỹ thuật shadowing
-- 28 chủ đề hội thoại đời thường, mỗi chủ đề 8 câu hỏi-đáp mẫu (Anh + Việt)
+- 54 chủ đề hội thoại đời thường, mỗi chủ đề có từ vựng (kèm phiên âm IPA), câu hỏi-đáp mẫu (Anh + Việt), hội thoại và đoạn shadowing
 - Đếm chuỗi ngày, link nghe (YouTube, Everyday Conversations)
 
 **📚 Từ vựng — Thêm & Ôn tập**

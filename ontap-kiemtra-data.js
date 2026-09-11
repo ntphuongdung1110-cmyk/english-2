@@ -12,13 +12,14 @@ window.ONTAP = [
     "e": "outgoing",
     "v": "hướng ngoại, hòa đồng",
     "d": "Extraverted: talkative, friendly, and social, especially with respect to meeting new people easily and comfortably.",
-    "x": "Tom is very outgoing and enjoys meeting people; his brother, on the other hand, is painfully shy."
+    "x": "Tom is very outgoing and enjoys meeting people; his brother, on the other hand, is painfully shy.",
+    "ip": "/ˈaʊtˌɡoʊɪŋ/"
    },
    {
     "s": 1,
     "e": "shy / introverted",
     "v": "nhút nhát / hướng nội",
-    "ip": "/ʃaɪ/",
+    "ip": "shy /ˈʃaɪ/ · introverted /ˈɪntɹoʊˌvɝtɪd/",
     "d": "Reserved; disinclined to familiar approach.",
     "x": "He is very shy with strangers."
    },
@@ -33,25 +34,27 @@ window.ONTAP = [
     "e": "hardworking",
     "v": "chăm chỉ",
     "d": "Of a person, taking their work seriously and doing it well and rapidly.",
-    "x": "She is a hardworking student who never misses a class."
+    "x": "She is a hardworking student who never misses a class.",
+    "ip": "/ˈhɑɹdˌwɝkɪŋ/"
    },
    {
     "e": "easy-going",
     "v": "dễ tính",
     "d": "(of a person) calm, relaxed, casual and informal",
-    "x": "My boss is easy-going and rarely gets angry."
+    "x": "My boss is easy-going and rarely gets angry.",
+    "ip": "/ˈizi ˈɡoʊɪŋ/"
    },
    {
     "e": "ambitious",
     "v": "tham vọng",
-    "ip": "/æmˈbɪʃ.əs/",
+    "ip": "/æmˈbɪʃəs/",
     "d": "(of a person or their character) Having or showing ambition; wanting a lot of power, honor, respect, superiority, or other distinction.",
     "x": "She is ambitious and wants to start her own company."
    },
    {
     "e": "honest",
     "v": "trung thực",
-    "ip": "/ˈɒnɪst/",
+    "ip": "/ˈɑnəst/",
     "d": "(of a person or institution) Scrupulous with regard to telling the truth; not given to swindling, lying, or fraud; upright.",
     "x": "We’re the most honest people you will ever come across."
    },
@@ -72,7 +75,7 @@ window.ONTAP = [
    {
     "e": "confident",
     "v": "tự tin",
-    "ip": "/ˈkɒn.fɪ.dənt/",
+    "ip": "/ˈkɑnfədənt/",
     "d": "Very sure of something; positive.",
     "x": "I'm pretty confident that she's not lying, she's acting normally."
    },
@@ -80,14 +83,14 @@ window.ONTAP = [
     "s": 1,
     "e": "strengths / weaknesses",
     "v": "điểm mạnh / điểm yếu",
-    "ip": "/stɹɛŋθs/",
+    "ip": "strengths /ˈstɹɛŋkθs/ · weaknesses /ˈwiknəsəz/",
     "d": "Your strengths are things you are good at; your weaknesses are things you are not good at.",
     "x": "Being patient is one of my strengths."
    },
    {
     "e": "background",
     "v": "xuất thân, nền tảng",
-    "ip": "/ˈbæk.ɡɹaʊnd/",
+    "ip": "/ˈbækˌɡɹaʊnd/",
     "d": "Your background is your family, education, and experience from the past.",
     "x": "She comes from a musical background."
    },
@@ -96,31 +99,34 @@ window.ONTAP = [
     "e": "I'm interested in...",
     "v": "tôi thích, quan tâm đến",
     "d": "You say this to talk about a topic or activity you like and want to know more about.",
-    "x": "I'm interested in learning new languages."
+    "x": "I'm interested in learning new languages.",
+    "ip": "/ˈaɪm ˈɪntɹəstɪd ɪn/"
    },
    {
     "e": "I'm good at...",
     "v": "tôi giỏi về",
     "d": "You say this to talk about something you can do well.",
-    "x": "I'm good at solving problems."
+    "x": "I'm good at solving problems.",
+    "ip": "/ˈaɪm ˈɡʊd æt/"
    },
    {
     "e": "I'm passionate about...",
     "v": "tôi đam mê",
     "d": "You say this about something you love and care about very strongly.",
-    "x": "I'm passionate about protecting the environment."
+    "x": "I'm passionate about protecting the environment.",
+    "ip": "/ˈaɪm ˈpæʃənət əˈbaʊt/"
    },
    {
     "e": "goal / dream",
     "v": "mục tiêu / ước mơ",
-    "ip": "/ɡɒʊl/",
+    "ip": "goal /ˈɡoʊl/ · dream /ˈdɹim/",
     "d": "A result that one is attempting to achieve.",
     "x": "My lifelong goal is to get into a Hollywood movie."
    },
    {
     "e": "challenge",
     "v": "thử thách",
-    "ip": "/ˈtʃæl.əndʒ/",
+    "ip": "/ˈt͡ʃælənd͡ʒ/",
     "d": "A challenge is a difficult task or situation that tests your ability.",
     "x": "Learning to code was a fun challenge for me."
    }
@@ -261,7 +267,7 @@ window.ONTAP = [
     "e": "relatives",
     "v": "họ hàng",
     "x": "I have a lot of relatives in my hometown.",
-    "ip": "/ˈɹɛl.ə.tɪvz/",
+    "ip": "/ˈɹɛlətɪvz/",
     "d": "Someone in the same family; someone connected by blood, marriage, or adoption."
    },
    {
@@ -269,19 +275,20 @@ window.ONTAP = [
     "e": "close-knit family",
     "v": "gia đình gắn bó",
     "x": "We are a close-knit family and eat dinner together every night.",
-    "d": "A family whose members love and support each other and feel very connected."
+    "d": "A family whose members love and support each other and feel very connected.",
+    "ip": "/ˈkloʊs ˈnɪt ˈfæməli/"
    },
    {
     "e": "extended family",
     "v": "đại gia đình (cô dì chú bác...)",
-    "ip": "/ɛkˈstɛndɪd ˈfɛm(ɘ)li/",
+    "ip": "/ɪkˈstɛndəd ˈfæməli/",
     "d": "A family consisting of parents and children, along with either grandparents, grandchildren, aunts or uncles, cousins, etc.",
     "x": "Our whole extended family gathers at Tet."
    },
    {
     "e": "nuclear family",
     "v": "gia đình hạt nhân (bố mẹ + con)",
-    "ip": "/ˈn(j)ukliɚ ˈfɛm(ɘ)li/",
+    "ip": "/ˈnukliɚ ˈfæməli/",
     "d": "A family unit consisting of two parents (traditionally a mother and a father) and their children.",
     "x": "They are a small nuclear family of four."
    },
@@ -289,20 +296,20 @@ window.ONTAP = [
     "e": "only child",
     "v": "con một",
     "x": "As an only child, I spent a lot of time alone.",
-    "ip": "/ˈəʊn.li t͡ʃaɪld/",
+    "ip": "/ˈoʊnli ˈt͡ʃaɪld/",
     "d": "A person who has no brothers or sisters."
    },
    {
     "e": "twins",
     "v": "sinh đôi",
-    "ip": "/twɪnz/",
+    "ip": "/ˈtwɪnz/",
     "d": "Two children born to the same mother at the same time.",
     "x": "My cousins are identical twins."
    },
    {
     "e": "stepmother / stepfather",
     "v": "mẹ kế / bố dượng",
-    "ip": "/ˈstɛpmʌðə/",
+    "ip": "stepmother /ˈstɛpˌmʌðɚ/ · stepfather /ˈstɛpˌfɑðɚ/",
     "d": "The wife of one's biological father, other than one's biological mother.",
     "x": "My stepmother has been very kind to me."
    },
@@ -310,20 +317,22 @@ window.ONTAP = [
     "e": "half-brother / half-sister",
     "v": "anh em cùng cha khác mẹ",
     "d": "A male sibling sharing a single parent, as distinguished from a full brother or brother-german, from a step-brother, or from a brother-like figure such as a blood brother.",
-    "x": "I have a half-brother from my father's first marriage."
+    "x": "I have a half-brother from my father's first marriage.",
+    "ip": "half-brother /ˈhæf ˈbɹʌðɚ/ · half-sister /ˈhæf ˈsɪstɚ/"
    },
    {
     "e": "godparents",
     "v": "cha mẹ đỡ đầu",
     "d": "The person who stood for a child during a naming ceremony or baptism",
-    "x": "My godparents give me a gift every birthday."
+    "x": "My godparents give me a gift every birthday.",
+    "ip": "/ˈɡɑd ˈpɛɹənts/"
    },
    {
     "s": 1,
     "e": "get along (with)",
     "v": "hòa hợp",
     "x": "I get along well with my sister.",
-    "ip": "/ɡɛt əˈlɑŋ/",
+    "ip": "/ˈɡɛt əˈlɔŋ/",
     "d": "(often followed by with) To interact or coexist well, without argument or trouble."
    },
    {
@@ -331,34 +340,34 @@ window.ONTAP = [
     "e": "take after",
     "v": "giống (tính/ngoại hình)",
     "x": "I take after my mom.",
-    "ip": "/teɪk ˈæf.tə(ɹ)/",
+    "ip": "/ˈteɪk ˈæftɚ/",
     "d": "To resemble (a parent or ancestor) in appearance or habit."
    },
    {
     "e": "raise / bring up",
     "v": "nuôi dạy",
-    "ip": "/ɹeɪz/",
+    "ip": "raise /ˈɹeɪz/ · bring up /ˈbɹɪŋ ˈʌp/",
     "d": "To care for and educate a child until they grow up.",
     "x": "My grandparents helped bring me up."
    },
    {
     "e": "spoil",
     "v": "nuông chiều",
-    "ip": "/spɔɪl/",
+    "ip": "/ˈspɔɪl/",
     "d": "To give someone, especially a child, everything they want, often too much.",
     "x": "Grandparents love to spoil their grandchildren."
    },
    {
     "e": "strict",
     "v": "nghiêm khắc",
-    "ip": "/stɹɪkt/",
+    "ip": "/ˈstɹɪkt/",
     "d": "Making sure rules are always obeyed and not allowing bad behaviour.",
     "x": "My teacher is very strict about being on time."
    },
    {
     "e": "supportive",
     "v": "ủng hộ",
-    "ip": "/səˈpɔːtɪv/",
+    "ip": "/səˈpɔɹtɪv/",
     "d": "Providing support.",
     "x": "I had a very supportive coach who helped me."
    },
@@ -373,7 +382,8 @@ window.ONTAP = [
     "e": "household chores",
     "v": "việc nhà",
     "d": "The regular jobs you do to keep a home clean and tidy.",
-    "x": "We share the household chores at home."
+    "x": "We share the household chores at home.",
+    "ip": "/ˈhaʊsˌhoʊld ˈt͡ʃɔɹz/"
    }
   ],
   "qa": [
@@ -492,14 +502,14 @@ window.ONTAP = [
     "e": "trust",
     "v": "tin tưởng",
     "x": "Trust is the most important thing in love.",
-    "ip": "/trʊst/",
+    "ip": "/ˈtɹʌst/",
     "d": "Confidence in or reliance on some person or quality."
    },
    {
     "s": 1,
     "e": "loyal / faithful",
     "v": "chung thủy",
-    "ip": "/ˈlɔɪəl/",
+    "ip": "loyal /ˈlɔɪəl/ · faithful /ˈfeɪθfəl/",
     "d": "Having or demonstrating undivided and constant support for someone or something.",
     "x": "A dog is a loyal and faithful friend."
    },
@@ -507,7 +517,7 @@ window.ONTAP = [
     "s": 1,
     "e": "romantic",
     "v": "lãng mạn",
-    "ip": "/ɹə-/",
+    "ip": "/ɹoʊˈmæntɪk/",
     "d": "Showing love and affection, especially between partners.",
     "x": "He planned a romantic dinner for two."
    },
@@ -515,12 +525,13 @@ window.ONTAP = [
     "e": "soulmate",
     "v": "bạn tâm giao, người trong mộng",
     "d": "Someone, especially a romantic partner, with whom one is exceptionally or uniquely compatible or has a special, almost spiritual connection.",
-    "x": "She feels her husband is her soulmate."
+    "x": "She feels her husband is her soulmate.",
+    "ip": "/ˈsoʊl ˈmeɪt/"
    },
    {
     "e": "chemistry",
     "v": "sự hợp nhau (cảm xúc)",
-    "ip": "/ˈkɛm.ɪ.stɹi/",
+    "ip": "/ˈkɛməstɹi/",
     "d": "A strong natural attraction and connection between two people.",
     "x": "They had great chemistry from the moment they met."
    },
@@ -535,12 +546,13 @@ window.ONTAP = [
     "e": "commitment",
     "v": "sự cam kết",
     "d": "The promise to stay loyal to a person, relationship, or goal.",
-    "x": "A good relationship needs love and commitment."
+    "x": "A good relationship needs love and commitment.",
+    "ip": "/kəˈmɪtmənt/"
    },
    {
     "e": "jealous",
     "v": "ghen tuông",
-    "ip": "/ˈdʒɛləs/",
+    "ip": "/ˈd͡ʒɛləs/",
     "d": "Feeling upset that someone you love may like another person, or wanting what others have.",
     "x": "He gets jealous when she talks to other men."
    },
@@ -548,19 +560,20 @@ window.ONTAP = [
     "e": "long-distance relationship",
     "v": "yêu xa",
     "d": "A relationship in which the two partners live far apart from each other.",
-    "x": "We managed a long-distance relationship for two years."
+    "x": "We managed a long-distance relationship for two years.",
+    "ip": "/ˈlɔŋ ˈdɪstəns ɹiˈleɪʃənˌʃɪp/"
    },
    {
     "e": "propose / proposal",
     "v": "cầu hôn",
-    "ip": "/pɹəˈpəʊz/",
+    "ip": "propose /pɹəˈpoʊz/ · proposal /pɹəˈpoʊzəl/",
     "d": "To ask someone to marry you.",
     "x": "He proposed to her on the beach."
    },
    {
     "e": "engaged / engagement",
     "v": "đính hôn",
-    "ip": "/ɛnˈɡeɪdʒd/",
+    "ip": "engaged /ɛnˈɡeɪd͡ʒd/ · engagement /ɛnˈɡeɪd͡ʒmənt/",
     "d": "To have promised to marry someone.",
     "x": "They got engaged last summer."
    },
@@ -568,7 +581,8 @@ window.ONTAP = [
     "e": "newlyweds",
     "v": "cặp mới cưới",
     "d": "A recently married person",
-    "x": "The newlyweds went to Bali for their honeymoon."
+    "x": "The newlyweds went to Bali for their honeymoon.",
+    "ip": "/ˈnuliˌwɛdz/"
    },
    {
     "e": "couple",
@@ -580,7 +594,7 @@ window.ONTAP = [
    {
     "e": "ex (ex-boyfriend/girlfriend)",
     "v": "người yêu cũ",
-    "ip": "/ɛks/",
+    "ip": "/ˈɛks/",
     "d": "A person you used to be in a romantic relationship with.",
     "x": "I'm still friends with my ex."
    },
@@ -588,12 +602,13 @@ window.ONTAP = [
     "e": "have a fight / argue",
     "v": "cãi nhau",
     "d": "To disagree with someone, often in an angry way.",
-    "x": "They had a fight about money."
+    "x": "They had a fight about money.",
+    "ip": "have a fight /ˈhæv ə ˈfaɪt/ · argue /ˈɑɹɡju/"
    },
    {
     "e": "make up",
     "v": "làm hòa",
-    "ip": "/meɪk ap/",
+    "ip": "/ˌmeɪk ˈʌp/",
     "d": "To become friends again after an argument.",
     "x": "They argued but soon made up."
    },
@@ -601,14 +616,14 @@ window.ONTAP = [
     "s": 1,
     "e": "get over someone",
     "v": "quên được ai đó",
-    "ip": "/ɡɛt ˈəʊ.və(ɹ) ˈsʌmwʌn/",
+    "ip": "/ˈɡɛt ˈoʊvɚ ˈsʌmˌwʌn/",
     "d": "To stop feeling sad about a relationship that has ended.",
     "x": "It took her months to get over him."
    },
    {
     "e": "supportive partner",
     "v": "người bạn đời biết ủng hộ",
-    "ip": "/səˈpɔːtɪv ˈpɐːtnə/",
+    "ip": "/səˈpɔɹtɪv ˈpɑɹtnɚ/",
     "d": "A partner who encourages and helps you.",
     "x": "I'm lucky to have such a supportive partner."
    }
@@ -720,7 +735,7 @@ window.ONTAP = [
     "s": 1,
     "e": "outfit",
     "v": "bộ trang phục",
-    "ip": "/ˈaʊtfɪt/",
+    "ip": "/ˈaʊtˌfɪt/",
     "d": "A set of clothing (with accessories).",
     "x": "She wore a fashionable outfit with matching purse and shoes."
    },
@@ -728,35 +743,35 @@ window.ONTAP = [
     "s": 1,
     "e": "trendy / fashionable",
     "v": "hợp mốt",
-    "ip": "/ˈtɹɛndi/",
+    "ip": "trendy /ˈtɹɛndi/ · fashionable /ˈfæʃənəbəl/",
     "d": "Of, or in accordance with the latest trend, fashion or hype.",
     "x": "I hate those trendy pre-wrinkled shirts."
    },
    {
     "e": "old-fashioned / out of style",
     "v": "lỗi mốt",
-    "ip": "/əʊldˈfæʃənd/",
+    "ip": "old-fashioned /ˈoʊld ˈfæʃənd/ · out of style /ˈaʊt ʌv ˈstaɪl/",
     "d": "Of a thing, outdated or no longer in vogue.",
     "x": "My bike is old-fashioned but it gets me around."
    },
    {
     "e": "casual",
     "v": "bình thường, thoải mái",
-    "ip": "/ˈkɛʒɘl/",
+    "ip": "/ˈkæʒəwəl/",
     "d": "Relaxed and informal; not formal.",
     "x": "I wore casual clothes to the picnic."
    },
    {
     "e": "formal",
     "v": "trang trọng",
-    "ip": "/ˈfɔːməl/",
+    "ip": "/ˈfɔɹməl/",
     "d": "Smart and suitable for serious or official occasions.",
     "x": "You should wear formal clothes to the interview."
    },
    {
     "e": "elegant",
     "v": "thanh lịch",
-    "ip": "/ˈɛl.ə.ɡənt/",
+    "ip": "/ˈɛləɡənt/",
     "d": "Graceful, stylish, and attractive in a simple way.",
     "x": "She looked elegant in a black dress."
    },
@@ -764,27 +779,27 @@ window.ONTAP = [
     "e": "match / go with",
     "v": "hợp với",
     "x": "That scarf goes with your coat.",
-    "ip": "/mæt͡ʃ/",
+    "ip": "match /ˈmæt͡ʃ/ · go with /ˈɡoʊ wɪθ/",
     "d": "To look good together."
    },
    {
     "e": "fit",
     "v": "vừa vặn",
     "x": "These jeans fit me perfectly.",
-    "ip": "/fɪt/",
+    "ip": "/ˈfɪt/",
     "d": "To be the right size and shape for your body."
    },
    {
     "e": "tight / loose",
     "v": "chật / rộng",
-    "ip": "/luːs/",
+    "ip": "tight /ˈtaɪt/ · loose /ˈlus/",
     "d": "Tight clothes are too small or close to the body; loose clothes are large and not close-fitting.",
     "x": "These shoes are too tight, but the shirt is loose."
    },
    {
     "e": "brand",
     "v": "thương hiệu",
-    "ip": "/bɹand/",
+    "ip": "/ˈbɹænd/",
     "d": "The name of a company that makes a product.",
     "x": "She only buys expensive brands."
    },
@@ -792,35 +807,35 @@ window.ONTAP = [
     "s": 1,
     "e": "on sale / discount",
     "v": "giảm giá",
-    "ip": "/ɒn seɪl/",
+    "ip": "on sale /ɑn ˈseɪl/ · discount /dɪˈskaʊnt/",
     "d": "Sold at a lower price than usual.",
     "x": "I bought this jacket on sale."
    },
    {
     "e": "try on",
     "v": "mặc thử",
-    "ip": "/tɹaɪ ɒn/",
+    "ip": "/ˈtɹaɪ ɑn/",
     "d": "To test the look or fit of (a garment) by wearing it.",
     "x": "Can I try on these shoes in size 40?"
    },
    {
     "e": "size",
     "v": "cỡ",
-    "ip": "/saɪz/",
+    "ip": "/ˈsaɪz/",
     "d": "The dimensions or magnitude of a thing; how big something is.",
     "x": "What size shirt do you wear?"
    },
    {
     "e": "material / fabric",
     "v": "chất liệu",
-    "ip": "/məˈtɪəɹɪəl/",
+    "ip": "material /məˈtɪɹiəl/ · fabric /ˈfæbɹɪk/",
     "d": "The cloth that clothes are made from.",
     "x": "This shirt is made of soft material."
    },
    {
     "e": "cotton / silk / leather / wool",
     "v": "cotton / lụa / da / len",
-    "ip": "/ˈkɒt.n̩/",
+    "ip": "cotton /ˈkɑtən/ · silk /ˈsɪlk/ · leather /ˈlɛðɚ/ · wool /ˈwʊl/",
     "d": "Common materials used to make clothes.",
     "x": "I prefer cotton shirts in summer."
    },
@@ -828,25 +843,28 @@ window.ONTAP = [
     "e": "patterns: striped, checked, floral, polka dot, plain",
     "v": "sọc, caro, hoa, chấm bi, trơn",
     "d": "The designs on fabric: stripes, checks, flowers, dots, or plain (no pattern).",
-    "x": "She likes striped shirts and floral dresses."
+    "x": "She likes striped shirts and floral dresses.",
+    "ip": "/ˈpætɚnz ˈstɹaɪpt ˈt͡ʃɛkt ˈflɔɹəl ˈpoʊlkɑ ˈdɑt ˈpleɪn/"
    },
    {
     "e": "accessories",
     "v": "phụ kiện",
     "d": "Extra items like bags, belts, and jewellery that go with your clothes.",
-    "x": "A simple watch is my favourite accessory."
+    "x": "A simple watch is my favourite accessory.",
+    "ip": "/ækˈsɛsɚiz/"
    },
    {
     "e": "second-hand / thrift",
     "v": "đồ cũ",
     "d": "Used items that someone else owned before.",
-    "x": "I found a great second-hand jacket at the thrift shop."
+    "x": "I found a great second-hand jacket at the thrift shop.",
+    "ip": "second-hand /ˈsɛkənd ˈhænd/ · thrift /ˈθɹɪft/"
    },
    {
     "s": 1,
     "e": "It suits you",
     "v": "hợp với bạn",
-    "ip": "/ɪt sjuːts jʉː/",
+    "ip": "/ˈɪt ˈsuts ˈju/",
     "d": "You say this to tell someone that something looks good on them.",
     "x": "That colour really suits you."
    }
@@ -974,7 +992,7 @@ window.ONTAP = [
     "s": 1,
     "e": "good-looking / attractive",
     "v": "ưa nhìn / hấp dẫn",
-    "ip": "/ɡʊdˈlʊkɪŋ/",
+    "ip": "good-looking /ˈɡʊd ˈlʊkɪŋ/ · attractive /əˈtɹæktɪv/",
     "d": "Physically attractive (of a person).",
     "x": "He is tall and good-looking."
    },
@@ -982,7 +1000,7 @@ window.ONTAP = [
     "s": 1,
     "e": "cute",
     "v": "dễ thương",
-    "ip": "/kjuːt/",
+    "ip": "/ˈkjut/",
     "d": "Generally, attractive or pleasing, especially in a youthful, dainty, quaint or fun-spirited way.",
     "x": "Their new puppy is so cute."
    },
@@ -990,12 +1008,13 @@ window.ONTAP = [
     "e": "well-dressed",
     "v": "ăn mặc đẹp",
     "d": "That dresses well; characterized by fashionable, attractive clothes.",
-    "x": "She is always well-dressed for work."
+    "x": "She is always well-dressed for work.",
+    "ip": "/ˈwɛl ˈdɹɛst/"
    },
    {
     "e": "neat / tidy",
     "v": "gọn gàng",
-    "ip": "/niːt/",
+    "ip": "neat /ˈnit/ · tidy /ˈtaɪdi/",
     "d": "Clean, tidy; free from dirt or impurities.",
     "x": "He always keeps his desk neat and tidy."
    },
@@ -1009,21 +1028,21 @@ window.ONTAP = [
    {
     "e": "fit / in shape",
     "v": "săn chắc, dáng đẹp",
-    "ip": "/fɪt/",
+    "ip": "fit /ˈfɪt/ · in shape /ɪn ˈʃeɪp/",
     "d": "Healthy and strong from regular exercise.",
     "x": "She stays in shape by running every morning."
    },
    {
     "e": "out of shape",
     "v": "không có dáng",
-    "ip": "/æɔt ɔv ʃeɪp/",
+    "ip": "/ˈaʊt ʌv ˈʃeɪp/",
     "d": "Unfit because of little exercise.",
     "x": "I felt out of shape after the long holiday."
    },
    {
     "e": "slim / slender",
     "v": "mảnh mai",
-    "ip": "/slɪm/",
+    "ip": "slim /ˈslɪm/ · slender /ˈslɛndɚ/",
     "d": "Thin in an attractive way.",
     "x": "She has a slim, graceful figure."
    },
@@ -1038,19 +1057,22 @@ window.ONTAP = [
     "e": "freckles",
     "v": "tàn nhang",
     "d": "A small brownish or reddish pigmentation spot on the surface of the skin.",
-    "x": "Steve has brown hair, blue eyes, and freckles on his cheeks and nose."
+    "x": "Steve has brown hair, blue eyes, and freckles on his cheeks and nose.",
+    "ip": "/ˈfɹɛkəlz/"
    },
    {
     "e": "dimples",
     "v": "má lúm",
     "d": "A small depression or indentation in a surface.",
-    "x": "She has cute dimples when she smiles."
+    "x": "She has cute dimples when she smiles.",
+    "ip": "/ˈdɪmpəlz/"
    },
    {
     "e": "wrinkles",
     "v": "nếp nhăn",
     "d": "A line or crease in the skin, especially when caused by age or fatigue.",
-    "x": "Spending time out in the sun may cause you to develop wrinkles sooner."
+    "x": "Spending time out in the sun may cause you to develop wrinkles sooner.",
+    "ip": "/ˈɹɪŋkəlz/"
    },
    {
     "e": "ponytail",
@@ -1062,21 +1084,21 @@ window.ONTAP = [
    {
     "e": "bangs / fringe",
     "v": "tóc mái",
-    "ip": "/bæŋz/",
+    "ip": "bangs /ˈbæŋz/ · fringe /ˈfɹɪnd͡ʒ/",
     "d": "The hair that hangs down over your forehead.",
     "x": "She cut her hair with short bangs."
    },
    {
     "e": "beard / mustache",
     "v": "râu / ria mép",
-    "ip": "/bɪəd/",
+    "ip": "beard /ˈbɪɹd/ · mustache /ˈmʌˌstæʃ/",
     "d": "A beard is hair on a man's chin; a mustache is hair above the lip.",
     "x": "He grew a beard over the winter."
    },
    {
     "e": "glowing skin",
     "v": "da sáng khỏe",
-    "ip": "/ˈɡləʊɪŋ skɪn/",
+    "ip": "/ˈɡloʊɪŋ ˈskɪn/",
     "d": "Healthy, bright, and fresh-looking skin.",
     "x": "Drinking water gives you glowing skin."
    },
@@ -1084,21 +1106,21 @@ window.ONTAP = [
     "s": 1,
     "e": "first impression",
     "v": "ấn tượng đầu tiên",
-    "ip": "/fɪrst ɪmˈpɹɛʃən/",
+    "ip": "/ˈfɝst ˌɪmˈpɹɛʃən/",
     "d": "The opinion you form about someone the first time you meet them.",
     "x": "She made a great first impression at the interview."
    },
    {
     "e": "youthful",
     "v": "trẻ trung",
-    "ip": "/ˈjuːθfəl/",
+    "ip": "/ˈjuθfəl/",
     "d": "Young or seeming young.",
     "x": "She has a youthful appearance for her age."
    },
    {
     "e": "elegant / graceful",
     "v": "thanh lịch / duyên dáng",
-    "ip": "/ˈɛl.ə.ɡənt/",
+    "ip": "elegant /ˈɛləɡənt/ · graceful /ˈɡɹeɪsfəl/",
     "d": "Attractive in a smooth, stylish, and refined way.",
     "x": "The dancer moved in a graceful way."
    }
@@ -1230,7 +1252,7 @@ window.ONTAP = [
     "s": 1,
     "e": "neighborhood",
     "v": "khu phố",
-    "ip": "/ˈneɪbə.hʊd/",
+    "ip": "/ˈneɪbɚˌhʊd/",
     "d": "An area of a town where people live.",
     "x": "I grew up in a quiet neighborhood."
    },
@@ -1238,40 +1260,41 @@ window.ONTAP = [
     "e": "downtown",
     "v": "trung tâm thành phố",
     "d": "Of, relating to, or situated in the central business district",
-    "x": "John walked every day to his downtown job."
+    "x": "John walked every day to his downtown job.",
+    "ip": "/ˈdaʊnˈtaʊn/"
    },
    {
     "e": "suburb",
     "v": "ngoại ô",
-    "ip": "/ˈsʌbɜːb/",
+    "ip": "/ˈsʌbɚb/",
     "d": "A residential area on the edge of a city.",
     "x": "They moved to a quiet suburb outside the city."
    },
    {
     "e": "crowded",
     "v": "đông đúc",
-    "ip": "/ˈkɹaʊdɪd/",
+    "ip": "/ˈkɹaʊdəd/",
     "d": "Full of many people.",
     "x": "The market was very crowded on Sunday."
    },
    {
     "e": "quiet / peaceful",
     "v": "yên tĩnh",
-    "ip": "/ˈkwaɪ.ət/",
+    "ip": "quiet /ˈkwaɪət/ · peaceful /ˈpisfəl/",
     "d": "With little or no sound; free of disturbing noise.",
     "x": "I love how quiet and peaceful this neighborhood is."
    },
    {
     "e": "convenient",
     "v": "tiện lợi",
-    "ip": "/kənˈviːniənt/",
+    "ip": "/kənˈvinjənt/",
     "d": "Serving to reduce a difficulty, or accessible with minimum difficulty; expedient.",
     "x": "Fast food might be convenient, but it's also very unhealthy."
    },
    {
     "e": "traffic jam",
     "v": "kẹt xe",
-    "ip": "/ˈtɹæfɪk ˈdʒæːm/",
+    "ip": "/ˈtɹæfɪk ˈd͡ʒæm/",
     "d": "A long line of vehicles that can barely move because the road is too crowded.",
     "x": "I was stuck in a traffic jam for an hour."
    },
@@ -1280,61 +1303,62 @@ window.ONTAP = [
     "e": "public transport",
     "v": "giao thông công cộng",
     "d": "Any form of transport that can be used by a member of public (who usually pays a fare); as opposed to private ownership of e.g. cars.",
-    "x": "I take public transport to save money."
+    "x": "I take public transport to save money.",
+    "ip": "/ˈpʌblɪk tɹænˈspɔɹt/"
    },
    {
     "e": "landmark",
     "v": "địa danh nổi tiếng",
-    "ip": "/ˈlændmɑɹk/",
+    "ip": "/ˈlændˌmɑɹk/",
     "d": "A famous building or place that is easy to recognise.",
     "x": "The old tower is a famous landmark in the city."
    },
    {
     "e": "pedestrian",
     "v": "người đi bộ",
-    "ip": "/pəˈdɛst.ɹi.ən/",
+    "ip": "/pəˈdɛstɹiən/",
     "d": "Of or intended for those who are walking.",
     "x": "Drivers must stop for pedestrians at the crossing."
    },
    {
     "e": "intersection / junction",
     "v": "giao lộ / ngã ba, ngã tư",
-    "ip": "/ˈɪntəɹˌsɛkʃən/",
+    "ip": "intersection /ˌɪntɚˈsɛkʃən/ · junction /ˈd͡ʒʌŋkʃən/",
     "d": "The junction of two (or more) paths, streets, highways, or other thoroughfares.",
     "x": "Turn right at the next intersection."
    },
    {
     "e": "pharmacy",
     "v": "nhà thuốc",
-    "ip": "/ˈfɑːməsi/",
+    "ip": "/ˈfɑɹməsi/",
     "d": "(countable) A place where prescription drugs are dispensed; a dispensary.",
     "x": "I bought some medicine at the pharmacy."
    },
    {
     "e": "clinic / hospital",
     "v": "phòng khám / bệnh viện",
-    "ip": "/ˈklɪnɪk/",
+    "ip": "clinic /ˈklɪnɪk/ · hospital /ˈhɑˌspɪtəl/",
     "d": "A medical facility, such as a hospital, especially one for the treatment and diagnosis of outpatients.",
     "x": "She works as a nurse at a local clinic."
    },
    {
     "e": "market / supermarket",
     "v": "chợ / siêu thị",
-    "ip": "/ˈmɑːkɪt/",
+    "ip": "market /ˈmɑɹkət/ · supermarket /ˈsupɚˌmɑɹkɪt/",
     "d": "A gathering of people for the purchase and sale of merchandise at a set time, often periodic.",
     "x": "I buy fresh vegetables at the market every morning."
    },
    {
     "e": "convenience store",
     "v": "cửa hàng tiện lợi",
-    "ip": "/kənˈviːnɪəns stɔː/",
+    "ip": "/kənˈvinjəns ˈstɔɹ/",
     "d": "A small retail store, often in a residential area, that carries a limited selection of items such as staples, junk food, and drugstore items, and which is open long hours for the convenience of shoppers.",
     "x": "I grabbed a snack from the convenience store."
    },
    {
     "e": "ATM / bank",
     "v": "máy rút tiền / ngân hàng",
-    "ip": "/bæŋk/",
+    "ip": "ATM /ˈeɪˌtiˈɛm/ · bank /ˈbæŋk/",
     "d": "An ATM is a machine for withdrawing cash; a bank is where you keep money.",
     "x": "I stopped at the ATM to get some cash."
    },
@@ -1342,7 +1366,7 @@ window.ONTAP = [
     "s": 1,
     "e": "get lost",
     "v": "bị lạc",
-    "ip": "/ɡɛt lɒst/",
+    "ip": "/ˈɡɛt ˈlɔst/",
     "d": "To lose one's way.",
     "x": "Don't you have a map? How did we get lost?"
    },
@@ -1351,7 +1375,8 @@ window.ONTAP = [
     "e": "It's within walking distance",
     "v": "đi bộ tới được",
     "d": "Close enough to walk to.",
-    "x": "The station is within walking distance of my house."
+    "x": "The station is within walking distance of my house.",
+    "ip": "/ˈɪts wɪˈðɪn ˈwɔkɪŋ ˈdɪstəns/"
    }
   ],
   "qa": [
@@ -1461,14 +1486,14 @@ window.ONTAP = [
     "s": 1,
     "e": "routine",
     "v": "thói quen hằng ngày",
-    "ip": "/ɹuːˈtiːn/",
+    "ip": "/ɹuˈtin/",
     "d": "A set of normal procedures, often performed mechanically.",
     "x": "My morning routine starts with a cup of coffee."
    },
    {
     "e": "wake up / get up",
     "v": "thức dậy",
-    "ip": "/ˈweɪk ap/",
+    "ip": "wake up /ˌweɪk ˈʌp/ · get up /ˈɡɛt ˈʌp/",
     "d": "To stop sleeping and get out of bed.",
     "x": "I wake up at six every morning."
    },
@@ -1476,19 +1501,20 @@ window.ONTAP = [
     "e": "brush my teeth",
     "v": "đánh răng",
     "d": "To clean your teeth with a toothbrush.",
-    "x": "I brush my teeth after breakfast."
+    "x": "I brush my teeth after breakfast.",
+    "ip": "/ˈbɹʌʃ ˈmaɪ ˈtiθ/"
    },
    {
     "e": "take a shower",
     "v": "tắm",
-    "ip": "/teɪk æɪ ˈʃəʊ.ə(ɹ)/",
+    "ip": "/ˈteɪk ə ˈʃaʊɚ/",
     "d": "To wash your body under running water.",
     "x": "I take a shower before bed."
    },
    {
     "e": "get dressed",
     "v": "mặc đồ",
-    "ip": "/ɡɛt ˈdɹɛst/",
+    "ip": "/ˈɡɛt ˈdɹɛst/",
     "d": "To fit out with the necessary clothing; to clothe, put clothes on (something or someone).",
     "x": "I get dressed quickly in the morning."
    },
@@ -1496,12 +1522,13 @@ window.ONTAP = [
     "e": "have breakfast/lunch/dinner",
     "v": "ăn sáng/trưa/tối",
     "d": "To eat the morning, midday, or evening meal.",
-    "x": "We have dinner together at seven."
+    "x": "We have dinner together at seven.",
+    "ip": "/ˈhæv ˈbɹɛkfəst ˈlʌnt͡ʃ ˈdɪnɚ/"
    },
    {
     "e": "commute",
     "v": "di chuyển đi làm",
-    "ip": "/kəˈmjuːt/",
+    "ip": "/kəˈmjut/",
     "d": "To regularly travel from one's home to one's workplace or school, or vice versa.",
     "x": "I commute from Brooklyn to Manhattan by bicycle."
    },
@@ -1510,19 +1537,20 @@ window.ONTAP = [
     "e": "run errands",
     "v": "chạy việc vặt",
     "d": "To do small jobs like shopping or going to the bank.",
-    "x": "I ran some errands on my day off."
+    "x": "I ran some errands on my day off.",
+    "ip": "/ˈɹʌn ˈɛɹəndz/"
    },
    {
     "e": "do the dishes",
     "v": "rửa chén",
-    "ip": "/dʉː ði ˈdɪʃɪz/",
+    "ip": "/du ðə ˈdɪʃəz/",
     "d": "To wash the plates, cups, and cutlery after eating.",
     "x": "I'll cook if you do the dishes."
    },
    {
     "e": "take out the trash",
     "v": "đổ rác",
-    "ip": "/teɪk æɔt ði tɹæʃ/",
+    "ip": "/ˈteɪk ˈaʊt ðə ˈtɹæʃ/",
     "d": "To remove the rubbish from your home.",
     "x": "Don't forget to take out the trash tonight."
    },
@@ -1530,35 +1558,35 @@ window.ONTAP = [
     "s": 1,
     "e": "scroll on my phone",
     "v": "lướt điện thoại",
-    "ip": "/skɹoʊl ɒn mi fəʊ̯n/",
+    "ip": "/ˈskɹoʊl ɑn ˈmaɪ ˈfoʊn/",
     "d": "To move through content by swiping the phone screen.",
     "x": "I scroll on my phone before sleeping."
    },
    {
     "e": "take a nap",
     "v": "chợp mắt",
-    "ip": "/teɪk æɪ nap/",
+    "ip": "/ˈteɪk ə ˈnæp/",
     "d": "To sleep for a short time during the day.",
     "x": "I take a short nap after lunch."
    },
    {
     "e": "work out",
     "v": "tập thể dục",
-    "ip": "/wɜːk æɔt/",
+    "ip": "/ˌwɜːk ˈaʊt/",
     "d": "To exercise to keep your body fit.",
     "x": "I work out at the gym three times a week."
    },
    {
     "e": "relax / chill",
     "v": "thư giãn",
-    "ip": "/ɹɪˈlæks/",
+    "ip": "relax /ɹɪˈlæks/ · chill /ˈt͡ʃɪl/",
     "d": "To rest and stop feeling stressed.",
     "x": "I like to relax with a good book."
    },
    {
     "e": "go to bed",
     "v": "đi ngủ",
-    "ip": "/ɡəʉ tʉː bed/",
+    "ip": "/ˈɡoʊ tə ˈbɛd/",
     "d": "To get into bed to sleep.",
     "x": "I usually go to bed around eleven."
    },
@@ -1567,7 +1595,8 @@ window.ONTAP = [
     "e": "I'm a morning person / night owl",
     "v": "người dậy sớm / cú đêm",
     "d": "A morning person feels best early in the day; a night owl feels best late at night.",
-    "x": "I'm a night owl, so I work better in the evening."
+    "x": "I'm a night owl, so I work better in the evening.",
+    "ip": "I'm a morning person /ˈaɪm ə ˈmɔɹnɪŋ ˈpɝsən/ · night owl /ˈnaɪt aʊl/"
    },
    {
     "e": "productive",
@@ -1579,7 +1608,7 @@ window.ONTAP = [
    {
     "e": "busy / hectic",
     "v": "bận rộn",
-    "ip": "/ˈbɪzi/",
+    "ip": "busy /ˈbɪzi/ · hectic /ˈhɛktɪk/",
     "d": "Crowded with business or activities; having a great deal going on.",
     "x": "I've had a busy, hectic week at work."
    }
@@ -1707,26 +1736,27 @@ window.ONTAP = [
     "e": "appetizer / starter",
     "v": "món khai vị",
     "d": "A small, light, and usually savory first course in a meal",
-    "x": "We shared a spring-roll appetizer."
+    "x": "We shared a spring-roll appetizer.",
+    "ip": "appetizer /ˈæpəˌtaɪzɚ/ · starter /ˈstɑɹtɚ/"
    },
    {
     "e": "main course",
     "v": "món chính",
-    "ip": "/meɪn kɔːs/",
+    "ip": "/ˈmeɪn ˈkɔɹs/",
     "d": "The main serving or dish of a meal, usually cooked.",
     "x": "For my main course, I ordered grilled fish."
    },
    {
     "e": "dessert",
     "v": "tráng miệng",
-    "ip": "/dɪˈzɜːt/",
+    "ip": "/dɪˈzɝt/",
     "d": "A sweet confection served as the last course of a meal",
     "x": "We had ice cream for dessert."
    },
    {
     "e": "beverage / drink",
     "v": "đồ uống",
-    "ip": "/ˈbevəɹɪdʒ/",
+    "ip": "beverage /ˈbɛvɚɪd͡ʒ/ · drink /ˈdɹɪŋk/",
     "d": "A liquid to consume; a drink, such as tea, coffee, liquor, beer, milk, juice, or soft drinks, usually excluding water.",
     "x": "Would you like a cold beverage?"
    },
@@ -1734,7 +1764,7 @@ window.ONTAP = [
     "s": 1,
     "e": "order",
     "v": "gọi món",
-    "ip": "/ˈɔːdə/",
+    "ip": "/ˈɔɹdɚ/",
     "d": "To ask for food or drink in a restaurant.",
     "x": "I'd like to order the grilled chicken."
    },
@@ -1742,13 +1772,13 @@ window.ONTAP = [
     "e": "recommend",
     "v": "gợi ý",
     "x": "What do you recommend?",
-    "ip": "/ɹɛkəˈmɛnd/",
+    "ip": "/ˌɹɛkəˈmɛnd/",
     "d": "To tell someone that something is good and that they should try it."
    },
    {
     "e": "vegetarian / vegan",
     "v": "ăn chay",
-    "ip": "/vɛd͡ʒɪˈtɛəɹi.ən/",
+    "ip": "vegetarian /ˌvɛd͡ʒəˈtɛˌɹiən/ · vegan /ˈvɛɡən/",
     "d": "(of a person) That does not eat meat.",
     "x": "I have a vegetarian brother"
    },
@@ -1756,19 +1786,20 @@ window.ONTAP = [
     "e": "spicy / sour / sweet / salty / bitter",
     "v": "cay / chua / ngọt / mặn / đắng",
     "d": "Words that describe tastes: spicy, sour, sweet, salty, and bitter.",
-    "x": "This soup is a little too salty for me."
+    "x": "This soup is a little too salty for me.",
+    "ip": "spicy /ˈspaɪsi/ · sour /ˈsaʊɚ/ · sweet /ˈswit/ · salty /ˈsɔlti/ · bitter /ˈbɪtɚ/"
    },
    {
     "e": "delicious / tasty",
     "v": "ngon",
-    "ip": "/dɪˈlɪʃəs/",
+    "ip": "delicious /dɪˈlɪʃəs/ · tasty /ˈteɪsti/",
     "d": "Metaphorically pleasing to taste; pleasing to the eyes or mind.",
     "x": "This soup is absolutely delicious."
    },
    {
     "e": "bland",
     "v": "nhạt nhẽo",
-    "ip": "/blænd/",
+    "ip": "/ˈblænd/",
     "d": "Having little or no flavour.",
     "x": "The rice was bland without any salt."
    },
@@ -1776,35 +1807,35 @@ window.ONTAP = [
     "s": 1,
     "e": "the bill / check",
     "v": "hóa đơn",
-    "ip": "/ði bɪl/",
+    "ip": "the bill /ðə ˈbɪl/ · check /ˈt͡ʃɛk/",
     "d": "The paper showing how much you must pay.",
     "x": "Could we have the bill, please?"
    },
    {
     "e": "tip",
     "v": "tiền boa",
-    "ip": "/tɪp/",
+    "ip": "/ˈtɪp/",
     "d": "Extra money you give to thank someone for good service.",
     "x": "We left a tip for the friendly waiter."
    },
    {
     "e": "service",
     "v": "dịch vụ",
-    "ip": "/ˈsɜːvɪs/",
+    "ip": "/ˈsɝvəs/",
     "d": "An act of being of assistance to someone.",
     "x": "The service at that restaurant was excellent."
    },
    {
     "e": "portion",
     "v": "khẩu phần",
-    "ip": "/ˈpoəɹʃən/",
+    "ip": "/ˈpɔɹʃən/",
     "d": "An allocated amount.",
     "x": "The portion was so big I couldn't finish it."
    },
    {
     "e": "takeaway / to go",
     "v": "mang đi",
-    "ip": "/ˈteɪkəweɪ/",
+    "ip": "takeaway /ˈteɪkəˌweɪ/ · to go /tə ˈɡoʊ/",
     "d": "(Of food) intended to be eaten off the premises from which it was bought.",
     "x": "I couldn't be bothered cooking, so I bought a takeaway curry."
    },
@@ -1812,20 +1843,23 @@ window.ONTAP = [
     "e": "I'd like to order...",
     "v": "tôi muốn gọi...",
     "d": "You say this to tell the waiter what food you want.",
-    "x": "I'd like to order a bowl of pho, please."
+    "x": "I'd like to order a bowl of pho, please.",
+    "ip": "/ˈaɪd ˈlaɪk tə ˈɔɹdɚ/"
    },
    {
     "e": "Can I have the bill, please?",
     "v": "cho tôi xin hóa đơn",
     "d": "You say this to politely ask the waiter for the bill.",
-    "x": "Excuse me, can I have the bill, please?"
+    "x": "Excuse me, can I have the bill, please?",
+    "ip": "/kən ˈaɪ ˈhæv ðə ˈbɪl ˈpliz/"
    },
    {
     "s": 1,
     "e": "It's on me",
     "v": "để tôi trả",
     "d": "You say this to tell others that you will pay for them.",
-    "x": "Put your wallet away — it's on me tonight."
+    "x": "Put your wallet away — it's on me tonight.",
+    "ip": "/ˈɪts ɑn ˈmi/"
    }
   ],
   "qa": [
@@ -1936,7 +1970,7 @@ window.ONTAP = [
     "s": 1,
     "e": "free time / leisure time",
     "v": "thời gian rảnh",
-    "ip": "/fɹiː tɑem/",
+    "ip": "free time /ˈfɹi ˈtaɪm/ · leisure time /ˈlɛʒɚ ˈtaɪm/",
     "d": "Time when you are not working and can relax.",
     "x": "In my free time, I like to paint."
    },
@@ -1944,13 +1978,15 @@ window.ONTAP = [
     "e": "be into something",
     "v": "mê cái gì",
     "x": "I'm really into photography these days.",
-    "d": "To be very interested in something."
+    "d": "To be very interested in something.",
+    "ip": "/bi ˈɪntu ˈsʌmθɪŋ/"
    },
    {
     "e": "be keen on",
     "v": "thích",
     "d": "To like something a lot.",
-    "x": "She's keen on hiking at weekends."
+    "x": "She's keen on hiking at weekends.",
+    "ip": "/bi ˈkin ɑn/"
    },
    {
     "e": "collect",
@@ -1963,19 +1999,20 @@ window.ONTAP = [
     "e": "gardening",
     "v": "làm vườn",
     "d": "To grow plants in a garden; to create or maintain a garden.",
-    "x": "I love to garden — this year I'm going to plant some daffodils."
+    "x": "I love to garden — this year I'm going to plant some daffodils.",
+    "ip": "/ˈɡɑɹdənɪŋ/"
    },
    {
     "e": "baking / cooking",
     "v": "làm bánh / nấu ăn",
-    "ip": "/ˈbeɪkɪŋ(ɡ)/",
+    "ip": "baking /ˈbeɪkɪŋ/ · cooking /ˈkʊkɪŋ/",
     "d": "Preparing food, especially bread, cakes, or meals.",
     "x": "I enjoy baking cookies on Sundays."
    },
    {
     "e": "painting / drawing",
     "v": "vẽ",
-    "ip": "/ˈpeɪn.tɪŋ/",
+    "ip": "painting /ˈpeɪntɪŋ/ · drawing /ˈdɹɔɪŋ/",
     "d": "An illustration or artwork done with the use of paint.",
     "x": "The Mona Lisa is one of the most famous paintings."
    },
@@ -1989,7 +2026,7 @@ window.ONTAP = [
    {
     "e": "hiking / cycling",
     "v": "đi bộ đường dài / đạp xe",
-    "ip": "/ˈhaɪkɪŋ/",
+    "ip": "hiking /ˈhaɪkɪŋ/ · cycling /ˈsaɪkəlɪŋ/",
     "d": "To take a long walk for pleasure or exercise.",
     "x": "Don't forget to bring the map when we go hiking tomorrow."
    },
@@ -2005,7 +2042,8 @@ window.ONTAP = [
     "e": "binge-watch",
     "v": "cày phim",
     "d": "To watch multiple episodes of a television programme in a short period of time.",
-    "x": "We binge-watched the whole series in one weekend."
+    "x": "We binge-watched the whole series in one weekend.",
+    "ip": "/ˈbɪnd͡ʒ ˈwɑt͡ʃ/"
    },
    {
     "e": "journaling",
@@ -2016,7 +2054,7 @@ window.ONTAP = [
    {
     "e": "meditation",
     "v": "thiền",
-    "ip": "/mɛdɪˈteɪʃən/",
+    "ip": "/ˌmɛdəˈteɪʃən/",
     "d": "A devotional exercise of, or leading to contemplation.",
     "x": "Ten minutes of meditation calms my mind."
    },
@@ -2024,7 +2062,7 @@ window.ONTAP = [
     "s": 1,
     "e": "It helps me unwind",
     "v": "giúp tôi xả stress",
-    "ip": "/ɪt hɛlps miː ʌnˈwaɪnd/",
+    "ip": "/ˈɪt ˈhɛlps ˈmi ənˈwaɪnd/",
     "d": "You say this about an activity that helps you relax after stress.",
     "x": "Listening to music helps me unwind."
    },
@@ -2032,12 +2070,13 @@ window.ONTAP = [
     "e": "It's a great way to relax",
     "v": "cách thư giãn tuyệt vời",
     "d": "You say this about an activity that is very good for relaxing.",
-    "x": "Gardening is a great way to relax."
+    "x": "Gardening is a great way to relax.",
+    "ip": "/ˈɪts ə ˈɡɹeɪt ˈweɪ tə ɹɪˈlæks/"
    },
    {
     "e": "relieve stress",
     "v": "giảm căng thẳng",
-    "ip": "/ɹɪˈliːv stɹɛs/",
+    "ip": "/ɹɪˈliv ˈstɹɛs/",
     "d": "To reduce feelings of worry and pressure.",
     "x": "Exercise is a good way to relieve stress."
    }
@@ -2149,14 +2188,14 @@ window.ONTAP = [
     "s": 1,
     "e": "break a habit",
     "v": "bỏ thói quen",
-    "ip": "/bɹeɪk æɪ ˈhæbət/",
+    "ip": "/ˈbɹeɪk ə ˈhæbət/",
     "d": "To stop doing something you often do.",
     "x": "It's hard to break the habit of checking my phone."
    },
    {
     "e": "form / develop a habit",
     "v": "hình thành thói quen",
-    "ip": "/fɔːm/",
+    "ip": "form /ˈfɔɹm/ · develop a habit /dɪˈvɛləp ə ˈhæbət/",
     "d": "To slowly start doing something regularly.",
     "x": "I want to develop the habit of reading daily."
    },
@@ -2164,7 +2203,7 @@ window.ONTAP = [
     "s": 1,
     "e": "discipline",
     "v": "kỷ luật",
-    "ip": "/ˈdɪ.sə.plɪn/",
+    "ip": "/ˈdɪsəplən/",
     "d": "A controlled behaviour; self-control.",
     "x": "It takes discipline to study every day."
    },
@@ -2186,7 +2225,8 @@ window.ONTAP = [
     "e": "motivated",
     "v": "có động lực",
     "d": "Enthusiastic, especially about striving toward a goal.",
-    "x": "We're looking for a highly motivated individual who will fit into our fast-paced corporate culture."
+    "x": "We're looking for a highly motivated individual who will fit into our fast-paced corporate culture.",
+    "ip": "/ˈmoʊtəˌveɪtəd/"
    },
    {
     "e": "lazy",
@@ -2198,28 +2238,28 @@ window.ONTAP = [
    {
     "e": "addicted to",
     "v": "nghiện",
-    "ip": "/əˈdɪktɪd tʉː/",
+    "ip": "/əˈdɪktɪd tə/",
     "d": "Unable to stop doing or using something.",
     "x": "He's addicted to playing mobile games."
    },
    {
     "e": "procrastinate",
     "v": "trì hoãn",
-    "ip": "/pɹəʊˈkɹæstɪneɪt/",
+    "ip": "/pɹəˈkɹæstəˌneɪt/",
     "d": "To delay taking action; to wait until later.",
     "x": "He procrastinated until the last minute and had to stay up all night to finish."
    },
    {
     "e": "stay up late",
     "v": "thức khuya",
-    "ip": "/steɪ ap leɪt/",
+    "ip": "/ˈsteɪ ˈʌp ˈleɪt/",
     "d": "To go to bed much later than usual.",
     "x": "I stayed up late finishing the report."
    },
    {
     "e": "oversleep",
     "v": "ngủ quên",
-    "ip": "/ˈəʊvəɹˌsliːp/",
+    "ip": "/ˌoʊvɚˈslip/",
     "d": "To sleep for longer than intended.",
     "x": "I overslept and was late for school."
    },
@@ -2227,33 +2267,35 @@ window.ONTAP = [
     "e": "multitask",
     "v": "làm nhiều việc cùng lúc",
     "d": "To schedule and execute multiple tasks (program) simultaneously; control being passed from one to the other using interrupts.",
-    "x": "She can multitask, cooking while answering emails."
+    "x": "She can multitask, cooking while answering emails.",
+    "ip": "/ˈmʌltiˌtæsk/"
    },
    {
     "s": 1,
     "e": "It's good/bad for your health",
     "v": "tốt/xấu cho sức khỏe",
     "d": "You say this to talk about whether a habit helps or harms your body.",
-    "x": "Eating vegetables is good for your health."
+    "x": "Eating vegetables is good for your health.",
+    "ip": "/ˈɪts ˈɡʊd ˈbæd fɚ jɔɹ ˈhɛlθ/"
    },
    {
     "e": "in moderation",
     "v": "vừa phải, điều độ",
-    "ip": "/ɪn ˌmɒdəˈɹeɪʃən/",
+    "ip": "/ɪn ˌmɑdɚˈeɪʃən/",
     "d": "In a sensible, limited amount.",
     "x": "Sweets are fine in moderation."
    },
    {
     "e": "nervous habit",
     "v": "thói quen do lo lắng (cắn móng tay...)",
-    "ip": "/ˈnɜːvəs ˈhæbət/",
+    "ip": "/ˈnɝvəs ˈhæbət/",
     "d": "Something you do without thinking when you feel anxious, like biting your nails.",
     "x": "Tapping his foot is a nervous habit."
    },
    {
     "e": "pick up a habit",
     "v": "bắt đầu một thói quen",
-    "ip": "/pɪk ap æɪ ˈhæbət/",
+    "ip": "/ˈpɪk ˈʌp ə ˈhæbət/",
     "d": "To start doing something regularly, often without planning to.",
     "x": "I picked up the habit of drinking coffee at work."
    }
@@ -2480,7 +2522,7 @@ window.ONTAP = [
     "s": 1,
     "e": "Piece of cake",
     "v": "dễ ợt",
-    "ip": "/piːs ɔv keɪk/",
+    "ip": "/ˈpiːsə(v)ˈkeɪk/",
     "d": "Something that is very easy to do.",
     "x": "The test was a piece of cake."
    },
@@ -2488,28 +2530,28 @@ window.ONTAP = [
     "s": 1,
     "e": "Once in a blue moon",
     "v": "hiếm khi",
-    "ip": "/wɒn(t)s ɪn æɪ bluː muːn/",
+    "ip": "/wʌns ɪn ə bluː muːn/",
     "d": "Very rarely; very infrequently.",
     "x": "We only see each other once in a blue moon."
    },
    {
     "e": "Hit the books",
     "v": "học bài chăm chỉ",
-    "ip": "/hɪt ði bʊks/",
+    "ip": "/ˈhɪt ðə ˈbʊks/",
     "d": "To study hard.",
     "x": "I have to hit the books for my exam."
    },
    {
     "e": "Hit the sack",
     "v": "đi ngủ",
-    "ip": "/hɪt ði sæk/",
+    "ip": "/ˈhɪt ðə ˈsæk/",
     "d": "To go to bed.",
     "x": "I'm exhausted, so I'm going to hit the sack."
    },
    {
     "e": "Break a leg",
     "v": "chúc may mắn",
-    "ip": "/bɹeɪk æɪ leɪɡ/",
+    "ip": "/ˈbɹeɪk ə ˈlɛɡ/",
     "d": "A way to wish someone good luck, especially before a performance.",
     "x": "Break a leg in your interview!"
    },
@@ -2517,12 +2559,13 @@ window.ONTAP = [
     "e": "Cost an arm and a leg",
     "v": "đắt cắt cổ",
     "d": "To be very expensive.",
-    "x": "That new phone costs an arm and a leg."
+    "x": "That new phone costs an arm and a leg.",
+    "ip": "/ˈkɑst ən ˈɑɹm ənd ə ˈlɛɡ/"
    },
    {
     "e": "Under the weather",
     "v": "bị ốm",
-    "ip": "/ˈʊndə ði ˈwɛðə/",
+    "ip": "/ˈʌndə ðə ˈwɛðə/",
     "d": "Somewhat ill or gloomy.",
     "x": "I'm feeling a bit under the weather today."
    },
@@ -2530,19 +2573,20 @@ window.ONTAP = [
     "e": "It's not my cup of tea",
     "v": "không hợp gu tôi",
     "d": "Something you do not really like or enjoy.",
-    "x": "Horror films aren't my cup of tea."
+    "x": "Horror films aren't my cup of tea.",
+    "ip": "/ˈɪts ˈnɑt ˈmaɪ ˈkʌp ʌv ˈti/"
    },
    {
     "e": "Better late than never",
     "v": "trễ còn hơn không",
-    "ip": "/ˈbeɾə leɪt ðæn ˈnɛv.ə(ɹ)/",
+    "ip": "/ˈbɛtɚ ˈleɪt ðən ˈnɛvɚ/",
     "d": "It's better to do something late, than to never do it at all.",
     "x": "You finally arrived — better late than never!"
    },
    {
     "e": "Time flies",
     "v": "thời gian trôi nhanh",
-    "ip": "/tɑem flaɪz/",
+    "ip": "/ˈtaɪm ˈflaɪz/",
     "d": "Time passes very quickly.",
     "x": "Time flies when you're having fun."
    },
@@ -2551,40 +2595,42 @@ window.ONTAP = [
     "e": "Keep in touch",
     "v": "giữ liên lạc",
     "d": "To stay in contact with someone.",
-    "x": "Let's keep in touch after the course."
+    "x": "Let's keep in touch after the course.",
+    "ip": "/ˈkip ɪn ˈtʌt͡ʃ/"
    },
    {
     "s": 1,
     "e": "Make up your mind",
     "v": "quyết định đi",
     "d": "To make a decision.",
-    "x": "Hurry up and make up your mind."
+    "x": "Hurry up and make up your mind.",
+    "ip": "/ˈmeɪk ˈʌp jɔɹ ˈmaɪnd/"
    },
    {
     "e": "A blessing in disguise",
     "v": "trong cái rủi có cái may",
-    "ip": "/æɪ ˈblɛs.ɪŋ ɪn dɪsˈɡaɪz/",
+    "ip": "/ə ˈblɛsɪŋ ɪn dɪsˈɡaɪz/",
     "d": "Something that seems bad at first but turns out to be good.",
     "x": "Losing that job was a blessing in disguise."
    },
    {
     "e": "Call it a day",
     "v": "kết thúc, nghỉ",
-    "ip": "/kɔːɫ ɪt æɪ deɪ/",
+    "ip": "/ˈkɔl ˈɪt ə ˈdeɪ/",
     "d": "To cease the activity for the day.",
     "x": "We have been at this for hours; let's call it a day and come back tomorrow when we are fresh."
    },
    {
     "e": "Get the ball rolling",
     "v": "bắt đầu",
-    "ip": "/ɡɛt ði bɔːl ˈɹəʊlɪŋ/",
+    "ip": "/ˈɡɛt ðə ˈbɔl ˈɹoʊlɪŋ/",
     "d": "To begin; to start some action; to set in motion.",
     "x": "Did you ever get the ball rolling on your plans to build a shed?"
    },
    {
     "e": "On the same page",
     "v": "cùng quan điểm",
-    "ip": "/ɒn ði seɪm peɪd͡ʒ/",
+    "ip": "/ɑn ðə ˈseɪm ˈpeɪd͡ʒ/",
     "d": "To agree and share the same understanding.",
     "x": "Let's make sure we're all on the same page."
    },
@@ -2592,7 +2638,8 @@ window.ONTAP = [
     "e": "Sick and tired of",
     "v": "chán ngán, phát ngán",
     "d": "Completely fed up and annoyed with something.",
-    "x": "I'm sick and tired of the noise."
+    "x": "I'm sick and tired of the noise.",
+    "ip": "/ˈsɪk ənd ˈtaɪɚd ʌv/"
    }
   ],
   "qa": [
@@ -2698,21 +2745,21 @@ window.ONTAP = [
     "s": 1,
     "e": "destination",
     "v": "điểm đến",
-    "ip": "/dɛstɪˈneɪʃən/",
+    "ip": "/ˌdɛstəˈneɪʃən/",
     "d": "The act of destining or appointing.",
     "x": "Da Nang is a popular holiday destination."
    },
    {
     "e": "itinerary",
     "v": "lịch trình",
-    "ip": "/aɪˈtɪnəɹi/",
+    "ip": "/aɪˈtɪnɚˌɛɹi/",
     "d": "A detailed plan of a trip, showing where you go and when.",
     "x": "Our itinerary includes three cities in five days."
    },
    {
     "e": "book / reserve",
     "v": "đặt (vé/phòng)",
-    "ip": "/buːk/",
+    "ip": "book /ˈbʊk/ · reserve /ɹɪˈzɝv/",
     "d": "To arrange to have something (like a room or ticket) kept for you.",
     "x": "I booked a hotel room for two nights."
    },
@@ -2720,18 +2767,20 @@ window.ONTAP = [
     "e": "backpacking",
     "v": "đi du lịch bụi",
     "d": "To hike and camp overnight in backcountry with one's gear carried in a backpack",
-    "x": "They went backpacking across Southeast Asia."
+    "x": "They went backpacking across Southeast Asia.",
+    "ip": "/ˈbækˌpækɪŋ/"
    },
    {
     "e": "sightseeing",
     "v": "tham quan",
     "d": "The activity of going out looking at things; tourism.",
-    "x": "Sightseeing is a frequent reason to visit San Francisco."
+    "x": "Sightseeing is a frequent reason to visit San Francisco.",
+    "ip": "/ˈsaɪtˈsiɪŋ/"
    },
    {
     "e": "souvenir",
     "v": "quà lưu niệm",
-    "ip": "/ˌsuːvəˈnɪə(ɹ)/",
+    "ip": "/ˌsuvəˈnɪɹ/",
     "d": "An item of sentimental value, to remember an event or location.",
     "x": "I bought a small souvenir from the museum."
    },
@@ -2739,63 +2788,63 @@ window.ONTAP = [
     "s": 1,
     "e": "get away",
     "v": "đi xa nghỉ ngơi",
-    "ip": "/ɡɛt əˈweɪ/",
+    "ip": "/ˈɡɛt əˈweɪ/",
     "d": "To go somewhere to relax, away from daily life.",
     "x": "We got away to the beach for the weekend."
    },
    {
     "e": "explore",
     "v": "khám phá",
-    "ip": "/ɪkˈsplɔː/",
+    "ip": "/ɪkˈsplɔɹ/",
     "d": "To travel around a place to find out what it is like.",
     "x": "We love to explore new cities when we travel."
    },
    {
     "e": "breathtaking view",
     "v": "cảnh đẹp ngỡ ngàng",
-    "ip": "/ˈbɹɛθˌteɪ.kɪŋ vjuː/",
+    "ip": "/ˈbɹɛθˌteɪkɪŋ ˈvju/",
     "d": "A scene so beautiful it amazes you.",
     "x": "The mountain top offered a breathtaking view."
    },
    {
     "e": "scenery / landscape",
     "v": "phong cảnh",
-    "ip": "/ˈsiːnəɹi/",
+    "ip": "scenery /ˈsinɚi/ · landscape /ˈlændˌskeɪp/",
     "d": "View, natural features, landscape.",
     "x": "The mountain scenery was stunning."
    },
    {
     "e": "local food",
     "v": "món ăn địa phương",
-    "ip": "/ˈləʊkl̩ fuːd/",
+    "ip": "/ˈloʊkəl ˈfud/",
     "d": "The traditional food of the area you are visiting.",
     "x": "We tried lots of local food on our trip."
    },
    {
     "e": "jet lag",
     "v": "lệch múi giờ",
-    "ip": "/dʒɛt læɡ/",
+    "ip": "/ˈd͡ʒɛt.læɡ/",
     "d": "A physical condition caused by crossing time zones during flight; often the result of disruption to the circadian rhythms of the body.",
     "x": "After the long flight, I had bad jet lag."
    },
    {
     "e": "passport / visa",
     "v": "hộ chiếu / thị thực",
-    "ip": "/ˈpɑːspɔːt/",
+    "ip": "passport /ˈpæˌspɔɹt/ · visa /ˈvizə/",
     "d": "An official document normally used for international journeys, which proves the identity and nationality of the person for whom it was issued.",
     "x": "You will have to bring your passport to prove who you are."
    },
    {
     "e": "luggage / baggage",
     "v": "hành lý",
-    "ip": "/ˈlʌɡɪd͡ʒ/",
+    "ip": "luggage /ˈlʌɡəd͡ʒ/ · baggage /ˈbæɡəd͡ʒ/",
     "d": "The bags and other containers that hold a traveller's belongings.",
     "x": "My luggage was too heavy to carry."
    },
    {
     "e": "check in / check out",
     "v": "nhận / trả phòng",
-    "ip": "/t͡ʃɛk ɪn/",
+    "ip": "check in /ˈt͡ʃɛk ɪn/ · check out /ˈt͡ʃɛk ˈaʊt/",
     "d": "To announce or record one's own arrival at a hotel, airport etc.",
     "x": "We got to the hotel last night and checked in at the front desk."
    },
@@ -2804,26 +2853,27 @@ window.ONTAP = [
     "e": "off the beaten track",
     "v": "nơi ít người biết",
     "d": "Far from where most tourists go.",
-    "x": "We found a quiet village off the beaten track."
+    "x": "We found a quiet village off the beaten track.",
+    "ip": "/ˈɔf ðə ˈbitən ˈtɹæk/"
    },
    {
     "e": "on a budget",
     "v": "tiết kiệm",
-    "ip": "/ɒn æɪ ˈbʌdʒ.ɪt/",
+    "ip": "/ɑn ə ˈbʌd͡ʒɪt/",
     "d": "Appropriate to a restricted budget.",
     "x": "We flew on a budget airline."
    },
    {
     "e": "tourist attraction",
     "v": "điểm thu hút khách",
-    "ip": "/ˈtʊəɹɪst əˈtɹækʃən/",
+    "ip": "/ˈtʊɹəst əˈtɹækʃən/",
     "d": "A place that many visitors come to see, such as a museum, a temple or a famous building.",
     "x": "The temple is a popular tourist attraction."
    },
    {
     "e": "make memories",
     "v": "tạo kỷ niệm",
-    "ip": "/meɪk ˈmɛm(ə)ɹiz/",
+    "ip": "/ˈmeɪk ˈmɛmɚiz/",
     "d": "To have special experiences you will remember.",
     "x": "We made wonderful memories on holiday."
    }
@@ -2936,12 +2986,13 @@ window.ONTAP = [
     "e": "milestone",
     "v": "cột mốc quan trọng",
     "d": "An important event or stage in your life.",
-    "x": "Graduating was a big milestone for me."
+    "x": "Graduating was a big milestone for me.",
+    "ip": "/ˈmaɪlˌstoʊn/"
    },
    {
     "e": "childhood",
     "v": "tuổi thơ",
-    "ip": "/ˈtʃaɪldhʊd/",
+    "ip": "/ˈt͡ʃaɪldˌhʊd/",
     "d": "The state of being a child.",
     "x": "I had a happy childhood in the countryside."
    },
@@ -2949,19 +3000,20 @@ window.ONTAP = [
     "e": "adulthood",
     "v": "tuổi trưởng thành",
     "d": "The time period of a human being's majority; the time during which a human being has reached physical maturity, and ending with its death.",
-    "x": "Paying bills is part of adulthood."
+    "x": "Paying bills is part of adulthood.",
+    "ip": "/əˈdʌltˌhʊd/"
    },
    {
     "e": "get a degree",
     "v": "lấy bằng",
-    "ip": "/ɡɛt æɪ dɪˈɡɹiː/",
+    "ip": "/ˈɡɛt ə dɪˈɡɹi/",
     "d": "To complete a university qualification.",
     "x": "She got a degree in engineering."
    },
    {
     "e": "settle down",
     "v": "ổn định cuộc sống",
-    "ip": "/ˈsɛtəl daʊn/",
+    "ip": "/ˈsɛtəl ˈdaʊn/",
     "d": "To start a stable life, often with a home and family.",
     "x": "They settled down in a small town."
    },
@@ -2969,49 +3021,49 @@ window.ONTAP = [
     "s": 1,
     "e": "career",
     "v": "sự nghiệp",
-    "ip": "/kəˈɹɪə/",
+    "ip": "/kɚˈɪɹ/",
     "d": "The work you do over a long period of your life.",
     "x": "She has a successful career in law."
    },
    {
     "e": "achievement",
     "v": "thành tựu",
-    "ip": "/əˈtʃiːvmənt/",
+    "ip": "/əˈt͡ʃivmənt/",
     "d": "An award for completing a particular task or meeting an objective in a video game.",
     "x": "Graduating from university was a great achievement."
    },
    {
     "e": "regret",
     "v": "hối tiếc",
-    "ip": "/ɹiˈɡɹɛt/",
+    "ip": "/ɹəˈɡɹɛt/",
     "d": "To feel sorry about (a thing that has or has not happened), afterthink: to wish that a thing had not happened, that something else had happened instead.",
     "x": "He regretted his words."
    },
    {
     "e": "turning point",
     "v": "bước ngoặt",
-    "ip": "/ˈtɜː.nɪŋ pɔɪnt/",
+    "ip": "/ˈtɝnɪŋ ˈpɔɪnt/",
     "d": "A decisive point at which a significant change or historical event occurs, or at which a decision must be made.",
     "x": "Meeting her was a turning point in my life."
    },
    {
     "e": "opportunity",
     "v": "cơ hội",
-    "ip": "/ˌɒp.əˈtjuː.nɪ.tɪ/",
+    "ip": "/ˌɑpɚˈtunəti/",
     "d": "A chance for advancement, progress or profit.",
     "x": "The world is full of opportunities and it's up to me to see them and pursue them."
    },
    {
     "e": "responsibility",
     "v": "trách nhiệm",
-    "ip": "/ɹɪˌspɑnsəˈbɪlɪɾi/",
+    "ip": "/ɹiˌspɑnsəˈbɪləti/",
     "d": "The state of being responsible, accountable, or answerable.",
     "x": "Being a parent is a big responsibility."
    },
    {
     "e": "independent",
     "v": "độc lập",
-    "ip": "/ɪndɪˈpɛndənt/",
+    "ip": "/ˌɪndɪˈpɛndənt/",
     "d": "Not affiliated with any political party.",
     "x": "After getting a job, she became financially independent."
    },
@@ -3020,32 +3072,34 @@ window.ONTAP = [
     "e": "look back on",
     "v": "nhìn lại",
     "d": "To think about the past.",
-    "x": "I look back on my school days with a smile."
+    "x": "I look back on my school days with a smile.",
+    "ip": "/ˈlʊk ˈbæk ɑn/"
    },
    {
     "e": "look forward to",
     "v": "mong chờ",
     "d": "To anticipate, expect, or wait for, especially with a feeling of approval or pleasure. To be excited or eager to.",
-    "x": "I look forward to seeing you next week."
+    "x": "I look forward to seeing you next week.",
+    "ip": "/ˈlʊk ˈfɔɹwɚd tə/"
    },
    {
     "e": "raise a family",
     "v": "gây dựng gia đình",
-    "ip": "/ɹeɪz æɪ ˈfɛm(ɘ)li/",
+    "ip": "/ˈɹeɪz ə ˈfæməli/",
     "d": "To have children and bring them up.",
     "x": "They hope to raise a family one day."
    },
    {
     "e": "legacy",
     "v": "di sản để lại",
-    "ip": "/ˈleɪɡəsi/",
+    "ip": "/ˈlɛɡəsi/",
     "d": "Something inherited from a predecessor or the past.",
     "x": "John Muir left as his legacy an enduring spirit of respect for the environment."
    },
    {
     "e": "It changed my life",
     "v": "nó thay đổi cuộc đời tôi",
-    "ip": "/ɪt t͡ʃeɪnd͡ʒd mi laɪf/",
+    "ip": "/ˈɪt ˈt͡ʃeɪnd͡ʒd ˈmaɪ ˈlaɪf/",
     "d": "You say this about an event that had a very big effect on you.",
     "x": "Moving abroad changed my life."
    }
@@ -3962,7 +4016,8 @@ window.ONTAP = [
     "e": "to be into something",
     "v": "mê / thích cái gì",
     "x": "I'm into learning the guitar.",
-    "d": "To be very interested in something."
+    "d": "To be very interested in something.",
+    "ip": "/tə bi ˈɪntu ˈsʌmθɪŋ/"
    },
    {
     "s": 1,
@@ -3975,14 +4030,14 @@ window.ONTAP = [
     "s": 1,
     "e": "to pick up a hobby",
     "v": "bắt đầu một sở thích mới",
-    "ip": "/tʉː pɪk ap æɪ ˈhɒ.bi/",
+    "ip": "/tə ˈpɪk ˈʌp ə ˈhɑbi/",
     "d": "To start a new hobby.",
     "x": "I picked up cooking during the holidays."
    },
    {
     "e": "to kill time",
     "v": "giết thời gian",
-    "ip": "/tʉː kɪl tɑem/",
+    "ip": "/tə ˈkɪl ˈtaɪm/",
     "d": "To do something while waiting, to make time pass.",
     "x": "I read magazines to kill time at the airport."
    },
@@ -3990,7 +4045,7 @@ window.ONTAP = [
     "s": 1,
     "e": "to unwind / to relax",
     "v": "thư giãn",
-    "ip": "/tʉː ʌnˈwaɪnd/",
+    "ip": "to unwind /tə ənˈwaɪnd/ · to relax /tə ɹɪˈlæks/",
     "d": "To rest and let go of stress.",
     "x": "I unwind by taking a long bath."
    },
@@ -4335,20 +4390,21 @@ window.ONTAP = [
     "e": "I'm a morning person / a night owl",
     "v": "người dậy sớm / cú đêm",
     "d": "A morning person feels best early in the day; a night owl feels best late at night.",
-    "x": "I'm a morning person and love early walks."
+    "x": "I'm a morning person and love early walks.",
+    "ip": "I'm a morning person /ˈaɪm ə ˈmɔɹnɪŋ ˈpɝsən/ · a night owl /ə ˈnaɪt ˈaʊl/"
    },
    {
     "s": 1,
     "e": "first thing in the morning",
     "v": "việc đầu tiên trong buổi sáng",
-    "ip": "/fɪrst θɪŋ ɪn ði ˈmɔːnɪŋ/",
+    "ip": "/ˈfɝst ˈθɪŋ ɪn ðə ˈmɔɹnɪŋ/",
     "d": "Very early, before doing anything else.",
     "x": "I check my email first thing in the morning."
    },
    {
     "e": "right before bed",
     "v": "ngay trước khi ngủ",
-    "ip": "/ˈɹaɪt bɪˈfɔː bed/",
+    "ip": "/ˈɹaɪt bɪˈfɔɹ ˈbɛd/",
     "d": "Just before you go to sleep.",
     "x": "I read a little right before bed."
    },
@@ -4356,14 +4412,16 @@ window.ONTAP = [
     "e": "on weekdays ≠ on weekends",
     "v": "ngày thường ≠ cuối tuần",
     "d": "Weekdays are Monday to Friday; weekends are Saturday and Sunday.",
-    "x": "I work on weekdays and rest on weekends."
+    "x": "I work on weekdays and rest on weekends.",
+    "ip": "/ɑn ˈwikˌdeɪz ɑn ˈwiˌkɛndz/"
    },
    {
     "s": 1,
     "e": "every now and then",
     "v": "thỉnh thoảng",
     "d": "Sometimes, but not often.",
-    "x": "Every now and then we eat out."
+    "x": "Every now and then we eat out.",
+    "ip": "/ˈɛvɚi ˈnaʊ ənd ˈðɛn/"
    }
   ],
   "extra": [
@@ -4564,20 +4622,23 @@ window.ONTAP = [
     "e": "to take care of your appearance",
     "v": "chăm chút ngoại hình",
     "d": "To make an effort to look clean and tidy.",
-    "x": "He takes care of his appearance before meetings."
+    "x": "He takes care of his appearance before meetings.",
+    "ip": "/tə ˈteɪk ˈkɛɹ ʌv jɔɹ əˈpɪɹəns/"
    },
    {
     "s": 1,
     "e": "to look your best",
     "v": "trông đẹp nhất có thể",
     "d": "To look as good as you possibly can.",
-    "x": "I want to look my best for the wedding."
+    "x": "I want to look my best for the wedding.",
+    "ip": "/tə ˈlʊk jɔɹ ˈbɛst/"
    },
    {
     "e": "He's aged well.",
     "v": "anh ấy trông vẫn phong độ",
     "d": "He still looks good as he has got older.",
-    "x": "He's aged well — he looks great at fifty."
+    "x": "He's aged well — he looks great at fifty.",
+    "ip": "/ˈhiz ˈeɪd͡ʒd ˈwɛl/"
    }
   ],
   "extra": [
@@ -4696,13 +4757,14 @@ window.ONTAP = [
     "e": "It's about the size of…",
     "v": "nó to cỡ…",
     "d": "You say this to compare how big something is to another object.",
-    "x": "It's about the size of a football."
+    "x": "It's about the size of a football.",
+    "ip": "/ˈɪts əˈbaʊt ðə ˈsaɪz ʌv/"
    },
    {
     "s": 1,
     "e": "It comes in different colors.",
     "v": "nó có nhiều màu.",
-    "ip": "/ɪt kʌmz ɪn ˈdɪf.(ə)ɹ.ənt ˈkʌl.əz/",
+    "ip": "/ˈɪt ˈkʌmz ɪn ˈdɪfɚənt ˈkʌlɚz/",
     "d": "You say this to explain that a product is sold in several colours.",
     "x": "This phone comes in different colors."
    },
@@ -4711,7 +4773,8 @@ window.ONTAP = [
     "e": "It's handy / useful for…",
     "v": "nó tiện / hữu ích để…",
     "d": "Easy to use, useful.",
-    "x": "Some people regard duct tape as a handy fix-all."
+    "x": "Some people regard duct tape as a handy fix-all.",
+    "ip": "It's handy /ˈɪts ˈhændi/ · useful for /ˈjusfəl fɚ/"
    }
   ],
   "extra": [
@@ -4836,13 +4899,14 @@ window.ONTAP = [
     "e": "to apply for a job",
     "v": "nộp đơn xin việc",
     "d": "To formally ask to be given a job.",
-    "x": "I applied for a job at a tech company."
+    "x": "I applied for a job at a tech company.",
+    "ip": "/tə əˈplaɪ fɚ ə ˈd͡ʒɑb/"
    },
    {
     "s": 1,
     "e": "a job interview",
     "v": "phỏng vấn việc làm",
-    "ip": "/æɪ d͡ʒɒb ˈɪntəvjuː/",
+    "ip": "/ə ˈd͡ʒɑb ˈɪntɚˌvju/",
     "d": "A meeting where an employer asks you questions to decide whether to hire you.",
     "x": "I have a job interview on Monday."
    },
@@ -4850,19 +4914,20 @@ window.ONTAP = [
     "e": "a CV / résumé",
     "v": "sơ yếu lý lịch",
     "d": "A document listing your education and work experience.",
-    "x": "I updated my CV before applying."
+    "x": "I updated my CV before applying.",
+    "ip": "a CV /ə ˌsiˈvi/ · résumé /ˈɹɛz.(j)ʊˌmeɪ/"
    },
    {
     "e": "salary / wage / bonus",
     "v": "lương tháng / lương theo giờ / thưởng",
-    "ip": "/ˈsælɚi/",
+    "ip": "salary /ˈsælɚi/ · wage /ˈweɪd͡ʒ/ · bonus /ˈboʊnəs/",
     "d": "A fixed amount of money paid to a worker, usually calculated on a monthly or annual basis, not hourly, as wages. Implies a degree of professionalism and/or autonomy.",
     "x": "She earns a good salary and a yearly bonus."
    },
    {
     "e": "a deadline · to work overtime",
     "v": "hạn chót · làm thêm giờ",
-    "ip": "/æɪ ˈdɛdˌlaɪn tʉː wɜːk ˈoʊvɚˌtaɪm/",
+    "ip": "/ə ˈdɛdˌlaɪn tə ˈwɝk ˈoʊvɚˌtaɪm/",
     "d": "A deadline is the time by which work must be finished; to work overtime is to work extra hours.",
     "x": "I worked overtime to meet the deadline."
    },
@@ -4870,13 +4935,14 @@ window.ONTAP = [
     "e": "a coworker / colleague",
     "v": "đồng nghiệp",
     "d": "Somebody with whom one works.",
-    "x": "He heard from a coworker that the company planned to merge those departments."
+    "x": "He heard from a coworker that the company planned to merge those departments.",
+    "ip": "a coworker /ə ˈkoʊˈwɝkɚ/ · colleague /ˈkɑliɡ/"
    },
    {
     "s": 1,
     "e": "work–life balance",
     "v": "cân bằng công việc và cuộc sống",
-    "ip": "/wɜːk laɪf ˈbæləns/",
+    "ip": "/ˈwɝk ˈlaɪf ˈbæləns/",
     "d": "A healthy division of time between your job and your personal life.",
     "x": "A good work–life balance keeps me happy."
    },
@@ -4884,7 +4950,7 @@ window.ONTAP = [
     "s": 1,
     "e": "to climb the career ladder",
     "v": "thăng tiến sự nghiệp",
-    "ip": "/tʉː klaɪm ði kəˈɹɪə ˈladə/",
+    "ip": "/tə ˈklaɪm ðə kɚˈɪɹ ˈlædɚ/",
     "d": "To move up to higher, better jobs.",
     "x": "She worked hard to climb the career ladder."
    }
@@ -4985,7 +5051,7 @@ window.ONTAP = [
     "s": 1,
     "e": "to stock up on",
     "v": "mua trữ nhiều",
-    "ip": "/tʉː stɒk ap ɒn/",
+    "ip": "/tə ˈstɑk ˈʌp ɑn/",
     "d": "To buy a large amount of something.",
     "x": "We stocked up on rice and noodles."
    },
@@ -4993,21 +5059,21 @@ window.ONTAP = [
     "s": 1,
     "e": "to run out of",
     "v": "hết (sạch) thứ gì",
-    "ip": "/tʉː ɹʊn æɔt ɔv/",
+    "ip": "/tə ˈɹʌn ˈaʊt ʌv/",
     "d": "To use all of something so none is left.",
     "x": "We ran out of milk this morning."
    },
    {
     "e": "buy one get one free (BOGO)",
     "v": "mua 1 tặng 1",
-    "ip": "/baɪ wan ɡɛt wan fɹiː/",
+    "ip": "/ˈbaɪ ˈwʌn ˈɡɛt ˈwʌn ˈfɹi/",
     "d": "You get a second item for free when you buy one.",
     "x": "The shampoo was buy one get one free."
    },
    {
     "e": "expiry date / best before",
     "v": "hạn sử dụng",
-    "ip": "/ɛkˈspaɪ.əɹ.i deɪt/",
+    "ip": "expiry date /ˌɛkˈspaɪɹi ˈdeɪt/ · best before /ˈbɛst bɪˈfɔɹ/",
     "d": "The date by which you should use a product.",
     "x": "Check the expiry date before you buy milk."
    },
@@ -5015,21 +5081,21 @@ window.ONTAP = [
     "s": 1,
     "e": "to check out",
     "v": "ra quầy thanh toán",
-    "ip": "/tʉː t͡ʃɛk æɔt/",
+    "ip": "/tə ˈt͡ʃɛk ˈaʊt/",
     "d": "To confirm and pay for goods and services at a facility (e.g.: supermarket, online store, hotel) when leaving.",
     "x": "We checked out and paid for our groceries."
    },
    {
     "e": "a receipt",
     "v": "hóa đơn",
-    "ip": "/æɪ ɹɪˈsiːt/",
+    "ip": "/ə ɹɪˈsit/",
     "d": "The act of receiving, or the fact of having been received.",
     "x": "Keep the receipt in case you want a refund."
    },
    {
     "e": "cash or card?",
     "v": "tiền mặt hay thẻ?",
-    "ip": "/kæʃ ɔː(ɹ) kaːd/",
+    "ip": "/ˈkæʃ ɚ ˈkɑɹd/",
     "d": "The cashier asks this to know how you want to pay.",
     "x": "'Cash or card?' 'Card, please.'"
    },
@@ -5037,13 +5103,14 @@ window.ONTAP = [
     "e": "plastic bag ≠ reusable bag",
     "v": "túi nilon ≠ túi tái sử dụng",
     "d": "A plastic bag is used once; a reusable bag can be used many times.",
-    "x": "I bring a reusable bag to the supermarket."
+    "x": "I bring a reusable bag to the supermarket.",
+    "ip": "/ˈplæstɪk ˈbæɡ ɹiˈuzəbəl ˈbæɡ/"
    },
    {
     "s": 1,
     "e": "to compare prices · a good deal",
     "v": "so sánh giá · món hời",
-    "ip": "/tʉː kəmˈpɛə ˈpɹaɪsɪz æɪ ɡʊ(d) diːl/",
+    "ip": "/tə kəmˈpɛɹ ˈpɹaɪsəz ə ˈɡʊd ˈdil/",
     "d": "To compare prices is to check which is cheaper; a good deal is a cheap, worthwhile buy.",
     "x": "I compare prices to find a good deal."
    }
@@ -5146,27 +5213,29 @@ window.ONTAP = [
     "e": "to have a good sense of humor",
     "v": "có khiếu hài hước",
     "d": "To enjoy and make jokes easily.",
-    "x": "He has a great sense of humor and makes everyone laugh."
+    "x": "He has a great sense of humor and makes everyone laugh.",
+    "ip": "/tə ˈhæv ə ˈɡʊd ˈsɛns ʌv ˈhjumɚ/"
    },
    {
     "s": 1,
     "e": "to get along with people",
     "v": "hòa đồng với mọi người",
     "d": "To have friendly relationships with others.",
-    "x": "She gets along with everyone at work."
+    "x": "She gets along with everyone at work.",
+    "ip": "/tə ˈɡɛt əˈlɔŋ wɪθ ˈpipəl/"
    },
    {
     "s": 1,
     "e": "down to earth",
     "v": "giản dị, thực tế",
-    "ip": "/daʊn tʉː ɜːθ/",
+    "ip": "/ˈdaʊn tə ˈɝθ/",
     "d": "Practical, sensible, and modest.",
     "x": "Despite his fame, he's very down to earth."
    },
    {
     "e": "a people person",
     "v": "người thích giao tiếp",
-    "ip": "/æɪ ˈpiːpəl ˈpɜːsən/",
+    "ip": "/ə ˈpipəl ˈpɝsən/",
     "d": "Someone who enjoys and is good with other people.",
     "x": "As a people person, she loves teamwork."
    },
@@ -5174,13 +5243,15 @@ window.ONTAP = [
     "e": "to have a heart of gold",
     "v": "có tấm lòng vàng",
     "d": "To be very kind and generous.",
-    "x": "My grandmother has a heart of gold."
+    "x": "My grandmother has a heart of gold.",
+    "ip": "/tə ˈhæv ə ˈhɑɹt ʌv ˈɡoʊld/"
    },
    {
     "e": "He/She is full of energy.",
     "v": "tràn đầy năng lượng",
     "d": "To be very lively and active.",
-    "x": "The kids were full of energy all day."
+    "x": "The kids were full of energy all day.",
+    "ip": "/hi ʃi ɪz ˈfʊl ʌv ˈɛnɚd͡ʒi/"
    }
   ],
   "extra": [
@@ -5262,7 +5333,7 @@ window.ONTAP = [
     "s": 1,
     "e": "How do I get to…?",
     "v": "đi tới… thế nào?",
-    "ip": "/hæŏ dʉː aɪ ɡɛt tʉː/",
+    "ip": "/ˈhaʊ du ˈaɪ ˈɡɛt tə/",
     "d": "You ask this to find the way to a place.",
     "x": "Excuse me, how do I get to the station?"
    },
@@ -5270,7 +5341,7 @@ window.ONTAP = [
     "s": 1,
     "e": "go straight (on)",
     "v": "đi thẳng",
-    "ip": "/ɡəʉ stɹeɪt/",
+    "ip": "/ˈɡoʊ ˈstɹeɪt/",
     "d": "Keep moving forward without turning.",
     "x": "Go straight on until you reach the lights."
    },
@@ -5278,7 +5349,7 @@ window.ONTAP = [
     "s": 1,
     "e": "turn left / turn right",
     "v": "rẽ trái / rẽ phải",
-    "ip": "/tɜːn lɛft/",
+    "ip": "turn left /ˈtɝn ˈlɛft/ · turn right /ˈtɝn ˈɹaɪt/",
     "d": "To change direction to the left or right side.",
     "x": "Turn left at the bank."
    },
@@ -5286,14 +5357,14 @@ window.ONTAP = [
     "s": 1,
     "e": "take the first / second turning",
     "v": "rẽ ở ngã rẽ thứ nhất / thứ hai",
-    "ip": "/teɪk ði fɪrst/",
+    "ip": "take the first /ˈteɪk ðə ˈfɝst/ · second turning /ˈsɛkənd ˈtɝnɪŋ/",
     "d": "Take that road off the main street (the first or second one).",
     "x": "Take the second turning on your right."
    },
    {
     "e": "go past…",
     "v": "đi qua (khỏi)…",
-    "ip": "/ɡəʉ pɑːst/",
+    "ip": "/ˈɡoʊ ˈpæst/",
     "d": "To move beyond something.",
     "x": "Go past the church and it's on the left."
    },
@@ -5302,20 +5373,21 @@ window.ONTAP = [
     "e": "it's on your left / right",
     "v": "nó ở bên trái / phải bạn",
     "d": "You say this to tell someone which side a place is on.",
-    "x": "The shop is on your right."
+    "x": "The shop is on your right.",
+    "ip": "it's on your left /ˈɪts ɑn jɔɹ ˈlɛft/ · right /ˈɹaɪt/"
    },
    {
     "s": 1,
     "e": "across from / opposite",
     "v": "đối diện",
-    "ip": "/əˈkɹɑs fɹɒm/",
+    "ip": "across from /əˈkɹɔs fɹʌm/ · opposite /ˈɑpəzət/",
     "d": "Facing",
     "x": "The bank is across from the post office."
    },
    {
     "e": "next to / beside",
     "v": "bên cạnh",
-    "ip": "/nɛkst tʉː/",
+    "ip": "next to /ˈnɛkst ˌtuː/ · beside /bɪˈsaɪd/",
     "d": "Beside, alongside, by, adjacent to, or near.",
     "x": "The bank is next to the post office."
    },
@@ -5323,18 +5395,20 @@ window.ONTAP = [
     "e": "between … and …",
     "v": "ở giữa … và …",
     "d": "In the position or interval that separates (two things), or intermediate in quantity or degree. (See Usage notes below.)",
-    "x": "The pharmacy is between the bank and the café."
+    "x": "The pharmacy is between the bank and the café.",
+    "ip": "/bɪˈtwin ənd/"
    },
    {
     "e": "at the corner of",
     "v": "ở góc (đường)",
     "d": "Where two streets meet.",
-    "x": "The café is at the corner of Main Street and Oak Road."
+    "x": "The café is at the corner of Main Street and Oak Road.",
+    "ip": "/æt ðə ˈkɔɹnɚ ʌv/"
    },
    {
     "e": "around the corner",
     "v": "ngay góc kia, rất gần",
-    "ip": "/əˈɹaʊnd ði ˈkɔːnə(ɹ)/",
+    "ip": "/ɚˈaʊnd ðə ˈkɔɹnɚ/",
     "d": "Very near, just past the corner.",
     "x": "The bakery is just around the corner."
    },
@@ -5343,19 +5417,22 @@ window.ONTAP = [
     "e": "It's within walking distance.",
     "v": "đi bộ tới được",
     "d": "It is close enough to walk to.",
-    "x": "The beach is within walking distance."
+    "x": "The beach is within walking distance.",
+    "ip": "/ˈɪts wɪˈðɪn ˈwɔkɪŋ ˈdɪstəns/"
    },
    {
     "e": "Is it far from here?",
     "v": "có xa đây không?",
     "d": "You ask this to know the distance to a place.",
-    "x": "Is the museum far from here?"
+    "x": "Is the museum far from here?",
+    "ip": "/ɪz ˈɪt ˈfɑɹ fɹʌm ˈhiɹ/"
    },
    {
     "e": "You can't miss it.",
     "v": "không thể đi nhầm được đâu",
     "d": "You say this to mean a place is very easy to find.",
-    "x": "It's the big red building — you can't miss it."
+    "x": "It's the big red building — you can't miss it.",
+    "ip": "/ˈju ˈkænt ˈmɪs ˈɪt/"
    }
   ],
   "extra": [
@@ -5510,28 +5587,28 @@ window.ONTAP = [
     "s": 1,
     "e": "first impression",
     "v": "ấn tượng đầu tiên",
-    "ip": "/fɪrst ɪmˈpɹɛʃən/",
+    "ip": "/ˈfɝst ˌɪmˈpɹɛʃən/",
     "d": "The opinion you form about someone the first time you meet them.",
     "x": "She made a great first impression at the interview."
    },
    {
     "e": "make a good first impression",
     "v": "tạo ấn tượng tốt ban đầu",
-    "ip": "/meɪk æɪ ɡʊ(d) fɪrst ɪmˈpɹɛʃən/",
+    "ip": "/ˈmeɪk ə ˈɡʊd ˈfɝst ˌɪmˈpɹɛʃən/",
     "d": "To create a good opinion of yourself when people first meet you.",
     "x": "Arriving on time helps you make a good first impression."
    },
    {
     "e": "stranger",
     "v": "người lạ",
-    "ip": "/ˈstɹeɪndʒə/",
+    "ip": "/ˈstɹeɪnd͡ʒɚ/",
     "d": "A person you do not know.",
     "x": "A friendly stranger helped me find the station."
    },
    {
     "e": "friend",
     "v": "bạn bè",
-    "ip": "/fɹɛnd/",
+    "ip": "/ˈfɹɛnd/",
     "d": "A person you know well and like, who is not a family member.",
     "x": "She has been my closest friend for ten years."
    },
@@ -5539,21 +5616,21 @@ window.ONTAP = [
     "s": 1,
     "e": "colleague",
     "v": "đồng nghiệp",
-    "ip": "/ˈkɒliːɡ/",
+    "ip": "/ˈkɑliɡ/",
     "d": "A person you work with.",
     "x": "My colleague helped me finish the report."
    },
    {
     "e": "mutual friend",
     "v": "bạn chung (quen qua người khác)",
-    "ip": "/ˈmjuːt͡ʃuəl fɹɛnd/",
+    "ip": "/ˈmjut͡ʃuəl ˈfɹɛnd/",
     "d": "A friend that two people both know.",
     "x": "We were introduced by a mutual friend."
    },
    {
     "e": "soul mate",
     "v": "tri kỷ, bạn tâm giao",
-    "ip": "/səʊl meɪt/",
+    "ip": "/ˈsoʊl ˈmeɪt/",
     "d": "A person you feel a deep, natural connection with.",
     "x": "After years of dating, she married her soul mate."
    },
@@ -5561,7 +5638,7 @@ window.ONTAP = [
     "s": 1,
     "e": "common interest",
     "v": "sở thích / điểm chung",
-    "ip": "/ˈkɒmən ˈɪntəɹɪst/",
+    "ip": "/ˈkɑmən ˈɪntɹəst/",
     "d": "An activity or topic that two or more people both enjoy.",
     "x": "Music is our common interest."
    },
@@ -5569,7 +5646,7 @@ window.ONTAP = [
     "s": 1,
     "e": "small talk",
     "v": "chuyện phiếm, nói xã giao",
-    "ip": "/smoːl toːk/",
+    "ip": "/ˈsmɔl ˈtɔk/",
     "d": "Light, polite conversation about unimportant things.",
     "x": "We made small talk about the weather while we waited."
    },
@@ -5578,7 +5655,8 @@ window.ONTAP = [
     "e": "keep in touch",
     "v": "giữ liên lạc",
     "d": "To stay in contact with someone.",
-    "x": "Let's keep in touch after you move."
+    "x": "Let's keep in touch after you move.",
+    "ip": "/ˈkip ɪn ˈtʌt͡ʃ/"
    }
   ],
   "qa": [
@@ -5708,7 +5786,7 @@ window.ONTAP = [
     "s": 1,
     "e": "Would you ever…?",
     "v": "Bạn có bao giờ (sẽ)…? — hỏi về giả định tương lai",
-    "ip": "/wʊd jʉː ˈɛvə/",
+    "ip": "/wʊd ˈju ˈɛvɚ/",
     "d": "A question that asks if you would do something in an imagined future situation.",
     "x": "Would you ever move abroad for a job?"
    },
@@ -5717,7 +5795,8 @@ window.ONTAP = [
     "e": "Have you ever…?",
     "v": "Bạn đã bao giờ…? — hỏi về trải nghiệm quá khứ",
     "d": "A question that asks about an experience at any time in your past.",
-    "x": "Have you ever visited another country?"
+    "x": "Have you ever visited another country?",
+    "ip": "/ˈhæv ˈju ˈɛvɚ/"
    },
    {
     "e": "Absolutely!",
@@ -5729,7 +5808,7 @@ window.ONTAP = [
    {
     "e": "Yeah, probably.",
     "v": "Ừ, chắc là có.",
-    "ip": "/ˈjæ.ə ˈpɹɒbli/",
+    "ip": "/ˈjæ ˈpɹɑbəˌbli/",
     "d": "A way to say 'yes' when you are fairly, but not completely, sure.",
     "x": "'Will you come to the party?' 'Yeah, probably.'"
    },
@@ -5737,28 +5816,28 @@ window.ONTAP = [
     "s": 1,
     "e": "It depends (on…)",
     "v": "Còn tùy (vào…)",
-    "ip": "/ɪt dɪˈpɛndz/",
+    "ip": "/ˈɪt dɪˈpɛndz/",
     "d": "You say this when your answer changes according to the situation.",
     "x": "'Will you travel this summer?' 'It depends on my budget.'"
    },
    {
     "e": "Maybe, if…",
     "v": "Có thể, nếu…",
-    "ip": "/ˈmeɪbi ɪf/",
+    "ip": "/ˈmeɪbi ˈɪf/",
     "d": "A way to say 'possibly', but only under a certain condition.",
     "x": "'Would you go camping?' 'Maybe, if the weather is nice.'"
    },
    {
     "e": "I doubt it.",
     "v": "Tôi nghĩ là không đâu.",
-    "ip": "/aɪ dʌʊt ɪt/",
+    "ip": "/ˈaɪ ˈdaʊt ˈɪt/",
     "d": "A way to say you think something is probably not true or will not happen.",
     "x": "'Will he be on time?' 'I doubt it.'"
    },
    {
     "e": "No way!",
     "v": "Đời nào! / Không đời nào!",
-    "ip": "/nəʊ weɪ/",
+    "ip": "/ˈnoʊ ˈweɪ/",
     "d": "A very strong, informal way to say 'definitely not'.",
     "x": "'Would you eat insects?' 'No way!'"
    },
@@ -5766,26 +5845,29 @@ window.ONTAP = [
     "e": "Not for a million dollars!",
     "v": "Cho tiền tỷ cũng không!",
     "d": "An emphatic way to say you would never do something, no matter what.",
-    "x": "'Would you sing on stage?' 'Not for a million dollars!'"
+    "x": "'Would you sing on stage?' 'Not for a million dollars!'",
+    "ip": "/ˈnɑt fɚ ə ˈmɪljən ˈdɑlɚz/"
    },
    {
     "s": 1,
     "e": "Yes, I have.",
     "v": "Có, tôi từng rồi.",
     "d": "The short answer meaning you have done something before (reply to 'Have you ever…?').",
-    "x": "'Have you ever been to Hanoi?' 'Yes, I have.'"
+    "x": "'Have you ever been to Hanoi?' 'Yes, I have.'",
+    "ip": "/ˈjɛs ˈaɪ ˈhæv/"
    },
    {
     "s": 1,
     "e": "No, I haven't.",
     "v": "Không, tôi chưa từng.",
     "d": "The short answer meaning you have never done something (reply to 'Have you ever…?').",
-    "x": "'Have you ever gone skydiving?' 'No, I haven't.'"
+    "x": "'Have you ever gone skydiving?' 'No, I haven't.'",
+    "ip": "/ˈnoʊ ˈaɪ ˈhævənt/"
    },
    {
     "e": "No, not yet.",
     "v": "Chưa, vẫn chưa.",
-    "ip": "/nəʊ nɒt jɛt/",
+    "ip": "/ˈnoʊ ˈnɑt ˈjɛt/",
     "d": "A way to say you have not done something so far, but you still might.",
     "x": "'Have you finished the book?' 'No, not yet.'"
    }
@@ -5917,14 +5999,14 @@ window.ONTAP = [
     "s": 1,
     "e": "disagree",
     "v": "không đồng ý",
-    "ip": "/dɪsəˈɡɹiː/",
+    "ip": "/dɪsəˈɡɹi/",
     "d": "To have a different opinion from someone.",
     "x": "I disagree with that idea."
    },
    {
     "e": "fact",
     "v": "sự thật, dữ kiện",
-    "ip": "/fækt/",
+    "ip": "/ˈfækt/",
     "d": "Something that is true and can be proven.",
     "x": "It's a fact that water boils at 100°C."
    },
@@ -5939,14 +6021,14 @@ window.ONTAP = [
    {
     "e": "argue",
     "v": "tranh luận, cãi nhau",
-    "ip": "/ˈɑː.ɡjuː/",
+    "ip": "/ˈɑɹɡju/",
     "d": "To disagree with someone, often angrily; or to give reasons for your view.",
     "x": "They always argue about money."
    },
    {
     "e": "argument",
     "v": "cuộc tranh cãi; lý lẽ",
-    "ip": "/ˈɑːɡjʊmənt/",
+    "ip": "/ˈɑɹɡjəmənt/",
     "d": "An angry disagreement, or a reason you give to support your opinion.",
     "x": "We had an argument about politics."
    },
@@ -5954,7 +6036,7 @@ window.ONTAP = [
     "s": 1,
     "e": "stubborn",
     "v": "bướng bỉnh, cứng đầu (≠ a pushover: người dễ bị thuyết phục)",
-    "ip": "/ˈstʌbən/",
+    "ip": "/ˈstʌbɚn/",
     "d": "Not willing to change your mind, even when you might be wrong.",
     "x": "He's too stubborn to admit his mistake."
    }
@@ -6143,14 +6225,15 @@ window.ONTAP = [
     "e": "stranded",
     "v": "bị mắc kẹt (không rời đi được)",
     "x": "The sailors were stranded on a tiny island after the storm.",
-    "d": "Left in a place you cannot leave, with no way to get away."
+    "d": "Left in a place you cannot leave, with no way to get away.",
+    "ip": "/ˈstɹændɪd/"
    },
    {
     "s": 1,
     "e": "desert island",
     "v": "đảo hoang",
     "x": "If you were stranded on a desert island, what would you bring?",
-    "ip": "/dɪˈzɜːt ˈaɪ̯lənd/",
+    "ip": "/ˈdɛz.ɚt.aɪlənd/",
     "d": "A small tropical island far from other places, with no people living on it."
    },
    {
@@ -6158,7 +6241,7 @@ window.ONTAP = [
     "e": "rescue / be rescued",
     "v": "giải cứu / được giải cứu",
     "x": "It could take three months for a ship to rescue us.",
-    "ip": "/ˈɹɛs.kjuː/",
+    "ip": "rescue /ˈɹɛskju/ · be rescued /bi ˈɹɛskjud/",
     "d": "To save someone from danger; to be saved from a dangerous place or situation."
    },
    {
@@ -6166,7 +6249,7 @@ window.ONTAP = [
     "e": "survive",
     "v": "sống sót",
     "x": "We need fresh water and food to survive on the island.",
-    "ip": "/səˈvʌɪv/",
+    "ip": "/sɚˈvaɪv/",
     "d": "To stay alive, especially in a difficult or dangerous situation."
    },
    {
@@ -6174,7 +6257,7 @@ window.ONTAP = [
     "e": "shelter",
     "v": "nơi trú ẩn, chỗ che",
     "x": "We built a shelter from branches and a tent.",
-    "ip": "/ˈʃɛltə/",
+    "ip": "/ˈʃɛltɚ/",
     "d": "A structure or place that protects you from bad weather and danger."
    },
    {
@@ -6182,14 +6265,14 @@ window.ONTAP = [
     "e": "fresh water",
     "v": "nước ngọt, nước sạch",
     "x": "Luckily, there is fresh water on the island to drink.",
-    "ip": "/fɹɛʃ ˈwoːtə/",
+    "ip": "/ˈfɹɛʃ ˈwɔtɚ/",
     "d": "Clean water that is safe to drink, not salty like the sea."
    },
    {
     "e": "coconut tree",
     "v": "cây dừa",
     "x": "We can eat the coconuts from the coconut trees.",
-    "ip": "/ˈkəʊ.kə.nʌt tɹiː/",
+    "ip": "/ˈkoʊkəˌnʌt ˈtɹi/",
     "d": "A tall tropical palm tree that grows coconuts."
    },
    {
@@ -6197,20 +6280,21 @@ window.ONTAP = [
     "e": "fishing pole",
     "v": "cần câu cá",
     "x": "With a fishing pole, we could catch fish every day.",
-    "ip": "/ˈfɪʃɪŋ pɔːl/",
+    "ip": "/ˈfɪʃɪŋ ˈpoʊl/",
     "d": "A long stick with a line and hook used to catch fish; a fishing rod."
    },
    {
     "e": "net",
     "v": "lưới (bắt cá)",
     "x": "We can use a net to catch fish in the shallow water.",
-    "d": "A material made of crossed threads with holes, used to catch fish or animals."
+    "d": "A material made of crossed threads with holes, used to catch fish or animals.",
+    "ip": "/ˈnɛt/"
    },
    {
     "e": "tent",
     "v": "lều",
     "x": "A tent would keep us dry when it rains at night.",
-    "ip": "/tɛnt/",
+    "ip": "/ˈtɛnt/",
     "d": "A pavilion or portable lodge consisting of skins, canvas, or some strong cloth, stretched and sustained by poles, used for sheltering people from the weather."
    },
    {
@@ -6218,7 +6302,7 @@ window.ONTAP = [
     "e": "matches",
     "v": "diêm (để nhóm lửa)",
     "x": "We need matches to start a fire and cook our food.",
-    "ip": "/ˈmæt͡ʃɪz/",
+    "ip": "/ˈmæt͡ʃəz/",
     "d": "Small thin sticks that make a flame when you strike them, used to start a fire."
    },
    {
@@ -6233,14 +6317,14 @@ window.ONTAP = [
     "e": "knife",
     "v": "con dao",
     "x": "A knife is useful for cutting rope and opening coconuts.",
-    "ip": "/naɪf/",
+    "ip": "/ˈnaɪf/",
     "d": "To cut with a knife."
    },
    {
     "e": "rope",
     "v": "dây thừng",
     "x": "We tied the shelter together with a strong rope.",
-    "ip": "/ɹəʊp/",
+    "ip": "/ˈɹoʊp/",
     "d": "Thick strings, yarn, monofilaments, metal wires, or strands of other cordage that are twisted together to form a stronger line."
    },
    {
@@ -6248,7 +6332,7 @@ window.ONTAP = [
     "e": "first aid kit",
     "v": "bộ sơ cứu",
     "x": "If someone got hurt, the first aid kit could save their life.",
-    "ip": "/fɪrst eɪd kɪt/",
+    "ip": "/ˈfɝst ˈeɪd ˈkɪt/",
     "d": "A box of medical supplies used to treat injuries in an emergency."
    },
    {
@@ -6262,21 +6346,23 @@ window.ONTAP = [
     "e": "signal fire",
     "v": "lửa hiệu (báo cứu hộ)",
     "x": "We lit a signal fire so passing ships could find us.",
-    "d": "A large fire lit to send a message or to be seen by rescuers."
+    "d": "A large fire lit to send a message or to be seen by rescuers.",
+    "ip": "/ˈsɪɡnəl ˈfaɪɚ/"
    },
    {
     "s": 1,
     "e": "teamwork",
     "v": "tinh thần đồng đội",
     "x": "Good teamwork is the key to surviving on a desert island.",
-    "d": "Working well together as a group to reach a common goal."
+    "d": "Working well together as a group to reach a common goal.",
+    "ip": "/ˈtimˌwɝk/"
    },
    {
     "s": 1,
     "e": "priority",
     "v": "ưu tiên hàng đầu",
     "x": "Fresh water and shelter are our top priorities.",
-    "ip": "/pɹaɪˈɒɹɨti/",
+    "ip": "/pɹaɪˈɔɹəti/",
     "d": "The thing that is most important and must be dealt with first."
    }
   ],
@@ -6401,7 +6487,7 @@ window.ONTAP = [
     "e": "get",
     "v": "nhận / trở nên / đến (nghĩa rất rộng)",
     "x": "I usually get home at six and get ready for dinner.",
-    "ip": "/ɡɛt/",
+    "ip": "/ˈɡɛt/",
     "d": "A very common verb meaning to receive, obtain, become, or arrive somewhere."
    },
    {
@@ -6409,7 +6495,7 @@ window.ONTAP = [
     "e": "give",
     "v": "đưa, cho, cung cấp",
     "x": "Can you give me some feedback on my report?",
-    "ip": "/ɡɪv/",
+    "ip": "/ˈɡɪv/",
     "d": "To hand something to someone, or to provide something such as advice or feedback."
    },
    {
@@ -6417,7 +6503,7 @@ window.ONTAP = [
     "e": "make",
     "v": "tạo ra, làm ra (một kết quả)",
     "x": "Let's make a plan for the weekend.",
-    "ip": "/meɪk/",
+    "ip": "/ˈmeɪk/",
     "d": "To create or produce something, or to cause a result (a plan, a decision, a mistake)."
    },
    {
@@ -6425,7 +6511,7 @@ window.ONTAP = [
     "e": "take",
     "v": "lấy, cầm, thực hiện (một hành động)",
     "x": "I need to take a short break.",
-    "ip": "/teɪk/",
+    "ip": "/ˈteɪk/",
     "d": "To move or carry something, or to perform an action such as a break, notes, or a photo."
    },
    {
@@ -6433,14 +6519,15 @@ window.ONTAP = [
     "e": "have",
     "v": "có / trải qua (bữa ăn, buổi họp…)",
     "x": "We have a meeting at ten o'clock.",
-    "d": "To own or possess something, or to experience it (a meal, a meeting, a good time)."
+    "d": "To own or possess something, or to experience it (a meal, a meeting, a good time).",
+    "ip": "/ˈhæv/"
    },
    {
     "s": 1,
     "e": "do",
     "v": "làm (một việc, nhiệm vụ, công việc)",
     "x": "I do my homework every evening.",
-    "ip": "/dʉː/",
+    "ip": "/ˈdu/",
     "d": "To perform an action, task, or job (homework, research, the dishes, your best)."
    },
    {
@@ -6448,7 +6535,7 @@ window.ONTAP = [
     "e": "go",
     "v": "đi (từ nơi này sang nơi khác)",
     "x": "I go to work by motorbike.",
-    "ip": "/ɡəʉ/",
+    "ip": "/ˈɡoʊ/",
     "d": "To move or travel from one place to another."
    },
    {
@@ -6456,7 +6543,7 @@ window.ONTAP = [
     "e": "come",
     "v": "đến (về phía người nói)",
     "x": "Please come back later.",
-    "ip": "/kʌm/",
+    "ip": "/ˈkʌm/",
     "d": "To move toward the speaker or toward a particular place."
    },
    {
@@ -6464,7 +6551,7 @@ window.ONTAP = [
     "e": "put",
     "v": "đặt, để (vào một vị trí)",
     "x": "Put your bag on the table, please.",
-    "ip": "/pʊt/",
+    "ip": "/ˈpʊt/",
     "d": "To move something into a particular place or position."
    },
    {
@@ -6472,7 +6559,7 @@ window.ONTAP = [
     "e": "keep",
     "v": "giữ / tiếp tục làm",
     "x": "Keep learning a little every day.",
-    "ip": "/kiːp/",
+    "ip": "/ˈkip/",
     "d": "To continue doing something, or to hold on to something and not let it go."
    },
    {
@@ -6480,7 +6567,8 @@ window.ONTAP = [
     "e": "look",
     "v": "nhìn, xem / trông có vẻ",
     "x": "Look at this photo. You look tired today.",
-    "d": "To turn your eyes toward something to see it, or to seem/appear a certain way."
+    "d": "To turn your eyes toward something to see it, or to seem/appear a certain way.",
+    "ip": "/ˈlʊk/"
    }
   ],
   "extra": [
@@ -7458,7 +7546,7 @@ window.ONTAP = [
     "e": "happy",
     "v": "vui, hạnh phúc",
     "x": "I feel happy when I spend time with my friends.",
-    "ip": "/ˈhæpiː/",
+    "ip": "/ˈhæpi/",
     "d": "Content, satisfied (with or to do something); having no objection (to something)."
    },
    {
@@ -7466,7 +7554,7 @@ window.ONTAP = [
     "e": "sad",
     "v": "buồn",
     "x": "She felt sad after the movie ended.",
-    "ip": "/sæd/",
+    "ip": "/ˈsæd/",
     "d": "Unfashionable; socially inadequate or undesirable."
    },
    {
@@ -7474,7 +7562,7 @@ window.ONTAP = [
     "e": "angry",
     "v": "tức giận",
     "x": "He got angry when he missed the bus.",
-    "ip": "/ˈæŋ.ɡɹi/",
+    "ip": "/ˈæŋɡɹi/",
     "d": "Displaying or feeling anger."
    },
    {
@@ -7482,7 +7570,7 @@ window.ONTAP = [
     "e": "scared",
     "v": "sợ hãi",
     "x": "I'm a little scared of spiders.",
-    "ip": "/skɛəd/",
+    "ip": "/ˈskɛɹd/",
     "d": "Feeling fear or worry; frightened (scared OF something)."
    },
    {
@@ -7490,7 +7578,7 @@ window.ONTAP = [
     "e": "tired",
     "v": "mệt",
     "x": "I'm so tired after a long day at work.",
-    "ip": "/taɪəd/",
+    "ip": "/ˈtaɪɚd/",
     "d": "Fed up, annoyed, irritated, sick of."
    },
    {
@@ -7498,7 +7586,7 @@ window.ONTAP = [
     "e": "surprised",
     "v": "ngạc nhiên",
     "x": "I was surprised by the good news.",
-    "ip": "/səˈpɹaɪzd/",
+    "ip": "/sɚˈpɹaɪzd/",
     "d": "To cause (someone) to feel unusually alarmed or delighted by something unexpected."
    },
    {
@@ -7506,7 +7594,7 @@ window.ONTAP = [
     "e": "excited",
     "v": "háo hức, phấn khích",
     "x": "I'm really excited about my trip next week.",
-    "ip": "/ɪkˈsaɪtɪd/",
+    "ip": "/ɪkˈsaɪtəd/",
     "d": "Having great enthusiasm."
    },
    {
@@ -7520,42 +7608,42 @@ window.ONTAP = [
     "e": "anxious",
     "v": "lo lắng, bồn chồn",
     "x": "I feel anxious before a big presentation.",
-    "ip": "/ˈaŋ(k)ʃəs/",
+    "ip": "/ˈæŋkʃəs/",
     "d": "Having a feeling of anxiety or disquietude; extremely concerned, especially about something that will happen in the future or that is unknown."
    },
    {
     "e": "jealous",
     "v": "ghen tị, ghen tuông",
     "x": "He gets jealous when she talks to other men.",
-    "ip": "/ˈdʒɛləs/",
+    "ip": "/ˈd͡ʒɛləs/",
     "d": "Feeling upset that someone you love may like another person, or wanting what others have."
    },
    {
     "e": "embarrassed",
     "v": "ngượng, xấu hổ",
     "x": "I was embarrassed when I forgot her name.",
-    "ip": "/ɪmˈbæɹ.əst/",
+    "ip": "/ɪmˈbɛɹəst/",
     "d": "Having a feeling of shameful discomfort."
    },
    {
     "e": "energetic",
     "v": "tràn đầy năng lượng",
     "x": "I feel energetic after a good night's sleep.",
-    "ip": "/ˌɛnəˈdʒɛtɪk/",
+    "ip": "/ˌɛnɚˈd͡ʒɛtɪk/",
     "d": "Possessing or pertaining to energy."
    },
    {
     "e": "nervous",
     "v": "hồi hộp, căng thẳng",
     "x": "She was nervous before the interview.",
-    "ip": "/ˈnɜːvəs/",
+    "ip": "/ˈnɝvəs/",
     "d": "Of sinews and tendons."
    },
    {
     "e": "bored",
     "v": "chán",
     "x": "I get bored when there's nothing to do.",
-    "ip": "/bɔːd/",
+    "ip": "/ˈbɔɹd/",
     "d": "Uninterested, without attention"
    },
    {
@@ -7563,7 +7651,7 @@ window.ONTAP = [
     "e": "stressed",
     "v": "căng thẳng, áp lực",
     "x": "I feel stressed when I have too much work.",
-    "ip": "/stɹɛst/",
+    "ip": "/ˈstɹɛst/",
     "d": "To emphasise (a syllable of a word)."
    }
   ],
@@ -7814,7 +7902,7 @@ window.ONTAP = [
     "e": "see",
     "v": "nhìn thấy (tự nhiên, không cố ý)",
     "x": "I can see the mountains from my window.",
-    "ip": "/siː/",
+    "ip": "/ˈsi/",
     "d": "To be the setting or time of."
    },
    {
@@ -7822,21 +7910,22 @@ window.ONTAP = [
     "e": "look at",
     "v": "nhìn vào (có chủ đích)",
     "x": "Look at this beautiful photo!",
-    "d": "To turn your eyes toward something on purpose in order to see it."
+    "d": "To turn your eyes toward something on purpose in order to see it.",
+    "ip": "/ˈlʊk æt/"
    },
    {
     "s": 1,
     "e": "watch",
     "v": "xem, theo dõi (vật chuyển động)",
     "x": "I watch a movie every weekend.",
-    "ip": "/wɒt͡ʃ/",
+    "ip": "/ˈwɑt͡ʃ/",
     "d": "A portable or wearable timepiece."
    },
    {
     "e": "stare",
     "v": "nhìn chằm chằm",
     "x": "It's rude to stare at strangers.",
-    "ip": "/stɛə(ɹ)/",
+    "ip": "/ˈstɛɹ/",
     "d": "To look at someone or something for a long time without moving your eyes."
    },
    {
@@ -7844,7 +7933,7 @@ window.ONTAP = [
     "e": "hear",
     "v": "nghe thấy (tự nhiên)",
     "x": "I can hear the birds singing outside.",
-    "ip": "/hɪə(ɹ)/",
+    "ip": "/ˈhiɹ/",
     "d": "(stative) To perceive sounds through the ear."
    },
    {
@@ -7852,28 +7941,28 @@ window.ONTAP = [
     "e": "listen",
     "v": "lắng nghe (chú ý) — đi với 'to'",
     "x": "I listen to music every day.",
-    "ip": "/ˈlɪs.ən/",
+    "ip": "/ˈlɪsən/",
     "d": "To pay attention to a sound on purpose (usually with 'to')."
    },
    {
     "e": "understand",
     "v": "hiểu",
     "x": "Sorry, I don't understand this word.",
-    "ip": "/ˌɞndəɹˈstand/",
+    "ip": "/ˌʌndɚˈstænd/",
     "d": "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of."
    },
    {
     "e": "loud",
     "v": "to, ồn (âm thanh)",
     "x": "The music is too loud in here.",
-    "ip": "/laʊd/",
+    "ip": "/ˈlaʊd/",
     "d": "(of a sound) Of great intensity."
    },
    {
     "e": "soft",
     "v": "nhẹ, êm (âm thanh); mềm",
     "x": "She spoke in a soft, gentle voice.",
-    "ip": "/sɑft/",
+    "ip": "/ˈsɑft/",
     "d": "Easily giving way under pressure."
    },
    {
@@ -7881,21 +7970,21 @@ window.ONTAP = [
     "e": "feel",
     "v": "cảm nhận, sờ (chạm)",
     "x": "This blanket feels so soft and warm.",
-    "ip": "/fiːl/",
+    "ip": "/ˈfil/",
     "d": "A quality of an object experienced by touch."
    },
    {
     "e": "smooth",
     "v": "mịn, trơn láng",
     "x": "The table has a smooth surface.",
-    "ip": "/smuːð/",
+    "ip": "/ˈsmuð/",
     "d": "Without difficulty, problems, or unexpected consequences or incidents."
    },
    {
     "e": "rough",
     "v": "thô, ráp, gồ ghề",
     "x": "The old wall felt rough and dry.",
-    "ip": "/ɹʌf/",
+    "ip": "/ˈɹʌf/",
     "d": "Approximate; hasty or careless; not finished."
    },
    {
@@ -7903,14 +7992,14 @@ window.ONTAP = [
     "e": "smell",
     "v": "ngửi / có mùi",
     "x": "These flowers smell wonderful.",
-    "ip": "/smɛl/",
+    "ip": "/ˈsmɛl/",
     "d": "To notice or give off a scent through your nose."
    },
    {
     "e": "stink",
     "v": "bốc mùi hôi (rất khó chịu)",
     "x": "The garbage stinks in the summer heat.",
-    "ip": "/stɪŋk/",
+    "ip": "/ˈstɪŋk/",
     "d": "To have a strong, very unpleasant smell."
    },
    {
@@ -7918,14 +8007,14 @@ window.ONTAP = [
     "e": "taste",
     "v": "nếm / có vị",
     "x": "This soup tastes delicious.",
-    "ip": "/teɪst/",
+    "ip": "/ˈteɪst/",
     "d": "To notice the flavor of food in your mouth, or to have a particular flavor."
    },
    {
     "e": "flavor",
     "v": "hương vị",
     "x": "My favorite ice cream flavor is mango.",
-    "ip": "/ˈfleɪvə/",
+    "ip": "/ˈfleɪvɚ/",
     "d": "The particular taste of a food or drink."
    },
    {
@@ -7933,14 +8022,14 @@ window.ONTAP = [
     "e": "sweet",
     "v": "ngọt",
     "x": "This cake is very sweet.",
-    "ip": "/swiːt/",
+    "ip": "/ˈswit/",
     "d": "Having a pleasant taste, especially one relating to the basic taste sensation induced by sugar."
    },
    {
     "e": "sour",
     "v": "chua",
     "x": "Lemons are very sour.",
-    "ip": "/ˈsaʊə/",
+    "ip": "/ˈsaʊɚ/",
     "d": "Having an acidic, sharp or tangy taste."
    },
    {
@@ -7948,20 +8037,21 @@ window.ONTAP = [
     "e": "spicy",
     "v": "cay",
     "x": "I love spicy food, especially hot pot.",
-    "d": "Of, pertaining to, or containing spice."
+    "d": "Of, pertaining to, or containing spice.",
+    "ip": "/ˈspaɪsi/"
    },
    {
     "e": "salty",
     "v": "mặn",
     "x": "The soup is a bit too salty for me.",
-    "ip": "/ˈsɒl.ti/",
+    "ip": "/ˈsɔlti/",
     "d": "Tasting of salt."
    },
    {
     "e": "bitter",
     "v": "đắng",
     "x": "Black coffee tastes bitter without sugar.",
-    "ip": "/ˈbɪtə/",
+    "ip": "/ˈbɪtɚ/",
     "d": "Having an acrid taste (usually from a basic substance)."
    }
   ],
@@ -8157,7 +8247,7 @@ window.ONTAP = [
     "e": "fall in love (with someone)",
     "v": "phải lòng, yêu ai đó",
     "x": "I fell in love with her the first time we met.",
-    "ip": "/fɔːl ɪn lʊv/",
+    "ip": "/ˈfɔl ɪn ˈlʌv/",
     "d": "To begin to feel deep romantic love for someone."
    },
    {
@@ -8165,7 +8255,7 @@ window.ONTAP = [
     "e": "get married / marry (someone)",
     "v": "kết hôn / cưới ai đó",
     "x": "They got married last spring.",
-    "ip": "/ɡɛt ˈmæɹ.ɪd/",
+    "ip": "get married /ˈɡɛt ˈmɛɹid/ · marry /ˈmɛɹi/",
     "d": "To become someone's husband or wife in an official ceremony."
    },
    {
@@ -8173,28 +8263,29 @@ window.ONTAP = [
     "e": "have a crush on (someone)",
     "v": "thích thầm, phải lòng ai",
     "x": "I had a crush on a classmate in high school.",
-    "d": "To have a strong but often shy romantic interest in someone."
+    "d": "To have a strong but often shy romantic interest in someone.",
+    "ip": "/ˈhæv ə ˈkɹʌʃ ɑn/"
    },
    {
     "s": 1,
     "e": "flirt (with someone)",
     "v": "tán tỉnh, thả thính",
     "x": "He was flirting with the waitress all evening.",
-    "ip": "/flɜːt/",
+    "ip": "/ˈflɝt/",
     "d": "To behave in a playful way that shows romantic interest in someone."
    },
    {
     "e": "hit on (someone)",
     "v": "cưa cẩm, tán tỉnh (thân mật) [= flirt]",
     "x": "Someone tried to hit on me at the party.",
-    "ip": "/hɪt ɒn/",
+    "ip": "/ˈhɪt ɑn/",
     "d": "To show someone clearly that you find them attractive; an informal way to say 'flirt with'."
    },
    {
     "e": "fall out of love",
     "v": "hết yêu, tình cảm phai nhạt",
     "x": "Sadly, some couples slowly fall out of love.",
-    "ip": "/fɔːl æɔt ɔv lʊv/",
+    "ip": "/ˈfɔl ˈaʊt ʌv ˈlʌv/",
     "d": "To gradually stop loving someone you used to love."
    },
    {
@@ -8202,42 +8293,42 @@ window.ONTAP = [
     "e": "honeymoon",
     "v": "tuần trăng mật",
     "x": "They went to Phu Quoc for their honeymoon.",
-    "ip": "/ˈhʌn.iˌmun/",
+    "ip": "/ˈhʌniˌmun/",
     "d": "To have a honeymoon (a trip taken by a couple after wedding)."
    },
    {
     "e": "anniversary",
     "v": "ngày kỷ niệm (ngày cưới)",
     "x": "We celebrate our anniversary every year.",
-    "ip": "/ˌænɪˈvɜːs(ə)ɹi/",
+    "ip": "/ˌænəˈvɝsɚi/",
     "d": "A day that is an exact number of years (to the day) since a given significant event occurred. Often preceded by an ordinal number indicating the number of years."
    },
    {
     "e": "bride",
     "v": "cô dâu",
     "x": "The bride looked beautiful in her white dress.",
-    "ip": "/bɹaɪd/",
+    "ip": "/ˈbɹaɪd/",
     "d": "A woman in the context of her own wedding; one who is going to marry or has just been married."
    },
    {
     "e": "groom",
     "v": "chú rể",
     "x": "The groom was a little nervous before the ceremony.",
-    "ip": "/ɡɹuːm/",
+    "ip": "/ˈɡɹum/",
     "d": "One of several officers of the English royal household, chiefly in the lord chamberlain's department."
    },
    {
     "e": "ideal partner",
     "v": "người bạn đời lý tưởng",
     "x": "My ideal partner is kind and honest.",
-    "ip": "/aɪˈdiː.əl ˈpɐːtnə/",
+    "ip": "/aɪˈdil ˈpɑɹtnɚ/",
     "d": "The kind of husband, wife, or life companion you think would be perfect for you."
    },
    {
     "e": "superficial",
     "v": "hời hợt, hình thức bề ngoài",
     "x": "A relationship based only on looks is too superficial.",
-    "ip": "/ˌs(j)uːpəˈfɪʃəl/",
+    "ip": "/ˌsupɚˈfɪʃəl/",
     "d": "Caring only about surface things like looks, not about deeper qualities."
    }
   ],
@@ -8396,7 +8487,7 @@ window.ONTAP = [
     "e": "fever",
     "v": "sốt",
     "x": "I have a high fever and feel very weak.",
-    "ip": "/ˈfiːvə/",
+    "ip": "/ˈfivɚ/",
     "d": "A higher than normal body temperature of a person (or, generally, a mammal), usually caused by disease."
    },
    {
@@ -8404,21 +8495,21 @@ window.ONTAP = [
     "e": "sore throat",
     "v": "đau họng",
     "x": "I can't talk much because I have a sore throat.",
-    "ip": "/sɔː ˈθɹəʊt/",
+    "ip": "/ˈsɔɹ ˈθɹoʊt/",
     "d": "Pain or soreness in your throat, often when you have a cold."
    },
    {
     "e": "stuffy nose",
     "v": "nghẹt mũi",
     "x": "My nose is stuffy, so I can't breathe well.",
-    "ip": "/ˈstʌfi nəʊz/",
+    "ip": "/ˈstʌfi ˈnoʊz/",
     "d": "A blocked nose that makes it hard to breathe."
    },
    {
     "e": "runny nose",
     "v": "sổ mũi, chảy nước mũi",
     "x": "I have a runny nose and keep sneezing.",
-    "ip": "/ˈɹʌni nəʊz/",
+    "ip": "/ˈɹʌni ˈnoʊz/",
     "d": "A nose that keeps dripping with liquid, often with a cold."
    },
    {
@@ -8426,48 +8517,49 @@ window.ONTAP = [
     "e": "cough",
     "v": "ho",
     "x": "I've had a bad cough for three days.",
-    "ip": "/kɑf/",
+    "ip": "/ˈkɑf/",
     "d": "A sudden, usually noisy expulsion of air from the lungs, often involuntary."
    },
    {
     "e": "headache",
     "v": "đau đầu",
     "x": "I have a terrible headache today.",
-    "ip": "/ˈhɛdeɪk/",
+    "ip": "/ˈhɛˌdeɪk/",
     "d": "A nuisance or unpleasant problem."
    },
    {
     "e": "throw up / vomit",
     "v": "nôn, ói",
     "x": "He felt so sick that he threw up.",
-    "ip": "/θɹəʊ ap/",
+    "ip": "throw up /ˈθɹoʊ ˈʌp/ · vomit /ˈvɑmət/",
     "d": "To bring food back up from your stomach through your mouth."
    },
    {
     "e": "diarrhea",
     "v": "tiêu chảy",
     "x": "I had diarrhea after eating street food.",
-    "ip": "/ˌdaɪ.əˈɹiː.ə/",
+    "ip": "/ˌdaɪɚˈiə/",
     "d": "A gastrointestinal disorder characterized by frequent and very fluid or watery bowel movements."
    },
    {
     "e": "food poisoning",
     "v": "ngộ độc thực phẩm",
     "x": "The whole family got food poisoning from the seafood.",
-    "d": "Illness caused by eating food that is bad or contaminated."
+    "d": "Illness caused by eating food that is bad or contaminated.",
+    "ip": "/ˈfud ˈpɔɪzənɪŋ/"
    },
    {
     "e": "allergic reaction",
     "v": "phản ứng dị ứng",
     "x": "She had an allergic reaction to the medicine.",
-    "ip": "/ə.ˈlɜː.dʒɪk ɹiˈækʃən/",
+    "ip": "/əˈlɝd͡ʒɪk ɹiˈækʃən/",
     "d": "The body's bad response to something it is allergic to, like a rash or swelling."
    },
    {
     "e": "hangover",
     "v": "mệt/nhức đầu sau khi uống nhiều rượu",
     "x": "I had a bad hangover the morning after the party.",
-    "ip": "/ˈhæŋəʊvə/",
+    "ip": "/ˈhæˌŋoʊvɚ/",
     "d": "The headache and sick feeling you get the day after drinking too much alcohol."
    },
    {
@@ -8475,7 +8567,7 @@ window.ONTAP = [
     "e": "healthy",
     "v": "khỏe mạnh, tốt cho sức khỏe",
     "x": "Eating vegetables keeps you healthy.",
-    "ip": "/ˈhɛl.θi/",
+    "ip": "/ˈhɛlθi/",
     "d": "Enjoying health and vigor of body, mind, or spirit: well."
    },
    {
@@ -8483,7 +8575,7 @@ window.ONTAP = [
     "e": "unhealthy",
     "v": "không lành mạnh, có hại sức khỏe",
     "x": "Eating fast food every day is very unhealthy.",
-    "ip": "/ʌnˈhɛl.θi/",
+    "ip": "/ənˈhɛlθi/",
     "d": "Bad for your health, or not in good health."
    },
    {
@@ -8498,7 +8590,7 @@ window.ONTAP = [
     "e": "diagnosis",
     "v": "chẩn đoán (danh từ)",
     "x": "The doctor's diagnosis was just a common cold.",
-    "ip": "/daɪəɡˈnəʊsɪs/",
+    "ip": "/ˌdaɪəɡˈnoʊsəs/",
     "d": "A doctor's decision about what illness a person has."
    },
    {
@@ -8506,7 +8598,7 @@ window.ONTAP = [
     "e": "surgery",
     "v": "phẫu thuật",
     "x": "He needs surgery on his knee.",
-    "ip": "/ˈsɜːdʒəɹi/",
+    "ip": "/ˈsɝd͡ʒɚi/",
     "d": "A procedure involving major incisions to remove, repair, or replace a part of a body."
    }
   ],
@@ -8705,14 +8797,15 @@ window.ONTAP = [
     "e": "outgoing",
     "v": "hướng ngoại, hòa đồng",
     "x": "He's outgoing and makes friends easily.",
-    "d": "Extraverted: talkative, friendly, and social, especially with respect to meeting new people easily and comfortably."
+    "d": "Extraverted: talkative, friendly, and social, especially with respect to meeting new people easily and comfortably.",
+    "ip": "/ˈaʊtˌɡoʊɪŋ/"
    },
    {
     "s": 1,
     "e": "optimistic",
     "v": "lạc quan",
     "x": "She stays optimistic even in hard times.",
-    "ip": "/ˌɒptɪˈmɪstɪk/",
+    "ip": "/ˌɑptəˈmɪstɪk/",
     "d": "Expecting the best in all possible ways."
    },
    {
@@ -8720,14 +8813,15 @@ window.ONTAP = [
     "e": "punctual",
     "v": "đúng giờ",
     "x": "He's always punctual and never keeps people waiting.",
-    "ip": "/ˈpʌŋktjʊəl/",
+    "ip": "/ˈpʌŋkt͡ʃuəl/",
     "d": "Always arriving or doing things at the right, agreed time."
    },
    {
     "e": "selfless",
     "v": "vị tha, không ích kỷ",
     "x": "She's selfless and always helps others first.",
-    "d": "Caring more about other people's needs than your own."
+    "d": "Caring more about other people's needs than your own.",
+    "ip": "/ˈsɛlfləs/"
    },
    {
     "s": 1,
@@ -8741,21 +8835,22 @@ window.ONTAP = [
     "e": "courteous",
     "v": "lịch sự, nhã nhặn (= polite)",
     "x": "The staff were courteous and helpful.",
-    "ip": "/ˈkɜːti.əs/",
+    "ip": "/ˈkɝtiəs/",
     "d": "Polite and respectful in the way you treat people."
    },
    {
     "e": "deliberate",
     "v": "cân nhắc kỹ, thận trọng, có chủ đích",
     "x": "She is deliberate and thinks carefully before deciding.",
-    "d": "Done on purpose after careful thought; slow and careful, not rushed."
+    "d": "Done on purpose after careful thought; slow and careful, not rushed.",
+    "ip": "/dɪˈlɪbɚət/"
    },
    {
     "s": 1,
     "e": "arrogant",
     "v": "kiêu ngạo, tự phụ",
     "x": "He's so arrogant that he thinks he's always right.",
-    "ip": "/ˈæɹəɡənt/",
+    "ip": "/ˈɛɹəɡənt/",
     "d": "Thinking you are much better or more important than others."
    },
    {
@@ -8763,7 +8858,7 @@ window.ONTAP = [
     "e": "moody",
     "v": "hay thay đổi tâm trạng, ẩm ương",
     "x": "She can be moody when she's tired.",
-    "ip": "/ˈmuːdi/",
+    "ip": "/ˈmudi/",
     "d": "Having moods that change quickly and often, sometimes bad-tempered."
    },
    {
@@ -8771,7 +8866,7 @@ window.ONTAP = [
     "e": "pessimistic",
     "v": "bi quan",
     "x": "Try not to be so pessimistic about the future.",
-    "ip": "/ˌpɛ.səˈmɪs.tɪk/",
+    "ip": "/ˌpɛsəˈmɪstɪk/",
     "d": "Expecting bad things to happen; seeing the negative side."
    },
    {
@@ -8779,27 +8874,28 @@ window.ONTAP = [
     "e": "rude",
     "v": "thô lỗ, bất lịch sự",
     "x": "It's rude to interrupt when someone is talking.",
-    "ip": "/ɹʉːd/",
+    "ip": "/ˈɹud/",
     "d": "Somewhat obscene, pornographic, offensive."
    },
    {
     "e": "reserved",
     "v": "kín đáo, dè dặt",
     "x": "He's quite reserved and doesn't talk much at parties.",
-    "ip": "/ɹɪˈzɜːvd/",
+    "ip": "/ɹɪˈzɝvd/",
     "d": "Quiet and shy; not showing your feelings or talking a lot."
    },
    {
     "e": "self-centered",
     "v": "ích kỷ, chỉ nghĩ đến bản thân",
     "x": "A self-centered person rarely thinks about others.",
-    "d": "Thinking only about yourself and not caring about others."
+    "d": "Thinking only about yourself and not caring about others.",
+    "ip": "/ˈsɛlf ˈsɛntɚd/"
    },
    {
     "e": "tardy",
     "v": "hay trễ giờ (trang trọng)",
     "x": "Being tardy every day gives a bad impression.",
-    "ip": "/ˈtɑːdi/",
+    "ip": "/ˈtɑɹdi/",
     "d": "Late; not arriving or happening on time (formal)."
    }
   ],
@@ -8997,28 +9093,28 @@ window.ONTAP = [
     "e": "street",
     "v": "đường phố",
     "x": "Cross the street at the crosswalk.",
-    "ip": "/stɹiːt/",
+    "ip": "/ˈstɹit/",
     "d": "A paved part of road, usually in a village or a town."
    },
    {
     "e": "lane",
     "v": "làn đường",
     "x": "Stay in your lane while driving.",
-    "ip": "/leɪn/",
+    "ip": "/ˈleɪn/",
     "d": "One of the marked parts of a road for a single line of traffic."
    },
    {
     "e": "sidewalk",
     "v": "vỉa hè",
     "x": "Pedestrians should walk on the sidewalk.",
-    "ip": "/ˈsaɪdwɔːk/",
+    "ip": "/ˈsaɪdˌwɔk/",
     "d": "The paved path at the side of a street where people walk."
    },
    {
     "e": "alley",
     "v": "hẻm, ngõ",
     "x": "My house is in a small alley off the main street.",
-    "ip": "/ˈæ.li/",
+    "ip": "/ˈæli/",
     "d": "A narrow street or passage between or behind buildings."
    },
    {
@@ -9026,7 +9122,7 @@ window.ONTAP = [
     "e": "intersection",
     "v": "giao lộ, ngã tư",
     "x": "Stop at the intersection when the light is red.",
-    "ip": "/ˈɪntəɹˌsɛkʃən/",
+    "ip": "/ˌɪntɚˈsɛkʃən/",
     "d": "A place where two or more roads cross each other."
    },
    {
@@ -9041,7 +9137,7 @@ window.ONTAP = [
     "e": "traffic jam",
     "v": "kẹt xe, tắc đường",
     "x": "I was stuck in a traffic jam for an hour.",
-    "ip": "/ˈtɹæfɪk ˈdʒæːm/",
+    "ip": "/ˈtɹæfɪk ˈd͡ʒæm/",
     "d": "A long line of vehicles that can barely move because the road is too crowded."
    },
    {
@@ -9049,7 +9145,7 @@ window.ONTAP = [
     "e": "get pulled over",
     "v": "bị cảnh sát yêu cầu dừng xe",
     "x": "I got pulled over for speeding.",
-    "ip": "/ɡɛt pʊld ˈəʊ.və(ɹ)/",
+    "ip": "/ˈɡɛt ˈpʊld ˈoʊvɚ/",
     "d": "To be signalled by the police to stop your vehicle at the side of the road."
    },
    {
@@ -9065,21 +9161,21 @@ window.ONTAP = [
     "e": "seatbelt",
     "v": "dây an toàn",
     "x": "Fasten your seatbelt before the car moves.",
-    "ip": "/ˈsiːtbɛlt/",
+    "ip": "/ˈsitˌbɛlt/",
     "d": "A restraining belt attached to a vehicle seat which is fastened around passengers and which is intended to keep an occupant in place so as to avoid injuries in accidents where the occupant could be thrown against a solid object."
    },
    {
     "e": "turn signal",
     "v": "đèn xi-nhan",
     "x": "Use your turn signal before you turn.",
-    "ip": "/tɜːn ˈsɪɡnəl/",
+    "ip": "/ˈtɝn ˈsɪɡnəl/",
     "d": "The flashing light that shows which way a vehicle is about to turn."
    },
    {
     "e": "speeding",
     "v": "chạy quá tốc độ",
     "x": "He got a ticket for speeding.",
-    "ip": "/ˈspiːdɪŋ/",
+    "ip": "/ˈspidɪŋ/",
     "d": "Driving faster than the legal speed limit."
    }
   ],
@@ -9297,7 +9393,7 @@ window.ONTAP = [
     "e": "spend",
     "v": "tiêu, chi tiền",
     "x": "I try not to spend too much on coffee.",
-    "ip": "/spɛnd/",
+    "ip": "/ˈspɛnd/",
     "d": "To use money to pay for something."
    },
    {
@@ -9305,7 +9401,7 @@ window.ONTAP = [
     "e": "save",
     "v": "tiết kiệm, để dành",
     "x": "I save a little money every month.",
-    "ip": "/seɪv/",
+    "ip": "/ˈseɪv/",
     "d": "To keep money instead of spending it."
    },
    {
@@ -9313,7 +9409,7 @@ window.ONTAP = [
     "e": "earn / make (money)",
     "v": "kiếm (tiền)",
     "x": "She earns a good salary at her new job.",
-    "ip": "/ɜːn/",
+    "ip": "earn /ˈɝn/ · make /ˈmeɪk/",
     "d": "To get money by working for it."
    },
    {
@@ -9321,7 +9417,7 @@ window.ONTAP = [
     "e": "borrow",
     "v": "mượn, vay (từ ai)",
     "x": "Can I borrow some money from you until payday?",
-    "ip": "/ˈbɔɹoʊ/",
+    "ip": "/ˈbɑˌɹoʊ/",
     "d": "To take and use something for a while, then give it back (you receive it)."
    },
    {
@@ -9329,14 +9425,14 @@ window.ONTAP = [
     "e": "lend",
     "v": "cho mượn, cho vay (cho ai)",
     "x": "I'll lend you 200,000 dong.",
-    "ip": "/lɛnd/",
+    "ip": "/ˈlɛnd/",
     "d": "To give something to someone for a while, expecting it back (you give it out)."
    },
    {
     "e": "donate / give away",
     "v": "quyên góp, cho đi",
     "x": "They donated a lot of money to charity.",
-    "ip": "/dəʊˈneɪt/",
+    "ip": "donate /ˈdoʊˌneɪt/ · give away /ˈɡɪv əˈweɪ/",
     "d": "To give money or things to help people or a good cause."
    },
    {
@@ -9344,28 +9440,28 @@ window.ONTAP = [
     "e": "invest",
     "v": "đầu tư",
     "x": "He invests part of his salary every month.",
-    "ip": "/ɪnˈvɛst/",
+    "ip": "/ˌɪnˈvɛst/",
     "d": "To put money into something (like a business or savings) hoping to earn more later."
    },
    {
     "e": "gamble",
     "v": "cờ bạc, cá cược",
     "x": "It's risky to gamble money you can't afford to lose.",
-    "ip": "/ˈɡæm.bəl/",
+    "ip": "/ˈɡæmbəl/",
     "d": "To risk money on a game or bet, hoping to win more."
    },
    {
     "e": "steal",
     "v": "trộm, ăn cắp",
     "x": "Someone tried to steal my wallet on the bus.",
-    "ip": "/stiːl/",
+    "ip": "/ˈstil/",
     "d": "To take illegally, or without the owner's permission, something owned by someone else."
    },
    {
     "e": "waste",
     "v": "lãng phí",
     "x": "Don't waste your money on things you don't need.",
-    "ip": "/weɪst/",
+    "ip": "/ˈweɪst/",
     "d": "To use money, time or things badly, so they bring no benefit."
    },
    {
@@ -9373,14 +9469,14 @@ window.ONTAP = [
     "e": "cash",
     "v": "tiền mặt",
     "x": "I only have a little cash on me right now.",
-    "ip": "/kæʃ/",
+    "ip": "/ˈkæʃ/",
     "d": "Money in the form of notes/bills and coins, as opposed to cheques/checks or electronic transactions."
    },
    {
     "e": "credit card",
     "v": "thẻ tín dụng",
     "x": "I paid for it with my credit card.",
-    "ip": "/ˈkɹɛdɪt kaːd/",
+    "ip": "/ˈkɹɛdɪt ˌkɑɹd/",
     "d": "A plastic card that lets you buy now and pay the bank back later."
    },
    {
@@ -9388,7 +9484,7 @@ window.ONTAP = [
     "e": "expensive",
     "v": "đắt, mắc",
     "x": "That restaurant is really expensive.",
-    "ip": "/ɛkˈspɛnsɪv/",
+    "ip": "/ɪkˈspɛnsɪv/",
     "d": "Costing a lot of money."
    },
    {
@@ -9396,21 +9492,21 @@ window.ONTAP = [
     "e": "cheap",
     "v": "rẻ",
     "x": "I found a cheap but tasty lunch near the office.",
-    "ip": "/t͡ʃiːp/",
+    "ip": "/ˈt͡ʃip/",
     "d": "Costing little money; not expensive."
    },
    {
     "e": "generous",
     "v": "hào phóng, rộng rãi",
     "x": "She's very generous and always treats her friends.",
-    "ip": "/ˈdʒɛn(ə)ɹəs/",
+    "ip": "/ˈd͡ʒɛnɚəs/",
     "d": "Happy to give money, time, or help freely to others."
    },
    {
     "e": "gold digger",
     "v": "kẻ đào mỏ (yêu/cưới vì tiền)",
     "x": "He worried she was just a gold digger.",
-    "ip": "/ɡɒʊld ˈdɪɡə/",
+    "ip": "/ɡəʊld ˈdɪɡə(ɹ)/",
     "d": "Someone who dates or marries a person mainly for their money."
    }
   ],
@@ -9892,7 +9988,7 @@ window.ONTAP = [
     "e": "recipe",
     "v": "công thức (nấu ăn)",
     "x": "Can you share the recipe for this soup?",
-    "ip": "/ˈɹɛs.ə.pi/",
+    "ip": "/ˈɹɛsəpi/",
     "d": "A set of instructions for cooking a dish, with the ingredients and steps."
    },
    {
@@ -9900,13 +9996,14 @@ window.ONTAP = [
     "e": "ingredients",
     "v": "nguyên liệu, thành phần",
     "x": "You need just a few simple ingredients.",
-    "d": "The different foods you combine to make a dish."
+    "d": "The different foods you combine to make a dish.",
+    "ip": "/ˌɪnˈɡɹidiənts/"
    },
    {
     "e": "preparation",
     "v": "sự chuẩn bị (sơ chế)",
     "x": "The preparation takes about twenty minutes.",
-    "ip": "/pɹɛpəˈɹeɪʃən/",
+    "ip": "/ˌpɹɛpɚˈeɪʃən/",
     "d": "Getting the food ready before cooking (washing, cutting, marinating)."
    },
    {
@@ -9914,7 +10011,7 @@ window.ONTAP = [
     "e": "fry",
     "v": "chiên, rán",
     "x": "Fry the fish until it's golden.",
-    "ip": "/fɹaɪ/",
+    "ip": "/ˈfɹaɪ/",
     "d": "To cook food in hot oil."
    },
    {
@@ -9922,27 +10019,28 @@ window.ONTAP = [
     "e": "stir-fry",
     "v": "xào",
     "x": "Stir-fry the vegetables over high heat.",
-    "d": "To cook small pieces of food quickly in a little hot oil, stirring all the time."
+    "d": "To cook small pieces of food quickly in a little hot oil, stirring all the time.",
+    "ip": "/ˈstɝ ˈfɹaɪ/"
    },
    {
     "e": "grill",
     "v": "nướng (trên vỉ)",
     "x": "We grilled some chicken for dinner.",
-    "ip": "/ɡɹɪl/",
+    "ip": "/ˈɡɹɪl/",
     "d": "To cook (food) on a grill; to barbecue."
    },
    {
     "e": "bake",
     "v": "nướng (trong lò)",
     "x": "I like to bake a cake on weekends.",
-    "ip": "/beɪk/",
+    "ip": "/ˈbeɪk/",
     "d": "(with person as subject) To cook (something) in an oven."
    },
    {
     "e": "roast",
     "v": "quay, nướng (lò, miếng lớn)",
     "x": "They roast a whole duck for the party.",
-    "ip": "/ɹəʊst/",
+    "ip": "/ˈɹoʊst/",
     "d": "To cook meat or vegetables in an oven or over a fire, usually a large piece."
    },
    {
@@ -9950,21 +10048,21 @@ window.ONTAP = [
     "e": "boil",
     "v": "luộc, đun sôi",
     "x": "Boil the eggs for ten minutes.",
-    "ip": "/bɔɪl/",
+    "ip": "/ˈbɔɪl/",
     "d": "To cook food in very hot water."
    },
    {
     "e": "steam",
     "v": "hấp",
     "x": "Steamed fish is healthy and light.",
-    "ip": "/stiːm/",
+    "ip": "/ˈstim/",
     "d": "To cook with steam."
    },
    {
     "e": "raw",
     "v": "sống (chưa nấu chín)",
     "x": "Don't eat raw chicken — it's dangerous.",
-    "ip": "/ɹɔː/",
+    "ip": "/ˈɹɑ/",
     "d": "(of materials, products, etc.) Not treated or processed; in a natural state, unrefined, unprocessed."
    },
    {
@@ -9972,14 +10070,14 @@ window.ONTAP = [
     "e": "chop",
     "v": "băm, chặt, xắt nhỏ",
     "x": "Chop the onions finely.",
-    "ip": "/tʃɒp/",
+    "ip": "/ˈt͡ʃɑp/",
     "d": "To cut something into small pieces with a knife."
    },
    {
     "e": "slice",
     "v": "thái lát, cắt lát",
     "x": "Slice the beef thinly.",
-    "ip": "/slaɪs/",
+    "ip": "/ˈslaɪs/",
     "d": "To cut into slices."
    },
    {
@@ -9987,20 +10085,21 @@ window.ONTAP = [
     "e": "marinate",
     "v": "ướp (gia vị)",
     "x": "Marinate the pork for an hour before grilling.",
-    "d": "To soak food in a sauce of spices for a while so it takes on flavour before cooking."
+    "d": "To soak food in a sauce of spices for a while so it takes on flavour before cooking.",
+    "ip": "/ˈmɛɹəˌneɪt/"
    },
    {
     "e": "season",
     "v": "nêm nếm gia vị",
     "x": "Season the soup with salt and pepper.",
-    "ip": "/ˈsiːzən/",
+    "ip": "/ˈsizən/",
     "d": "To add salt, pepper, or spices to food to improve its flavour."
    },
    {
     "e": "peel",
     "v": "gọt/bóc vỏ",
     "x": "Peel the carrots before cooking.",
-    "ip": "/piːl/",
+    "ip": "/ˈpil/",
     "d": "To remove the skin or outer covering of."
    }
   ],
@@ -10233,7 +10332,7 @@ window.ONTAP = [
     "e": "strength",
     "v": "điểm mạnh",
     "x": "One of my strengths is attention to detail.",
-    "ip": "/stɹɛŋkθ/",
+    "ip": "/ˈstɹɛŋkθ/",
     "d": "The quality or degree of being strong."
    },
    {
@@ -10241,7 +10340,7 @@ window.ONTAP = [
     "e": "weakness",
     "v": "điểm yếu",
     "x": "My biggest weakness is that I worry too much.",
-    "ip": "/ˈwiːk.nəs/",
+    "ip": "/ˈwiknəs/",
     "d": "The condition of being weak."
    },
    {
@@ -10249,20 +10348,22 @@ window.ONTAP = [
     "e": "hardworking",
     "v": "chăm chỉ",
     "x": "She is a hardworking student who never misses a class.",
-    "d": "Of a person, taking their work seriously and doing it well and rapidly."
+    "d": "Of a person, taking their work seriously and doing it well and rapidly.",
+    "ip": "/ˈhɑɹdˌwɝkɪŋ/"
    },
    {
     "s": 1,
     "e": "organised",
     "v": "ngăn nắp, có tổ chức",
     "x": "I'm very organised and always meet deadlines.",
-    "d": "Good at planning and keeping things in order; the opposite of messy."
+    "d": "Good at planning and keeping things in order; the opposite of messy.",
+    "ip": "/ˈɔɹɡəˌnaɪzd/"
    },
    {
     "e": "disorganised",
     "v": "thiếu tổ chức, bừa bộn",
     "x": "Working with a disorganised team is stressful.",
-    "ip": "/dɪsˈɔː.ɡən.aɪzd/",
+    "ip": "/dɪˈsɔɹɡəˌnaɪzd/",
     "d": "Not planned or ordered well; messy and confused."
    },
    {
@@ -10277,7 +10378,8 @@ window.ONTAP = [
     "e": "perfectionist",
     "v": "người cầu toàn",
     "x": "Being a perfectionist can slow me down sometimes.",
-    "d": "Someone who wants everything to be perfect and is unhappy with any mistake."
+    "d": "Someone who wants everything to be perfect and is unhappy with any mistake.",
+    "ip": "/pɚˈfɛkʃənəst/"
    },
    {
     "s": 1,
@@ -10299,20 +10401,21 @@ window.ONTAP = [
     "e": "impatient",
     "v": "thiếu kiên nhẫn, nóng vội",
     "x": "I get impatient when things move too slowly.",
-    "ip": "/ɪmˈpeɪʃənt/",
+    "ip": "/ˌɪmˈpeɪʃənt/",
     "d": "Not able to wait calmly; easily annoyed by delays."
    },
    {
     "e": "forgetful",
     "v": "hay quên",
     "x": "I can be forgetful, so I write everything down.",
-    "d": "Often forgetting things."
+    "d": "Often forgetting things.",
+    "ip": "/fɔɹˈɡɛtfəl/"
    },
    {
     "e": "positive",
     "v": "tích cực",
     "x": "I try to stay positive under pressure.",
-    "ip": "/ˈpɒzɪ̈tɪv/",
+    "ip": "/ˈpɑzətɪv/",
     "d": "Hopeful, and looking at the good side of things."
    },
    {
@@ -10320,13 +10423,14 @@ window.ONTAP = [
     "e": "teamwork",
     "v": "làm việc nhóm",
     "x": "Good teamwork is the key to surviving on a desert island.",
-    "d": "Working well together as a group to reach a common goal."
+    "d": "Working well together as a group to reach a common goal.",
+    "ip": "/ˈtimˌwɝk/"
    },
    {
     "e": "public speaking",
     "v": "nói trước đám đông",
     "x": "I'm working on my public speaking skills.",
-    "ip": "/ˈpʌblɪk ˈspiːˌkiŋ/",
+    "ip": "/ˈpʌblɪk ˈspikɪŋ/",
     "d": "The skill of speaking to a group of people, for example giving a presentation."
    },
    {
@@ -10334,14 +10438,15 @@ window.ONTAP = [
     "e": "career goals",
     "v": "mục tiêu nghề nghiệp",
     "x": "My career goals include leading a team one day.",
-    "ip": "/kəˈɹɪə ɡɔʊlz/",
+    "ip": "/kɚˈɪɹ ˈɡoʊlz/",
     "d": "What you want to achieve in your working life over time."
    },
    {
     "e": "CV / résumé",
     "v": "sơ yếu lý lịch",
     "x": "Please attach your CV to the application.",
-    "d": "A short written document listing your education, skills, and work experience."
+    "d": "A short written document listing your education, skills, and work experience.",
+    "ip": "CV /ˌsiˈvi/ · résumé /ˈɹɛz.(j)ʊˌmeɪ/"
    }
   ],
   "extra": [
@@ -10551,7 +10656,7 @@ window.ONTAP = [
     "e": "vendor",
     "v": "người bán hàng, người bán rong",
     "x": "The vendor sells fresh fruit at the market.",
-    "ip": "/ˈvɛn.də/",
+    "ip": "/ˈvɛndɚ/",
     "d": "A person who sells things, often at a market or on the street."
    },
    {
@@ -10559,7 +10664,7 @@ window.ONTAP = [
     "e": "bargain",
     "v": "mặc cả, trả giá",
     "x": "You can bargain for a lower price at the market.",
-    "ip": "/-ɡɪn/",
+    "ip": "/ˈbɑɹɡən/",
     "d": "To argue with a seller to agree on a lower price."
    },
    {
@@ -10574,21 +10679,22 @@ window.ONTAP = [
     "e": "browse",
     "v": "dạo xem hàng (không nhất thiết mua)",
     "x": "I like to browse the stalls before I buy anything.",
-    "ip": "/bɹaʊz/",
+    "ip": "/ˈbɹaʊz/",
     "d": "To look at things in a relaxed way, without planning to buy."
    },
    {
     "e": "secondhand",
     "v": "đồ cũ, đã qua sử dụng",
     "x": "I bought a secondhand bike, and it was really cheap.",
-    "d": "Already owned and used by someone else before; not new."
+    "d": "Already owned and used by someone else before; not new.",
+    "ip": "/ˈsɛkəndˌhænd/"
    },
    {
     "s": 1,
     "e": "good deal",
     "v": "món hời, giá hời",
     "x": "Two shirts for 100,000 dong is a good deal.",
-    "ip": "/ɡʊ(d) diːl/",
+    "ip": "/ˈɡʊd ˈdil/",
     "d": "Something you buy at a very good, low price."
    },
    {
@@ -10596,41 +10702,43 @@ window.ONTAP = [
     "e": "rip off",
     "v": "vụ chặt chém / bị hét giá",
     "x": "500,000 for one coconut? That's a rip off!",
-    "d": "Something that costs far more than it is worth; being charged too much."
+    "d": "Something that costs far more than it is worth; being charged too much.",
+    "ip": "/ˈɹɪp ˈɔf/"
    },
    {
     "s": 1,
     "e": "stall",
     "v": "quầy / sạp hàng",
     "x": "She has a small stall selling vegetables.",
-    "ip": "/stɔːl/",
+    "ip": "/ˈstɔl/",
     "d": "A small open shop or table where a vendor sells things at a market."
    },
    {
     "e": "discount",
     "v": "sự giảm giá",
     "x": "Can you give me a discount if I buy two?",
-    "ip": "/dɪsˈkaʊnt/",
+    "ip": "/dɪˈskaʊnt/",
     "d": "An amount of money taken off the normal price."
    },
    {
     "e": "overpriced",
     "v": "bị hét giá, đắt quá mức",
     "x": "The souvenirs near the tourist spot are overpriced.",
-    "d": "Costing more than it is really worth."
+    "d": "Costing more than it is really worth.",
+    "ip": "/ˈoʊvɚˌpɹaɪst/"
    },
    {
     "e": "negotiate",
     "v": "thương lượng (giá)",
     "x": "We negotiated the price down to half.",
-    "ip": "/nəˈɡəʊ.ʃi.eɪt/",
+    "ip": "/nəˈɡoʊʃiˌeɪt/",
     "d": "To discuss something in order to reach an agreement, such as a price."
    },
    {
     "e": "change",
     "v": "tiền thối lại",
     "x": "The vendor gave me my change and a smile.",
-    "ip": "/tʃeɪndʒ/",
+    "ip": "/ˈt͡ʃeɪnd͡ʒ/",
     "d": "The money a seller gives back when you pay more than the price."
    },
    {
@@ -10638,14 +10746,14 @@ window.ONTAP = [
     "e": "fresh produce",
     "v": "nông sản tươi (rau củ quả)",
     "x": "The market has cheap, fresh produce every morning.",
-    "ip": "/fɹɛʃ pɹəˈdjuːs/",
+    "ip": "/ˈfɹɛʃ pɹəˈdus/",
     "d": "Fresh fruit and vegetables."
    },
    {
     "e": "local market",
     "v": "chợ địa phương / chợ truyền thống",
     "x": "I love the busy local market near my house.",
-    "ip": "/ˈləʊkl̩ ˈmɑːkɪt/",
+    "ip": "/ˈloʊkəl ˈmɑɹkət/",
     "d": "A traditional neighbourhood market where locals buy food and goods."
    }
   ],
@@ -10846,7 +10954,7 @@ window.ONTAP = [
     "e": "clay",
     "v": "đất sét",
     "x": "First, you knead the clay to get the air bubbles out.",
-    "ip": "/kleɪ/",
+    "ip": "/ˈkleɪ/",
     "d": "Soft, wet earth that becomes hard when it is dried and fired; used to make pottery."
    },
    {
@@ -10854,7 +10962,7 @@ window.ONTAP = [
     "e": "pottery wheel",
     "v": "bàn xoay gốm",
     "x": "Put the clay in the middle of the pottery wheel.",
-    "ip": "/ˈpɒtəɹi ʍiːl/",
+    "ip": "/ˈpɑtɚi ˈwil/",
     "d": "A flat spinning disc a potter uses to shape wet clay by hand."
    },
    {
@@ -10862,7 +10970,7 @@ window.ONTAP = [
     "e": "kiln",
     "v": "lò nung",
     "x": "It goes into the kiln twice.",
-    "ip": "/kɪl(n)/",
+    "ip": "/ˈkɪln/",
     "d": "A very hot oven used to bake (fire) clay so it becomes hard."
    },
    {
@@ -10870,21 +10978,21 @@ window.ONTAP = [
     "e": "glaze",
     "v": "men gốm / tráng men",
     "x": "After glazing, it comes out shiny and smooth.",
-    "ip": "/ɡleɪz/",
+    "ip": "/ˈɡleɪz/",
     "d": "A liquid coating put on pottery that becomes shiny and smooth after firing."
    },
    {
     "e": "sponge",
     "v": "miếng bọt biển (thấm nước)",
     "x": "Wipe the surface with a wet sponge.",
-    "ip": "/spʌnd͡ʒ/",
+    "ip": "/ˈspʌnd͡ʒ/",
     "d": "A soft material that soaks up water, used for cleaning or wetting things."
    },
    {
     "e": "apron",
     "v": "tạp dề",
     "x": "Here, put this apron on — it gets messy.",
-    "ip": "/ˈeɪ.pɹən/",
+    "ip": "/ˈeɪpɹən/",
     "d": "An article of clothing worn over the front of the torso and/or legs for protection from spills; also historically worn by Freemasons and as part of women's fashion."
    },
    {
@@ -10892,21 +11000,21 @@ window.ONTAP = [
     "e": "throw",
     "v": "chuốt gốm trên bàn xoay (KHÔNG phải 'ném')",
     "x": "It takes practice to throw a bowl on the wheel.",
-    "ip": "/θɹəʊ/",
+    "ip": "/ˈθɹoʊ/",
     "d": "In pottery, to shape wet clay on a spinning wheel with your hands (not 'to toss')."
    },
    {
     "e": "wedge",
     "v": "nhồi đất cho hết bọt khí",
     "x": "Wedge the clay before you start.",
-    "ip": "/wɛdʒ/",
+    "ip": "/ˈwɛd͡ʒ/",
     "d": "To press and knead clay to remove air bubbles before shaping it."
    },
    {
     "e": "center",
     "v": "canh cục đất vào đúng tâm",
     "x": "You have to center the clay first, or it will wobble.",
-    "ip": "/ˈsɛn.tə(ɹ)/",
+    "ip": "/ˈsɛntɚ/",
     "d": "To push the lump of clay into the exact middle of the wheel so it spins evenly."
    },
    {
@@ -10914,20 +11022,22 @@ window.ONTAP = [
     "e": "trim",
     "v": "gọt chân, gọt đáy",
     "x": "Once it's dry, you trim the bottom.",
-    "d": "To cut away extra clay from the base of a pot once it is a bit dry."
+    "d": "To cut away extra clay from the base of a pot once it is a bit dry.",
+    "ip": "/ˈtɹɪm/"
    },
    {
     "e": "pinch",
     "v": "nặn véo bằng tay",
     "x": "You can pinch the clay to make a small bowl.",
-    "ip": "/pɪntʃ/",
+    "ip": "/ˈpɪnt͡ʃ/",
     "d": "To press and shape clay between your fingers and thumb."
    },
    {
     "e": "fire",
     "v": "nung (trong lò)",
     "x": "Do you want them to fire it for you?",
-    "d": "To bake pottery in a kiln so the clay becomes hard and strong."
+    "d": "To bake pottery in a kiln so the clay becomes hard and strong.",
+    "ip": "/ˈfaɪɚ/"
    },
    {
     "s": 1,
@@ -10941,7 +11051,7 @@ window.ONTAP = [
     "e": "wobble",
     "v": "bị lắc, lệch (không đều)",
     "x": "It's off-center — that's why it's wobbling.",
-    "ip": "/ˈwɒbl̩/",
+    "ip": "/ˈwɑbəl/",
     "d": "To move unsteadily from side to side because it is off-center."
    },
    {
@@ -10949,14 +11059,15 @@ window.ONTAP = [
     "e": "fragile",
     "v": "dễ vỡ",
     "x": "Unfired clay is fragile — it breaks easily.",
-    "ip": "/ˈfɹædʒaɪl/",
+    "ip": "/ˈfɹæd͡ʒəl/",
     "d": "Easily broken or damaged."
    },
    {
     "e": "waterproof",
     "v": "không thấm nước",
     "x": "Once it's fired, it's waterproof and food-safe.",
-    "d": "Not letting water through; keeping water out."
+    "d": "Not letting water through; keeping water out.",
+    "ip": "/ˈwɔtɚˌpɹuf/"
    }
   ],
   "extra": [
@@ -11286,14 +11397,15 @@ window.ONTAP = [
     "e": "haunted",
     "v": "bị ma ám",
     "x": "People say that old house is haunted.",
-    "d": "Visited by ghosts; a place people believe has ghosts in it."
+    "d": "Visited by ghosts; a place people believe has ghosts in it.",
+    "ip": "/ˈhɔntɪd/"
    },
    {
     "s": 1,
     "e": "scared",
     "v": "sợ hãi (scared OF + danh từ)",
     "x": "I'm scared of the dark.",
-    "ip": "/skɛəd/",
+    "ip": "/ˈskɛɹd/",
     "d": "Feeling fear or worry; frightened (scared OF something)."
    },
    {
@@ -11301,14 +11413,14 @@ window.ONTAP = [
     "e": "scary",
     "v": "đáng sợ, kinh dị",
     "x": "That was the scariest movie I've ever seen.",
-    "ip": "/ˈskɛəɹi/",
+    "ip": "/ˈskɛɹi/",
     "d": "Making you feel afraid; frightening."
    },
    {
     "e": "scare",
     "v": "làm ai sợ (động từ)",
     "x": "Don't scare me like that!",
-    "ip": "/skɛə/",
+    "ip": "/ˈskɛɹ/",
     "d": "To make someone feel afraid."
    },
    {
@@ -11316,14 +11428,14 @@ window.ONTAP = [
     "e": "ghost",
     "v": "con ma, hồn ma",
     "x": "She swears she saw a ghost that night.",
-    "ip": "/ɡəʊst/",
+    "ip": "/ˈɡoʊst/",
     "d": "The spirit of a dead person that some people believe can appear."
    },
    {
     "e": "spirit",
     "v": "linh hồn, vong hồn",
     "x": "Some people believe spirits stay near their home.",
-    "ip": "/ˈspɪɹɪt/",
+    "ip": "/ˈspɪɹət/",
     "d": "The soul of a dead person, thought to live on after death."
    },
    {
@@ -11331,7 +11443,7 @@ window.ONTAP = [
     "e": "shadow",
     "v": "cái bóng",
     "x": "A dark shadow moved across the wall.",
-    "ip": "/ˈʃædəʊ/",
+    "ip": "/ˈʃæˌdoʊ/",
     "d": "A dark shape on a surface, made when something blocks the light."
    },
    {
@@ -11339,7 +11451,7 @@ window.ONTAP = [
     "e": "appear",
     "v": "xuất hiện",
     "x": "A figure suddenly appeared in the doorway.",
-    "ip": "/əˈpiːɹ/",
+    "ip": "/əˈpɪɹ/",
     "d": "To come into sight suddenly; to start to be seen."
    },
    {
@@ -11347,14 +11459,14 @@ window.ONTAP = [
     "e": "disappear",
     "v": "biến mất",
     "x": "Then it disappeared without a sound.",
-    "ip": "/dɪsəˈpiːɹ/",
+    "ip": "/ˌdɪsəˈpɪɹ/",
     "d": "To go out of sight suddenly; to stop being seen."
    },
    {
     "e": "weird",
     "v": "kỳ quái, lạ lùng",
     "x": "Something weird happened last night.",
-    "ip": "/ˈwiːəd/",
+    "ip": "/ˈwɪɹd/",
     "d": "Very strange or unusual in a way that is hard to explain."
    },
    {
@@ -11368,33 +11480,37 @@ window.ONTAP = [
     "e": "cemetery",
     "v": "nghĩa trang, nghĩa địa",
     "x": "The old cemetery is creepy at night.",
-    "d": "A place where dead people are buried; a graveyard."
+    "d": "A place where dead people are buried; a graveyard.",
+    "ip": "/ˈsɛməˌtɛɹi/"
    },
    {
     "s": 1,
     "e": "goosebumps",
     "v": "sự nổi da gà",
     "x": "Scary music always gives me goosebumps.",
-    "d": "Small bumps on your skin when you are cold, scared, or excited."
+    "d": "Small bumps on your skin when you are cold, scared, or excited.",
+    "ip": "/ˈɡus ˈbʌmps/"
    },
    {
     "e": "superstitious",
     "v": "mê tín",
     "x": "My grandmother is quite superstitious.",
-    "d": "Believing that certain things bring good or bad luck."
+    "d": "Believing that certain things bring good or bad luck.",
+    "ip": "/ˌsupɚˈstɪʃəs/"
    },
    {
     "s": 1,
     "e": "creepy",
     "v": "rùng rợn, ghê ghê",
     "x": "That doll looks really creepy.",
-    "d": "Making you feel nervous and a little frightened; strange and scary."
+    "d": "Making you feel nervous and a little frightened; strange and scary.",
+    "ip": "/ˈkɹipi/"
    },
    {
     "e": "abandoned",
     "v": "bị bỏ hoang",
     "x": "They explored an abandoned hospital.",
-    "ip": "/əˈbæn.dn̩d/",
+    "ip": "/əˈbændənd/",
     "d": "Left empty and no longer used or looked after."
    }
   ],
@@ -11607,7 +11723,7 @@ window.ONTAP = [
     "e": "vacation / holiday",
     "v": "kỳ nghỉ",
     "x": "We're going on vacation next month.",
-    "ip": "/veɪˈkeɪʃ(ə)n/",
+    "ip": "vacation /veɪˈkeɪʃən/ · holiday /ˈhɑləˌdeɪ/",
     "d": "A period of time when you stop working or studying, usually to travel and enjoy yourself."
    },
    {
@@ -11615,7 +11731,7 @@ window.ONTAP = [
     "e": "abroad",
     "v": "ở/đến nước ngoài",
     "x": "Have you ever traveled abroad?",
-    "ip": "/əˈbɹɔːd/",
+    "ip": "/əˈbɹɔd/",
     "d": "In or to a foreign country."
    },
    {
@@ -11623,7 +11739,7 @@ window.ONTAP = [
     "e": "tourist attraction",
     "v": "điểm tham quan du lịch",
     "x": "What are the most popular tourist attractions in Saigon?",
-    "ip": "/ˈtʊəɹɪst əˈtɹækʃən/",
+    "ip": "/ˈtʊɹəst əˈtɹækʃən/",
     "d": "A place that many visitors come to see, such as a museum, a temple or a famous building."
    },
    {
@@ -11631,14 +11747,15 @@ window.ONTAP = [
     "e": "solo travel",
     "v": "du lịch một mình",
     "x": "What do you think about solo travel?",
-    "d": "Travelling alone, without friends or family."
+    "d": "Travelling alone, without friends or family.",
+    "ip": "/ˈsoʊˌloʊ ˈtɹævəl/"
    },
    {
     "s": 1,
     "e": "road trip",
     "v": "chuyến đi đường dài tự lái (drive by yourself)",
     "x": "We went on a road trip along the coast.",
-    "ip": "/ɹəʊd tɹɪp/",
+    "ip": "/ˈɹoʊd ˈtɹɪp/",
     "d": "A long journey you make by car or motorbike, driving yourself."
    },
    {
@@ -11646,7 +11763,7 @@ window.ONTAP = [
     "e": "day trip",
     "v": "chuyến đi trong ngày (đi và về trong ngày)",
     "x": "Vung Tau is a great day trip from Saigon.",
-    "ip": "/deɪ tɹɪp/",
+    "ip": "/ˈdeɪ ˈtɹɪp/",
     "d": "A short trip where you go somewhere and come back the same day."
    },
    {
@@ -11654,35 +11771,37 @@ window.ONTAP = [
     "e": "one-way ticket",
     "v": "vé một chiều",
     "x": "I only booked a one-way ticket.",
-    "d": "A ticket to travel to a place, but not to come back."
+    "d": "A ticket to travel to a place, but not to come back.",
+    "ip": "/ˈwʌn ˈweɪ ˈtɪkət/"
    },
    {
     "s": 1,
     "e": "round trip",
     "v": "chuyến khứ hồi (đi và về)",
     "x": "A round trip ticket is usually cheaper than two one-way tickets.",
-    "ip": "/ˈɹaʊnd tɹɪp/",
+    "ip": "/ˈɹaʊn(d).tɹɪp/",
     "d": "A journey to a place and back again (British English: a return trip)."
    },
    {
     "e": "cross-country",
     "v": "xuyên suốt đất nước, đi khắp cả nước",
     "x": "Would you ever go on a cross-country road trip?",
-    "d": "Going across a whole country, from one side to the other."
+    "d": "Going across a whole country, from one side to the other.",
+    "ip": "/ˈkɹɔs ˈkʌntɹi/"
    },
    {
     "s": 1,
     "e": "bucket list",
     "v": "danh sách những nơi/việc rất muốn làm trong đời",
     "x": "Japan is at the top of my bucket list.",
-    "ip": "/ˈbʌkɪt lɪst/",
+    "ip": "/ˈbʌkɪt ˌlɪst/",
     "d": "A list of places you want to visit or things you want to do before you die."
    },
    {
     "e": "explore",
     "v": "khám phá",
     "x": "I'd rather go out and explore the city.",
-    "ip": "/ɪkˈsplɔː/",
+    "ip": "/ɪkˈsplɔɹ/",
     "d": "To travel around a place to find out what it is like."
    },
    {
@@ -11697,7 +11816,7 @@ window.ONTAP = [
     "e": "would rather",
     "v": "thích… hơn, thà… hơn",
     "x": "Would you rather travel to Sapa or Ha Long Bay?",
-    "ip": "/wʊd ˈɹɑːðə/",
+    "ip": "/wʊd ˈɹæðɚ/",
     "d": "Used to say what you prefer: 'I would rather do A (than B)'."
    }
   ],
@@ -11894,7 +12013,7 @@ window.ONTAP = [
     "e": "recommend",
     "v": "gợi ý, giới thiệu (nên thử/nên làm)",
     "x": "I highly recommend that restaurant.",
-    "ip": "/ɹɛkəˈmɛnd/",
+    "ip": "/ˌɹɛkəˈmɛnd/",
     "d": "To tell someone that something is good and that they should try it."
    },
    {
@@ -11902,14 +12021,15 @@ window.ONTAP = [
     "e": "recommendation",
     "v": "lời gợi ý, lời giới thiệu",
     "x": "Do you have any recommendations for a good gym?",
-    "d": "A suggestion that something or someone is good and worth trying."
+    "d": "A suggestion that something or someone is good and worth trying.",
+    "ip": "/ˌɹɛkəmənˈdeɪʃən/"
    },
    {
     "s": 1,
     "e": "advise",
     "v": "khuyên (động từ)",
     "x": "My teacher advised me to practice speaking every day.",
-    "ip": "/ədˈvaɪz/",
+    "ip": "/ædˈvaɪz/",
     "d": "To tell someone what you think they should do (verb, /ədˈvaɪz/)."
    },
    {
@@ -11917,7 +12037,7 @@ window.ONTAP = [
     "e": "advice",
     "v": "lời khuyên (danh từ, KHÔNG đếm được)",
     "x": "Can you give me some advice?",
-    "ip": "/ədˈvaɪs/",
+    "ip": "/ædˈvaɪs/",
     "d": "An opinion you give someone about what they should do. Uncountable: some advice, a piece of advice."
    },
    {
@@ -11925,21 +12045,24 @@ window.ONTAP = [
     "e": "should / shouldn't",
     "v": "nên / không nên",
     "x": "I think you should talk to your boss.",
-    "d": "Should = it is a good idea to do it; shouldn't = it is not a good idea. Followed by a verb with no 'to'."
+    "d": "Should = it is a good idea to do it; shouldn't = it is not a good idea. Followed by a verb with no 'to'.",
+    "ip": "should /ˈʃʊd/ · shouldn't /ˈʃʊdənt/"
    },
    {
     "s": 1,
     "e": "role model",
     "v": "hình mẫu, tấm gương để noi theo",
     "x": "My father is my role model.",
-    "d": "A person you admire and try to be like."
+    "d": "A person you admire and try to be like.",
+    "ip": "/ˈɹoʊl ˈmɑdəl/"
    },
    {
     "s": 1,
     "e": "trustworthy",
     "v": "đáng tin cậy",
     "x": "She's the most trustworthy person I know.",
-    "d": "Able to be trusted; someone who keeps promises and secrets."
+    "d": "Able to be trusted; someone who keeps promises and secrets.",
+    "ip": "/ˈtɹʌsˌtwɝði/"
    },
    {
     "e": "habit",
@@ -11952,49 +12075,57 @@ window.ONTAP = [
     "e": "nutrition",
     "v": "dinh dưỡng",
     "x": "Good nutrition matters if you want to lose weight.",
-    "d": "The food you eat and how it keeps your body healthy."
+    "d": "The food you eat and how it keeps your body healthy.",
+    "ip": "/nuˈtɹɪʃən/"
    },
    {
     "e": "nutritious",
     "v": "bổ dưỡng, giàu dinh dưỡng",
     "x": "Try to eat more nutritious food.",
-    "d": "Full of the things your body needs to stay healthy."
+    "d": "Full of the things your body needs to stay healthy.",
+    "ip": "/nuˈtɹɪʃəs/"
    },
    {
     "e": "get fired",
     "v": "bị sa thải, bị đuổi việc",
     "x": "I got fired last week!",
-    "d": "To lose your job because your employer makes you leave."
+    "d": "To lose your job because your employer makes you leave.",
+    "ip": "/ˈɡɛt ˈfaɪɚd/"
    },
    {
     "e": "break up with someone",
     "v": "chia tay ai",
     "x": "My boyfriend broke up with me.",
-    "d": "To end a romantic relationship with someone."
+    "d": "To end a romantic relationship with someone.",
+    "ip": "/ˈbɹeɪk ˈʌp wɪθ ˈsʌmˌwʌn/"
    },
    {
     "e": "cheat on someone",
     "v": "lừa dối, ngoại tình với ai",
     "x": "My girlfriend is cheating on me!",
-    "d": "To secretly have a romantic relationship with another person while you are with someone."
+    "d": "To secretly have a romantic relationship with another person while you are with someone.",
+    "ip": "/ˈt͡ʃit ɑn ˈsʌmˌwʌn/"
    },
    {
     "e": "crush",
     "v": "người mình thầm thích",
     "x": "I'm too shy to talk to my crush.",
-    "d": "A person you secretly like in a romantic way (also the feeling itself)."
+    "d": "A person you secretly like in a romantic way (also the feeling itself).",
+    "ip": "/ˈkɹʌʃ/"
    },
    {
     "e": "be addicted to",
     "v": "nghiện (cái gì đó)",
     "x": "I'm addicted to milk tea and want to quit.",
-    "d": "Unable to stop doing or using something, even when you want to stop."
+    "d": "Unable to stop doing or using something, even when you want to stop.",
+    "ip": "/bi əˈdɪktɪd tə/"
    },
    {
     "e": "quit",
     "v": "bỏ, từ bỏ (thói quen, công việc)",
     "x": "I want to quit drinking milk tea.",
-    "d": "To stop doing something, or to leave a job."
+    "d": "To stop doing something, or to leave a job.",
+    "ip": "/ˈkwɪt/"
    }
   ],
   "extra": [

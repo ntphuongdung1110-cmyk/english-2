@@ -200,7 +200,8 @@ async function enrichVocabItem(it) {
   // Câu/cụm như "He/She is full of energy." KHÔNG gắn IPA (tránh dùng IPA của 1 thành phần).
   const altTokens = it.e.replace(/(\.\.\.+|…)+\s*$/, "").split(/\s*\/\s*/).map(a => a.replace(/\([^)]*\)/g, "").trim());
   const singleWordEligible = altTokens.length > 0 && altTokens.every(a => a && !/\s/.test(a));
-  if (hit && hit.ip && singleWordEligible) out.ip = hit.ip;
+  // KHÔNG ghi đè IPA đã có (enrich-ipa.js gắn IPA theo từng nhánh "a / b", chính xác hơn)
+  if (!out.ip && hit && hit.ip && singleWordEligible) out.ip = hit.ip;
   // cụm/câu: ghép IPA từng từ (nguồn API)
   if (!out.ip) {
     const phraseIp = await buildPhraseIPA(it.e);
