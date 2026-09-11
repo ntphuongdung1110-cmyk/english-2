@@ -117,23 +117,41 @@ function pickIPA(entries) {
   return "";
 }
 
-// cache lưu RAW entries (mảng JSON) hoặc null → đổi cách chọn nghĩa không cần tải lại
+// Khi API không phản hồi (down/mất mạng): dừng gọi tiếp để không treo cả lần chạy.
+const FETCH_TIMEOUT_MS = 8000;
+const MAX_CONSECUTIVE_FAILS = 5;
+let consecutiveFails = 0;
+let apiDown = false;
+
+// cache lưu RAW entries (mảng JSON) hoặc null → đổi cách chọn nghĩa không cần tải lại.
+// CHỈ cache kết quả chắc chắn (200 hoặc 404); lỗi mạng KHÔNG cache để lần chạy sau tra lại.
 async function fetchRaw(word) {
   const key = word.toLowerCase();
   if (key in cache) return cache[key];
+  if (apiDown) return null;
   const url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + encodeURIComponent(key);
-  let raw = null;
+  let raw = null, definitive = false;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
-      const res = await fetch(url, { headers: { "accept": "application/json" } });
-      if (res.status === 404) { raw = null; break; }
+      const res = await fetch(url, { headers: { "accept": "application/json" }, signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+      if (res.status === 404) { raw = null; definitive = true; break; }
       if (res.status === 429) { await sleep(1500 * (attempt + 1)); continue; }
       if (!res.ok) { await sleep(600); continue; }
       const json = await res.json();
       raw = (Array.isArray(json) && json.length) ? json : null;
+      definitive = true;
       break;
     } catch (err) { await sleep(700); }
   }
+  if (!definitive) {
+    if (++consecutiveFails >= MAX_CONSECUTIVE_FAILS) {
+      apiDown = true;
+      console.warn("\n⚠️  API dictionaryapi.dev không phản hồi — bỏ qua phần tra IPA/định nghĩa còn lại.\n" +
+                   "   Dữ liệu đã có được giữ nguyên. Chạy lại `node enrich.js` khi API sống lại.");
+    }
+    return null;
+  }
+  consecutiveFails = 0;
   cache[key] = raw;
   return raw;
 }

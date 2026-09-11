@@ -485,5 +485,38 @@ module.exports = {
   "goosebumps": { d: "Small bumps on your skin when you are cold, scared, or excited." },
   "superstitious": { d: "Believing that certain things bring good or bad luck." },
   "creepy": { d: "Making you feel nervous and a little frightened; strange and scary." },
-  "abandoned": { d: "Left empty and no longer used or looked after." }
+  "abandoned": { d: "Left empty and no longer used or looked after." },
+
+  // ---- Vacation LV3 ----
+  "vacation / holiday": { d: "A period of time when you stop working or studying, usually to travel and enjoy yourself." },
+  "abroad": { d: "In or to a foreign country." },
+  "tourist attraction": { d: "A place that many visitors come to see, such as a museum, a temple or a famous building." },
+  "solo travel": { d: "Travelling alone, without friends or family." },
+  "road trip": { d: "A long journey you make by car or motorbike, driving yourself." },
+  "day trip": { d: "A short trip where you go somewhere and come back the same day." },
+  "one-way ticket": { d: "A ticket to travel to a place, but not to come back." },
+  "round trip": { d: "A journey to a place and back again (British English: a return trip)." },
+  "cross-country": { d: "Going across a whole country, from one side to the other." },
+  "bucket list": { d: "A list of places you want to visit or things you want to do before you die." },
+  "explore": { d: "To travel around a place to find out what it is like." },
+  "relax": { d: "To rest and stop feeling worried or tired." },
+  "would rather": { d: "Used to say what you prefer: 'I would rather do A (than B)'." },
+
+  // ---- Advice LV3 ----
+  "recommend": { d: "To tell someone that something is good and that they should try it." },
+  "recommendation": { d: "A suggestion that something or someone is good and worth trying." },
+  "advise": { d: "To tell someone what you think they should do (verb, /ədˈvaɪz/)." },
+  "advice": { d: "An opinion you give someone about what they should do. Uncountable: some advice, a piece of advice." },
+  "should / shouldn't": { d: "Should = it is a good idea to do it; shouldn't = it is not a good idea. Followed by a verb with no 'to'." },
+  "role model": { d: "A person you admire and try to be like." },
+  "trustworthy": { d: "Able to be trusted; someone who keeps promises and secrets." },
+  "habit": { d: "Something you do regularly, often without thinking about it." },
+  "nutrition": { d: "The food you eat and how it keeps your body healthy." },
+  "nutritious": { d: "Full of the things your body needs to stay healthy." },
+  "get fired": { d: "To lose your job because your employer makes you leave." },
+  "break up with someone": { d: "To end a romantic relationship with someone." },
+  "cheat on someone": { d: "To secretly have a romantic relationship with another person while you are with someone." },
+  "crush": { d: "A person you secretly like in a romantic way (also the feeling itself)." },
+  "be addicted to": { d: "Unable to stop doing or using something, even when you want to stop." },
+  "quit": { d: "To stop doing something, or to leave a job." }
 };

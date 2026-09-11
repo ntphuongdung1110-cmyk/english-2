@@ -1743,7 +1743,7 @@ window.ONTAP = [
     "v": "gợi ý",
     "x": "What do you recommend?",
     "ip": "/ɹɛkəˈmɛnd/",
-    "d": "To bestow commendation on; to represent favourably; to suggest, endorse or encourage as an appropriate choice."
+    "d": "To tell someone that something is good and that they should try it."
    },
    {
     "e": "vegetarian / vegan",
@@ -2747,7 +2747,7 @@ window.ONTAP = [
     "e": "explore",
     "v": "khám phá",
     "ip": "/ɪkˈsplɔː/",
-    "d": "To examine or investigate something systematically.",
+    "d": "To travel around a place to find out what it is like.",
     "x": "We love to explore new cities when we travel."
    },
    {
@@ -2817,7 +2817,7 @@ window.ONTAP = [
     "e": "tourist attraction",
     "v": "điểm thu hút khách",
     "ip": "/ˈtʊəɹɪst əˈtɹækʃən/",
-    "d": "A place that many visitors like to see.",
+    "d": "A place that many visitors come to see, such as a museum, a temple or a famous building.",
     "x": "The temple is a popular tourist attraction."
    },
    {
@@ -11595,6 +11595,650 @@ window.ONTAP = [
   "shadow": {
    "en": "Let me tell you about a night that still gives me goosebumps. It happened a few years ago, when I was staying at my grandmother's old house in the countryside. It was late, and I was alone in my room — everyone else was already asleep. Around midnight, I suddenly heard slow footsteps in the hallway. My heart started pounding. Then a dark shadow appeared under the door, and I went white as a ghost. I was too scared to move. I told myself it was just my imagination, but the next thing I knew, the footsteps stopped right outside my room. All of a sudden, the shadow disappeared, and everything went quiet again. In the morning, my grandmother just smiled and said the old house 'has its own stories.' I still don't know what it was. Maybe it was the wind, maybe a spirit — but it really creeped me out, and I've never forgotten it.",
    "vi": "Để mình kể cho nghe một đêm đến giờ vẫn khiến mình nổi da gà. Chuyện xảy ra vài năm trước, khi mình về ở nhà cũ của bà ở quê. Lúc đó khuya rồi, mình ở một mình trong phòng — mọi người đã ngủ hết. Khoảng nửa đêm, mình bỗng nghe tiếng bước chân chậm rãi ngoài hành lang. Tim mình đập thình thịch. Rồi một cái bóng đen hiện ra dưới khe cửa, và mặt mình tái mét như ma. Mình sợ đến mức không nhúc nhích nổi. Mình tự nhủ chỉ là tưởng tượng thôi, nhưng ngay sau đó, tiếng bước chân dừng ngay trước cửa phòng. Đột nhiên, cái bóng biến mất, và mọi thứ lại im lặng. Sáng hôm sau, bà chỉ mỉm cười và nói ngôi nhà cũ 'có những câu chuyện riêng của nó.' Đến giờ mình vẫn không biết đó là gì. Có thể là gió, có thể là một vong hồn — nhưng nó thật sự làm mình rợn người, và mình chẳng bao giờ quên."
+  }
+ },
+ {
+  "icon": "🏖️",
+  "name": "Vacation LV3 / Kỳ nghỉ & du lịch (nâng cao)",
+  "intro": "Phiếu LV3 “VACATION”: từ vựng kỳ nghỉ (abroad, tourist attractions, solo travel, road trip, day trip, one-way / round trip) + 12 câu hỏi luyện nói + hoạt động “Plan your dream vacation” ($10,000). Luyện các mẫu: Would you rather…? · Have you ever…? · Would you ever…?",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "vacation / holiday",
+    "v": "kỳ nghỉ",
+    "x": "We're going on vacation next month.",
+    "ip": "/veɪˈkeɪʃ(ə)n/",
+    "d": "A period of time when you stop working or studying, usually to travel and enjoy yourself."
+   },
+   {
+    "s": 1,
+    "e": "abroad",
+    "v": "ở/đến nước ngoài",
+    "x": "Have you ever traveled abroad?",
+    "ip": "/əˈbɹɔːd/",
+    "d": "In or to a foreign country."
+   },
+   {
+    "s": 1,
+    "e": "tourist attraction",
+    "v": "điểm tham quan du lịch",
+    "x": "What are the most popular tourist attractions in Saigon?",
+    "ip": "/ˈtʊəɹɪst əˈtɹækʃən/",
+    "d": "A place that many visitors come to see, such as a museum, a temple or a famous building."
+   },
+   {
+    "s": 1,
+    "e": "solo travel",
+    "v": "du lịch một mình",
+    "x": "What do you think about solo travel?",
+    "d": "Travelling alone, without friends or family."
+   },
+   {
+    "s": 1,
+    "e": "road trip",
+    "v": "chuyến đi đường dài tự lái (drive by yourself)",
+    "x": "We went on a road trip along the coast.",
+    "ip": "/ɹəʊd tɹɪp/",
+    "d": "A long journey you make by car or motorbike, driving yourself."
+   },
+   {
+    "s": 1,
+    "e": "day trip",
+    "v": "chuyến đi trong ngày (đi và về trong ngày)",
+    "x": "Vung Tau is a great day trip from Saigon.",
+    "ip": "/deɪ tɹɪp/",
+    "d": "A short trip where you go somewhere and come back the same day."
+   },
+   {
+    "s": 1,
+    "e": "one-way ticket",
+    "v": "vé một chiều",
+    "x": "I only booked a one-way ticket.",
+    "d": "A ticket to travel to a place, but not to come back."
+   },
+   {
+    "s": 1,
+    "e": "round trip",
+    "v": "chuyến khứ hồi (đi và về)",
+    "x": "A round trip ticket is usually cheaper than two one-way tickets.",
+    "ip": "/ˈɹaʊnd tɹɪp/",
+    "d": "A journey to a place and back again (British English: a return trip)."
+   },
+   {
+    "e": "cross-country",
+    "v": "xuyên suốt đất nước, đi khắp cả nước",
+    "x": "Would you ever go on a cross-country road trip?",
+    "d": "Going across a whole country, from one side to the other."
+   },
+   {
+    "s": 1,
+    "e": "bucket list",
+    "v": "danh sách những nơi/việc rất muốn làm trong đời",
+    "x": "Japan is at the top of my bucket list.",
+    "ip": "/ˈbʌkɪt lɪst/",
+    "d": "A list of places you want to visit or things you want to do before you die."
+   },
+   {
+    "e": "explore",
+    "v": "khám phá",
+    "x": "I'd rather go out and explore the city.",
+    "ip": "/ɪkˈsplɔː/",
+    "d": "To travel around a place to find out what it is like."
+   },
+   {
+    "e": "relax",
+    "v": "thư giãn, nghỉ ngơi",
+    "x": "Sometimes I just want to relax at the hotel.",
+    "ip": "/ɹɪˈlæks/",
+    "d": "To rest and stop feeling worried or tired."
+   },
+   {
+    "s": 1,
+    "e": "would rather",
+    "v": "thích… hơn, thà… hơn",
+    "x": "Would you rather travel to Sapa or Ha Long Bay?",
+    "ip": "/wʊd ˈɹɑːðə/",
+    "d": "Used to say what you prefer: 'I would rather do A (than B)'."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🗣️ Mẫu câu của phiếu (dùng để hỏi & trả lời)",
+    "rows": [
+     {
+      "e": "Would you rather A or B? Why?",
+      "v": "Bạn thích A hay B hơn? Vì sao?",
+      "a": "I'd rather travel to Sapa, because I love cool weather and mountains."
+     },
+     {
+      "e": "Have you ever…?",
+      "v": "Bạn từng… bao giờ chưa?",
+      "a": "Have you ever traveled abroad? — Yes, I have. I went to Thailand two years ago."
+     },
+     {
+      "e": "Would you ever…?",
+      "v": "Bạn có bao giờ dám/định… không? (giả định)",
+      "a": "Would you ever live abroad for a year? — Yes, I would, but not forever."
+     },
+     {
+      "e": "Do you prefer A or B?",
+      "v": "Bạn thích A hay B hơn?",
+      "a": "I prefer traveling by plane, because it saves a lot of time."
+     },
+     {
+      "e": "How long would it take you?",
+      "v": "Bạn sẽ mất bao lâu?",
+      "a": "It would take me about a week to ride from Saigon to Hanoi."
+     }
+    ]
+   },
+   {
+    "title": "💰 Plan your dream vacation ($10,000) — 6 điều phải nói",
+    "rows": [
+     {
+      "e": "① The places you will travel",
+      "v": "Bạn sẽ đi những đâu",
+      "a": "I'd travel to Japan and South Korea — Tokyo, Kyoto, and then Seoul."
+     },
+     {
+      "e": "② How you will get there",
+      "v": "Đi bằng phương tiện gì",
+      "a": "I'd fly there, and then take trains and the subway to get around."
+     },
+     {
+      "e": "③ Where you will sleep",
+      "v": "Ngủ ở đâu",
+      "a": "I'd stay in a small hotel near the city center, and one night in a traditional inn."
+     },
+     {
+      "e": "④ What you will do",
+      "v": "Sẽ làm gì",
+      "a": "I'd explore the old streets, go shopping, and relax in a hot spring."
+     },
+     {
+      "e": "⑤ The tourist attractions you will see",
+      "v": "Sẽ tham quan những điểm nào",
+      "a": "I'd visit Fushimi Inari Shrine, Tokyo Tower, and a few famous temples."
+     },
+     {
+      "e": "⑥ The food you will eat",
+      "v": "Sẽ ăn món gì",
+      "a": "I'd eat sushi, ramen, and street food — and of course, Korean BBQ."
+     },
+     {
+      "e": "Ai đi cùng? (invite friends/family or not)",
+      "v": "Rủ bạn bè/gia đình hay đi một mình",
+      "a": "I'd invite my best friend, because traveling is more fun with someone you love."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How often do you travel? Tell me about your last vacation.",
+    "a": "I travel two or three times a year, usually on short trips. My last vacation was in Da Lat. I went with my family for four days. We stayed in a small homestay, visited a flower garden and a waterfall, and drank a lot of coffee. The weather was cool and everything was really relaxing.",
+    "a2": "I don't travel very often — maybe once a year, because I'm quite busy at work. My last vacation was a weekend in Vung Tau. We swam in the sea, ate a lot of seafood, and came back on Sunday evening."
+   },
+   {
+    "q": "2. Do you prefer to travel by plane, train, bus, car, motorbike, or boat? Why?",
+    "a": "I prefer to travel by plane, because it's the fastest way and I don't waste my holiday sitting on the road. But for short distances, I like the train — you can walk around, sleep, and enjoy the view through the window.",
+    "a2": "I'd rather travel by motorbike for short trips. It's cheap and you can stop anywhere you want to take photos. For long distances, though, it's too tiring, so I'd take a bus or a plane."
+   },
+   {
+    "q": "3. Do you usually buy one round trip ticket or two one-way tickets when you travel?",
+    "a": "I usually buy a round trip ticket, because it's cheaper and I don't have to worry about the way home. But if I'm not sure how long I'll stay, I'll book two one-way tickets so my plan stays flexible."
+   },
+   {
+    "q": "4. Where is the best place to travel in Vietnam? Why?",
+    "a": "In my opinion, the best place is Da Nang. It has a beautiful beach, good food, and clean streets, and it's close to Hoi An and Ba Na Hills. It's perfect for both relaxing and sightseeing."
+   },
+   {
+    "q": "5. Would you rather travel to Sapa, Ha Long Bay, or Son Doong Cave? Why?",
+    "a": "I'd rather travel to Sapa, because I love cool weather, mountains and rice terraces. Ha Long Bay is beautiful too, but it's usually crowded. Son Doong Cave looks amazing, but it's very expensive and you need to be really fit."
+   },
+   {
+    "q": "6. What are the most popular tourist attractions in Saigon? Have you ever been to them?",
+    "a": "The most popular tourist attractions are the Notre-Dame Cathedral, the Central Post Office, the War Remnants Museum, Ben Thanh Market and Bui Vien Street. Yes, I've been to most of them. My favourite is the Post Office, because the old French architecture is beautiful."
+   },
+   {
+    "q": "7. Where are the best places to take a day trip from Saigon?",
+    "a": "Vung Tau is the most popular one — it's only about two hours away, so you can swim, eat seafood and come back the same day. Can Gio, Cu Chi Tunnels and My Tho are also good day trips."
+   },
+   {
+    "q": "8. Would you ever go on a cross-country road trip? Where would you stop? How long would it take you?",
+    "a": "Yes, I would love to. I'd ride from Saigon to Hanoi and stop in Nha Trang, Da Nang, Hue and Ninh Binh. I think it would take me about two weeks if I want to enjoy each place instead of rushing."
+   },
+   {
+    "q": "9. Have you ever traveled abroad? Would you ever live abroad for a year? Forever?",
+    "a": "Yes, I've traveled abroad a few times, mostly in Southeast Asia. I would definitely live abroad for a year to learn the language and the culture. But forever? Probably not — my family and my friends are here, and I'd miss the food too much."
+   },
+   {
+    "q": "10. Which countries are on your “bucket list?”",
+    "a": "Japan is at the top of my bucket list, because of the food and the cherry blossoms. After that, I'd love to visit Switzerland for the mountains, and Italy for the history and the pizza."
+   },
+   {
+    "q": "11. What do you think about solo travel? Have you ever traveled alone?",
+    "a": "I think solo travel is a great experience, because you're free to do anything you want and you meet a lot of new people. On the other hand, it can feel lonely and you have to be careful about safety. I've traveled alone once, for work, and I actually enjoyed it."
+   },
+   {
+    "q": "12. When you go on vacation, do you prefer to relax at the hotel or go out and explore the city?",
+    "a": "It depends on how tired I am. Usually I'd rather go out and explore the city, because I want to see as much as possible. But if I've had a stressful month, I'll spend one day just relaxing at the hotel and by the pool."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Do you have any plans for the holiday?",
+    "v": "Kỳ nghỉ này bạn có kế hoạch gì chưa?"
+   },
+   {
+    "p": "B",
+    "e": "Not yet. I'm thinking about a road trip. Would you rather go to the beach or the mountains?",
+    "v": "Chưa. Mình đang tính làm một chuyến đi tự lái. Bạn thích đi biển hay lên núi hơn?"
+   },
+   {
+    "p": "A",
+    "e": "The mountains, definitely. Da Lat is only a day trip away if we leave early.",
+    "v": "Chắc chắn là núi rồi. Đà Lạt chỉ mất một ngày nếu mình đi sớm."
+   },
+   {
+    "p": "B",
+    "e": "Nice. Should we book a round trip ticket, or just drive?",
+    "v": "Hay đó. Mình nên mua vé khứ hồi hay tự lái đi?"
+   },
+   {
+    "p": "A",
+    "e": "Let's drive. That way we can stop anywhere we want and take photos.",
+    "v": "Tự lái đi. Vậy mình muốn dừng ở đâu cũng được và tha hồ chụp ảnh."
+   },
+   {
+    "p": "B",
+    "e": "Have you ever been to the waterfalls near there?",
+    "v": "Bạn từng đi mấy cái thác gần đó chưa?"
+   },
+   {
+    "p": "A",
+    "e": "No, never. They're on my bucket list, actually.",
+    "v": "Chưa bao giờ. Thật ra nó nằm trong danh sách phải đi của mình đấy."
+   },
+   {
+    "p": "B",
+    "e": "Then it's settled. Two days there, and we'll explore the city at night.",
+    "v": "Vậy chốt nhé. Hai ngày ở đó, tối thì đi khám phá thành phố."
+   },
+   {
+    "p": "A",
+    "e": "Perfect. I'll look for a hotel and text you tonight.",
+    "v": "Tuyệt. Mình sẽ tìm khách sạn rồi nhắn cho bạn tối nay."
+   }
+  ],
+  "tips": [
+   "Cấu trúc: go ON vacation / go ON a trip / take a day trip · travel TO a place · arrive IN a city, arrive AT the airport.",
+   "one-way (một chiều) ↔ round trip (khứ hồi). Mỹ nói “round trip”, Anh nói “return ticket”.",
+   "Would you rather + V nguyên mẫu (Would you rather travel by plane or by train?). Trả lời: I'd rather + V (I'd rather fly).",
+   "Have you ever…? = hỏi kinh nghiệm đã có (Have you ever traveled abroad?). Would you ever…? = hỏi giả định, chưa làm (Would you ever live abroad?).",
+   "Khi kể kỳ nghỉ đã qua, dùng THÌ QUÁ KHỨ: went, stayed, visited, ate. Khi nói kế hoạch trong mơ, dùng WOULD: I'd travel…, I'd stay…, I'd eat…"
+  ],
+  "shadow": {
+   "en": "Let me tell you about my last vacation. I don't travel very often — maybe two or three times a year — but last summer I went on a road trip to Da Lat with two of my closest friends. We drove ourselves, so we could stop anywhere we wanted and take photos. It took us about seven hours, and we arrived in the evening. We stayed in a small homestay near the city center. During the day we explored the old streets, visited a waterfall and a flower garden, and drank a lot of coffee. In the evening we just relaxed and talked. I'd rather explore a city than stay at the hotel, so we walked everywhere. Next time I want to travel abroad. Japan is at the top of my bucket list, because of the food and the cherry blossoms. And one day, I would love to go on a cross-country road trip from Saigon all the way to Hanoi. I think it would take me about two weeks, and I'd stop in Nha Trang, Da Nang, Hue and Ninh Binh.",
+   "vi": "Để mình kể về kỳ nghỉ gần nhất. Mình không đi du lịch thường xuyên lắm — chắc hai ba lần một năm — nhưng hè năm ngoái mình làm một chuyến đi tự lái lên Đà Lạt với hai người bạn thân. Tụi mình tự lái nên muốn dừng đâu chụp ảnh cũng được. Đi mất khoảng bảy tiếng, tối thì tới nơi. Tụi mình ở một homestay nhỏ gần trung tâm. Ban ngày đi khám phá mấy con phố cũ, ghé thác nước và vườn hoa, uống cà phê rất nhiều. Buổi tối thì chỉ thư giãn và trò chuyện. Mình thích đi khám phá thành phố hơn là nằm khách sạn, nên tụi mình đi bộ khắp nơi. Lần tới mình muốn đi nước ngoài. Nhật Bản đứng đầu danh sách những nơi mình muốn đến, vì đồ ăn và hoa anh đào. Và một ngày nào đó mình rất muốn làm chuyến xuyên Việt từ Sài Gòn ra tận Hà Nội. Chắc mất khoảng hai tuần, và mình sẽ dừng ở Nha Trang, Đà Nẵng, Huế và Ninh Bình."
+  }
+ },
+ {
+  "icon": "💡",
+  "name": "Advice LV3 / Lời khuyên: xin & cho lời khuyên",
+  "intro": "Phiếu LV3 “ADVICE”: từ vựng (recommend, advise, should/shouldn't, role model, trustworthy) + mẫu câu XIN lời khuyên và CHO lời khuyên + 8 câu hỏi + 14 tình huống để thực hành. Lưu ý: advice là DANH TỪ không đếm được, advise là ĐỘNG TỪ.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "recommend",
+    "v": "gợi ý, giới thiệu (nên thử/nên làm)",
+    "x": "I highly recommend that restaurant.",
+    "ip": "/ɹɛkəˈmɛnd/",
+    "d": "To tell someone that something is good and that they should try it."
+   },
+   {
+    "s": 1,
+    "e": "recommendation",
+    "v": "lời gợi ý, lời giới thiệu",
+    "x": "Do you have any recommendations for a good gym?",
+    "d": "A suggestion that something or someone is good and worth trying."
+   },
+   {
+    "s": 1,
+    "e": "advise",
+    "v": "khuyên (động từ)",
+    "x": "My teacher advised me to practice speaking every day.",
+    "ip": "/ədˈvaɪz/",
+    "d": "To tell someone what you think they should do (verb, /ədˈvaɪz/)."
+   },
+   {
+    "s": 1,
+    "e": "advice",
+    "v": "lời khuyên (danh từ, KHÔNG đếm được)",
+    "x": "Can you give me some advice?",
+    "ip": "/ədˈvaɪs/",
+    "d": "An opinion you give someone about what they should do. Uncountable: some advice, a piece of advice."
+   },
+   {
+    "s": 1,
+    "e": "should / shouldn't",
+    "v": "nên / không nên",
+    "x": "I think you should talk to your boss.",
+    "d": "Should = it is a good idea to do it; shouldn't = it is not a good idea. Followed by a verb with no 'to'."
+   },
+   {
+    "s": 1,
+    "e": "role model",
+    "v": "hình mẫu, tấm gương để noi theo",
+    "x": "My father is my role model.",
+    "d": "A person you admire and try to be like."
+   },
+   {
+    "s": 1,
+    "e": "trustworthy",
+    "v": "đáng tin cậy",
+    "x": "She's the most trustworthy person I know.",
+    "d": "Able to be trusted; someone who keeps promises and secrets."
+   },
+   {
+    "e": "habit",
+    "v": "thói quen",
+    "x": "Waking up early is a good habit.",
+    "ip": "/ˈhæbət/",
+    "d": "Something you do regularly, often without thinking about it."
+   },
+   {
+    "e": "nutrition",
+    "v": "dinh dưỡng",
+    "x": "Good nutrition matters if you want to lose weight.",
+    "d": "The food you eat and how it keeps your body healthy."
+   },
+   {
+    "e": "nutritious",
+    "v": "bổ dưỡng, giàu dinh dưỡng",
+    "x": "Try to eat more nutritious food.",
+    "d": "Full of the things your body needs to stay healthy."
+   },
+   {
+    "e": "get fired",
+    "v": "bị sa thải, bị đuổi việc",
+    "x": "I got fired last week!",
+    "d": "To lose your job because your employer makes you leave."
+   },
+   {
+    "e": "break up with someone",
+    "v": "chia tay ai",
+    "x": "My boyfriend broke up with me.",
+    "d": "To end a romantic relationship with someone."
+   },
+   {
+    "e": "cheat on someone",
+    "v": "lừa dối, ngoại tình với ai",
+    "x": "My girlfriend is cheating on me!",
+    "d": "To secretly have a romantic relationship with another person while you are with someone."
+   },
+   {
+    "e": "crush",
+    "v": "người mình thầm thích",
+    "x": "I'm too shy to talk to my crush.",
+    "d": "A person you secretly like in a romantic way (also the feeling itself)."
+   },
+   {
+    "e": "be addicted to",
+    "v": "nghiện (cái gì đó)",
+    "x": "I'm addicted to milk tea and want to quit.",
+    "d": "Unable to stop doing or using something, even when you want to stop."
+   },
+   {
+    "e": "quit",
+    "v": "bỏ, từ bỏ (thói quen, công việc)",
+    "x": "I want to quit drinking milk tea.",
+    "d": "To stop doing something, or to leave a job."
+   }
+  ],
+  "extra": [
+   {
+    "title": "💡 GIVING ADVICE — cho lời khuyên",
+    "pills": [
+     "I think you should…",
+     "I don't think you should…",
+     "If I were you, I would…",
+     "I (highly) recommend…"
+    ],
+    "rows": [
+     {
+      "e": "I think you should…",
+      "v": "Mình nghĩ bạn nên…",
+      "a": "I think you should talk to your manager before you decide."
+     },
+     {
+      "e": "I don't think you should…",
+      "v": "Mình nghĩ bạn không nên…",
+      "a": "I don't think you should quit your job right now."
+     },
+     {
+      "e": "If I were you, I would…",
+      "v": "Nếu là bạn, mình sẽ…",
+      "a": "If I were you, I would take a few days off and think about it."
+     },
+     {
+      "e": "I (highly) recommend…",
+      "v": "Mình rất khuyên nên…",
+      "a": "I highly recommend starting with a 30-minute walk every day."
+     }
+    ]
+   },
+   {
+    "title": "❓ ASKING FOR ADVICE — xin lời khuyên",
+    "pills": [
+     "What do you think I should do?",
+     "If you were me, what would you do?",
+     "Do you have any advice?",
+     "Do you think I should…?",
+     "Do you have any recommendations for…?"
+    ],
+    "rows": [
+     {
+      "e": "What do you think I should do?",
+      "v": "Bạn nghĩ mình nên làm gì?",
+      "a": "I'm really stressed at work. What do you think I should do?"
+     },
+     {
+      "e": "If you were me, what would you do?",
+      "v": "Nếu là mình, bạn sẽ làm gì?",
+      "a": "If you were me, what would you do — stay or find a new job?"
+     },
+     {
+      "e": "Do you have any advice?",
+      "v": "Bạn có lời khuyên nào không?",
+      "a": "I want to improve my English. Do you have any advice?"
+     },
+     {
+      "e": "Do you think I should…?",
+      "v": "Bạn nghĩ mình có nên… không?",
+      "a": "Do you think I should tell her how I feel?"
+     },
+     {
+      "e": "Do you have any recommendations for…?",
+      "v": "Bạn có gợi ý nào cho… không?",
+      "a": "Do you have any recommendations for a good English teacher?"
+     }
+    ]
+   },
+   {
+    "title": "🎭 Ask & give advice — 14 tình huống của phiếu",
+    "rows": [
+     {
+      "e": "I need to make more money.",
+      "v": "Mình cần kiếm thêm tiền.",
+      "a": "If I were you, I'd look for a part-time job or learn a skill you can freelance with."
+     },
+     {
+      "e": "I need more free time.",
+      "v": "Mình cần thêm thời gian rảnh.",
+      "a": "I think you should say no more often, and stop checking your phone at night."
+     },
+     {
+      "e": "My boyfriend broke up with me!",
+      "v": "Bạn trai mình vừa chia tay mình!",
+      "a": "I'm so sorry. I think you should give yourself some time and spend it with friends."
+     },
+     {
+      "e": "I want to do something romantic for my boyfriend / girlfriend.",
+      "v": "Mình muốn làm gì đó lãng mạn cho người yêu.",
+      "a": "I highly recommend cooking dinner at home — it's simple, but it always means a lot."
+     },
+     {
+      "e": "I got fired!",
+      "v": "Mình bị đuổi việc rồi!",
+      "a": "That's tough. If I were you, I'd update my CV today and tell everyone I know I'm looking."
+     },
+     {
+      "e": "I hate my boss.",
+      "v": "Mình ghét sếp mình.",
+      "a": "I don't think you should quit right away. I think you should talk to him first, or ask to change teams."
+     },
+     {
+      "e": "My girlfriend is cheating on me!",
+      "v": "Bạn gái mình đang lừa dối mình!",
+      "a": "You should talk to her honestly before you do anything. If it's true, I think you should walk away."
+     },
+     {
+      "e": "I want to marry my boss!",
+      "v": "Mình muốn cưới sếp mình!",
+      "a": "Ha! If I were you, I'd be very careful — dating your boss can make work really complicated."
+     },
+     {
+      "e": "I want to lose weight.",
+      "v": "Mình muốn giảm cân.",
+      "a": "I recommend eating more nutritious food and walking 30 minutes a day. Nutrition matters more than the gym."
+     },
+     {
+      "e": "I want to start a business.",
+      "v": "Mình muốn khởi nghiệp.",
+      "a": "I think you should start small and keep your job until the business makes money."
+     },
+     {
+      "e": "I'm too shy to talk to my crush.",
+      "v": "Mình ngại quá không dám nói chuyện với người mình thích.",
+      "a": "If I were you, I'd start with something simple — just say hi and ask one question."
+     },
+     {
+      "e": "I'm addicted to milk tea and want to quit.",
+      "v": "Mình nghiện trà sữa và muốn bỏ.",
+      "a": "Don't quit all at once. I recommend cutting down to once a week and drinking water instead."
+     },
+     {
+      "e": "I want to improve my English.",
+      "v": "Mình muốn cải thiện tiếng Anh.",
+      "a": "I think you should speak every day, even for ten minutes, and stop being afraid of mistakes."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Who do you usually go to for advice?",
+    "a": "I usually go to my older sister for advice, because she's calm and she knows me really well. For work problems, I ask a close colleague who has more experience than me.",
+    "a2": "It depends on the problem. For personal things, I talk to my best friend. For money or career decisions, I ask my parents, because they're more practical."
+   },
+   {
+    "q": "2. Whose advice do you usually follow: your friends' or your parents'?",
+    "a": "I usually follow my parents' advice for big decisions, like money or career, because they have more life experience. But for daily things — fashion, food, where to go — I trust my friends more, since we're the same age."
+   },
+   {
+    "q": "3. If you could go back in time and give yourself some advice, what would you say?",
+    "a": "I would tell myself to start learning English much earlier and to stop worrying about making mistakes. I'd also say: save some money every month, and don't care so much about what other people think."
+   },
+   {
+    "q": "4. What should you do to improve your English?",
+    "a": "I think you should practice speaking every day, even if it's only ten minutes. I recommend listening to podcasts, learning whole phrases instead of single words, and finding someone to talk to. The most important thing is to be consistent."
+   },
+   {
+    "q": "5. What are some of your good habits?",
+    "a": "I go to bed fairly early and I always make a to-do list in the morning, so I know what to focus on. I also walk for about half an hour a day, and I try to cook at home instead of eating out."
+   },
+   {
+    "q": "6. What are some of your bad habits?",
+    "a": "My worst habit is spending too much time on my phone before I sleep. I also drink too much milk tea, and I sometimes leave things until the last minute. I'm trying to cut down on all of them."
+   },
+   {
+    "q": "7. Who is your role model?",
+    "a": "My role model is my father. He's hardworking and very patient, and he never complains when things get difficult. He always keeps his promises, and that's something I want to learn from him."
+   },
+   {
+    "q": "8. Who is the most trustworthy person you know?",
+    "a": "The most trustworthy person I know is my best friend. I can tell her anything and I'm sure she'll never share it with other people. She also does what she says she'll do, which is quite rare."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Can I ask you something? I need some advice.",
+    "v": "Mình hỏi chút được không? Mình cần lời khuyên."
+   },
+   {
+    "p": "B",
+    "e": "Of course. What's going on?",
+    "v": "Dĩ nhiên rồi. Có chuyện gì vậy?"
+   },
+   {
+    "p": "A",
+    "e": "I hate my boss, and I'm thinking about quitting. What do you think I should do?",
+    "v": "Mình ghét sếp mình, và đang tính nghỉ việc. Bạn nghĩ mình nên làm gì?"
+   },
+   {
+    "p": "B",
+    "e": "Hmm. I don't think you should quit before you find another job.",
+    "v": "Hừm. Mình nghĩ bạn không nên nghỉ trước khi tìm được việc khác."
+   },
+   {
+    "p": "A",
+    "e": "That's true. But if you were me, what would you do?",
+    "v": "Cũng đúng. Nhưng nếu là mình thì bạn sẽ làm gì?"
+   },
+   {
+    "p": "B",
+    "e": "If I were you, I'd talk to him honestly first. Maybe it's just a misunderstanding.",
+    "v": "Nếu là bạn, mình sẽ nói chuyện thẳng thắn với sếp trước. Biết đâu chỉ là hiểu lầm."
+   },
+   {
+    "p": "A",
+    "e": "And if nothing changes?",
+    "v": "Còn nếu chẳng có gì thay đổi thì sao?"
+   },
+   {
+    "p": "B",
+    "e": "Then I highly recommend starting to look around quietly. Do you have your CV ready?",
+    "v": "Vậy thì mình rất khuyên bạn âm thầm tìm việc mới. CV của bạn sẵn sàng chưa?"
+   },
+   {
+    "p": "A",
+    "e": "Not yet. Do you have any recommendations for updating it?",
+    "v": "Chưa. Bạn có gợi ý nào để cập nhật CV không?"
+   },
+   {
+    "p": "B",
+    "e": "Sure. Send it to me tonight and I'll take a look.",
+    "v": "Được chứ. Tối nay gửi mình xem cho."
+   },
+   {
+    "p": "A",
+    "e": "Thanks. That's really helpful advice.",
+    "v": "Cảm ơn nhé. Lời khuyên hữu ích thật đấy."
+   }
+  ],
+  "tips": [
+   "advice = DANH TỪ không đếm được → nói “some advice”, “a piece of advice”, KHÔNG nói “an advice / advices”. advise = ĐỘNG TỪ (phát âm /ədˈvaɪz/).",
+   "should + V nguyên mẫu, KHÔNG “to”: You should go (✗ You should to go). Phủ định: You shouldn't stay up so late.",
+   "If I were you, I would… — câu điều kiện loại 2: luôn dùng WERE cho mọi chủ ngữ, vế sau dùng would + V.",
+   "recommend + V-ing (I recommend walking every day) hoặc recommend that + S + V (I recommend that you walk every day). KHÔNG nói “recommend you to walk”.",
+   "advise + tân ngữ + to V: My teacher advised me TO practice. Còn suggest + V-ing: I suggest practising every day."
+  ],
+  "shadow": {
+   "en": "When I have a problem, I usually go to my older sister for advice, because she's calm and she knows me really well. For work problems, I ask a colleague who has more experience than me. I follow my parents' advice for big decisions, like money or my career, but for daily things I trust my friends more. My role model is my father. He's hardworking and patient, and he always keeps his promises, so he's the most trustworthy person I know. If I could go back in time and give myself some advice, I would say: start learning English earlier, and don't be afraid of making mistakes. And if a friend asks me what they should do, I try not to judge. I just say, 'If I were you, I would think about it for a few days,' or 'I think you should talk to them honestly first.' Sometimes people don't really need advice — they just need someone to listen.",
+   "vi": "Khi gặp chuyện, mình thường hỏi ý kiến chị gái, vì chị bình tĩnh và hiểu mình rõ. Chuyện công việc thì mình hỏi một đồng nghiệp có nhiều kinh nghiệm hơn. Với quyết định lớn như tiền bạc hay sự nghiệp, mình nghe lời khuyên của ba mẹ; còn chuyện thường ngày thì mình tin bạn bè hơn. Hình mẫu của mình là ba. Ba chăm chỉ, kiên nhẫn, và luôn giữ lời hứa, nên ba là người đáng tin cậy nhất mình biết. Nếu quay ngược thời gian và khuyên chính mình, mình sẽ nói: học tiếng Anh sớm hơn đi, và đừng sợ sai. Còn khi bạn bè hỏi nên làm gì, mình cố không phán xét. Mình chỉ nói: 'Nếu là bạn, mình sẽ suy nghĩ vài ngày', hoặc 'Mình nghĩ bạn nên nói chuyện thẳng thắn với người ta trước.' Nhiều khi người ta không thật sự cần lời khuyên — họ chỉ cần một người chịu lắng nghe."
   }
  }
 ];
