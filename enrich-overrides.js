@@ -518,5 +518,21 @@ module.exports = {
   "cheat on someone": { d: "To secretly have a romantic relationship with another person while you are with someone." },
   "crush": { d: "A person you secretly like in a romantic way (also the feeling itself)." },
   "be addicted to": { d: "Unable to stop doing or using something, even when you want to stop." },
-  "quit": { d: "To stop doing something, or to leave a job." }
+  "quit": { d: "To stop doing something, or to leave a job." },
+
+  // ---- Sửa định nghĩa API chọn SAI nghĩa (review 2026-09-11) ----
+  "lane": { d: "One of the marked parts of a road for a single line of traffic." },          // API: \"The homestretch.\"
+  "helmet": { d: "A hard hat that protects your head, for example when riding a motorbike." }, // API: nghĩa mũ giáp
+  "spend": { d: "To use money to pay for something." },                                       // API trả nghĩa DANH TỪ
+  "save": { d: "To keep money instead of spending it." },                                     // API: nghĩa cứu bóng thể thao
+  "waste": { d: "To use money, time or things badly, so they bring no benefit." },            // API: \"Excrement or urine.\"
+  "expensive": { d: "Costing a lot of money." },                                              // API: nghĩa tin học
+  "cheap": { d: "Costing little money; not expensive." },                                     // API: nghĩa \"chơi xấu\"
+  "fry": { d: "To cook food in hot oil." },                                                   // API: \"A state of excitement.\"
+  "boil": { d: "To cook food in very hot water." },                                           // API trả nghĩa DANH TỪ
+  "chop": { d: "To cut something into small pieces with a knife." },                          // API: \"A cut of meat.\"
+  "positive": { d: "Hopeful, and looking at the good side of things." },                      // API: \"Fully assured in opinion.\"
+  "discount": { d: "An amount of money taken off the normal price." },                        // API trả nghĩa TÍNH TỪ
+  "sponge": { d: "A soft material that soaks up water, used for cleaning or wetting things." },// API: nghĩa \"ăn bám\"
+  "shadow": { d: "A dark shape on a surface, made when something blocks the light." }          // API: \"Unofficial, informal…\"
 };

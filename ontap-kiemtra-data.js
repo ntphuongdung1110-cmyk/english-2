@@ -9005,7 +9005,7 @@ window.ONTAP = [
     "v": "làn đường",
     "x": "Stay in your lane while driving.",
     "ip": "/leɪn/",
-    "d": "The homestretch."
+    "d": "One of the marked parts of a road for a single line of traffic."
    },
    {
     "e": "sidewalk",
@@ -9058,7 +9058,7 @@ window.ONTAP = [
     "v": "mũ bảo hiểm",
     "x": "Always wear a helmet when you ride a motorbike.",
     "ip": "/ˈhɛlmət/",
-    "d": "A protective head covering, usually part of armour."
+    "d": "A hard hat that protects your head, for example when riding a motorbike."
    },
    {
     "s": 1,
@@ -9298,7 +9298,7 @@ window.ONTAP = [
     "v": "tiêu, chi tiền",
     "x": "I try not to spend too much on coffee.",
     "ip": "/spɛnd/",
-    "d": "Amount of money spent (during a period); expenditure."
+    "d": "To use money to pay for something."
    },
    {
     "s": 1,
@@ -9306,7 +9306,7 @@ window.ONTAP = [
     "v": "tiết kiệm, để dành",
     "x": "I save a little money every month.",
     "ip": "/seɪv/",
-    "d": "In various sports, a block that prevents an opponent from scoring."
+    "d": "To keep money instead of spending it."
    },
    {
     "s": 1,
@@ -9366,7 +9366,7 @@ window.ONTAP = [
     "v": "lãng phí",
     "x": "Don't waste your money on things you don't need.",
     "ip": "/weɪst/",
-    "d": "Excrement or urine."
+    "d": "To use money, time or things badly, so they bring no benefit."
    },
    {
     "s": 1,
@@ -9389,7 +9389,7 @@ window.ONTAP = [
     "v": "đắt, mắc",
     "x": "That restaurant is really expensive.",
     "ip": "/ɛkˈspɛnsɪv/",
-    "d": "Taking a lot of system time or resources."
+    "d": "Costing a lot of money."
    },
    {
     "s": 1,
@@ -9397,7 +9397,7 @@ window.ONTAP = [
     "v": "rẻ",
     "x": "I found a cheap but tasty lunch near the office.",
     "ip": "/t͡ʃiːp/",
-    "d": "(of an action or tactic in a game of skill) Underhand or unfair."
+    "d": "Costing little money; not expensive."
    },
    {
     "e": "generous",
@@ -9915,7 +9915,7 @@ window.ONTAP = [
     "v": "chiên, rán",
     "x": "Fry the fish until it's golden.",
     "ip": "/fɹaɪ/",
-    "d": "A state of excitement."
+    "d": "To cook food in hot oil."
    },
    {
     "s": 1,
@@ -9951,7 +9951,7 @@ window.ONTAP = [
     "v": "luộc, đun sôi",
     "x": "Boil the eggs for ten minutes.",
     "ip": "/bɔɪl/",
-    "d": "The point at which fluid begins to change to a vapour."
+    "d": "To cook food in very hot water."
    },
    {
     "e": "steam",
@@ -9973,7 +9973,7 @@ window.ONTAP = [
     "v": "băm, chặt, xắt nhỏ",
     "x": "Chop the onions finely.",
     "ip": "/tʃɒp/",
-    "d": "A cut of meat, often containing a section of a rib."
+    "d": "To cut something into small pieces with a knife."
    },
    {
     "e": "slice",
@@ -10313,7 +10313,7 @@ window.ONTAP = [
     "v": "tích cực",
     "x": "I try to stay positive under pressure.",
     "ip": "/ˈpɒzɪ̈tɪv/",
-    "d": "Fully assured in opinion."
+    "d": "Hopeful, and looking at the good side of things."
    },
    {
     "s": 1,
@@ -10611,7 +10611,7 @@ window.ONTAP = [
     "v": "sự giảm giá",
     "x": "Can you give me a discount if I buy two?",
     "ip": "/dɪsˈkaʊnt/",
-    "d": "(of a store) Specializing in selling goods at reduced prices."
+    "d": "An amount of money taken off the normal price."
    },
    {
     "e": "overpriced",
@@ -10878,7 +10878,7 @@ window.ONTAP = [
     "v": "miếng bọt biển (thấm nước)",
     "x": "Wipe the surface with a wet sponge.",
     "ip": "/spʌnd͡ʒ/",
-    "d": "To take advantage of the kindness of others."
+    "d": "A soft material that soaks up water, used for cleaning or wetting things."
    },
    {
     "e": "apron",
@@ -11332,7 +11332,7 @@ window.ONTAP = [
     "v": "cái bóng",
     "x": "A dark shadow moved across the wall.",
     "ip": "/ˈʃædəʊ/",
-    "d": "Unofficial, informal, unauthorized, but acting as though it were."
+    "d": "A dark shape on a surface, made when something blocks the light."
    },
    {
     "s": 1,
@@ -11793,8 +11793,8 @@ window.ONTAP = [
     "a": "In my opinion, the best place is Da Nang. It has a beautiful beach, good food, and clean streets, and it's close to Hoi An and Ba Na Hills. It's perfect for both relaxing and sightseeing."
    },
    {
-    "q": "5. Would you rather travel to Sapa, Ha Long Bay, or Son Doong Cave? Why?",
-    "a": "I'd rather travel to Sapa, because I love cool weather, mountains and rice terraces. Ha Long Bay is beautiful too, but it's usually crowded. Son Doong Cave looks amazing, but it's very expensive and you need to be really fit."
+    "q": "5. Would you rather travel to Sapa, Ha Long Bay, or Sơn Đoòng Cave? Why?",
+    "a": "I'd rather travel to Sapa, because I love cool weather, mountains and rice terraces. Ha Long Bay is beautiful too, but it's usually crowded. Sơn Đoòng Cave looks amazing, but it's very expensive and you need to be really fit."
    },
    {
     "q": "6. What are the most popular tourist attractions in Saigon? Have you ever been to them?",
@@ -12067,7 +12067,7 @@ window.ONTAP = [
     ]
    },
    {
-    "title": "🎭 Ask & give advice — 14 tình huống của phiếu",
+    "title": "🎭 Ask & give advice — 12 tình huống của phiếu",
     "rows": [
      {
       "e": "I need to make more money.",
@@ -12128,11 +12128,6 @@ window.ONTAP = [
       "e": "I'm addicted to milk tea and want to quit.",
       "v": "Mình nghiện trà sữa và muốn bỏ.",
       "a": "Don't quit all at once. I recommend cutting down to once a week and drinking water instead."
-     },
-     {
-      "e": "I want to improve my English.",
-      "v": "Mình muốn cải thiện tiếng Anh.",
-      "a": "I think you should speak every day, even for ten minutes, and stop being afraid of mistakes."
      }
     ]
    }
