@@ -534,5 +534,43 @@ module.exports = {
   "positive": { d: "Hopeful, and looking at the good side of things." },                      // API: \"Fully assured in opinion.\"
   "discount": { d: "An amount of money taken off the normal price." },                        // API trả nghĩa TÍNH TỪ
   "sponge": { d: "A soft material that soaks up water, used for cleaning or wetting things." },// API: nghĩa \"ăn bám\"
-  "shadow": { d: "A dark shape on a surface, made when something blocks the light." }          // API: \"Unofficial, informal…\"
+  "shadow": { d: "A dark shape on a surface, made when something blocks the light." },         // API: \"Unofficial, informal…\"
+
+  // ---- Difficult Words (L3) ----
+  "fifteen": { d: "The number 15. Stress the END: fif-TEEN." },
+  "fifty": { d: "The number 50. Stress the START: FIF-ty." },
+  "can": { d: "To be able to do something. In a sentence it is said quickly: /kən/." },
+  "can't": { d: "Not able to do something. The vowel is clear and long: /kænt/." },
+  "food": { d: "The things people eat." },
+  "fruit": { d: "The sweet part of a plant that you eat, such as mango or banana." },
+  "college": { d: "A school you go to after high school." },
+  "colleague": { d: "A person you work with." },
+  "Wednesday": { d: "The day between Tuesday and Thursday. The first 'd' is silent." },
+  "island": { d: "Land with water all around it. The 's' is silent." },
+  "muscle": { d: "The part of your body that makes you strong and lets you move. The 'c' is silent." },
+  "hour": { d: "Sixty minutes. The 'h' is silent, so it sounds like 'our'." },
+  "Facebook": { d: "A social media app where people share posts and photos." },
+  "socks": { d: "Soft clothing you wear on your feet, inside your shoes." },
+  "teeth": { d: "The hard white parts in your mouth that you bite with (one of them is a tooth)." },
+  "birthday cake": { d: "The cake you eat at a birthday party, usually with candles." },
+  "peanuts": { d: "Small nuts that grow under the ground, often salted and eaten as a snack." },
+  "weekly schedule": { d: "A plan of what you will do each day of the week." },
+
+  // ---- Common Mistakes (L3) ----
+  "six": { d: "The number 6. It ends with the /ks/ sound." },
+  "bridge": { d: "A structure built over a river or road so people can cross." },
+  "like": { d: "To enjoy something or think it is nice." },
+  "rice": { d: "The white grain that is the main food in Vietnam." },
+  "scientist": { d: "A person whose job is science." },
+  "rice cooker": { d: "An electric pot that cooks rice for you." },
+  "shy": { d: "Nervous about meeting or talking to new people (a part of your character)." },
+  "embarrassed": { d: "Feeling uncomfortable and a bit ashamed because of something that just happened." },
+  "come": { d: "To move towards the person you are speaking to, or to the place you are talking about." },
+  "go": { d: "To move away from where you are now, to another place." },
+  "most": { d: "Almost all of a group; the biggest part. Used with a noun: most people." },
+  "almost": { d: "Nearly, but not completely. Used with an adjective, verb or number: almost ready." },
+  "common": { d: "Happening often or seen often; not unusual." },
+  "popular": { d: "Liked by many people." },
+  "smart": { d: "Intelligent; quick to learn and understand." },
+  "understood": { d: "Past form of 'understand'. The 'oo' here is the SHORT sound /ʊ/." }
 };

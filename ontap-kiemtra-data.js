@@ -6536,7 +6536,7 @@ window.ONTAP = [
     "v": "đi (từ nơi này sang nơi khác)",
     "x": "I go to work by motorbike.",
     "ip": "/ˈɡoʊ/",
-    "d": "To move or travel from one place to another."
+    "d": "To move away from where you are now, to another place."
    },
    {
     "s": 1,
@@ -6544,7 +6544,7 @@ window.ONTAP = [
     "v": "đến (về phía người nói)",
     "x": "Please come back later.",
     "ip": "/ˈkʌm/",
-    "d": "To move toward the speaker or toward a particular place."
+    "d": "To move towards the person you are speaking to, or to the place you are talking about."
    },
    {
     "s": 1,
@@ -7623,7 +7623,7 @@ window.ONTAP = [
     "v": "ngượng, xấu hổ",
     "x": "I was embarrassed when I forgot her name.",
     "ip": "/ɪmˈbɛɹəst/",
-    "d": "Having a feeling of shameful discomfort."
+    "d": "Feeling uncomfortable and a bit ashamed because of something that just happened."
    },
    {
     "e": "energetic",
@@ -12365,6 +12365,599 @@ window.ONTAP = [
   "shadow": {
    "en": "When I have a problem, I usually go to my older sister for advice, because she's calm and she knows me really well. For work problems, I ask a colleague who has more experience than me. I follow my parents' advice for big decisions, like money or my career, but for daily things I trust my friends more. My role model is my father. He's hardworking and patient, and he always keeps his promises, so he's the most trustworthy person I know. If I could go back in time and give myself some advice, I would say: start learning English earlier, and don't be afraid of making mistakes. And if a friend asks me what they should do, I try not to judge. I just say, 'If I were you, I would think about it for a few days,' or 'I think you should talk to them honestly first.' Sometimes people don't really need advice — they just need someone to listen.",
    "vi": "Khi gặp chuyện, mình thường hỏi ý kiến chị gái, vì chị bình tĩnh và hiểu mình rõ. Chuyện công việc thì mình hỏi một đồng nghiệp có nhiều kinh nghiệm hơn. Với quyết định lớn như tiền bạc hay sự nghiệp, mình nghe lời khuyên của ba mẹ; còn chuyện thường ngày thì mình tin bạn bè hơn. Hình mẫu của mình là ba. Ba chăm chỉ, kiên nhẫn, và luôn giữ lời hứa, nên ba là người đáng tin cậy nhất mình biết. Nếu quay ngược thời gian và khuyên chính mình, mình sẽ nói: học tiếng Anh sớm hơn đi, và đừng sợ sai. Còn khi bạn bè hỏi nên làm gì, mình cố không phán xét. Mình chỉ nói: 'Nếu là bạn, mình sẽ suy nghĩ vài ngày', hoặc 'Mình nghĩ bạn nên nói chuyện thẳng thắn với người ta trước.' Nhiều khi người ta không thật sự cần lời khuyên — họ chỉ cần một người chịu lắng nghe."
+  }
+ },
+ {
+  "icon": "😖",
+  "name": "Difficult Words / Từ khó phát âm",
+  "intro": "Phiếu L3 “DIFFICULT WORDS”: 3 nhóm từ khó — (1) cặp từ nghe rất giống nhau (15/50, can/can't, food/fruit, college/colleague), (2) từ có ÂM CÂM (Wednesday, island, muscle, hour), (3) từ dùng âm mà tiếng Việt không có nên người Việt hay đọc sai (Facebook, socks, teeth, peanuts…). Bấm 🔊 nghe rồi nhại lại từng từ.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "fifteen",
+    "v": "15 — trọng âm ở cuối: fifTEEN",
+    "x": "I said fifteen, not fifty.",
+    "d": "The number 15. Stress the END: fif-TEEN.",
+    "ip": "/fɪfˈtin/"
+   },
+   {
+    "s": 1,
+    "e": "fifty",
+    "v": "50 — trọng âm ở đầu: FIFty",
+    "x": "It costs fifty thousand dong.",
+    "d": "The number 50. Stress the START: FIF-ty.",
+    "ip": "/ˈfɪfti/"
+   },
+   {
+    "s": 1,
+    "e": "can",
+    "v": "có thể (đọc nhẹ, nguyên âm yếu)",
+    "x": "I can swim.",
+    "ip": "/ˈkæn/",
+    "d": "To be able to do something. In a sentence it is said quickly: /kən/."
+   },
+   {
+    "s": 1,
+    "e": "can't",
+    "v": "không thể (nguyên âm rõ + âm /t/ cuối)",
+    "x": "Sorry, I can't come tonight.",
+    "d": "Not able to do something. The vowel is clear and long: /kænt/.",
+    "ip": "/ˈkænt/"
+   },
+   {
+    "s": 1,
+    "e": "food",
+    "v": "đồ ăn (âm /uː/ dài)",
+    "x": "Vietnamese food is delicious.",
+    "ip": "/ˈfud/",
+    "d": "The things people eat."
+   },
+   {
+    "s": 1,
+    "e": "fruit",
+    "v": "trái cây (/fruːt/ — có âm /t/ cuối)",
+    "x": "I eat fruit every morning.",
+    "d": "The sweet part of a plant that you eat, such as mango or banana.",
+    "ip": "/ˈfɹut/"
+   },
+   {
+    "s": 1,
+    "e": "college",
+    "v": "trường cao đẳng/đại học (trọng âm đầu: COLlege)",
+    "x": "She's still in college.",
+    "d": "A school you go to after high school.",
+    "ip": "/ˈkɑlɪd͡ʒ/"
+   },
+   {
+    "s": 1,
+    "e": "colleague",
+    "v": "đồng nghiệp (COLleague — /liːɡ/ ở cuối)",
+    "x": "He's my colleague at work.",
+    "ip": "/ˈkɑliɡ/",
+    "d": "A person you work with."
+   },
+   {
+    "s": 1,
+    "e": "Wednesday",
+    "v": "thứ Tư — chữ “d” CÂM: WENZ-day",
+    "x": "We have a meeting on Wednesday.",
+    "d": "The day between Tuesday and Thursday. The first 'd' is silent.",
+    "ip": "/ˈwɛnzdi/"
+   },
+   {
+    "s": 1,
+    "e": "island",
+    "v": "hòn đảo — chữ “s” CÂM: EYE-land",
+    "x": "Phu Quoc is a beautiful island.",
+    "ip": "/ˈaɪlənd/",
+    "d": "Land with water all around it. The 's' is silent."
+   },
+   {
+    "s": 1,
+    "e": "muscle",
+    "v": "bắp thịt, cơ — chữ “c” CÂM: MUS-sel",
+    "x": "He works out to build muscle.",
+    "d": "The part of your body that makes you strong and lets you move. The 'c' is silent.",
+    "ip": "/ˈmʌsəl/"
+   },
+   {
+    "s": 1,
+    "e": "hour",
+    "v": "giờ — chữ “h” CÂM: OUR",
+    "x": "The class lasts one hour.",
+    "d": "Sixty minutes. The 'h' is silent, so it sounds like 'our'.",
+    "ip": "/ˈaʊɚ/"
+   },
+   {
+    "e": "Facebook",
+    "v": "Facebook — nhớ /s/ giữa và /k/ cuối",
+    "x": "How often do you look at Facebook?",
+    "d": "A social media app where people share posts and photos.",
+    "ip": "/ˈfeɪsˌbʊk/"
+   },
+   {
+    "e": "socks",
+    "v": "đôi tất/vớ — âm cuối /ks/",
+    "x": "I need a new pair of socks.",
+    "d": "Soft clothing you wear on your feet, inside your shoes.",
+    "ip": "/ˈsɑks/"
+   },
+   {
+    "e": "teeth",
+    "v": "những cái răng — âm /θ/ cuối (số ít: tooth)",
+    "x": "Brush your teeth twice a day.",
+    "ip": "/ˈtiθ/",
+    "d": "The hard white parts in your mouth that you bite with (one of them is a tooth)."
+   },
+   {
+    "e": "birthday cake",
+    "v": "bánh sinh nhật — /θ/ trong birthday, /k/ cuối cake",
+    "x": "She blew out the candles on her birthday cake.",
+    "d": "The cake you eat at a birthday party, usually with candles.",
+    "ip": "/ˈbɝθˌdeɪ ˈkeɪk/"
+   },
+   {
+    "e": "peanuts",
+    "v": "đậu phộng — âm cuối /ts/",
+    "x": "I'm allergic to peanuts.",
+    "d": "Small nuts that grow under the ground, often salted and eaten as a snack.",
+    "ip": "/ˈpinəts/"
+   },
+   {
+    "e": "weekly schedule",
+    "v": "lịch hằng tuần (schedule: /ˈskedʒuːl/ Mỹ)",
+    "x": "I plan my weekly schedule every Sunday.",
+    "d": "A plan of what you will do each day of the week.",
+    "ip": "/ˈwikli ˈskɛd͡ʒʊl/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "⚠️ Cặp từ nghe rất giống nhau (theo phiếu)",
+    "rows": [
+     {
+      "e": "15 fifteen ≠ 50 fifty",
+      "v": "Mẹo: fifTEEN nhấn CUỐI và có /n/; FIFty nhấn ĐẦU, kết thúc bằng /i/",
+      "a": "Is that fifteen or fifty? — Five-zero, fifty."
+     },
+     {
+      "e": "can ≠ can't",
+      "v": "can đọc nhẹ /kən/; can't nguyên âm rõ + /t/ cuối. Nghe nguyên âm, đừng chỉ nghe /t/",
+      "a": "I can come, but my brother can't."
+     },
+     {
+      "e": "food ≠ fruit",
+      "v": "food /fuːd/ kết thúc /d/; fruit /fruːt/ có /r/ và kết thúc /t/",
+      "a": "I love Vietnamese food, especially fresh fruit."
+     },
+     {
+      "e": "college ≠ colleague",
+      "v": "college = trường học; colleague = đồng nghiệp (kết thúc /liːɡ/)",
+      "a": "My colleague and I went to the same college."
+     }
+    ]
+   },
+   {
+    "title": "🔇 Âm câm — chữ viết mà KHÔNG đọc",
+    "pills": [
+     "Wednesday → WENZ-day (d câm)",
+     "island → EYE-land (s câm)",
+     "muscle → MUS-sel (c câm)",
+     "hour → OUR (h câm)"
+    ]
+   },
+   {
+    "title": "🇻🇳 Âm tiếng Việt không có — người Việt hay nuốt/đổi âm",
+    "rows": [
+     {
+      "e": "Facebook",
+      "v": "đủ /s/ ở giữa và /k/ ở cuối, không thành “Fây-bút”",
+      "a": "I check Facebook every evening."
+     },
+     {
+      "e": "socks",
+      "v": "đọc rõ cụm /ks/ ở cuối",
+      "a": "These socks don't match."
+     },
+     {
+      "e": "teeth",
+      "v": "/θ/ — thè nhẹ đầu lưỡi, không thành /t/ hay /s/",
+      "a": "The dentist checked my teeth."
+     },
+     {
+      "e": "birthday cake",
+      "v": "/θ/ giữa birthday + /k/ cuối cake",
+      "a": "We had birthday cake at the office."
+     },
+     {
+      "e": "peanuts",
+      "v": "cụm /ts/ cuối — đừng dừng ở /n/",
+      "a": "He ordered a beer and some peanuts."
+     },
+     {
+      "e": "weekly schedule",
+      "v": "schedule: Mỹ /ˈskedʒuːl/, Anh /ˈʃedjuːl/",
+      "a": "My weekly schedule is full."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Luyện cặp số: “Is it 15 or 50?” — hãy trả lời và nói rõ hai số.",
+    "a": "It's fifteen — one five, not fifty. When I'm not sure, I say the digits: “one five” or “five zero”, because fifteen and fifty sound so similar on the phone."
+   },
+   {
+    "q": "2. Tell me something you can do and something you can't do.",
+    "a": "I can cook a few Vietnamese dishes, and I can ride a motorbike in heavy traffic. But I can't swim very well, and I can't drive a car yet."
+   },
+   {
+    "q": "3. Do you prefer Vietnamese food or foreign food? What fruit do you eat most?",
+    "a": "I prefer Vietnamese food because it's fresh and not too oily. The fruit I eat most is mango, and I also love watermelon in summer."
+   },
+   {
+    "q": "4. Tell me about a colleague you like working with. Did you go to college?",
+    "a": "I like working with a colleague who is patient and always explains things clearly. Yes, I went to college in Ho Chi Minh City and studied information technology."
+   },
+   {
+    "q": "5. What do you usually do on Wednesday? Have you ever been to an island?",
+    "a": "On Wednesday I usually have a team meeting in the morning and work late. Yes, I've been to Phu Quoc island — the water was clear and the seafood was great."
+   },
+   {
+    "q": "6. How many hours do you sleep? Do you do any exercise to build muscle?",
+    "a": "I sleep about seven hours a night. I don't lift heavy weights, but I do push-ups at home to build a bit of muscle."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Sorry, did you say fifteen or fifty?",
+    "v": "Xin lỗi, bạn nói 15 hay 50 vậy?"
+   },
+   {
+    "p": "B",
+    "e": "Fifty. Five, zero. It's fifty thousand dong.",
+    "v": "50. Năm, không. Năm mươi nghìn đồng."
+   },
+   {
+    "p": "A",
+    "e": "Got it. Can you come at five, or can't you?",
+    "v": "Rõ rồi. Bạn tới lúc 5 giờ được không, hay không được?"
+   },
+   {
+    "p": "B",
+    "e": "I can't — I have a meeting. But my colleague can.",
+    "v": "Mình không tới được — có cuộc họp. Nhưng đồng nghiệp mình thì được."
+   },
+   {
+    "p": "A",
+    "e": "Is that the colleague you met at college?",
+    "v": "Có phải người đồng nghiệp bạn quen hồi đại học không?"
+   },
+   {
+    "p": "B",
+    "e": "That's the one. He's bringing fruit and a birthday cake.",
+    "v": "Đúng người đó. Anh ấy mang trái cây với bánh sinh nhật tới."
+   },
+   {
+    "p": "A",
+    "e": "Perfect. See you on Wednesday, then.",
+    "v": "Tuyệt. Vậy hẹn gặp thứ Tư nhé."
+   }
+  ],
+  "tips": [
+   "-TEEN nhấn ở CUỐI và có /n/ (thirTEEN, fourTEEN, fifTEEN) · -TY nhấn ở ĐẦU (THIRty, FOURty, FIFty). Không chắc thì đọc từng chữ số.",
+   "can trong câu khẳng định đọc nhẹ /kən/; can't đọc nguyên âm rõ /kænt/. Người bản xứ phân biệt bằng NGUYÊN ÂM và độ dài, không chỉ bằng /t/.",
+   "Âm câm hay gặp: Wednes(d)day · i(s)land · mus(c)le · (h)our · lis(t)en · kn(k)ow · wr(w)ite · cli(m)b.",
+   "Luôn đọc hết ÂM CUỐI: socks /ks/, peanuts /ts/, fruit /t/, teeth /θ/. Tiếng Việt không có âm cuối kiểu này nên rất dễ nuốt.",
+   "Cách luyện: nghe 🔊 → nhại lại → thu âm chính mình → so lại. Mỗi ngày 5 từ khó là đủ."
+  ],
+  "shadow": {
+   "en": "English pronunciation can be a nightmare, and some words are very similar to each other. When I say a number on the phone, people often ask me: “Fifteen or fifty?” So now I say the digits: one five, or five zero. It's the same with can and can't. In a normal sentence, can is said quickly, but can't has a clear, strong vowel, so I listen to the vowel and not only to the final t. Some words look easy but have silent letters. In Wednesday, the first d is silent. In island, the s is silent. In muscle, the c is silent. And in hour, the h is silent, so it sounds like our. Other words are hard because English uses sounds that Vietnamese doesn't have. I have to finish the ending of socks and peanuts, put my tongue between my teeth for teeth and birthday, and keep the k at the end of Facebook and cake. My trick is simple: listen, repeat, record myself, and compare. Five difficult words a day is enough.",
+   "vi": "Phát âm tiếng Anh đúng là ác mộng, có những từ nghe giống nhau kinh khủng. Mỗi lần mình đọc số qua điện thoại, người ta hay hỏi lại: “15 hay 50?” Nên giờ mình đọc từng chữ số: một-năm, hay năm-không. Cặp can và can't cũng vậy. Trong câu bình thường, can được đọc lướt, còn can't có nguyên âm rõ và mạnh, nên mình nghe NGUYÊN ÂM chứ không chỉ nghe âm t cuối. Có những từ trông dễ nhưng lại có chữ câm. Wednesday câm chữ d đầu. Island câm chữ s. Muscle câm chữ c. Còn hour câm chữ h, nên đọc y như “our”. Nhiều từ khác khó vì tiếng Anh có những âm tiếng Việt không có. Mình phải đọc hết đuôi của socks và peanuts, đặt lưỡi giữa hai hàm răng cho teeth và birthday, và giữ âm k ở cuối Facebook với cake. Mẹo của mình rất đơn giản: nghe, nhại lại, thu âm chính mình, rồi so sánh. Mỗi ngày năm từ khó là đủ."
+  }
+ },
+ {
+  "icon": "⚠️",
+  "name": "Common Mistakes / Lỗi thường gặp: âm cuối · double “O” · từ dễ nhầm",
+  "intro": "Phiếu L3 “COMMON MISTAKES”: (1) ÂM CUỐI — six, bridge, like, is, rice, scientist; (2) DOUBLE “O” — phân biệt /uː/ dài (food, moon) với /ʊ/ ngắn (book, good); (3) TỪ DỄ NHẦM NGHĨA — shy/embarrassed, come/go, most/almost, common/popular. Cuối bài là 7 câu hỏi luyện nói của phiếu.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "six",
+    "v": "số 6 — nhớ cụm /ks/ ở cuối",
+    "x": "I have six classes this week.",
+    "d": "The number 6. It ends with the /ks/ sound.",
+    "ip": "/ˈsɪks/"
+   },
+   {
+    "s": 1,
+    "e": "bridge",
+    "v": "cây cầu — âm /dʒ/ ở cuối",
+    "x": "We walked across the old bridge.",
+    "d": "A structure built over a river or road so people can cross.",
+    "ip": "/ˈbɹɪd͡ʒ/"
+   },
+   {
+    "s": 1,
+    "e": "like",
+    "v": "thích — nhớ /k/ ở cuối",
+    "x": "I like spicy food.",
+    "d": "To enjoy something or think it is nice.",
+    "ip": "/ˈlaɪk/"
+   },
+   {
+    "s": 1,
+    "e": "rice",
+    "v": "cơm, gạo — /s/ cuối (rice ≠ rise)",
+    "x": "We eat rice almost every day.",
+    "d": "The white grain that is the main food in Vietnam.",
+    "ip": "/ˈɹaɪs/"
+   },
+   {
+    "s": 1,
+    "e": "scientist",
+    "v": "nhà khoa học — /ts/ ở cuối",
+    "x": "She wants to be a scientist.",
+    "d": "A person whose job is science.",
+    "ip": "/ˈsaɪəntɪst/"
+   },
+   {
+    "s": 1,
+    "e": "rice cooker",
+    "v": "nồi cơm điện",
+    "x": "Every Vietnamese kitchen has a rice cooker.",
+    "d": "An electric pot that cooks rice for you.",
+    "ip": "/ˈɹaɪs ˈkʊkɚ/"
+   },
+   {
+    "s": 1,
+    "e": "shy",
+    "v": "nhút nhát (tính cách — ngại nói chuyện)",
+    "x": "He's too shy to speak in public.",
+    "ip": "/ˈʃaɪ/",
+    "d": "Nervous about meeting or talking to new people (a part of your character)."
+   },
+   {
+    "s": 1,
+    "e": "embarrassed",
+    "v": "xấu hổ, ngượng (cảm giác nhất thời)",
+    "x": "I felt embarrassed when I forgot his name.",
+    "ip": "/ɪmˈbɛɹəst/",
+    "d": "Feeling uncomfortable and a bit ashamed because of something that just happened."
+   },
+   {
+    "s": 1,
+    "e": "come",
+    "v": "đến (về phía người nghe/nơi đang nói tới)",
+    "x": "Can you come to my house tonight?",
+    "ip": "/ˈkʌm/",
+    "d": "To move towards the person you are speaking to, or to the place you are talking about."
+   },
+   {
+    "s": 1,
+    "e": "go",
+    "v": "đi (rời khỏi chỗ đang đứng)",
+    "x": "I go to the gym after work.",
+    "ip": "/ˈɡoʊ/",
+    "d": "To move away from where you are now, to another place."
+   },
+   {
+    "s": 1,
+    "e": "most",
+    "v": "hầu hết, đa số (+ danh từ)",
+    "x": "Most Vietnamese people ride motorbikes.",
+    "d": "Almost all of a group; the biggest part. Used with a noun: most people.",
+    "ip": "/ˈmoʊst/"
+   },
+   {
+    "s": 1,
+    "e": "almost",
+    "v": "gần như, suýt (+ tính từ/động từ/số lượng)",
+    "x": "I'm almost finished.",
+    "d": "Nearly, but not completely. Used with an adjective, verb or number: almost ready.",
+    "ip": "/ˈɔlˌmoʊst/"
+   },
+   {
+    "s": 1,
+    "e": "common",
+    "v": "phổ biến, hay gặp (nhiều, bình thường)",
+    "x": "Nguyen is a very common family name.",
+    "ip": "/ˈkɑmən/",
+    "d": "Happening often or seen often; not unusual."
+   },
+   {
+    "s": 1,
+    "e": "popular",
+    "v": "được ưa chuộng, nhiều người thích",
+    "x": "Banh mi is popular with tourists.",
+    "d": "Liked by many people.",
+    "ip": "/ˈpɑpjəlɚ/"
+   },
+   {
+    "e": "smart",
+    "v": "thông minh (so sánh nhất: the smartest)",
+    "x": "She's the smartest person I know.",
+    "d": "Intelligent; quick to learn and understand.",
+    "ip": "/ˈsmɑɹt/"
+   },
+   {
+    "e": "understood",
+    "v": "đã hiểu (quá khứ của understand) — “oo” NGẮN /ʊ/",
+    "x": "I understood everything he said.",
+    "d": "Past form of 'understand'. The 'oo' here is the SHORT sound /ʊ/.",
+    "ip": "/ˌʌndɚˈstʊd/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "🔚 FINAL SOUND — đọc hết âm cuối (theo phiếu)",
+    "rows": [
+     {
+      "e": "six",
+      "v": "/sɪks/ — cụm /ks/, không dừng ở /si/",
+      "a": "Six students came to class."
+     },
+     {
+      "e": "bridge",
+      "v": "/brɪdʒ/ — âm /dʒ/ cuối",
+      "a": "Turn left after the bridge."
+     },
+     {
+      "e": "like",
+      "v": "/laɪk/ — có /k/ cuối",
+      "a": "I like your new bike."
+     },
+     {
+      "e": "is",
+      "v": "/ɪz/ — đọc thành /z/, không phải /s/",
+      "a": "This is my friend."
+     },
+     {
+      "e": "rice",
+      "v": "/raɪs/ — /s/ cuối; rise thì /z/",
+      "a": "I'd like rice, not noodles."
+     },
+     {
+      "e": "scientist",
+      "v": "/ˈsaɪəntɪst/ — kết thúc /ts/",
+      "a": "My cousin is a scientist."
+     }
+    ]
+   },
+   {
+    "title": "🅾️ DOUBLE “O” — /uː/ DÀI vs /ʊ/ NGẮN (bảng của phiếu)",
+    "pills": [
+     "DÀI /uː/: food · tooth · soon · moon · zoo · cool",
+     "NGẮN /ʊ/: book · cook · foot · look · good · understood"
+    ],
+    "rows": [
+     {
+      "e": "food ≠ foot",
+      "v": "food /uː/ dài + /d/ · foot /ʊ/ ngắn + /t/",
+      "a": "This food is good, but my foot hurts."
+     },
+     {
+      "e": "soon ≠ book",
+      "v": "soon kéo dài môi tròn · book ngắn, dứt khoát",
+      "a": "I'll finish this book soon."
+     },
+     {
+      "e": "cool ≠ cook",
+      "v": "cool /uː/ · cook /ʊ/",
+      "a": "My mum can cook, and the kitchen is cool."
+     }
+    ]
+   },
+   {
+    "title": "🔀 TỪ DỄ NHẦM NGHĨA (theo phiếu)",
+    "rows": [
+     {
+      "e": "shy ≠ embarrassed",
+      "v": "shy = tính cách, ngại người lạ · embarrassed = ngượng vì một việc vừa xảy ra",
+      "a": "I'm a bit shy, and I felt really embarrassed when I fell down in front of everyone."
+     },
+     {
+      "e": "come ≠ go",
+      "v": "come = đến chỗ người nghe/nơi đang nói · go = đi khỏi chỗ mình đang đứng",
+      "a": "Are you coming to my party? — Yes, I'll go there after work."
+     },
+     {
+      "e": "most ≠ almost",
+      "v": "most + DANH TỪ (most people) · almost + tính từ/động từ/số (almost ready, almost 30)",
+      "a": "Most of my friends are almost thirty."
+     },
+     {
+      "e": "common ≠ popular",
+      "v": "common = hay gặp, bình thường · popular = được nhiều người YÊU THÍCH",
+      "a": "Colds are common in winter; phở is popular all year."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. What is something that most Vietnamese people do?",
+    "a": "Most Vietnamese people ride a motorbike every day, and most families eat rice together in the evening. Drinking iced tea or coffee in the morning is also very common.",
+    "a2": "Most Vietnamese people go home for Tet. Even if they work far away, they travel back to spend the holiday with their family."
+   },
+   {
+    "q": "2. What is the most popular street food in Saigon?",
+    "a": "I think banh mi is the most popular street food in Saigon, because it's cheap, fast and you can eat it anywhere. Com tam and banh trang tron are also really popular, especially with students."
+   },
+   {
+    "q": "3. Tell me about a time when you felt embarrassed.",
+    "a": "Once I called my new manager by the wrong name in a meeting, in front of the whole team. My face went red and I apologised twice. Now I always check names before I speak."
+   },
+   {
+    "q": "4. Do you have a rice cooker in your house? How often do you use it?",
+    "a": "Yes, of course — almost every Vietnamese house has a rice cooker. I use it nearly every day, usually in the evening, and sometimes I cook enough rice for the next morning too."
+   },
+   {
+    "q": "5. Who is the smartest person you know?",
+    "a": "The smartest person I know is my old classmate. He learns anything very quickly and explains difficult things in a simple way. He's now a software engineer."
+   },
+   {
+    "q": "6. How often do you look at Facebook?",
+    "a": "To be honest, I look at Facebook several times a day, usually during lunch and before bed. I'm trying to cut down, because it takes a lot of my free time."
+   },
+   {
+    "q": "7. Tell me three things you like and three things you don't like.",
+    "a": "I like cool weather, good coffee and long weekends. I don't like traffic jams, loud noise early in the morning, or people who are always late."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Most of my friends say banh mi is the most popular street food here.",
+    "v": "Đa số bạn mình nói bánh mì là món đường phố được ưa chuộng nhất ở đây."
+   },
+   {
+    "p": "B",
+    "e": "I agree. It's common to see a banh mi cart on almost every street.",
+    "v": "Mình đồng ý. Gặp xe bánh mì trên gần như mọi con đường là chuyện thường."
+   },
+   {
+    "p": "A",
+    "e": "Are you coming to lunch with us? We'll go to the place near the bridge.",
+    "v": "Bạn đi ăn trưa với tụi mình không? Tụi mình tới quán gần cây cầu."
+   },
+   {
+    "p": "B",
+    "e": "I'd like to, but I'm almost finished with a report. Give me six minutes.",
+    "v": "Mình muốn lắm, nhưng gần xong cái báo cáo rồi. Cho mình 6 phút."
+   },
+   {
+    "p": "A",
+    "e": "No problem. Do you want rice or noodles?",
+    "v": "Không sao. Bạn ăn cơm hay bún?"
+   },
+   {
+    "p": "B",
+    "e": "Rice, please. And don't tell them I'm shy — I'm just quiet!",
+    "v": "Cho mình cơm nhé. Mà đừng nói với họ là mình nhút nhát — mình chỉ ít nói thôi!"
+   },
+   {
+    "p": "A",
+    "e": "Haha, deal. Last week you looked so embarrassed when they sang for you.",
+    "v": "Haha, được thôi. Tuần trước lúc họ hát cho bạn, trông bạn ngượng ghê."
+   },
+   {
+    "p": "B",
+    "e": "Don't remind me! Okay, let's go.",
+    "v": "Đừng nhắc nữa! Rồi, đi thôi."
+   }
+  ],
+  "tips": [
+   "Tiếng Việt gần như không có âm cuối kiểu /ks/, /ts/, /dʒ/, /k/ — nên six, scientist, bridge, like rất dễ bị nuốt. Đọc chậm, thêm âm cuối rõ ràng.",
+   "Chữ “s” đọc thành /z/ khi đứng sau NGUYÊN ÂM hoặc phụ âm hữu thanh (is /ɪz/, rise /raɪz/, days /deɪz/); đọc /s/ sau phụ âm vô thanh (rice /raɪs/, books /bʊks/).",
+   "Double “O”: /uː/ DÀI (food, moon, soon, zoo, cool, tooth) · /ʊ/ NGẮN (book, cook, foot, look, good, understood). Sai độ dài là đổi hẳn từ: fool ≠ full.",
+   "most + danh từ (most people) · almost + tính từ/động từ/số lượng (almost ready, almost 30). KHÔNG nói “almost people”.",
+   "common = hay gặp (không nhất thiết được thích) · popular = được nhiều người yêu thích. shy = tính cách lâu dài · embarrassed = ngượng nhất thời."
+  ],
+  "shadow": {
+   "en": "There are three mistakes I make again and again. The first one is the final sound. In Vietnamese we don't finish words the way English does, so I used to say si instead of six, brid instead of bridge, and I forgot the k in like. Now I slow down and finish every word: six, bridge, like, rice, scientist. The second mistake is the double o. Food, soon, moon and cool have a long sound, but book, cook, foot, good and understood have a short one. If I get the length wrong, the word changes completely. The third mistake is choosing the wrong word. Shy is part of my character, but embarrassed is how I feel after something happens. Come is towards you, go is away from me. Most goes with a noun — most Vietnamese people — while almost goes with an adjective or a number, like almost ready or almost thirty. And common means we see it often, while popular means many people love it. Colds are common in winter; phở is popular all year.",
+   "vi": "Có ba lỗi mình lặp đi lặp lại. Lỗi thứ nhất là âm cuối. Tiếng Việt không kết thúc từ như tiếng Anh, nên trước đây mình hay đọc “si” thay vì six, “brid” thay vì bridge, và quên mất âm k trong like. Giờ mình đọc chậm lại và kết thúc trọn vẹn từng từ: six, bridge, like, rice, scientist. Lỗi thứ hai là “oo” đôi. Food, soon, moon, cool có âm dài, còn book, cook, foot, good, understood có âm ngắn. Đọc sai độ dài là đổi hẳn sang từ khác. Lỗi thứ ba là dùng sai từ. Shy là tính cách của mình, còn embarrassed là cảm giác ngượng sau một chuyện vừa xảy ra. Come là đi về phía bạn, go là rời khỏi chỗ mình. Most đi với danh từ — most Vietnamese people — còn almost đi với tính từ hoặc con số, kiểu almost ready hay almost thirty. Và common nghĩa là hay gặp, còn popular là được nhiều người yêu thích. Mùa lạnh thì cảm cúm là chuyện thường; còn phở thì cả năm ai cũng thích."
   }
  }
 ];
