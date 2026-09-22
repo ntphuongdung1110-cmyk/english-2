@@ -572,5 +572,28 @@ module.exports = {
   "common": { d: "Happening often or seen often; not unusual." },
   "popular": { d: "Liked by many people." },
   "smart": { d: "Intelligent; quick to learn and understand." },
-  "understood": { d: "Past form of 'understand'. The 'oo' here is the SHORT sound /ʊ/." }
+  "understood": { d: "Past form of 'understand'. The 'oo' here is the SHORT sound /ʊ/." },
+
+  // ---- Traditions & Celebrations (L3) ----
+  "culture": { d: "The way of life, beliefs and customs shared by a group of people." },
+  "Tet": { d: "The Vietnamese Lunar New Year, the biggest holiday of the year in Vietnam." },
+  "Lunar New Year": { d: "The new year of the lunar calendar, called Tet in Vietnam." },
+  "Ao Dai": { d: "The traditional Vietnamese long dress worn over trousers." },
+  "traditional clothing": { d: "The clothes a country has worn for a long time, kept for special days." },
+  "lanterns": { d: "Paper or cloth lamps with a light inside, hung up at festivals." },
+  "red envelopes": { d: "Small red paper envelopes that hold lucky money at Tet." },
+  "lucky money": { d: "Money given to children and elders at Tet to wish them luck." },
+  "incense": { d: "Thin sticks that make sweet smoke when you burn them, used at altars and pagodas." },
+  "to burn (something)": { d: "To set something on fire, for example incense or paper offerings." },
+  "(death) anniversary": { d: "The day each year when a family remembers someone who died, with a meal and incense." },
+  "festival": { d: "A special day or period when people celebrate something together." },
+  "mooncake": { d: "A round sweet cake eaten at the Mid-Autumn Festival." },
+  "customs": { d: "The usual ways of doing things in a country or family, kept over many years." },
+  "ancestors": { d: "Members of your family who lived and died before you." },
+  "elders": { d: "Older people in a family or community, treated with respect." },
+  "to show respect": { d: "To act in a polite way that shows you value someone." },
+  "pagoda": { d: "A Buddhist temple where people pray and burn incense." },
+  "flower market": { d: "A market selling flowers and small trees, very busy before Tet." },
+  "fireworks": { d: "Coloured lights and loud bangs in the sky on a special night." },
+  "uncommon": { d: "Not usual; not often seen or done." }
 };

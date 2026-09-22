@@ -12959,5 +12959,364 @@ window.ONTAP = [
    "en": "There are three mistakes I make again and again. The first one is the final sound. In Vietnamese we don't finish words the way English does, so I used to say si instead of six, brid instead of bridge, and I forgot the k in like. Now I slow down and finish every word: six, bridge, like, rice, scientist. The second mistake is the double o. Food, soon, moon and cool have a long sound, but book, cook, foot, good and understood have a short one. If I get the length wrong, the word changes completely. The third mistake is choosing the wrong word. Shy is part of my character, but embarrassed is how I feel after something happens. Come is towards you, go is away from me. Most goes with a noun — most Vietnamese people — while almost goes with an adjective or a number, like almost ready or almost thirty. And common means we see it often, while popular means many people love it. Colds are common in winter; phở is popular all year.",
    "vi": "Có ba lỗi mình lặp đi lặp lại. Lỗi thứ nhất là âm cuối. Tiếng Việt không kết thúc từ như tiếng Anh, nên trước đây mình hay đọc “si” thay vì six, “brid” thay vì bridge, và quên mất âm k trong like. Giờ mình đọc chậm lại và kết thúc trọn vẹn từng từ: six, bridge, like, rice, scientist. Lỗi thứ hai là “oo” đôi. Food, soon, moon, cool có âm dài, còn book, cook, foot, good, understood có âm ngắn. Đọc sai độ dài là đổi hẳn sang từ khác. Lỗi thứ ba là dùng sai từ. Shy là tính cách của mình, còn embarrassed là cảm giác ngượng sau một chuyện vừa xảy ra. Come là đi về phía bạn, go là rời khỏi chỗ mình. Most đi với danh từ — most Vietnamese people — còn almost đi với tính từ hoặc con số, kiểu almost ready hay almost thirty. Và common nghĩa là hay gặp, còn popular là được nhiều người yêu thích. Mùa lạnh thì cảm cúm là chuyện thường; còn phở thì cả năm ai cũng thích."
   }
+ },
+ {
+  "icon": "🎎",
+  "name": "Traditions & Celebrations / Truyền thống & lễ hội Việt Nam",
+  "intro": "Phiếu L3 “Traditions & Celebrations” (2 trang): từ vựng văn hoá Việt (Tet, Ao Dai, lanterns, red envelopes, incense, death anniversary) + 8 câu hỏi luyện nói + hoạt động “Find someone who… during Tet” (hỏi nhau về Tết, mẫu câu “Do you … during Tet?”) + hoạt động “New Celebrations” (giới thiệu một lễ hội nước ngoài bạn muốn trải nghiệm).",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "culture",
+    "v": "văn hoá",
+    "x": "Vietnamese culture is changing quickly.",
+    "d": "The way of life, beliefs and customs shared by a group of people.",
+    "ip": "/ˈkʌlt͡ʃɚ/"
+   },
+   {
+    "s": 1,
+    "e": "Tet",
+    "v": "Tết — Tết Nguyên đán (Lunar New Year)",
+    "x": "My whole family gets together at Tet.",
+    "d": "The Vietnamese Lunar New Year, the biggest holiday of the year in Vietnam.",
+    "ip": "/ˈtɛt/"
+   },
+   {
+    "s": 1,
+    "e": "Lunar New Year",
+    "v": "Tết Âm lịch (cách nói tiếng Anh của Tết)",
+    "x": "How does your family celebrate Lunar New Year?",
+    "d": "The new year of the lunar calendar, called Tet in Vietnam.",
+    "ip": "/ˈlunɚ ˈnu ˈjɪɹ/"
+   },
+   {
+    "s": 1,
+    "e": "Ao Dai",
+    "v": "áo dài (trang phục truyền thống)",
+    "x": "She wears an Ao Dai at Tet and at weddings.",
+    "d": "The traditional Vietnamese long dress worn over trousers.",
+    "ip": "/ˈaʊ ˈdaɪ/"
+   },
+   {
+    "s": 1,
+    "e": "traditional clothing",
+    "v": "trang phục truyền thống",
+    "x": "The Ao Dai is our traditional clothing.",
+    "d": "The clothes a country has worn for a long time, kept for special days.",
+    "ip": "/tɹəˈdɪʃənəl ˈkloʊðɪŋ/"
+   },
+   {
+    "s": 1,
+    "e": "lanterns",
+    "v": "đèn lồng",
+    "x": "The street is full of colourful lanterns at the Mid-Autumn Festival.",
+    "d": "Paper or cloth lamps with a light inside, hung up at festivals.",
+    "ip": "/ˈlæntɚnz/"
+   },
+   {
+    "s": 1,
+    "e": "red envelopes",
+    "v": "bao lì xì (đựng tiền mừng tuổi)",
+    "x": "Children get red envelopes from their relatives.",
+    "d": "Small red paper envelopes that hold lucky money at Tet.",
+    "ip": "/ˈɹɛd ˈɛnvəˌloʊps/"
+   },
+   {
+    "s": 1,
+    "e": "lucky money",
+    "v": "tiền lì xì, tiền mừng tuổi",
+    "x": "I give lucky money to my nieces and nephews.",
+    "d": "Money given to children and elders at Tet to wish them luck.",
+    "ip": "/ˈlʌki ˈmʌni/"
+   },
+   {
+    "s": 1,
+    "e": "incense",
+    "v": "nhang, hương",
+    "x": "My grandmother burns incense every morning.",
+    "d": "Thin sticks that make sweet smoke when you burn them, used at altars and pagodas.",
+    "ip": "/ˌɪnˈsɛns/"
+   },
+   {
+    "s": 1,
+    "e": "to burn (something)",
+    "v": "đốt (cái gì đó)",
+    "x": "We burn incense at the family altar.",
+    "d": "To set something on fire, for example incense or paper offerings.",
+    "ip": "/tə ˈbɝn/"
+   },
+   {
+    "s": 1,
+    "e": "(death) anniversary",
+    "v": "ngày giỗ (đám giỗ người đã mất)",
+    "x": "We cook a big meal on my grandfather's death anniversary.",
+    "ip": "/ˌænəˈvɝsɚi/",
+    "d": "The day each year when a family remembers someone who died, with a meal and incense."
+   },
+   {
+    "s": 1,
+    "e": "festival",
+    "v": "lễ hội",
+    "x": "The Mid-Autumn Festival is popular with children.",
+    "d": "A special day or period when people celebrate something together.",
+    "ip": "/ˈfɛstəvəl/"
+   },
+   {
+    "s": 1,
+    "e": "mooncake",
+    "v": "bánh trung thu",
+    "x": "My favourite mooncake has green bean filling.",
+    "d": "A round sweet cake eaten at the Mid-Autumn Festival.",
+    "ip": "/ˈmuːnkeɪk/"
+   },
+   {
+    "s": 1,
+    "e": "customs",
+    "v": "phong tục, tập quán",
+    "x": "Can you describe any Vietnamese wedding customs?",
+    "d": "The usual ways of doing things in a country or family, kept over many years.",
+    "ip": "/ˈkʌstəmz/"
+   },
+   {
+    "s": 1,
+    "e": "ancestors",
+    "v": "tổ tiên, ông bà đã khuất",
+    "x": "We honour our ancestors at the family altar.",
+    "d": "Members of your family who lived and died before you.",
+    "ip": "/ˈænˌsɛstɚz/"
+   },
+   {
+    "s": 1,
+    "e": "elders",
+    "v": "người lớn tuổi, bậc bề trên",
+    "x": "Young people greet their elders first.",
+    "d": "Older people in a family or community, treated with respect.",
+    "ip": "/ˈɛldɚz/"
+   },
+   {
+    "s": 1,
+    "e": "to show respect",
+    "v": "tỏ lòng kính trọng",
+    "x": "We use two hands to show respect.",
+    "d": "To act in a polite way that shows you value someone.",
+    "ip": "/tə ˈʃoʊ ɹɪˈspɛkt/"
+   },
+   {
+    "e": "pagoda",
+    "v": "chùa",
+    "x": "Many people burn incense at a pagoda on the first day of Tet.",
+    "d": "A Buddhist temple where people pray and burn incense.",
+    "ip": "/pəˈɡoʊdə/"
+   },
+   {
+    "e": "flower market",
+    "v": "chợ hoa",
+    "x": "We go to a flower market before Tet.",
+    "d": "A market selling flowers and small trees, very busy before Tet.",
+    "ip": "/ˈflaʊɚ ˈmɑɹkət/"
+   },
+   {
+    "e": "fireworks",
+    "v": "pháo hoa",
+    "x": "We watched the fireworks in person last year.",
+    "d": "Coloured lights and loud bangs in the sky on a special night.",
+    "ip": "/ˈfaɪɹˌwɝks/"
+   },
+   {
+    "e": "uncommon",
+    "v": "không phổ biến, hiếm gặp",
+    "x": "Pizza is an uncommon food during Tet.",
+    "d": "Not usual; not often seen or done.",
+    "ip": "/ənˈkɑmən/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "🎎 Find someone who… during Tet (trang 2 của phiếu)",
+    "pills": [
+     "Mẫu câu hỏi: “Do you … during Tet?”"
+    ],
+    "rows": [
+     {
+      "e": "travels to Can Tho for Tet",
+      "v": "về Cần Thơ ăn Tết",
+      "a": "Do you travel to Can Tho for Tet? — No, I don't. I stay in Saigon, but my cousin goes to Can Tho every year."
+     },
+     {
+      "e": "travels to Hanoi for Tet",
+      "v": "ra Hà Nội ăn Tết",
+      "a": "Do you travel to Hanoi for Tet? — Yes, I do. My father's family lives there, so we fly out a few days before."
+     },
+     {
+      "e": "goes to a flower market before Tet",
+      "v": "đi chợ hoa trước Tết",
+      "a": "Do you go to a flower market before Tet? — Yes, I go with my mother. We usually buy lilies and a small apricot tree."
+     },
+     {
+      "e": "gives 500,000 VND lucky money",
+      "v": "lì xì 500.000 đồng",
+      "a": "Do you give 500,000 VND lucky money? — Yes, I give that much to my younger brother."
+     },
+     {
+      "e": "gives 1,000,000 VND lucky money",
+      "v": "lì xì 1.000.000 đồng",
+      "a": "Do you give 1,000,000 VND lucky money? — Yes, but only to my parents. I give less to my younger sister."
+     },
+     {
+      "e": "burns incense at a pagoda",
+      "v": "thắp nhang ở chùa",
+      "a": "Do you burn incense at a pagoda during Tet? — Yes, I go to the pagoda on the first morning and pray for a healthy year."
+     },
+     {
+      "e": "takes Ao Dai photos at a park",
+      "v": "chụp ảnh áo dài ở công viên",
+      "a": "Do you take Ao Dai photos at a park during Tet? — Yes, I take photos with my relatives in a flower garden."
+     },
+     {
+      "e": "takes Ao Dai photos at a church or landmark",
+      "v": "chụp ảnh áo dài ở nhà thờ hoặc địa điểm nổi tiếng",
+      "a": "Do you take Ao Dai photos at a church during Tet? — Yes, we took photos at Notre-Dame Cathedral last year."
+     },
+     {
+      "e": "eats an uncommon food during Tet",
+      "v": "ăn món “không giống ai” trong Tết",
+      "a": "Do you eat an uncommon food during Tet? — Yes, one year we had pizza at a friend's house. Everyone was tired of banh chung!"
+     },
+     {
+      "e": "watches fireworks in person",
+      "v": "đi xem pháo hoa trực tiếp",
+      "a": "Do you watch fireworks in person? — Yes, I watch them with my parents near the river on New Year's Eve."
+     }
+    ]
+   },
+   {
+    "title": "❓ Follow-up questions — hỏi sâu thêm (trang 2)",
+    "pills": [
+     "Where do you ______?",
+     "Who do you ______ with?",
+     "Why do you ______?",
+     "What do you usually do there?",
+     "When do you ______?"
+    ]
+   },
+   {
+    "title": "🌸 New Celebrations — giới thiệu một lễ hội nước ngoài",
+    "rows": [
+     {
+      "e": "Đề bài của phiếu",
+      "v": "Chọn một lễ hội lớn của nước khác mà bạn muốn trải nghiệm. Liệt kê nó nói về điều gì và vài điều thú vị.",
+      "a": "Choose a big tradition or celebration that people in other countries celebrate that you would like to experience."
+     },
+     {
+      "e": "Ví dụ trong phiếu (đố xem nước nào)",
+      "v": "Lễ hội mùa xuân, đông người tụ tập hát múa, hoa hồng phấn khắp nơi, ăn trứng, bánh đậu đỏ và mochi",
+      "a": "This celebration is a festival in the spring. Many crowds of people gather to sing and dance. There are many pink flowers everywhere and people eat traditional foods such as: eggs, red bean snacks, and mochi. Can you guess which country / celebration it is?"
+     },
+     {
+      "e": "Cách nói của bạn (mẫu)",
+      "v": "Dàn ý: nó là gì · vào lúc nào · người ta làm gì · ăn gì · vì sao bạn muốn đi",
+      "a": "The celebration I'd like to experience is the Lantern Festival. It happens at the end of the Lunar New Year. People write their wishes on paper lanterns and let them fly into the night sky. They also eat sweet rice balls with their family. I'd love to see thousands of lanterns in the sky just once."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How does your family typically celebrate Lunar New Year?",
+    "a": "A few days before Tet, we clean the whole house and go to a flower market together. On New Year's Eve we cook a big meal, burn incense at the family altar and stay up until midnight. On the first day, we visit my grandparents, give lucky money to the children and wish everyone health and luck.",
+    "a2": "We usually go back to my hometown for Tet. My mother makes banh chung, my father prepares the altar, and we spend three or four days visiting relatives and neighbours."
+   },
+   {
+    "q": "2. What are some important festivals in Vietnam and how are they celebrated?",
+    "a": "The most important one is Tet, when families reunite and honour their ancestors. The Mid-Autumn Festival is for children — they carry lanterns and we eat mooncakes. We also have Hung Kings' Temple Festival to remember the ancestors of the nation, and many local pagoda festivals in spring."
+   },
+   {
+    "q": "3. What is your favorite and least favorite type of mooncake?",
+    "a": "My favourite is the green bean mooncake with a salted egg yolk, because it's sweet and salty at the same time. My least favourite is the one with mixed nuts and dried meat — it's too rich and a bit hard for me."
+   },
+   {
+    "q": "4. Can you describe any Vietnamese wedding customs?",
+    "a": "Before the wedding, the groom's family brings gifts in red boxes to the bride's house, and the couple bows in front of the family altar to ask permission from the ancestors. The bride often wears a red Ao Dai for the ceremony and a white dress for the party. Guests give money in envelopes instead of presents."
+   },
+   {
+    "q": "5. How is Vietnamese culture changing?",
+    "a": "Young people are more independent now — many move to big cities, marry later and live away from their parents. Tet is getting shorter, and some families travel instead of staying home. But the important things, like respect for elders and honouring ancestors, haven't changed much."
+   },
+   {
+    "q": "6. How do Vietnamese show respect to their elders and ancestors?",
+    "a": "We greet elders first when we arrive, use two hands to give and receive things, and use the right words for their age. For ancestors, we keep an altar at home, burn incense, and cook a meal on their death anniversary every year."
+   },
+   {
+    "q": "7. When and where do you wear an Ao Dai?",
+    "a": "I wear an Ao Dai at Tet, at weddings, and on special days at work or school. A lot of people also wear one to take photos at a park, a pagoda or a famous landmark during the Tet holiday."
+   },
+   {
+    "q": "8. What are some things foreigners should/shouldn't do when eating with a Vietnamese family?",
+    "a": "You should wait for the oldest person to start eating, invite people before you begin, and use two hands when you pass a bowl to an elder. You shouldn't stick your chopsticks straight up in the rice, because that looks like incense for the dead, and you shouldn't take the last piece without offering it to others first."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "What are you doing for Tet this year?",
+    "v": "Tết này bạn làm gì?"
+   },
+   {
+    "p": "B",
+    "e": "We're going back to my hometown. We leave two days before New Year's Eve.",
+    "v": "Tụi mình về quê. Đi trước giao thừa hai ngày."
+   },
+   {
+    "p": "A",
+    "e": "Nice. Do you go to a flower market before Tet?",
+    "v": "Hay đó. Trước Tết bạn có đi chợ hoa không?"
+   },
+   {
+    "p": "B",
+    "e": "Every year, with my mother. Then we clean the house and prepare the altar.",
+    "v": "Năm nào cũng đi với mẹ. Rồi về dọn nhà và chuẩn bị bàn thờ."
+   },
+   {
+    "p": "A",
+    "e": "Do you burn incense at a pagoda too?",
+    "v": "Bạn có đi chùa thắp nhang nữa không?"
+   },
+   {
+    "p": "B",
+    "e": "Yes, on the first morning. After that we visit my grandparents and give lucky money.",
+    "v": "Có, sáng mùng một. Xong tụi mình qua thăm ông bà và lì xì."
+   },
+   {
+    "p": "A",
+    "e": "How much do you usually put in the red envelopes?",
+    "v": "Bạn thường bỏ bao nhiêu vào bao lì xì?"
+   },
+   {
+    "p": "B",
+    "e": "It depends. Fifty thousand for the little kids, more for my parents.",
+    "v": "Tuỳ thôi. Bọn nhỏ thì năm chục nghìn, ba mẹ thì nhiều hơn."
+   },
+   {
+    "p": "A",
+    "e": "And will you wear an Ao Dai for photos?",
+    "v": "Bạn có mặc áo dài chụp ảnh không?"
+   },
+   {
+    "p": "B",
+    "e": "Of course! We take family photos in the garden every year.",
+    "v": "Dĩ nhiên rồi! Năm nào nhà mình cũng chụp ảnh ngoài vườn."
+   }
+  ],
+  "tips": [
+   "Tết nói tiếng Anh: “Tet” hoặc “(Vietnamese) Lunar New Year”. KHÔNG nói “Vietnamese New Year's Day” cho cả dịp Tết; “New Year's Eve” = đêm giao thừa.",
+   "Giới từ dịp lễ: AT Tet / AT Christmas · ON New Year's Eve · DURING the Tet holiday · FOR Tet (về quê ăn Tết = go home FOR Tet).",
+   "burn incense = thắp nhang (không nói “fire incense”). Bàn thờ = family altar. Ngày giỗ = (death) anniversary.",
+   "red envelope = cái bao lì xì (vật) · lucky money = tiền bên trong. “Give/get lucky money IN a red envelope”.",
+   "customs (phong tục, luôn số nhiều khi nói chung) ≠ costume (trang phục hoá trang). Ao Dai là traditional clothing, không phải costume."
+  ],
+  "shadow": {
+   "en": "Tet is the most important holiday of the year for my family. About a week before Lunar New Year, we clean the whole house from top to bottom, because we don't want to sweep away our luck on the first day. Then my mother and I go to a flower market to buy lilies and a small apricot tree. On New Year's Eve, we cook a big meal together, burn incense at the family altar to invite our ancestors home, and stay up until midnight to watch the fireworks. On the first morning, we visit my grandparents. We greet the elders first, wish them health and luck, and give the children red envelopes with lucky money inside. Many people also go to a pagoda to burn incense and pray for a peaceful year. Later in the holiday, we put on our Ao Dai and take photos in a garden or in front of an old building. Vietnamese culture is changing — young people travel more and the holiday feels shorter than before — but the two things that never change are respect for our elders and remembering our ancestors.",
+   "vi": "Tết là dịp quan trọng nhất trong năm với gia đình mình. Khoảng một tuần trước Tết, cả nhà dọn dẹp từ trên xuống dưới, vì không ai muốn quét mất lộc trong ngày mùng một. Rồi mẹ con mình đi chợ hoa mua hoa ly và một cây mai nhỏ. Đêm giao thừa, cả nhà cùng nấu một bữa thật lớn, thắp nhang trên bàn thờ để mời ông bà về, và thức tới nửa đêm xem pháo hoa. Sáng mùng một, tụi mình qua thăm ông bà. Chào người lớn trước, chúc sức khoẻ và may mắn, rồi lì xì cho tụi nhỏ. Nhiều người còn đi chùa thắp nhang cầu một năm bình an. Mấy ngày sau, cả nhà mặc áo dài đi chụp ảnh ở vườn hoa hoặc trước một toà nhà cổ. Văn hoá Việt đang đổi thay — người trẻ đi chơi xa nhiều hơn, Tết cũng ngắn hơn trước — nhưng hai điều không bao giờ đổi là kính trọng người lớn và nhớ về tổ tiên."
+  }
  }
 ];
