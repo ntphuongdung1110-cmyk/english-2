@@ -13204,8 +13204,8 @@ window.ONTAP = [
     "rows": [
      {
       "e": "Đề bài của phiếu",
-      "v": "Chọn một lễ hội lớn của nước khác mà bạn muốn trải nghiệm. Liệt kê nó nói về điều gì và vài điều thú vị.",
-      "a": "Choose a big tradition or celebration that people in other countries celebrate that you would like to experience."
+      "v": "Chọn một lễ hội/truyền thống lớn của nước khác mà bạn muốn trải nghiệm. Liệt kê nó nói về điều gì và vài điều thú vị về nó.",
+      "a": "Choose a big tradition or celebration that people in other countries celebrate that you would like to experience. Make a list of what it's about and some interesting things about it."
      },
      {
       "e": "Ví dụ trong phiếu (đố xem nước nào)",
@@ -13214,8 +13214,8 @@ window.ONTAP = [
      },
      {
       "e": "Cách nói của bạn (mẫu)",
-      "v": "Dàn ý: nó là gì · vào lúc nào · người ta làm gì · ăn gì · vì sao bạn muốn đi",
-      "a": "The celebration I'd like to experience is the Lantern Festival. It happens at the end of the Lunar New Year. People write their wishes on paper lanterns and let them fly into the night sky. They also eat sweet rice balls with their family. I'd love to see thousands of lanterns in the sky just once."
+      "v": "Dàn ý: lễ hội nước nào · vào lúc nào · người ta làm gì · ăn gì · vì sao bạn muốn đi",
+      "a": "The celebration I'd like to experience is the Lantern Festival in Taiwan. It happens two weeks after Lunar New Year. People write their wishes on paper lanterns and let them fly into the night sky. They also eat sweet rice balls with their family. I'd love to see thousands of lanterns in the sky just once."
      }
     ]
    }
@@ -13312,7 +13312,7 @@ window.ONTAP = [
    "Giới từ dịp lễ: AT Tet / AT Christmas · ON New Year's Eve · DURING the Tet holiday · FOR Tet (về quê ăn Tết = go home FOR Tet).",
    "burn incense = thắp nhang (không nói “fire incense”). Bàn thờ = family altar. Ngày giỗ = (death) anniversary.",
    "red envelope = cái bao lì xì (vật) · lucky money = tiền bên trong. “Give/get lucky money IN a red envelope”.",
-   "customs (phong tục, luôn số nhiều khi nói chung) ≠ costume (trang phục hoá trang). Ao Dai là traditional clothing, không phải costume."
+   "custom = MỘT phong tục (a Vietnamese custom); customs = phong tục nói chung. Đừng nhầm với costume (trang phục hoá trang) — Ao Dai là traditional clothing, không phải costume."
   ],
   "shadow": {
    "en": "Tet is the most important holiday of the year for my family. About a week before Lunar New Year, we clean the whole house from top to bottom, because we don't want to sweep away our luck on the first day. Then my mother and I go to a flower market to buy lilies and a small apricot tree. On New Year's Eve, we cook a big meal together, burn incense at the family altar to invite our ancestors home, and stay up until midnight to watch the fireworks. On the first morning, we visit my grandparents. We greet the elders first, wish them health and luck, and give the children red envelopes with lucky money inside. Many people also go to a pagoda to burn incense and pray for a peaceful year. Later in the holiday, we put on our Ao Dai and take photos in a garden or in front of an old building. Vietnamese culture is changing — young people travel more and the holiday feels shorter than before — but the two things that never change are respect for our elders and remembering our ancestors.",
