@@ -2260,7 +2260,7 @@ window.ONTAP = [
     "e": "oversleep",
     "v": "ngủ quên",
     "ip": "/ˌoʊvɚˈslip/",
-    "d": "To sleep for longer than intended.",
+    "d": "To sleep longer than you planned and wake up late.",
     "x": "I overslept and was late for school."
    },
    {
@@ -5838,7 +5838,7 @@ window.ONTAP = [
     "e": "No way!",
     "v": "Đời nào! / Không đời nào!",
     "ip": "/ˈnoʊ ˈweɪ/",
-    "d": "A very strong, informal way to say 'definitely not'.",
+    "d": "Used to say something is impossible, or that you can't believe it.",
     "x": "'Would you eat insects?' 'No way!'"
    },
    {
@@ -13317,6 +13317,670 @@ window.ONTAP = [
   "shadow": {
    "en": "Tet is the most important holiday of the year for my family. About a week before Lunar New Year, we clean the whole house from top to bottom, because we don't want to sweep away our luck on the first day. Then my mother and I go to a flower market to buy lilies and a small apricot tree. On New Year's Eve, we cook a big meal together, burn incense at the family altar to invite our ancestors home, and stay up until midnight to watch the fireworks. On the first morning, we visit my grandparents. We greet the elders first, wish them health and luck, and give the children red envelopes with lucky money inside. Many people also go to a pagoda to burn incense and pray for a peaceful year. Later in the holiday, we put on our Ao Dai and take photos in a garden or in front of an old building. Vietnamese culture is changing — young people travel more and the holiday feels shorter than before — but the two things that never change are respect for our elders and remembering our ancestors.",
    "vi": "Tết là dịp quan trọng nhất trong năm với gia đình mình. Khoảng một tuần trước Tết, cả nhà dọn dẹp từ trên xuống dưới, vì không ai muốn quét mất lộc trong ngày mùng một. Rồi mẹ con mình đi chợ hoa mua hoa ly và một cây mai nhỏ. Đêm giao thừa, cả nhà cùng nấu một bữa thật lớn, thắp nhang trên bàn thờ để mời ông bà về, và thức tới nửa đêm xem pháo hoa. Sáng mùng một, tụi mình qua thăm ông bà. Chào người lớn trước, chúc sức khoẻ và may mắn, rồi lì xì cho tụi nhỏ. Nhiều người còn đi chùa thắp nhang cầu một năm bình an. Mấy ngày sau, cả nhà mặc áo dài đi chụp ảnh ở vườn hoa hoặc trước một toà nhà cổ. Văn hoá Việt đang đổi thay — người trẻ đi chơi xa nhiều hơn, Tết cũng ngắn hơn trước — nhưng hai điều không bao giờ đổi là kính trọng người lớn và nhớ về tổ tiên."
+  }
+ },
+ {
+  "icon": "🗨️",
+  "name": "Native Speaker Phrases / Cụm người bản xứ hay dùng",
+  "intro": "Phiếu L3 “NATIVE SPEAKER PHRASES”: 12 cụm nói hằng ngày của người bản xứ, mỗi cụm kèm mẫu đối thoại của phiếu + cách diễn đạt khác (ghi chú trên lớp) + 7 câu hỏi luyện nói.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "play it by ear",
+    "v": "tới đâu hay tới đó, không lên kế hoạch trước",
+    "x": "I don't know. Let's just play it by ear.",
+    "d": "To decide what to do as the situation develops, instead of planning ahead.",
+    "ip": "/ˈpleɪ ˈɪt ˈbaɪ ˈiɹ/"
+   },
+   {
+    "s": 1,
+    "e": "do me a favor",
+    "v": "giúp mình một việc",
+    "x": "Can you do me a favor and drop me off on your way home?",
+    "d": "Used to ask someone to help you with something.",
+    "ip": "/du ˈmi ə ˈfeɪvɚ/"
+   },
+   {
+    "s": 1,
+    "e": "I'm dying to…",
+    "v": "mình rất nóng lòng muốn…",
+    "x": "I'm dying to try that new restaurant.",
+    "d": "Used to say you want to do something very much and can't wait.",
+    "ip": "/ˈaɪm ˈdaɪɪŋ tə/"
+   },
+   {
+    "s": 1,
+    "e": "never mind",
+    "v": "thôi bỏ đi, không quan trọng đâu",
+    "x": "Never mind. It's not important.",
+    "ip": "/ˈnɛ.vɚˌmaɪnd/",
+    "d": "Used to tell someone to forget it because it is not important."
+   },
+   {
+    "s": 1,
+    "e": "I've got to go",
+    "v": "mình phải đi đây (nói tắt: I've gotta go)",
+    "x": "No, sorry. I've gotta go.",
+    "d": "Used to say you must leave now (spoken: I've gotta go).",
+    "ip": "/ˈaɪv ˈɡɑt tə ˈɡoʊ/"
+   },
+   {
+    "s": 1,
+    "e": "What's the matter?",
+    "v": "có chuyện gì vậy? (hỏi khi ai đó có vẻ không ổn)",
+    "x": "What's the matter? — I don't really want to talk about it.",
+    "d": "Used to ask someone what is wrong or what is upsetting them.",
+    "ip": "/ˈwʌts ðə ˈmætɚ/"
+   },
+   {
+    "s": 1,
+    "e": "No way!",
+    "v": "không đời nào! / thật không thể tin nổi!",
+    "x": "There's no way you can eat 10 hột vịt lộn in one sitting!",
+    "ip": "/ˈnoʊ ˈweɪ/",
+    "d": "Used to say something is impossible, or that you can't believe it."
+   },
+   {
+    "s": 1,
+    "e": "Who cares?",
+    "v": "ai quan tâm chứ? (chuyện đó không đáng bận tâm)",
+    "x": "My photo didn't get many likes. — Who cares?",
+    "d": "Used to say that something is not important and not worth worrying about.",
+    "ip": "/ˈhu ˈkɛɹz/"
+   },
+   {
+    "s": 1,
+    "e": "I have no idea",
+    "v": "mình chịu, không biết gì luôn",
+    "x": "I have no idea, durian is delicious!",
+    "d": "Used to say you really don't know the answer.",
+    "ip": "/ˈaɪ ˈhæv ˈnoʊ aɪˈdiə/"
+   },
+   {
+    "s": 1,
+    "e": "Bottoms up!",
+    "v": "cạn ly nào!",
+    "x": "Congratulations, buddy. Bottoms up!",
+    "d": "Said before everyone drinks together; cheers.",
+    "ip": "/ˈbɑtəmz ˈʌp/"
+   },
+   {
+    "s": 1,
+    "e": "The more the merrier",
+    "v": "càng đông càng vui",
+    "x": "Of course! The more the merrier.",
+    "d": "Said to mean that the more people join, the more fun it will be.",
+    "ip": "/ðə ˈmɔɹ ðə ˈmɛɹiɚ/"
+   },
+   {
+    "s": 1,
+    "e": "Makes sense",
+    "v": "nghe hợp lý đấy, hiểu rồi",
+    "x": "Sometimes English is difficult, but it makes sense.",
+    "d": "Used to say that something is reasonable or easy to understand.",
+    "ip": "/ˈmeɪks ˈsɛns/"
+   },
+   {
+    "e": "favor",
+    "v": "việc giúp đỡ (do someone a favor)",
+    "x": "When was the last time you did a favor for someone?",
+    "d": "Something helpful you do for someone: do someone a favor.",
+    "ip": "/ˈfeɪvɚ/"
+   },
+   {
+    "e": "drop someone off",
+    "v": "cho ai quá giang, thả ai xuống dọc đường",
+    "x": "Can you drop me off on your way home?",
+    "d": "To take someone in your car or on your bike and leave them at a place.",
+    "ip": "/ˈdɹɑp ˈsʌmˌwʌn ˈɔf/"
+   },
+   {
+    "e": "in one sitting",
+    "v": "trong một lần ngồi, liền một mạch",
+    "x": "He watched the whole series in one sitting.",
+    "d": "In one continuous period, without stopping.",
+    "ip": "/ɪn ˈwʌn ˈsɪtɪŋ/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "💬 Mẫu đối thoại trong phiếu (12 cụm)",
+    "rows": [
+     {
+      "e": "“Play it by ear”",
+      "v": "What do you want to do tonight?",
+      "a": "I don't know. Let's just play it by ear."
+     },
+     {
+      "e": "“Do me a favor”",
+      "v": "Can you do me a favor and drop me off on your way home?",
+      "a": "Sure, no problem!"
+     },
+     {
+      "e": "“I'm dying to…”",
+      "v": "I'm dying to try that new restaurant.",
+      "a": "Me too! I heard it's amazing."
+     },
+     {
+      "e": "“Never mind”",
+      "v": "I'm sorry, I can't understand what you're saying.",
+      "a": "Never mind. It's not important."
+     },
+     {
+      "e": "“I've got to go”",
+      "v": "Should we order another round?",
+      "a": "No, sorry. I've gotta go."
+     },
+     {
+      "e": "“What's the matter?”",
+      "v": "What's the matter?",
+      "a": "I don't really want to talk about it."
+     },
+     {
+      "e": "“No way!” (1 — không thể làm nổi)",
+      "v": "There's no way you can eat 10 hột vịt lộn in one sitting!",
+      "a": "Dùng khi bạn cho rằng chuyện đó là bất khả thi."
+     },
+     {
+      "e": "“No way!” (2 — không thể tin nổi)",
+      "v": "My girlfriend has been cheating on me with my brother!",
+      "a": "No way!"
+     },
+     {
+      "e": "“Who cares?”",
+      "v": "I'm sad because my new picture on Facebook didn't get many likes.",
+      "a": "Who cares?"
+     },
+     {
+      "e": "“I have no idea”",
+      "v": "Why don't foreigners like durian?",
+      "a": "I have no idea, durian is delicious!"
+     },
+     {
+      "e": "“Bottoms up!”",
+      "v": "Today, our friend is getting married. Congratulations, buddy.",
+      "a": "Bottoms up!"
+     },
+     {
+      "e": "“The more the merrier”",
+      "v": "Is it okay if I invite my friend to your party tonight?",
+      "a": "Of course! The more the merrier."
+     },
+     {
+      "e": "“Makes sense”",
+      "v": "Sometimes English is difficult, though through tough, thorough thought, it makes sense.",
+      "a": "Câu này cố tình xếp nhiều chữ “-ough” đọc khác nhau: though /oʊ/ · through /u/ · tough /ʌf/ · thorough /ɚ/ · thought /ɔ/."
+     }
+    ]
+   },
+   {
+    "title": "🔁 Cách nói khác (ghi chú trên lớp)",
+    "rows": [
+     {
+      "e": "play it by ear",
+      "v": "= no plans — không lên kế hoạch trước",
+      "a": "Let's decide later. I have no plans yet."
+     },
+     {
+      "e": "do me a favor",
+      "v": "= give me a hand / help me out",
+      "a": "Can you give me a hand with this?"
+     },
+     {
+      "e": "I'm dying to…",
+      "v": "= I'm really excited to… / I really want to…",
+      "a": "I'm really excited to try that restaurant."
+     },
+     {
+      "e": "never mind",
+      "v": "= forget about it",
+      "a": "Forget about it — it's not a big deal."
+     },
+     {
+      "e": "I've got to go",
+      "v": "= I need to leave",
+      "a": "Sorry, I need to leave now."
+     },
+     {
+      "e": "What's the matter?",
+      "v": "= What's wrong? / What's going on with you?",
+      "a": "You look upset. What's wrong?"
+     },
+     {
+      "e": "No way!",
+      "v": "= I don't believe you!",
+      "a": "Seriously? I don't believe you!"
+     },
+     {
+      "e": "I have no idea",
+      "v": "= I can't even guess / I have no clue",
+      "a": "Honestly, I have no clue."
+     },
+     {
+      "e": "Bottoms up!",
+      "v": "= uống cạn 100%",
+      "a": "Cheers, everyone. Bottoms up!"
+     },
+     {
+      "e": "The more the merrier",
+      "v": "= the more people, the more fun",
+      "a": "Bring your friends — the more people, the more fun."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. When was the last time you did a favor for someone?",
+    "a": "Last week a colleague asked me to cover a meeting because her son was sick, so I did her a favor and took notes for her. She was really grateful, and honestly I'd do it again.",
+    "a2": "Yesterday I gave my neighbour a hand carrying her groceries up the stairs. It only took two minutes, but she looked really happy."
+   },
+   {
+    "q": "2. For what situations would you say, “the more the merrier”?",
+    "a": "I'd say it for parties, barbecues, karaoke, or a weekend trip with friends — anything where extra people make it more fun. If someone asks, “Can I bring a friend?”, I'd answer, “Of course, the more the merrier!”"
+   },
+   {
+    "q": "3. For what situations would you not say, “the more the merrier”?",
+    "a": "I wouldn't say it for a small dinner at home, a serious meeting, a romantic date, or a car trip when there aren't enough seats. In those cases more people just make things crowded or awkward."
+   },
+   {
+    "q": "4. Do you prefer to play things by ear or carefully plan everything?",
+    "a": "For work I plan everything carefully, because other people depend on my schedule. But at the weekend I'd rather play it by ear — we decide where to eat when we're already out."
+   },
+   {
+    "q": "5. Traffic in Saigon doesn't make sense. Do you agree or disagree?",
+    "a": "I partly agree. At first it looks like chaos — motorbikes on the pavement, people turning from the wrong lane. But once you ride in it every day, it actually makes sense: everyone moves slowly and watches the person in front."
+   },
+   {
+    "q": "6. What are you dying to do in the future?",
+    "a": "I'm dying to travel to Japan in spring and see the cherry blossoms. I'm also dying to speak English fluently enough to join a meeting without preparing anything first."
+   },
+   {
+    "q": "7. Is there any food that there is no way you will ever eat?",
+    "a": "There's no way I'll ever eat balut — hột vịt lộn. I know a lot of Vietnamese people love it, but I can't get past the look. I'm also not brave enough for live squid."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Hey, can you do me a favor?",
+    "v": "Này, giúp mình một việc được không?"
+   },
+   {
+    "p": "B",
+    "e": "Sure, what's up?",
+    "v": "Được chứ, chuyện gì vậy?"
+   },
+   {
+    "p": "A",
+    "e": "Can you drop me off at the station on your way home?",
+    "v": "Bạn cho mình quá giang tới ga trên đường về được không?"
+   },
+   {
+    "p": "B",
+    "e": "No problem. What time do we leave?",
+    "v": "Không vấn đề gì. Mấy giờ mình đi?"
+   },
+   {
+    "p": "A",
+    "e": "I don't know yet — let's play it by ear.",
+    "v": "Mình chưa biết nữa — tới đâu hay tới đó đi."
+   },
+   {
+    "p": "B",
+    "e": "Makes sense. Oh, is it okay if my brother comes too?",
+    "v": "Nghe hợp lý. À, em trai mình đi cùng được không?"
+   },
+   {
+    "p": "A",
+    "e": "Of course! The more the merrier.",
+    "v": "Dĩ nhiên! Càng đông càng vui."
+   },
+   {
+    "p": "B",
+    "e": "Great. By the way, what's the matter? You look tired.",
+    "v": "Tuyệt. Mà này, có chuyện gì hả? Trông bạn mệt mệt."
+   },
+   {
+    "p": "A",
+    "e": "It's nothing. Never mind. I'm just dying to finish this project.",
+    "v": "Không có gì đâu. Bỏ qua đi. Mình chỉ nóng lòng làm xong dự án này thôi."
+   },
+   {
+    "p": "B",
+    "e": "Hang in there. Okay, I've gotta go — see you at six.",
+    "v": "Cố lên nha. Rồi, mình phải đi đây — gặp lúc 6 giờ."
+   }
+  ],
+  "tips": [
+   "“I've got to go” trong văn nói rút thành “I've gotta go” hoặc “I gotta go”. Viết trang trọng thì dùng “I have to go”.",
+   "do somebody A FAVOR (Mỹ) / FAVOUR (Anh): “Do me a favor” = nhờ vả thân mật. Lịch sự hơn: “Could you do me a favour?”.",
+   "“I'm dying to + V nguyên mẫu” (I'm dying to see it) ≠ “I'm dying FOR + danh từ” (I'm dying for a coffee). Đều nghĩa là rất muốn, không liên quan đến chết chóc.",
+   "“Never mind” = thôi bỏ qua. KHÔNG dùng để đáp lại lời cảm ơn — lúc đó nói “No problem / You're welcome”.",
+   "“Who cares?” nghe hơi cộc nếu nói với người đang buồn thật. Với bạn thân thì đùa được; còn lại nên nói “Don't worry about it”."
+  ],
+  "shadow": {
+   "en": "There are a few phrases I hear from native speakers almost every day, and learning them changed the way I talk. When a friend asks what I want to do tonight and I really don't know, I say, “Let's play it by ear.” When I need help, I ask, “Can you do me a favor and drop me off on your way home?” When I'm excited about something, I say, “I'm dying to try that new restaurant.” If someone can't hear me and it isn't important, I just smile and say, “Never mind.” When I have to leave a party early, I say, “Sorry, I've gotta go.” If a friend looks upset, I ask, “What's the matter?” If the story is unbelievable, I say, “No way!” If it's something small that doesn't matter, my friends say, “Who cares?” When I don't know the answer at all, I say, “I have no idea.” Before we drink together, someone always shouts, “Bottoms up!” And when a friend asks to bring one more person to dinner, I answer, “Of course, the more the merrier.” They're short, they're easy, and they make my English sound natural. Makes sense, right?",
+   "vi": "Có vài cụm mình nghe người bản xứ nói gần như mỗi ngày, và học chúng đã thay đổi cách mình nói chuyện. Khi bạn hỏi tối nay muốn làm gì mà mình thật sự chưa biết, mình nói: “Tới đâu hay tới đó đi.” Khi cần giúp, mình hỏi: “Giúp mình một việc, cho mình quá giang trên đường về nhé?” Khi háo hức chuyện gì, mình nói: “Mình đang nóng lòng thử nhà hàng mới đó.” Nếu ai đó nghe không rõ mà chuyện cũng không quan trọng, mình chỉ cười và nói: “Thôi bỏ đi.” Khi phải rời bữa tiệc sớm, mình nói: “Xin lỗi, mình phải đi đây.” Nếu bạn mình trông buồn, mình hỏi: “Có chuyện gì vậy?” Nếu câu chuyện khó tin quá, mình kêu: “Không đời nào!” Còn nếu là chuyện nhỏ chẳng đáng, tụi bạn sẽ nói: “Ai quan tâm chứ?” Khi hoàn toàn không biết, mình nói: “Mình chịu.” Trước khi cụng ly, kiểu gì cũng có người hô: “Cạn ly nào!” Và khi bạn xin dẫn thêm một người đi ăn cùng, mình đáp: “Dĩ nhiên rồi, càng đông càng vui.” Ngắn, dễ, mà làm tiếng Anh của mình nghe tự nhiên hẳn. Nghe hợp lý ha?"
+  }
+ },
+ {
+  "icon": "😴",
+  "name": "Sleep & Dreams / Giấc ngủ & giấc mơ",
+  "intro": "Phiếu L3 “SLEEP & DREAMS”: 5 câu khởi động + từ vựng giấc ngủ (early bird, night owl, snore, sleepwalk, daydream, nightmare, oversleep, insomnia, light/heavy sleeper) + 10 câu hỏi luyện nói + hoạt động “Describe the ___ of your dreams” (người/công việc/ngôi nhà/kỳ nghỉ/bữa ăn/lúc nghỉ hưu trong mơ).",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "exhausted",
+    "v": "kiệt sức (người cảm thấy)",
+    "x": "After the trip I was completely exhausted.",
+    "d": "Very, very tired — said about a PERSON.",
+    "ip": "/ɪɡˈzɔstɪd/"
+   },
+   {
+    "s": 1,
+    "e": "exhausting",
+    "v": "làm kiệt sức (việc gây ra cảm giác đó)",
+    "x": "Taking care of a baby is exhausting.",
+    "d": "Making you very tired — said about an ACTIVITY or job.",
+    "ip": "/ɪɡˈzɔstɪŋ/"
+   },
+   {
+    "s": 1,
+    "e": "early bird",
+    "v": "người dậy sớm",
+    "x": "I'm an early bird — I get up at five.",
+    "d": "A person who likes getting up early in the morning.",
+    "ip": "/ˈɝli ˈbɝd/"
+   },
+   {
+    "s": 1,
+    "e": "night owl",
+    "v": "cú đêm, người thức khuya",
+    "x": "My brother is a night owl; he sleeps at two.",
+    "d": "A person who likes staying up late at night.",
+    "ip": "/ˈnaɪt aʊl/"
+   },
+   {
+    "s": 1,
+    "e": "snore",
+    "v": "ngáy",
+    "x": "My father snores so loudly that I can hear him from my room.",
+    "d": "To make a loud noise through your nose and mouth while you sleep.",
+    "ip": "/ˈsnɔɹ/"
+   },
+   {
+    "s": 1,
+    "e": "sleepwalk",
+    "v": "mộng du",
+    "x": "She used to sleepwalk when she was a child.",
+    "d": "To get up and walk around while you are still asleep.",
+    "ip": "/ˈslipˌwɔk/"
+   },
+   {
+    "s": 1,
+    "e": "daydream",
+    "v": "mơ mộng giữa ban ngày (n./v.)",
+    "x": "I often daydream about living by the sea.",
+    "d": "To think pleasant thoughts about something else while you are awake.",
+    "ip": "/ˈdeɪˌdɹim/"
+   },
+   {
+    "s": 1,
+    "e": "nightmare",
+    "v": "cơn ác mộng",
+    "x": "I had a nightmare about losing my passport.",
+    "d": "A frightening dream.",
+    "ip": "/ˈnaɪtˌmɛɹ/"
+   },
+   {
+    "s": 1,
+    "e": "oversleep",
+    "v": "ngủ quên, dậy muộn",
+    "x": "I overslept and missed the first class.",
+    "ip": "/ˌoʊvɚˈslip/",
+    "d": "To sleep longer than you planned and wake up late."
+   },
+   {
+    "s": 1,
+    "e": "insomnia",
+    "v": "chứng mất ngủ",
+    "x": "Stress at work gave me insomnia for a week.",
+    "d": "The problem of not being able to fall asleep or stay asleep.",
+    "ip": "/ˌɪnˈsɑmniə/"
+   },
+   {
+    "s": 1,
+    "e": "light sleeper",
+    "v": "người ngủ tỉnh (dễ thức giấc)",
+    "x": "I'm a light sleeper, so any noise wakes me up.",
+    "d": "A person who wakes up easily, even from small noises.",
+    "ip": "/ˈlaɪt ˈslipɚ/"
+   },
+   {
+    "s": 1,
+    "e": "heavy sleeper",
+    "v": "người ngủ say (khó đánh thức)",
+    "x": "He's such a heavy sleeper that he didn't hear the alarm.",
+    "d": "A person who is hard to wake up.",
+    "ip": "/ˈhɛvi ˈslipɚ/"
+   },
+   {
+    "e": "take a nap",
+    "v": "ngủ trưa, chợp mắt",
+    "x": "How often do you take a nap?",
+    "ip": "/ˈteɪk ə ˈnæp/",
+    "d": "To sleep for a short time during the day."
+   },
+   {
+    "e": "fall asleep",
+    "v": "ngủ thiếp đi",
+    "x": "Have you ever fallen asleep in class?",
+    "d": "To start sleeping, often without meaning to.",
+    "ip": "/ˈfɔl əˈslip/"
+   },
+   {
+    "e": "dream",
+    "v": "mơ — quá khứ: dreamt (Anh) / dreamed (Mỹ)",
+    "x": "Have you ever dreamt in English?",
+    "d": "To see pictures and stories in your mind while you sleep. Past: dreamt (BrE) or dreamed (AmE).",
+    "ip": "/ˈdɹim/"
+   },
+   {
+    "e": "realistic",
+    "v": "thực tế, khả thi",
+    "x": "Do you think your dream is realistic or unrealistic?",
+    "d": "Possible to do or achieve in real life.",
+    "ip": "/ˌɹiəˈlɪstɪk/"
+   },
+   {
+    "e": "retirement",
+    "v": "lúc nghỉ hưu",
+    "x": "In my dream retirement, I live in a quiet town by the sea.",
+    "d": "The time of life after you stop working for good.",
+    "ip": "/ɹiˈtaɪɚmənt/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "☕ Warm-up questions (5 câu của phiếu)",
+    "rows": [
+     {
+      "e": "1. Do you feel tired now?",
+      "v": "Bây giờ bạn có mệt không?",
+      "a": "A little. I'm not exhausted, but I could use a coffee."
+     },
+     {
+      "e": "2. What time did you go to sleep last night?",
+      "v": "Tối qua mấy giờ bạn đi ngủ?",
+      "a": "I went to sleep around eleven thirty, a bit later than usual."
+     },
+     {
+      "e": "3. What time did you wake up this morning?",
+      "v": "Sáng nay bạn dậy lúc mấy giờ?",
+      "a": "I woke up at six, before my alarm went off."
+     },
+     {
+      "e": "4. How many hours of sleep do you usually get per night?",
+      "v": "Bạn thường ngủ mấy tiếng một đêm?",
+      "a": "About six and a half hours on weekdays, and eight at the weekend."
+     },
+     {
+      "e": "5. Have you ever fallen asleep in class?",
+      "v": "Bạn từng ngủ gật trong lớp chưa?",
+      "a": "Yes, once at university, in an afternoon class after lunch. My friend woke me up before the teacher noticed."
+     }
+    ]
+   },
+   {
+    "title": "💭 Describe the ___ of your dreams (hoạt động cuối phiếu)",
+    "pills": [
+     "Man/Woman",
+     "Job",
+     "House",
+     "Vacation",
+     "Meal",
+     "Retirement"
+    ],
+    "rows": [
+     {
+      "e": "The man / woman of my dreams",
+      "v": "Người trong mộng",
+      "a": "The woman of my dreams is kind and funny, listens more than she talks, and doesn't mind my messy weekends."
+     },
+     {
+      "e": "The job of my dreams",
+      "v": "Công việc mơ ước",
+      "a": "The job of my dreams lets me solve interesting problems, work with people I trust, and finish before six so I still have a life."
+     },
+     {
+      "e": "The house of my dreams",
+      "v": "Ngôi nhà mơ ước",
+      "a": "The house of my dreams is small but full of light, with a big kitchen, a balcony full of plants, and no traffic noise."
+     },
+     {
+      "e": "The vacation of my dreams",
+      "v": "Kỳ nghỉ mơ ước",
+      "a": "The vacation of my dreams is two weeks in Japan in spring — trains, temples, street food, and no work email."
+     },
+     {
+      "e": "The meal of my dreams",
+      "v": "Bữa ăn mơ ước",
+      "a": "The meal of my dreams is my mother's bun bo hue, eaten with my whole family on a rainy afternoon."
+     },
+     {
+      "e": "The retirement of my dreams",
+      "v": "Tuổi hưu mơ ước",
+      "a": "In the retirement of my dreams I live in a quiet town near the sea, wake up early, walk every morning and teach a little on the side."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How often do you take a nap?",
+    "a": "I take a short nap almost every day after lunch, usually about twenty minutes at my desk. If I sleep longer than that, I wake up feeling worse.",
+    "a2": "Honestly, almost never on weekdays — there's no time. But at the weekend I sometimes nap for an hour in the afternoon."
+   },
+   {
+    "q": "2. Are you an early bird or a night owl?",
+    "a": "I'm more of a night owl. I focus best after nine in the evening, so I often go to bed after midnight. I wish I were an early bird, because mornings in Saigon are so quiet."
+   },
+   {
+    "q": "3. Do you ever snore? Sleepwalk?",
+    "a": "My family says I snore a little when I'm really exhausted or when I have a cold. I've never sleepwalked, but my cousin did when he was a kid — he once walked into the kitchen and went back to bed."
+   },
+   {
+    "q": "4. How often do you daydream? What do you daydream about?",
+    "a": "I daydream all the time, especially in long meetings. I usually daydream about travelling, or about a quiet house near the beach with a big balcony."
+   },
+   {
+    "q": "5. Do you usually remember your dreams?",
+    "a": "Only if I wake up in the middle of one. Then I remember it clearly for a few minutes and forget it by the time I finish breakfast. Most mornings I remember nothing at all."
+   },
+   {
+    "q": "6. How often do you have nightmares?",
+    "a": "Not often — maybe once a month, usually when I'm stressed about work. My most common nightmare is being late for something important and not being able to run."
+   },
+   {
+    "q": "7. Are you a heavy sleeper or a light sleeper?",
+    "a": "I'm a light sleeper. A motorbike outside or a phone vibrating is enough to wake me up, so I sleep with earplugs. My husband is the opposite — a very heavy sleeper."
+   },
+   {
+    "q": "8. What language do you dream in? Have you ever dreamt in English?",
+    "a": "I mostly dream in Vietnamese. But I have dreamt in English a few times, usually after a long day of English meetings. The strange thing is that my English is much more fluent in dreams!"
+   },
+   {
+    "q": "9. Have you ever overslept for something important? (a test, job interview, romantic date?)",
+    "a": "Yes — I once overslept on the morning of an exam because I studied until three. I woke up twenty minutes before it started, took a taxi, and arrived just in time. Now I always set three alarms."
+   },
+   {
+    "q": "10. What is your dream for the future? Do you think it is realistic or unrealistic?",
+    "a": "My dream is to work on projects I care about and travel a few times a year with my family. I think it's realistic — it needs saving and planning, not luck. My other dream, a house by the sea, is a bit unrealistic for now."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "You look exhausted. Did you sleep badly?",
+    "v": "Trông bạn kiệt sức luôn. Ngủ không ngon à?"
+   },
+   {
+    "p": "B",
+    "e": "Terribly. I've had insomnia all week.",
+    "v": "Tệ lắm. Cả tuần nay mình mất ngủ."
+   },
+   {
+    "p": "A",
+    "e": "What time did you go to sleep last night?",
+    "v": "Tối qua mấy giờ bạn ngủ?"
+   },
+   {
+    "p": "B",
+    "e": "Around two. I'm a night owl, but this is too much.",
+    "v": "Khoảng 2 giờ. Mình vốn là cú đêm, nhưng vậy là quá rồi."
+   },
+   {
+    "p": "A",
+    "e": "Do you take a nap during the day?",
+    "v": "Ban ngày bạn có chợp mắt không?"
+   },
+   {
+    "p": "B",
+    "e": "Sometimes, twenty minutes after lunch. Otherwise I fall asleep in meetings.",
+    "v": "Thỉnh thoảng, 20 phút sau bữa trưa. Không thì mình ngủ gật trong họp."
+   },
+   {
+    "p": "A",
+    "e": "Same here. And I'm such a light sleeper — every motorbike wakes me up.",
+    "v": "Mình cũng vậy. Mà mình ngủ tỉnh lắm — xe máy chạy qua là thức."
+   },
+   {
+    "p": "B",
+    "e": "Lucky you're not my brother. He snores like a truck.",
+    "v": "May bạn không phải em trai mình. Nó ngáy như xe tải."
+   },
+   {
+    "p": "A",
+    "e": "Ha! Try going to bed an hour earlier tonight.",
+    "v": "Haha! Tối nay thử đi ngủ sớm hơn một tiếng xem."
+   },
+   {
+    "p": "B",
+    "e": "I'll try. Sweet dreams — and don't oversleep tomorrow!",
+    "v": "Mình sẽ thử. Ngủ ngon nhé — mai đừng ngủ quên đấy!"
+   }
+  ],
+  "tips": [
+   "exhausted = NGƯỜI thấy kiệt sức · exhausting = VIỆC làm mình kiệt sức. Tương tự: bored/boring, interested/interesting.",
+   "go to sleep = bắt đầu ngủ · fall asleep = ngủ thiếp đi (không chủ ý) · go to bed = lên giường · oversleep = ngủ quên. “I went to bed at ten but only fell asleep at twelve.”",
+   "take a nap = chợp mắt ngắn ban ngày (Anh: have a nap). “Nap” chỉ dùng cho giấc ngắn, không dùng cho cả đêm.",
+   "Quá khứ của dream có 2 dạng: dreamt (Anh) và dreamed (Mỹ) — cả hai đều đúng. dream ABOUT something = mơ thấy · dream OF doing = mơ ước làm gì.",
+   "insomnia là danh từ không đếm được: “I have insomnia” (KHÔNG “an insomnia”). Người bị mất ngủ = an insomniac."
+  ],
+  "shadow": {
+   "en": "I've never been a good sleeper. I'm a night owl: I focus best late at night, so I usually go to bed after midnight, and then I'm exhausted the next morning. On top of that, I'm a light sleeper — a motorbike in the street or a phone on the table is enough to wake me up. Last month I had insomnia for a whole week because of a stressful project, so now I take a short nap after lunch, about twenty minutes, and it really helps. I don't snore, as far as I know, and I've never sleepwalked, but I daydream constantly, usually about travelling or about a quiet house near the sea. I only remember my dreams when I wake up in the middle of one. I have nightmares maybe once a month, and it's always the same one: I'm late for something important and I can't run. I've overslept for an exam once, which was enough to teach me to set three alarms. And the dream I really care about isn't the one I have at night — it's to keep learning, travel with my family a few times a year, and one day retire somewhere quiet by the sea.",
+   "vi": "Mình chưa bao giờ ngủ ngon. Mình là cú đêm: tập trung tốt nhất lúc khuya, nên thường quá nửa đêm mới đi ngủ, rồi sáng hôm sau thì kiệt sức. Thêm nữa, mình ngủ rất tỉnh — một chiếc xe máy ngoài đường hay cái điện thoại rung trên bàn cũng đủ làm mình thức. Tháng trước mình mất ngủ nguyên tuần vì một dự án căng thẳng, nên giờ mình chợp mắt sau bữa trưa khoảng 20 phút, và thấy đỡ hẳn. Mình không ngáy, ít nhất là mình nghĩ vậy, cũng chưa bao giờ mộng du, nhưng mình mơ mộng suốt, thường là về chuyện đi du lịch hay một căn nhà yên tĩnh gần biển. Mình chỉ nhớ giấc mơ khi tỉnh giữa chừng. Mỗi tháng chắc gặp ác mộng một lần, mà toàn một kiểu: trễ một việc quan trọng và không tài nào chạy nổi. Mình từng ngủ quên một buổi thi, đủ để từ đó luôn đặt ba cái báo thức. Còn giấc mơ mình thật sự quan tâm không phải giấc ban đêm — mà là được học tiếp, mỗi năm đi chơi với gia đình vài lần, và một ngày nào đó nghỉ hưu ở một nơi yên tĩnh gần biển."
   }
  }
 ];

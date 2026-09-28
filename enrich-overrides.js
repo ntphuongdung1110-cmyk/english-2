@@ -595,5 +595,41 @@ module.exports = {
   "pagoda": { d: "A Buddhist temple where people pray and burn incense." },
   "flower market": { d: "A market selling flowers and small trees, very busy before Tet." },
   "fireworks": { d: "Coloured lights and loud bangs in the sky on a special night." },
-  "uncommon": { d: "Not usual; not often seen or done." }
+  "uncommon": { d: "Not usual; not often seen or done." },
+
+  // ---- Native Speaker Phrases (L3) ----
+  "play it by ear": { d: "To decide what to do as the situation develops, instead of planning ahead." },
+  "do me a favor": { d: "Used to ask someone to help you with something." },
+  "I'm dying to…": { d: "Used to say you want to do something very much and can't wait." },
+  "never mind": { d: "Used to tell someone to forget it because it is not important." },
+  "I've got to go": { d: "Used to say you must leave now (spoken: I've gotta go)." },
+  "What's the matter?": { d: "Used to ask someone what is wrong or what is upsetting them." },
+  "No way!": { d: "Used to say something is impossible, or that you can't believe it." },
+  "Who cares?": { d: "Used to say that something is not important and not worth worrying about." },
+  "I have no idea": { d: "Used to say you really don't know the answer." },
+  "Bottoms up!": { d: "Said before everyone drinks together; cheers." },
+  "The more the merrier": { d: "Said to mean that the more people join, the more fun it will be." },
+  "Makes sense": { d: "Used to say that something is reasonable or easy to understand." },
+  "favor": { d: "Something helpful you do for someone: do someone a favor." },
+  "drop someone off": { d: "To take someone in your car or on your bike and leave them at a place." },
+  "in one sitting": { d: "In one continuous period, without stopping." },
+
+  // ---- Sleep & Dreams (L3) ----
+  "exhausted": { d: "Very, very tired — said about a PERSON." },
+  "exhausting": { d: "Making you very tired — said about an ACTIVITY or job." },
+  "early bird": { d: "A person who likes getting up early in the morning." },
+  "night owl": { d: "A person who likes staying up late at night." },
+  "snore": { d: "To make a loud noise through your nose and mouth while you sleep." },
+  "sleepwalk": { d: "To get up and walk around while you are still asleep." },
+  "daydream": { d: "To think pleasant thoughts about something else while you are awake." },
+  "nightmare": { d: "A frightening dream." },
+  "oversleep": { d: "To sleep longer than you planned and wake up late." },
+  "insomnia": { d: "The problem of not being able to fall asleep or stay asleep." },
+  "light sleeper": { d: "A person who wakes up easily, even from small noises." },
+  "heavy sleeper": { d: "A person who is hard to wake up." },
+  "take a nap": { d: "To sleep for a short time during the day." },
+  "fall asleep": { d: "To start sleeping, often without meaning to." },
+  "dream": { d: "To see pictures and stories in your mind while you sleep. Past: dreamt (BrE) or dreamed (AmE)." },
+  "realistic": { d: "Possible to do or achieve in real life." },
+  "retirement": { d: "The time of life after you stop working for good." }
 };
