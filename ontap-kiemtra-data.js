@@ -1815,7 +1815,7 @@ window.ONTAP = [
     "e": "tip",
     "v": "tiền boa",
     "ip": "/ˈtɪp/",
-    "d": "Extra money you give to thank someone for good service.",
+    "d": "Extra money you give for good service; also the verb: to tip a waiter.",
     "x": "We left a tip for the friendly waiter."
    },
    {
@@ -7602,7 +7602,7 @@ window.ONTAP = [
     "v": "khó chịu, bực mình",
     "x": "I get annoyed when people are late.",
     "ip": "/əˈnɔɪd/",
-    "d": "To disturb or irritate, especially by continued or repeated acts; to bother with unpleasant deeds."
+    "d": "A little angry; irritated."
    },
    {
     "e": "anxious",
@@ -13981,6 +13981,1137 @@ window.ONTAP = [
   "shadow": {
    "en": "I've never been a good sleeper. I'm a night owl: I focus best late at night, so I usually go to bed after midnight, and then I'm exhausted the next morning. On top of that, I'm a light sleeper — a motorbike in the street or a phone on the table is enough to wake me up. Last month I had insomnia for a whole week because of a stressful project, so now I take a short nap after lunch, about twenty minutes, and it really helps. I don't snore, as far as I know, and I've never sleepwalked, but I daydream constantly, usually about travelling or about a quiet house near the sea. I only remember my dreams when I wake up in the middle of one. I have nightmares maybe once a month, and it's always the same one: I'm late for something important and I can't run. I've overslept for an exam once, which was enough to teach me to set three alarms. And the dream I really care about isn't the one I have at night — it's to keep learning, travel with my family a few times a year, and one day retire somewhere quiet by the sea.",
    "vi": "Mình chưa bao giờ ngủ ngon. Mình là cú đêm: tập trung tốt nhất lúc khuya, nên thường quá nửa đêm mới đi ngủ, rồi sáng hôm sau thì kiệt sức. Thêm nữa, mình ngủ rất tỉnh — một chiếc xe máy ngoài đường hay cái điện thoại rung trên bàn cũng đủ làm mình thức. Tháng trước mình mất ngủ nguyên tuần vì một dự án căng thẳng, nên giờ mình chợp mắt sau bữa trưa khoảng 20 phút, và thấy đỡ hẳn. Mình không ngáy, ít nhất là mình nghĩ vậy, cũng chưa bao giờ mộng du, nhưng mình mơ mộng suốt, thường là về chuyện đi du lịch hay một căn nhà yên tĩnh gần biển. Mình chỉ nhớ giấc mơ khi tỉnh giữa chừng. Mỗi tháng chắc gặp ác mộng một lần, mà toàn một kiểu: trễ một việc quan trọng và không tài nào chạy nổi. Mình từng ngủ quên một buổi thi, đủ để từ đó luôn đặt ba cái báo thức. Còn giấc mơ mình thật sự quan tâm không phải giấc ban đêm — mà là được học tiếp, mỗi năm đi chơi với gia đình vài lần, và một ngày nào đó nghỉ hưu ở một nơi yên tĩnh gần biển."
+  }
+ },
+ {
+  "icon": "🇻🇳",
+  "name": "Vietnam / Đất nước & phép lịch sự Việt Nam",
+  "intro": "Phiếu L3 “VIETNAM” + bảng từ vựng thầy giảng trên lớp: thông tin cơ bản về Việt Nam, 4 câu khởi động, 8 câu hỏi luyện nói, và hoạt động nhóm DO'S / DON'TS — hướng dẫn một bạn du học sinh nước ngoài nên và không nên làm gì ở Việt Nam. Trọng tâm từ vựng: region · culture · etiquette · custom · polite / impolite · tradition · greet.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "region",
+    "v": "vùng, miền (trong một nước)",
+    "x": "Vietnam has three main regions: north, central and south.",
+    "d": "An area in a country.",
+    "ip": "/ˈɹid͡ʒən/"
+   },
+   {
+    "s": 1,
+    "e": "culture",
+    "v": "văn hoá — cách sống của một nhóm người",
+    "x": "Vietnamese culture values respect for elders.",
+    "d": "The way of life, beliefs and customs shared by a group of people.",
+    "ip": "/ˈkʌlt͡ʃɚ/"
+   },
+   {
+    "s": 1,
+    "e": "etiquette",
+    "v": "phép xã giao, quy tắc ứng xử lịch sự",
+    "x": "Taking off your shoes is basic etiquette in a Vietnamese home.",
+    "d": "The rules for polite behaviour in a society or situation.",
+    "ip": "/ˈɛtəkət/"
+   },
+   {
+    "s": 1,
+    "e": "custom",
+    "v": "phong tục — cách làm truyền thống",
+    "x": "Giving lucky money at Tet is an old custom.",
+    "d": "A traditional way of doing something in a country or family.",
+    "ip": "/ˈkʌstəm/"
+   },
+   {
+    "s": 1,
+    "e": "tradition",
+    "v": "truyền thống — điều truyền qua nhiều thế hệ",
+    "x": "Honouring ancestors is an important tradition here.",
+    "d": "A belief or activity that is passed from one generation to the next.",
+    "ip": "/tɹəˈdɪʃən/"
+   },
+   {
+    "s": 1,
+    "e": "polite",
+    "v": "lịch sự — cư xử có phép tắc",
+    "x": "It's polite to greet the oldest person first.",
+    "d": "Showing good manners.",
+    "ip": "/pəˈlaɪt/"
+   },
+   {
+    "s": 1,
+    "e": "impolite",
+    "v": "bất lịch sự, vô phép",
+    "x": "Pointing at someone with your finger is impolite.",
+    "d": "Showing bad manners.",
+    "ip": "/ˌɪmpəˈlaɪt/"
+   },
+   {
+    "s": 1,
+    "e": "greet",
+    "v": "chào hỏi ai đó",
+    "x": "How do you greet people in Vietnam?",
+    "d": "To say hello to someone when you meet them.",
+    "ip": "/ˈɡɹit/"
+   },
+   {
+    "s": 1,
+    "e": "foreign exchange student",
+    "v": "du học sinh trao đổi",
+    "x": "We're welcoming a foreign exchange student to our home.",
+    "d": "A student who goes to study in a foreign country for a while.",
+    "ip": "/ˈfɔɹən ɪksˈt͡ʃeɪnd͡ʒ ˈstudənt/"
+   },
+   {
+    "s": 1,
+    "e": "local",
+    "v": "người địa phương, dân bản địa",
+    "x": "Ask a local where the best pho is.",
+    "ip": "/ˈloʊkəl/",
+    "d": "A person who lives in one particular area."
+   },
+   {
+    "s": 1,
+    "e": "tourist",
+    "v": "khách du lịch",
+    "x": "Tourists usually visit Ben Thanh Market first.",
+    "ip": "/ˈtʊɹəst/",
+    "d": "A person who is travelling in a particular area for pleasure."
+   },
+   {
+    "s": 1,
+    "e": "wave",
+    "v": "vẫy tay (chào)",
+    "x": "I waved at my neighbour from across the street.",
+    "d": "To move your hand from side to side to say hello or goodbye.",
+    "ip": "/ˈweɪv/"
+   },
+   {
+    "e": "high five",
+    "v": "đập tay (chào kiểu vui vẻ)",
+    "x": "The kids gave each other a high five.",
+    "d": "To hit someone's open hand above your head to celebrate or say hi.",
+    "ip": "/haɪ faɪv/"
+   },
+   {
+    "e": "bow",
+    "v": "cúi đầu (chào)",
+    "x": "In Japan people bow instead of shaking hands.",
+    "d": "To bend your head or body forward to greet someone or show respect.",
+    "ip": "/ˈbaʊ/"
+   },
+   {
+    "e": "nod",
+    "v": "gật đầu (chào nhẹ)",
+    "x": "He nodded at me when I walked in.",
+    "d": "To move your head up and down to say yes or to greet someone.",
+    "ip": "/ˈnɑd/"
+   },
+   {
+    "e": "hug",
+    "v": "ôm",
+    "x": "Vietnamese people don't usually hug when they meet.",
+    "d": "To put your arms around someone to show affection.",
+    "ip": "/ˈhʌɡ/"
+   },
+   {
+    "s": 1,
+    "e": "tip",
+    "v": "tiền boa / boa tiền",
+    "x": "When should you tip in Vietnam?",
+    "ip": "/ˈtɪp/",
+    "d": "Extra money you give for good service; also the verb: to tip a waiter."
+   },
+   {
+    "s": 1,
+    "e": "queue",
+    "v": "xếp hàng / hàng người đang chờ",
+    "x": "Please queue here and wait your turn.",
+    "d": "A line of people waiting; also the verb: to wait in line.",
+    "ip": "/ˈkju/"
+   },
+   {
+    "e": "scenery",
+    "v": "phong cảnh, cảnh quan",
+    "x": "Central Vietnam has the most beautiful scenery.",
+    "ip": "/ˈsinɚi/",
+    "d": "The natural things you see in a place — mountains, rivers, fields."
+   },
+   {
+    "e": "dynamic",
+    "v": "năng động, sôi động",
+    "x": "Ho Chi Minh City is the most dynamic city in Vietnam.",
+    "d": "Full of energy, activity and change.",
+    "ip": "/daɪˈnæmɪk/"
+   },
+   {
+    "e": "border",
+    "v": "biên giới",
+    "x": "Vietnam shares a border with China, Laos and Cambodia.",
+    "d": "The line where one country ends and another begins.",
+    "ip": "/ˈbɔɹdɚ/"
+   },
+   {
+    "e": "coastline",
+    "v": "đường bờ biển",
+    "x": "Vietnam has a coastline of about 3,260 km.",
+    "d": "The land along the edge of the sea.",
+    "ip": "/ˈkoʊstˌlaɪn/"
+   },
+   {
+    "e": "population",
+    "v": "dân số",
+    "x": "The population is approximately 100 million.",
+    "d": "The number of people living in a place.",
+    "ip": "/ˌpɑpjəˈleɪʃən/"
+   },
+   {
+    "e": "currency",
+    "v": "đơn vị tiền tệ",
+    "x": "The currency is the Vietnamese dong.",
+    "d": "The money used in a country.",
+    "ip": "/ˈkɝənsi/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "📋 Vietnam facts (đúng theo phiếu)",
+    "rows": [
+     {
+      "e": "Population",
+      "v": "Dân số",
+      "a": "approximately 100 million"
+     },
+     {
+      "e": "Currency",
+      "v": "Tiền tệ",
+      "a": "Vietnamese đồng (₫)"
+     },
+     {
+      "e": "Continent",
+      "v": "Châu lục",
+      "a": "Asia"
+     },
+     {
+      "e": "Capital",
+      "v": "Thủ đô",
+      "a": "Hanoi"
+     },
+     {
+      "e": "Biggest city",
+      "v": "Thành phố lớn nhất",
+      "a": "Ho Chi Minh City"
+     },
+     {
+      "e": "Independence Day",
+      "v": "Ngày Quốc khánh",
+      "a": "2 September 1945"
+     },
+     {
+      "e": "Calling code",
+      "v": "Mã vùng điện thoại",
+      "a": "+84"
+     },
+     {
+      "e": "Borders",
+      "v": "Giáp ranh",
+      "a": "Cambodia (west); Laos (west); China (north)"
+     },
+     {
+      "e": "Coastline",
+      "v": "Bờ biển",
+      "a": "Pacific Ocean (3,260 km)"
+     },
+     {
+      "e": "Regions",
+      "v": "Ba miền",
+      "a": "Northern Vietnam · Central Vietnam · Southern Vietnam"
+     }
+    ]
+   },
+   {
+    "title": "📖 Định nghĩa thầy viết trên bảng (Word → Definition)",
+    "rows": [
+     {
+      "e": "region",
+      "v": "an area in a country",
+      "a": "The Mekong Delta is a region in the south of Vietnam."
+     },
+     {
+      "e": "culture",
+      "v": "the way people live",
+      "a": "Food is a big part of our culture."
+     },
+     {
+      "e": "etiquette",
+      "v": "rules for polite behaviour",
+      "a": "Business etiquette here includes giving your card with two hands."
+     },
+     {
+      "e": "custom",
+      "v": "a traditional way of doing something",
+      "a": "It's a custom to visit your grandparents on the first day of Tet."
+     },
+     {
+      "e": "polite",
+      "v": "showing good manners",
+      "a": "She's always polite to older people."
+     },
+     {
+      "e": "impolite",
+      "v": "showing bad manners",
+      "a": "It's impolite to start eating before the elders."
+     },
+     {
+      "e": "foreign exchange student",
+      "v": "a student who studies in a foreign country",
+      "a": "Our foreign exchange student is from Canada."
+     },
+     {
+      "e": "local",
+      "v": "a person who lives in one particular area",
+      "a": "The locals know which stall is the best."
+     },
+     {
+      "e": "tourist",
+      "v": "a person who is travelling in a particular area",
+      "a": "Tourists take photos at the Post Office every day."
+     },
+     {
+      "e": "tradition",
+      "v": "a belief or activity that passes through generations",
+      "a": "Wrapping banh chung together is a family tradition."
+     },
+     {
+      "e": "greet",
+      "v": "a way to say hello / to meet someone",
+      "a": "How do you greet your boss in the morning?"
+     }
+    ]
+   },
+   {
+    "title": "👋 Cách chào (thầy ghi trên bảng) — dùng thế nào ở Việt Nam",
+    "pills": [
+     "wave",
+     "high five",
+     "bow",
+     "nod",
+     "hug",
+     "kiss"
+    ],
+    "rows": [
+     {
+      "e": "wave / nod",
+      "v": "Vẫy tay, gật đầu — phổ biến và an toàn nhất ở Việt Nam",
+      "a": "I just wave or nod and say “Chào anh / chào chị”."
+     },
+     {
+      "e": "handshake",
+      "v": "Bắt tay — dùng trong công việc; với người lớn tuổi thì đưa HAI tay hoặc đỡ tay kia dưới cổ tay",
+      "a": "In business we shake hands, and with an older person I use two hands to show respect."
+     },
+     {
+      "e": "bow (slight bow)",
+      "v": "Cúi nhẹ đầu — người Việt cúi nhẹ chứ không cúi sâu như người Nhật",
+      "a": "We give a small bow of the head, not a deep bow like in Japan."
+     },
+     {
+      "e": "high five",
+      "v": "Đập tay — chỉ với bạn bè thân, không dùng với người lớn tuổi hay ở nơi trang trọng",
+      "a": "I'd only high five a close friend, never my boss."
+     },
+     {
+      "e": "hug / kiss",
+      "v": "Ôm, hôn — ít dùng khi chào; người Việt thường không ôm hôn người mới quen",
+      "a": "Hugging isn't common here, and kissing on the cheek would feel strange to most people."
+     }
+    ]
+   },
+   {
+    "title": "🏠 Group work — hướng dẫn bạn du học sinh: DO'S ✅ / DON'TS ❌",
+    "rows": [
+     {
+      "e": "✅ Sharing the bill",
+      "v": "Chia tiền — chấp nhận được với bạn bè, nhưng ở Việt Nam người mời thường trả hết; người lớn tuổi hoặc người thu nhập cao hay giành trả",
+      "a": "You can offer to split it, but don't fight too hard — if someone invited you, let them pay and you pay next time."
+     },
+     {
+      "e": "✅ Buying milk tea for your crush",
+      "v": "Mua trà sữa cho người mình thích — rất bình thường và dễ thương ở Việt Nam",
+      "a": "Buying milk tea for someone you like is very normal here — it's a small, friendly way to show you care."
+     },
+     {
+      "e": "✅ Making noise when eating",
+      "v": "Ăn có tiếng (húp canh, húp phở) — không bị coi là thô ở Việt Nam như ở phương Tây",
+      "a": "Slurping your pho is fine here. Nobody will think you're rude."
+     },
+     {
+      "e": "✅ Queuing",
+      "v": "Xếp hàng — nên làm, nhất là ở ngân hàng, sân bay, quán đông",
+      "a": "Always queue and wait your turn, even if you see other people cutting in."
+     },
+     {
+      "e": "❌ 2-handed handshake",
+      "v": "Bắt tay hai tay — KHÔNG sai, ngược lại rất lịch sự với người lớn tuổi ở Việt Nam (khác với nhiều nước phương Tây)",
+      "a": "In Vietnam a two-handed handshake shows respect, so it belongs in the DO'S column here — this one surprises a lot of foreigners."
+     },
+     {
+      "e": "❌ Smoking in front of non-smokers",
+      "v": "Hút thuốc trước mặt người không hút — nên tránh, nhất là khi có trẻ em hoặc người lớn tuổi",
+      "a": "Don't smoke at the table, especially around children or older people. Step outside and ask first."
+     },
+     {
+      "e": "❌ Turning right at a red light",
+      "v": "Rẽ phải khi đèn đỏ — KHÔNG được phép trừ khi có biển/đèn mũi tên cho phép",
+      "a": "Don't turn right on red unless there's a sign or a green arrow. You can be fined for it."
+     },
+     {
+      "e": "❌ Beeping your horn",
+      "v": "Bóp còi — ở Việt Nam còi dùng để báo “tôi đang ở đây”, nhưng bóp liên tục thì vẫn khó chịu",
+      "a": "A short beep to warn someone is normal, but don't lean on the horn in traffic — it just makes everyone angry."
+     }
+    ]
+   },
+   {
+    "title": "☕ Warm-up questions (4 câu của phiếu)",
+    "rows": [
+     {
+      "e": "1. Where are you from?",
+      "v": "Bạn đến từ đâu?",
+      "a": "I'm from Ho Chi Minh City, but my family is originally from the central region."
+     },
+     {
+      "e": "2. What do you like about Vietnam?",
+      "v": "Bạn thích điều gì ở Việt Nam?",
+      "a": "I love the food, the beaches and how easy it is to meet friends any night of the week. Life here is cheap and full of energy."
+     },
+     {
+      "e": "3. What do you dislike about Vietnam?",
+      "v": "Bạn không thích điều gì?",
+      "a": "The traffic and the air pollution in big cities. I also don't like how noisy my street is early in the morning."
+     },
+     {
+      "e": "4. Do you think you'll live in Vietnam forever? Why / why not?",
+      "v": "Bạn nghĩ mình sẽ sống ở Việt Nam mãi chứ?",
+      "a": "Probably yes. I'd like to work abroad for a year or two to learn something new, but my family is here, so I'd come back."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Where are the best places to visit in northern Vietnam? Central Vietnam? Southern Vietnam?",
+    "a": "In the north, I'd go to Hanoi for the old quarter, Ha Long Bay for the islands, and Sapa for the mountains and rice terraces. In the centre, Hue for the old citadel, Da Nang for the beach, and Hoi An for the lanterns. In the south, Ho Chi Minh City for the nightlife, the Mekong Delta for the floating markets, and Phu Quoc for the sea."
+   },
+   {
+    "q": "2. How do you greet people in Vietnam?",
+    "a": "With friends, I just wave or nod and say “chào”. In business we shake hands, and with someone older I use two hands and greet them first. We don't usually hug or kiss when we meet, and it's polite to add the right word for their age — anh, chị, cô, chú."
+   },
+   {
+    "q": "3. Which region of Vietnam has the best food? Most beautiful women? Friendliest people? Most beautiful scenery? Most dynamic cities?",
+    "a": "For me, central Vietnam has the best food — Hue and Hoi An especially. People say the north has the most beautiful women, and the south has the friendliest, most easy-going people. The north has the most beautiful scenery with Sapa and Ha Long Bay, and the south is definitely the most dynamic, because Saigon never stops.",
+    "a2": "Honestly it depends on who you ask, and everyone will defend their own region! I'd say the south for food and friendliness, the north for scenery, and Saigon and Da Nang for energy."
+   },
+   {
+    "q": "4. What are some things that are considered polite / impolite in Vietnam?",
+    "a": "Polite: greeting the oldest person first, using two hands to give or receive something, taking off your shoes in someone's home, and inviting everyone at the table before you start eating. Impolite: pointing your finger at someone, sticking your chopsticks upright in the rice, touching someone's head, or raising your voice in public."
+   },
+   {
+    "q": "5. What do you think when you see a couple kissing in public in Vietnam?",
+    "a": "Young people in the city don't really care any more, and holding hands is completely normal. But kissing in front of older people or in a temple would still make many people uncomfortable, so most couples keep it short."
+   },
+   {
+    "q": "6. When should you tip in Vietnam? How much do you give in different situations?",
+    "a": "Tipping isn't required here, but it's appreciated. In a nice restaurant I might leave 5–10% if service charge isn't included; for a hotel porter or a spa, twenty to fifty thousand dong; for a taxi or Grab, I usually just round up. In a small local eatery, nobody expects a tip at all."
+   },
+   {
+    "q": "7. What are some differences in culture between the three regions of Vietnam?",
+    "a": "The north is more traditional and formal, and the food is lighter and less sweet. The centre is famous for spicy food, strong local accents and a slower, more careful way of living. The south is the most relaxed and open — people spend money more easily and the food is sweeter."
+   },
+   {
+    "q": "8. If you had to live in another country, which country would you choose? Why?",
+    "a": "If I had to live abroad, I'd choose Japan. It's clean and safe, the food is amazing, and the culture has a lot in common with ours — respect for elders and for family. The hard part would be the winter and the language."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "My exchange student arrives on Friday. Any advice?",
+    "v": "Bạn du học sinh của mình tới thứ Sáu. Có lời khuyên nào không?"
+   },
+   {
+    "p": "B",
+    "e": "Tell her to take off her shoes at the door — that's basic etiquette here.",
+    "v": "Bảo bạn ấy cởi giày ở cửa — đó là phép lịch sự cơ bản ở đây."
+   },
+   {
+    "p": "A",
+    "e": "Good point. What about greeting my parents?",
+    "v": "Đúng rồi. Còn chào ba mẹ mình thì sao?"
+   },
+   {
+    "p": "B",
+    "e": "She should greet the oldest person first, and use two hands when she gives something.",
+    "v": "Bạn ấy nên chào người lớn tuổi nhất trước, và đưa đồ bằng hai tay."
+   },
+   {
+    "p": "A",
+    "e": "Should I tell her not to slurp her noodles?",
+    "v": "Mình có nên dặn bạn ấy đừng húp mì thành tiếng không?"
+   },
+   {
+    "p": "B",
+    "e": "No way — making noise when you eat is fine here. It's not impolite at all.",
+    "v": "Không đâu — ăn có tiếng ở đây là bình thường mà. Chẳng bất lịch sự gì cả."
+   },
+   {
+    "p": "A",
+    "e": "Ha, she'll be relieved. And tipping?",
+    "v": "Haha, chắc bạn ấy nhẹ cả người. Còn tiền boa?"
+   },
+   {
+    "p": "B",
+    "e": "Not required. Round up the taxi fare, that's enough.",
+    "v": "Không bắt buộc. Làm tròn tiền taxi là đủ rồi."
+   },
+   {
+    "p": "A",
+    "e": "One more — she rides a motorbike. Anything she must not do?",
+    "v": "Một cái nữa — bạn ấy chạy xe máy. Có gì tuyệt đối không được làm không?"
+   },
+   {
+    "p": "B",
+    "e": "Never turn right at a red light unless there's a sign. She can be fined for that.",
+    "v": "Đừng bao giờ rẽ phải khi đèn đỏ trừ khi có biển cho phép. Bị phạt đó."
+   }
+  ],
+  "tips": [
+   "Ba miền nói tiếng Anh: northern / central / southern Vietnam, hoặc the north / the centre / the south. “Region” = miền, vùng — KHÔNG dùng “area” cho cả một miền.",
+   "polite ↔ impolite (KHÔNG phải “unpolite”). Danh từ: politeness. Còn “rude” = thô lỗ, nặng hơn impolite.",
+   "custom (phong tục — việc người ta làm) · tradition (truyền thống — truyền qua thế hệ) · etiquette (phép xã giao — quy tắc ứng xử). Đừng nhầm custom với costume (đồ hoá trang) hay customs (hải quan).",
+   "greet là ĐỘNG TỪ: greet someone. Danh từ là greeting: “Chào anh” is a common Vietnamese greeting.",
+   "tip vừa là danh từ vừa là động từ: leave a tip / tip the waiter. Ở Việt Nam tipping is not expected — nói vậy khi khách nước ngoài hỏi."
+  ],
+  "shadow": {
+   "en": "Let me tell you what a foreign exchange student should know before staying with a Vietnamese family. Vietnam has about one hundred million people and three regions, and each region has its own food, accent and character. The north is more traditional, the centre is famous for spicy food and beautiful scenery, and the south is the most relaxed and dynamic. Wherever you go, the same etiquette works. Greet the oldest person first, and use two hands when you give or receive something — a two-handed handshake is a sign of respect here, not something strange. Take off your shoes at the door. Wait for the elders to start eating, and don't worry about making noise when you eat noodles, because that's completely normal. Tipping isn't required, so just round up the taxi fare if you want to. And on the road, never turn right at a red light unless a sign allows it, and don't lean on your horn. Small things, but they're the difference between being a tourist and being a good guest.",
+   "vi": "Để mình kể một bạn du học sinh nước ngoài cần biết gì trước khi ở cùng gia đình Việt. Việt Nam có khoảng một trăm triệu dân và ba miền, mỗi miền có món ăn, giọng nói và tính cách riêng. Miền Bắc truyền thống hơn, miền Trung nổi tiếng đồ ăn cay và cảnh đẹp, miền Nam thì thoải mái và năng động nhất. Đi đâu thì phép lịch sự cũng giống nhau. Chào người lớn tuổi nhất trước, và đưa hay nhận gì cũng bằng hai tay — bắt tay bằng hai tay ở đây là tỏ ý kính trọng, không có gì lạ cả. Cởi giày ở cửa. Chờ người lớn cầm đũa trước, và đừng lo chuyện ăn mì có tiếng, vì đó là bình thường. Tiền boa không bắt buộc, muốn thì làm tròn tiền taxi là được. Còn ngoài đường, tuyệt đối không rẽ phải khi đèn đỏ trừ khi có biển cho phép, và đừng bóp còi liên tục. Toàn chuyện nhỏ, nhưng đó là khác biệt giữa một khách du lịch và một người khách được quý."
+  }
+ },
+ {
+  "icon": "🎭",
+  "name": "Emotion LV3 / Cảm xúc — nói cho “đắt” hơn",
+  "intro": "Phiếu “EMOTION”: thay vì nói mãi angry / really sad / really happy, học 5 từ MẠNH hơn của người bản xứ (pissed off · devastated · enthusiastic · frustrated · over the moon) + 4 cảm xúc “ở giữa” (apathetic · content · indifferent · love-hate relationship) + 10 câu hỏi luyện nói.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "pissed off",
+    "v": "bực, cáu tiết (thay cho angry — hơi suồng sã)",
+    "x": "I was really pissed off when they cancelled the meeting again.",
+    "d": "Very annoyed or angry. Informal — don't use it at work or with strangers.",
+    "ip": "/ˈpɪst ˈɔf/"
+   },
+   {
+    "s": 1,
+    "e": "devastated",
+    "v": "suy sụp, đau khổ tột cùng (thay cho really sad)",
+    "x": "She was devastated when her dog died.",
+    "d": "Extremely sad or shocked, usually after something very bad happens.",
+    "ip": "/ˈdɛvəˌsteɪtɪd/"
+   },
+   {
+    "s": 1,
+    "e": "enthusiastic",
+    "v": "hào hứng, nhiệt tình",
+    "x": "He's very enthusiastic about his new job.",
+    "d": "Full of energy and excitement about something.",
+    "ip": "/ɪnˌθuziˈæstɪk/"
+   },
+   {
+    "s": 1,
+    "e": "frustrated",
+    "v": "bức bối, ức chế (muốn mà không được — thay cho really annoyed)",
+    "x": "I get frustrated when the Wi-Fi keeps dropping.",
+    "d": "Annoyed because you can't do what you want or nothing is working.",
+    "ip": "/ˈfɹʌˌstɹeɪtəd/"
+   },
+   {
+    "s": 1,
+    "e": "over the moon",
+    "v": "sướng rơn, vui phát điên (thay cho really happy)",
+    "x": "I was over the moon when I got the job.",
+    "ip": "/ˈoʊvɚ ðə ˈmun/",
+    "d": "Extremely happy about something (idiom, used with 'be')."
+   },
+   {
+    "s": 1,
+    "e": "apathetic",
+    "v": "thờ ơ, không buồn quan tâm (không có cảm xúc gì)",
+    "x": "Most students were apathetic about the new rule.",
+    "d": "Not interested at all; not caring enough to do anything.",
+    "ip": "/ˌæpəˈθɛtɪk/"
+   },
+   {
+    "s": 1,
+    "e": "content",
+    "v": "hài lòng, đủ đầy (bình yên, không cần hơn)",
+    "x": "I'm content with a simple life and a small house.",
+    "d": "Quietly happy and satisfied with what you have. Adjective: /kənˈtɛnt/.",
+    "ip": "/ˈkɑntɛnt/"
+   },
+   {
+    "s": 1,
+    "e": "indifferent",
+    "v": "dửng dưng, sao cũng được",
+    "x": "I'm indifferent about where we eat — you choose.",
+    "d": "Having no strong feeling either way; you don't mind.",
+    "ip": "/ˌɪnˈdɪfɹənt/"
+   },
+   {
+    "s": 1,
+    "e": "love-hate relationship",
+    "v": "mối quan hệ vừa yêu vừa ghét",
+    "x": "I have a love-hate relationship with my phone.",
+    "d": "A situation where you like and dislike the same thing at the same time.",
+    "ip": "/ˈlʌv ˈheɪt ɹiˈleɪʃənˌʃɪp/"
+   },
+   {
+    "s": 1,
+    "e": "emotional",
+    "v": "giàu cảm xúc, dễ xúc động",
+    "x": "Are you an emotional person?",
+    "d": "Having and showing strong feelings.",
+    "ip": "/ɪˈmoʊʃənəl/"
+   },
+   {
+    "s": 1,
+    "e": "impulsive",
+    "v": "bốc đồng, làm theo cảm hứng",
+    "x": "Buying that motorbike was an impulsive decision.",
+    "d": "Doing things suddenly, without thinking about them first.",
+    "ip": "/ˌɪmˈpʌlsɪv/"
+   },
+   {
+    "e": "consequences",
+    "v": "hậu quả, hệ quả",
+    "x": "Were there any consequences?",
+    "d": "The results of what you did, often bad ones.",
+    "ip": "/ˈkɑnsəˌkwɛnsəz/"
+   },
+   {
+    "e": "true self",
+    "v": "con người thật của mình",
+    "x": "I only show my true self with close friends.",
+    "d": "The real you, without pretending.",
+    "ip": "/ˈtɹu ˈsɛlf/"
+   },
+   {
+    "e": "hidden",
+    "v": "giấu kín, được che giấu",
+    "x": "Should people keep their emotions hidden at work?",
+    "d": "Kept out of sight; not shown to others.",
+    "ip": "/ˈhɪdən/"
+   },
+   {
+    "e": "annoyed",
+    "v": "khó chịu, bực mình (nhẹ hơn frustrated)",
+    "x": "I was annoyed by the noise, but it wasn't a big deal.",
+    "ip": "/əˈnɔɪd/",
+    "d": "A little angry; irritated."
+   }
+  ],
+  "extra": [
+   {
+    "title": "⬆️ Nâng cấp từ cảm xúc (bảng của phiếu)",
+    "rows": [
+     {
+      "e": "angry → pissed off",
+      "v": "tức giận → cáu tiết (thân mật, hơi thô — tránh dùng ở nơi trang trọng)",
+      "a": "Instead of “I was angry”, say: “I was pissed off when he lied to me.”"
+     },
+     {
+      "e": "really sad → devastated",
+      "v": "rất buồn → suy sụp (mức mạnh nhất, dùng cho mất mát lớn)",
+      "a": "Instead of “I was really sad”, say: “I was devastated when I heard the news.”"
+     },
+     {
+      "e": "nhiệt tình → enthusiastic",
+      "v": "nhiệt tình, hăng hái (dùng được cả trong công việc)",
+      "a": "Instead of “She likes her job a lot”, say: “She's really enthusiastic about her job.”"
+     },
+     {
+      "e": "really annoyed → frustrated",
+      "v": "rất khó chịu → bức bối vì cố mãi mà không được",
+      "a": "Instead of “I was really annoyed”, say: “I was frustrated because nothing worked.”"
+     },
+     {
+      "e": "really happy → over the moon",
+      "v": "rất vui → sướng rơn (thành ngữ, nghe rất tự nhiên)",
+      "a": "Instead of “I was really happy”, say: “I was over the moon when they said yes.”"
+     }
+    ]
+   },
+   {
+    "title": "😐 “In the middle” emotions — cảm xúc ở giữa (phiếu)",
+    "pills": [
+     "apathetic",
+     "content",
+     "indifferent",
+     "love-hate relationship"
+    ],
+    "rows": [
+     {
+      "e": "apathetic",
+      "v": "thờ ơ — chẳng buồn quan tâm, không muốn hành động",
+      "a": "A lot of people feel apathetic about politics; they don't even want to talk about it."
+     },
+     {
+      "e": "content",
+      "v": "hài lòng — êm đềm, thấy đủ (tích cực nhẹ)",
+      "a": "I'm not rich, but I'm content with what I have."
+     },
+     {
+      "e": "indifferent",
+      "v": "dửng dưng — không thích cũng không ghét",
+      "a": "He was indifferent to the result; he just shrugged."
+     },
+     {
+      "e": "love-hate relationship",
+      "v": "vừa yêu vừa ghét — thích nhưng cũng bực",
+      "a": "I have a love-hate relationship with Saigon: I love the food, but I hate the traffic."
+     },
+     {
+      "e": "Phân biệt nhanh",
+      "v": "apathetic = không quan tâm đến mức lười phản ứng · indifferent = không nghiêng về bên nào · content = thấy đủ, dễ chịu",
+      "a": "I'm indifferent about the restaurant (either is fine), but I'm apathetic about the whole trip (I don't care at all)."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Are you an emotional person? When / where do you show your “true self”?",
+    "a": "I'm fairly emotional inside, but I don't show it much at work — I keep a calm face in meetings. I show my true self at home and with two or three close friends, usually late at night over coffee or beer.",
+    "a2": "Not really. People say I'm hard to read. I only really open up with my family, and even then it takes me a while."
+   },
+   {
+    "q": "2. Should people show their emotions or keep them hidden at work?",
+    "a": "I think a little of both. Hiding everything makes you look cold and people stop trusting you. But shouting when you're pissed off destroys the team. The healthy middle is to say clearly that you're frustrated and explain why, without blaming anyone."
+   },
+   {
+    "q": "3. Which jobs seem to have the most enthusiastic workers?",
+    "a": "Teachers of small children, personal trainers and tour guides always look enthusiastic to me. I think it's because they see the result of their work immediately and they're around people all day. Startup founders are enthusiastic too, at least in the first year!"
+   },
+   {
+    "q": "4. What would you need to feel content with your life?",
+    "a": "Not much, honestly: my family healthy, enough money to not worry about small things, work I find meaningful, and time to travel two or three times a year. I don't need to be rich — I need to feel that I'm still learning."
+   },
+   {
+    "q": "5. What is the most impulsive thing you have ever done? Were there any consequences?",
+    "a": "I once booked a trip to Da Lat at eleven at night and left at five the next morning without telling anyone. The consequence was that I missed a family dinner and my mother was pissed off for a week. But it was one of my best trips."
+   },
+   {
+    "q": "6. Tell me about a time you were over the moon.",
+    "a": "I was over the moon the day I got my current job. I'd been rejected twice before, so when the call came I actually shouted in the office lobby. I took my family out for dinner that evening to celebrate."
+   },
+   {
+    "q": "7. Do you have a love-hate relationship with anything? What do you love about it? What do you hate about it?",
+    "a": "Yes — my phone. I love that it keeps me close to my friends, gives me music and maps, and lets me work anywhere. I hate that it steals two hours of my evening and that I check it before I even get out of bed."
+   },
+   {
+    "q": "8. What frustrates you about living in Ho Chi Minh City?",
+    "a": "The traffic, first of all — a five-kilometre trip can take forty minutes at rush hour. Flooding after heavy rain frustrates me too, and so does the noise: karaoke at eleven at night and construction at six in the morning."
+   },
+   {
+    "q": "9. Do you think animals have the same feelings as people?",
+    "a": "I think they feel the simple ones: fear, joy, loneliness, maybe grief. My dog clearly knows when I'm sad and lies next to me. But I don't think they feel complicated things like shame or regret about the past the way we do."
+   },
+   {
+    "q": "10. What are the different emotions people feel while learning a language? Which ones have you felt recently?",
+    "a": "People feel enthusiastic at the start, frustrated in the middle when progress stops, embarrassed when they make mistakes in front of others, and over the moon the first time a native speaker understands them. Recently I've felt frustrated with my listening, but also proud after a meeting I ran entirely in English."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "You look pissed off. What happened?",
+    "v": "Trông bạn cáu ghê. Có chuyện gì vậy?"
+   },
+   {
+    "p": "B",
+    "e": "The client changed the plan again. I'm so frustrated.",
+    "v": "Khách đổi kế hoạch lần nữa. Mình bức bối quá."
+   },
+   {
+    "p": "A",
+    "e": "Again? I'd be angry too. Did you tell your manager?",
+    "v": "Lại nữa hả? Mình cũng sẽ giận. Bạn nói với sếp chưa?"
+   },
+   {
+    "p": "B",
+    "e": "Not yet. At work I usually keep my emotions hidden.",
+    "v": "Chưa. Ở chỗ làm mình thường giấu cảm xúc."
+   },
+   {
+    "p": "A",
+    "e": "Sometimes it's better to say it calmly than to keep it inside.",
+    "v": "Đôi khi nói ra một cách bình tĩnh còn hơn giữ trong lòng."
+   },
+   {
+    "p": "B",
+    "e": "You're right. Anyway — how was your interview?",
+    "v": "Bạn nói đúng. Mà thôi — buổi phỏng vấn của bạn sao rồi?"
+   },
+   {
+    "p": "A",
+    "e": "I got it! I was over the moon when they called.",
+    "v": "Mình đậu rồi! Lúc họ gọi mình sướng rơn luôn."
+   },
+   {
+    "p": "B",
+    "e": "No way! Congratulations. Are you excited?",
+    "v": "Không thể tin được! Chúc mừng nha. Bạn háo hức chứ?"
+   },
+   {
+    "p": "A",
+    "e": "Very. I'm enthusiastic about the team, a bit nervous about the workload.",
+    "v": "Rất luôn. Mình hào hứng với cả team, hơi lo về khối lượng công việc."
+   },
+   {
+    "p": "B",
+    "e": "You'll be fine. Let's celebrate — I'm buying.",
+    "v": "Bạn làm được mà. Đi ăn mừng thôi — mình bao."
+   }
+  ],
+  "tips": [
+   "Mức độ tăng dần: annoyed → frustrated → angry → pissed off → furious. “Pissed off” là tiếng lóng thân mật, KHÔNG dùng với sếp hay khách hàng; bản Anh-Anh “pissed” còn nghĩa là say rượu.",
+   "sad → upset → devastated. Devastated dành cho mất mát lớn (người thân mất, hỏng cả dự án), đừng dùng cho chuyện nhỏ như trễ xe buýt.",
+   "over the moon là THÀNH NGỮ, đi với động từ be: “I was over the moon.” Không nói “I over the moon”.",
+   "content (hài lòng) là tính từ, phát âm /kənˈtɛnt/ — khác danh từ content (nội dung) /ˈkɑntɛnt/, cùng chữ nhưng khác trọng âm.",
+   "Phân biệt: bored/boring, frustrated/frustrating, excited/exciting — đuôi -ED tả NGƯỜI, đuôi -ING tả VIỆC. “I'm frustrated because the app is frustrating.”"
+  ],
+  "shadow": {
+   "en": "I used to describe everything with three words: happy, sad and angry. Now I try to be more exact, and it changes how people understand me. When my manager cancelled the project after two months of work, I wasn't just angry — I was pissed off, and I said so, calmly, the next morning. When my friend's father passed away, she wasn't just really sad; she was devastated, and the right word mattered. At work I'm enthusiastic about problems I can solve, and frustrated when I keep hitting the same wall. The day I got my current job, I was over the moon. But most of life isn't at the extremes. A lot of the time I'm content — not excited, not unhappy, just fine with what I have. Sometimes I'm indifferent: you choose the restaurant, I really don't mind. And I definitely have a love-hate relationship with this city. I love the food and the energy; I hate the traffic and the noise at six in the morning.",
+   "vi": "Trước đây mình tả mọi thứ bằng ba từ: vui, buồn, giận. Giờ mình cố nói chính xác hơn, và nó làm người khác hiểu mình khác hẳn. Khi sếp huỷ dự án sau hai tháng làm việc, mình không chỉ “giận” — mình cáu thật sự, và sáng hôm sau mình đã nói ra, một cách bình tĩnh. Khi ba của bạn mình mất, bạn ấy không chỉ “rất buồn”; bạn ấy suy sụp, và dùng đúng từ là điều quan trọng. Ở chỗ làm, mình hào hứng với những vấn đề mình giải được, và bức bối khi cứ đâm đầu vào cùng một bức tường. Ngày nhận được công việc hiện tại, mình sướng rơn. Nhưng phần lớn cuộc sống không nằm ở hai thái cực. Nhiều lúc mình thấy hài lòng — không hào hứng, cũng chẳng buồn, chỉ là ổn với những gì đang có. Có lúc mình dửng dưng: bạn chọn quán đi, mình sao cũng được. Và chắc chắn mình có mối quan hệ vừa yêu vừa ghét với thành phố này. Mình yêu đồ ăn và sự sôi động; mình ghét kẹt xe và tiếng ồn lúc sáu giờ sáng."
+  }
+ },
+ {
+  "icon": "🤔",
+  "name": "Hypotheticals LV4 / Giả định: What would you do if…?",
+  "intro": "Phiếu L4 “HYPOTHETICALS”: tình huống tưởng tượng, không có thật. Công thức: If + QUÁ KHỨ, would + V. “If I HAD one million dollars, I WOULD buy a villa” (ĐÚNG) — “If I HAVE…, I WILL…” (SAI). Gồm 3 bộ câu hỏi (What would you do if…? · Would you ever…? · Would you rather…?) và phần tự viết câu hỏi của riêng bạn.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "hypothetical",
+    "v": "giả định, tình huống tưởng tượng (không có thật)",
+    "x": "Hypotheticals are questions about something imaginary rather than something real.",
+    "d": "About an imagined situation, not a real one.",
+    "ip": "/ˌhaɪpəˈθɛtəkəl/"
+   },
+   {
+    "s": 1,
+    "e": "would",
+    "v": "sẽ (dùng cho tình huống giả định)",
+    "x": "If I had a time machine, I would visit my grandparents.",
+    "ip": "/ˈwʊd/",
+    "d": "Used to talk about an imagined result: If I had time, I would travel."
+   },
+   {
+    "s": 1,
+    "e": "imaginary",
+    "v": "tưởng tượng, không có thật",
+    "x": "It's an imaginary situation, so use “would”.",
+    "d": "Not real; existing only in your mind.",
+    "ip": "/ˌɪˈmæd͡ʒəˌnɛɹi/"
+   },
+   {
+    "s": 1,
+    "e": "time machine",
+    "v": "cỗ máy thời gian",
+    "x": "What would you do if you had a time machine?",
+    "d": "An imaginary machine that takes you to the past or the future.",
+    "ip": "/ˈtaɪm məˈʃin/"
+   },
+   {
+    "s": 1,
+    "e": "invisible",
+    "v": "tàng hình, không ai thấy được",
+    "x": "If I were invisible, I'd play harmless pranks on my friends.",
+    "d": "Impossible to see.",
+    "ip": "/ˌɪnˈvɪzəbəl/"
+   },
+   {
+    "s": 1,
+    "e": "plastic surgery",
+    "v": "phẫu thuật thẩm mỹ",
+    "x": "Would you ever get plastic surgery?",
+    "d": "An operation to change how a part of your body looks.",
+    "ip": "/ˈplæstɪk ˈsɝd͡ʒɚi/"
+   },
+   {
+    "s": 1,
+    "e": "adopt a child",
+    "v": "nhận con nuôi",
+    "x": "They adopted a child from another province.",
+    "d": "To legally take another person's child into your family as your own.",
+    "ip": "/əˈdɑpt ə ˈt͡ʃaɪld/"
+   },
+   {
+    "s": 1,
+    "e": "donate blood",
+    "v": "hiến máu",
+    "x": "I donate blood twice a year.",
+    "d": "To give some of your blood so that it can help sick or injured people.",
+    "ip": "/ˈdoʊˌneɪt ˈblʌd/"
+   },
+   {
+    "s": 1,
+    "e": "vegan",
+    "v": "người ăn thuần chay (không ăn thịt, cá, trứng, sữa)",
+    "x": "Would you ever be a vegan for a year?",
+    "d": "A person who eats no meat, fish, eggs, milk or any animal product.",
+    "ip": "/ˈvɛɡən/"
+   },
+   {
+    "s": 1,
+    "e": "bald",
+    "v": "hói, trọc đầu",
+    "x": "Would you rather be extremely hairy or completely bald?",
+    "d": "Having no hair on your head.",
+    "ip": "/ˈbɔld/"
+   },
+   {
+    "e": "hairy",
+    "v": "nhiều lông",
+    "x": "He's got very hairy arms.",
+    "d": "Covered with a lot of hair.",
+    "ip": "/ˈhɛɹi/"
+   },
+   {
+    "e": "good-looking",
+    "v": "đẹp, ưa nhìn",
+    "x": "Would you rather be rich and ugly or poor and good-looking?",
+    "ip": "/ˈɡʊd ˈlʊkɪŋ/",
+    "d": "Attractive, nice to look at."
+   },
+   {
+    "e": "fluently",
+    "v": "trôi chảy, lưu loát",
+    "x": "I'd love to speak every language fluently.",
+    "d": "Speaking smoothly and easily, without stopping to think.",
+    "ip": "/ˈfluəntli/"
+   },
+   {
+    "e": "neck tattoo",
+    "v": "hình xăm ở cổ",
+    "x": "A neck tattoo is hard to hide at work.",
+    "d": "A permanent picture drawn on the skin of the neck.",
+    "ip": "/ˈnɛk ˌtæˈtu/"
+   },
+   {
+    "e": "tongue piercing",
+    "v": "xỏ khuyên lưỡi",
+    "x": "A tongue piercing can damage your teeth.",
+    "d": "A small ring or bar put through the tongue.",
+    "ip": "/ˈtʌŋ ˈpɪɹsɪŋ/"
+   },
+   {
+    "e": "prank",
+    "v": "trò đùa tinh nghịch",
+    "x": "If I were invisible, I'd only play harmless pranks.",
+    "d": "A trick you play on someone for fun.",
+    "ip": "/ˈpɹæŋk/"
+   },
+   {
+    "e": "consequence",
+    "v": "hậu quả",
+    "x": "Every choice has a consequence.",
+    "d": "Something that happens as a result of what you did.",
+    "ip": "/ˈkɑnsəkwəns/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "📐 Ngữ pháp của phiếu — WRONG ❌ vs CORRECT ✅",
+    "pills": [
+     "If + QUÁ KHỨ , would + V(nguyên mẫu)"
+    ],
+    "rows": [
+     {
+      "e": "❌ If I HAVE one million dollars, I WILL buy a villa in Phu My Hung.",
+      "v": "SAI — “have + will” dùng cho việc CÓ THỂ XẢY RA THẬT (điều kiện loại 1)",
+      "a": "Dùng loại 1 khi thật sự có khả năng: “If it rains tomorrow, I will stay home.”"
+     },
+     {
+      "e": "✅ If I HAD one million dollars, I WOULD buy a villa in Phu My Hung.",
+      "v": "ĐÚNG — giả định, không có thật (điều kiện loại 2)",
+      "a": "What would you do if you had one million dollars? — If I had one million dollars, I'd buy a house for my parents."
+     },
+     {
+      "e": "Mẹo chia động từ",
+      "v": "was → WERE cho mọi chủ ngữ trong câu giả định",
+      "a": "If I WERE rich… / If he WERE invisible… (không dùng “If I was” trong văn viết chuẩn)."
+     },
+     {
+      "e": "Rút gọn khi nói",
+      "v": "I would → I'd · would not → wouldn't",
+      "a": "I'd travel the world, but I wouldn't quit my job straight away."
+     },
+     {
+      "e": "Trả lời ngắn tự nhiên",
+      "v": "Yes, I would. / No, I wouldn't. / Definitely not! / I'd have to think about it.",
+      "a": "Would you ever eat rat meat? — No, I wouldn't. Definitely not!"
+     }
+    ]
+   },
+   {
+    "title": "✍️ Activity — 3 câu hỏi bạn tự viết trên lớp",
+    "rows": [
+     {
+      "e": "1. What would you do if…",
+      "v": "Câu bạn viết: nếu được phép làm MỘT điều phi pháp",
+      "a": "What would you do if you were allowed to do one illegal thing? — I'd drive a car without a licence, just once, on an empty road at night."
+     },
+     {
+      "e": "2. Would you ever…",
+      "v": "Câu bạn viết: rời Việt Nam vì đồ ăn",
+      "a": "Would you ever leave Vietnam for good if you could never eat Vietnamese food again? — No way. I'd miss pho and bun bo too much."
+     },
+     {
+      "e": "3. Would you rather…",
+      "v": "Câu bạn viết: ăn 10 con nhện sống hay tắm trong nước mắm",
+      "a": "Would you rather eat 10 live spiders or bathe in fish sauce? — I'd rather bathe in fish sauce. It's disgusting, but at least I can wash it off!"
+     },
+     {
+      "e": "Cách tự viết câu mới",
+      "v": "Công thức: What would you do if + QUÁ KHỨ …? · Would you ever + V …? · Would you rather + V … or + V …?",
+      "a": "Chọn một điều bất khả thi (invisible, time machine) hoặc một lựa chọn khó chịu cho cả hai bên — càng khó chọn càng vui."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "① What would you do if you had one month to live?",
+    "a": "I'd stop working immediately and spend the time with my family. I'd take my parents on a trip along the coast, eat everything I love without counting calories, and write letters to the people who mattered to me. I wouldn't tell many people — I'd want normal days, not sad ones."
+   },
+   {
+    "q": "② What would you do if you had a time machine?",
+    "a": "I'd go back to meet my grandparents when they were young and hear their stories properly. Then I'd jump forward fifty years just to see what the city looks like. I wouldn't try to change anything big — I'd be too afraid of the consequences."
+   },
+   {
+    "q": "③ What would you do if the Internet disappeared?",
+    "a": "For the first week I'd be lost — my job depends on it. After that, I think life would be slower and quieter. I'd read more books, call people instead of texting, and actually visit friends. But businesses everywhere would struggle, so the world would be in real trouble."
+   },
+   {
+    "q": "④ What would you do if you were rich?",
+    "a": "I'd buy a comfortable house for my parents first, then keep working but on projects I actually care about. I'd travel two or three months a year and put the rest away. I don't think I'd stop working completely — I'd get bored very quickly."
+   },
+   {
+    "q": "⑤ What would you do if you were invisible?",
+    "a": "Nothing criminal — just harmless pranks. I'd move my friends' things around and watch them look for their keys. I'd also sneak into a concert and sit in the front row. Honestly, after a day I'd want to be visible again."
+   },
+   {
+    "q": "⑥ Would you ever get plastic surgery?",
+    "a": "Probably not for beauty, because there are certain risks and the results aren't always what you expect. But if I had an accident or something affected my health, then yes, I would. I'd choose a good hospital and think about it for a long time first."
+   },
+   {
+    "q": "⑦ Would you ever adopt a child?",
+    "a": "Yes, I would. There are so many children who need a family, and being a parent is about raising someone, not about blood. I'd want to be financially stable first, and my partner would have to want it just as much as I do."
+   },
+   {
+    "q": "⑧ Would you ever donate blood?",
+    "a": "Yes — I've actually done it. It takes fifteen minutes and it can save someone's life. I'm a bit afraid of needles, so I don't look, but that's a small price to pay."
+   },
+   {
+    "q": "⑨ Would you ever eat rat meat?",
+    "a": "Honestly, I already have. Field rat is a real dish in the Mekong Delta, and when it's grilled with salt and chilli it tastes a bit like chicken. I know it sounds shocking to foreigners, but it's clean, country rat, not city rat!",
+    "a2": "No, I wouldn't. I know people in the countryside eat it and say it's delicious, but I just can't get past the idea."
+   },
+   {
+    "q": "⑩ Would you ever be a vegan for a year?",
+    "a": "For a month, definitely — Vietnamese vegetarian food is delicious. For a whole year, it would be hard, because fish sauce is in almost everything here. I'd do it if a doctor told me it would make me healthier."
+   },
+   {
+    "q": "⑪ Would you rather be extremely hairy or completely bald?",
+    "a": "I'd rather be completely bald. It's much easier to take care of, it's cool in Vietnamese weather, and plenty of people look great bald. Being extremely hairy is harder to hide and much hotter in summer."
+   },
+   {
+    "q": "⑫ Would you rather be rich and ugly or poor and good-looking?",
+    "a": "I'd rather be rich and ugly. Looks fade anyway, and money buys time, safety and healthcare for my family. Being good-looking is nice, but it doesn't pay the hospital bill."
+   },
+   {
+    "q": "⑬ Would you rather be able to see into the future or be able to change the past?",
+    "a": "I'd rather see into the future. If I could change the past, I'd never stop fixing things, and every change would create new problems. Seeing the future would at least help me prepare — even if I couldn't change it."
+   },
+   {
+    "q": "⑭ Would you rather be able to speak every language fluently or be able to speak to every animal?",
+    "a": "Every language, definitely. I could travel anywhere, work anywhere and understand people's real feelings. Talking to animals would be fun for a week, but I don't think my dog has much news for me."
+   },
+   {
+    "q": "⑮ Would you rather have a neck tattoo or a tongue piercing?",
+    "a": "A tongue piercing, because I could take it out and nobody would see it. A neck tattoo is permanent and very hard to hide at work or at a family gathering, and my mother would never forgive me."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Quick question: what would you do if you won ten billion dong?",
+    "v": "Hỏi nhanh nè: nếu trúng 10 tỷ bạn sẽ làm gì?"
+   },
+   {
+    "p": "B",
+    "e": "If I won that much, I'd buy my parents a house first.",
+    "v": "Nếu trúng nhiều vậy, đầu tiên mình mua nhà cho ba mẹ."
+   },
+   {
+    "p": "A",
+    "e": "Would you quit your job?",
+    "v": "Bạn có nghỉ việc không?"
+   },
+   {
+    "p": "B",
+    "e": "No, I wouldn't. I'd get bored. Maybe I'd work part-time.",
+    "v": "Không đâu. Mình sẽ chán. Chắc làm bán thời gian thôi."
+   },
+   {
+    "p": "A",
+    "e": "Okay, another one. Would you rather be invisible or read minds?",
+    "v": "Rồi, câu nữa. Bạn thích tàng hình hay đọc được suy nghĩ?"
+   },
+   {
+    "p": "B",
+    "e": "Invisible. If I could read minds, I'd hear things I don't want to know.",
+    "v": "Tàng hình. Nếu đọc được suy nghĩ, mình sẽ nghe những điều chẳng muốn biết."
+   },
+   {
+    "p": "A",
+    "e": "Fair. Would you ever eat rat meat?",
+    "v": "Cũng hợp lý. Bạn có bao giờ dám ăn thịt chuột không?"
+   },
+   {
+    "p": "B",
+    "e": "I already have! Grilled field rat, in Can Tho.",
+    "v": "Ăn rồi đó! Chuột đồng nướng, ở Cần Thơ."
+   },
+   {
+    "p": "A",
+    "e": "No way! What was it like?",
+    "v": "Không thể tin được! Ăn thế nào?"
+   },
+   {
+    "p": "B",
+    "e": "A bit like chicken. If you didn't know, you wouldn't guess.",
+    "v": "Hơi giống thịt gà. Nếu không biết trước, bạn chẳng đoán ra đâu."
+   }
+  ],
+  "tips": [
+   "Công thức chuẩn: If + S + V(quá khứ), S + WOULD + V(nguyên mẫu). Vế “if” KHÔNG bao giờ chứa “would”: ❌ If I would have money… ✅ If I had money…",
+   "Trong câu giả định, to be luôn dùng WERE cho mọi chủ ngữ: If I were you… / If he were rich… (“If I was” chỉ chấp nhận trong văn nói thân mật).",
+   "Would you ever…? hỏi về điều bạn CHƯA làm và có thể sẽ không làm · Have you ever…? hỏi kinh nghiệm ĐÃ có. So sánh: “Would you ever eat rat meat?” ≠ “Have you ever eaten rat meat?”",
+   "Would you rather A or B? → trả lời “I'd rather + V nguyên mẫu” (I'd rather be bald), KHÔNG “I'd rather to be”. Nêu lý do ngay sau đó bằng because…",
+   "Trả lời câu giả định nên đủ 3 phần: chọn gì → vì sao → thêm chi tiết/ngoại lệ. Đó là cách kéo dài câu trả lời tự nhiên trong lớp nói."
+  ],
+  "shadow": {
+   "en": "Hypothetical questions are my favourite way to practise speaking, because there's no right answer and you can't run out of ideas. The grammar is simple once you see it: if plus the past tense, then would plus the base verb. If I had one million dollars, I would buy a house for my parents — not “if I have” and “I will”, because this isn't real. And in this pattern we say “if I were”, not “if I was”. So: what would I do if I had one month to live? I'd stop working, travel with my family and eat everything I love. What would I do if I were invisible? Nothing criminal — just harmless pranks on my friends. Would I ever donate blood? Yes, I already have; it takes fifteen minutes and it can save a life. Would I ever get plastic surgery? Probably not, because there are certain risks. And would I rather be extremely hairy or completely bald? Bald, definitely — it's much cooler in Vietnamese weather. The trick with these questions is to answer in three steps: say your choice, give the reason, then add one detail. That's how a one-word answer becomes a real conversation.",
+   "vi": "Câu hỏi giả định là kiểu luyện nói mình thích nhất, vì không có đáp án đúng sai và không bao giờ hết ý. Ngữ pháp rất đơn giản khi đã hiểu: “if” + thì quá khứ, rồi “would” + động từ nguyên mẫu. Nếu mình có một triệu đô, mình sẽ mua nhà cho ba mẹ — không phải “if I have” với “I will”, vì chuyện này đâu có thật. Và trong mẫu này ta nói “if I were”, chứ không phải “if I was”. Vậy nên: mình sẽ làm gì nếu chỉ còn một tháng để sống? Mình sẽ nghỉ làm, đi chơi với gia đình và ăn hết những món mình thích. Mình sẽ làm gì nếu tàng hình? Không làm gì phạm pháp đâu — chỉ trêu bạn bè vô hại thôi. Mình có dám hiến máu không? Có, mình hiến rồi; mất mười lăm phút mà cứu được một mạng người. Mình có đi phẫu thuật thẩm mỹ không? Chắc là không, vì có những rủi ro nhất định. Còn thà nhiều lông hay hói hẳn? Hói, chắc chắn — mát hơn nhiều với thời tiết Việt Nam. Bí quyết trả lời mấy câu này là đi ba bước: nói lựa chọn, nêu lý do, rồi thêm một chi tiết. Đó là cách biến một câu trả lời cụt lủn thành một cuộc trò chuyện thật sự."
   }
  }
 ];
