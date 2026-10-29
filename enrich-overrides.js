@@ -9,7 +9,6 @@ module.exports = {
   "I'm interested in...": { d: "You say this to talk about a topic or activity you like and want to know more about.", x: "I'm interested in learning new languages." },
   "I'm good at...": { d: "You say this to talk about something you can do well.", x: "I'm good at solving problems." },
   "I'm passionate about...": { d: "You say this about something you love and care about very strongly.", x: "I'm passionate about protecting the environment." },
-  "challenge": { d: "A challenge is a difficult task or situation that tests your ability.", x: "Learning to code was a fun challenge for me." },
 
   // ---- Family ----
   "close-knit family": { d: "A family whose members love and support each other and feel very connected.", x: "We are a close-knit family and eat dinner together every night." },
@@ -282,9 +281,7 @@ module.exports = {
   "consistent": { x: "She is consistent with her daily exercise." },
   "lazy": { x: "I felt too lazy to cook, so I ordered food." },
   "explore": { x: "We love to explore new cities when we travel." },
-  "achievement": { x: "Graduating from university was a great achievement." },
   "responsibility": { x: "Being a parent is a big responsibility." },
-  "independent": { x: "After getting a job, she became financially independent." },
   "a receipt": { x: "Keep the receipt in case you want a refund." },
   "to check out": { x: "We checked out and paid for our groceries." },
   "next to / beside": { x: "The bank is next to the post office." },
@@ -531,7 +528,6 @@ module.exports = {
   "fry": { d: "To cook food in hot oil." },                                                   // API: \"A state of excitement.\"
   "boil": { d: "To cook food in very hot water." },                                           // API trả nghĩa DANH TỪ
   "chop": { d: "To cut something into small pieces with a knife." },                          // API: \"A cut of meat.\"
-  "positive": { d: "Hopeful, and looking at the good side of things." },                      // API: \"Fully assured in opinion.\"
   "discount": { d: "An amount of money taken off the normal price." },                        // API trả nghĩa TÍNH TỪ
   "sponge": { d: "A soft material that soaks up water, used for cleaning or wetting things." },// API: nghĩa \"ăn bám\"
   "shadow": { d: "A dark shape on a surface, made when something blocks the light." },         // API: \"Unofficial, informal…\"
@@ -563,8 +559,6 @@ module.exports = {
   "rice": { d: "The white grain that is the main food in Vietnam." },
   "scientist": { d: "A person whose job is science." },
   "rice cooker": { d: "An electric pot that cooks rice for you." },
-  "shy": { d: "Nervous about meeting or talking to new people (a part of your character)." },
-  "embarrassed": { d: "Feeling uncomfortable and a bit ashamed because of something that just happened." },
   "come": { d: "To move towards the person you are speaking to, or to the place you are talking about." },
   "go": { d: "To move away from where you are now, to another place." },
   "most": { d: "Almost all of a group; the biggest part. Used with a noun: most people." },
@@ -692,5 +686,106 @@ module.exports = {
   "neck tattoo": { d: "A permanent picture drawn on the skin of the neck." },
   "tongue piercing": { d: "A small ring or bar put through the tongue." },
   "prank": { d: "A trick you play on someone for fun." },
-  "consequence": { d: "Something that happens as a result of what you did." }
+  "consequence": { d: "Something that happens as a result of what you did." },
+
+  // ---- Speaking with Confidence (LV4) — 20 định nghĩa đầu lấy ĐÚNG bảng "Confidence Vocabulary" của phiếu ----
+  // (challenge/achievement/independent/positive/shy/embarrassed dùng chung với chủ đề cũ: nay theo định nghĩa của phiếu;
+  //  ví dụ riêng của chủ đề cũ đã nằm sẵn trong dữ liệu nên không mất)
+  "confidence": { d: "The feeling that you can do something well." },
+  "confident": { d: "Feeling sure that you can do something successfully." },
+  "self-confidence": { d: "Belief in your own abilities and skills." },
+  "believe in yourself": { d: "To trust that you can do something." },
+  "brave": { d: "Not afraid to do something difficult or scary." },
+  "courage": { d: "The ability to do something difficult even when you are afraid." },
+  "proud": { d: "Feeling happy about something you did well." },
+  "positive": { d: "Thinking about good things and good possibilities." },
+  "motivated": { d: "Wanting to work hard and achieve something." },
+  "independent": { d: "Able to do things without needing help from others." },
+  "successful": { d: "Having achieved what you wanted to achieve." },
+  "achievement": { d: "Something good that you did or succeeded in doing." },
+  "improve": { d: "To become better at something." },
+  "challenge": { d: "Something difficult that tests your ability." },
+  "overcome": { d: "To successfully deal with a problem or fear." },
+  "nervous": { d: "Worried or afraid about something that will happen." },
+  "shy": { d: "Quiet and uncomfortable when talking to other people." },
+  "embarrassed": { d: "Feeling uncomfortable or ashamed about something." },
+  "fear": { d: "The feeling you have when you think something bad or dangerous might happen." },
+  "mistake": { d: "Something that you do incorrectly." },
+  "mindset": { d: "Your usual way of thinking about things." },
+  "positive thinking": { d: "Choosing to focus on good things and on what you can do." },
+  "develop": { d: "To grow, or to make something grow stronger, over time." },
+  "achieve": { d: "To succeed in doing something after working hard." },
+  "admire": { d: "To like and respect someone very much." },
+  "speak your mind": { d: "To say honestly what you think, even if others may not agree." },
+  "be full of yourself": { d: "To think you are more important or better than other people (negative)." },
+  "step out of your comfort zone": { d: "To do something new or difficult that makes you feel a little uncomfortable." },
+
+  // ---- Slang & Idioms (L4) — nghĩa bám ghi chú tay của thầy trên phiếu ----
+  "slang": { d: "Very informal words and phrases, used mostly in speech or by a particular group." },
+  "idiom": { d: "A group of words whose meaning is different from the meanings of the single words." },
+  "crash (v.)": { d: "(slang) To go to sleep quickly because you are very tired; also, to sleep at someone's place for the night." },
+  "24/7": { d: "All the time; 24 hours a day, 7 days a week (constantly)." },
+  "bail (v.)": { d: "(slang) To cancel plans or leave suddenly, at short notice. Bail on someone = let them down." },
+  "dodgy / sketchy (adj.)": { d: "(slang) Looking dishonest, unsafe or not trustworthy; can describe people or things." },
+  "sick (adj.)": { d: "(slang) Very good, fun or exciting." },
+  "hammered / wasted (adj.)": { d: "(slang) Very drunk. British English also says 'pissed' (= drunk), but in American English 'pissed' means angry." },
+  "bullshit (n.)": { d: "(rude slang) Something that is not true; a lie or nonsense. Verb: to bullshit = to lie." },
+  "hold your horses": { d: "Wait a moment; slow down and don't rush." },
+  "kick the bucket": { d: "(informal, humorous) To die." },
+  "head in the clouds": { d: "Daydreaming, or having ideas and expectations that are not realistic (have your head in the clouds)." },
+  "a piece of cake": { d: "Something very easy to do." },
+  "couch potato": { d: "A lazy person who spends a lot of time sitting and watching TV." },
+  "cold feet": { d: "Feeling nervous about a big decision or event, so you think about not doing it (get cold feet)." },
+  "inappropriate": { d: "Not suitable or acceptable for a particular situation." },
+
+  // ---- Idioms Bluff (L4) — nghĩa = đáp án đúng (in đậm) của phiếu ----
+  "in the doghouse": { d: "In trouble with someone because of your behaviour." },
+  "feeling blue": { d: "Feeling sad." },
+  "spill the beans": { d: "To reveal a secret." },
+  "black and blue": { d: "Covered in bruises." },
+  "a stone's throw away": { d: "Very close; only a very short distance away." },
+  "a fish out of water": { d: "Someone who feels they don't belong in a place or situation." },
+  "kill time": { d: "To do something to make time pass while you wait." },
+  "broke": { d: "Having no money." },
+  "don't cry over spilt milk": { d: "Don't be upset over something bad in the past that can't be changed." },
+  "green fingers": { d: "Being good at gardening (British; American English says 'a green thumb')." },
+  "get on like a house on fire": { d: "To get along very well and become friends quickly." },
+  "the big cheese": { d: "A very important person in a group or company." },
+  "bring home the bacon": { d: "To earn money to support the family." },
+  "nuts": { d: "Crazy. Be nuts about something = love it very much." },
+  "break a leg": { d: "Good luck! Said to someone before they perform or give a presentation." },
+  "the apple of your eye": { d: "Someone you adore and are very proud of." },
+  "pop the question": { d: "To ask someone to marry you." },
+  "the elephant in the room": { d: "A big problem that everybody knows about but nobody wants to talk about." },
+  "get on your nerves": { d: "To annoy you." },
+  "pull someone's leg": { d: "To joke with someone by telling them something that isn't true." },
+
+  // ---- Lying (L4) ----
+  "honest / dishonest (adj.)": { d: "Honest: telling the truth and not cheating. Dishonest: lying or cheating." },
+  "skeptical / gullible (adj.)": { d: "Skeptical: not easily believing things. Gullible: believing things too easily, so people can trick you." },
+  "cheat (v.)": { d: "To act dishonestly to win or get an advantage, for example in an exam." },
+  "liar (n.)": { d: "A person who tells lies." },
+  "white lie (n.)": { d: "A small lie told to be polite or to avoid hurting someone's feelings." },
+  "get caught in a lie": { d: "To be discovered telling a lie." },
+  "get away with a lie": { d: "To tell a lie and not be discovered or punished." },
+  "bend the truth": { d: "To say something that is not completely true, without telling a full lie." },
+  "poker face": { d: "A face that shows no emotion, so others can't guess what you are thinking." },
+  "the ugly truth": { d: "A fact that is unpleasant but true." },
+  "spread lies": { d: "To tell untrue stories about someone to many people." },
+  "break up": { d: "To end a romantic relationship." },
+  "give someone another chance": { d: "To forgive someone and let them try again." },
+
+  // ---- Be Going To — Destiny Detectives ----
+  "be going to": { d: "Used to talk about plans you have already decided, or things you can see will happen." },
+  "destiny": { d: "The things that will happen to you in the future, which some people believe are already decided." },
+  "detective": { d: "A person whose job is to find out the truth by asking questions and looking for clues." },
+  "plan": { d: "Something you have decided to do in the future; (verb) to decide what you are going to do." },
+  "soon": { d: "In a short time from now." },
+  "download": { d: "To copy a file or an app from the internet onto your phone or computer." },
+  "save money": { d: "To keep money instead of spending it, often to buy something later." },
+  "go on holiday": { d: "To travel somewhere for a rest or for fun (American: go on vacation)." },
+  "chat to someone": { d: "To talk or send messages to someone in a friendly, informal way." },
+  "skill": { d: "The ability to do something well because you have learned and practised it." },
+  "practise": { d: "To do something regularly to get better at it (British spelling; American: practice)." },
+  "TV programme": { d: "A show on television (American: TV program / TV show)." }
 };

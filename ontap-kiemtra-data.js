@@ -76,7 +76,7 @@ window.ONTAP = [
     "e": "confident",
     "v": "tự tin",
     "ip": "/ˈkɑnfədənt/",
-    "d": "Very sure of something; positive.",
+    "d": "Feeling sure that you can do something successfully.",
     "x": "I'm pretty confident that she's not lying, she's acting normally."
    },
    {
@@ -127,7 +127,7 @@ window.ONTAP = [
     "e": "challenge",
     "v": "thử thách",
     "ip": "/ˈt͡ʃælənd͡ʒ/",
-    "d": "A challenge is a difficult task or situation that tests your ability.",
+    "d": "Something difficult that tests your ability.",
     "x": "Learning to code was a fun challenge for me."
    }
   ],
@@ -2224,7 +2224,7 @@ window.ONTAP = [
    {
     "e": "motivated",
     "v": "có động lực",
-    "d": "Enthusiastic, especially about striving toward a goal.",
+    "d": "Wanting to work hard and achieve something.",
     "x": "We're looking for a highly motivated individual who will fit into our fast-paced corporate culture.",
     "ip": "/ˈmoʊtəˌveɪtəd/"
    },
@@ -3029,7 +3029,7 @@ window.ONTAP = [
     "e": "achievement",
     "v": "thành tựu",
     "ip": "/əˈt͡ʃivmənt/",
-    "d": "An award for completing a particular task or meeting an objective in a video game.",
+    "d": "Something good that you did or succeeded in doing.",
     "x": "Graduating from university was a great achievement."
    },
    {
@@ -3064,7 +3064,7 @@ window.ONTAP = [
     "e": "independent",
     "v": "độc lập",
     "ip": "/ˌɪndɪˈpɛndənt/",
-    "d": "Not affiliated with any political party.",
+    "d": "Able to do things without needing help from others.",
     "x": "After getting a job, she became financially independent."
    },
    {
@@ -7623,7 +7623,7 @@ window.ONTAP = [
     "v": "ngượng, xấu hổ",
     "x": "I was embarrassed when I forgot her name.",
     "ip": "/ɪmˈbɛɹəst/",
-    "d": "Feeling uncomfortable and a bit ashamed because of something that just happened."
+    "d": "Feeling uncomfortable or ashamed about something."
    },
    {
     "e": "energetic",
@@ -7637,7 +7637,7 @@ window.ONTAP = [
     "v": "hồi hộp, căng thẳng",
     "x": "She was nervous before the interview.",
     "ip": "/ˈnɝvəs/",
-    "d": "Of sinews and tendons."
+    "d": "Worried or afraid about something that will happen."
    },
    {
     "e": "bored",
@@ -10416,7 +10416,7 @@ window.ONTAP = [
     "v": "tích cực",
     "x": "I try to stay positive under pressure.",
     "ip": "/ˈpɑzətɪv/",
-    "d": "Hopeful, and looking at the good side of things."
+    "d": "Thinking about good things and good possibilities."
    },
    {
     "s": 1,
@@ -12716,7 +12716,7 @@ window.ONTAP = [
     "v": "nhút nhát (tính cách — ngại nói chuyện)",
     "x": "He's too shy to speak in public.",
     "ip": "/ˈʃaɪ/",
-    "d": "Nervous about meeting or talking to new people (a part of your character)."
+    "d": "Quiet and uncomfortable when talking to other people."
    },
    {
     "s": 1,
@@ -12724,7 +12724,7 @@ window.ONTAP = [
     "v": "xấu hổ, ngượng (cảm giác nhất thời)",
     "x": "I felt embarrassed when I forgot his name.",
     "ip": "/ɪmˈbɛɹəst/",
-    "d": "Feeling uncomfortable and a bit ashamed because of something that just happened."
+    "d": "Feeling uncomfortable or ashamed about something."
    },
    {
     "s": 1,
@@ -15112,6 +15112,1843 @@ window.ONTAP = [
   "shadow": {
    "en": "Hypothetical questions are my favourite way to practise speaking, because there's no right answer and you can't run out of ideas. The grammar is simple once you see it: if plus the past tense, then would plus the base verb. If I had one million dollars, I would buy a house for my parents — not “if I have” and “I will”, because this isn't real. And in this pattern we say “if I were”, not “if I was”. So: what would I do if I had one month to live? I'd stop working, travel with my family and eat everything I love. What would I do if I were invisible? Nothing criminal — just harmless pranks on my friends. Would I ever donate blood? Yes, I already have; it takes fifteen minutes and it can save a life. Would I ever get plastic surgery? Probably not, because there are certain risks. And would I rather be extremely hairy or completely bald? Bald, definitely — it's much cooler in Vietnamese weather. The trick with these questions is to answer in three steps: say your choice, give the reason, then add one detail. That's how a one-word answer becomes a real conversation.",
    "vi": "Câu hỏi giả định là kiểu luyện nói mình thích nhất, vì không có đáp án đúng sai và không bao giờ hết ý. Ngữ pháp rất đơn giản khi đã hiểu: “if” + thì quá khứ, rồi “would” + động từ nguyên mẫu. Nếu mình có một triệu đô, mình sẽ mua nhà cho ba mẹ — không phải “if I have” với “I will”, vì chuyện này đâu có thật. Và trong mẫu này ta nói “if I were”, chứ không phải “if I was”. Vậy nên: mình sẽ làm gì nếu chỉ còn một tháng để sống? Mình sẽ nghỉ làm, đi chơi với gia đình và ăn hết những món mình thích. Mình sẽ làm gì nếu tàng hình? Không làm gì phạm pháp đâu — chỉ trêu bạn bè vô hại thôi. Mình có dám hiến máu không? Có, mình hiến rồi; mất mười lăm phút mà cứu được một mạng người. Mình có đi phẫu thuật thẩm mỹ không? Chắc là không, vì có những rủi ro nhất định. Còn thà nhiều lông hay hói hẳn? Hói, chắc chắn — mát hơn nhiều với thời tiết Việt Nam. Bí quyết trả lời mấy câu này là đi ba bước: nói lựa chọn, nêu lý do, rồi thêm một chi tiết. Đó là cách biến một câu trả lời cụt lủn thành một cuộc trò chuyện thật sự."
+  }
+ },
+ {
+  "icon": "💪",
+  "name": "Speaking with Confidence LV4 / Nói tiếng Anh tự tin",
+  "intro": "Phiếu LV4 “SPEAKING WITH CONFIDENCE” + 2 trang phát tay: bảng Confidence Vocabulary (20 từ — định nghĩa & ví dụ lấy đúng theo phiếu) và Useful Expressions (10 cụm). Gồm 4 câu warm-up “Let's Talk About Confidence!”, 10 câu thảo luận và trò chơi The Expert Game.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "confidence",
+    "v": "sự tự tin",
+    "x": "She has confidence when she speaks English.",
+    "ip": "/ˈkɒnfɪdəns/",
+    "d": "The feeling that you can do something well."
+   },
+   {
+    "s": 1,
+    "e": "confident",
+    "v": "tự tin",
+    "x": "He feels confident about the test.",
+    "ip": "/ˈkɒn.fɪ.dənt/",
+    "d": "Feeling sure that you can do something successfully."
+   },
+   {
+    "e": "self-confidence",
+    "v": "lòng tự tin vào bản thân",
+    "x": "Practicing helped her build self-confidence.",
+    "d": "Belief in your own abilities and skills.",
+    "ip": "/ˈsɛlf ˈkɑnfədəns/"
+   },
+   {
+    "s": 1,
+    "e": "believe in yourself",
+    "v": "tin vào bản thân",
+    "x": "You should believe in yourself before the interview.",
+    "ip": "/bɪˈliːv ɪn jɔːˈsɛlf/",
+    "d": "To trust that you can do something."
+   },
+   {
+    "e": "brave",
+    "v": "dũng cảm, can đảm",
+    "x": "She was brave enough to speak in front of the class.",
+    "ip": "/bɹeɪv/",
+    "d": "Not afraid to do something difficult or scary."
+   },
+   {
+    "e": "courage",
+    "v": "lòng can đảm",
+    "x": "It takes courage to try something new.",
+    "ip": "/ˈkʌɹɪdʒ/",
+    "d": "The ability to do something difficult even when you are afraid."
+   },
+   {
+    "e": "proud",
+    "v": "tự hào",
+    "x": "He is proud of his English progress.",
+    "ip": "/pɹaʊd/",
+    "d": "Feeling happy about something you did well."
+   },
+   {
+    "e": "positive",
+    "v": "tích cực, lạc quan",
+    "x": "Try to stay positive before the exam.",
+    "ip": "/ˈpɒzɪ̈tɪv/",
+    "d": "Thinking about good things and good possibilities."
+   },
+   {
+    "e": "motivated",
+    "v": "có động lực",
+    "x": "She is motivated to improve her English.",
+    "d": "Wanting to work hard and achieve something.",
+    "ip": "/ˈmoʊtəˌveɪtəd/"
+   },
+   {
+    "e": "independent",
+    "v": "tự lập, độc lập",
+    "x": "He is becoming more independent at work.",
+    "ip": "/ɪndɪˈpɛndənt/",
+    "d": "Able to do things without needing help from others."
+   },
+   {
+    "e": "successful",
+    "v": "thành công",
+    "x": "She was successful in her job interview.",
+    "ip": "/səkˈsɛsfl̩/",
+    "d": "Having achieved what you wanted to achieve."
+   },
+   {
+    "e": "achievement",
+    "v": "thành tựu, thành tích",
+    "x": "Passing the exam was a big achievement.",
+    "ip": "/əˈtʃiːvmənt/",
+    "d": "Something good that you did or succeeded in doing."
+   },
+   {
+    "e": "improve",
+    "v": "cải thiện, tiến bộ",
+    "x": "Practicing can improve your speaking skills.",
+    "ip": "/ɪmˈpɹuːv/",
+    "d": "To become better at something."
+   },
+   {
+    "e": "challenge",
+    "v": "thử thách",
+    "x": "Giving a speech is a challenge for him.",
+    "ip": "/ˈtʃæl.əndʒ/",
+    "d": "Something difficult that tests your ability."
+   },
+   {
+    "s": 1,
+    "e": "overcome",
+    "v": "vượt qua (overcome – overcame – overcome)",
+    "x": "She overcame her fear of speaking English.",
+    "ip": "/ˌəʊvəˈkʌm/",
+    "d": "To successfully deal with a problem or fear."
+   },
+   {
+    "e": "nervous",
+    "v": "lo lắng, hồi hộp",
+    "x": "I feel nervous before presentations.",
+    "ip": "/ˈnɜːvəs/",
+    "d": "Worried or afraid about something that will happen."
+   },
+   {
+    "e": "shy",
+    "v": "nhút nhát, ngại",
+    "x": "He is shy when he meets new people.",
+    "ip": "/ʃaɪ/",
+    "d": "Quiet and uncomfortable when talking to other people."
+   },
+   {
+    "e": "embarrassed",
+    "v": "xấu hổ, ngượng",
+    "x": "She felt embarrassed after making a mistake.",
+    "ip": "/ɪmˈbæɹ.əst/",
+    "d": "Feeling uncomfortable or ashamed about something."
+   },
+   {
+    "e": "fear",
+    "v": "nỗi sợ",
+    "x": "Fear can stop people from trying new things.",
+    "ip": "/fɪə/",
+    "d": "The feeling you have when you think something bad or dangerous might happen."
+   },
+   {
+    "e": "mistake",
+    "v": "lỗi sai",
+    "x": "Making mistakes is a normal part of learning.",
+    "ip": "/mɪˈsteɪk/",
+    "d": "Something that you do incorrectly."
+   },
+   {
+    "s": 1,
+    "e": "public speaking",
+    "v": "nói trước đám đông",
+    "x": "Public speaking makes a lot of people nervous.",
+    "ip": "/ˈpʌblɪk ˈspiːˌkiŋ/",
+    "d": "The skill of speaking to a group of people, for example giving a presentation."
+   },
+   {
+    "s": 1,
+    "e": "mindset",
+    "v": "tư duy, lối suy nghĩ",
+    "x": "With the right mindset, every mistake is a lesson.",
+    "d": "Your usual way of thinking about things.",
+    "ip": "/ˈmaɪndˌsɛt/"
+   },
+   {
+    "e": "positive thinking",
+    "v": "suy nghĩ tích cực",
+    "x": "Positive thinking helps me stay calm before a meeting.",
+    "ip": "/ˈpɒzɪ̈tɪv ˈθɪŋkɪŋ/",
+    "d": "Choosing to focus on good things and on what you can do."
+   },
+   {
+    "e": "develop",
+    "v": "phát triển, rèn luyện",
+    "x": "You can develop confidence by speaking a little every day.",
+    "ip": "/dɛˈvɛ.ləp/",
+    "d": "To grow, or to make something grow stronger, over time."
+   },
+   {
+    "s": 1,
+    "e": "achieve",
+    "v": "đạt được",
+    "x": "I achieved my goal of speaking English for ten minutes without stopping.",
+    "ip": "/əˈtʃiːv/",
+    "d": "To succeed in doing something after working hard."
+   },
+   {
+    "s": 1,
+    "e": "admire",
+    "v": "ngưỡng mộ",
+    "x": "I admire people who can speak in public without notes.",
+    "ip": "/ədˈmaɪə/",
+    "d": "To like and respect someone very much."
+   },
+   {
+    "s": 1,
+    "e": "speak your mind",
+    "v": "nói thẳng suy nghĩ của mình",
+    "x": "In our team meetings, everyone is free to speak their mind.",
+    "d": "To say honestly what you think, even if others may not agree.",
+    "ip": "/ˈspik jɔɹ ˈmaɪnd/"
+   },
+   {
+    "s": 1,
+    "e": "be full of yourself",
+    "v": "tự cao, tự mãn",
+    "x": "He's talented, but he's a bit full of himself.",
+    "d": "To think you are more important or better than other people (negative).",
+    "ip": "/bi ˈfʊl ʌv jɚˈsɛlf/"
+   },
+   {
+    "s": 1,
+    "e": "step out of your comfort zone",
+    "v": "bước ra khỏi vùng an toàn",
+    "x": "Joining an English club helped me step out of my comfort zone.",
+    "d": "To do something new or difficult that makes you feel a little uncomfortable.",
+    "ip": "/ˈstɛp ˈaʊt ʌv jɔɹ ˈkʌmfɚt ˈzoʊn/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "💬 Useful Expressions — 10 cụm của phiếu",
+    "pills": [
+     "feel / build / gain / lose + confidence"
+    ],
+    "rows": [
+     {
+      "e": "feel confident about something",
+      "v": "cảm thấy tự tin về điều gì",
+      "a": "I feel confident about my English."
+     },
+     {
+      "e": "build confidence",
+      "v": "xây dựng sự tự tin (từ từ, qua luyện tập)",
+      "a": "Practice helps you build confidence."
+     },
+     {
+      "e": "gain confidence",
+      "v": "có thêm tự tin",
+      "a": "She gained confidence after giving several presentations."
+     },
+     {
+      "e": "lose confidence",
+      "v": "mất tự tin",
+      "a": "He lost confidence after failing the test."
+     },
+     {
+      "e": "have faith in yourself",
+      "v": "tin tưởng bản thân",
+      "a": "Have faith in yourself and keep trying."
+     },
+     {
+      "e": "step outside your comfort zone",
+      "v": "bước ra khỏi vùng an toàn (= step out of)",
+      "a": "Speaking to strangers can help you step outside your comfort zone."
+     },
+     {
+      "e": "face your fears",
+      "v": "đối mặt với nỗi sợ",
+      "a": "You can become stronger when you face your fears."
+     },
+     {
+      "e": "give it a try",
+      "v": "cứ thử xem",
+      "a": "Don't be afraid. Give it a try!"
+     },
+     {
+      "e": "keep trying",
+      "v": "tiếp tục cố gắng",
+      "a": "Even if you make mistakes, keep trying."
+     },
+     {
+      "e": "be proud of yourself",
+      "v": "tự hào về bản thân",
+      "a": "You should be proud of yourself for finishing the course."
+     }
+    ]
+   },
+   {
+    "title": "☕ Let's Talk About Confidence! — 4 câu warm-up của phiếu",
+    "rows": [
+     {
+      "e": "What does it mean to speak with confidence?",
+      "v": "Nói một cách tự tin nghĩa là gì?",
+      "a": "To me, it means speaking clearly and calmly, looking at people, and not panicking when I make a small mistake. It's not about perfect grammar — it's about getting your message across."
+     },
+     {
+      "e": "When do you feel confident speaking English?",
+      "v": "Khi nào bạn thấy tự tin nói tiếng Anh?",
+      "a": "When I talk about topics I know well, like my job or my hobbies, and when the other person is patient and friendly."
+     },
+     {
+      "e": "When do you feel nervous or unsure? Why?",
+      "v": "Khi nào bạn thấy lo hoặc không chắc? Vì sao?",
+      "a": "When a native speaker talks very fast, or in a meeting with my boss. I'm afraid of misunderstanding something or using the wrong word."
+     },
+     {
+      "e": "What helps you feel more confident?",
+      "v": "Điều gì giúp bạn tự tin hơn?",
+      "a": "Preparing a few key phrases, taking a deep breath, and remembering that people care more about my ideas than my accent."
+     }
+    ]
+   },
+   {
+    "title": "🎭 The Expert Game — Speak with Confidence! (cách chơi)",
+    "pills": [
+     "2 chủ đề bạn rành + 1 chủ đề bạn KHÔNG rành",
+     "Nói như chuyên gia — kể cả khi đang “giả vờ”"
+    ],
+    "rows": [
+     {
+      "e": "Bước 1 — Chọn 3 chủ đề",
+      "v": "2 chủ đề bạn biết rất rõ + 1 chủ đề bạn không biết nhiều",
+      "a": "My three topics are: coffee, quality control, and… golf."
+     },
+     {
+      "e": "Bước 2 — Trả lời câu hỏi về cả 3 chủ đề",
+      "v": "Cả lớp hỏi; bạn trả lời giọng chắc chắn, không ngập ngừng",
+      "a": "Good question. Actually, the most important thing in golf is your grip, not your strength."
+     },
+     {
+      "e": "Bước 3 — Lớp đoán chủ đề “giả”",
+      "v": "Mọi người đoán chủ đề nào bạn không thật sự rành. Can you fool them?",
+      "a": "I think golf is the fake one — you paused before every answer!"
+     },
+     {
+      "e": "Cụm nói như chuyên gia",
+      "v": "Mở đầu chắc nịch, đồng thời cho mình thời gian nghĩ",
+      "a": "Well, in my experience… / The key thing is… / Most people don't realise that… / Actually, it's quite simple: …"
+     },
+     {
+      "e": "Khi bị hỏi khó",
+      "v": "Đừng nói “I don't know” — chuyển hướng một cách tự tin",
+      "a": "That depends on the situation. Generally speaking, … / That's a great question — let me put it this way: …"
+     },
+     {
+      "e": "Ngôn ngữ cơ thể",
+      "v": "Nhìn vào người hỏi, nói chậm, nói hết câu, không xin lỗi liên tục",
+      "a": "Speak slowly, keep eye contact, and finish your sentences — confident speakers don't rush."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Are you a confident person? Are you a confident English speaker?",
+    "a": "At work I'm fairly confident, because I know what I'm doing. In English I'm getting there. I'm confident when I talk about familiar topics, but I still get nervous in fast conversations with native speakers.",
+    "a2": "Not really, to be honest. I'm a bit shy, but I've noticed that every time I speak up, it gets a little easier."
+   },
+   {
+    "q": "2. Have you ever had to speak in public? How did it go?",
+    "a": "Yes — last year I had to present a project report to about thirty people. I was really nervous at first and my hands were shaking, but after the first two minutes I relaxed. In the end it went well, and I was proud of myself."
+   },
+   {
+    "q": "3. Do you think confidence is something we're born with or something we learn?",
+    "a": "A bit of both, but mostly something we learn. Some people are naturally outgoing, but confidence grows when you practise and see that you can do it. I wasn't born confident — I built it step by step."
+   },
+   {
+    "q": "4. What advice would you give to someone who wants to feel more confident?",
+    "a": "Start small. Speak a little every day, prepare a few phrases, and don't be afraid of mistakes. And stop comparing yourself to other people — compare yourself to the person you were last month."
+   },
+   {
+    "q": "5. Do you think it is important to step out of your comfort zone? What can you do?",
+    "a": "Yes, because we only grow when we try something a little scary. For example, I can join an English speaking club, chat with tourists, or volunteer to lead a meeting at work."
+   },
+   {
+    "q": "6. What are your goals for this year? How will you achieve them?",
+    "a": "My main goal is to speak English more fluently. I'm going to practise speaking every morning, take two classes a week, and record myself once a week to check my progress."
+   },
+   {
+    "q": "7. What's more important for success: talent or hard work?",
+    "a": "Hard work, definitely. Talent helps you start faster, but hard work keeps you going. I know talented people who gave up, and ordinary people who became successful because they never stopped."
+   },
+   {
+    "q": "8. Who do you admire the most in your life? What have you learned from them?",
+    "a": "I admire my mother the most. She raised us while working full-time, and she never complained. From her I learned to be patient and to keep going when things get difficult."
+   },
+   {
+    "q": "9. Is it always bad to be full of yourself, or can it sometimes be a good thing?",
+    "a": "Usually it's bad, because people who are full of themselves don't listen to others. But a little bit can help — in a job interview or a competition, you need to believe you're the best person for it."
+   },
+   {
+    "q": "10. Do you think it's important to speak your mind? Why or why not?",
+    "a": "Yes, in most situations. If you never speak your mind, people can't know what you really think, and small problems grow. But choose the right moment and say it politely — being honest doesn't mean being rude."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "You look nervous. What's up?",
+    "v": "Trông bạn lo quá. Sao vậy?"
+   },
+   {
+    "p": "B",
+    "e": "I have to give a presentation in English tomorrow, and I'm afraid I'll make mistakes.",
+    "v": "Mai mình phải thuyết trình bằng tiếng Anh, sợ nói sai quá."
+   },
+   {
+    "p": "A",
+    "e": "Everybody makes mistakes. Making mistakes is a normal part of learning.",
+    "v": "Ai mà chẳng sai. Sai là chuyện bình thường khi học mà."
+   },
+   {
+    "p": "B",
+    "e": "I know, but I always lose confidence when people look at me.",
+    "v": "Biết vậy, nhưng cứ bị mọi người nhìn là mình mất tự tin."
+   },
+   {
+    "p": "A",
+    "e": "Have you practised it out loud?",
+    "v": "Bạn tập nói to lên chưa?"
+   },
+   {
+    "p": "B",
+    "e": "Only twice.",
+    "v": "Mới hai lần."
+   },
+   {
+    "p": "A",
+    "e": "Practise five more times tonight. Practice helps you build confidence.",
+    "v": "Tối nay tập thêm năm lần nữa. Luyện tập giúp mình tự tin hơn."
+   },
+   {
+    "p": "B",
+    "e": "OK. Any other tips?",
+    "v": "Ok. Còn mẹo nào nữa không?"
+   },
+   {
+    "p": "A",
+    "e": "Speak slowly, look at the audience, and believe in yourself. You know this topic better than anyone.",
+    "v": "Nói chậm, nhìn khán giả, và tin vào bản thân. Bạn rành chủ đề này hơn ai hết."
+   },
+   {
+    "p": "B",
+    "e": "Thanks. I'll step out of my comfort zone and give it a try!",
+    "v": "Cảm ơn nha. Mình sẽ bước ra khỏi vùng an toàn và thử xem!"
+   },
+   {
+    "p": "A",
+    "e": "That's the spirit! I'm sure you'll be proud of yourself.",
+    "v": "Tinh thần vậy mới đúng! Chắc chắn bạn sẽ tự hào về bản thân."
+   }
+  ],
+  "tips": [
+   "confidence (n) — confident (adj) — confidently (adv): I have confidence · I feel confident · I speak confidently. ❌ “I'm very confidence”.",
+   "proud OF something: I'm proud of my progress. — be proud of yourself FOR + V-ing: proud of yourself for finishing the course.",
+   "believe IN yourself / have faith IN yourself = tin vào bản thân. Khác với “I believe you” = mình tin lời bạn nói.",
+   "overcome – overcame – overcome (bất quy tắc). Đi với danh từ: overcome a fear / a problem / a challenge.",
+   "“Full of yourself” là CHÊ (tự cao). Muốn khen ai tự tin thì dùng confident / self-assured.",
+   "step OUT OF your comfort zone = step OUTSIDE your comfort zone — hai cách đều đúng (phiếu dùng cả hai)."
+  ],
+  "shadow": {
+   "en": "A few years ago, I was too shy to speak English in front of anyone. I knew the words, but every time I opened my mouth, I felt nervous and embarrassed. The fear of making mistakes stopped me from even trying. Then a teacher told me something simple: making mistakes is a normal part of learning. So I decided to step out of my comfort zone. I joined a speaking club, I talked to tourists, and I volunteered to give a short presentation at work. The first time, my hands were shaking, but I didn't give up. Little by little, I started to build confidence. I learned that confidence isn't something you're born with — it's something you develop. Today I'm not perfect, but I'm brave enough to speak my mind, and I'm proud of myself for how far I've come. My advice is easy: believe in yourself, face your fears, give it a try, and keep trying.",
+   "vi": "Vài năm trước, mình nhút nhát đến mức không dám nói tiếng Anh trước mặt ai. Mình biết từ, nhưng cứ mở miệng là hồi hộp và ngượng. Nỗi sợ nói sai khiến mình thậm chí không dám thử. Rồi một thầy giáo nói với mình một điều rất đơn giản: sai là chuyện bình thường khi học. Thế là mình quyết định bước ra khỏi vùng an toàn. Mình tham gia câu lạc bộ nói, bắt chuyện với khách du lịch, và xung phong thuyết trình ngắn ở công ty. Lần đầu tay mình run lẩy bẩy, nhưng mình không bỏ cuộc. Từng chút một, mình bắt đầu tự tin hơn. Mình nhận ra tự tin không phải thứ bẩm sinh — mà là thứ mình rèn luyện. Giờ mình chưa hoàn hảo, nhưng đủ can đảm để nói thẳng suy nghĩ của mình, và mình tự hào vì đã đi được xa như vậy. Lời khuyên của mình rất dễ: tin vào bản thân, đối mặt với nỗi sợ, cứ thử đi, và tiếp tục cố gắng."
+  }
+ },
+ {
+  "icon": "😎",
+  "name": "Slang & Idioms LV4 / Tiếng lóng & thành ngữ",
+  "intro": "Phiếu L4 “SLANG & IDIOMS”: 7 từ lóng (câu ví dụ của phiếu + nghĩa thầy ghi tay trên lớp), 6 thành ngữ có hình minh hoạ và 5 câu warm-up. ⚠️ Vài từ lóng rất suồng sã hoặc thô (hammered, wasted, pissed, bullshit): học để nghe hiểu, chỉ dùng với bạn thân.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "slang",
+    "v": "tiếng lóng",
+    "x": "Young people use a lot of slang on social media.",
+    "ip": "/sleɪŋ/",
+    "d": "Very informal words and phrases, used mostly in speech or by a particular group."
+   },
+   {
+    "s": 1,
+    "e": "idiom",
+    "v": "thành ngữ",
+    "x": "“A piece of cake” is an idiom that means “very easy”.",
+    "ip": "/ˈɪdɪəm/",
+    "d": "A group of words whose meaning is different from the meanings of the single words."
+   },
+   {
+    "s": 1,
+    "e": "crash (v.)",
+    "v": "lăn ra ngủ (vì quá mệt); ngủ nhờ một đêm",
+    "x": "I'm exhausted, so after class I'm just going to go home and crash.",
+    "ip": "/kɹæʃ/",
+    "d": "(slang) To go to sleep quickly because you are very tired; also, to sleep at someone's place for the night."
+   },
+   {
+    "s": 1,
+    "e": "24/7",
+    "v": "liên tục, suốt ngày đêm (thầy ghi: constantly) — đọc: twenty-four seven",
+    "x": "I think about you 24/7.",
+    "d": "All the time; 24 hours a day, 7 days a week (constantly)."
+   },
+   {
+    "s": 1,
+    "e": "bail (v.)",
+    "v": "bùng kèo, huỷ hẹn phút chót (thầy ghi: short notice)",
+    "x": "I can't wait to see you tomorrow night. Don't bail on me!",
+    "ip": "/beɪ̯l/",
+    "d": "(slang) To cancel plans or leave suddenly, at short notice. Bail on someone = let them down."
+   },
+   {
+    "s": 1,
+    "e": "dodgy / sketchy (adj.)",
+    "v": "mờ ám, đáng ngờ, không đáng tin (thầy ghi: untrustworthy — dùng cả cho người)",
+    "x": "That $1 sushi looks sketchy. I wouldn't eat it.",
+    "ip": "dodgy /ˈdɒd͡ʒ.i/ · sketchy /ˈskɛt͡ʃi/",
+    "d": "(slang) Looking dishonest, unsafe or not trustworthy; can describe people or things."
+   },
+   {
+    "s": 1,
+    "e": "sick (adj.)",
+    "v": "(lóng) đỉnh, quá đã (thầy ghi: very good / fun / exciting)",
+    "x": "Ho Chi Minh City is sick. I'm going to live here forever!",
+    "ip": "/sɪk/",
+    "d": "(slang) Very good, fun or exciting."
+   },
+   {
+    "e": "hammered / wasted (adj.)",
+    "v": "say bí tỉ (Anh còn nói “pissed”; ở Mỹ “pissed” = tức giận)",
+    "x": "Last night I got hammered and couldn't drive home.",
+    "d": "(slang) Very drunk. British English also says 'pissed' (= drunk), but in American English 'pissed' means angry.",
+    "ip": "hammered /ˈhæmɚd/ · wasted /ˈweɪstɪd/"
+   },
+   {
+    "e": "bullshit (n.)",
+    "v": "(thô) chuyện nhảm, nói xạo (thầy ghi: a lie, not true)",
+    "x": "You traveled around the world for less than $100? That's bullshit.",
+    "ip": "/ˈbʊlʃɪt/",
+    "d": "(rude slang) Something that is not true; a lie or nonsense. Verb: to bullshit = to lie."
+   },
+   {
+    "s": 1,
+    "e": "hold your horses",
+    "v": "từ từ đã, bình tĩnh (thầy ghi: slow down / stop)",
+    "x": "Hold your horses! Let's read the contract before we sign it.",
+    "d": "Wait a moment; slow down and don't rush.",
+    "ip": "/ˈhoʊld jɔɹ ˈhɔɹsəz/"
+   },
+   {
+    "e": "kick the bucket",
+    "v": "(nói đùa) “ngỏm”, qua đời (thầy ghi: to die)",
+    "x": "My old laptop finally kicked the bucket last week.",
+    "ip": "/kɪk ði ˈbʌkɪt/",
+    "d": "(informal, humorous) To die."
+   },
+   {
+    "s": 1,
+    "e": "head in the clouds",
+    "v": "đầu óc trên mây, mơ mộng viển vông (thầy ghi: unrealistic, daydreaming)",
+    "x": "He has his head in the clouds — he thinks he'll be a millionaire by thirty without working.",
+    "ip": "/hɛd ɪn ði klaʊdz/",
+    "d": "Daydreaming, or having ideas and expectations that are not realistic (have your head in the clouds)."
+   },
+   {
+    "s": 1,
+    "e": "a piece of cake",
+    "v": "dễ như ăn bánh",
+    "x": "The test was a piece of cake.",
+    "ip": "/æɪ piːs ɔv keɪk/",
+    "d": "Something very easy to do."
+   },
+   {
+    "s": 1,
+    "e": "couch potato",
+    "v": "người lười, suốt ngày nằm dài xem TV (thầy ghi: very lazy)",
+    "x": "On weekends I turn into a couch potato and watch Netflix all day.",
+    "ip": "/kaʊtʃ pəˈteɪ.təʊ/",
+    "d": "A lazy person who spends a lot of time sitting and watching TV."
+   },
+   {
+    "s": 1,
+    "e": "cold feet",
+    "v": "chùn bước, run sợ trước một quyết định lớn (thầy ghi: nervous/worried)",
+    "x": "She got cold feet the night before her wedding.",
+    "ip": "/kɔʊld fiːt/",
+    "d": "Feeling nervous about a big decision or event, so you think about not doing it (get cold feet)."
+   },
+   {
+    "e": "inappropriate",
+    "v": "không phù hợp, không đúng chỗ",
+    "x": "Using slang in a job interview is inappropriate.",
+    "ip": "/ˌɪnəˈpɹəʊpɹi.ət/",
+    "d": "Not suitable or acceptable for a particular situation."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🗣️ Nói lóng → nói bình thường (theo ghi chú trên lớp)",
+    "rows": [
+     {
+      "e": "I'm going to go home and crash.",
+      "v": "= I'm going to go to bed / get some sleep.",
+      "a": "Can I crash at your place tonight? — Sure, you can sleep on the sofa."
+     },
+     {
+      "e": "I think about you 24/7.",
+      "v": "= constantly / all the time",
+      "a": "This shop is open 24/7, so you can come at 3 a.m."
+     },
+     {
+      "e": "Don't bail on me!",
+      "v": "= Don't cancel at short notice / Don't let me down.",
+      "a": "Sorry, I have to bail tonight — my boss needs me at the office."
+     },
+     {
+      "e": "That $1 sushi looks sketchy.",
+      "v": "= It looks unsafe / I don't trust it. Dùng cho người: a dodgy guy = một gã mờ ám.",
+      "a": "That website looks a bit dodgy — don't put your card number in."
+     },
+     {
+      "e": "Ho Chi Minh City is sick!",
+      "v": "= It's amazing / so much fun / really exciting.",
+      "a": "That concert was sick! — Yeah, best night ever."
+     },
+     {
+      "e": "I got hammered / wasted.",
+      "v": "= I got very drunk. ⚠️ “pissed”: Anh = say xỉn · Mỹ = tức giận (pissed off)",
+      "a": "He was so wasted that he slept on the bathroom floor."
+     },
+     {
+      "e": "That's bullshit.",
+      "v": "= That's not true / That's a lie. Động từ: to bullshit = nói xạo (thầy ghi: v. lying). Lịch sự hơn: That's nonsense! / No way, I don't believe it.",
+      "a": "Stop bullshitting — I know you didn't finish the report."
+     }
+    ]
+   },
+   {
+    "title": "🇻🇳 Thành ngữ Việt → tiếng Anh (cho câu warm-up 5)",
+    "rows": [
+     {
+      "e": "Có công mài sắt, có ngày nên kim",
+      "v": "≈ Practice makes perfect. / Where there's a will, there's a way.",
+      "a": "If you keep grinding iron, one day it becomes a needle — if you work hard and don't give up, you'll succeed."
+     },
+     {
+      "e": "Tai vách mạch rừng",
+      "v": "≈ Walls have ears.",
+      "a": "Be careful what you say in the office — walls have ears."
+     },
+     {
+      "e": "Nước đổ đầu vịt",
+      "v": "≈ Like water off a duck's back.",
+      "a": "I tell him to stop smoking, but it's like water off a duck's back — he never listens."
+     },
+     {
+      "e": "Chó cắn áo rách",
+      "v": "≈ When it rains, it pours. / Misfortunes never come singly.",
+      "a": "I lost my job, and then my motorbike broke down. When it rains, it pours."
+     },
+     {
+      "e": "Ăn quả nhớ kẻ trồng cây",
+      "v": "Dịch sát: When you eat a fruit, remember the person who planted the tree.",
+      "a": "It means you should be grateful to the people who helped you get where you are."
+     },
+     {
+      "e": "Một con ngựa đau, cả tàu bỏ cỏ",
+      "v": "Dịch sát: When one horse is sick, the whole stable stops eating.",
+      "a": "It means a group shares one member's pain — we stick together."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. Why do people use slang?",
+    "a": "Because it's quick, fun, and it makes people feel close. When you use the same slang as your friends, it shows you're part of the group. It also sounds more relaxed than formal language."
+   },
+   {
+    "q": "2. Do Vietnamese people use a lot of slang?",
+    "a": "Yes, a lot — especially young people on social media. New words appear every year, so sometimes my parents don't understand what teenagers are saying. Honestly, sometimes I don't either!"
+   },
+   {
+    "q": "3. In what situations would it be inappropriate to use slang?",
+    "a": "In a job interview, in a formal email, in a meeting with clients, or when talking to older people you don't know well. Words like “bullshit” or “wasted” are only OK with close friends."
+   },
+   {
+    "q": "4. Is there different slang in northern Vietnam and southern Vietnam?",
+    "a": "Definitely. The accents are different, and so are many everyday words — southerners say “chén” and northerners say “bát” for a bowl. Southern slang often sounds more playful, so people from the two regions sometimes need a second to understand each other."
+   },
+   {
+    "q": "5. What are some Vietnamese idioms? What do they mean?",
+    "a": "One I like is “Có công mài sắt, có ngày nên kim” — if you keep grinding iron, one day it becomes a needle. It means if you work hard and don't give up, you'll succeed. In English we'd say “Practice makes perfect.”",
+    "a2": "Another one is “Tai vách mạch rừng” — the walls have ears, so be careful what you say, because someone might be listening."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Hey, are you coming to the party tonight?",
+    "v": "Ê, tối nay đi tiệc không?"
+   },
+   {
+    "p": "B",
+    "e": "I don't know. I'm exhausted. I'll probably just go home and crash.",
+    "v": "Chưa biết nữa. Mệt rã rời. Chắc về nhà lăn ra ngủ thôi."
+   },
+   {
+    "p": "A",
+    "e": "Come on, don't bail on me! You promised.",
+    "v": "Thôi mà, đừng bùng kèo! Bạn hứa rồi mà."
+   },
+   {
+    "p": "B",
+    "e": "Hold your horses — I said “probably”. What time does it start?",
+    "v": "Từ từ đã — mình nói “chắc” thôi. Mấy giờ bắt đầu?"
+   },
+   {
+    "p": "A",
+    "e": "Eight, at the rooftop bar on Le Loi. The view is sick!",
+    "v": "Tám giờ, ở quán rooftop đường Lê Lợi. View đỉnh lắm!"
+   },
+   {
+    "p": "B",
+    "e": "Isn't that place a bit sketchy? The drinks were really cheap last time.",
+    "v": "Chỗ đó hơi mờ ám không? Lần trước đồ uống rẻ bất thường."
+   },
+   {
+    "p": "A",
+    "e": "No, it's fine now. Just don't get hammered like last time.",
+    "v": "Không, giờ ổn rồi. Chỉ cần đừng say bí tỉ như lần trước."
+   },
+   {
+    "p": "B",
+    "e": "That's not true! I only had two beers.",
+    "v": "Làm gì có! Mình có uống hai lon bia à."
+   },
+   {
+    "p": "A",
+    "e": "Two beers? That's bullshit. You couldn't even find your motorbike!",
+    "v": "Hai lon? Xạo quá. Bạn còn không tìm ra xe máy của mình!"
+   },
+   {
+    "p": "B",
+    "e": "OK, OK, I'll come. But I'm leaving at eleven — I'm a couch potato now.",
+    "v": "Rồi rồi, mình đi. Nhưng 11 giờ mình về — giờ mình thành dân nằm nhà rồi."
+   },
+   {
+    "p": "A",
+    "e": "Ha! Deal. See you there.",
+    "v": "Haha! Chốt. Gặp ở đó nha."
+   }
+  ],
+  "tips": [
+   "Slang thay đổi rất nhanh và khác nhau giữa Anh, Mỹ, Úc. Học để NGHE hiểu trước, dùng sau.",
+   "“pissed”: Anh-Anh = say xỉn; Mỹ = tức giận (= pissed off). Rất dễ hiểu lầm — an toàn nhất là nói “drunk” hoặc “angry”.",
+   "bail ON someone = bùng kèo ai: Don't bail on me! / Sorry, I have to bail tonight.",
+   "Thành ngữ là cụm CỐ ĐỊNH, không đổi từ: “a piece of cake” (không nói “a piece of bread”), “get/have cold feet”, “have your head in the clouds”.",
+   "“Kick the bucket” là cách nói đùa — đừng dùng khi báo tin buồn thật. Lúc đó nói “pass away”.",
+   "bullshit, hammered, wasted, pissed: thô/suồng sã — không dùng ở công sở, với khách hàng hay người lớn tuổi."
+  ],
+  "shadow": {
+   "en": "Textbooks teach you perfect English, but real people talk in slang and idioms. Last Friday is a good example. After a long week I was exhausted, and I just wanted to go home and crash. But my friend called and said, “Don't bail on me — you promised to come!” So I went. The bar he chose looked a bit sketchy from outside, but the music inside was sick. One guy got hammered and started telling everyone he had met a famous singer. We all knew it was bullshit. When he tried to drive home, his girlfriend said, “Hold your horses — you're taking a taxi.” On Saturday I was a total couch potato and stayed on the sofa all day. The idioms are easier than they look: a test can be a piece of cake, a dreamer has his head in the clouds, and someone who gets cold feet is nervous about a big decision. Just remember: slang is for friends, not for job interviews.",
+   "vi": "Sách dạy bạn tiếng Anh chuẩn chỉnh, nhưng người thật thì nói bằng tiếng lóng và thành ngữ. Thứ sáu tuần trước là một ví dụ. Sau một tuần dài mình kiệt sức, chỉ muốn về nhà lăn ra ngủ. Nhưng bạn mình gọi: “Đừng bùng kèo — bạn hứa đi rồi mà!” Thế là mình đi. Quán bạn chọn nhìn bên ngoài hơi mờ ám, nhưng nhạc bên trong thì đỉnh. Có một anh say bí tỉ rồi đi kể với mọi người là đã gặp một ca sĩ nổi tiếng. Ai cũng biết là xạo. Lúc anh ta định lái xe về, bạn gái nói: “Từ từ đã — anh đi taxi.” Thứ bảy mình thành dân nằm nhà chính hiệu, nằm sofa cả ngày. Thành ngữ dễ hơn bạn nghĩ: bài kiểm tra có thể dễ như ăn bánh, người mơ mộng thì đầu óc trên mây, còn ai “cold feet” là đang run trước một quyết định lớn. Chỉ cần nhớ: tiếng lóng để nói với bạn bè, không phải để đi phỏng vấn xin việc."
+  }
+ },
+ {
+  "icon": "🃏",
+  "name": "Idioms Bluff LV4 / Trò chơi đoán nghĩa thành ngữ",
+  "intro": "Phiếu Teach-This “IDIOMS BLUFF” (Team A + Team B): 20 thành ngữ, mỗi câu có 3 đáp án — 1 đúng (in đậm trên phiếu, ở đây đánh dấu ✅) và đáp án sai để “lừa” đội bạn. Phần A: tự nghĩ 1 đáp án SAI cho ô trống (đáp án ✍️ là gợi ý). Phần B: đọc to cho đội kia đoán, đoán đúng được 1 điểm. Câu hỏi luyện nói bên dưới do người soạn thêm để dùng các thành ngữ.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "in the doghouse",
+    "v": "đang bị giận / bị “ghét” vì cư xử tệ",
+    "x": "I forgot our anniversary, so I'm in the doghouse.",
+    "d": "In trouble with someone because of your behaviour.",
+    "ip": "/ɪn ðə ˈdɔɡˌhaʊs/"
+   },
+   {
+    "s": 1,
+    "e": "feeling blue",
+    "v": "buồn, chán",
+    "x": "I've been feeling blue since my best friend moved abroad.",
+    "ip": "/ˈfiːlɪŋ bluː/",
+    "d": "Feeling sad."
+   },
+   {
+    "s": 1,
+    "e": "spill the beans",
+    "v": "lỡ miệng, tiết lộ bí mật",
+    "x": "Don't spill the beans about the surprise party!",
+    "ip": "/spɪl ði biːnz/",
+    "d": "To reveal a secret."
+   },
+   {
+    "e": "black and blue",
+    "v": "bầm tím",
+    "x": "After falling off my bike, my legs were black and blue.",
+    "d": "Covered in bruises.",
+    "ip": "/ˈblæk ənd ˈblu/"
+   },
+   {
+    "s": 1,
+    "e": "a stone's throw away",
+    "v": "rất gần, ngay sát bên",
+    "x": "My office is a stone's throw away from Ben Thanh Market.",
+    "d": "Very close; only a very short distance away.",
+    "ip": "/ə ˈstoʊnz ˈθɹoʊ əˈweɪ/"
+   },
+   {
+    "s": 1,
+    "e": "a fish out of water",
+    "v": "như cá mắc cạn, thấy lạc lõng",
+    "x": "At the fancy party, I felt like a fish out of water.",
+    "ip": "/æɪ fɪʃ æɔt ɔv ˈwoːtə/",
+    "d": "Someone who feels they don't belong in a place or situation."
+   },
+   {
+    "s": 1,
+    "e": "kill time",
+    "v": "giết thời gian",
+    "x": "I killed time at the airport by reading a book.",
+    "ip": "/kɪl tɑem/",
+    "d": "To do something to make time pass while you wait."
+   },
+   {
+    "s": 1,
+    "e": "broke",
+    "v": "cháy túi, hết sạch tiền",
+    "x": "I can't go out this weekend — I'm broke until payday.",
+    "ip": "/bɹəʊk/",
+    "d": "Having no money."
+   },
+   {
+    "e": "don't cry over spilt milk",
+    "v": "chuyện đã rồi, đừng tiếc nuối nữa",
+    "x": "You lost the deal, but don't cry over spilt milk.",
+    "ip": "/dəʊnt kɹaɪ̯ ˈəʊ.və(ɹ) spɪlt mɛlk/",
+    "d": "Don't be upset over something bad in the past that can't be changed."
+   },
+   {
+    "e": "green fingers",
+    "v": "có tay trồng cây (Mỹ: green thumb)",
+    "x": "My grandmother has green fingers — everything she plants grows.",
+    "ip": "/ɡɹiːn ˈfɪŋɡəz/",
+    "d": "Being good at gardening (British; American English says 'a green thumb')."
+   },
+   {
+    "s": 1,
+    "e": "get on like a house on fire",
+    "v": "rất hợp nhau, thân nhau rất nhanh",
+    "x": "We met at a workshop and got on like a house on fire.",
+    "d": "To get along very well and become friends quickly.",
+    "ip": "/ˈɡɛt ɑn ˈlaɪk ə ˈhaʊs ɑn ˈfaɪɚ/"
+   },
+   {
+    "e": "the big cheese",
+    "v": "nhân vật quan trọng, “sếp sòng”",
+    "x": "The big cheese from head office is visiting us tomorrow.",
+    "ip": "/ði bɪɡ t͡ʃiz/",
+    "d": "A very important person in a group or company."
+   },
+   {
+    "e": "bring home the bacon",
+    "v": "kiếm tiền nuôi gia đình",
+    "x": "Both of my parents worked hard to bring home the bacon.",
+    "ip": "/ˈbɹɪŋ (h)əʊm ði ˈbeɪ.kən/",
+    "d": "To earn money to support the family."
+   },
+   {
+    "e": "nuts",
+    "v": "điên, khùng; be nuts about = mê mẩn",
+    "x": "You want to swim in the river in December? Are you nuts?",
+    "ip": "/nʌts/",
+    "d": "Crazy. Be nuts about something = love it very much."
+   },
+   {
+    "s": 1,
+    "e": "break a leg",
+    "v": "chúc may mắn (trước khi biểu diễn/thuyết trình)",
+    "x": "Your presentation is in five minutes? Break a leg!",
+    "ip": "/bɹeɪk æɪ leɪɡ/",
+    "d": "Good luck! Said to someone before they perform or give a presentation."
+   },
+   {
+    "e": "the apple of your eye",
+    "v": "người mình yêu quý nhất, “cục cưng”",
+    "x": "Her little son is the apple of her eye.",
+    "d": "Someone you adore and are very proud of.",
+    "ip": "/ðə ˈæpəl ʌv jɔɹ ˈaɪ/"
+   },
+   {
+    "s": 1,
+    "e": "pop the question",
+    "v": "cầu hôn",
+    "x": "He popped the question on the beach at sunset.",
+    "ip": "/pɒp ði ˈkwɛstjən/",
+    "d": "To ask someone to marry you."
+   },
+   {
+    "s": 1,
+    "e": "the elephant in the room",
+    "v": "chuyện ai cũng biết nhưng né không nói",
+    "x": "The project is two months late, but nobody mentions it — it's the elephant in the room.",
+    "d": "A big problem that everybody knows about but nobody wants to talk about.",
+    "ip": "/ðə ˈɛləfənt ɪn ðə ˈɹum/"
+   },
+   {
+    "s": 1,
+    "e": "get on your nerves",
+    "v": "làm bạn bực mình",
+    "x": "The noise from the construction site really gets on my nerves.",
+    "d": "To annoy you.",
+    "ip": "/ˈɡɛt ɑn jɔɹ ˈnɝvz/"
+   },
+   {
+    "s": 1,
+    "e": "pull someone's leg",
+    "v": "trêu, nói đùa cho vui",
+    "x": "Relax, I'm just pulling your leg!",
+    "d": "To joke with someone by telling them something that isn't true.",
+    "ip": "/ˈpʊl ˈsʌmˌwʌnz ˈlɛɡ/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "🅰️ Team A — 10 thành ngữ (✅ đáp án đúng · ✍️ đáp án sai gợi ý cho ô trống)",
+    "rows": [
+     {
+      "e": "1. If someone is in the doghouse, they…",
+      "v": "a. are locked out of the house. · b. ✍️ have to sleep outside with the dog. · c. ✅ are in trouble for their behaviour.",
+      "a": "I came home at 2 a.m., so now I'm in the doghouse."
+     },
+     {
+      "e": "2. If someone is feeling blue, they are…",
+      "v": "a. cold. · b. ✍️ covered in blue paint. · c. ✅ sad.",
+      "a": "She's feeling blue because her best friend moved abroad."
+     },
+     {
+      "e": "3. If someone spills the beans, they…",
+      "v": "a. make a mess. · b. ✍️ are very good at cooking. · c. ✅ reveal a secret.",
+      "a": "Who spilled the beans about the surprise party?"
+     },
+     {
+      "e": "4. If a person is black and blue, they…",
+      "v": "a. are wearing too much make up. · b. ✅ are covered in bruises. · c. ✍️ are very cold after swimming.",
+      "a": "After the motorbike accident, his legs were black and blue."
+     },
+     {
+      "e": "5. If something is a stone's throw away,…",
+      "v": "a. it's a dangerous place to visit. · b. ✅ it's very close. · c. ✍️ it's a place where people fight a lot.",
+      "a": "My office is a stone's throw away from Ben Thanh Market."
+     },
+     {
+      "e": "6. If you feel like a fish out of water, you…",
+      "v": "a. feel like you need a shower. · b. ✍️ are a very good swimmer. · c. ✅ feel like you don't belong.",
+      "a": "At the fancy party, I felt like a fish out of water."
+     },
+     {
+      "e": "7. To kill time means…",
+      "v": "a. ✍️ to be late for everything. · b. to waste time. · c. ✅ to do something to make time pass.",
+      "a": "I killed time at the airport by reading a book."
+     },
+     {
+      "e": "8. If a person is broke, they…",
+      "v": "a. ✅ have no money. · b. are injured. · c. ✍️ have a broken phone.",
+      "a": "I can't go out this weekend — I'm broke until payday."
+     },
+     {
+      "e": "9. Don't cry over spilt milk means…",
+      "v": "a. ✍️ never drink milk again. · b. ✅ don't be upset over the past. · c. clean up your mess.",
+      "a": "You lost the deal, but don't cry over spilt milk — there will be other clients."
+     },
+     {
+      "e": "10. If a person has green fingers, they…",
+      "v": "a. are vegetarian. · b. ✍️ have dirty hands from painting. · c. ✅ are good at gardening.",
+      "a": "My grandmother has green fingers — everything she plants grows."
+     }
+    ]
+   },
+   {
+    "title": "🅱️ Team B — 10 thành ngữ (✅ đáp án đúng · ✍️ đáp án sai gợi ý cho ô trống)",
+    "rows": [
+     {
+      "e": "1. People who get on like a house on fire…",
+      "v": "a. ✅ get along well. · b. argue a lot. · c. ✍️ always cook dinner together.",
+      "a": "We met at a workshop and got on like a house on fire."
+     },
+     {
+      "e": "2. Someone who is the big cheese is…",
+      "v": "a. a person with smelly feet. · b. ✍️ a person who loves pizza. · c. ✅ a very important person.",
+      "a": "The big cheese from head office is visiting us tomorrow."
+     },
+     {
+      "e": "3. To bring home the bacon means…",
+      "v": "a. ✍️ to cook breakfast for your family. · b. ✅ to earn money to support the family. · c. to raise animals for food.",
+      "a": "Both of my parents worked hard to bring home the bacon."
+     },
+     {
+      "e": "4. If someone is nuts, they…",
+      "v": "a. ✅ are crazy. · b. are a noisy eater. · c. ✍️ are allergic to peanuts.",
+      "a": "You want to swim in the river in December? Are you nuts?"
+     },
+     {
+      "e": "5. Break a leg means…",
+      "v": "a. ✍️ exercise too hard. · b. be careful. · c. ✅ good luck.",
+      "a": "Your presentation is in five minutes? Break a leg!"
+     },
+     {
+      "e": "6. Someone who is the apple of your eye…",
+      "v": "a. ✅ is someone you adore. · b. is someone who often disturbs you. · c. ✍️ is someone with very beautiful eyes.",
+      "a": "Her little son is the apple of her eye."
+     },
+     {
+      "e": "7. If you pop the question, you…",
+      "v": "a. ✅ ask someone to marry you. · b. ask to borrow money. · c. ✍️ suddenly ask a difficult question in class.",
+      "a": "He popped the question on the beach at sunset."
+     },
+     {
+      "e": "8. An elephant in the room is…",
+      "v": "a. something that doesn't belong there. · b. ✍️ a very large and untidy person. · c. ✅ something nobody wants to talk about.",
+      "a": "The project is two months late, but nobody mentions it — it's the elephant in the room."
+     },
+     {
+      "e": "9. Something that gets on your nerves…",
+      "v": "a. makes you anxious. · b. ✅ annoys you. · c. ✍️ makes you feel calm.",
+      "a": "The noise from the construction site really gets on my nerves."
+     },
+     {
+      "e": "10. If someone is pulling your leg, they…",
+      "v": "a. ✅ are joking with you. · b. are trying to impress you. · c. ✍️ are helping you stand up.",
+      "a": "Relax, I'm just pulling your leg!"
+     }
+    ]
+   },
+   {
+    "title": "🎲 Cách chơi (phần B của phiếu) & câu hay dùng",
+    "rows": [
+     {
+      "e": "Bước 1 — Chuẩn bị",
+      "v": "Mỗi đội có 10 thành ngữ riêng. Điền đáp án sai vào ô trống sao cho nghe thật hợp lý.",
+      "a": "We're Team A. Our first idiom is “in the doghouse”."
+     },
+     {
+      "e": "Bước 2 — Đọc to",
+      "v": "Đọc thành ngữ + 3 đáp án a-b-c bằng giọng tự nhiên, không để lộ đáp án (bluff = đánh lừa).",
+      "a": "If someone is in the doghouse, they… a. are locked out of the house, b. have to sleep outside with the dog, or c. are in trouble for their behaviour?"
+     },
+     {
+      "e": "Bước 3 — Đoán & chấm",
+      "v": "Đội kia bàn rồi chọn 1 đáp án. Đoán đúng → tick ✓. Đội nhiều điểm nhất thắng.",
+      "a": "We think it's c. — Correct! One point for you."
+     },
+     {
+      "e": "Khi đoán",
+      "v": "Đưa ra lựa chọn + lý do",
+      "a": "I'm pretty sure it's b. / It can't be a — that's too obvious. / Let's go with c. / Final answer: a."
+     },
+     {
+      "e": "Khi chấm",
+      "v": "Công bố kết quả",
+      "a": "That's right! / Sorry, wrong answer — the correct answer is… / Nice try!"
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. When was the last time you were in the doghouse? What did you do?",
+    "a": "Last month I was in the doghouse with my mum because I forgot to call her on her birthday. I was so busy at work that it slipped my mind. I bought her flowers the next day, and she forgave me."
+   },
+   {
+    "q": "2. Have you ever felt like a fish out of water? Where?",
+    "a": "Yes, on my first day at a new company. Everyone knew each other and used lots of technical words I didn't understand. I felt like a fish out of water for about two weeks."
+   },
+   {
+    "q": "3. What do you usually do to kill time when you're waiting?",
+    "a": "I usually scroll through my phone, but lately I've been killing time by reviewing English vocabulary. It makes waiting at the doctor's much less boring."
+   },
+   {
+    "q": "4. Who do you get on like a house on fire with?",
+    "a": "My colleague Hoa. We started on the same day and got on like a house on fire — we have the same sense of humour and we both love street food."
+   },
+   {
+    "q": "5. Who brings home the bacon in your family?",
+    "a": "Both of my parents did when I was growing up. Now my brother and I both work, so we all help bring home the bacon."
+   },
+   {
+    "q": "6. What gets on your nerves the most?",
+    "a": "People who honk their horns for no reason. It really gets on my nerves, especially when the light has only just turned green."
+   },
+   {
+    "q": "7. Has anyone ever spilled the beans about a surprise for you?",
+    "a": "Yes! My friends planned a surprise party for my birthday, but my little cousin spilled the beans two days before. I still acted surprised, though."
+   },
+   {
+    "q": "8. Have you ever been completely broke? What did you do?",
+    "a": "When I was a student, I was broke at the end of every month. I ate instant noodles for a week and walked everywhere to save money."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "You look like you're feeling blue. What happened?",
+    "v": "Trông bạn buồn buồn. Có chuyện gì vậy?"
+   },
+   {
+    "p": "B",
+    "e": "I'm in the doghouse. I told my sister's secret to our mum.",
+    "v": "Mình đang bị giận. Mình lỡ kể bí mật của em gái cho mẹ."
+   },
+   {
+    "p": "A",
+    "e": "You spilled the beans? Oh no!",
+    "v": "Bạn khai ra hết á? Trời ơi!"
+   },
+   {
+    "p": "B",
+    "e": "I know. Now she won't talk to me.",
+    "v": "Biết vậy. Giờ nó không thèm nói chuyện với mình."
+   },
+   {
+    "p": "A",
+    "e": "Well, don't cry over spilt milk. Just say sorry and buy her bubble tea.",
+    "v": "Thôi, chuyện đã rồi. Xin lỗi rồi mua trà sữa cho nó là được."
+   },
+   {
+    "p": "B",
+    "e": "Good idea. The bubble tea shop is a stone's throw away.",
+    "v": "Ý hay. Tiệm trà sữa ngay sát bên."
+   },
+   {
+    "p": "A",
+    "e": "Are you pulling my leg? You never buy anything for anyone!",
+    "v": "Bạn đùa mình à? Bạn có bao giờ mua gì cho ai đâu!"
+   },
+   {
+    "p": "B",
+    "e": "Ha ha. I'm not broke this week, so today's her lucky day.",
+    "v": "Haha. Tuần này mình không cháy túi, nên hôm nay nó gặp may."
+   }
+  ],
+  "tips": [
+   "green FINGERS là Anh-Anh; Mỹ nói green THUMB. Cùng nghĩa: giỏi trồng cây.",
+   "Anh viết “spilt milk”, Mỹ viết “spilled milk”. Câu đầy đủ: “There's no use crying over spilt milk.”",
+   "pull someone's leg: đổi tính từ sở hữu theo người — Are you pulling my leg? / I was just pulling your leg.",
+   "“Break a leg” chỉ dùng để chúc trước khi biểu diễn/thuyết trình/thi — đừng nói với người sắp đi leo núi 😅.",
+   "Mẹo bluff: đáp án sai hay nhất dựa vào NGHĨA ĐEN của từ (dog → bị nhốt ngoài, blue → lạnh/màu xanh) — đội kia dễ bị lừa nhất."
+  ],
+  "shadow": {
+   "en": "My week was full of idioms. On Monday I was feeling blue, because I was completely broke until payday. On Tuesday I was in the doghouse with my sister, because I spilled the beans about her new boyfriend. On Wednesday I went to a fancy dinner with my boss's clients and felt like a fish out of water. The big cheese from head office was there, and his jokes really got on my nerves. On Thursday I had a presentation, and my colleague said, “Break a leg!” It went well, so I didn't cry over spilt milk about Wednesday. On Friday I killed time at a café that's just a stone's throw away from my office, and I met an old friend. We got on like a house on fire. She told me her boyfriend had popped the question. At first I thought she was pulling my leg, but she showed me the ring. Her little daughter, the apple of her eye, will be the flower girl.",
+   "vi": "Tuần của mình toàn thành ngữ. Thứ hai mình buồn thiu, vì cháy túi đến tận ngày lãnh lương. Thứ ba mình bị em gái giận, vì lỡ miệng kể chuyện bạn trai mới của nó. Thứ tư mình đi ăn tối sang trọng với khách hàng của sếp và thấy lạc lõng như cá mắc cạn. “Sếp sòng” bên trụ sở chính cũng có mặt, và mấy câu đùa của ông ấy làm mình bực mình hết sức. Thứ năm mình thuyết trình, đồng nghiệp chúc: “Chúc may mắn nha!” Mọi chuyện suôn sẻ, nên mình chẳng tiếc nuối chuyện hôm thứ tư nữa. Thứ sáu mình ngồi giết thời gian ở quán cà phê ngay sát công ty, và gặp lại một người bạn cũ. Tụi mình hợp nhau ngay lập tức. Bạn kể bạn trai đã cầu hôn. Lúc đầu mình tưởng bạn đùa, nhưng bạn đưa chiếc nhẫn ra xem. Con gái nhỏ của bạn, “cục cưng” của bạn ấy, sẽ làm phù dâu nhí."
+  }
+ },
+ {
+  "icon": "🤥",
+  "name": "Lying LV4 / Nói dối & sự thật",
+  "intro": "Phiếu L4 “LYING”: 7 từ vựng (nghĩa tiếng Việt theo ghi chú trên lớp) + 5 cụm (PHRASES) + 15 câu hỏi + trò chơi TRUTH OR LIE?. Thêm vài cụm cần để trả lời câu hỏi (trust, spread lies, cheat on someone, break up, give someone another chance).",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "honest / dishonest (adj.)",
+    "v": "thật thà / không trung thực",
+    "x": "She's honest — she always tells you what she really thinks.",
+    "ip": "honest /ˈɑnəst/ · dishonest /dɪˈsɑnəst/",
+    "d": "Honest: telling the truth and not cheating. Dishonest: lying or cheating."
+   },
+   {
+    "s": 1,
+    "e": "trustworthy",
+    "v": "đáng tin cậy",
+    "x": "My older sister is the most trustworthy person I know.",
+    "ip": "/ˈtɹʌst.wɜɹ.ði/",
+    "d": "Able to be trusted; someone who keeps promises and secrets."
+   },
+   {
+    "s": 1,
+    "e": "skeptical / gullible (adj.)",
+    "v": "hoài nghi / cả tin",
+    "x": "I'm skeptical about online ads, but my uncle is so gullible that he believes everything.",
+    "ip": "skeptical /ˈskɛptəkəl/ · gullible /ˈɡʌləbəl/",
+    "d": "Skeptical: not easily believing things. Gullible: believing things too easily, so people can trick you."
+   },
+   {
+    "s": 1,
+    "e": "cheat (v.)",
+    "v": "gian lận",
+    "x": "He cheated on the exam and got caught.",
+    "ip": "/tʃiːt/",
+    "d": "To act dishonestly to win or get an advantage, for example in an exam."
+   },
+   {
+    "e": "liar (n.)",
+    "v": "kẻ nói dối",
+    "x": "Don't believe him — he's a liar.",
+    "ip": "/ˈlaɪ.ə/",
+    "d": "A person who tells lies."
+   },
+   {
+    "s": 1,
+    "e": "white lie (n.)",
+    "v": "lời nói dối vô hại",
+    "x": "I told my aunt I loved her cake. It was a white lie.",
+    "d": "A small lie told to be polite or to avoid hurting someone's feelings.",
+    "ip": "/ˈwaɪt ˈlaɪ/"
+   },
+   {
+    "e": "bullshit (n.)",
+    "v": "(thô) nhảm nhí, nói xạo",
+    "x": "That's bullshit — you weren't stuck in traffic, you overslept!",
+    "ip": "/ˈbʊlʃɪt/",
+    "d": "(rude slang) Something that is not true; a lie or nonsense. Verb: to bullshit = to lie."
+   },
+   {
+    "s": 1,
+    "e": "get caught in a lie",
+    "v": "bị phát hiện nói dối",
+    "x": "He got caught in a lie when his boss saw his photos from the beach.",
+    "ip": "/ɡɛt k̠ʰoːt ɪn æɪ laɪ̯/",
+    "d": "To be discovered telling a lie."
+   },
+   {
+    "s": 1,
+    "e": "get away with a lie",
+    "v": "nói dối mà không bị phát hiện",
+    "x": "She thought she could get away with the lie, but her mum found out.",
+    "d": "To tell a lie and not be discovered or punished.",
+    "ip": "/ˈɡɛt əˈweɪ wɪθ ə ˈlaɪ/"
+   },
+   {
+    "s": 1,
+    "e": "bend the truth",
+    "v": "nói sai lệch / thêm thắt sự thật một chút",
+    "x": "I bent the truth a little and said I was “almost there” when I was still at home.",
+    "ip": "/bɛnd ði tɹuːθ/",
+    "d": "To say something that is not completely true, without telling a full lie."
+   },
+   {
+    "s": 1,
+    "e": "poker face",
+    "v": "mặt lạnh, mặt không để lộ cảm xúc",
+    "x": "Keep a poker face when you play cards.",
+    "d": "A face that shows no emotion, so others can't guess what you are thinking.",
+    "ip": "/ˈpəʊkə feɪs/"
+   },
+   {
+    "s": 1,
+    "e": "the ugly truth",
+    "v": "sự thật phũ phàng",
+    "x": "The ugly truth is that we spent more money than we earned.",
+    "ip": "/ði ˈʌɡli tɹuːθ/",
+    "d": "A fact that is unpleasant but true."
+   },
+   {
+    "e": "trust",
+    "v": "tin tưởng; lòng tin",
+    "x": "It takes years to build trust and seconds to break it.",
+    "ip": "/trʊst/",
+    "d": "Confidence in or reliance on some person or quality."
+   },
+   {
+    "e": "spread lies",
+    "v": "đặt điều, tung tin sai",
+    "x": "Someone spread lies about her on social media.",
+    "ip": "/spɹɛd laɪz/",
+    "d": "To tell untrue stories about someone to many people."
+   },
+   {
+    "e": "cheat on someone",
+    "v": "ngoại tình, phản bội người yêu",
+    "x": "If my partner cheated on me, I'd need time to think.",
+    "ip": "/tʃiːt ɒn ˈsʌmwʌn/",
+    "d": "To secretly have a romantic relationship with another person while you are with someone."
+   },
+   {
+    "e": "break up",
+    "v": "chia tay",
+    "x": "They broke up after five years together.",
+    "ip": "/bɹeɪk ap/",
+    "d": "To end a romantic relationship."
+   },
+   {
+    "e": "give someone another chance",
+    "v": "cho ai thêm một cơ hội",
+    "x": "Everyone makes mistakes, so I gave him another chance.",
+    "ip": "/ɡɪv ˈsʌmwʌn æˈnʌð.ə(ɹ) tʃʰans/",
+    "d": "To forgive someone and let them try again."
+   }
+  ],
+  "extra": [
+   {
+    "title": "🃏 TRUTH OR LIE? — viết 2 câu về bản thân (1 thật, 1 dối)",
+    "pills": [
+     "Đọc to với một good poker face!",
+     "Cả lớp đoán câu nào là dối"
+    ],
+    "rows": [
+     {
+      "e": "Mẫu 1",
+      "v": "Câu nào là dối?",
+      "a": "1. I have been to Japan three times. 2. I once sang karaoke for eight hours without stopping."
+     },
+     {
+      "e": "Mẫu 2",
+      "v": "Câu nào là dối?",
+      "a": "1. I can't swim. 2. I have never eaten durian."
+     },
+     {
+      "e": "Mẫu 3",
+      "v": "Câu nào là dối?",
+      "a": "1. I broke my arm when I was ten. 2. I met a famous singer at the airport last year."
+     },
+     {
+      "e": "Hỏi thêm để “bắt bài”",
+      "v": "Hỏi chi tiết — người nói dối hay lúng túng",
+      "a": "Really? When was that? / Who were you with? / What did you eat there?"
+     },
+     {
+      "e": "Đoán",
+      "v": "Đưa ra phán đoán + lý do",
+      "a": "I think the first one is a lie, because you smiled when you said it. / You've got a good poker face, but I don't believe the second one."
+     },
+     {
+      "e": "Công bố đáp án",
+      "v": "Thừa nhận / phủ nhận",
+      "a": "You got me! The second one was a lie. / Nope — that one's actually true!"
+     }
+    ]
+   },
+   {
+    "title": "📏 Mức độ nói dối: nhẹ → nặng",
+    "rows": [
+     {
+      "e": "bend the truth",
+      "v": "nói giảm/thêm thắt một chút",
+      "a": "I'm almost there! (thật ra vẫn đang ở nhà)"
+     },
+     {
+      "e": "tell a white lie",
+      "v": "nói dối vô hại để giữ lòng người khác",
+      "a": "I love the present, thank you!"
+     },
+     {
+      "e": "tell a lie / lie to someone",
+      "v": "nói dối thật sự",
+      "a": "He lied to his boss — he said he was sick, but he went to the beach."
+     },
+     {
+      "e": "a big fat lie",
+      "v": "(thân mật) lời nói dối trắng trợn",
+      "a": "“I've never touched your snacks.” — That's a big fat lie!"
+     },
+     {
+      "e": "spread lies about someone",
+      "v": "đặt điều về người khác — nặng nhất",
+      "a": "Someone spread lies about her, and she almost lost her job."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. How often do you lie? Who do you lie to?",
+    "a": "Honestly, not very often — mostly small white lies. I sometimes tell my mum I've eaten when I haven't, so she doesn't worry, or I tell a friend “I'm on my way” when I'm still getting ready."
+   },
+   {
+    "q": "2. Have you ever lied to your parents? Did you get caught or get away with it?",
+    "a": "Of course! In high school I said I was studying at a friend's house, but we actually went to the cinema. I got away with it for a while, but then my mum met my friend's mum at the market, and I got caught."
+   },
+   {
+    "q": "3. Have you ever lied to the police? What happened?",
+    "a": "No, never. If you get caught, the problem becomes much bigger. Once a police officer stopped me because my helmet wasn't fastened, and I just apologised and paid the fine."
+   },
+   {
+    "q": "4. Have you ever cheated on an exam? What happened?",
+    "a": "Once, in primary school, I wrote a few formulas on my hand. I was so nervous that I couldn't even read them, and I was sure the teacher saw me. I never cheated again — it wasn't worth the stress."
+   },
+   {
+    "q": "5. Are you more skeptical or gullible?",
+    "a": "I'm more skeptical now. When I was younger I was quite gullible and believed every ad online. Now if something sounds too good to be true, I check it first."
+   },
+   {
+    "q": "6. Who is the most trustworthy person you know?",
+    "a": "My older sister. She keeps every secret, she always keeps her promises, and she tells me the truth even when it's hard to hear."
+   },
+   {
+    "q": "7. What kind of people do you NOT trust?",
+    "a": "People who say one thing and do another, and people who gossip about everyone — because they'll gossip about you too. I'm also careful with salespeople who promise everything."
+   },
+   {
+    "q": "8. When is a white lie acceptable? Can you think of a white lie that you have told?",
+    "a": "When it protects someone's feelings and doesn't hurt anyone. For example, a friend cooked dinner for me and it was too salty, but I said “It's delicious!” because she had worked so hard on it."
+   },
+   {
+    "q": "9. Do you think it is more important to be friendly or to tell the truth?",
+    "a": "To tell the truth — but in a friendly way. If you're always “nice” but never honest, people can't trust your opinion. The trick is to be honest and kind at the same time."
+   },
+   {
+    "q": "10. Who lies more, men or women?",
+    "a": "I don't think it depends on gender; it depends on the person. Maybe people lie about different things, but saying one gender lies more is just a stereotype."
+   },
+   {
+    "q": "11. Has someone ever spread lies about you? Have you ever spread lies about someone?",
+    "a": "Yes, once at university someone told our class that I had copied my friend's assignment. It wasn't true, and I felt terrible. I showed the teacher my notes, and the truth came out. Since then I'm very careful never to spread rumours about anyone."
+   },
+   {
+    "q": "12. If your partner cheated on you, would you give him/her another chance or break up immediately?",
+    "a": "I think I would break up. Trust is the foundation of a relationship, and once it's broken, it's very hard to fix. If it was a one-time mistake and they were truly sorry, I might think about it — but I'd probably still leave."
+   },
+   {
+    "q": "13. What is the ugly truth about Saigon?",
+    "a": "The ugly truth is the traffic and the flooding. Saigon is exciting and the food is amazing, but in rush hour you can spend an hour going five kilometres, and after heavy rain some streets turn into rivers."
+   },
+   {
+    "q": "14. Are you a good liar? Do you often get away with your lies?",
+    "a": "No, I'm a terrible liar! I start laughing or my face turns red, so people catch me straight away. That's probably a good thing — it keeps me honest."
+   },
+   {
+    "q": "15. Do you have a good poker face?",
+    "a": "Not really. My friends say they can read my face like a book — when I'm bored or surprised, everyone can see it. I'm trying to practise, especially for meetings at work."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "Where were you? The meeting started twenty minutes ago.",
+    "v": "Bạn đi đâu vậy? Họp bắt đầu hai mươi phút rồi."
+   },
+   {
+    "p": "B",
+    "e": "Sorry! There was a terrible traffic jam on Dien Bien Phu.",
+    "v": "Xin lỗi! Đường Điện Biên Phủ kẹt kinh khủng."
+   },
+   {
+    "p": "A",
+    "e": "Really? Linh came the same way and said the roads were empty.",
+    "v": "Thật không? Linh đi cùng đường mà bảo đường vắng tanh."
+   },
+   {
+    "p": "B",
+    "e": "Well… maybe I'm bending the truth a little. I overslept.",
+    "v": "À thì… chắc mình hơi thêm thắt. Mình ngủ quên."
+   },
+   {
+    "p": "A",
+    "e": "I knew it! You don't have a very good poker face.",
+    "v": "Biết ngay mà! Mặt bạn giấu không nổi đâu."
+   },
+   {
+    "p": "B",
+    "e": "Please don't tell the boss.",
+    "v": "Đừng nói với sếp nha."
+   },
+   {
+    "p": "A",
+    "e": "Don't worry, I won't. But next time just tell the truth.",
+    "v": "Yên tâm, mình không nói đâu. Nhưng lần sau cứ nói thật đi."
+   },
+   {
+    "p": "B",
+    "e": "You're right. If I keep lying, I'll get caught sooner or later.",
+    "v": "Bạn nói đúng. Cứ nói dối hoài thì sớm muộn cũng bị lộ."
+   },
+   {
+    "p": "A",
+    "e": "Exactly. A white lie is one thing, but lying to your boss is another.",
+    "v": "Chính xác. Nói dối vô hại là một chuyện, nói dối sếp là chuyện khác."
+   },
+   {
+    "p": "B",
+    "e": "OK — the ugly truth from now on. I overslept, and I'll buy everyone coffee.",
+    "v": "Ok — từ giờ nói sự thật phũ phàng luôn. Mình ngủ quên, và mình bao cà phê cả nhóm."
+   },
+   {
+    "p": "A",
+    "e": "Now that's someone I can trust!",
+    "v": "Vậy mới là người đáng tin chứ!"
+   }
+  ],
+  "tips": [
+   "lie (nói dối) – lied – lied – lying ≠ lie (nằm) – lay – lain. Nói dối AI: lie TO someone · nói dối VỀ: lie ABOUT something.",
+   "cheat ON an exam (gian lận khi thi) — cheat ON someone (ngoại tình). Cùng giới từ “on”, nghĩa phụ thuộc vào tân ngữ phía sau.",
+   "skeptical (Mỹ) = sceptical (Anh). Danh từ: a skeptic. “gullible” không viết “gullable”.",
+   "get caught (bị phát hiện) ≠ get away with it (thoát được): Did you get caught or get away with it?",
+   "“Bullshit” là từ thô. Lịch sự hơn: That's not true. / I don't believe you. / Come on, you're kidding!"
+  ],
+  "shadow": {
+   "en": "I think I'm a fairly honest person, but I'm not perfect. Like most people, I tell small white lies. When a friend cooks for me and the food is too salty, I still say it's delicious. When I'm late, I sometimes bend the truth and say I'm almost there. But I'm a terrible liar — I don't have a poker face, so I usually get caught. When I was a teenager, I told my parents I was studying at a friend's house, and I got away with it for exactly one week. These days I'm more skeptical than gullible. If a stranger online promises easy money, I know it's probably bullshit. The people I trust most are the ones who tell me the ugly truth, even when it hurts. A trustworthy friend is worth more than a hundred nice ones. That's why I believe a little white lie can be kind, but a big lie can destroy trust in a second — and trust takes years to build.",
+   "vi": "Mình nghĩ mình là người khá thật thà, nhưng không hoàn hảo. Như đa số mọi người, mình cũng nói dối vô hại. Khi bạn nấu cho mình ăn mà món hơi mặn, mình vẫn khen ngon. Khi đến trễ, đôi lúc mình thêm thắt một chút, bảo là sắp tới rồi. Nhưng mình nói dối rất dở — mặt mình không giấu được gì, nên thường bị lộ. Hồi tuổi teen, mình nói với ba mẹ là đi học nhóm ở nhà bạn, và thoát được đúng một tuần. Giờ mình hoài nghi nhiều hơn là cả tin. Nếu người lạ trên mạng hứa hẹn tiền dễ kiếm, mình biết chắc là xạo. Người mình tin nhất là người dám nói với mình sự thật phũ phàng, kể cả khi nó đau. Một người bạn đáng tin cậy quý hơn trăm người bạn chỉ biết nói lời dễ nghe. Vì vậy mình tin rằng một lời nói dối nhỏ có thể là sự tử tế, nhưng một lời nói dối lớn có thể phá hủy lòng tin trong một giây — mà lòng tin thì phải mất nhiều năm mới xây được."
+  }
+ },
+ {
+  "icon": "🔮",
+  "name": "Be Going To — Destiny Detectives / Hỏi & nói về dự định (be going to + Wh-)",
+  "intro": "Phiếu Teach-This “DESTINY DETECTIVES” (Be going to – Wh-questions): bàn cờ 32 ô từ Start đến Finish. Đến ô nào thì bạn cùng chơi đặt câu hỏi Wh- với “be going to” cho ô đó; bạn trả lời bằng dự định THẬT + 1 chi tiết. Phần câu hỏi bên dưới có đủ 32 ô theo đúng thứ tự trên bàn cờ, mỗi ô kèm câu hỏi và câu trả lời mẫu.",
+  "vocab": [
+   {
+    "s": 1,
+    "e": "be going to",
+    "v": "sẽ (dự định đã quyết từ trước)",
+    "x": "I'm going to visit my grandparents this weekend.",
+    "d": "Used to talk about plans you have already decided, or things you can see will happen.",
+    "ip": "/ˈɡoʊɪŋ tu/"
+   },
+   {
+    "e": "destiny",
+    "v": "số phận, định mệnh",
+    "x": "Some people believe destiny decides who we marry.",
+    "ip": "/ˈdɛstɪni/",
+    "d": "The things that will happen to you in the future, which some people believe are already decided."
+   },
+   {
+    "e": "detective",
+    "v": "thám tử",
+    "x": "A good detective asks lots of questions.",
+    "ip": "/dɪˈtɛktɪv/",
+    "d": "A person whose job is to find out the truth by asking questions and looking for clues."
+   },
+   {
+    "s": 1,
+    "e": "plan",
+    "v": "kế hoạch; lên kế hoạch",
+    "x": "What are your plans for next weekend?",
+    "ip": "/plæn/",
+    "d": "Something you have decided to do in the future; (verb) to decide what you are going to do."
+   },
+   {
+    "e": "soon",
+    "v": "sắp, chẳng bao lâu nữa",
+    "x": "I'm going to visit Da Lat soon.",
+    "ip": "/suːn/",
+    "d": "In a short time from now."
+   },
+   {
+    "e": "download",
+    "v": "tải về",
+    "x": "I'm going to download a new language app.",
+    "ip": "/ˈdaʊnˌləʊd/",
+    "d": "To copy a file or an app from the internet onto your phone or computer."
+   },
+   {
+    "s": 1,
+    "e": "save money",
+    "v": "tiết kiệm tiền",
+    "x": "I'm going to save money to buy a new laptop.",
+    "ip": "/seɪv ˈmʌni/",
+    "d": "To keep money instead of spending it, often to buy something later."
+   },
+   {
+    "s": 1,
+    "e": "go on holiday",
+    "v": "đi nghỉ, đi du lịch",
+    "x": "Where are you going to go on holiday this year?",
+    "ip": "/ɡəʉ ɒn ˈhɒlɪdeɪ/",
+    "d": "To travel somewhere for a rest or for fun (American: go on vacation)."
+   },
+   {
+    "e": "chat to someone",
+    "v": "trò chuyện, nhắn tin với ai",
+    "x": "I'm going to chat to my sister on Zalo tonight.",
+    "ip": "/tʃæt tʉː ˈsʌmwʌn/",
+    "d": "To talk or send messages to someone in a friendly, informal way."
+   },
+   {
+    "e": "skill",
+    "v": "kỹ năng",
+    "x": "A new skill I'm going to learn this year is swimming.",
+    "ip": "/skɪl/",
+    "d": "The ability to do something well because you have learned and practised it."
+   },
+   {
+    "e": "practise",
+    "v": "luyện tập (Mỹ viết: practice)",
+    "x": "I'm going to practise speaking English every morning this month.",
+    "ip": "/ˈpɹæktɪs/",
+    "d": "To do something regularly to get better at it (British spelling; American: practice)."
+   },
+   {
+    "e": "TV programme",
+    "v": "chương trình TV (Mỹ: TV program / TV show)",
+    "x": "What TV programme are you going to watch tonight?",
+    "d": "A show on television (American: TV program / TV show).",
+    "ip": "/ˈtiˈvi ˈpɹoʊˌɡɹæm/"
+   }
+  ],
+  "extra": [
+   {
+    "title": "📐 Ngữ pháp: BE GOING TO + câu hỏi Wh-",
+    "pills": [
+     "(+) S + am/is/are + going to + V",
+     "(?) Wh- + am/is/are + S + going to + V?"
+    ],
+    "rows": [
+     {
+      "e": "(+) I'm going to meet my friend today.",
+      "v": "Khẳng định — dự định đã quyết từ trước",
+      "a": "She's going to start a yoga class this year."
+     },
+     {
+      "e": "(−) I'm not going to buy anything today.",
+      "v": "Phủ định: am/is/are + NOT + going to",
+      "a": "We aren't going to eat out this week — we're saving money."
+     },
+     {
+      "e": "(?) Who are you going to meet today?",
+      "v": "Câu hỏi Wh-: Wh- + am/is/are + S + going to + V?",
+      "a": "Where are you going to go after class? — I'm going to go to the gym."
+     },
+     {
+      "e": "Chọn từ để hỏi theo ô",
+      "v": "Who (ai) · What (cái gì) · Which (cái nào) · Where (ở đâu) · What time (mấy giờ) · How (bằng cách nào)",
+      "a": "a friend → Which friend…? · a place → Where…? · the time → What time…? · how you go home → How…?"
+     },
+     {
+      "e": "go home / go to a shop",
+      "v": "go home, go there (KHÔNG có “to”) · go TO the gym / TO a shop",
+      "a": "Which shop are you going to go to this week? / How are you going to go home after class?"
+     },
+     {
+      "e": "Nói nhanh: going to → gonna",
+      "v": "Chỉ dùng khi NÓI thân mật, không viết trang trọng",
+      "a": "I'm gonna watch a movie tonight."
+     },
+     {
+      "e": "going to vs will",
+      "v": "going to = kế hoạch có sẵn · will = quyết định ngay lúc nói / lời hứa",
+      "a": "I'm going to see a movie tonight — I've bought the tickets. / The phone's ringing — I'll get it!"
+     }
+    ]
+   },
+   {
+    "title": "🎲 Cách chơi gợi ý",
+    "rows": [
+     {
+      "e": "1. Đi từ Start",
+      "v": "Tung xúc xắc/đồng xu để đi; đến ô nào thì người bên cạnh hỏi câu Wh- + going to cho ô đó",
+      "a": "(ô “a place you're going to visit soon”) — Where are you going to visit soon?"
+     },
+     {
+      "e": "2. Trả lời: dự định THẬT + 1 chi tiết",
+      "v": "Đừng chỉ nói 1 từ",
+      "a": "I'm going to visit Vung Tau next month, because my cousin is getting married there."
+     },
+     {
+      "e": "3. “Thám tử” hỏi thêm 1 câu",
+      "v": "Detective = hỏi đến cùng: Why? Who with? How long?",
+      "a": "Who are you going to go with? / How long are you going to stay?"
+     },
+     {
+      "e": "Trả lời ngắn Yes/No",
+      "v": "Are you going to…? → Yes, I am. / No, I'm not.",
+      "a": "Are you going to cook tonight? — No, I'm not. I'm going to order food."
+     }
+    ]
+   }
+  ],
+  "qa": [
+   {
+    "q": "1. someone you're going to meet today → Who are you going to meet today?",
+    "a": "I'm going to meet my colleague Lan for lunch. We're going to talk about a new project."
+   },
+   {
+    "q": "2. a place you're going to visit soon → Where are you going to visit soon?",
+    "a": "I'm going to visit Da Lat next month. I want to enjoy the cool weather and drink some hot coffee."
+   },
+   {
+    "q": "3. something you're going to eat today → What are you going to eat today?",
+    "a": "I'm going to have broken rice for lunch and maybe a bowl of pho tonight."
+   },
+   {
+    "q": "4. a friend you're going to meet this week → Which friend are you going to meet this week?",
+    "a": "I'm going to meet my old school friend on Saturday. We haven't seen each other for months."
+   },
+   {
+    "q": "5. something you're going to give someone soon → What are you going to give someone soon?",
+    "a": "I'm going to give my mum a silk scarf for her birthday next week."
+   },
+   {
+    "q": "6. a shop you're going to this week → Which shop are you going to go to this week?",
+    "a": "I'm going to go to the supermarket near my house to buy groceries for the weekend."
+   },
+   {
+    "q": "7. something you're going to write tomorrow → What are you going to write tomorrow?",
+    "a": "I'm going to write a report for my manager, and a short diary entry in English before bed."
+   },
+   {
+    "q": "8. a new skill you're going to learn this year → What new skill are you going to learn this year?",
+    "a": "I'm going to learn to swim properly. Right now I can only float!"
+   },
+   {
+    "q": "9. someone you're going to chat to on your phone today → Who are you going to chat to on your phone today?",
+    "a": "I'm going to chat to my sister on Zalo. She lives in Hanoi, so we text every day."
+   },
+   {
+    "q": "10. a restaurant you're going to go to this week → Which restaurant are you going to go to this week?",
+    "a": "I'm going to go to a small Japanese restaurant near my office. Their ramen is amazing."
+   },
+   {
+    "q": "11. something you're going to drink today → What are you going to drink today?",
+    "a": "I'm going to drink an iced milk coffee this morning and lots of water this afternoon."
+   },
+   {
+    "q": "12. a song you're going to play soon → What song are you going to play soon?",
+    "a": "I'm going to play some old Trinh Cong Son songs on the way home. They always relax me."
+   },
+   {
+    "q": "13. something you're going to start doing this year → What are you going to start doing this year?",
+    "a": "I'm going to start running three times a week. I've already bought new shoes."
+   },
+   {
+    "q": "14. the time you're going to wake up tomorrow → What time are you going to wake up tomorrow?",
+    "a": "I'm going to wake up at six o'clock, because I have an early meeting."
+   },
+   {
+    "q": "15. something you're going to buy today → What are you going to buy today?",
+    "a": "I'm going to buy some fruit and a birthday card for my friend."
+   },
+   {
+    "q": "16. a place you are going to go after class → Where are you going to go after class?",
+    "a": "I'm going to go straight home. I'm exhausted, so I'm going to crash!"
+   },
+   {
+    "q": "17. something you're going to study next week → What are you going to study next week?",
+    "a": "I'm going to study phrasal verbs and review the idioms from this lesson."
+   },
+   {
+    "q": "18. a sport you're going to play this month → What sport are you going to play this month?",
+    "a": "I'm going to play badminton with my colleagues every Thursday evening."
+   },
+   {
+    "q": "19. something you're going to wear tomorrow → What are you going to wear tomorrow?",
+    "a": "I'm going to wear a white shirt and black trousers, because I have a meeting with a client."
+   },
+   {
+    "q": "20. the place you're going to on holiday this year → Where are you going to go on holiday this year?",
+    "a": "I'm going to go to Phu Quoc with my family in December. We're going to stay near the beach."
+   },
+   {
+    "q": "21. something you're going to practice this month → What are you going to practise this month?",
+    "a": "I'm going to practise speaking with confidence — I'm going to record myself every evening."
+   },
+   {
+    "q": "22. a TV programme you're going to watch → What TV programme are you going to watch?",
+    "a": "I'm going to watch a cooking show tonight. I want to get some ideas for the weekend."
+   },
+   {
+    "q": "23. something you're going to read today → What are you going to read today?",
+    "a": "I'm going to read the news on my phone and a few pages of an English novel."
+   },
+   {
+    "q": "24. how you're going to go home after class → How are you going to go home after class?",
+    "a": "I'm going to ride my motorbike. If it rains, I'm going to take a Grab."
+   },
+   {
+    "q": "25. something you're going to save money to buy → What are you going to save money to buy?",
+    "a": "I'm going to save money to buy a new laptop. Mine is really slow now."
+   },
+   {
+    "q": "26. a game you're going to play this week → What game are you going to play this week?",
+    "a": "I'm going to play board games with my nephews on Sunday."
+   },
+   {
+    "q": "27. something you're going to do next weekend → What are you going to do next weekend?",
+    "a": "I'm going to visit my parents and help them clean the house."
+   },
+   {
+    "q": "28. a family member you're going to speak to soon → Which family member are you going to speak to soon?",
+    "a": "I'm going to call my grandma tonight. She always asks when I'm going to visit her!"
+   },
+   {
+    "q": "29. something you're going to make this week → What are you going to make this week?",
+    "a": "I'm going to make a chocolate cake for my colleague's birthday."
+   },
+   {
+    "q": "30. an app you're going to download on your phone → What app are you going to download on your phone?",
+    "a": "I'm going to download a podcast app so I can practise listening on the way to work."
+   },
+   {
+    "q": "31. something you're going to do in the future → What are you going to do in the future?",
+    "a": "In the future, I'm going to work abroad for a few years and use my English every day."
+   },
+   {
+    "q": "32. a movie you're going to watch soon → What movie are you going to watch soon?",
+    "a": "I'm going to watch a new animated movie at the cinema this weekend with my niece."
+   }
+  ],
+  "convo": [
+   {
+    "p": "A",
+    "e": "So, what are you going to do this weekend?",
+    "v": "Cuối tuần này bạn định làm gì?"
+   },
+   {
+    "p": "B",
+    "e": "I'm going to visit my parents on Saturday.",
+    "v": "Thứ bảy mình về thăm ba mẹ."
+   },
+   {
+    "p": "A",
+    "e": "Nice. How are you going to get there?",
+    "v": "Hay đó. Bạn định đi bằng gì?"
+   },
+   {
+    "p": "B",
+    "e": "I'm going to take the bus. It's only two hours.",
+    "v": "Mình đi xe buýt. Có hai tiếng thôi."
+   },
+   {
+    "p": "A",
+    "e": "And what are you going to do on Sunday?",
+    "v": "Còn chủ nhật thì sao?"
+   },
+   {
+    "p": "B",
+    "e": "I'm not going to do anything! I'm going to stay home and rest.",
+    "v": "Không làm gì hết! Ở nhà nghỉ ngơi."
+   },
+   {
+    "p": "A",
+    "e": "Are you going to come to the English club in the evening?",
+    "v": "Tối đó bạn có đến câu lạc bộ tiếng Anh không?"
+   },
+   {
+    "p": "B",
+    "e": "Yes, I am. What time is it going to start?",
+    "v": "Có chứ. Mấy giờ bắt đầu vậy?"
+   },
+   {
+    "p": "A",
+    "e": "Seven. I'm going to save you a seat.",
+    "v": "Bảy giờ. Mình giữ chỗ cho bạn nha."
+   }
+  ],
+  "tips": [
+   "Câu hỏi phải đảo am/is/are lên trước chủ ngữ: Where ARE you going to go? (❌ Where you are going to go?).",
+   "going to + V NGUYÊN MẪU: I'm going to buy… (❌ going to buying / going to bought).",
+   "go home / go there / go shopping — không thêm “to”. Nhưng go TO the gym / TO a shop / TO the cinema.",
+   "Ô “the place you're going to on holiday” — khi hỏi nói đủ: Where are you going to GO on holiday? (go on holiday = đi nghỉ).",
+   "Trả lời ngắn: Yes, I am. / No, I'm not. (❌ Yes, I'm.)",
+   "practise (động từ, Anh-Anh) / practice (Mỹ, dùng cho cả danh từ lẫn động từ) — phiếu dùng kiểu Mỹ."
+  ],
+  "shadow": {
+   "en": "Let me play detective with my own future. What am I going to do today? I'm going to meet a colleague for lunch, and I'm going to drink far too much iced coffee. After class I'm not going to go out — I'm going to go straight home. Tomorrow I'm going to wake up at six, because I have an early meeting, and I'm going to wear my white shirt. This week I'm going to see an old friend, and we're going to try a new Japanese restaurant near my office. This month I'm going to play badminton every Thursday, and I'm going to practise speaking English every evening. This year I'm going to start running, learn to swim properly, and save money to buy a new laptop. In December, my family and I are going to go to Phu Quoc. And in the future? I'm going to work abroad for a few years. That's my plan. Now it's your turn: what are you going to do?",
+   "vi": "Để mình làm thám tử cho tương lai của chính mình. Hôm nay mình sẽ làm gì? Mình sẽ đi ăn trưa với một đồng nghiệp, và sẽ uống quá nhiều cà phê sữa đá. Tan học mình sẽ không đi chơi — mình về thẳng nhà. Mai mình sẽ dậy lúc sáu giờ vì có cuộc họp sớm, và sẽ mặc chiếc áo sơ mi trắng. Tuần này mình sẽ gặp một người bạn cũ, và tụi mình sẽ thử một quán Nhật mới gần công ty. Tháng này mình sẽ chơi cầu lông mỗi tối thứ năm, và sẽ luyện nói tiếng Anh mỗi tối. Năm nay mình sẽ bắt đầu chạy bộ, học bơi cho đàng hoàng, và tiết kiệm tiền mua laptop mới. Tháng mười hai, cả nhà mình sẽ đi Phú Quốc. Còn tương lai xa hơn? Mình sẽ ra nước ngoài làm việc vài năm. Kế hoạch của mình là vậy. Giờ tới lượt bạn: bạn định làm gì?"
   }
  }
 ];
